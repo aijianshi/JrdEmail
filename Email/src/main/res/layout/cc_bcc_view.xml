@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2011 Google Inc.
+     Licensed to The Android Open Source Project.
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<!-- HISTORY: CONFLICT-50001 2014/10/23   zhaotianyong      Modify the package conflict -->
+<!--
+/**
+*===================================================================================================================
+*HISTORY
+*
+*Tag            Date         Author          Description
+*============== ============ =============== =======================================================================
+*BUGFIX-849786  2014/12/10   wenggangjin     [Android5.0][Email][UE] No dividing line between To and Cc
+*BUGFIX-862341  2014/12/11   zhaotianyong    [Android5.0][Email] No Contacts entrance when creating a new mail
+*BUGFIX-930686  2015/03/03   ke.ma           [5.0][Email] email composer add-recepient icon not correct
+====================================================================================================================
+*/
+ -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+        <!-- //TS: wenggangjin 2014-12-10 EMAIL BUGFIX_849786 MOD_S -->
+    <View style="@style/RecipientComposeFieldSpacer" />
+    <!-- //TS: wenggangjin 2014-12-10 EMAIL BUGFIX_849786 MOD_E -->
+      <LinearLayout
+        android:id="@+id/cc_content"
+        android:alpha="0"
+        android:visibility="gone"
+        style="@style/RecipientComposeFieldLayout">
+
+          <!--TS: zhaotianyong 2014-12-11 EMAIL BUGFIX_862341 MOD_S-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="0dp"
+            style="@style/ComposeFieldContent">
+            <!--TS: zhaotianyong 2014-12-11 EMAIL BUGFIX_862341 MOD_E-->
+
+            <TextView
+                android:id="@+id/cc_label"
+                android:contentDescription="@string/cc"
+                android:text="@string/cc"
+                style="@style/ComposeHeading" />
+             <!--TS: MOD by wenggangjin for CONFLICT_50017 START -->
+                <com.tct.fw.ex.chips.RecipientEditTextView
+                    android:id="@+id/cc"
+                    android:contentDescription="@string/cc"
+                    android:dropDownAnchor="@id/cc_content"
+                    style="@style/ToRecipientEditTextViewStyle" /><!--TS: zhaotianyong 2014-12-11 EMAIL BUGFIX_862341 MOD-->
+<!--TS: MOD by wenggangjin for CONFLICT_50017 END -->
+              <!--[FEATURE]-Add-BEGIN by TSCD.chao zhang,04/21/2014,FR 631895(porting from FR487417)-->
+            <!-- TS: ke.ma 2015-03-03 EMAIL BUGFIX-930686 MOD_S -->
+            <ImageButton
+                android:id="@+id/cc_recipients_picker"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginRight="14dp"
+                android:background="#ffffff"
+                android:layout_gravity="center"
+                android:layout_marginLeft="2dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_add_person" />
+            <!-- TS: ke.ma 2015-03-03 EMAIL BUGFIX-930686 MOD_E -->
+
+            <ImageView
+                android:id="@+id/cc_img"
+                android:contentDescription="@string/add_cc_label"
+                style="@style/ComposeImageView" />
+        <!--[FEATURE]-Add-END by TSCD.chao zhang-->
+        </LinearLayout>
+
+        <View style="@style/RecipientComposeFieldSpacer" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/bcc_content"
+        android:alpha="0"
+        android:visibility="gone"
+        style="@style/RecipientComposeFieldLayout">
+
+        <!--TS: zhaotianyong 2014-12-11 EMAIL BUGFIX_862341 MOD_S-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="0dp"
+            style="@style/ComposeFieldContent">
+        <!--TS: zhaotianyong 2014-12-11 EMAIL BUGFIX_862341 MOD_E-->
+
+            <TextView
+                android:id="@+id/bcc_label"
+                android:contentDescription="@string/bcc"
+                android:text="@string/bcc"
+                style="@style/ComposeHeading" />
+<!--TS: MOD by wenggangjin for CONFLICT_50017 START -->
+            <com.tct.fw.ex.chips.RecipientEditTextView
+                android:id="@+id/bcc"
+                android:contentDescription="@string/bcc"
+                android:dropDownAnchor="@id/bcc_content"
+                style="@style/ToRecipientEditTextViewStyle" /><!--TS: zhaotianyong 2014-12-11 EMAIL BUGFIX_862341 MOD-->
+<!--TS: MOD by wenggangjin for CONFLICT_50017 END -->
+        <!--[FEATURE]-Add-BEGIN by TSCD.chao zhang,04/21/2014,FR 631895(porting from FR487417)-->
+            <!-- TS: ke.ma 2015-03-03 EMAIL BUGFIX-930686 MOD_S -->
+            <ImageButton
+                android:id="@+id/bcc_recipients_picker"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginRight="14dp"
+                android:background="#ffffff"
+                android:layout_gravity="center"
+                android:layout_marginLeft="2dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/ic_add_person"/>
+            <!-- TS: ke.ma 2015-03-03 EMAIL BUGFIX-930686 MOD_E -->
+
+            <ImageView
+                android:id="@+id/bcc_img"
+                android:contentDescription="@string/add_cc_label"
+                style="@style/ComposeImageView" />
+        <!--[FEATURE]-Add-END by TSCD.chao zhang-->
+        </LinearLayout>
+        <View style="@style/RecipientComposeFieldSpacer" />
+
+    </LinearLayout>
+</LinearLayout>
+

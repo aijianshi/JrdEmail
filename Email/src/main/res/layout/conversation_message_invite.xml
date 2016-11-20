@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2012 Google Inc.
+     Licensed to The Android Open Source Project.
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<!--
+/*
+ =================================================================================
+ *HISTORY
+ *
+ *Tag            Date          Author          Description
+ *============== ============ =============== ====================================
+ *BUGFIX-873207  2014/12/30   xiaolin.li    [Android 5.0][Exchange][UI]The word “Going” in meeting invitation is not complete
+ *BUGFIX-922581  2015/02/13   jian.xu       [Android5.0][UI][Exchange]The "Calendr invite" in meeting invitation can't show completely in huge and medium font
+ *BUGFIX-537843  2015/09/01   junwei-xu     Message invite ui update
+ =================================================================================
+ */
+ -->
+<com.tct.mail.browse.MessageInviteView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:orientation="vertical"
+            android:background="@drawable/attachment_bg_holo">
+
+        <!-- invate title -->
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:background="#9a9cff"
+                android:paddingLeft="16dp"
+                android:paddingTop="24dp"
+                android:paddingBottom="24dp"
+                android:orientation="vertical">
+            <TextView
+                    android:id="@+id/invite_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="4dp"
+                    android:textSize="16sp"
+                    android:textColor="#FFFFFF"
+                    android:singleLine="true"
+                    android:text="@null" />
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:textColor="#EEFFFFFF"
+                    android:text="@string/message_invite_available" />
+
+        </LinearLayout>
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#22000000"/>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:orientation="vertical">
+
+            <!-- invite time -->
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="16dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/message_invite_datetime"/>
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="8dp"
+                        android:orientation="vertical">
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="14sp"
+                            android:textColor="#99000000"
+                            android:paddingBottom="2dp"
+                            android:text="@string/message_invite_datetime" />
+                    <TextView
+                            android:id="@+id/invite_datetime"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="14sp"
+                            android:textColor="#EE000000"
+                            android:text="@null" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- invite location -->
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="16dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/message_invite_location"/>
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="8dp"
+                        android:orientation="vertical">
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingBottom="2dp"
+                            android:textSize="14sp"
+                            android:textColor="#99000000"
+                            android:text="@string/message_invite_location" />
+                    <TextView
+                            android:id="@+id/invite_location"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="14sp"
+                            android:textColor="#EE000000"
+                            android:text="@null" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- invite actions -->
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+            <Button
+                    android:text="@string/message_invite_label_attending"
+                    android:textSize="12sp"
+                    android:textColor="#F57C00"
+                    android:clickable="false"
+                    style="@style/MessageInviteLabelStyle" />
+
+            <View
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"/>
+
+            <Button
+                    android:id="@+id/accept"
+                    android:textSize="12sp"
+                    android:textColor="#009688"
+                    android:text="@string/message_invite_accept"
+                    style="@style/MessageAttachmentButtonStyle" />
+
+            <Button
+                    android:id="@+id/tentative"
+                    android:textSize="12sp"
+                    android:textColor="#99000000"
+                    android:text="@string/message_invite_tentative"
+                    style="@style/MessageAttachmentButtonStyle" />
+
+            <Button
+                    android:id="@+id/decline"
+                    android:textSize="12sp"
+                    android:textColor="#99000000"
+                    android:text="@string/message_invite_decline"
+                    style="@style/MessageAttachmentButtonStyle" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- view in calender -->
+    <Button
+            android:id="@+id/invite_calendar_view"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="32dp"
+            android:layout_gravity="end"
+            android:textSize="12sp"
+            android:textColor="#F57C00"
+            android:text="@string/message_invite_in_calendar_view"
+            style="@style/MessageAttachmentButtonStyle" />
+
+</com.tct.mail.browse.MessageInviteView>

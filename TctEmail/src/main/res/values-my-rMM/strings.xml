@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!-- no translation found for app_name -->
+	<skip />
+	<!-- no translation found for photo_view_count -->
+	<skip />
+	<!-- no translation found for retry -->
+	<skip />
+	<!-- no translation found for failed -->
+	<skip />
+	<!-- no translation found for more_string -->
+	<skip />
+	<!---->
+	<string name="copy_email">"အီးမေး(လ်)လိပ်စာ ကူးယူသည်"</string>
+	<!---->
+	<string name="copy_number">"ဖုန်းနံပါတ်ကို ကူးယူသည်"</string>
+	<!---->
+	<string name="action_label">"ျပန္လွည့္ပါ"</string>
+	<!---->
+	<string name="search_hint">"အီးမေး(လ်) ရှာဖွေသည်"</string>
+	<!---->
+	<string name="compose">"ရေးသားသည်"</string>
+	<!-- no translation found for activity_folder_selection -->
+	<skip />
+	<!---->
+	<string name="activity_preferences">"အဆင္အျပင္မ်ား"</string>
+	<!-- no translation found for tap_to_configure -->
+	<skip />
+	<!---->
+	<string name="loading_conversations">"ဖွင့်နေဆဲ\u2026"</string>
+	<!-- no translation found for non_synced_folder_description -->
+	<skip />
+	<!-- no translation found for tap_to_configure_folder_sync -->
+	<skip />
+	<!-- no translation found for def_email_accountGermanSignature -->
+	<skip />
+	<!-- no translation found for send_failed -->
+	<skip />
+	<!-- no translation found for permission_needed -->
+	<skip />
+	<!-- no translation found for permission_needed_label -->
+	<skip />
+	<!-- no translation found for permission_grant_access_label -->
+	<skip />
+	<!-- no translation found for permission_grant_access_descs -->
+	<skip />
+	<!---->
+	<string name="permission_grant_exit">"ထွက်ရန်"</string>
+	<!---->
+	<string name="permission_grant_go_setting">"အဆင္အျပင္မ်ား"</string>
+	<!-- no translation found for permission_needed_to_save_attachment -->
+	<skip />
+	<!-- no translation found for permission_needed_to_add_attachment -->
+	<skip />
+	<!-- no translation found for permission_needed_to_see_calendar -->
+	<skip />
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!-- no translation found for app_name -->
+	<skip />
+	<!-- no translation found for photo_view_count -->
+	<skip />
+	<!---->
+	<string name="retry">"Spróbuj ponownie"</string>
+	<!---->
+	<string name="failed">"Nie można wczytać zdjęcia"</string>
+	<!-- no translation found for more_string -->
+	<skip />
+	<!---->
+	<string name="copy_email">"Kopiuj adresy e-mail"</string>
+	<!---->
+	<string name="copy_number">"Kopiuj numer telefonu"</string>
+	<!---->
+	<string name="action_label">"Powrót"</string>
+	<!---->
+	<string name="search_hint">"Wyszukaj w wiadomościach e-mail"</string>
+	<!---->
+	<string name="compose">"Utwórz"</string>
+	<!---->
+	<string name="activity_folder_selection">"Wybierz folder"</string>
+	<!---->
+	<string name="activity_preferences">"Ustawienia"</string>
+	<!---->
+	<string name="tap_to_configure">"Dotknij, aby skonfigurować."</string>
+	<!---->
+	<string name="loading_conversations">"Trwa wczytywanie..."</string>
+	<!---->
+	<string name="non_synced_folder_description">"Zsynchronizuj ten folder, aby wyświetlić konwersacje."</string>
+	<!---->
+	<string name="tap_to_configure_folder_sync">"Synchronizuj folder"</string>
+	<!-- no translation found for def_email_accountGermanSignature -->
+	<skip />
+	<!---->
+	<string name="send_failed">"Wiadomość nie została wysłana."</string>
+	<!-- no translation found for permission_needed -->
+	<skip />
+	<!---->
+	<string name="permission_needed_label">"Wymagane uprawnienia"</string>
+	<!---->
+	<string name="permission_grant_access_label">"Zezwól na dostęp"</string>
+	<!---->
+	<string name="permission_grant_access_descs">"Zmień uprawnienia w ustawieniach aplikacji. Zezwól aplikacji E-mail na dostęp do kontaktów."</string>
+	<!---->
+	<string name="permission_grant_exit">"Zakończ"</string>
+	<!---->
+	<string name="permission_grant_go_setting">"Ustawienia"</string>
+	<!---->
+	<string name="permission_needed_to_save_attachment">"Aby zapisać załącznik, zezwól aplikacji E-mail na dostęp do pamięci"</string>
+	<!---->
+	<string name="permission_needed_to_add_attachment">"Aby dodać załącznik, zezwól aplikacji E-mail na dostęp do pamięci"</string>
+	<!---->
+	<string name="permission_needed_to_see_calendar">"Aby wyświetlać informacje w kalendarzu, zezwól aplikacji E-mail na dostęp do Kalendarza"</string>
+</resources>

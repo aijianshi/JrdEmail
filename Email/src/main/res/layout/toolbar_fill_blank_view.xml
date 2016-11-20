@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- /*
+==========================================================================
+*HISTORY
+*
+*Tag            Date         Author          Description
+*============== ============ =============== ==============================
+*FEATURE-559891 2015/09/10   tao.gan         [Email] Auto hiding aciont bar in mail content UI
+===========================================================================
+*/ -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toolbar_fill_blank"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"/>

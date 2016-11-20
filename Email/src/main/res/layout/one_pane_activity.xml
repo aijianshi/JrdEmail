@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2014 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<!--
+ ==========================================================================
+ *HISTORY
+ *
+ *Tag            Date         Author          Description
+ *============== ============ =============== ==============================
+ *BUGFIX-898634  2015/01/22   ke.ma           [Android5.0][Email][UI]All the mail folder name should display ‘White’ color
+ 8FEATURE-559891 2015/09/10   tao.gan         [Email] Auto hiding aciont bar in mail content UI
+ ============================================================================
+ -->
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- TS: tao.gan 2015-09-10 EMAIL FEATURE-559891 MOD -->
+    <!-- Mode the LinearLayout to FrameLayout -->
+    <!-- TCT: add an id for local search feature: -->
+    <!-- DrawerLayout current only supports one content view (b/8752191) -->
+    <FrameLayout
+            android:id="@+id/list_content_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/mail_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:theme="@style/ActionBarTextColor"/> <!-- TS: ke.ma 2015-01-22 EMAIL BUGFIX-898634 -->
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <FrameLayout
+                android:id="@+id/content_pane"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <include layout="@layout/conversation_pager" />
+
+            <include layout="@layout/floating_actions" />
+
+        </FrameLayout>
+
+    </FrameLayout>
+
+    <!--A drawer for phones: a pull-out that gives the list of folders. -->
+    <include layout="@layout/drawer_fragment"
+        android:layout_width="@dimen/drawer_width"
+        android:layout_height="match_parent"
+        android:layout_gravity="start" />
+
+</android.support.v4.widget.DrawerLayout>

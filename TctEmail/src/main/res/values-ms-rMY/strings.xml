@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!-- no translation found for app_name -->
+	<skip />
+	<!-- no translation found for photo_view_count -->
+	<skip />
+	<!---->
+	<string name="retry">"Cuba semula"</string>
+	<!---->
+	<string name="failed">"Tidak dapat memuatkan imej"</string>
+	<!-- no translation found for more_string -->
+	<skip />
+	<!---->
+	<string name="copy_email">"Salin alamat e-mel"</string>
+	<!---->
+	<string name="copy_number">"Salin nombor telefon"</string>
+	<!---->
+	<string name="action_label">"Kembali"</string>
+	<!---->
+	<string name="search_hint">"Cari e-mel"</string>
+	<!---->
+	<string name="compose">"Karang"</string>
+	<!---->
+	<string name="activity_folder_selection">"Tukar folder"</string>
+	<!---->
+	<string name="activity_preferences">"Tetapan"</string>
+	<!---->
+	<string name="tap_to_configure">"Sentuh untuk sediakan"</string>
+	<!---->
+	<string name="loading_conversations">"Memuatkan\u2026"</string>
+	<!---->
+	<string name="non_synced_folder_description">"Untuk melihat perbualan, segerakkan folder ini."</string>
+	<!---->
+	<string name="tap_to_configure_folder_sync">"Segerakkan folder"</string>
+	<!-- no translation found for def_email_accountGermanSignature -->
+	<skip />
+	<!---->
+	<string name="send_failed">"Mesej tidak dihantar."</string>
+	<!-- no translation found for permission_needed -->
+	<skip />
+	<!---->
+	<string name="permission_needed_label">"Kebenaran diperlukan"</string>
+	<!---->
+	<string name="permission_grant_access_label">"Berikan akses"</string>
+	<!---->
+	<string name="permission_grant_access_descs">"Ubah kebenaran dalam seting apl peranti anda. Beri E-mel akses kepada Kenalan."</string>
+	<!---->
+	<string name="permission_grant_exit">"Keluar"</string>
+	<!---->
+	<string name="permission_grant_go_setting">"Tetapan"</string>
+	<!---->
+	<string name="permission_needed_to_save_attachment">"Untuk menyimpan lampiran, berikan kebenaran kepada E-mel untuk mengakses storan"</string>
+	<!---->
+	<string name="permission_needed_to_add_attachment">"Untuk menambah lampirkan, berikan kebenaran kepada E-mel untuk mengakses storan"</string>
+	<!---->
+	<string name="permission_needed_to_see_calendar">"Untuk melihat dalam kalendar, berikan kebenaran kepada E-mel untuk mengakses Kalendar"</string>
+</resources>

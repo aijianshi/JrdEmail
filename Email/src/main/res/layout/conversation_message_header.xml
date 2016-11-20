@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2011 Google Inc.
+     Licensed to The Android Open Source Project.
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<!--
+| ============================================================================ |
+|      Modifications on Features list / Changes Request / Problems Report      |
+| **************************************************************************** |
+|    date   |        author        |         Key          |      comment       |
+| **********|**********************|**********************|******************* |
+| 04/22/2014|     Chao Zhang       |      FR 631895       |bcc and auto downl- |
+|           |                      |porting from  FR487417|oad remaining       |
+| **********|**********************|**********************|******************* |
+================================================================================
+-->
+<!--
+/*
+ ==========================================================================
+ *HISTORY
+ *
+ *Tag            Date         Author          Description
+ *============== ============ =============== ==============================
+ *BUGFIX-868599  2014/12/17   zhaotianyong    [Android 5.0][Exchange]The Email content of “Undeliverable mail” overlaps the title
+ *BUGFIX-869494  2014/12/31   zhaotianyong    [Android5.0][Email][UE] Show attachments on top screen.
+ *GD-912050      2015/01/22   ke.ma           [Email] Email_GD_v5.1.0.1 should be implemented.
+ *BUGFIX-931359  2015/03/03   ke.ma           [5.0][Email][GD] attachment area layout is not according to GD
+ *BUGFIX-932165  2015/03/13   zhaotianyong    [5.0][Email] some email body font is too small to recognize
+ *BUGFIX-947841  2015/03/16   gangjin.weng    [5.0][Email] email background color impacted send/to area
+ *BUGFIX-1013206  2015/06/11   Gantao          [Monitor][Email]Work abnormal when download some HTML email
+ *BUGFIX-1001086  2015/06/15   Gantao         [Android5.0][Email] Cannot extend attachments after touch down-arrow icon.
+ *FEATURE-ID     2015/08/27   tao.gan         Horizontal attachment
+ ===========================================================================
+ */
+-->
+<!-- TS: ke.ma 2015-03-03 EMAIL BUGFIX-931359 MOD_S -->
+<com.tct.mail.browse.MessageHeaderView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/list_background_color"
+    android:orientation="vertical"
+    android:visibility="visible" > <!-- TS: zhaotianyong 2015-03-13 EMAIL BUGFIX_932165 MOD -->
+    <!-- TS: ke.ma 2015-03-03 EMAIL BUGFIX-931359 MOD_E -->
+
+    <include
+        android:id="@+id/message_header_border"
+        layout="@layout/conversation_view_border" />
+
+    <include
+        android:id="@+id/upper_header"
+        layout="@layout/conversation_message_upper_header" />
+
+    <LinearLayout
+        android:id="@+id/header_extra_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/message_header_background_color"
+        android:orientation="vertical" />
+
+    <!-- TS: gangjin.weng 2015-03-16 EMAIL BUGFIX_947841 MOD_S -->
+    <!--
+    <LinearLayout
+        android:id="@+id/header_extra_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/message_header_background_color"
+        android:orientation="vertical" />
+    -->
+    <!-- TS: gangjin.weng 2015-03-16 EMAIL BUGFIX_947841 MOD_E -->
+    <!-- [FEATURE]-Add-BEGIN by TSCD.chao zhang,04/22/2014,FR 631895(porting from  FR487417) -->
+
+    <LinearLayout
+        android:id="@+id/msg_remain"
+        android:layout_width="match_parent"
+        android:layout_height="60dip"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <!-- TS: Gantao 2015-06-11 EMAIL BUGFIX_1013206 ADD_S -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <View
+                style="@style/message_view_horizontal_divider"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="6dip"
+                android:layout_marginRight="6dip" />
+            <!-- android:visibility="gone" -->
+
+            <Button
+                android:id="@+id/msg_remain_btn"
+                style="?android:attr/buttonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="48dip"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="@string/download_remaining"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/msg_remain_loading_text"
+                android:layout_width="wrap_content"
+                android:layout_height="48dip"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="8dp"
+                android:gravity="center"
+                android:text="@string/downloading_remaining"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:visibility="gone" />
+
+            <ProgressBar
+                android:id="@+id/msg_remain_loading_progress"
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/msg_remain_loading_text"
+                android:clickable="false"
+                android:focusable="false"
+                android:indeterminate="true"
+                android:visibility="gone" >
+            </ProgressBar>
+        </RelativeLayout>
+        <!-- TS: Gantao 2015-06-11 EMAIL BUGFIX_1013206 ADD_E -->
+    </LinearLayout>
+    <!-- [FEATURE]-Add-END by TSCD.chao zhang -->
+
+    <View
+        android:id="@+id/snap_header_bottom_border"
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        android:background="@drawable/snap_header_gradient"
+        android:visibility="gone" />
+
+    <!-- TS: tao.gan 2015-08-27 EMAIL FEATURE_ID MOD_S -->
+    <HorizontalScrollView
+        android:id="@+id/attachment_bar_scroll"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:scrollbars="none"
+        android:paddingLeft="8dp"
+        android:visibility="gone"
+        android:layout_marginTop="6dp">
+
+        <LinearLayout
+            android:id="@+id/attachment_bar_lists"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </HorizontalScrollView>
+    <!-- TS: tao.gan 2015-08-27 EMAIL FEATURE_ID MOD_E -->
+
+</com.tct.mail.browse.MessageHeaderView>

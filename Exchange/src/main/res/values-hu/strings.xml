@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Tue Sep 20 16:24:06 CST 2016
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="exchange_name">"Vállalati"</string>
+	<!---->
+	<string name="exchange_name_alternate">"Microsoft Exchange ActiveSync"</string>
+	<!---->
+	<string name="meeting_accepted">"Elfogadva: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_declined">"Elutasítva: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_tentative">"Próbálkozás: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_canceled">"Lemondva: <xliff:g id="SUBJECT">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_updated">"Frissítve: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_when">"Időpont: <xliff:g id="when">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_where">"Helyszín: <xliff:g id="where">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_recurring">"Időpont: <xliff:g example="Tue, Mar 10, 2010 at 2:30 pm" id="eventdate">%s</xliff:g> (ismétlődő)"</string>
+	<!---->
+	<string name="meeting_allday">"Időpont: <xliff:g example="Tue, Mar 10, 2010 " id="eventdate">%s</xliff:g> (egész nap)"</string>
+	<!---->
+	<string name="meeting_allday_recurring">"Időpont: <xliff:g example="Tue, Mar 10, 2010 " id="eventdate">%s</xliff:g> (egész nap, ismétlődő)"</string>
+	<!---->
+	<string name="notification_exchange_calendar_added">"Exchange-naptár hozzáadva"</string>
+	<!---->
+	<string name="app_name">"Exchange szolgáltatások"</string>
+	<!---->
+	<string name="exception_cancel">"Ezt az eseményt törölték: <xliff:g id="DATE">%s</xliff:g>"</string>
+	<!---->
+	<string name="exception_updated">"Ennek az eseménynek a részletei megváltoztak a következő dátumra: <xliff:g id="date">%s</xliff:g>"</string>
+	<!---->
+	<string name="policy_dont_allow_storage_cards">"Memóriakártyák nem engedélyezettek"</string>
+	<!---->
+	<string name="policy_dont_allow_unsigned_apps">"Csak hiteles alkalmazások engedélyezése"</string>
+	<!---->
+	<string name="policy_dont_allow_unsigned_installers">"Csak hiteles alkalmazásokat telepítsen"</string>
+	<!---->
+	<string name="policy_dont_allow_wifi">"Wi-Fi tiltása"</string>
+	<!---->
+	<string name="policy_dont_allow_text_messaging">"Szöveges üzenetküldés nem engedélyezett"</string>
+	<!---->
+	<string name="policy_dont_allow_pop_imap">"POP3/IMAP-fiókok nem engedélyezettek"</string>
+	<!---->
+	<string name="policy_dont_allow_irda">"Infra kommunikáció nem engedélyezett"</string>
+	<!---->
+	<string name="policy_dont_allow_html">"HTML e-mailek nem engedélyezettek"</string>
+	<!---->
+	<string name="policy_dont_allow_browser">"A böngészők nem engedélyezettek"</string>
+	<!---->
+	<string name="policy_dont_allow_consumer_email">"Fogyasztói e-mailek nem engedélyezettek"</string>
+	<!---->
+	<string name="policy_dont_allow_internet_sharing">"Internetmegosztás tiltása"</string>
+	<!---->
+	<string name="policy_require_smime">"SMIME-üzenetek szükségesek"</string>
+	<!---->
+	<string name="policy_bluetooth_restricted">"Bluetooth használatának korlátozása"</string>
+	<!---->
+	<string name="policy_app_blacklist">"Meghatározott alkalmazások tiltása"</string>
+	<!---->
+	<string name="policy_app_whitelist">"Csak megadott alkalmazások engedélyezése"</string>
+	<!---->
+	<string name="policy_text_truncation">"Szöveges e-mailek méretének korlátozása"</string>
+	<!---->
+	<string name="policy_html_truncation">"HTML e-mailek méretének korlátozása"</string>
+	<!---->
+	<string name="policy_require_sd_encryption">"SD-kártya titkosítása szükséges"</string>
+	<!---->
+	<string name="policy_dont_allow_attachments">"Mellékletek nem engedélyezettek"</string>
+	<!---->
+	<string name="policy_max_attachment_size">"Mellékletek méretének korlátozása"</string>
+	<!---->
+	<string name="policy_require_manual_sync_roaming">"Csak kézi szinkronizálás barangoláskor"</string>
+	<!---->
+	<string name="policy_require_encryption">"Eszköztitkosítás szükséges"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_auto">"Automatikus"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1day">"Egy nap"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_3days">"Három nap"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1week">"Egy hét"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_2weeks">"Két hét"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1month">"Egy hónap"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_all">"Összes"</string>
+	<!---->
+	<string name="auth_error_notification_title">"Hitelesítési hiba"</string>
+	<!---->
+	<string name="auth_error_notification_text">"Érintse meg a(z) <xliff:g id="account">%s</xliff:g> fiók beállításainak módosításához."</string>
+	<!---->
+	<string name="email_settings_not_available">"Aktiválja újra az E-mail alkalmazást a beállítások megjelenítése érdekében."</string>
+</resources>

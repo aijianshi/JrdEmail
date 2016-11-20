@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+================================================================================
+|                                                                 Date:09/2013 |
+|                                 PRESENTATION                                 |
+|                                                                              |
+|        Copyright 2013 TCL Communication Technology Holdings Limited.         |
+|                                                                              |
+| This material is company confidential, cannot be reproduced in any form      |
+| without the written permission of TCL Communication Technology Holdings      |
+| Limited.                                                                     |
+|                                                                              |
+| **************************************************************************** |
+|  Author :  Chao Zhang                                                       |
+|  Email  :  chaozhang@jrdcom.com                                        |
+|  Role   :                                                                    |
+|  Reference documents :                                                       |
+| **************************************************************************** |
+|  Comments :                                                                  |
+|  File     : Email/res/layout/message_view_fragment_remain_btn.xml            |
+|  Labels   :                                                                  |
+| **************************************************************************** |
+| ============================================================================ |
+|      Modifications on Features list / Changes Request / Problems Report      |
+| **************************************************************************** |
+|    date   |        author        |         Key          |      comment       |
+| **********|**********************|**********************|******************* |
+|04/25/20134|     Chao zhang       |      FR 631895       |bcc and auto downl- |
+|           |                      |porting from  FR487417|oad remaining       |
+| **********|**********************|**********************|******************* |
+================================================================================
+-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <View
+        style="@style/message_view_horizontal_divider"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="6dip"
+        android:layout_marginRight="6dip"
+        />
+ <!-- android:visibility="gone"-->
+    <Button
+        android:id="@+id/msg_remain_btn"
+        style="?android:attr/buttonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="48dip"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="@string/download_remaining"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:visibility="gone"
+         />
+
+    <TextView
+        android:id="@+id/msg_remain_loading_text"
+        android:layout_width="wrap_content"
+        android:layout_height="48dip"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="8dp"
+        android:gravity="center"
+        android:text="@string/downloading_remaining"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:visibility="gone"
+        />
+
+    <ProgressBar
+        android:id="@+id/msg_remain_loading_progress"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/msg_remain_loading_text"
+        android:clickable="false"
+        android:focusable="false"
+        android:indeterminate="true"
+        android:visibility="gone" >
+    </ProgressBar>
+
+</RelativeLayout>

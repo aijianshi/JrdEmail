@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Tue Sep 20 16:24:06 CST 2016
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="exchange_name">"Korporatiivne"</string>
+	<!---->
+	<string name="exchange_name_alternate">"Microsoft Exchange ActiveSync"</string>
+	<!---->
+	<string name="meeting_accepted">"Vastu võetud: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_declined">"Tagasi lükatud: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_tentative">"Katseline: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_canceled">"Tühistatud: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_updated">"Uuendatud: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_when">"Millal: <xliff:g id="when">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_where">"Kus: <xliff:g id="where">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_recurring">"Millal: <xliff:g example="Tue, Mar 10, 2010 at 2:30 pm" id="eventdate">%s</xliff:g> (korduv)"</string>
+	<!---->
+	<string name="meeting_allday">"Millal: <xliff:g example="Tue, Mar 10, 2010 " id="eventdate">%s</xliff:g> (terve päev)"</string>
+	<!---->
+	<string name="meeting_allday_recurring">"Millal: <xliff:g example="Tue, Mar 10, 2010 " id="eventdate">%s</xliff:g> (terve päev, korduv)"</string>
+	<!---->
+	<string name="notification_exchange_calendar_added">"Exchange’i kalender lisatud"</string>
+	<!---->
+	<string name="app_name">"Exchange’i teenused"</string>
+	<!---->
+	<string name="exception_cancel">"See sündmus on tühistatud: <xliff:g id="date">%s</xliff:g>"</string>
+	<!---->
+	<string name="exception_updated">"Selle sündmuse üksikasjad on muudetud: <xliff:g id="date">%s</xliff:g>"</string>
+	<!---->
+	<string name="policy_dont_allow_storage_cards">"ära luba mälukaarte"</string>
+	<!---->
+	<string name="policy_dont_allow_unsigned_apps">"Keela allkirjastamata rakendused"</string>
+	<!---->
+	<string name="policy_dont_allow_unsigned_installers">"Keela allkirjata rakenduste installerid"</string>
+	<!---->
+	<string name="policy_dont_allow_wifi">"ära luba WiFi-t"</string>
+	<!---->
+	<string name="policy_dont_allow_text_messaging">"ära luba tekstisõnumeid"</string>
+	<!---->
+	<string name="policy_dont_allow_pop_imap">"ära luba POP3- või IMAP-kontosid"</string>
+	<!---->
+	<string name="policy_dont_allow_irda">"ära luba infrapunasidet"</string>
+	<!---->
+	<string name="policy_dont_allow_html">"ära luba HTML-meili"</string>
+	<!---->
+	<string name="policy_dont_allow_browser">"ära luba brausereid"</string>
+	<!---->
+	<string name="policy_dont_allow_consumer_email">"ära luba tarbijameile"</string>
+	<!---->
+	<string name="policy_dont_allow_internet_sharing">"ära luba Interneti-ühiskasutust"</string>
+	<!---->
+	<string name="policy_require_smime">"nõua SMIME-sõnumeid"</string>
+	<!---->
+	<string name="policy_bluetooth_restricted">"piira bluetoothi kasutamist"</string>
+	<!---->
+	<string name="policy_app_blacklist">"Keela määratud rakendused"</string>
+	<!---->
+	<string name="policy_app_whitelist">"Luba ainult määratud rakendused"</string>
+	<!---->
+	<string name="policy_text_truncation">"piira tekstimeilide suurust"</string>
+	<!---->
+	<string name="policy_html_truncation">"piira HTML-meilide suurust"</string>
+	<!---->
+	<string name="policy_require_sd_encryption">"nõua SD-kaardi krüptimist"</string>
+	<!---->
+	<string name="policy_dont_allow_attachments">"Keela manused"</string>
+	<!---->
+	<string name="policy_max_attachment_size">"Piira manuse suurust"</string>
+	<!---->
+	<string name="policy_require_manual_sync_roaming">"Luba rändluse kasutamisel ainult käsitsi sünkroonimist"</string>
+	<!---->
+	<string name="policy_require_encryption">"nõua seadme krüptimist"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_auto">"Automaatne"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1day">"Üks päev"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_3days">"Kolm päeva"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1week">"Üks nädal"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_2weeks">"Kaks nädalat"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1month">"Üks kuu"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_all">"Kõik"</string>
+	<!---->
+	<string name="auth_error_notification_title">"Autentimise viga"</string>
+	<!---->
+	<string name="auth_error_notification_text">"Puudutage konto <xliff:g id="account">%s</xliff:g> seadete muutmiseks"</string>
+	<!---->
+	<string name="email_settings_not_available">"Luba meilirakendusel uuesti seadeid vaadata."</string>
+</resources>

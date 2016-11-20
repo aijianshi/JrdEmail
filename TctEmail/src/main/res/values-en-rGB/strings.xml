@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<!--
+ ==========================================================================
+ *HISTORY
+ *
+ *Tag              Date          Author          Description
+ *============== ============ =============== ==============================
+ *CONFLICT-50001 2014/10/08   zhaotianyong      Modify the resource conflict
+ *CONFLICT-50004 2014/11/05   zhaotianyong    Modify the resource conflict
+ *TASK-869664    2015/11/25   zheng.zou       [Email]Android M Permission Upgrade
+ ============================================================================
+-->
+    <string name="app_name">TctEmail</string>
+    <!-- TS: ADD by zhaotianyong for CONFLICT_50001 START -->
+    <!-- Photo view sub-title for current photo position [CHAR LIMIT=10] -->
+    <string name="photo_view_count"><xliff:g id="current_pos">%d</xliff:g> of <xliff:g id="count">%d</xliff:g></string>
+    <string name="retry">"Retry"</string> <!-- Photo view error message shown below thumbnail if full image could not be shown [CHAR LIMIT=30] -->
+    <string name="failed">"Couldn\'t load image"</string>
+    <!-- TS: ADD by zhaotianyong for CONFLICT_50001 END -->
+
+    <!-- Text displayed when the recipientedittextview is not focused. Displays the total number of recipients since the field is shrunk to just display a portion -->
+    <string name="more_string">\u002B<xliff:g id="count">%1$s</xliff:g></string>
+
+    <!-- Text displayed when the user long presses on a chip to copy the recipients email address.
+         [CHAR LIMIT=200] -->
+    <string name="copy_email">"Copy email address"</string>
+    <!-- Text displayed when the user long presses on a chip to copy the recipient's phone number.
+         [CHAR LIMIT=200] -->
+    <string name="copy_number">"Copy phone number"</string>
+    <!-- Text displayed in the enter key slot when the recipientedittextview has focus.
+         [CHAR LIMIT=12] -->
+    <string name="action_label">"Return"</string>
+    
+    <!-- TS: MOD by wenggangjin for CONFLICT_50013 START -->
+    <!-- For the following strings, the "system" name refers to the name used internally
+    to distinguish the special mailboxes. In the past there was a notion of this being
+    the name of the mailbox on the server, which is where the naming comes from.
+    Long term I think these strings will change altogether, so I haven't bothered to
+    rename them until after the dust settles on how we manage mailbox names. -->
+    <!-- Do Not Translate.  This is the system name of the "inbox" folder. -->
+    <!-- Do Not Translate.  This is the system name of the "outbox" folder. -->
+    <!-- Do Not Translate.  This is the system name of the "drafts" folder. -->
+    <!-- Do Not Translate.  This is the system name of the "trash" folder. -->
+    <!-- Do Not Translate.  This is the system name of the "sent" folder. -->
+    <!-- Do Not Translate.  This is the system name of the "junk" folder. -->
+    <!-- Do Not Translate.  This is the system name of the "starred" folder. -->
+    <!-- Do Not Translate.  This is the system name of the "all unread" folder. -->
+    
+    <!-- Do Not Translate.  This is the authority for the email package name -->
+    <!-- TS: MOD by wenggangjin for CONFLICT_50013 END -->
+    
+    <!-- TS: ADD by zhaotianyong for CONFLICT_50004 START -->
+    <!-- The hint used in the search box when searching all mailboxes [CHAR LIMIT=35] -->
+    <string name="search_hint">"Search email"</string>
+    <string name="compose">"Compose"</string>
+    <string name="activity_folder_selection">"Choose folder"</string>
+    <!-- Name of the Settings activity -->
+    <string name="activity_preferences">"Settings"</string>
+    <!-- Content Provider Authority for Eml Attachments -->
+    <!-- Mod package name err. -->
+    <string name="tap_to_configure">"Touch to set up"</string>
+    <!-- Displayed in the middle of the screen when conversations are being loaded [CHAR LIMIT 100] -->
+    <string name="loading_conversations">"Loading\u2026"</string>
+    <!-- Displayed within a widget that was setup for a non-synced folder [CHAR LIMIT=60] -->
+    <string name="non_synced_folder_description">"To view conversations, sync this folder."</string>
+    <!--
+         Displayed within a widget that was setup for a non-synced folder.  This is the text of the
+         button that will allow the user to configure sync for the folder [CHAR LIMIT=35]
+    -->
+    <string name="tap_to_configure_folder_sync">"Sync folder"</string>
+    <!-- TS: ADD by zhaotianyong for CONFLICT_50004 END -->
+    <string name="def_email_accountGermanSignature">the german signature</string>
+    <string name="send_failed">"Message wasn\'t sent."</string>
+    <string name="permission_needed">need permission %s</string>
+    <!--TS: zheng.zou 2015-11-25 EMAIL TASK-996919 ADD_S-->
+    <string name="permission_needed_label">"Permissions needed"</string>
+    <string name="permission_grant_access_label">"Grant access"</string>
+    <string name="permission_grant_access_descs">"Change permissions in your device\'s app settings. Give Email access to Contacts."</string>  <!--TS: jin.dong 2016-1-21 EMAIL BUGFIX-1452433 MOD-->
+    <string name="permission_grant_exit">"Exit"</string>
+    <string name="permission_grant_go_setting">"Settings"</string>
+    <string name="permission_needed_to_save_attachment">"To save attachment, allow Email permissions to access storage"</string>
+    <string name="permission_needed_to_add_attachment">"To add attachment, allow Email permissions to access storage"</string>
+    <string name="permission_needed_to_see_calendar">"To see in calendar, allow Email permissions to access Calendar"</string>
+    <!--TS: zheng.zou 2015-11-25 EMAIL TASK-996919 ADD_E-->
+</resources>

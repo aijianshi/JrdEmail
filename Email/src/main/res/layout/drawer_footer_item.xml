@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2014 Google Inc.
+     Licensed to The Android Open Source Project.
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<!--
+ ==========================================================================
+ *HISTORY
+ *
+ *Tag            Date         Author          Description
+ *============== ============ =============== ==============================
+ *GD-912050       2015/01/22    ke.ma          [Email] Email_GD_v5.1.0.1 should be implemented.
+ *BUGFIX-1052918  2015/07/31  zheng.zou       [Email]The colour of the settings button display overlap when tap it.
+ ============================================================================
+ -->
+<!-- Item in the drawer that launches the Help or Feedback activities. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <View
+        android:id="@+id/top_border"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:alpha="0.05"
+        android:background="#000000"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp" /> <!--TS: ke.ma 2015-01-22 EMAIL GD-912050 MOD-->
+
+    <!--TS: zheng.zou 2015-07-31 EMAIL BUG-1052918 ADD-->
+    <LinearLayout
+            android:id="@+id/drawer_footer_layout"
+        android:layout_height="54dp"
+        android:layout_width="match_parent"
+        android:paddingLeft="@dimen/drawer_footer_item_padding"
+        android:paddingRight="@dimen/drawer_footer_item_padding"
+        android:minHeight="@dimen/drawer_footer_item_minimum_height"
+        android:gravity="center_vertical"
+        android:background="@drawable/nonfolder_item"> <!--TS: ke.ma 2015-01-22 EMAIL GD-912050 MOD-->
+
+        <ImageView
+            android:id="@+id/drawer_footer_image"
+            android:layout_width="24dp"
+            android:layout_height="24dp" /> <!--TS: ke.ma 2015-01-22 EMAIL GD-912050 MOD-->
+
+        <TextView
+            android:id="@+id/drawer_footer_text"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:ellipsize="end"
+            android:textColor="@color/folder_item_text_color_normal"
+            android:textSize="@dimen/drawer_item_font_size"
+            style="@style/DrawerFooterListItemStyle"/>
+    </LinearLayout>
+
+    <Space
+        android:id="@+id/bottom_margin"
+        android:layout_width="match_parent"
+        android:layout_height="8dp" />
+
+</LinearLayout>

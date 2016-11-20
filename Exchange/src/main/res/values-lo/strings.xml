@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Tue Sep 20 16:24:06 CST 2016
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!-- no translation found for exchange_name -->
+	<skip />
+	<!-- no translation found for exchange_name_alternate -->
+	<skip />
+	<!---->
+	<string name="meeting_accepted">"ຍອມຮັບ：<xliff:g id="SUBJECT">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_declined">"ປະຕິເສດ：<xliff:g id="SUBJECT">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_tentative">"ບໍ່ແນ່ນອນ：<xliff:g id="SUBJECT">%s</xliff:g>"</string>
+	<!-- no translation found for meeting_canceled -->
+	<skip />
+	<!---->
+	<string name="meeting_updated">"ໄດ້ປັບປຸງແລ້ວ：<xliff:g id="SUBJECT">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_when">"ເມື່ອ：<xliff:g id="WHEN">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_where">"ສະຖານທີ່：<xliff:g id="WHERE">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_recurring">"ເວລາ：<xliff:g id="EVENTDATE">%s</xliff:g>（ເກີດອີກ）"</string>
+	<!-- no translation found for meeting_allday -->
+	<skip />
+	<!-- no translation found for meeting_allday_recurring -->
+	<skip />
+	<!-- no translation found for notification_exchange_calendar_added -->
+	<skip />
+	<!-- no translation found for app_name -->
+	<skip />
+	<!-- no translation found for exception_cancel -->
+	<skip />
+	<!---->
+	<string name="exception_updated">"ລາຍລະອຽດຂອງເຫດການນີ້ໄດ້ຖືກປ່ຽນແປງສຳລັບ<xliff:g id="DATE">%s</xliff:g>"</string>
+	<!-- no translation found for policy_dont_allow_storage_cards -->
+	<skip />
+	<!-- no translation found for policy_dont_allow_unsigned_apps -->
+	<skip />
+	<!-- no translation found for policy_dont_allow_unsigned_installers -->
+	<skip />
+	<!-- no translation found for policy_dont_allow_wifi -->
+	<skip />
+	<!-- no translation found for policy_dont_allow_text_messaging -->
+	<skip />
+	<!-- no translation found for policy_dont_allow_pop_imap -->
+	<skip />
+	<!-- no translation found for policy_dont_allow_irda -->
+	<skip />
+	<!-- no translation found for policy_dont_allow_html -->
+	<skip />
+	<!-- no translation found for policy_dont_allow_browser -->
+	<skip />
+	<!-- no translation found for policy_dont_allow_consumer_email -->
+	<skip />
+	<!-- no translation found for policy_dont_allow_internet_sharing -->
+	<skip />
+	<!-- no translation found for policy_require_smime -->
+	<skip />
+	<!-- no translation found for policy_bluetooth_restricted -->
+	<skip />
+	<!-- no translation found for policy_app_blacklist -->
+	<skip />
+	<!-- no translation found for policy_app_whitelist -->
+	<skip />
+	<!-- no translation found for policy_text_truncation -->
+	<skip />
+	<!-- no translation found for policy_html_truncation -->
+	<skip />
+	<!-- no translation found for policy_require_sd_encryption -->
+	<skip />
+	<!-- no translation found for policy_dont_allow_attachments -->
+	<skip />
+	<!-- no translation found for policy_max_attachment_size -->
+	<skip />
+	<!-- no translation found for policy_require_manual_sync_roaming -->
+	<skip />
+	<!-- no translation found for policy_require_encryption -->
+	<skip />
+	<!-- no translation found for account_setup_options_mail_window_auto -->
+	<skip />
+	<!-- no translation found for account_setup_options_mail_window_1day -->
+	<skip />
+	<!-- no translation found for account_setup_options_mail_window_3days -->
+	<skip />
+	<!-- no translation found for account_setup_options_mail_window_1week -->
+	<skip />
+	<!-- no translation found for account_setup_options_mail_window_2weeks -->
+	<skip />
+	<!-- no translation found for account_setup_options_mail_window_1month -->
+	<skip />
+	<!-- no translation found for account_setup_options_mail_window_all -->
+	<skip />
+	<!-- no translation found for auth_error_notification_title -->
+	<skip />
+	<!-- no translation found for auth_error_notification_text -->
+	<skip />
+	<!-- no translation found for email_settings_not_available -->
+	<skip />
+</resources>

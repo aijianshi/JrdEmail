@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Tue Sep 20 16:24:06 CST 2016
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="exchange_name">"شرکت"</string>
+	<!---->
+	<string name="exchange_name_alternate">"Microsoft Exchange ActiveSync"</string>
+	<!---->
+	<string name="meeting_accepted">"پذيرفته شد: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_declined">"رد شد: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_tentative">"موقت: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_canceled">"لغو شد: <xliff:g id="SUBJECT">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_updated">"به روزرساني: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_when">"زمان: <xliff:g id="when">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_where">"مكان: <xliff:g id="where">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_recurring">"زمان: When: <xliff:g example="Tue, Mar 10, 2010 at 2:30 pm" id="eventdate">%s</xliff:g> (recurring) (تكراري)"</string>
+	<!---->
+	<string name="meeting_allday">"هنگامي که: <xliff:g example="Tue, Mar 10, 2010 " id="eventdate">%s</xliff:g> (همه روز)"</string>
+	<!---->
+	<string name="meeting_allday_recurring">"هنگامي که: <xliff:g example="Tue, Mar 10, 2010 " id="eventdate">%s</xliff:g> (همه روز، تکرارشونده)"</string>
+	<!---->
+	<string name="notification_exchange_calendar_added">"تقویم Exchange اضافه شد"</string>
+	<!---->
+	<string name="app_name">"سرویس های Exchange"</string>
+	<!---->
+	<string name="exception_cancel">"این رویداد لغو شده است به مدت: <xliff:g id="DATE">%s</xliff:g>"</string>
+	<!---->
+	<string name="exception_updated">"جزئيات اين رويداد تغيير كرده است براي: <xliff:g id="date">%s</xliff:g>"</string>
+	<!---->
+	<string name="policy_dont_allow_storage_cards">"کارت‌های حافظه مجاز نیست"</string>
+	<!---->
+	<string name="policy_dont_allow_unsigned_apps">"برنامه‌های امضا نشده مجاز نیستند"</string>
+	<!---->
+	<string name="policy_dont_allow_unsigned_installers">"نصب کننده‌های برنامه امضا نشده مجاز نیستند"</string>
+	<!---->
+	<string name="policy_dont_allow_wifi">"Wi-Fi مجاز نیست"</string>
+	<!---->
+	<string name="policy_dont_allow_text_messaging">"پیام‌رسانی نوشتاری مجاز نیست"</string>
+	<!---->
+	<string name="policy_dont_allow_pop_imap">"حساب‌های POP3 یا IMAP مجاز نیست"</string>
+	<!---->
+	<string name="policy_dont_allow_irda">"ارتباطات مادون قرمز مجاز نیست"</string>
+	<!---->
+	<string name="policy_dont_allow_html">"ایمیل HTML مجاز نیست"</string>
+	<!---->
+	<string name="policy_dont_allow_browser">"مرورگرها مجاز نیستند"</string>
+	<!---->
+	<string name="policy_dont_allow_consumer_email">"ایمیل مصرف‌کننده مجاز نیست"</string>
+	<!---->
+	<string name="policy_dont_allow_internet_sharing">"اشتراک‌گذاری اینترنتی مجاز نیست"</string>
+	<!---->
+	<string name="policy_require_smime">"پیامهای SMIME لازم است"</string>
+	<!---->
+	<string name="policy_bluetooth_restricted">"استفاده از Bluetooth محدود است"</string>
+	<!---->
+	<string name="policy_app_blacklist">"برنامه‌های خاص مجاز نیستند"</string>
+	<!---->
+	<string name="policy_app_whitelist">"فقط برنامه‌های خاص مجاز هستند"</string>
+	<!---->
+	<string name="policy_text_truncation">"اندازه نوشتار ایمیل محدود است"</string>
+	<!---->
+	<string name="policy_html_truncation">"اندازه ایمیل HTML محدود است"</string>
+	<!---->
+	<string name="policy_require_sd_encryption">"کارت sd باید رمزگذاری شود"</string>
+	<!---->
+	<string name="policy_dont_allow_attachments">"پیوست‌ها مجاز نیستند"</string>
+	<!---->
+	<string name="policy_max_attachment_size">"اندازه پیوست محدود است"</string>
+	<!---->
+	<string name="policy_require_manual_sync_roaming">"در حالت رومینگ فقط همگام‌سازی دستی مجاز است"</string>
+	<!---->
+	<string name="policy_require_encryption">"دستگاه باید رمزگذاری شود"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_auto">"خودکار"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1day">"یک روز"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_3days">"سه روز"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1week">"یک هفته"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_2weeks">"دو هفته"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1month">"یک ماه"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_all">"همه"</string>
+	<!---->
+	<string name="auth_error_notification_title">"خطای تایید اعتبار"</string>
+	<!---->
+	<string name="auth_error_notification_text">"برای ویرایش تنظیمات حساب برای <xliff:g id="account">%s</xliff:g> لمس کنید"</string>
+	<!---->
+	<string name="email_settings_not_available">"برای مشاهده تنظیمات دوباره برنامه ایمیل را فعال کنید."</string>
+</resources>

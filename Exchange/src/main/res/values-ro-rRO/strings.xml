@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Tue Sep 20 16:24:06 CST 2016
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="exchange_name">"Companie"</string>
+	<!---->
+	<string name="exchange_name_alternate">"Microsoft Exchange ActiveSync"</string>
+	<!---->
+	<string name="meeting_accepted">"Acceptat: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_declined">"Respins <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_tentative">"Tentativă: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_canceled">"Anulat: <xliff:g id="SUBJECT">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_updated">"Actualizat: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_when">"Data: <xliff:g id="when">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_where">"Locul: <xliff:g id="where">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_recurring">"Data: <xliff:g example="Tue, Mar 10, 2010 at 2:30 pm" id="eventdate">%s</xliff:g> (recurent)"</string>
+	<!---->
+	<string name="meeting_allday">"Când: <xliff:g example="Tue, Mar 10, 2010 " id="eventdate">%s</xliff:g> (toată ziua)"</string>
+	<!---->
+	<string name="meeting_allday_recurring">"Când: <xliff:g example="Tue, Mar 10, 2010 " id="eventdate">%s</xliff:g> (toată ziua, recurent)"</string>
+	<!---->
+	<string name="notification_exchange_calendar_added">"Calendar Exchange adăugat"</string>
+	<!---->
+	<string name="app_name">"Servicii Exchange"</string>
+	<!---->
+	<string name="exception_cancel">"Acest eveniment a fost anulat pentru: <xliff:g id="DATE">%s</xliff:g>"</string>
+	<!---->
+	<string name="exception_updated">"Detaliile acestui eveniment au fost modificate pentru: <xliff:g id="date">%s</xliff:g>"</string>
+	<!---->
+	<string name="policy_dont_allow_storage_cards">"Nu permiteţi carduri de stocare"</string>
+	<!---->
+	<string name="policy_dont_allow_unsigned_apps">"Nu permiteţi aplicaţii nesemnate"</string>
+	<!---->
+	<string name="policy_dont_allow_unsigned_installers">"Nu permiteţi instal. aplic. nesemnate"</string>
+	<!---->
+	<string name="policy_dont_allow_wifi">"Nu permiteţi Wi-Fi"</string>
+	<!---->
+	<string name="policy_dont_allow_text_messaging">"Nu permiteţi mesagerie text"</string>
+	<!---->
+	<string name="policy_dont_allow_pop_imap">"Nu permiteţi conturi POP3 sau IMAP"</string>
+	<!---->
+	<string name="policy_dont_allow_irda">"Nu permiteţi comunicaţiile în infraroşu"</string>
+	<!---->
+	<string name="policy_dont_allow_html">"Nu permiteţi e-mailuri HTML"</string>
+	<!---->
+	<string name="policy_dont_allow_browser">"Nu permiteţi browserele"</string>
+	<!---->
+	<string name="policy_dont_allow_consumer_email">"Nu permiteţi e-mailuri client"</string>
+	<!---->
+	<string name="policy_dont_allow_internet_sharing">"Nu permiteţi distribuirea prin internet"</string>
+	<!---->
+	<string name="policy_require_smime">"Solicitaţi mesaje SMIME"</string>
+	<!---->
+	<string name="policy_bluetooth_restricted">"Limitaţi util. funcţiilor Bluetooth"</string>
+	<!---->
+	<string name="policy_app_blacklist">"Nu permiteţi anumite aplicaţii"</string>
+	<!---->
+	<string name="policy_app_whitelist">"Permiteţi numai aplicaţii indicate"</string>
+	<!---->
+	<string name="policy_text_truncation">"Limitaţi dimensiunea e-mailurilor text"</string>
+	<!---->
+	<string name="policy_html_truncation">"Limitaţi dimensiunea e-mailurilor HTML"</string>
+	<!---->
+	<string name="policy_require_sd_encryption">"Necesită criptarea cardului SD"</string>
+	<!---->
+	<string name="policy_dont_allow_attachments">"Nu permiteţi ataşamente"</string>
+	<!---->
+	<string name="policy_max_attachment_size">"Limitaţi dimensiunea ataşamentului"</string>
+	<!---->
+	<string name="policy_require_manual_sync_roaming">"În roaming permiteţi doar sincr. manuală"</string>
+	<!---->
+	<string name="policy_require_encryption">"Solicitaţi criptarea dispozitivului"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_auto">"Automat"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1day">"O zi"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_3days">"Trei zile"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1week">"O săptămână"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_2weeks">"Două săptămâni"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1month">"O lună"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_all">"Toate"</string>
+	<!---->
+	<string name="auth_error_notification_title">"Eroare de autentificare"</string>
+	<!---->
+	<string name="auth_error_notification_text">"Atingeţi pentru a modifica setările contului pentru <xliff:g id="account">%s</xliff:g>"</string>
+	<!---->
+	<string name="email_settings_not_available">"Reactivați aplicația e-mail pentru a vedea setările."</string>
+</resources>

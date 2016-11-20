@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+================================================================================
+|                                                                 Date:09/2013 |
+|                                 PRESENTATION                                 |
+|                                                                              |
+|        Copyright 2013 TCL Communication Technology Holdings Limited.         |
+|                                                                              |
+| This material is company confidential, cannot be reproduced in any form      |
+| without the written permission of TCL Communication Technology Holdings      |
+| Limited.                                                                     |
+|                                                                              |
+| **************************************************************************** |
+|  Author :  chen caixia                                                       |
+|  Email  :  caixia.chen@tcl-mobile.com                                        |
+|  Role   :                                                                    |
+|  Reference documents :                                                       |
+| **************************************************************************** |
+|  Comments :                                                                  |
+|  File     : Email/res/layout/message_list_local_search_header.xml            |
+|  Labels   :                                                                  |
+| **************************************************************************** |
+| ============================================================================ |
+|      Modifications on Features list / Changes Request / Problems Report      |
+| **************************************************************************** |
+|    date   |        author        |         Key          |      comment       |
+| **********|**********************|**********************|******************* |
+| 09/05/2013|     chen caixia      |      FR 487417       |email search funct- |
+|           |                      |                      |ion                 |
+| **********|**********************|**********************|******************* |
+| 10/21/2013|wei.guo               |FR472621              |Arabic & Farsi supp |
+|           |                      |                      |ort                 |
+| **********|**********************|**********************|******************* |
+================================================================================
+-->
+<!--[FEATURE]-Mod-BEGIN by TCTNB.wei.guo,10/21/2013,FR472621,-->
+<!--Arabic & Farsi support-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/local_search_header"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:visibility="gone" >
+
+    <RelativeLayout
+        style="@style/search_header"
+        android:background="#666"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/local_search_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/local_search_header_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/white" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/local_search_header_height"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/local_search_all"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/local_search_all" />
+
+        <Button
+            android:id="@+id/local_search_from"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/local_search_from" />
+
+        <Button
+            android:id="@+id/local_search_to"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/local_search_to" />
+
+        <Button
+            android:id="@+id/local_search_subject"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.2"
+            android:gravity="center"
+            android:text="@string/local_search_subject" />
+    </LinearLayout>
+
+</LinearLayout>
+<!--[FEATURE]-Mod-END by TCTNB.wei.guo-->

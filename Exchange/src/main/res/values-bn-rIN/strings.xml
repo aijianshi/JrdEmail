@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Tue Sep 20 16:24:06 CST 2016
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="exchange_name">"কর্পোরেট"</string>
+	<!---->
+	<string name="exchange_name_alternate">"মাইক্রোসফট এক্সচেঞ্জ ও ActiveSync"</string>
+	<!---->
+	<string name="meeting_accepted">"গ্রহণ করা হয়েছে : <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_declined">"প্রত্যাখ্যান করা হয়েছে: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_tentative">"পরীক্ষামূলক: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_canceled">"বাতিল করা হয়েছে: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_updated">"আপডেট করা: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_when">"যখন: <xliff:g id="when">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_where">"যেখানে: <xliff:g id="where">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_recurring">"যখন:: <xliff:g example="Tue, Mar 10, 2010 at 2:30 pm" id="eventdate">%s</xliff:g>(পুনরাবৃত্ত হচ্ছে)"</string>
+	<!---->
+	<string name="meeting_allday">"যখন: <xliff:g example="Tue, Mar 10, 2010 " id="eventdate">%s</xliff:g> (সমস্ত দিন)"</string>
+	<!---->
+	<string name="meeting_allday_recurring">"যখন: <xliff:g example="Tue, Mar 10, 2010 " id="eventdate">%s</xliff:g> (সমস্ত দিন, পুনরাবৃত্ত হচ্ছে)"</string>
+	<!---->
+	<string name="notification_exchange_calendar_added">"বিনিময় ক্যালেন্ডার যোগ করা"</string>
+	<!---->
+	<string name="app_name">"বিনিময় সেবা"</string>
+	<!---->
+	<string name="exception_cancel">"এর : <xliff:g id="date">%s</xliff:g> জন্য এই ঘটনা বাতিল হয়েছে"</string>
+	<!---->
+	<string name="exception_updated">"এর: <xliff:g id="date">%s</xliff:g> জন্য এই ঘটনা পরিবর্তন হয়েছে"</string>
+	<!---->
+	<string name="policy_dont_allow_storage_cards">"স্টোরেজ কার্ড মঞ্জুরি দেবেন না"</string>
+	<!---->
+	<string name="policy_dont_allow_unsigned_apps">"স্বাক্ষরবিহীন অ্যাপ্লিকেশান মঞ্জুরি দেবেন না"</string>
+	<!---->
+	<string name="policy_dont_allow_unsigned_installers">"অস্বাক্ষরিত অ্যাপলিকেশন ইনস্টলকারীর অনুমতি নেই"</string>
+	<!---->
+	<string name="policy_dont_allow_wifi">"wifi এর অনুমতি নেই"</string>
+	<!---->
+	<string name="policy_dont_allow_text_messaging">"লিখিত বার্তা করার অনুমতি নেই"</string>
+	<!---->
+	<string name="policy_dont_allow_pop_imap">"POP3 বা IMAP অ্যাকাউন্টের অনুমতি নেই"</string>
+	<!---->
+	<string name="policy_dont_allow_irda">"ইনফ্রারেড যোগাযোগের অনুমতি নেই"</string>
+	<!---->
+	<string name="policy_dont_allow_html">"HTML ই-মেইলের অনুমতি নেই"</string>
+	<!---->
+	<string name="policy_dont_allow_browser">"ব্রাউজারের অনুমতি নেই"</string>
+	<!---->
+	<string name="policy_dont_allow_consumer_email">"উপভোক্তা ই-মেইলের অনুমতি নেই"</string>
+	<!---->
+	<string name="policy_dont_allow_internet_sharing">"ইন্টারনেট ভাগ করার অনুমতি নেই"</string>
+	<!---->
+	<string name="policy_require_smime">"Smime বার্তা প্রয়োজন"</string>
+	<!---->
+	<string name="policy_bluetooth_restricted">"ব্লুটুথ ব্যবহার সীমিত"</string>
+	<!---->
+	<string name="policy_app_blacklist">"নির্দিষ্ট অ্যাপ্লিকেশান নামঞ্জুর"</string>
+	<!---->
+	<string name="policy_app_whitelist">"শুধুমাত্র নির্দিষ্ট অ্যাপ্লিকেশান অনুমতি দিন"</string>
+	<!---->
+	<string name="policy_text_truncation">"টেক্সট ইমেইল আকার সীমিত"</string>
+	<!---->
+	<string name="policy_html_truncation">"এইচটিএমএল ইমেইল আকার সীমিত"</string>
+	<!---->
+	<string name="policy_require_sd_encryption">"এসডি কার্ড এনক্রিপশন প্রয়োজন"</string>
+	<!---->
+	<string name="policy_dont_allow_attachments">"সব সংযুক্তি (অ্যাটাচমেন্ট)ডাউনলোড করার অনুমতি নেই"</string>
+	<!---->
+	<string name="policy_max_attachment_size">"সংযুক্তি আকার সীমিত"</string>
+	<!---->
+	<string name="policy_require_manual_sync_roaming">"ভ্রমণের সময় শুধু ম্যানুয়াল সিঙ্ক করার অনুমতি দেয়"</string>
+	<!---->
+	<string name="policy_require_encryption">"ডিভাইস এনক্রিপশন প্রয়োজন"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_auto">"স্বয়ংক্রিয়"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1day">"এক দিন"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_3days">"তিন দিন"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1week">"এক সপ্তাহ"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_2weeks">"দুই সপ্তাহ"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1month">"এক মাস"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_all">"সমস্ত"</string>
+	<!---->
+	<string name="auth_error_notification_title">"অনুমোদন ত্রুটি"</string>
+	<!---->
+	<string name="auth_error_notification_text">"মার্কিন অ্যাকাউন্ট সেটিংস সম্পাদনা করতে স্পর্শ <xliff:g id="account">%s</xliff:g>"</string>
+	<!---->
+	<string name="email_settings_not_available">"সেটিংস দেখতে এটি ইমেল অ্যাপ্লিকেশন পুনরায় সক্রিয়."</string>
+</resources>

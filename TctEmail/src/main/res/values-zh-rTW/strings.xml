@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!-- no translation found for app_name -->
+	<skip />
+	<!-- no translation found for photo_view_count -->
+	<skip />
+	<!---->
+	<string name="retry">"重試"</string>
+	<!---->
+	<string name="failed">"無法載入圖片"</string>
+	<!-- no translation found for more_string -->
+	<skip />
+	<!---->
+	<string name="copy_email">"複製電子郵件地址"</string>
+	<!---->
+	<string name="copy_number">"複製電話號碼"</string>
+	<!---->
+	<string name="action_label">"返回"</string>
+	<!---->
+	<string name="search_hint">"搜尋電子郵件"</string>
+	<!---->
+	<string name="compose">"撰寫郵件"</string>
+	<!---->
+	<string name="activity_folder_selection">"選擇資料夾"</string>
+	<!---->
+	<string name="activity_preferences">"設定"</string>
+	<!---->
+	<string name="tap_to_configure">"輕觸即可設定"</string>
+	<!---->
+	<string name="loading_conversations">"載入中..."</string>
+	<!---->
+	<string name="non_synced_folder_description">"如要查看會話群組，請同步處理這個資料夾。"</string>
+	<!---->
+	<string name="tap_to_configure_folder_sync">"同步處理資料夾"</string>
+	<!-- no translation found for def_email_accountGermanSignature -->
+	<skip />
+	<!---->
+	<string name="send_failed">"郵件未傳送。"</string>
+	<!-- no translation found for permission_needed -->
+	<skip />
+	<!---->
+	<string name="permission_needed_label">"需要的權限"</string>
+	<!---->
+	<string name="permission_grant_access_label">"授予訪問權限"</string>
+	<!---->
+	<string name="permission_grant_access_descs">"在您的裝置應用程式設定中變更權限。給予電郵訪問聯絡人的權限。"</string>
+	<!---->
+	<string name="permission_grant_exit">"退出"</string>
+	<!---->
+	<string name="permission_grant_go_setting">"設定"</string>
+	<!---->
+	<string name="permission_needed_to_save_attachment">"要儲存附件，請允許電子郵件訪問儲存裝置的權限"</string>
+	<!---->
+	<string name="permission_needed_to_add_attachment">"要新增附件，請允許電郵訪問儲存裝置的權限"</string>
+	<!---->
+	<string name="permission_needed_to_see_calendar">"要在日曆中查看，請允許電子郵件訪問日曆的權限"</string>
+</resources>

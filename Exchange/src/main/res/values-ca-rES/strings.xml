@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Tue Sep 20 16:24:06 CST 2016
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="exchange_name">"Corporate"</string>
+	<!---->
+	<string name="exchange_name_alternate">"Microsoft Exchange ActiveSync"</string>
+	<!---->
+	<string name="meeting_accepted">"Acceptat: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_declined">"Declinat: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_tentative">"Indecís: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_canceled">"Anul·lat: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_updated">"Actualitzat: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_when">"Quan: <xliff:g id="when">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_where">"On: <xliff:g id="where">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_recurring">"Quan: <xliff:g example="Tue, Mar 10, 2010 at 2:30 pm" id="eventdate">%s</xliff:g> (recurrent)"</string>
+	<!---->
+	<string name="meeting_allday">"Quan: <xliff:g example="Tue, Mar 10, 2010 " id="eventdate">%s</xliff:g> (tot el dia)"</string>
+	<!---->
+	<string name="meeting_allday_recurring">"Quan: <xliff:g example="Tue, Mar 10, 2010 " id="eventdate">%s</xliff:g> (tot el dia, repetitiu)"</string>
+	<!---->
+	<string name="notification_exchange_calendar_added">"Calendari d\'intercanvi afegit"</string>
+	<!---->
+	<string name="app_name">"Serveis de l\'Exchange"</string>
+	<!---->
+	<string name="exception_cancel">"S\'ha cancel·lat l\'esdeveniment per a: <xliff:g id="date">%s</xliff:g>"</string>
+	<!---->
+	<string name="exception_updated">"<xliff:g id="date">%s</xliff:g> ha modificat les dades de l\'esdeveniment."</string>
+	<!---->
+	<string name="policy_dont_allow_storage_cards">"No permetre targetes d\'emmagatzematge"</string>
+	<!---->
+	<string name="policy_dont_allow_unsigned_apps">"No permetre aplicacions sense signar"</string>
+	<!---->
+	<string name="policy_dont_allow_unsigned_installers">"No permetre instal·ladors d\'aplicacions sense signar"</string>
+	<!---->
+	<string name="policy_dont_allow_wifi">"No permetre Wi-Fi"</string>
+	<!---->
+	<string name="policy_dont_allow_text_messaging">"No permetre missatges de text"</string>
+	<!---->
+	<string name="policy_dont_allow_pop_imap">"No permetre comptes POP3 o IMAP"</string>
+	<!---->
+	<string name="policy_dont_allow_irda">"No permetre comunicacions per infrarojos"</string>
+	<!---->
+	<string name="policy_dont_allow_html">"No permetre correu electrònic HTML"</string>
+	<!---->
+	<string name="policy_dont_allow_browser">"No permetre navegadors"</string>
+	<!---->
+	<string name="policy_dont_allow_consumer_email">"No permetre correu electrònic de consum"</string>
+	<!---->
+	<string name="policy_dont_allow_internet_sharing">"No permetre ús compartit d\'Internet"</string>
+	<!---->
+	<string name="policy_require_smime">"Requerir missatges SMIME"</string>
+	<!---->
+	<string name="policy_bluetooth_restricted">"Restringir l\'ús de Bluetooth"</string>
+	<!---->
+	<string name="policy_app_blacklist">"No permetre les aplicacions especificades"</string>
+	<!---->
+	<string name="policy_app_whitelist">"Permetre només les aplicacions especificades"</string>
+	<!---->
+	<string name="policy_text_truncation">"Restringir la mida del correu electrònic de text"</string>
+	<!---->
+	<string name="policy_html_truncation">"Restringir la mida del correu electrònic HTML"</string>
+	<!---->
+	<string name="policy_require_sd_encryption">"Requerir encriptació de targeta SD"</string>
+	<!---->
+	<string name="policy_dont_allow_attachments">"No permetre adjunts"</string>
+	<!---->
+	<string name="policy_max_attachment_size">"Restringir la mida dels adjunts"</string>
+	<!---->
+	<string name="policy_require_manual_sync_roaming">"Només permetre la sincronització manual en el mode d\'itinerància"</string>
+	<!---->
+	<string name="policy_require_encryption">"Requerir encriptació del dispositiu"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_auto">"Automàtic"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1day">"Un dia"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_3days">"Tres dies"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1week">"Una setmana"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_2weeks">"Dues setmanes"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1month">"Un mes"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_all">"Tots"</string>
+	<!---->
+	<string name="auth_error_notification_title">"Error d\'autenticació"</string>
+	<!---->
+	<string name="auth_error_notification_text">"Toqueu per editar els paràmetres del compte de <xliff:g id="account">%s</xliff:g>"</string>
+	<!---->
+	<string name="email_settings_not_available">"Torneu a habilitar l\'aplicació de correu electrònic per veure els paràmetres."</string>
+</resources>

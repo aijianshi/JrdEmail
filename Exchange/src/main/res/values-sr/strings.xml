@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Tue Sep 20 16:24:06 CST 2016
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="exchange_name">"Poslovni"</string>
+	<!---->
+	<string name="exchange_name_alternate">"Microsoft Exchange ActiveSync"</string>
+	<!---->
+	<string name="meeting_accepted">"Prihvaćeno: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_declined">"Odbijeno: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_tentative">"Privremeno: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_canceled">"Otkazano: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_updated">"Ažurirano: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_when">"Kada: <xliff:g id="when">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_where">"Gde: <xliff:g id="where">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_recurring">"Kada: <xliff:g example="Tue, Mar 10, 2010 at 2:30 pm" id="eventdate">%s</xliff:g> (ponavljanje)"</string>
+	<!---->
+	<string name="meeting_allday">"Kada: <xliff:g example="Tue, Mar 10, 2010 " id="eventdate">%s</xliff:g> (ceo dan)"</string>
+	<!---->
+	<string name="meeting_allday_recurring">"Kada: <xliff:g example="Tue, Mar 10, 2010 " id="eventdate">%s</xliff:g> (ceo dan, ponavljanje)"</string>
+	<!---->
+	<string name="notification_exchange_calendar_added">"Dodat je Exchage kalendar"</string>
+	<!---->
+	<string name="app_name">"Exchange usluge"</string>
+	<!---->
+	<string name="exception_cancel">"Ovaj događaj je otkazan za: <xliff:g id="date">%s</xliff:g>"</string>
+	<!---->
+	<string name="exception_updated">"Detalji događaja su promenjeni za: <xliff:g id="date">%s</xliff:g>"</string>
+	<!---->
+	<string name="policy_dont_allow_storage_cards">"Ne dozvoli memorijske kartice"</string>
+	<!---->
+	<string name="policy_dont_allow_unsigned_apps">"Ne dozvoli nepotpisane aplikacije"</string>
+	<!---->
+	<string name="policy_dont_allow_unsigned_installers">"Ne dozvoli nepotpisane instalacione programe aplikacija"</string>
+	<!---->
+	<string name="policy_dont_allow_wifi">"Ne dozvoli Wi-Fi"</string>
+	<!---->
+	<string name="policy_dont_allow_text_messaging">"Ne dozvoli razmenu tekstualnih poruka"</string>
+	<!---->
+	<string name="policy_dont_allow_pop_imap">"Ne dozvoli POP3 ili IMAP naloge"</string>
+	<!---->
+	<string name="policy_dont_allow_irda">"Ne dozvoli infracrvenu komunikaciju"</string>
+	<!---->
+	<string name="policy_dont_allow_html">"Ne dozvoli HTML e-poštu"</string>
+	<!---->
+	<string name="policy_dont_allow_browser">"Ne dozvoli pregledače"</string>
+	<!---->
+	<string name="policy_dont_allow_consumer_email">"Ne dozvoli korisničku e-poštu"</string>
+	<!---->
+	<string name="policy_dont_allow_internet_sharing">"Ne dozvoli deljenje internet veze"</string>
+	<!---->
+	<string name="policy_require_smime">"Zahtevaj SMIME poruke"</string>
+	<!---->
+	<string name="policy_bluetooth_restricted">"Ograniči upotrebu Bluetooth-a"</string>
+	<!---->
+	<string name="policy_app_blacklist">"Onemogući navedene aplikacije"</string>
+	<!---->
+	<string name="policy_app_whitelist">"Dozvoli samo navedene aplikacije"</string>
+	<!---->
+	<string name="policy_text_truncation">"Ograniči veličinu tekstualne e-pošte"</string>
+	<!---->
+	<string name="policy_html_truncation">"Ograniči veličinu HTML poruka e-pošte"</string>
+	<!---->
+	<string name="policy_require_sd_encryption">"Zahtevaj šifriranje SD kartice"</string>
+	<!---->
+	<string name="policy_dont_allow_attachments">"Ne dozvoli priloge"</string>
+	<!---->
+	<string name="policy_max_attachment_size">"Ograniči veličinu priloga"</string>
+	<!---->
+	<string name="policy_require_manual_sync_roaming">"Dozvoli samo ručnu sinhronizaciju u romingu"</string>
+	<!---->
+	<string name="policy_require_encryption">"Zahtevaj kodiranje uređaja"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_auto">"Automatski"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1day">"Jedan dan"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_3days">"Tri dana"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1week">"Jedna sedmica"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_2weeks">"Dve sedmice"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1month">"Jedan mesec"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_all">"Svi"</string>
+	<!---->
+	<string name="auth_error_notification_title">"Greška potvrde autentičnosti"</string>
+	<!---->
+	<string name="auth_error_notification_text">"Dodirnite za izmenu podešavanja naloga za nalog <xliff:g id="account">%s</xliff:g>"</string>
+	<!---->
+	<string name="email_settings_not_available">"Ponovo omogućiti da aplikacija e-pošte vidi podešavanja."</string>
+</resources>

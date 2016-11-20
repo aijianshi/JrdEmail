@@ -1,0 +1,1747 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Tue Sep 20 16:24:06 CST 2016
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="permission_read_attachment_label">"Čitanje priloga iz poruka e-pošte"</string>
+	<!---->
+	<string name="permission_read_attachment_desc">"Omogućava aplikaciji da čita priloge u porukama e-pošte."</string>
+	<!---->
+	<string name="permission_access_provider_label">"Pristup podacima provajdera e-pošte"</string>
+	<!---->
+	<string name="permission_access_provider_desc">"Omogućava aplikaciji da pristupa bazi podataka e-pošte, uključujući primljene poruke, poslate poruke, korisnička imena i lozinke."</string>
+	<!---->
+	<string name="debug_title">"Otkloni grešku"</string>
+	<!---->
+	<string name="next_action">"Sledeće"</string>
+	<!---->
+	<string name="okay_action">"U redu"</string>
+	<!---->
+	<string name="cancel_action">"Otkaži"</string>
+	<!---->
+	<string name="previous_action">"Prethodno"</string>
+	<!---->
+	<string name="done_action">"Urađeno"</string>
+	<!---->
+	<string name="create_action">"Napravi novi"</string>
+	<!---->
+	<string name="quick_responses_empty_view">"Nema brzih odgovora."</string>
+	<!---->
+	<string name="account_settings_action">"Podešavanja naloga"</string>
+	<!---->
+	<string name="status_network_error">"Problem sa povezivanjem."</string>
+	<plurals name="move_messages">
+		<item quantity="one">"Premesti poruku"</item>
+		<item quantity="other">"Premesti poruke"</item>
+	</plurals>
+	<!---->
+	<string name="cannot_move_protocol_not_supported_toast">"Premeštanje nije podržano na POP3 nalozima."</string>
+	<!---->
+	<string name="cannot_move_multiple_accounts_toast">"Premeštanje nije moguće zato što izbor obuhvata više naloga."</string>
+	<!---->
+	<string name="cannot_move_special_mailboxes_toast">"Poruke u Nacrtima, Odlaznom sandučetu i Poslatim porukama ne mogu da se premeste."</string>
+	<!---->
+	<string name="mailbox_name_display_inbox">"Prijemno sanduče"</string>
+	<!---->
+	<string name="mailbox_name_display_outbox">"Odlazno sanduče"</string>
+	<!---->
+	<string name="mailbox_name_display_drafts">"Nacrti"</string>
+	<!---->
+	<string name="mailbox_name_display_trash">"Otpad"</string>
+	<!---->
+	<string name="mailbox_name_display_sent">"Poslate"</string>
+	<!---->
+	<string name="mailbox_name_display_junk">"Neželjene"</string>
+	<!---->
+	<string name="mailbox_name_display_starred">"Sa zvezdicom"</string>
+	<!---->
+	<string name="mailbox_name_display_unread">"Nepročitane"</string>
+	<!---->
+	<string name="account_folder_list_summary_inbox">"Prijemno sanduče"</string>
+	<!---->
+	<string name="account_folder_list_summary_starred">"Sa zvezdicom"</string>
+	<!---->
+	<string name="account_folder_list_summary_drafts">"Nacrti"</string>
+	<!---->
+	<string name="account_folder_list_summary_outbox">"Odlazno sanduče"</string>
+	<!---->
+	<string name="mailbox_list_account_selector_combined_view">"Kombinovani prikaz"</string>
+	<!---->
+	<string name="message_compose_fwd_header_fmt">"\n\n-------- Izvorna poruka--------\nNaslov:<xliff:g id="subject">%1$s</xliff:g>\nOd: <xliff:g id="sender">%2$s</xliff:g>\nZa:<xliff:g id="to">%3$s</xliff:g>\nCC: <xliff:g id="cc">%4$s</xliff:g>\n\n"</string>
+	<!---->
+	<string name="message_compose_insert_quick_response_list_title">"Umetanje brzog odgovora"</string>
+	<!---->
+	<string name="message_compose_insert_quick_response_menu_title">"Umetnite brzi odgovor"</string>
+	<!---->
+	<string name="message_view_attachment_background_load">"Neki od priloga u prosleđenoj poruci će biti preuzeti pre slanja."</string>
+	<!---->
+	<string name="attachment_not_found">"Prilog ne može da se preuzme."</string>
+	<!---->
+	<string name="message_decode_error">"Došlo je do greške prilikom dekodiranja poruke."</string>
+	<!---->
+	<string name="forward_download_failed_ticker">"Nije moguće proslediti jedan ili više priloga."</string>
+	<!---->
+	<string name="forward_download_failed_title">"Prilog nije prosleđen"</string>
+	<!---->
+	<string name="login_failed_ticker">"Prijavljivanje na nalog <xliff:g id="account_name">%s</xliff:g> nije uspelo."</string>
+	<!---->
+	<string name="login_failed_title">"Neuspela prijava"</string>
+	<plurals name="message_view_attachment_bytes">
+		<item quantity="one">"<xliff:g id="SIZE_IN_BYTES">%d</xliff:g> B"</item>
+		<item quantity="other">"<xliff:g example="279" id="size_in_bytes">%d</xliff:g> B"</item>
+	</plurals>
+	<plurals name="message_view_attachment_kilobytes">
+		<item quantity="one">"<xliff:g example="1" id="size_in_kilobytes">%d</xliff:g> KB"</item>
+		<item quantity="other">"<xliff:g example="279" id="size_in_kilobytes">%d</xliff:g> KB"</item>
+	</plurals>
+	<plurals name="message_view_attachment_megabytes">
+		<item quantity="one">"<xliff:g example="1" id="size_in_megabytes">%d</xliff:g> MB"</item>
+		<item quantity="other">"<xliff:g example="279" id="size_in_megabytes">%d</xliff:g> MB"</item>
+	</plurals>
+	<plurals name="message_view_attachment_gigabytes">
+		<item quantity="one">"<xliff:g example="1" id="size_in_gigabytes">%d</xliff:g> GB"</item>
+		<item quantity="other">"<xliff:g example="279" id="size_in_gigabytes">%d</xliff:g> GB"</item>
+	</plurals>
+	<!---->
+	<string name="account_setup_basics_title">"Postavljanje naloga"</string>
+	<!---->
+	<string name="oauth_authentication_title">"Traži autorizaciju"</string>
+	<!---->
+	<string name="sign_in_title">"Prijava"</string>
+	<!---->
+	<string name="oauth_error_description">"Potvrda autentičnosti nije moguća"</string>
+	<!---->
+	<string name="password_warning_label">"Adresa e-pošte ili lozinka su netačni"</string>
+	<!---->
+	<string name="email_confirmation_label">"Adresa e-pošte"</string>
+	<!---->
+	<string name="account_setup_basics_headline">"Nalog e-pošte"</string>
+	<!---->
+	<string name="accounts_welcome">"Možete da podesite nalog u svega nekoliko koraka."</string>
+	<!---->
+	<string name="account_setup_basics_email_label">"Adresa e-pošte"</string>
+	<!---->
+	<string name="account_setup_basics_email_flying_label">"E-pošta"</string>
+	<!---->
+	<string name="or_label">"ILI"</string>
+	<!---->
+	<string name="sign_in_with_google">"Prijavite se preko Google-a"</string>
+	<!---->
+	<string name="account_setup_basics_password_label">"Lozinka"</string>
+	<!---->
+	<string name="password_hint">"Lozinka"</string>
+	<!---->
+	<string name="signed_in_with_service_label">"Prijavljen preko %s"</string>
+	<!---->
+	<string name="authentication_label">"POTVRDA AUTENTIČNOSTI"</string>
+	<!---->
+	<string name="add_authentication_label">"Dodati potvrdu autentičnosti"</string>
+	<!---->
+	<string name="clear_authentication_label">"Izbrisati potvrdu autentičnosti"</string>
+	<!---->
+	<string name="account_setup_basics_manual_setup_action">"Ručna postavka"</string>
+	<!---->
+	<string name="account_setup_username_password_toast">"Unesite važeću adresu e-pošte i lozinku."</string>
+	<!---->
+	<string name="account_duplicate_dlg_title">"Dupliraj nalog"</string>
+	<!---->
+	<string name="account_duplicate_dlg_message_fmt">"Već koristite ovo korisničko ime za nalog \"<xliff:g id="duplicate">%s</xliff:g>\"."</string>
+	<!---->
+	<string name="account_password_spaces_error">"Ova lozinka počinje ili se završava jednim razmakom ili sa više njih. Mnogi serveri ne podržavaju lozinke sa razmacima."</string>
+	<!---->
+	<string name="account_setup_check_settings_retr_info_msg">"Dobijanje informacija o nalogu..."</string>
+	<!---->
+	<string name="account_setup_check_settings_check_incoming_msg">"Potvrđivanje podešavanja servera..."</string>
+	<!---->
+	<string name="account_setup_check_settings_check_outgoing_msg">"Potvrđivanje podešavanja SMTP servera…"</string>
+	<!---->
+	<string name="account_setup_creating_account_msg">"Kreiranje naloga..."</string>
+	<!---->
+	<string name="account_setup_ab_headline">"Potvrditi vrstu naloga"</string>
+	<!---->
+	<string name="account_setup_ab_instructions_format">"Naznačili ste da <xliff:g id="email">%1$s</xliff:g> koristi <xliff:g id="userProtocol">%2$s</xliff:g>, ali nalog može da koristi <xliff:g id="providerProtocol">%3$s</xliff:g>"</string>
+	<!---->
+	<string name="account_setup_names_title">"Postavljanje naloga"</string>
+	<!---->
+	<string name="account_setup_names_headline">"Nalog je postavljen, a e-poruke su na putu!"</string>
+	<!---->
+	<string name="account_setup_names_account_name_label">"Dodaj ime nalogu"</string>
+	<!---->
+	<string name="account_setup_names_user_name_label">"Vaše ime"</string>
+	<!---->
+	<string name="account_setup_names_user_name_empty_error">"Ovo polje ne može da bude prazno."</string>
+	<!---->
+	<string name="account_setup_account_type_title">"Postavljanje naloga"</string>
+	<!---->
+	<string name="account_setup_account_type_headline">"Vrsta naloga"</string>
+	<!---->
+	<string name="account_setup_account_type_instructions">"Koji je ovo tip naloga?"</string>
+	<!---->
+	<string name="account_setup_incoming_title">"Postavljanje naloga"</string>
+	<!---->
+	<string name="account_setup_incoming_headline">"Podešavanja dolaznog servera"</string>
+	<!---->
+	<string name="account_setup_incoming_username_label">"Korisničko ime"</string>
+	<!---->
+	<string name="account_setup_incoming_password_label">"Lozinka"</string>
+	<!---->
+	<string name="account_setup_password_subheading">"Lozinka"</string>
+	<!---->
+	<string name="account_setup_incoming_server_label">"Server"</string>
+	<!---->
+	<string name="account_setup_incoming_port_label">"Port"</string>
+	<!---->
+	<string name="account_setup_incoming_security_label">"Sigurnosni tip"</string>
+	<!---->
+	<string name="account_setup_incoming_domain_label">"Domen"</string>
+	<!---->
+	<string name="account_setup_incoming_add_domain_label">"Dodajte domen"</string>
+	<!---->
+	<string name="account_setup_incoming_security_none_label">"Ništa"</string>
+	<!---->
+	<string name="account_setup_incoming_security_ssl_trust_certificates_label">"SSL/TLS (Prihvati sve sertifikate)"</string>
+	<!---->
+	<string name="account_setup_incoming_security_ssl_label">"SSL/TLS"</string>
+	<!---->
+	<string name="account_setup_incoming_security_tls_trust_certificates_label">"STARTTLS (Prihvati sve sertifikate)"</string>
+	<!---->
+	<string name="account_setup_incoming_security_tls_label">"STARTTLS"</string>
+	<!---->
+	<string name="account_setup_incoming_delete_policy_label">"Izbriši e-poruku sa servera"</string>
+	<!---->
+	<string name="account_setup_incoming_delete_policy_never_label">"Nikad"</string>
+	<!---->
+	<string name="account_setup_incoming_delete_policy_delete_label">"Kada izbrišem iz prijemnog sandučeta"</string>
+	<!---->
+	<string name="account_setup_incoming_imap_path_prefix_label">"Prefiks IMAP putanje"</string>
+	<!---->
+	<string name="account_setup_incoming_imap_path_prefix_hint">"Izborni"</string>
+	<!---->
+	<string name="account_setup_outgoing_title">"Postavljanje naloga"</string>
+	<!---->
+	<string name="account_setup_outgoing_headline">"Podešavanja odlaznog servera"</string>
+	<!---->
+	<string name="account_setup_outgoing_smtp_server_label">"SMTP server"</string>
+	<!---->
+	<string name="account_setup_outgoing_port_label">"Port"</string>
+	<!---->
+	<string name="account_setup_outgoing_security_label">"Tip bezbednosti"</string>
+	<!---->
+	<string name="account_setup_outgoing_require_login_label">"Zahtevaj prijavljivanje"</string>
+	<!---->
+	<string name="account_setup_outgoing_username_label">"Korisničko ime"</string>
+	<!---->
+	<string name="account_setup_outgoing_password_label">"Lozinka"</string>
+	<!---->
+	<string name="account_setup_exchange_certificate_title">"Sertifikat klijenta"</string>
+	<!---->
+	<string name="account_setup_exchange_select_certificate">"Odaberi"</string>
+	<!---->
+	<string name="account_setup_exchange_use_certificate">"Upotrebi sertifikat klijenta"</string>
+	<!---->
+	<string name="account_setup_exchange_remove_certificate">"Ukloni"</string>
+	<!---->
+	<string name="account_setup_exchange_no_certificate">"Ništa"</string>
+	<!---->
+	<string name="account_setup_exchange_device_id_label">"ID mobilnog uređaja"</string>
+	<!---->
+	<string name="account_setup_options_title">"Podešavanja naloga"</string>
+	<!---->
+	<string name="account_setup_options_headline">"Opcije naloga"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_label">"Sinhronizuj frekvenciju"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_never">"Nikad"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_push">"Automatski (Push)"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_5min">"Svakih 5 minuta"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_10min">"Svakih 10 minuta"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_15min">"Svakih 15 minuta"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_30min">"Svakih 30 minuta"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_1hour">"Svakog sata"</string>
+	<!---->
+	<string name="account_setup_options_notify_label">"Obavesti me o prijemu e-pošte"</string>
+	<!---->
+	<string name="account_setup_options_sync_contacts_label">"Sinhronizuj kontakte sa ovog naloga."</string>
+	<!---->
+	<string name="account_setup_options_sync_calendar_label">"Kalendar za sinhronizaciju sa ovog naloga"</string>
+	<!---->
+	<string name="account_setup_options_sync_email_label">"Sinhronizuj e-poštu sa ovog naloga."</string>
+	<!---->
+	<string name="account_setup_options_background_attachments_label">"Automatski preuzmi priloge kada je uspostavljena veza sa Wi-Fi mrežom"</string>
+	<!---->
+	<string name="account_setup_failed_dlg_title">"Ne može da završi"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_label">"Sinhronizacija e-poruka od:"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_auto">"Automatski"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1day">"Poslednji dan"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_3days">"Poslednja tri dana"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1week">"Poslednja nedelja"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_2weeks">"Poslednje dve nedelje"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1month">"Prošlog meseca"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_all">"Sve"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_default">"Koristi podrazumevana podešavanja naloga"</string>
+	<!---->
+	<string name="account_setup_failed_dlg_auth_message">"Korisničko ime ili lozinka su netačni."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_auth_message_fmt">"Prijavljivanje nije uspelo.\n(<xliff:g id="error">%s</xliff:g>)"</string>
+	<!---->
+	<string name="account_setup_autodiscover_dlg_authfail_title">"Problem sa podešavanjem naloga"</string>
+	<!---->
+	<string name="account_setup_autodiscover_dlg_authfail_message">"Potvrdite da su korisničko ime, lozinka i podešavanja naloga tačni."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_certificate_message">"Nije moguće uspostaviti vezu sa serverom zbog nepouzdanog ili nevažećeg sertifikata."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_certificate_message_fmt">"Bezbedno povezivanje sa serverom nije moguće.\n(<xliff:g id="error">%s</xliff:g>)"</string>
+	<!---->
+	<string name="account_setup_failed_certificate_required">"Sertifikat klijenta je obavezan. Da li želite da se povežete sa serverom sa sertifikatom klijenta?"</string>
+	<!---->
+	<string name="account_setup_failed_certificate_inaccessible">"Sertifikat je nevažeći ili nedostupan."</string>
+	<!---->
+	<string name="account_setup_failed_check_credentials_message">"Server je odgovorio greškom. Proverite korisničko ime i lozinku, a zatim pokušajte ponovo."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_server_message">"Povezivanje sa serverom nije moguće."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_server_message_fmt">"Povezivanje sa serverom nije moguće.\n(<xliff:g id="error">%s</xliff:g>)"</string>
+	<!---->
+	<string name="account_setup_failed_tls_required">"TLS je obavezan, ali ga server ne podržava."</string>
+	<!---->
+	<string name="account_setup_failed_auth_required">"Server ne podržava metode potvrde autentičnosti."</string>
+	<!---->
+	<string name="account_setup_failed_security">"Nije moguće otvoriti vezu sa serverom zbog bezbednosne greške."</string>
+	<!---->
+	<string name="account_setup_failed_ioerror">"Nije moguće otvoriti vezu sa serverom."</string>
+	<!---->
+	<string name="account_setup_failed_protocol_unsupported">"Uneli ste netačnu adresu servera ili server zahteva verziju protokola koju e-pošta ne podržava."</string>
+	<!---->
+	<string name="account_setup_failed_access_denied">"Nemate dozvolu za sinhronizaciju sa ovim serverom. Obratite se administratoru servera za više informacija."</string>
+	<!---->
+	<string name="account_setup_security_required_title">"Administracija udaljene bezbednosti"</string>
+	<!---->
+	<string name="account_setup_security_policies_required_fmt">"Server <xliff:g id="server">%s</xliff:g> zahteva da mu omogućite daljinsku kontrolu pojedinih bezbednosnih funkcija Android uređaja. Želite li da završite podešavanje ovog naloga?"</string>
+	<!---->
+	<string name="account_setup_failed_security_policies_unsupported">"Ovaj server zahteva bezbednosne funkcije koje Android uređaj ne podržava, uključujući: <xliff:g id="error">%s</xliff:g>"</string>
+	<!---->
+	<string name="account_setup_username_uneditable_error">"Ne možete da promenite korisničko ime naloga. Da biste dodali nalog sa drugim korisničkim imenom, dodirnite Dodaj nalog."</string>
+	<!---->
+	<string name="disable_admin_warning">"UPOZORENJE: Deaktiviranje ovlašćenja aplikacije e-pošte za administraciju uređaja će izbrisati sve naloge e-pošte koji to zahtevaju, kao i njihov sadržaj, kontakte, događaje u kalendaru i ostale podatke."</string>
+	<!---->
+	<string name="account_security_dialog_title">"Sigurnosno ažuriranje"</string>
+	<!---->
+	<string name="account_security_dialog_content_fmt">"Nalog <xliff:g id="account">%s</xliff:g> zahteva da ažurirate sigurnosna podešavanja."</string>
+	<!---->
+	<string name="security_unsupported_ticker_fmt">"Nalog \"<xliff:g id="account">%s</xliff:g>\" ne može da se sinhronizuje zbog bezbednosnih zahteva."</string>
+	<!---->
+	<string name="security_needed_ticker_fmt">"Nalog \"<xliff:g id="account">%s</xliff:g>\" zahteva ažuriranje bezbednosnih podešavanja."</string>
+	<!---->
+	<string name="security_changed_ticker_fmt">"Nalog \"<xliff:g id="account">%s</xliff:g>\" je promenio bezbednosna podešavanja; nema potrebe za intervenisanjem korisnika."</string>
+	<!---->
+	<string name="security_notification_content_update_title">"Potrebno je bezbednosno ažuriranje"</string>
+	<!---->
+	<string name="security_notification_content_change_title">"Bezbednosne polise su se promenile"</string>
+	<!---->
+	<string name="security_notification_content_unsupported_title">"Bezbednosne polise se ne mogu ispuniti"</string>
+	<!---->
+	<string name="account_security_title">"Bezbednost uređaja"</string>
+	<!---->
+	<string name="account_security_policy_explanation_fmt">"Server <xliff:g id="server">%s</xliff:g> zahteva da mu omogućite daljinsku kontrolu pojedinih bezbednosnih funkcija Android uređaja."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_edit_details_action">"Izmeni detalje"</string>
+	<!---->
+	<string name="password_expire_warning_ticker_fmt">"\"<xliff:g id="account">%s</xliff:g>\" zahteva da promenite PIN ili lozinku za zaključavanje ekrana."</string>
+	<!---->
+	<string name="password_expire_warning_content_title">"Lozinka za ekran ističe"</string>
+	<!---->
+	<string name="password_expired_ticker">"PIN ili lozinka za zaključavanje ekrana su istekli."</string>
+	<!---->
+	<string name="password_expired_content_title">"Lozinka za zaključavanje ekrana je istekla"</string>
+	<!---->
+	<string name="password_expire_warning_dialog_title">"Lozinka za zaključavanje ekrana ističe"</string>
+	<!---->
+	<string name="password_expire_warning_dialog_content_fmt">"Potrebno je da uskoro promenite PIN ili lozinku za zaključavanje ekrana ili će podaci za nalog <xliff:g id="account">%s</xliff:g> biti izbrisani. Da li želite da ih sada promenite?"</string>
+	<!---->
+	<string name="password_expired_dialog_title">"Lozinka za zaključavanje ekrana je istekla"</string>
+	<!---->
+	<string name="password_expired_dialog_content_fmt">"Podaci za nalog <xliff:g id="account">%s</xliff:g> se brišu sa uređaja. Možete da ih vratite tako što ćete promeniti PIN ili lozinku za zaključavanje ekrana. Da li želite da ih sada promenite?"</string>
+	<!---->
+	<string name="account_settings_exit_server_settings">"Odbaciti nesačuvane promene?"</string>
+	<!---->
+	<string name="account_settings_login_dialog_title">"Neuspela prijava"</string>
+	<!---->
+	<string name="account_settings_login_dialog_content_fmt">"Korisničko ime ili lozinka za nalog <xliff:g id="account">%s</xliff:g> su netačni. Ažurirati sada?"</string>
+	<!---->
+	<string name="account_settings_login_dialog_reason_fmt">"Vaša prijava na nalog <xliff:g id="account">%s</xliff:g> nije uspela; server kaže: <xliff:g id="reason">%s</xliff:g> Želite li da ažurirate korisničko ime i/ili lozinku?"</string>
+	<!---->
+	<string name="account_settings_background_attachments_label">"Preuzmi priloge"</string>
+	<!---->
+	<string name="account_settings_background_attachments_summary">"Automatsko preuzimanje priloga nedavnih poruka preko Wi-Fi mreže"</string>
+	<!---->
+	<string name="account_settings_notify_label">"Obaveštenja o e-porukama"</string>
+	<!---->
+	<string name="account_settings_summary">"Učestalost sinhronizacije, obaveštenja itd."</string>
+	<!---->
+	<string name="account_settings_notify_summary">"Pošalji obaveštenje kada stigne poruka e-pošte"</string>
+	<!---->
+	<string name="account_settings_mail_check_frequency_label">"Učestalost sinhronizacije"</string>
+	<!---->
+	<string name="account_settings_incoming_label">"Podešavanja prijema"</string>
+	<!---->
+	<string name="account_settings_incoming_summary">"Korisničko ime, lozinka i druga podešavanja servera dolazne pošte"</string>
+	<!---->
+	<string name="account_settings_outgoing_label">"Podešavanja odlaznih poruka"</string>
+	<!---->
+	<string name="account_settings_outgoing_summary">"Korisničko ime, lozinka i druga podešavanja servera odlazne pošte"</string>
+	<!---->
+	<string name="account_settings_reply_to_category">"Odgovori na podešavanja"</string>
+	<!---->
+	<string name="account_settings_reply_to_label">"Odgovori na"</string>
+	<!---->
+	<string name="account_settings_reply_to_invalid">"Adresa je pogrešna"</string>
+	<!---->
+	<string name="account_settings_enforced_label">"Sprovođenje polisa"</string>
+	<!---->
+	<string name="account_settings_enforced_summary">"Ništa"</string>
+	<!---->
+	<string name="account_settings_unsupported_label">"Nepodržane polise"</string>
+	<!---->
+	<string name="account_settings_unsupported_summary">"Ništa"</string>
+	<!---->
+	<string name="account_settings_retry_label">"Pokušaj sinhronizaciju"</string>
+	<!---->
+	<string name="account_settings_retry_summary">"Dodirnite ovde da sinhronizujete ovaj nalog"</string>
+	<!---->
+	<string name="account_settings_description_label">"Ime naloga"</string>
+	<!---->
+	<string name="account_settings_name_label">"Vaše ime"</string>
+	<!---->
+	<string name="account_settings_edit_quick_responses_label">"Brzi odgovori"</string>
+	<!---->
+	<string name="account_settings_edit_quick_responses_summary">"Uređivanje teksta koji često umećete prilikom pisanja e-pošte"</string>
+	<!---->
+	<string name="account_settings_notifications">"Podešavanja obaveštenja"</string>
+	<!---->
+	<string name="account_settings_data_usage">"Upotreba podataka"</string>
+	<!---->
+	<string name="account_settings_policies">"Bezbednosne polise"</string>
+	<!---->
+	<string name="system_folders_title">"Sistemske fascikle"</string>
+	<!---->
+	<string name="system_folders_trash_title">"Fascikla sa otpacima"</string>
+	<!---->
+	<string name="system_folders_trash_summary">"Izaberite fasciklu za otpatke servera"</string>
+	<!---->
+	<string name="system_folders_trash_dlg">"Izaberite fasciklu za otpatke servera"</string>
+	<!---->
+	<string name="system_folders_sent_title">"Fascikla sa poslatim stavkama"</string>
+	<!---->
+	<string name="system_folders_sent_summary">"Izaberite fasciklu poslatih poruka svog servera"</string>
+	<!---->
+	<string name="system_folders_sent_dlg">"Izaberite fasciklu poslatih poruka svog servera"</string>
+	<!---->
+	<string name="edit_quick_response_dialog">"Brzi odgovor"</string>
+	<!---->
+	<string name="save_action">"Sačuvaj"</string>
+	<!---->
+	<string name="account_settings_sync_contacts_enable">"Sinhronizacija kontakata"</string>
+	<!---->
+	<string name="account_settings_sync_contacts_summary">"Sinhronizuj kontakte za ovaj nalog"</string>
+	<!---->
+	<string name="account_settings_sync_calendar_enable">"Sinhronizacija kalendara"</string>
+	<!---->
+	<string name="account_settings_sync_calendar_summary">"Sinhronizuj događaj u kalendaru za ovaj nalog"</string>
+	<!---->
+	<string name="account_settings_sync_email_enable">"Sinhronizuj e-poštu"</string>
+	<!---->
+	<string name="account_settings_sync_email_summary">"Sinhronizuj e-poštu za ovaj nalog"</string>
+	<!---->
+	<string name="account_settings_vibrate_when_label">"Vibracija"</string>
+	<!---->
+	<string name="account_settings_ringtone">"Izaberite melodiju"</string>
+	<!---->
+	<string name="account_settings_servers">"Podešavanja servera"</string>
+	<!---->
+	<string name="default_ringtone">"Podrazumevana melodija"</string>
+	<!---->
+	<string name="default_ringtone_unkonwn">"Nepoznata melodija zvona"</string>
+	<!---->
+	<string name="mailbox_settings_activity_title">"Opcije sinhronizacije"</string>
+	<!---->
+	<string name="mailbox_settings_activity_title_with_mailbox">"Opcije sinhronizacije (<xliff:g example="Family" id="mailboxx_name">%s</xliff:g>)"</string>
+	<!---->
+	<string name="mailbox_settings_sync_enabled_label">"Sinhronizacija ove fascikle"</string>
+	<!---->
+	<string name="mailbox_settings_sync_enabled_summary">"Poruke će biti preuzete kada se povežete."</string>
+	<!---->
+	<string name="mailbox_settings_mailbox_sync_window_label">"Dani za sinhronizaciju e-pošte"</string>
+	<!---->
+	<string name="prefDialogTitle_conversationListIcon">"Slika pošaljioca"</string>
+	<!---->
+	<string name="provider_note_live">"Samo neki \Plus\ nalozi podržavaju pristup preko POP protokola, što omogućava povezivanje ovog programa. Ako ne možete da se prijavite koristeći tačnu adresu e-pošte i lozinku, možda nemate plaćeni \Plus\ nalog. Pokrenite internet pregledač da biste pristupili ovim nalozima e-pošte."</string>
+	<!---->
+	<string name="provider_note_t_online">"Pre nego što podesite ovaj nalog e-pošte, posetite T-Online veb-sajt i napravite lozinku za pristup e-pošti preko POP3 protokola."</string>
+	<!---->
+	<string name="exchange_name">"Poslovni"</string>
+	<!---->
+	<string name="exchange_name_alternate">"Microsoft ActiveSync za razmenu"</string>
+	<!---->
+	<string name="system_account_create_failed">"Nije moguće otvoriti nalog. Pokušajte ponovo."</string>
+	<!---->
+	<string name="device_admin_label">"E-pošta"</string>
+	<!---->
+	<string name="device_admin_description">"Omogućava serverske sigurnosne smernice"</string>
+	<!---->
+	<string name="settings_activity_title">"Podešavanja"</string>
+	<!---->
+	<string name="header_label_general_preferences">"Opšta podešavanja"</string>
+	<!---->
+	<string name="general_preference_confirm_delete_label">"Potvrdite pre brisanja"</string>
+	<!---->
+	<string name="general_preference_confirm_send_label">"Potvrdite pre slanja"</string>
+	<!---->
+	<string name="more_than_999">"više od 999"</string>
+	<!---->
+	<string name="search_hint">"Pretraga"</string>
+	<!---->
+	<string name="policy_dont_allow_camera">"Prekini dozvoljavanje upotrebe fotoaparata uređaja"</string>
+	<!---->
+	<string name="policy_require_password">"Zahtevaj lozinku uređaja"</string>
+	<!---->
+	<string name="policy_password_history">"Ograniči ponovnu upotrebu nedavno korišćenih lozinki"</string>
+	<!---->
+	<string name="policy_password_expiration">"Zahtevaj da lozinke isteknu"</string>
+	<!---->
+	<string name="policy_screen_timeout">"Zahtevaj od uređaja u mirovanju da zaključa ekran"</string>
+	<!---->
+	<string name="policy_calendar_age">"Ograniči broj sinhronizovanih događaja u kalendaru"</string>
+	<!---->
+	<string name="policy_email_age">"Ograniči broj sinhronizovanih poruka e-pošte"</string>
+	<!---->
+	<string name="quick_1">"Hvala!"</string>
+	<!---->
+	<string name="quick_2">"Meni zvuči dobro!"</string>
+	<!---->
+	<string name="quick_3">"Pročitaću ovo kasnije i javiću ti se."</string>
+	<!---->
+	<string name="quick_4">"Hajde da zakažemo sastanak da razgovaramo o ovome."</string>
+	<!---->
+	<string name="require_manual_sync_message">"Sinhronizacija u pozadini za ovaj nalog je deaktivirana u romingu."</string>
+	<!---->
+	<string name="confirm_response">"Slanje odgovora…"</string>
+	<!---->
+	<string name="no_conversations">"Nema poruka."</string>
+	<!-- no translation found for imap_name -->
+	<skip />
+	<!-- no translation found for pop3_name -->
+	<skip />
+	<!---->
+	<string name="email_name">"E-pošta"</string>
+	<!---->
+	<string name="folder_picker_title">"Biranje fascikli"</string>
+	<!---->
+	<string name="trash_folder_selection_title">"Izaberite fasciklu za otpatke servera za <xliff:g id="account">%s</xliff:g>"</string>
+	<!---->
+	<string name="sent_folder_selection_title">"Izaberite fasciklu poslatih stavki servera za nalog <xliff:g id="account">%s</xliff:g>"</string>
+	<!---->
+	<string name="account_waiting_for_folders_msg">"Učitavanje liste fascikli..."</string>
+	<!---->
+	<string name="no_quick_responses">"Nema dostupinih"</string>
+	<!---->
+	<string name="gmail_name">"Gmail"</string>
+	<!---->
+	<string name="folder_sync_settings_pref_title">"Podešavanja sinhronizacije fascikle"</string>
+	<!---->
+	<string name="select_your_account">"Izaberi nalog"</string>
+	<!---->
+	<string name="select_account_list_below">"Izaberite nalog sa liste:"</string>
+	<!---->
+	<string name="cancel_label">"Otkaži"</string>
+	<!---->
+	<string name="next_label">"Sledeće"</string>
+	<!---->
+	<string name="str_account_provider_other">"Ostalo"</string>
+	<!---->
+	<string name="account_settings_download_options_label">"Opcije preuzimanja"</string>
+	<!---->
+	<string name="account_setting_download_opt_headonly">"Samo zaglavlje"</string>
+	<!---->
+	<string name="account_setting_download_opt_all">"Sve"</string>
+	<!---->
+	<string name="account_setting_download_opt_2k">"2 K"</string>
+	<!---->
+	<string name="account_setting_download_opt_5k">"5 K"</string>
+	<!---->
+	<string name="account_setting_download_opt_10k">"10 K"</string>
+	<!---->
+	<string name="account_setting_download_opt_20k">"20 K"</string>
+	<!---->
+	<string name="account_setting_download_opt_50k">"50 K"</string>
+	<!---->
+	<string name="account_setting_download_opt_100k">"100 K"</string>
+	<!---->
+	<string name="account_oof_error_tip_past">"Završno vreme ne može da bude u prošlosti. Promenite Zvaršno vreme na vreme u budućnosti."</string>
+	<!---->
+	<string name="account_oof_error_tip_earlier">"Završno vreme ne može da bude pre od početnog vremena. Ponovo promenite završno vreme."</string>
+	<!---->
+	<string name="account_setting_oof_label">"Podešavanja van kancelarije"</string>
+	<!---->
+	<string name="oof_auto_repley">"Pošaljite automatsku poruku kada ste van kancelarije"</string>
+	<!---->
+	<string name="oof_auto_replies_period">"Šalji automatske odgovore tokom ovog perioda"</string>
+	<!---->
+	<string name="start_time">"Vreme početka"</string>
+	<!---->
+	<string name="end_time">"Vreme završetka"</string>
+	<!---->
+	<string name="internal_message">"Interna poruka"</string>
+	<!---->
+	<string name="oof_auto_replies_external_senders">"Šalji automatske odgovore eksternim pošiljaocima"</string>
+	<!---->
+	<string name="oof_choice_oof_in_contacts">"Pošalji automatske odgovore u režimu van kancelarije pošiljaocima iz moje liste kontakata"</string>
+	<!---->
+	<string name="oof_choice_oof_outside_organisation">"Pošalji automatske odgovore u režimu van kancelarije svim kontaktima van moje organizacije"</string>
+	<!---->
+	<string name="external_message">"Spoljna poruka"</string>
+	<!---->
+	<string name="oof_done_message_attention">"Niste odredili poruku sa automatskim odgovorom za osobe unutar vaše organizacije. Ukoliko poruka u režimu van kancelarije nije uneta osobe neće primiti obaveštenje za režim van kancelarije. Vaša pravila u vezi sa režimom van kancelarije i dalje će biti u funkciji. Želite li da nastavite?"</string>
+	<!---->
+	<string name="oof_choice_in_contacts">"Pošalji pošiljaocima iz moje liste kontakata"</string>
+	<!---->
+	<string name="oof_choice_all_senders">"Pošalji svim pošiljaocima"</string>
+	<!---->
+	<string name="hint_text_of_internal_message">"Odgovorite na adrese iz svoje organizacije"</string>
+	<!---->
+	<string name="hint_text_of_external_message">"Odgovoriti na adrese van vaše organizacije"</string>
+	<!---->
+	<string name="account_delete_dlg_title">"Želite li da uklonite nalog?"</string>
+	<!---->
+	<string name="account_delete_dlg_instructions_fmt">"Nalog \"<xliff:g id="account">%s</xliff:g>\" će biti uklonjen iz e-pošte."</string>
+	<!---->
+	<string name="account_delete_dlg_instructions_fmt_new">"Uklanjanjem ovog naloga izbrisaćete sve poruke, kontakte i druge podatke sa telefona."</string>
+	<!---->
+	<string name="account_delete_dlg_action_remove_label">"Ukloni"</string>
+	<!---->
+	<string name="account_delete_dlg_action_cancel_label">"Otkaži"</string>
+	<!---->
+	<string name="account_settings_category_delete_account">"Ukloni nalog"</string>
+	<!---->
+	<string name="account_settings_delete_account_label">"Ukloni nalog"</string>
+	<!---->
+	<string name="account_settings_default_label">"Podrazumevani nalog"</string>
+	<!---->
+	<string name="account_settings_default_summary">"Podrazumevano šalji e-poruke sa ovog naloga"</string>
+	<!---->
+	<string name="account_setup_options_default_label">"Podrazumevano šalji e-poruke sa ovog naloga"</string>
+	<!---->
+	<string name="account_setup_basics_default_label">"Podrazumevano šalji e-poruke sa ovog naloga"</string>
+	<!---->
+	<string name="local_search_action">"Pretraga u lokalu"</string>
+	<!---->
+	<string name="service_search_action">"Pretraži na serveru"</string>
+	<!---->
+	<string name="local_search_all">"Sve"</string>
+	<!---->
+	<string name="local_search_from">"Od"</string>
+	<!---->
+	<string name="local_search_to">"Za"</string>
+	<!---->
+	<string name="local_search_subject">"Naslov"</string>
+	<!---->
+	<string name="status_loading_attachments">"Učitavanje"</string>
+	<!---->
+	<string name="account_use_proxy_label">"Koristi proksi server"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_label">"Proksi IP"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_port_label">"Proksi port"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_name">"Ime proksija"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_password">"Proksi lozinka"</string>
+	<!---->
+	<string name="attachment_info_dialog_wifi_title">"Wi-Fi veza je potrebna"</string>
+	<!---->
+	<string name="attachment_info_wifi_settings">"Wi-Fi podešavanja"</string>
+	<!---->
+	<string name="attachment_info_wifi_only">"Ovaj prilog je prevelik za preuzimanje putem mobilne mreže. Možete ga preuzeti kad se sledeći put povežete na Wi-Fi mrežu."</string>
+	<!---->
+	<string name="attachment_info_ok">"U redu"</string>
+	<!---->
+	<string name="mailbox_name_display_draft">"Nacrt"</string>
+	<!---->
+	<string name="message_compose_display_name">"<xliff:g example="John" id="name">%1$s</xliff:g> i <xliff:g example="27" id="number">%2$d</xliff:g> drugih"</string>
+	<!---->
+	<string name="app_name">"E-pošta"</string>
+	<!---->
+	<string name="from">"Od"</string>
+	<!---->
+	<string name="to">"Za"</string>
+	<!---->
+	<string name="cc">"Cc"</string>
+	<!---->
+	<string name="bcc">"Bcc"</string>
+	<!---->
+	<string name="subject_hint">"Naslov"</string>
+	<!---->
+	<string name="body_hint">"Nova e-poruka"</string>
+	<!---->
+	<string name="add_file_attachment">"Priključi datoteku"</string>
+	<!---->
+	<string name="add_photo_attachment">"Priključite sliku"</string>
+	<!---->
+	<string name="save_draft">"Sačuvaj nacrt"</string>
+	<!---->
+	<string name="discard">"Odbaci"</string>
+	<!---->
+	<string name="compose">"Napiši"</string>
+	<!---->
+	<string name="select_contacts_field">"Odaberi kontakte iz"</string>
+	<!---->
+	<string name="item_save_group">"Sačuvaj grupu"</string>
+	<!---->
+	<string name="confirm_select">"Odaberi"</string>
+	<!---->
+	<string name="cancel_select">"Otkaži"</string>
+	<string-array name="compose_modes">
+		<item>"Odgovori"</item>
+		<item>"Odgovori svima"</item>
+		<item>"Prosledi"</item>
+	</string-array>
+	<string-array name="compose_modes_without_reply_all">
+		<item>"Odgovori"</item>
+		<item>"Prosledi"</item>
+	</string-array>
+	<!---->
+	<string name="reply_subject_label">"Odg:"</string>
+	<!---->
+	<string name="forward_subject_label">"Prosledi:"</string>
+	<!---->
+	<string name="reply_attribution">"<xliff:g id="date">%s</xliff:g>, <xliff:g id="person">%s</xliff:g> je napisao/la:"</string>
+	<!---->
+	<string name="forward_attribution">"---------- Prosleđena poruka ----------；Od:；Datum:；Naslov:；Za:"</string>
+	<!---->
+	<string name="forward_attribution_with_headers">"---------- Prosleđena poruka ---------- <xliff:g id="a">%s</xliff:g> Od: <xliff:g id="from">%s</xliff:g> <xliff:g id="b">%s</xliff:g> Datum: <xliff:g id="date">%s</xliff:g> <xliff:g id="c">%s</xliff:g> Tema: <xliff:g id="subject">%s</xliff:g> <xliff:g id="d">%s</xliff:g> Za: <xliff:g id="to">%s</xliff:g> <xliff:g id="e">%s</xliff:g> Cc: <xliff:g id="cc">%s</xliff:g> <br/>"</string>
+	<!---->
+	<string name="forward_attribution_no_headers">"---------- Prosleđena poruka ----------"</string>
+	<!---->
+	<string name="cc_attribution">"Cc:"</string>
+	<!---->
+	<string name="select_attachment_type">"Izaberite vrstu priloga"</string>
+	<!---->
+	<string name="too_large_to_attach_single">"Datoteka ne može da se priključi preko %1$s"</string>
+	<!---->
+	<string name="too_large_to_attach_multiple">"Jedna ili više datoteka nisu priključene. Ograničenje <xliff:g id="maxSize">%1$s</xliff:g>."</string>
+	<!---->
+	<string name="too_large_to_mid_attach_additional">"E-pošta prelazi <xliff:g id="maxSize">%1$s</xliff:g>. Vaš nalog e-pošte možda ne podržava ovo."</string>
+	<!---->
+	<string name="too_large_to_attach_additional">"Datoteka se ne može dodati. Veličina e-poruke prelazi ograničenje <xliff:g id="maxSize">%1$s</xliff:g>."</string>
+	<!---->
+	<string name="generic_attachment_problem">"Nije moguće priključiti datoteku."</string>
+	<!---->
+	<string name="recipient_needed">"Dodajte najmanje jednog primaoca."</string>
+	<!---->
+	<string name="recipient_error_dialog_title">"Greška primaoca"</string>
+	<!---->
+	<string name="confirm_send_title">"Poslati poruku?"</string>
+	<!---->
+	<string name="confirm_send_message_with_no_subject">"Nema teksta u naslovu poruke."</string>
+	<!---->
+	<string name="confirm_send_message_with_no_body">"Nema teksta u telu poruke."</string>
+	<!---->
+	<string name="confirm_send_message">"Poslati ovu poruku?"</string>
+	<!---->
+	<string name="message_discarded">"Poruka odbačena."</string>
+	<!-- no translation found for signature -->
+	<skip />
+	<!---->
+	<string name="custom_from_account_label">"Pošaljite e-poruku kao:"</string>
+	<!---->
+	<string name="send">"Pošalji"</string>
+	<!---->
+	<string name="mark_read">"Označi pročitane"</string>
+	<!---->
+	<string name="mark_unread">"Označi nepročitano"</string>
+	<!---->
+	<string name="mute">"Nečujno"</string>
+	<!---->
+	<string name="add_star">"Dodaj zvezdicu"</string>
+	<!---->
+	<string name="remove_star">"Ukloni zvezdicu"</string>
+	<!---->
+	<string name="remove_folder">"Ukloniti iz fascikle <xliff:g id="folderName">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="archive">"Arhiva"</string>
+	<!---->
+	<string name="report_spam">"Prijavite spam"</string>
+	<!---->
+	<string name="mark_not_spam">"Prijava: Nije nepoželjno"</string>
+	<!---->
+	<string name="report_phishing">"Prijavite pecanje"</string>
+	<!---->
+	<string name="delete">"Izbriši"</string>
+	<!---->
+	<string name="discard_drafts">"Odbacite nacrte"</string>
+	<!---->
+	<string name="discard_failed">"Odbacivanje nije uspelo"</string>
+	<!---->
+	<string name="refresh">"Obnovi"</string>
+	<!---->
+	<string name="reply">"Odgovori"</string>
+	<!---->
+	<string name="reply_all">"Odgovori svima"</string>
+	<!---->
+	<string name="resume_draft">"Izmeni"</string>
+	<!---->
+	<string name="forward">"Prosledi"</string>
+	<!---->
+	<string name="menu_compose">"Napiši"</string>
+	<!---->
+	<string name="menu_sort">"Razvrstaj"</string>
+	<!---->
+	<string name="menu_change_folders">"Promena fascikle"</string>
+	<!---->
+	<string name="menu_move_to">"Premesti u"</string>
+	<!---->
+	<string name="menu_move_to_inbox">"Premesti u prijemno sanduče"</string>
+	<!---->
+	<string name="menu_manage_folders">"Podešavanja fascikle"</string>
+	<!---->
+	<string name="menu_show_original">"Vraćanje automatskog dimenzionisanja"</string>
+	<!---->
+	<string name="menu_settings">"Podešavanja"</string>
+	<!---->
+	<string name="menu_search">"pretraga"</string>
+	<!---->
+	<string name="drawer_title">"Navigacija"</string>
+	<!---->
+	<string name="mark_important">"Označi kao važno"</string>
+	<!---->
+	<string name="mark_not_important">"Označi kao nevažno"</string>
+	<!---->
+	<string name="select_all_conversations">"Izaberi sve"</string>
+	<!---->
+	<string name="unselect_all_conversations">"Poništi sve izabrano"</string>
+	<!---->
+	<string name="add_cc_label">"Dodaj Cc/Bcc"</string>
+	<!---->
+	<string name="add_bcc_label">"Dodajte Bcc"</string>
+	<!---->
+	<string name="quoted_text">"Uključi citirani tekst"</string>
+	<!---->
+	<string name="quoted_text_label">"Citiraj tekst"</string>
+	<!---->
+	<string name="respond_inline">"Odgovori u liniji"</string>
+	<!---->
+	<string name="bytes">"<xliff:g id="count">%s</xliff:g> B"</string>
+	<!---->
+	<string name="kilobytes">"<xliff:g id="count">%s</xliff:g> KB"</string>
+	<!---->
+	<string name="megabytes">"<xliff:g id="count">%s</xliff:g> MB"</string>
+	<!---->
+	<string name="attachment_image">"Slika"</string>
+	<!---->
+	<string name="attachment_video">"Video"</string>
+	<!---->
+	<string name="attachment_audio">"Audio"</string>
+	<!---->
+	<string name="attachment_text">"Tekst"</string>
+	<!---->
+	<string name="attachment_application_msword">"Dokument"</string>
+	<!---->
+	<string name="attachment_application_vnd_ms_powerpoint">"Prezentacija"</string>
+	<!---->
+	<string name="attachment_application_vnd_ms_excel">"Tabela"</string>
+	<!-- no translation found for attachment_application_pdf -->
+	<skip />
+	<!---->
+	<string name="attachment_unknown">"<xliff:g id="attachmentExtension">%s</xliff:g> datoteka"</string>
+	<!---->
+	<string name="preview_attachment">"Pregled"</string>
+	<!---->
+	<string name="save_attachment">"Sačuvaj"</string>
+	<!---->
+	<string name="cancel_attachment">"Otkaži"</string>
+	<!---->
+	<string name="open_attachment">"Otvori"</string>
+	<!---->
+	<string name="install_attachment">"Instaliraj"</string>
+	<!---->
+	<string name="download_again">"Ponovno preuzimanje"</string>
+	<!---->
+	<string name="more_info_attachment">"Informacije"</string>
+	<!---->
+	<string name="no_application_found">"Nijedna aplikacija ne može da otvori ovaj prilog za pregled."</string>
+	<!---->
+	<string name="fetching_attachment">"Preuzimanje priloga"</string>
+	<!---->
+	<string name="please_wait">"Sačekajte\u2026"</string>
+	<!---->
+	<string name="saved">"Sačuvano,"</string>
+	<!---->
+	<string name="download_failed">"Nije moguće preuzimanje. Dodirnite za ponovni pokušaj."</string>
+	<!---->
+	<string name="menu_photo_save_all">"Sačuvaj sve"</string>
+	<!---->
+	<string name="menu_photo_share">"Deli"</string>
+	<!---->
+	<string name="menu_photo_share_all">"Deli sve"</string>
+	<!---->
+	<string name="menu_photo_print">"Štampaj"</string>
+	<!---->
+	<string name="saving">"Čuvanje..."</string>
+	<!---->
+	<string name="choosertitle_sharevia">"Podeli preko"</string>
+	<!---->
+	<string name="contextmenu_openlink">"Otvori u pregledaču"</string>
+	<!---->
+	<string name="contextmenu_copy">"Kopiraj"</string>
+	<!---->
+	<string name="contextmenu_copylink">"Kopiraj URL link"</string>
+	<!---->
+	<string name="contextmenu_view_image">"Prikaži sliku"</string>
+	<!---->
+	<string name="contextmenu_dial_dot">"Pozovi"</string>
+	<!---->
+	<string name="contextmenu_sms_dot">"SMS\u2026"</string>
+	<!---->
+	<string name="contextmenu_add_contact">"Dodaj kontakt"</string>
+	<!---->
+	<string name="contextmenu_send_mail">"Pošalji e-poštu"</string>
+	<!---->
+	<string name="contextmenu_map">"Mapa"</string>
+	<!---->
+	<string name="contextmenu_sharelink">"Podeli link"</string>
+	<!---->
+	<string name="contextmenu_savelink">"Sačuvaj link"</string>
+	<!---->
+	<string name="contextmenu_help">"Pomoć"</string>
+	<!---->
+	<string name="contextmenu_feedback">"Pošalji povratnu informaciju"</string>
+	<!---->
+	<string name="sort_title">"Razv. prema"</string>
+	<!---->
+	<string name="sort_by_tip">"Razvrstaj prema <xliff:g id="sor_type">%s</xliff:g>"</string>
+	<!-- no translation found for num_selected -->
+	<skip />
+	<plurals name="move_conversation">
+		<item quantity="one">"Premesti razgovor"</item>
+		<item quantity="other">"Premesti <xliff:g>%1$d</xliff:g> razgovora"</item>
+	</plurals>
+	<!---->
+	<string name="content_description">"Pošiljalac: <xliff:g id="sender">%1$s</xliff:g>, Naslov: <xliff:g id="subject">%2$s</xliff:g>, Pregled: <xliff:g id="snippet">%3$s</xliff:g>, Datum: <xliff:g id="date">%4$s</xliff:g>, Stanje: <xliff:g id="readstate">%5$s</xliff:g>"</string>
+	<!---->
+	<string name="content_description_today">"Pošiljalac: <xliff:g id="sender">%1$s</xliff:g>, Naslov: <xliff:g id="subject">%2$s</xliff:g>, Pregled: <xliff:g id="snippet">%3$s</xliff:g>, Vreme: <xliff:g id="date">%4$s</xliff:g>, Stanje: <xliff:g id="readstate">%5$s</xliff:g>"</string>
+	<!---->
+	<string name="read_string">"Razgovor je pročitan"</string>
+	<!---->
+	<string name="unread_string">"Razgovor nije pročitan"</string>
+	<!---->
+	<string name="filtered_tag">"[<xliff:g id="tag">%1$s</xliff:g>]<xliff:g id="subject">%2$s</xliff:g>"</string>
+	<!-- no translation found for badge_and_subject -->
+	<skip />
+	<plurals name="draft">
+		<item quantity="one">"Nacrt"</item>
+		<item quantity="other">"Nacrti"</item>
+	</plurals>
+	<!---->
+	<string name="sending">"Slanje u toku\u2026"</string>
+	<!---->
+	<string name="message_retrying">"Povoni pokušaj\u2026"</string>
+	<!---->
+	<string name="message_failed">"Neuspešno"</string>
+	<!---->
+	<string name="send_failed">"Nije uspelo slanje e-poruke."</string>
+	<!---->
+	<string name="send_failed_wait_attchment_downloaded">"Ne može da se prosledi zato što prilozi nisu u potpunosti preuzeti, prvo preuzmite priloge."</string>
+	<!---->
+	<string name="me_object_pronoun">"Ja"</string>
+	<!---->
+	<string name="me_subject_pronoun">"Ja"</string>
+	<plurals name="confirm_delete_conversation">
+		<item quantity="one">"Izbrisati ovaj razgovor?"</item>
+		<item quantity="other">"Izbrisati ova/ih <xliff:g id="count">%1$d</xliff:g> razgovora?"</item>
+	</plurals>
+	<plurals name="confirm_archive_conversation">
+		<item quantity="one">"Arhivirati ovaj razgovor?"</item>
+		<item quantity="other">"Arhivirati ova/ih <xliff:g id="count">%1$d</xliff:g> razgovora?"</item>
+	</plurals>
+	<plurals name="confirm_discard_drafts_conversation">
+		<item quantity="one">"Odbaciti ovu poruku?"</item>
+		<item quantity="other">"Arhivirati ove/ih <xliff:g id="count">%1$d</xliff:g> poruke/a?"</item>
+	</plurals>
+	<!---->
+	<string name="confirm_discard_text">"Odbaciti ovu poruku?"</string>
+	<!---->
+	<string name="loading_conversations">"Učitavanje\u2026"</string>
+	<!---->
+	<string name="empty_inbox">"Završili ste! Želimo vam lep dan!"</string>
+	<!---->
+	<string name="empty_search">"Ups! We didn\'t find anything for \’<xliff:g id="search_query">%1$s</xliff:g>\’."</string>
+	<!---->
+	<string name="empty_spam_folder">"Ura, nema nepoželjnih!"</string>
+	<!---->
+	<string name="empty_trash_folder">"Nema otpadaka ovde. Hvala na reckliranju!"</string>
+	<!---->
+	<string name="empty_folder">"Ovde nema e-pošte."</string>
+	<!---->
+	<string name="getting_messages">"Preuzimanje poruka"</string>
+	<!---->
+	<string name="undo">"Poništi"</string>
+	<plurals name="conversation_unstarred">
+		<item quantity="one">"Skidanje zvezdice sa <xliff:g id="count">%1$d</xliff:g> razgovora."</item>
+		<item quantity="other">"Skidanje zvezdice sa <xliff:g id="count">%1$d</xliff:g> razgovora."</item>
+	</plurals>
+	<plurals name="conversation_muted">
+		<item quantity="one">"&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; je bez zvuka."</item>
+		<item quantity="other">"&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; je bez zvuka."</item>
+	</plurals>
+	<plurals name="conversation_spammed">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> je prijavljeno kao nepoželjno."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> je prijavljeno kao nepoželjno."</item>
+	</plurals>
+	<plurals name="conversation_not_spam">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> je prijavljeno da nije nepoželjno."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> je prijavljeno da nije nepoželjno."</item>
+	</plurals>
+	<plurals name="conversation_not_important">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> je označeno kao nevažno."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> je označeno kao nevažno."</item>
+	</plurals>
+	<plurals name="conversation_phished">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> je prijavljeno kao ’pecanje’."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> je prijavljeno kao ’pecanje’."</item>
+	</plurals>
+	<plurals name="conversation_archived">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> je arhivirano."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> je arhivirano."</item>
+	</plurals>
+	<plurals name="conversation_deleted">
+		<item quantity="one">"&lt;b&gt;%1$d&lt;/b&gt; je izbrisana."</item>
+		<item quantity="other">"&lt;b&gt;%1$d&lt;/b&gt; je izbrisano."</item>
+	</plurals>
+	<!---->
+	<string name="deleted">"Izbrisano"</string>
+	<!---->
+	<string name="archived">"Arhivirano"</string>
+	<!---->
+	<string name="starred">"Sa zvezdicom"</string>
+	<!---->
+	<string name="unstarred">"Bez zvezdice"</string>
+	<!---->
+	<string name="folder_removed">"Uklonjeno iz fascikle <xliff:g id="folderName">%1$s</xliff:g>"</string>
+	<plurals name="conversation_folder_changed">
+		<item quantity="one">"Fascikla je promenjena."</item>
+		<item quantity="other">"Fascikle su promenjene."</item>
+	</plurals>
+	<!---->
+	<string name="conversation_folder_moved">"Premešteno u fasciklu <xliff:g id="folderName">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="search_results_header">"Rezultati"</string>
+	<!---->
+	<string name="search_unsupported">"Pretraga nije podržana na ovom nalogu."</string>
+	<!---->
+	<string name="add_label">"Dodajte fasciklu"</string>
+	<!---->
+	<string name="new_incoming_messages_one">"Prikaži novu poruku od: <xliff:g id="sender">%s</xliff:g>."</string>
+	<plurals name="new_incoming_messages_many">
+		<item quantity="other">"Prikaži <xliff:g id="count">%1$d</xliff:g> nove/ih poruke/a."</item>
+	</plurals>
+	<!---->
+	<string name="date_and_view_details">"<xliff:g id="date">%1$s</xliff:g> &lt;a href=\'http://www.example.com\'&gt;Prikaži detalje&lt;/a&gt;"</string>
+	<!---->
+	<string name="date_and_view_details_another">"<xliff:g id="date">%1$s</xliff:g> &lt;font color=\"<xliff:g id="color">%2$d</xliff:g>\"&gt;Prikaži detalje&lt;/font&gt;"</string>
+	<!---->
+	<string name="hide_details">"Sakrij detalje"</string>
+	<!---->
+	<string name="to_message_header">"za <xliff:g id="recipients">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="contact_info_string">"Prikaz informacija kontakta za: <xliff:g id="name">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="contact_info_string_default">"Prikaz informacija kontakta"</string>
+	<plurals name="show_messages_read">
+		<item quantity="other">"<xliff:g example="4" id="count">%1$d</xliff:g> starije/ih poruke/a"</item>
+	</plurals>
+	<!---->
+	<string name="from_heading">"Od:"</string>
+	<!---->
+	<string name="replyto_heading">"Odgovori:"</string>
+	<!---->
+	<string name="to_heading">"Za:"</string>
+	<!---->
+	<string name="to_heading_no_space">"Za:"</string>
+	<!---->
+	<string name="cc_heading">"Cc:"</string>
+	<!---->
+	<string name="bcc_heading">"Bcc:"</string>
+	<!---->
+	<string name="date_heading">"Datum:"</string>
+	<!---->
+	<string name="show_images">"Prikaži slike"</string>
+	<!---->
+	<string name="always_show_images">"Uvek prikazuj slike ovog pošiljaoca"</string>
+	<!---->
+	<string name="always_show_images_toast">"Slike ovog pošiljaoca će automatski biti prikazane."</string>
+	<!---->
+	<string name="address_display_format">"<xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g>"</string>
+	<!---->
+	<string name="address_display_format_with_via_domain">"<xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g> putem <xliff:g id="via_domain">%3$s</xliff:g>"</string>
+	<!---->
+	<string name="message_saved">"Poruka je sačuvana u Nacrtima."</string>
+	<!---->
+	<string name="sending_message">"Slanje poruke\u2026"</string>
+	<!---->
+	<string name="invalid_recipient">"Adresa %s je netačna."</string>
+	<!---->
+	<string name="show_elided">"Prikaži citirani tekst"</string>
+	<!---->
+	<string name="hide_elided">"\u25BC Sakrij citirani tekst"</string>
+	<!---->
+	<string name="message_invite_title">"Pozivnica kalendara"</string>
+	<!---->
+	<string name="message_invite_available">"Vi ste dostupni."</string>
+	<!---->
+	<string name="message_invite_datetime">"Каdа"</string>
+	<!---->
+	<string name="message_invite_location">"Gde"</string>
+	<!---->
+	<string name="message_invite_in_calendar_view">"Pogledaj u kalendaru"</string>
+	<!---->
+	<string name="message_invite_calendar_view">"Prikaži u kalendaru"</string>
+	<!---->
+	<string name="message_invite_label_attending">"Prihvataš?"</string>
+	<!---->
+	<string name="message_invite_accept">"Da"</string>
+	<!---->
+	<string name="message_invite_tentative">"Možda"</string>
+	<!---->
+	<string name="message_invite_decline">"Ne"</string>
+	<!-- no translation found for enumeration_comma -->
+	<skip />
+	<!---->
+	<string name="send_anyway">"Ipak pošalji"</string>
+	<!---->
+	<string name="ok">"U redu"</string>
+	<!---->
+	<string name="done">"Urađeno"</string>
+	<!---->
+	<string name="cancel">"Otkaži"</string>
+	<!---->
+	<string name="clear">"Izbriši"</string>
+	<!---->
+	<string name="next">"Sledeće"</string>
+	<!---->
+	<string name="previous">"Prethodno"</string>
+	<string-array name="sync_status">
+		<item>"Nema Wi-Fi veze; da li nastaviti sa sinhronizacijom?"</item>
+		<item>"Veza nije uspostavljena."</item>
+		<item>"Prijavljivanje nije moguće."</item>
+		<item>"Greška u bezbednosti."</item>
+		<item>"Sinhronizovanje nije moguće."</item>
+		<item>"Interna greška"</item>
+		<item>"Greška servera"</item>
+	</string-array>
+	<!---->
+	<string name="tap_to_configure">"Dodirnite za postavljanje"</string>
+	<!---->
+	<string name="non_synced_folder_description">"Da biste videli razgovore, sinhronizujte ovu fasciklu."</string>
+	<!---->
+	<string name="tap_to_configure_folder_sync">"Sinhronizuj fasciklu"</string>
+	<!-- no translation found for widget_large_unread_count -->
+	<skip />
+	<!---->
+	<string name="large_unseen_count">"Nove: <xliff:g example="99" id="count">%d</xliff:g>+"</string>
+	<!---->
+	<string name="unseen_count">"Nove: <xliff:g example="4" id="count">%d</xliff:g>"</string>
+	<plurals name="actionbar_unread_messages">
+		<item quantity="other">"%1$d nepročitane/ih"</item>
+	</plurals>
+	<!---->
+	<string name="actionbar_large_unread_count">"<xliff:g id="count">%1$d</xliff:g>+ nepročitanih"</string>
+	<!---->
+	<string name="view_more_conversations">"Vidi još razgovora"</string>
+	<!---->
+	<string name="loading_conversation">"Učitavanje\u2026"</string>
+	<!---->
+	<string name="activity_mailbox_selection">"Odaberi nalog"</string>
+	<!---->
+	<string name="activity_folder_selection">"Izaberite fasciklu"</string>
+	<!---->
+	<string name="folder_shortcut_widget_label">"Fascikla e-pošte"</string>
+	<!---->
+	<string name="change_folders_selection_dialog_title">"Promena fascikle"</string>
+	<!---->
+	<string name="move_to_selection_dialog_title">"Premesti u"</string>
+	<!-- no translation found for search_results_loaded -->
+	<skip />
+	<!---->
+	<string name="network_error">"Veza nije uspostavljena"</string>
+	<!---->
+	<string name="retry">"Pokušaj ponovo"</string>
+	<!---->
+	<string name="load_more">"Učitaj još"</string>
+	<!---->
+	<string name="shortcut_name_title">"Prečica imena fascikle"</string>
+	<!---->
+	<string name="wait_for_sync_title">"Čekanje na sinhronizaciju"</string>
+	<!---->
+	<string name="not_synced_title">"Nalog nije sinhronizovan."</string>
+	<!---->
+	<string name="wait_for_manual_sync_body">"Ovaj nalog nije podešen za automatsku sinhronizaciju.\nDodirnite <b>Sinhronizuj sada</b> da sinhronizujete e-poštu jednom, ili <b>Promenu podešavanja sinhronizovanja</b> da podesite ovaj nalog da se automatski sinhronizuje."</string>
+	<!---->
+	<string name="manual_sync">"Sinhronizuj odmah"</string>
+	<!---->
+	<string name="change_sync_settings">"Promena podešavanja sinhronizovanja"</string>
+	<!---->
+	<string name="photo_load_failed">"Nije moguće učitati sliku"</string>
+	<!---->
+	<string name="cant_move_or_change_labels">"Premeštanje nije moguće zato što izbor obuhvata više naloga."</string>
+	<!-- no translation found for multiple_new_message_notification_item -->
+	<skip />
+	<!-- no translation found for single_new_message_notification_big_text -->
+	<skip />
+	<!---->
+	<string name="ignore_spam_warning">"Ignoriši, verujem ovoj poruci"</string>
+	<!---->
+	<string name="via_domain">"putem <xliff:g id="viaDomain">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="signin">"Prijava"</string>
+	<!---->
+	<string name="info">"Informacije"</string>
+	<!---->
+	<string name="report">"Prijavi"</string>
+	<!---->
+	<string name="sync_error">"Sinhronizovanje nije moguće."</string>
+	<!---->
+	<string name="sync_error_message">"Na uređaju nema dovoljno memorije da bi se sinhronizovalo."</string>
+	<!---->
+	<string name="storage">"Memorija"</string>
+	<!-- no translation found for senders_split_token -->
+	<skip />
+	<!-- no translation found for draft_count_format -->
+	<skip />
+	<!---->
+	<string name="all_folders_heading">"Sve fascikle"</string>
+	<!---->
+	<string name="recent_folders_heading">"Nedavne fascikle"</string>
+	<!---->
+	<string name="message_details_title">"Detalji poruke"</string>
+	<!---->
+	<string name="preference_advance_to_title">"Automatski prelazak"</string>
+	<string-array name="prefEntries_autoAdvance">
+		<item>"Novije"</item>
+		<item>"starije"</item>
+		<item>"Lista razgovora"</item>
+	</string-array>
+	<string-array name="prefSummaries_autoAdvance">
+		<item>"Prikaži novije razgovore nakon brisanja"</item>
+		<item>"Prikaži starije razgovore nakon brisanja"</item>
+		<item>"Prikaži listu razgovora nakon brisanja"</item>
+	</string-array>
+	<!---->
+	<string name="prefDialogTitle_autoAdvance">"Pređi na"</string>
+	<!---->
+	<string name="clear_display_images_whitelist_title">"Odobrenje za brisanje slike"</string>
+	<!---->
+	<string name="clear_display_images_whitelist_dialog_title">"Odobrenje za brisanje slike?"</string>
+	<!---->
+	<string name="clear_display_images_whitelist_dialog_message">"Zaustavi prikazivanje slika od pošaljilaca kojima je ranije bilo dozvoljeno."</string>
+	<!---->
+	<string name="sender_whitelist_cleared">"Slike neće biti automatski prikazivane."</string>
+	<!---->
+	<string name="preferences_signature_title">"Potpis"</string>
+	<!---->
+	<string name="preferences_signature_dialog_title">"Potpis"</string>
+	<!---->
+	<string name="preferences_signature_summary_not_set">"Nije podešeno"</string>
+	<!---->
+	<string name="mail_account_signature_prefix">"Poslato sa: <xliff:g example="4" id="product">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="notification_action_reply">"Odgovori"</string>
+	<!---->
+	<string name="notification_action_reply_all">"Odgovori svima"</string>
+	<!---->
+	<string name="notification_action_archive">"Arhiva"</string>
+	<!---->
+	<string name="notification_action_remove_label">"Ukloni etiketu"</string>
+	<!---->
+	<string name="notification_action_delete">"Obriši"</string>
+	<!---->
+	<string name="notification_action_undo_archive">"Arhivirano"</string>
+	<!---->
+	<string name="notification_action_undo_remove_label">"Etiketa je uklonjena"</string>
+	<!---->
+	<string name="notification_action_undo_delete">"Izbrisano"</string>
+	<!-- no translation found for veiled_address -->
+	<skip />
+	<!-- no translation found for veiled_alternate_text -->
+	<skip />
+	<!-- no translation found for veiled_alternate_text_unknown_person -->
+	<skip />
+	<!-- no translation found for veiled_summary_unknown_person -->
+	<skip />
+	<!-- no translation found for label_notification_ticker -->
+	<skip />
+	<plurals name="new_messages">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> nova poruka"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> novih poruka"</item>
+	</plurals>
+	<!-- no translation found for single_new_message_notification_title -->
+	<skip />
+	<!---->
+	<string name="silent_ringtone">"Nečujno"</string>
+	<!---->
+	<string name="preference_removal_action_title">"Akcije brisanja i arhiviranja"</string>
+	<string-array name="prefEntries_removal_action">
+		<item>"Prikaži samo arhivirano"</item>
+		<item>"Prikaži samo obrisano"</item>
+		<item>"Prikaži arhivirano i obrisano"</item>
+	</string-array>
+	<string-array name="prefSummaries_removal_action_summary">
+		<item>"Prikaži samo arhivirano"</item>
+		<item>"Prikaži samo obrisano"</item>
+		<item>"Prikaži arhivirano i obrisano"</item>
+	</string-array>
+	<!---->
+	<string name="prefDialogTitle_removal_action">"Radnje brisanja i arhiviranja"</string>
+	<!---->
+	<string name="preferences_default_reply_all_title">"Odgovori svima"</string>
+	<!---->
+	<string name="preferences_default_reply_all_summary_impl">"Koristi kao podrazumevano za odgovaranje na poruke"</string>
+	<!---->
+	<string name="preference_swipe_title_archive">"Prevucite za arhiviranje"</string>
+	<!---->
+	<string name="preference_swipe_title_delete">"Prevucite za brisanje"</string>
+	<!---->
+	<string name="preference_swipe_description">"U listi razgovora"</string>
+	<!---->
+	<string name="preference_swipe_actions">"Akcije provlačenja"</string>
+	<!---->
+	<string name="preference_sender_image_title">"Slika pošiljaoca"</string>
+	<!---->
+	<string name="preference_sender_image_description">"Prikaz imena u listi konverzacija"</string>
+	<!---->
+	<string name="empty_trash">"Isprazni otpatke"</string>
+	<!---->
+	<string name="empty_spam">"Isprazni Spam"</string>
+	<!---->
+	<string name="star_toggle">"Star toggle"</string>
+	<!---->
+	<string name="empty_trash_dialog_title">"Isprazniti otpatke?"</string>
+	<!---->
+	<string name="empty_spam_dialog_title">"Isprazni Spam?"</string>
+	<plurals name="empty_folder_dialog_message">
+		<item quantity="one">"%1$d poruka će zauvek biti izbrisana."</item>
+		<item quantity="other">"%1$d poruke/a će zauvek biti izbrisano."</item>
+	</plurals>
+	<!---->
+	<string name="drawer_open">"Otvori navigacionu fioku"</string>
+	<!---->
+	<string name="drawer_close">"Informacije o autorskim pravima"</string>
+	<!---->
+	<string name="conversation_photo_welcome_text">"Dodirnite sliku pošaljioca da izaberete taj razgovor."</string>
+	<!---->
+	<string name="long_press_to_select_tip">"Dodirnite i zadržite da izaberete jedan razgovor, zatim dodirnite da izaberete više njih."</string>
+	<!---->
+	<string name="folder_icon_desc">"Ikonica Fascikle"</string>
+	<!---->
+	<string name="add_account">"Dodaj nalog"</string>
+	<!---->
+	<string name="dismiss_tip_hover_text">"Odbaci savet"</string>
+	<!---->
+	<string name="auto_sync_off">"Automatska sinhronizacija je isključena."</string>
+	<!---->
+	<string name="tap_to_enable_sync">"Dodirnite za uključivanje."</string>
+	<!---->
+	<string name="account_sync_off">"Sinhronizacija naloga je isključena"</string>
+	<!---->
+	<string name="enable_sync_in_account_settings">"Uključite u <xliff:g id="account_settings">%1$s</xliff:g>."</string>
+	<!---->
+	<string name="account_settings_param">"Podešavanja naloga"</string>
+	<!---->
+	<string name="unsent_messages_in_outbox">"<xliff:g id="number">%1$s</xliff:g> neposlate/ih u: <xliff:g id="outbox">%2$s</xliff:g>"</string>
+	<!---->
+	<string name="turn_auto_sync_on_dialog_title">"Uključiti automatsku sinhronizaciju?"</string>
+	<!---->
+	<string name="turn_auto_sync_on_dialog_body">"Promene koje napravite na svim nalozima i aplikacijama, ne samo Gmailu, biće sinhronizovane sa mrežom, vašim drugim uređajima, i vašim <xliff:g id="phone_or_tablet">%1$s</xliff:g>."</string>
+	<!---->
+	<string name="phone">"Telefon"</string>
+	<!---->
+	<string name="tablet">"Tablet"</string>
+	<!---->
+	<string name="turn_auto_sync_on_dialog_confirm_btn">"Uključi"</string>
+	<!---->
+	<string name="show_n_more_folders">"Prikaži još %1$s fascikle/i"</string>
+	<!---->
+	<string name="hide_folders">"Sakrij fascikle"</string>
+	<!---->
+	<string name="print">"Štampaj"</string>
+	<!---->
+	<string name="print_all">"Odštampaj sve"</string>
+	<plurals name="num_messages">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> poruka"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> poruke/a"</item>
+	</plurals>
+	<!---->
+	<string name="date_message_received_print">"<xliff:g id="day_and_date">%1$s</xliff:g> u <xliff:g id="time">%2$s</xliff:g>"</string>
+	<!---->
+	<string name="draft_to_heading">"Nacrt:"</string>
+	<!---->
+	<string name="draft_heading">"Nacrt"</string>
+	<!---->
+	<string name="quoted_text_hidden_print">"Citirani tekst je sakriven"</string>
+	<plurals name="num_attachments">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> prilog"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> priloga"</item>
+	</plurals>
+	<!---->
+	<string name="no_subject">"(Bez naslova)"</string>
+	<!---->
+	<string name="vacation_responder">"Odgovor na odmoru"</string>
+	<!---->
+	<string name="preferences_vacation_responder_title">"Odgovor na odmoru"</string>
+	<!---->
+	<string name="vacation_responder_body_hint_text">"Poruka"</string>
+	<!---->
+	<string name="send_to_contacts_text">"Pošalji samo mojim kontaktima"</string>
+	<!---->
+	<string name="send_to_domain_text">"Pošalji samo na <xliff:g id="domain">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="pick_start_date_title">"Početak"</string>
+	<!---->
+	<string name="pick_end_date_title">"Završetak (opciono)"</string>
+	<!---->
+	<string name="date_not_set">"Nije podešeno"</string>
+	<!---->
+	<string name="set_end_date_dialog_title">"Datum završetka (opciono)"</string>
+	<!---->
+	<string name="custom_date">"Personalizacija"</string>
+	<!---->
+	<string name="date_none">"Ništa"</string>
+	<!---->
+	<string name="discard_changes">"Odbaciti promene?"</string>
+	<!---->
+	<string name="draft_saved">"Nacrt je sačuvan"</string>
+	<!---->
+	<string name="draft_discard">"Nacrt je odbačen"</string>
+	<!---->
+	<string name="vacation_responder_changes_saved">"Promene odgovora na odmoru su sačuvane"</string>
+	<!---->
+	<string name="vacation_responder_changes_discarded">"Promene odgovora na odmoru su odbačene"</string>
+	<!---->
+	<string name="vacation_responder_off">"ISKLJUČI"</string>
+	<!---->
+	<string name="vacation_responder_on">"Uključeno, od <xliff:g id="date">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="vacation_responder_on_with_end_date">"Uključeno, od <xliff:g id="start-date">%1$s</xliff:g> do <xliff:g id="end-date">%2$s</xliff:g>"</string>
+	<!---->
+	<string name="vacation_responder_empty_subject_and_body_warning">"Dodajte naslov ili poruku"</string>
+	<!---->
+	<string name="view_entire_message">"Prikaži celu poruku"</string>
+	<!---->
+	<string name="eml_loader_error_toast">"Ova datoteka ne može da se otvori"</string>
+	<!---->
+	<string name="help_and_info">"Pomoć"</string>
+	<!---->
+	<string name="help_and_feedback">"Pomoć i povratne infomacije"</string>
+	<!---->
+	<string name="feedback">"Pošalji povratnu informaciju"</string>
+	<!---->
+	<string name="copyright">"©<xliff:g example="2010" id="year">%1$d</xliff:g> Google Inc."</string>
+	<!---->
+	<string name="version">"Verzija: <xliff:g example="Email" id="app_name">%1$s</xliff:g> <xliff:g example="2.2.1" id="version">%2$s</xliff:g>"</string>
+	<!-- no translation found for view_app_page -->
+	<skip />
+	<!---->
+	<string name="print_dialog">"Štampanje\u2026"</string>
+	<!---->
+	<string name="copyright_information">"Informacije o autorskim pravima"</string>
+	<!---->
+	<string name="privacy_policy">"Polisa privatnosti"</string>
+	<!---->
+	<string name="open_source_licenses">"Licence otvorenog koda"</string>
+	<!---->
+	<string name="reply_choice_yes">"Da"</string>
+	<!---->
+	<string name="reply_choice_no">"Ne"</string>
+	<!---->
+	<string name="reply_choice_ok">"U redu"</string>
+	<!-- no translation found for reply_choice_hehe -->
+	<skip />
+	<!---->
+	<string name="reply_choice_thanks">"Hvala"</string>
+	<!---->
+	<string name="reply_choice_i_agree">"Slažem se"</string>
+	<!---->
+	<string name="reply_choice_nice">"Lepo"</string>
+	<!---->
+	<string name="reply_on_my_way">"Na putu"</string>
+	<!---->
+	<string name="reply_choice_later">"U redu, odgovoriću vam kasnije"</string>
+	<!-- no translation found for reply_choice_smiling_face -->
+	<skip />
+	<!-- no translation found for reply_choice_frowning_face -->
+	<skip />
+	<!---->
+	<string name="preference_header_action_confirmations">"Potvrde akcija"</string>
+	<!---->
+	<string name="preference_confirm_before_delete_title">"Potvrdite pre brisanja"</string>
+	<!---->
+	<string name="preference_confirm_before_archive_title">"Potvrdite pre arhiviranja"</string>
+	<!---->
+	<string name="preference_confirm_before_send_title">"Potvrdite pre slanja"</string>
+	<!---->
+	<string name="preferences_conversation_mode_title">"Automatsko prilagođavanje poruka"</string>
+	<!---->
+	<string name="preferences_conversation_mode_summary">"Smanjivanje poruka da bi se prilagodile ekranu"</string>
+	<!---->
+	<string name="preferences_disable_snap_headers_title">"Aktivnosti poruka"</string>
+	<string-array name="prefSummaries_snapHeader">
+		<item>"Uvek prikaži aktivnosti poruke na vrhu ekrana"</item>
+		<item>"Prikaži aktivnosti poruke na vrhu ekrana samo kad se prebaci u režim portreta"</item>
+		<item>"Ne prikazuj aktivnosti poruke izvan zaglavlja poruke"</item>
+	</string-array>
+	<string-array name="prefEntries_snapHeader">
+		<item>"Uvek prikaži"</item>
+		<item>"Prikaži samo u režimu portreta"</item>
+		<item>"Ne prikazuj"</item>
+	</string-array>
+	<!---->
+	<string name="clear_history_title">"Obriši istoriju pretrage"</string>
+	<!---->
+	<string name="search_history_cleared">"Istorija pretrage je obrisana."</string>
+	<!---->
+	<string name="clear_history_dialog_title">"Obrisati istoriju pretrage?"</string>
+	<!---->
+	<string name="clear_history_dialog_message">"Sve ranije pretrage će biti obrisane."</string>
+	<!---->
+	<string name="manage_accounts_menu_item">"Upravljanje nalozima"</string>
+	<!---->
+	<string name="general_preferences_title">"Opšta podešavanja"</string>
+	<!---->
+	<string name="activity_preferences">"Podešavanja"</string>
+	<!---->
+	<string name="always_bcc_myself">"Uvek me dodaj u BCC"</string>
+	<!---->
+	<string name="always_bcc_myself_summary">"Uvek me dodaj u BCC kada pišem, odgovaram i prosleđujem"</string>
+	<!---->
+	<string name="general_preference_auto_download_remaining_label">"Automatsko preuzimanje preostalog sadržaja"</string>
+	<!---->
+	<string name="general_preference_auto_download_remaining_summary">"Automatsko preuzimanje preostalog sadržaja klizanjem nadole"</string>
+	<!---->
+	<string name="download_remaining">"Preuzimanje ostalog"</string>
+	<!---->
+	<string name="downloading_remaining">"Učitavanje..."</string>
+	<!---->
+	<string name="unable_to_connect">"Nije u mogućnosti da poveže"</string>
+	<!---->
+	<string name="need_connection_prompt">"Potrebna ti je veza podataka za korišćenje aplikacije. Molimo, uključite mobilnu mrežu ili Wi-Fi u "Podešavanjima"."</string>
+	<!---->
+	<string name="connection_settings">"Podešavanja"</string>
+	<!---->
+	<string name="priority_action">"Prioritet"</string>
+	<!---->
+	<string name="set_priority_dialog_title">"Postavi prioritet"</string>
+	<!---->
+	<string name="dialog_warning">"Upozorenje\u2026"</string>
+	<!---->
+	<string name="dialog_warning_message">"Verzija Exchange aplikacije nije ista kao e-pošta, nastaviti?"</string>
+	<!---->
+	<string name="toast_warning_text">"Verzija Exchange aplikacije nije ista kao e-pošta"</string>
+	<!---->
+	<string name="tips_sync_alter_title">"Sinhronizacija"</string>
+	<!---->
+	<string name="tips_sync_alter_content">"Nema Wi-Fi veze; da li nastaviti sa sinhronizacijom?"</string>
+	<!---->
+	<string name="tips_sync_alter_yes">"Da"</string>
+	<!---->
+	<string name="tips_sync_alter_no">"Ne"</string>
+	<!---->
+	<string name="message_invite_tentative_title">"Privremeno"</string>
+	<!---->
+	<string name="message_invite_decline_title">"Odbij"</string>
+	<!---->
+	<string name="message_invite_accent_title">"Prihvati"</string>
+	<!---->
+	<string name="drm_file_remind">"Nije dozvoljeno poslati ili deliti datoteku zato što je DRM zaštićena."</string>
+	<!---->
+	<string name="not_add_more_recipients">"Nije moguće dodati više od <xliff:g id="maxLimit">%1$d</xliff:g> primaoca/laca odjednom."</string>
+	<!---->
+	<string name="global_search_label">"E-pošta"</string>
+	<!---->
+	<string name="global_search_hint">"Pretraži e-poštu"</string>
+	<!---->
+	<string name="global_search_description">"Pošiljaoci, naslovi i tela"</string>
+	<!---->
+	<string name="remote_search_failed">"Pretraga servera nije uspela!"</string>
+	<!---->
+	<string name="searching_on_server">"Pretraži na serveru"</string>
+	<!---->
+	<string name="searching_on_server_title">"Pretraži \"<xliff:g id="account_name">%s</xliff:g>\" na serveru"</string>
+	<!---->
+	<string name="searching_all_fields_on_sever">"Pretraži sva polja na serveru"</string>
+	<!---->
+	<string name="search_field_subject">"Naslov"</string>
+	<!---->
+	<string name="search_field_receiver">"Primalac"</string>
+	<!---->
+	<string name="search_field_sender">"Pošiljalac"</string>
+	<!---->
+	<string name="search_field_body">"Telo"</string>
+	<!---->
+	<string name="search_field_all">"Sve"</string>
+	<!---->
+	<string name="search_field_attachment">"Prilog"</string>
+	<!---->
+	<string name="select_all">"Izaberi sve"</string>
+	<!---->
+	<string name="deselect_all">"Opozovi sve izbore"</string>
+	<!---->
+	<string name="need_wifi_connection_prompt">"Potrebna je veza podataka za korišćenje aplikacije. Molimo, uključite mobilnu mrežu ili Wi-Fi u "Podešavanjima"."</string>
+	<!---->
+	<string name="account_setup_names_account_name_des_label">"izborno"</string>
+	<!---->
+	<string name="account_setup_names_user_name_des_label">"u odlaznim porukama"</string>
+	<!---->
+	<string name="finish_action">"Završi"</string>
+	<!---->
+	<string name="copy_email">"Kopiraj adrese e-pošte"</string>
+	<!---->
+	<string name="out_of_office_syncing">"Sinhronizovanje Podešavanja van kancelarije"</string>
+	<!---->
+	<string name="out_of_office_fail">"Sinhronizacija Podešavanja van kancelarije nije uspela!"</string>
+	<!---->
+	<string name="out_of_office_success">"Sinhronizacija Podešavanja van kancelarije je uspela!"</string>
+	<!---->
+	<string name="manual_sync_when_roaming">"Sinhronizacija u romingu"</string>
+	<!---->
+	<string name="manual_sync_when_roaming_summery">"Samo ručno osvežavanje"</string>
+	<!---->
+	<string name="manual_sync_when_roaming_toast">"Povucite nadole da biste ručno osvežili u romingu"</string>
+	<!---->
+	<string name="manual_sync_when_roaming_refresh">"Osveži"</string>
+	<!---->
+	<string name="server_rule_can_not_change">"Pravila servera ne mogu da se menjaju"</string>
+	<!---->
+	<string name="server_rules">"Pravila servera"</string>
+	<!---->
+	<string name="confirm_forward_message">"Nisu preuzete sve datoteke. Proslediti bez preuzimanja datoteka?"</string>
+	<!---->
+	<string name="confirm_forward_cancel">"Otkaži"</string>
+	<!---->
+	<string name="confirm_forward_drop_unload_attachment">"Prosledi"</string>
+	<!---->
+	<string name="mail_not_download_completely">"Sačekajte dok se preuzimanje ne dovrši"</string>
+	<!---->
+	<string name="account_settings_inline_images_lable">"Slike"</string>
+	<!---->
+	<string name="account_settings_inline_always_show">"Uvek prikaži"</string>
+	<!---->
+	<string name="account_settings_inline_ask_before_show">"Pitaj pre prikazivanja"</string>
+	<!---->
+	<string name="conversation_time_after_today">"Sutra"</string>
+	<!---->
+	<string name="conversation_time_today">"Danas"</string>
+	<!---->
+	<string name="conversation_time_yesterday">"Juče"</string>
+	<!---->
+	<string name="conversation_time_this_month">"Ovog meseca"</string>
+	<!---->
+	<string name="conversation_time_elapse_just_now">"Upravo sada"</string>
+	<!---->
+	<string name="conversation_time_elapse_minute">"<xliff:g id="count">%d</xliff:g> minuta"</string>
+	<!---->
+	<string name="message_in_queued_status">"U listi"</string>
+	<plurals name="send_failed_messages">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> e-pošta nije poslata"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> e-pošta nije poslata"</item>
+	</plurals>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_label">"Sinhronizacija kalendara od:"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_2weeks">"Dve sedmice"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_1month">"Jedan mesec"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_3months">"3 meseca"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_6months">"Šest meseci"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_all">"Svi"</string>
+	<!---->
+	<string name="no_permission_to_open_file">"Potrebna je dozvola za memoriju da bi se otvorila ova datoteka"</string>
+	<!---->
+	<string name="conversation_update_time_text">"Poslednje ažurirano:"</string>
+	<!---->
+	<string name="conversation_update_unknown_time_stamp">"Nepoznat"</string>
+	<!---->
+	<string name="conversation_time_elapse_today">"Danas"</string>
+	<!---->
+	<string name="save_to_attachment">"Sačuvaj u"</string>
+	<!---->
+	<string name="download_settings_title">"Sačuvaj prilog"</string>
+	<!---->
+	<string name="download_edit_filename_label">"Ime"</string>
+	<!---->
+	<string name="download_filepath_label">"Putanja"</string>
+	<!---->
+	<string name="download_file_size">"Veličina"</string>
+	<!---->
+	<string name="download_time_needed">"Vreme"</string>
+	<!---->
+	<string name="download_cancel">"Otkaži"</string>
+	<!---->
+	<string name="download_start">"OK"</string>
+	<!---->
+	<string name="unknown_length">"Nepoznato"</string>
+	<!---->
+	<string name="time_min">"minut"</string>
+	<!---->
+	<string name="open_file_manager_failed">"Upravljanje datotekama ne može da se otvori"</string>
+	<!---->
+	<string name="attachment_not_saved">"Prilog nije sačuvan"</string>
+	<!---->
+	<string name="sync_calendar_title">"Sinhronizovanje Kalendara nije moguće"</string>
+	<!---->
+	<string name="sync_calendar_content">"Da biste sinhronizovali dozvolite uslugama Razmene pristup Kalendaru"</string>
+	<!---->
+	<string name="sync_contacts_title">"Sinhronizovanje Kontakta nije moguće"</string>
+	<!---->
+	<string name="sync_contacts_content">"Da biste sinhronizovali dozvolite uslugama Razmene pristup Kontaktima"</string>
+	<!---->
+	<string name="notification_never_ask_again">"Ne pitaj ponovo"</string>
+	<!---->
+	<string name="sync_storage_title">"Čuvanje priloga nije uspelo"</string>
+	<!---->
+	<string name="sync_storage_content">"Da biste sačuvali, dozvolite uslugama Razmene pristup memoriji"</string>
+	<!---->
+	<string name="oof_continue">"Nastavi"</string>
+	<!---->
+	<string name="permission_needed_to_add_attachments">"Da biste dodali priloge dozvolite E-pošti pristup memoriji"</string>
+	<!---->
+	<string name="permission_needed_to_check_ringtone">"Da biste proverili melodiju zvona, dozvolite e-pošti da pristupi memoriji"</string>
+	<!---->
+	<string name="add_folder_as_attachment_fail_tips">"Fascikla ne može da se doda kao prilog"</string>
+	<!---->
+	<string name="choose_action_title">"Izaberi aktivnost"</string>
+	<!---->
+	<string name="choose_action_contact">"Dodaj kontakt: <xliff:g example="4" id="email_address">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="choose_action_email">"E-pošta: <xliff:g example="4" id="email_address">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="choose_action_message">"Poruka: <xliff:g example="4" id="email_address">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="account_setup_basics_exit_action">"Izađi"</string>
+</resources>

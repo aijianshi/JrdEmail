@@ -1,0 +1,1747 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Tue Sep 20 16:24:06 CST 2016
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="permission_read_attachment_label">"Открывать вложения email"</string>
+	<!---->
+	<string name="permission_read_attachment_desc">"Позволяет приложению получать доступ к прикреплённым файлам в сообщениях электронной почты."</string>
+	<!---->
+	<string name="permission_access_provider_label">"Получать доступ к данным провайдера email"</string>
+	<!---->
+	<string name="permission_access_provider_desc">"Разрешает этому приложению доступ к базе данных приложения Email, включая полученные и отправленные письма, имена пользователей и пароли."</string>
+	<!---->
+	<string name="debug_title">"Отладка"</string>
+	<!---->
+	<string name="next_action">"Далее"</string>
+	<!---->
+	<string name="okay_action">"ОК"</string>
+	<!---->
+	<string name="cancel_action">"Отмена"</string>
+	<!---->
+	<string name="previous_action">"Назад"</string>
+	<!---->
+	<string name="done_action">"Готово"</string>
+	<!---->
+	<string name="create_action">"Создать"</string>
+	<!---->
+	<string name="quick_responses_empty_view">"Нет шаблонов"</string>
+	<!---->
+	<string name="account_settings_action">"Настройки аккаунта"</string>
+	<!---->
+	<string name="status_network_error">"Проблемы с подключением."</string>
+	<plurals name="move_messages">
+		<item quantity="one">"Переместить сообщение"</item>
+		<item quantity="other">"Переместить сообщения"</item>
+	</plurals>
+	<!---->
+	<string name="cannot_move_protocol_not_supported_toast">"Перемещение не поддерживается в аккаунтах POP3."</string>
+	<!---->
+	<string name="cannot_move_multiple_accounts_toast">"Не удалось переместить сообщения, так как они находятся в разных аккаунтах."</string>
+	<!---->
+	<string name="cannot_move_special_mailboxes_toast">"Сообщения в Черновиках, Исходящих или Отправленных не могут быть перемещены."</string>
+	<!---->
+	<string name="mailbox_name_display_inbox">"Входящие"</string>
+	<!---->
+	<string name="mailbox_name_display_outbox">"Исходящие"</string>
+	<!---->
+	<string name="mailbox_name_display_drafts">"Черновики"</string>
+	<!---->
+	<string name="mailbox_name_display_trash">"Корзина"</string>
+	<!---->
+	<string name="mailbox_name_display_sent">"Отправленные"</string>
+	<!---->
+	<string name="mailbox_name_display_junk">"Спам"</string>
+	<!---->
+	<string name="mailbox_name_display_starred">"Помеченные"</string>
+	<!---->
+	<string name="mailbox_name_display_unread">"Непрочитанные"</string>
+	<!---->
+	<string name="account_folder_list_summary_inbox">"Входящие"</string>
+	<!---->
+	<string name="account_folder_list_summary_starred">"Помеченные"</string>
+	<!---->
+	<string name="account_folder_list_summary_drafts">"Черновики"</string>
+	<!---->
+	<string name="account_folder_list_summary_outbox">"Исходящие"</string>
+	<!---->
+	<string name="mailbox_list_account_selector_combined_view">"Комбинированный режим"</string>
+	<!---->
+	<string name="message_compose_fwd_header_fmt">"\n\n"-------- Исходное сообщение --------"\n"Тема: <xliff:g id="SUBJECT">%1$s</xliff:g>"\n"От: <xliff:g id="SENDER">%2$s</xliff:g>"\n"Кому: <xliff:g id="TO">%3$s</xliff:g>"\n"Копия: <xliff:g id="CC_0">%4$s</xliff:g>"\n\n"</string>
+	<!---->
+	<string name="message_compose_insert_quick_response_list_title">"Вставка быстрого ответа"</string>
+	<!---->
+	<string name="message_compose_insert_quick_response_menu_title">"Вставить шаблон"</string>
+	<!---->
+	<string name="message_view_attachment_background_load">"Один или несколько прикрепленных файлов в пересылаемом сообщении будут загружены перед отправкой."</string>
+	<!---->
+	<string name="attachment_not_found">"Не удалось загрузить вложение."</string>
+	<!---->
+	<string name="message_decode_error">"При расшифровке сообщения произошла ошибка."</string>
+	<!---->
+	<string name="forward_download_failed_ticker">"Сбой при пересылке вложений."</string>
+	<!---->
+	<string name="forward_download_failed_title">"Не удалось переслать вложение"</string>
+	<!---->
+	<string name="login_failed_ticker">"Ошибка входа <xliff:g id="account_name">%s</xliff:g>"</string>
+	<!---->
+	<string name="login_failed_title">"Вход не выполнен"</string>
+	<plurals name="message_view_attachment_bytes">
+		<item quantity="one">"<xliff:g id="SIZE_IN_BYTES">%d</xliff:g> Б"</item>
+		<item quantity="other">"<xliff:g id="SIZE_IN_BYTES">%d</xliff:g> Б"</item>
+	</plurals>
+	<plurals name="message_view_attachment_kilobytes">
+		<item quantity="one">"<xliff:g id="SIZE_IN_KILOBYTES">%d</xliff:g> КБ"</item>
+		<item quantity="other">"<xliff:g id="SIZE_IN_KILOBYTES">%d</xliff:g> КБ"</item>
+	</plurals>
+	<plurals name="message_view_attachment_megabytes">
+		<item quantity="one">"<xliff:g id="SIZE_IN_MEGABYTES">%d</xliff:g> МБ"</item>
+		<item quantity="other">"<xliff:g id="SIZE_IN_MEGABYTES">%d</xliff:g> МБ"</item>
+	</plurals>
+	<plurals name="message_view_attachment_gigabytes">
+		<item quantity="one">"<xliff:g id="SIZE_IN_GIGABYTES">%d</xliff:g> ГБ"</item>
+		<item quantity="other">"<xliff:g id="SIZE_IN_GIGABYTES">%d</xliff:g> ГБ"</item>
+	</plurals>
+	<!---->
+	<string name="account_setup_basics_title">"Настройка аккаунта"</string>
+	<!---->
+	<string name="oauth_authentication_title">"Запрос авторизации"</string>
+	<!---->
+	<string name="sign_in_title">"Вход"</string>
+	<!---->
+	<string name="oauth_error_description">"Невозможно проверить подлинность"</string>
+	<!---->
+	<string name="password_warning_label">"Адрес электронной почты или пароль указаны неверно"</string>
+	<!---->
+	<string name="email_confirmation_label">"Адрес email"</string>
+	<!---->
+	<string name="account_setup_basics_headline">"Настройка Email"</string>
+	<!---->
+	<string name="accounts_welcome">"Настройте свой почтовый аккаунт за несколько простых шагов."</string>
+	<!---->
+	<string name="account_setup_basics_email_label">"Адрес email"</string>
+	<!---->
+	<string name="account_setup_basics_email_flying_label">"Email"</string>
+	<!---->
+	<string name="or_label">"или"</string>
+	<!---->
+	<string name="sign_in_with_google">"Войти с учетной записью Google"</string>
+	<!---->
+	<string name="account_setup_basics_password_label">"Пароль"</string>
+	<!---->
+	<string name="password_hint">"Пароль"</string>
+	<!---->
+	<string name="signed_in_with_service_label">"Войти с учетной записью %s"</string>
+	<!---->
+	<string name="authentication_label">"АВТОРИЗАЦИЯ"</string>
+	<!---->
+	<string name="add_authentication_label">"Добавить аутентификацию"</string>
+	<!---->
+	<string name="clear_authentication_label">"Очистить аутентификацию"</string>
+	<!---->
+	<string name="account_setup_basics_manual_setup_action">"Вручную"</string>
+	<!---->
+	<string name="account_setup_username_password_toast">"Введите действительный адрес электронной почты и пароль."</string>
+	<!---->
+	<string name="account_duplicate_dlg_title">"Повторяющийся аккаунт"</string>
+	<!---->
+	<string name="account_duplicate_dlg_message_fmt">"Это имя уже используется в аккаунте \"<xliff:g id="DUPLICATE">%s</xliff:g>\"."</string>
+	<!---->
+	<string name="account_password_spaces_error">"Пароль начинается или заканчивается пробелом. Некоторые серверы не поддерживают пароли с пробелами."</string>
+	<!---->
+	<string name="account_setup_check_settings_retr_info_msg">"Получение информации аккаунта..."</string>
+	<!---->
+	<string name="account_setup_check_settings_check_incoming_msg">"Проверка настроек сервера…"</string>
+	<!---->
+	<string name="account_setup_check_settings_check_outgoing_msg">"Пользовательские настройки SMTP..."</string>
+	<!---->
+	<string name="account_setup_creating_account_msg">"Создание учётной записи..."</string>
+	<!---->
+	<string name="account_setup_ab_headline">"Подтвердите тип аккаунта"</string>
+	<!---->
+	<string name="account_setup_ab_instructions_format">"Вы указали, что <xliff:g id="email">%1$s</xliff:g> использует <xliff:g id="userProtocol">%2$s</xliff:g>, но аккаунт может использовать <xliff:g id="providerProtocol">%3$s</xliff:g>"</string>
+	<!---->
+	<string name="account_setup_names_title">"Настройка аккаунта"</string>
+	<!---->
+	<string name="account_setup_names_headline">"Ваш аккаунт настроен. Идёт загрузка сообщений."</string>
+	<!---->
+	<string name="account_setup_names_account_name_label">"Присвойте имя аккаунту"</string>
+	<!---->
+	<string name="account_setup_names_user_name_label">"Ваше имя"</string>
+	<!---->
+	<string name="account_setup_names_user_name_empty_error">"Это поле должно быть заполнено."</string>
+	<!---->
+	<string name="account_setup_account_type_title">"Настройка аккаунта"</string>
+	<!---->
+	<string name="account_setup_account_type_headline">"Тип аккаунта"</string>
+	<!---->
+	<string name="account_setup_account_type_instructions">"Выберите тип аккаунта"</string>
+	<!---->
+	<string name="account_setup_incoming_title">"Настройка аккаунта"</string>
+	<!---->
+	<string name="account_setup_incoming_headline">"Настройки сервера входящих сообщений"</string>
+	<!---->
+	<string name="account_setup_incoming_username_label">"Имя пользователя"</string>
+	<!---->
+	<string name="account_setup_incoming_password_label">"Пароль"</string>
+	<!---->
+	<string name="account_setup_password_subheading">"Пароль"</string>
+	<!---->
+	<string name="account_setup_incoming_server_label">"Сервер"</string>
+	<!---->
+	<string name="account_setup_incoming_port_label">"Порт"</string>
+	<!---->
+	<string name="account_setup_incoming_security_label">"Тип безопасности"</string>
+	<!---->
+	<string name="account_setup_incoming_domain_label">"Домен"</string>
+	<!---->
+	<string name="account_setup_incoming_add_domain_label">"Добавить домен"</string>
+	<!---->
+	<string name="account_setup_incoming_security_none_label">"Нет"</string>
+	<!---->
+	<string name="account_setup_incoming_security_ssl_trust_certificates_label">"SSL/TLS (все сертификаты)"</string>
+	<!---->
+	<string name="account_setup_incoming_security_ssl_label">"SSL/TLS"</string>
+	<!---->
+	<string name="account_setup_incoming_security_tls_trust_certificates_label">"STARTTLS (принимать все сертификаты)"</string>
+	<!---->
+	<string name="account_setup_incoming_security_tls_label">"STARTTLS"</string>
+	<!---->
+	<string name="account_setup_incoming_delete_policy_label">"Удалять сообщения с сервера"</string>
+	<!---->
+	<string name="account_setup_incoming_delete_policy_never_label">"Никогда"</string>
+	<!---->
+	<string name="account_setup_incoming_delete_policy_delete_label">"При удал. из входящих"</string>
+	<!---->
+	<string name="account_setup_incoming_imap_path_prefix_label">"Префикс пути IMAP"</string>
+	<!---->
+	<string name="account_setup_incoming_imap_path_prefix_hint">"Не обязательно"</string>
+	<!---->
+	<string name="account_setup_outgoing_title">"Настройка аккаунта"</string>
+	<!---->
+	<string name="account_setup_outgoing_headline">"Настройки сервера исходящих сообщений"</string>
+	<!---->
+	<string name="account_setup_outgoing_smtp_server_label">"Сервер SMTP"</string>
+	<!---->
+	<string name="account_setup_outgoing_port_label">"Порт"</string>
+	<!---->
+	<string name="account_setup_outgoing_security_label">"Тип безопасности"</string>
+	<!---->
+	<string name="account_setup_outgoing_require_login_label">"Требовать логин"</string>
+	<!---->
+	<string name="account_setup_outgoing_username_label">"Имя пользователя"</string>
+	<!---->
+	<string name="account_setup_outgoing_password_label">"Пароль"</string>
+	<!---->
+	<string name="account_setup_exchange_certificate_title">"Сертификат клиента"</string>
+	<!---->
+	<string name="account_setup_exchange_select_certificate">"Выбрать"</string>
+	<!---->
+	<string name="account_setup_exchange_use_certificate">"Использовать сертификат клиента"</string>
+	<!---->
+	<string name="account_setup_exchange_remove_certificate">"Удалить"</string>
+	<!---->
+	<string name="account_setup_exchange_no_certificate">"Не используется"</string>
+	<!---->
+	<string name="account_setup_exchange_device_id_label">"Идентификатор мобильного устройства"</string>
+	<!---->
+	<string name="account_setup_options_title">"Настройки аккаунта"</string>
+	<!---->
+	<string name="account_setup_options_headline">"Параметры аккаунта"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_label">"Частота синхронизации"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_never">"Никогда"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_push">"Автоматически (PUSH)"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_5min">"Каждые 5 минут"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_10min">"Каждые 10 минут"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_15min">"Каждые 15 минут"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_30min">"Каждые 30 минут"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_1hour">"Каждый час"</string>
+	<!---->
+	<string name="account_setup_options_notify_label">"Уведомлять при получении писем"</string>
+	<!---->
+	<string name="account_setup_options_sync_contacts_label">"Синхронизировать контакты из этого аккаунта"</string>
+	<!---->
+	<string name="account_setup_options_sync_calendar_label">"Синхронизировать календарь из этого аккаунта."</string>
+	<!---->
+	<string name="account_setup_options_sync_email_label">"Синхронизировать почту из этого аккаунта"</string>
+	<!---->
+	<string name="account_setup_options_background_attachments_label">"Автоматически загружать вложения при подключении к Wi-Fi"</string>
+	<!---->
+	<string name="account_setup_failed_dlg_title">"Невозможно завершить"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_label">"Период синхронизации почты"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_auto">"Автоматически"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1day">"Последний день"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_3days">"Последние 3 дня"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1week">"Последняя неделя"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_2weeks">"Последние 2 недели"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1month">"Последний месяц"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_all">"Все"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_default">"Настройки по умолчанию"</string>
+	<!---->
+	<string name="account_setup_failed_dlg_auth_message">"Неверное имя пользователя или пароль."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_auth_message_fmt">"Не удалось войти.\n(<xliff:g id="error">%s</xliff:g>)"</string>
+	<!---->
+	<string name="account_setup_autodiscover_dlg_authfail_title">"Проблема с настройкой аккаунта"</string>
+	<!---->
+	<string name="account_setup_autodiscover_dlg_authfail_message">"Подтвердите правильность имени пользователя, пароля и параметров учетной записи."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_certificate_message">"Не удалось установить защищённое подключение к серверу из-за недействительного сертификата."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_certificate_message_fmt">"Не удалось установить защищенное подключение к серверу.\n<xliff:g id="error">%s</xliff:g>"</string>
+	<!---->
+	<string name="account_setup_failed_certificate_required">"Требуется сертификат клиента. Подключиться к серверу с таким сертификатом?"</string>
+	<!---->
+	<string name="account_setup_failed_certificate_inaccessible">"Сертификат недействителен или недоступен."</string>
+	<!---->
+	<string name="account_setup_failed_check_credentials_message">"Сервер ответил ошибкой. Проверьте имя пользователя и пароль, а затем повторите попытку."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_server_message">"Не удалось подключиться к серверу."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_server_message_fmt">"Не удалось подключиться к серверу.\n<xliff:g id="ERROR">%s</xliff:g>"</string>
+	<!---->
+	<string name="account_setup_failed_tls_required">"TLS не поддерживается сервером."</string>
+	<!---->
+	<string name="account_setup_failed_auth_required">"Методы аутентификации не поддерживаются сервером."</string>
+	<!---->
+	<string name="account_setup_failed_security">"Не удалось установить подключение к серверу из-за ошибки безопасности."</string>
+	<!---->
+	<string name="account_setup_failed_ioerror">"Не удалось подключиться к серверу."</string>
+	<!---->
+	<string name="account_setup_failed_protocol_unsupported">"Введен неправильный адрес сервера или сервер запрашивает версию протокола, которая не поддерживается в Email."</string>
+	<!---->
+	<string name="account_setup_failed_access_denied">"У вас нет разрешений на синхронизацию с этим сервером. За дополнительной информацией обратитесь к администратору сервера."</string>
+	<!---->
+	<string name="account_setup_security_required_title">"Удалённое управление безопасностью"</string>
+	<!---->
+	<string name="account_setup_security_policies_required_fmt">"Серверу <xliff:g id="server">%s</xliff:g> требуется разрешение на удалённое управление некоторыми функциями безопасности устройства Android. Завершить настройку этого аккаунта?"</string>
+	<!---->
+	<string name="account_setup_failed_security_policies_unsupported">"Ваше Android-устройство не поддерживает обязательные для сервера функции защиты: <xliff:g id="ERROR">%s</xliff:g>"</string>
+	<!---->
+	<string name="account_setup_username_uneditable_error">"Невозможно изменить имя пользователя. Если хотите использовать другое имя, нажмите \"Добавить аккаунт\" и создайте новый аккаунт."</string>
+	<!---->
+	<string name="disable_admin_warning">"ВНИМАНИЕ! В случае лишения приложения Email прав администратора устройства все аккаунты электронной почты, требующие наличия таких прав, будут удалены вместе с сообщениями, календарями и другими связанными данными."</string>
+	<!---->
+	<string name="account_security_dialog_title">"Обновления безопасности"</string>
+	<!---->
+	<string name="account_security_dialog_content_fmt">"Для аккаунта <xliff:g id="ACCOUNT">%s</xliff:g> требуется обновить настройки безопасности."</string>
+	<!---->
+	<string name="security_unsupported_ticker_fmt">"Аккаунт «<xliff:g id="account">%s</xliff:g>» не может быть синхронизирован из-за требований безопасности."</string>
+	<!---->
+	<string name="security_needed_ticker_fmt">"Аккаунт «<xliff:g id="account">%s</xliff:g>» требует обновления настроек безопасности."</string>
+	<!---->
+	<string name="security_changed_ticker_fmt">"Аккаунт \"<xliff:g id="account">%s</xliff:g>\" изменил параметры безопасности; никаких действий пользователя не требуется."</string>
+	<!---->
+	<string name="security_notification_content_update_title">"Обновление настроек безопасности"</string>
+	<!---->
+	<string name="security_notification_content_change_title">"Политика безопасности изменилась"</string>
+	<!---->
+	<string name="security_notification_content_unsupported_title">"Политика безопасности не может быть выполнена"</string>
+	<!---->
+	<string name="account_security_title">"Безопасность устройства."</string>
+	<!---->
+	<string name="account_security_policy_explanation_fmt">"Серверу <xliff:g id="server">%s</xliff:g> требуется разрешение на удалённое управление некоторыми функциями безопасности вашего устройства Android."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_edit_details_action">"Изменить сведения"</string>
+	<!---->
+	<string name="password_expire_warning_ticker_fmt">"Для аккаунта <xliff:g id="account">%s</xliff:g> требуется изменить цифровой код или пароль блокировки экрана."</string>
+	<!---->
+	<string name="password_expire_warning_content_title">"Истекает срок действия пароля"</string>
+	<!---->
+	<string name="password_expired_ticker">"Срок действия цифрового кода или пароля блокировки экрана истёк."</string>
+	<!---->
+	<string name="password_expired_content_title">"Пароль блокировки экрана устарел"</string>
+	<!---->
+	<string name="password_expire_warning_dialog_title">"Истекает срок действия пароля"</string>
+	<!---->
+	<string name="password_expire_warning_dialog_content_fmt">"В ближайшее время вы должны изменить PIN-код или пароль блокировки экрана, иначе данные аккаунта <xliff:g id="account">%s</xliff:g> будут удалены. Приступить к изменению прямо сейчас?"</string>
+	<!---->
+	<string name="password_expired_dialog_title">"Пароль блокировки экрана устарел"</string>
+	<!---->
+	<string name="password_expired_dialog_content_fmt">"Данные для <xliff:g id="account">%s</xliff:g> удаляются с вашего устройства. Вы можете восстановить это, изменив свой PIN-код или пароль блокировки экрана. Приступить к изменению прямо сейчас?"</string>
+	<!---->
+	<string name="account_settings_exit_server_settings">"Отменить несохранённые изменения?"</string>
+	<!---->
+	<string name="account_settings_login_dialog_title">"Не удалось войти в аккаунт."</string>
+	<!---->
+	<string name="account_settings_login_dialog_content_fmt">"Неверное имя пользователя или пароль аккаунта <xliff:g id="ACCOUNT">%s</xliff:g>. Обновить их сейчас?"</string>
+	<!---->
+	<string name="account_settings_login_dialog_reason_fmt">"Вход в <xliff:g id="account">%s</xliff:g> не удался; сообщение сервера: <xliff:g id="reason">%s</xliff:g> Хотите обновить свое имя пользователя и/или пароль?"</string>
+	<!---->
+	<string name="account_settings_background_attachments_label">"Загружать вложения"</string>
+	<!---->
+	<string name="account_settings_background_attachments_summary">"Автоматически загружать файлы из новых сообщений через Wi-Fi"</string>
+	<!---->
+	<string name="account_settings_notify_label">"Уведомления"</string>
+	<!---->
+	<string name="account_settings_summary">"Частота синхронизации, уведомления и другие настройки"</string>
+	<!---->
+	<string name="account_settings_notify_summary">"Сообщать о получении почты в строке состояния"</string>
+	<!---->
+	<string name="account_settings_mail_check_frequency_label">"Частота синхронизации"</string>
+	<!---->
+	<string name="account_settings_incoming_label">"Настройки входящих"</string>
+	<!---->
+	<string name="account_settings_incoming_summary">"Имя пользователя, пароль и другие настройки сервера входящих сообщений"</string>
+	<!---->
+	<string name="account_settings_outgoing_label">"Настройки исходящих"</string>
+	<!---->
+	<string name="account_settings_outgoing_summary">"Имя пользователя, пароль и другие настройки сервера исходящих сообщений"</string>
+	<!---->
+	<string name="account_settings_reply_to_category">"Ответить с настройками"</string>
+	<!---->
+	<string name="account_settings_reply_to_label">"Ответить"</string>
+	<!---->
+	<string name="account_settings_reply_to_invalid">"Адрес недействительный"</string>
+	<!---->
+	<string name="account_settings_enforced_label">"Политика применена"</string>
+	<!---->
+	<string name="account_settings_enforced_summary">"Нет"</string>
+	<!---->
+	<string name="account_settings_unsupported_label">"Неподдерживаемая политика"</string>
+	<!---->
+	<string name="account_settings_unsupported_summary">"Нет"</string>
+	<!---->
+	<string name="account_settings_retry_label">"Синхронизировать"</string>
+	<!---->
+	<string name="account_settings_retry_summary">"Нажмите сюда, чтобы синхронизировать этот аккаунт"</string>
+	<!---->
+	<string name="account_settings_description_label">"Название аккаунта"</string>
+	<!---->
+	<string name="account_settings_name_label">"Ваше имя"</string>
+	<!---->
+	<string name="account_settings_edit_quick_responses_label">"Шаблоны сообщений"</string>
+	<!---->
+	<string name="account_settings_edit_quick_responses_summary">"Изменить текст, который часто используется в ваших письмах"</string>
+	<!---->
+	<string name="account_settings_notifications">"Настройки уведомлений"</string>
+	<!---->
+	<string name="account_settings_data_usage">"Использование данных"</string>
+	<!---->
+	<string name="account_settings_policies">"Политика безопасности"</string>
+	<!---->
+	<string name="system_folders_title">"Системные папки"</string>
+	<!---->
+	<string name="system_folders_trash_title">"Папка Корзина"</string>
+	<!---->
+	<string name="system_folders_trash_summary">"Выберите серверную папку Корзина"</string>
+	<!---->
+	<string name="system_folders_trash_dlg">"Выберите серверную папку Корзина"</string>
+	<!---->
+	<string name="system_folders_sent_title">"Папка Отправленные"</string>
+	<!---->
+	<string name="system_folders_sent_summary">"Выберите серверную папку Исходящие"</string>
+	<!---->
+	<string name="system_folders_sent_dlg">"Выберите серверную папку Исходящие"</string>
+	<!---->
+	<string name="edit_quick_response_dialog">"Шаблон сообщения"</string>
+	<!---->
+	<string name="save_action">"Сохранить"</string>
+	<!---->
+	<string name="account_settings_sync_contacts_enable">"Синхронизация контактов"</string>
+	<!---->
+	<string name="account_settings_sync_contacts_summary">"Синхронизировать контакты для этого аккаунта"</string>
+	<!---->
+	<string name="account_settings_sync_calendar_enable">"Синхронизация календаря"</string>
+	<!---->
+	<string name="account_settings_sync_calendar_summary">"Синхронизировать события календарь для этого аккаунта"</string>
+	<!---->
+	<string name="account_settings_sync_email_enable">"Синхронизация почты"</string>
+	<!---->
+	<string name="account_settings_sync_email_summary">"Синхронизировать почту из этого аккаунта"</string>
+	<!---->
+	<string name="account_settings_vibrate_when_label">"Вибросигнал"</string>
+	<!---->
+	<string name="account_settings_ringtone">"Мелодия уведомления"</string>
+	<!---->
+	<string name="account_settings_servers">"Настройки сервера"</string>
+	<!---->
+	<string name="default_ringtone">"Мелодия по умолчанию"</string>
+	<!---->
+	<string name="default_ringtone_unkonwn">"Неизвестная мелодия"</string>
+	<!---->
+	<string name="mailbox_settings_activity_title">"Параметры синхронизации"</string>
+	<!---->
+	<string name="mailbox_settings_activity_title_with_mailbox">"Параметры синхронизации (<xliff:g id="MAILBOXX_NAME">%s</xliff:g>)"</string>
+	<!---->
+	<string name="mailbox_settings_sync_enabled_label">"Синхронизировать эту папку"</string>
+	<!---->
+	<string name="mailbox_settings_sync_enabled_summary">"Сообщения будут загружаться при наличии подключения к сети Интернет."</string>
+	<!---->
+	<string name="mailbox_settings_mailbox_sync_window_label">"Период синхронизации"</string>
+	<!---->
+	<string name="prefDialogTitle_conversationListIcon">"Фотография отправителя"</string>
+	<!---->
+	<string name="provider_note_live">"Доступ по протоколу POP, позволяющий этому приложению подключаться к вашему аккаунту, разрешён только для аккаунтов категории «Plus». Если вам не удаётся подключиться к своему аккаунту с помощью своего адреса электронной почты и пароля, скорее всего, у вас бесплатный аккаунт (не «Plus»). Чтобы войти в такой аккаунт, используйте браузер."</string>
+	<!---->
+	<string name="provider_note_t_online">"Прежде чем настраивать аккаунт, перейдите на веб-сайт оператора связи и установите пароль для доступа к email по протоколу POP3."</string>
+	<!---->
+	<string name="exchange_name">"Корпоративный"</string>
+	<!---->
+	<string name="exchange_name_alternate">"Microsoft Exchange ActiveSync"</string>
+	<!---->
+	<string name="system_account_create_failed">"Не удалось создать аккаунт. Повторите попытку."</string>
+	<!---->
+	<string name="device_admin_label">"Email"</string>
+	<!---->
+	<string name="device_admin_description">"Включить политику безопасности сервера."</string>
+	<!---->
+	<string name="settings_activity_title">"Настройки"</string>
+	<!---->
+	<string name="header_label_general_preferences">"Общие настройки"</string>
+	<!---->
+	<string name="general_preference_confirm_delete_label">"Подтверждать удаление"</string>
+	<!---->
+	<string name="general_preference_confirm_send_label">"Подтверждать отправку"</string>
+	<!---->
+	<string name="more_than_999">"&gt;999"</string>
+	<!---->
+	<string name="search_hint">"Поиск"</string>
+	<!---->
+	<string name="policy_dont_allow_camera">"Запрещать использование всех камер устройства"</string>
+	<!---->
+	<string name="policy_require_password">"Требовать пароль устройства"</string>
+	<!---->
+	<string name="policy_password_history">"Ограничить повторное использование последних паролей"</string>
+	<!---->
+	<string name="policy_password_expiration">"Требуют истечение срока действия паролей"</string>
+	<!---->
+	<string name="policy_screen_timeout">"Потребуйте, чтобы неработающее устройство заблокировало свой экран"</string>
+	<!---->
+	<string name="policy_calendar_age">"Ограничить число синхронизируемых событий календаря"</string>
+	<!---->
+	<string name="policy_email_age">"Ограничить число синхронизируемых сообщений"</string>
+	<!---->
+	<string name="quick_1">"Спасибо!"</string>
+	<!---->
+	<string name="quick_2">"Звучит хорошо!"</string>
+	<!---->
+	<string name="quick_3">"Я прочту это позже и отвечу."</string>
+	<!---->
+	<string name="quick_4">"Давайте назначим встречу, чтобы обсудить это."</string>
+	<!---->
+	<string name="require_manual_sync_message">"Для этого аккаунта выключена фоновая синхронизация в роуминге."</string>
+	<!---->
+	<string name="confirm_response">"Отправка ответа..."</string>
+	<!---->
+	<string name="no_conversations">"Сообщения отсутствуют."</string>
+	<!-- no translation found for imap_name -->
+	<skip />
+	<!-- no translation found for pop3_name -->
+	<skip />
+	<!---->
+	<string name="email_name">"Email"</string>
+	<!---->
+	<string name="folder_picker_title">"Сортировщик папок"</string>
+	<!---->
+	<string name="trash_folder_selection_title">"Выберите сервер для папки Корзина для <xliff:g id="account">%s</xliff:g>"</string>
+	<!---->
+	<string name="sent_folder_selection_title">"<xliff:g id="ACCOUNT">%s</xliff:g>: выберите папку на сервере"</string>
+	<!---->
+	<string name="account_waiting_for_folders_msg">"Загрузка списка папок..."</string>
+	<!---->
+	<string name="no_quick_responses">"Нет доступных"</string>
+	<!---->
+	<string name="gmail_name">"Gmail"</string>
+	<!---->
+	<string name="folder_sync_settings_pref_title">"Управление папками"</string>
+	<!---->
+	<string name="select_your_account">"Выбор почтового сервиса"</string>
+	<!---->
+	<string name="select_account_list_below">"Выберите ваш почтовый сервис из следующего списка:"</string>
+	<!---->
+	<string name="cancel_label">"Отмена"</string>
+	<!---->
+	<string name="next_label">"Далее"</string>
+	<!---->
+	<string name="str_account_provider_other">"Другой"</string>
+	<!---->
+	<string name="account_settings_download_options_label">"Параметры загрузки сообщения"</string>
+	<!---->
+	<string name="account_setting_download_opt_headonly">"Только заголовок"</string>
+	<!---->
+	<string name="account_setting_download_opt_all">"Сообщение целиком"</string>
+	<!---->
+	<string name="account_setting_download_opt_2k">"2КБ"</string>
+	<!---->
+	<string name="account_setting_download_opt_5k">"5КБ"</string>
+	<!---->
+	<string name="account_setting_download_opt_10k">"10КБ"</string>
+	<!---->
+	<string name="account_setting_download_opt_20k">"20КБ"</string>
+	<!---->
+	<string name="account_setting_download_opt_50k">"50КБ"</string>
+	<!---->
+	<string name="account_setting_download_opt_100k">"100КБ"</string>
+	<!---->
+	<string name="account_oof_error_tip_past">"Время окончания должно быть позже текущего времени. Пожалуйста, измените время окончания."</string>
+	<!---->
+	<string name="account_oof_error_tip_earlier">"Время окончания не может быть раньше, чем время начала. Пожалуйста, измените время окончания."</string>
+	<!---->
+	<string name="account_setting_oof_label">"Автоответы"</string>
+	<!---->
+	<string name="oof_auto_repley">"Автоответы"</string>
+	<!---->
+	<string name="oof_auto_replies_period">"Отправлять автоматические ответы в течение этого периода"</string>
+	<!---->
+	<string name="start_time">"Время начала"</string>
+	<!---->
+	<string name="end_time">"Время окончания"</string>
+	<!---->
+	<string name="internal_message">"Текст автоответа (в пределах организации)"</string>
+	<!---->
+	<string name="oof_auto_replies_external_senders">"Отправлять автоматические ответы внешним отправителям"</string>
+	<!---->
+	<string name="oof_choice_oof_in_contacts">"Только отправителям из моего списка контактов"</string>
+	<!---->
+	<string name="oof_choice_oof_outside_organisation">"Любым отправителям за пределами организации"</string>
+	<!---->
+	<string name="external_message">"Текст автоответа (за пределами организации)"</string>
+	<!---->
+	<string name="oof_done_message_attention">"Вы не ввели текст автоответа для отправителей в пределах вашей организации, так что они не будут получать уведомления о том, что вы отсутствуете на рабочем месте, находитесь в отпуске или не имеете возможности отвечать на сообщения электронной почты. Вместе с тем, заданные вами правила для автоответов всё равно будут применены. Продолжить?"</string>
+	<!---->
+	<string name="oof_choice_in_contacts">"Отвечать отправителям из моего списка контактов"</string>
+	<!---->
+	<string name="oof_choice_all_senders">"Отвечать всем отправителям"</string>
+	<!---->
+	<string name="hint_text_of_internal_message">"Ответить на адреса вашей организации"</string>
+	<!---->
+	<string name="hint_text_of_external_message">"Ответить на адреса за пределами вашей организации"</string>
+	<!---->
+	<string name="account_delete_dlg_title">"Удалить аккаунт?"</string>
+	<!---->
+	<string name="account_delete_dlg_instructions_fmt">"Аккаунт «<xliff:g id="account">%s</xliff:g>» будет удалён из приложения Email."</string>
+	<!---->
+	<string name="account_delete_dlg_instructions_fmt_new">"Удаление этого аккаунта приведет к потере всех связанных с ним сообщений, контактов и других данных, имеющихся в телефоне."</string>
+	<!---->
+	<string name="account_delete_dlg_action_remove_label">"Удалить"</string>
+	<!---->
+	<string name="account_delete_dlg_action_cancel_label">"Отмена"</string>
+	<!---->
+	<string name="account_settings_category_delete_account">"Удалить аккаунт"</string>
+	<!---->
+	<string name="account_settings_delete_account_label">"Удалить аккаунт"</string>
+	<!---->
+	<string name="account_settings_default_label">"Аккаунт по умолчанию"</string>
+	<!---->
+	<string name="account_settings_default_summary">"По умолчанию отправлять почту, используя этот аккаунт"</string>
+	<!---->
+	<string name="account_setup_options_default_label">"По умолчанию отправлять почту с этого аккаунта"</string>
+	<!---->
+	<string name="account_setup_basics_default_label">"По умолчанию отправлять почту с этого аккаунта"</string>
+	<!---->
+	<string name="local_search_action">"Поиск по устройству"</string>
+	<!---->
+	<string name="service_search_action">"Поиск на сервере"</string>
+	<!---->
+	<string name="local_search_all">"Все"</string>
+	<!---->
+	<string name="local_search_from">"С"</string>
+	<!---->
+	<string name="local_search_to">"Кому"</string>
+	<!---->
+	<string name="local_search_subject">"Тема"</string>
+	<!---->
+	<string name="status_loading_attachments">"Выполняется загрузка"</string>
+	<!---->
+	<string name="account_use_proxy_label">"Использовать прокси-сервер"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_label">"IP-адрес прокси-сервера"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_port_label">"Порт прокси-сервера"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_name">"Имя прокси"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_password">"Пароль прокси-сервера"</string>
+	<!---->
+	<string name="attachment_info_dialog_wifi_title">"Требуется подключение к сети Wi-Fi"</string>
+	<!---->
+	<string name="attachment_info_wifi_settings">"Настройки Wi-Fi"</string>
+	<!---->
+	<string name="attachment_info_wifi_only">"Слишком большое вложение для загрузки через мобильную сеть. Вы можете загрузить его при следующем подключении к сети Wi-Fi."</string>
+	<!---->
+	<string name="attachment_info_ok">"OK"</string>
+	<!---->
+	<string name="mailbox_name_display_draft">"Черновик"</string>
+	<!---->
+	<string name="message_compose_display_name">"<xliff:g id="name">%1$s</xliff:g> и ещё <xliff:g id="number">%2$d</xliff:g>"</string>
+	<!---->
+	<string name="app_name">"Email"</string>
+	<!---->
+	<string name="from">"От"</string>
+	<!---->
+	<string name="to">"Кому"</string>
+	<!---->
+	<string name="cc">"Копия"</string>
+	<!---->
+	<string name="bcc">"Скрытая копия"</string>
+	<!---->
+	<string name="subject_hint">"Тема"</string>
+	<!---->
+	<string name="body_hint">"Текст сообщения"</string>
+	<!---->
+	<string name="add_file_attachment">"Прикрепить файл"</string>
+	<!---->
+	<string name="add_photo_attachment">"Прикрепить изображение"</string>
+	<!---->
+	<string name="save_draft">"Сохранить черновик"</string>
+	<!---->
+	<string name="discard">"Удалить черновик"</string>
+	<!---->
+	<string name="compose">"Новое письмо"</string>
+	<!---->
+	<string name="select_contacts_field">"Выбрать контакты из"</string>
+	<!---->
+	<string name="item_save_group">"Сохранить группу"</string>
+	<!---->
+	<string name="confirm_select">"Выбрать"</string>
+	<!---->
+	<string name="cancel_select">"Отмена"</string>
+	<string-array name="compose_modes">
+		<item>"Ответить"</item>
+		<item>"Ответить всем"</item>
+		<item>"Переслать"</item>
+	</string-array>
+	<string-array name="compose_modes_without_reply_all">
+		<item>"Ответить"</item>
+		<item>"Переслать"</item>
+	</string-array>
+	<!---->
+	<string name="reply_subject_label">"RE:"</string>
+	<!---->
+	<string name="forward_subject_label">"FW:"</string>
+	<!---->
+	<string name="reply_attribution">"<xliff:g id="date">%s</xliff:g> <xliff:g id="person">%s</xliff:g> написал:"</string>
+	<!---->
+	<string name="forward_attribution">"---------- Пересылаемое сообщение ----------；От:；Дата:；Тема:；Кому:"</string>
+	<!---->
+	<string name="forward_attribution_with_headers">"---------- Пересылаемое сообщение ---------- <xliff:g id="a">%s</xliff:g> От: <xliff:g id="from">%s</xliff:g> <xliff:g id="b">%s</xliff:g> Дата: <xliff:g id="date">%s</xliff:g> <xliff:g id="c">%s</xliff:g> Тема: <xliff:g id="subject">%s</xliff:g> <xliff:g id="d">%s</xliff:g> Кому: <xliff:g id="to">%s</xliff:g> <xliff:g id="e">%s</xliff:g> Копия: <xliff:g id="cc">%s</xliff:g> <br/>"</string>
+	<!---->
+	<string name="forward_attribution_no_headers">"---------- Пересылаемое сообщение ----------"</string>
+	<!---->
+	<string name="cc_attribution">"Копия:"</string>
+	<!---->
+	<string name="select_attachment_type">"Выберите тип вложения"</string>
+	<!---->
+	<string name="too_large_to_attach_single">"Невозможно прикрепить файл более %1$s"</string>
+	<!---->
+	<string name="too_large_to_attach_multiple">"Один или несколько файлов не прикреплены. Ограничение <xliff:g id="maxSize">%1$s</xliff:g>."</string>
+	<!---->
+	<string name="too_large_to_mid_attach_additional">"Размер сообщения превышает максимально возможный (<xliff:g id="maxSize">%1$s</xliff:g>). Ваш аккаунт может не поддерживать такие сообщения."</string>
+	<!---->
+	<string name="too_large_to_attach_additional">"Не удалось прикрепить файл. Размер сообщения превысит максимально возможный (<xliff:g id="maxSize">%1$s</xliff:g>)."</string>
+	<!---->
+	<string name="generic_attachment_problem">"Не удалось прикрепить файл."</string>
+	<!---->
+	<string name="recipient_needed">"Добавьте хотя бы одного получателя."</string>
+	<!---->
+	<string name="recipient_error_dialog_title">"Ошибка Получателя"</string>
+	<!---->
+	<string name="confirm_send_title">"Отправить сообщение?"</string>
+	<!---->
+	<string name="confirm_send_message_with_no_subject">"Сообщение без темы."</string>
+	<!---->
+	<string name="confirm_send_message_with_no_body">"Нет текста в теле сообщения."</string>
+	<!---->
+	<string name="confirm_send_message">"Отправить это сообщение?"</string>
+	<!---->
+	<string name="message_discarded">"Сообщение удалено."</string>
+	<!-- no translation found for signature -->
+	<skip />
+	<!---->
+	<string name="custom_from_account_label">"Отправить письмо как:"</string>
+	<!---->
+	<string name="send">"Отправить"</string>
+	<!---->
+	<string name="mark_read">"Отм. прочит."</string>
+	<!---->
+	<string name="mark_unread">"Пометить непрочитанным"</string>
+	<!---->
+	<string name="mute">"Микрофон"</string>
+	<!---->
+	<string name="add_star">"Пометить"</string>
+	<!---->
+	<string name="remove_star">"Снять отм."</string>
+	<!---->
+	<string name="remove_folder">"Удалить из <xliff:g id="folderName">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="archive">"Архив"</string>
+	<!---->
+	<string name="report_spam">"Сообщить о спаме"</string>
+	<!---->
+	<string name="mark_not_spam">"Отчёт: Не спам"</string>
+	<!---->
+	<string name="report_phishing">"Сообщить о фишинге"</string>
+	<!---->
+	<string name="delete">"Удалить"</string>
+	<!---->
+	<string name="discard_drafts">"Удалить черновик"</string>
+	<!---->
+	<string name="discard_failed">"Отменить не удалось"</string>
+	<!---->
+	<string name="refresh">"Обновить"</string>
+	<!---->
+	<string name="reply">"Ответить"</string>
+	<!---->
+	<string name="reply_all">"Ответить всем"</string>
+	<!---->
+	<string name="resume_draft">"Изменить"</string>
+	<!---->
+	<string name="forward">"Переслать"</string>
+	<!---->
+	<string name="menu_compose">"Новое сообщение"</string>
+	<!---->
+	<string name="menu_sort">"Сортировать"</string>
+	<!---->
+	<string name="menu_change_folders">"Изменить папки"</string>
+	<!---->
+	<string name="menu_move_to">"Переместить в папку"</string>
+	<!---->
+	<string name="menu_move_to_inbox">"Переместить в папку Входящие"</string>
+	<!---->
+	<string name="menu_manage_folders">"Настройки папки"</string>
+	<!---->
+	<string name="menu_show_original">"Показать оригинал"</string>
+	<!---->
+	<string name="menu_settings">"Настройки"</string>
+	<!---->
+	<string name="menu_search">"Поиск"</string>
+	<!---->
+	<string name="drawer_title">"Навигация"</string>
+	<!---->
+	<string name="mark_important">"Отметить как важное"</string>
+	<!---->
+	<string name="mark_not_important">"Отметить как не важное"</string>
+	<!---->
+	<string name="select_all_conversations">"Выбрать все"</string>
+	<!---->
+	<string name="unselect_all_conversations">"Отменить весь выбор"</string>
+	<!---->
+	<string name="add_cc_label">"Копия/Скрытая копия"</string>
+	<!---->
+	<string name="add_bcc_label">"Добавить Скрытую Копию"</string>
+	<!---->
+	<string name="quoted_text">"Включить цитируемый текст"</string>
+	<!---->
+	<string name="quoted_text_label">"Цитировать текст"</string>
+	<!---->
+	<string name="respond_inline">"Ответ в тексте"</string>
+	<!---->
+	<string name="bytes">"<xliff:g id="count">%s</xliff:g> Б"</string>
+	<!---->
+	<string name="kilobytes">"<xliff:g id="count">%s</xliff:g> КБ"</string>
+	<!---->
+	<string name="megabytes">"<xliff:g id="count">%s</xliff:g> МБ"</string>
+	<!---->
+	<string name="attachment_image">"Изображения"</string>
+	<!---->
+	<string name="attachment_video">"Видео"</string>
+	<!---->
+	<string name="attachment_audio">"Аудио"</string>
+	<!---->
+	<string name="attachment_text">"Текст"</string>
+	<!---->
+	<string name="attachment_application_msword">"Документ"</string>
+	<!---->
+	<string name="attachment_application_vnd_ms_powerpoint">"Презентация"</string>
+	<!---->
+	<string name="attachment_application_vnd_ms_excel">"Таблица"</string>
+	<!-- no translation found for attachment_application_pdf -->
+	<skip />
+	<!---->
+	<string name="attachment_unknown">"<xliff:g id="attachmentExtension">%s</xliff:g> Файл"</string>
+	<!---->
+	<string name="preview_attachment">"Предварительный просмотр"</string>
+	<!---->
+	<string name="save_attachment">"Сохранить"</string>
+	<!---->
+	<string name="cancel_attachment">"Отмена"</string>
+	<!---->
+	<string name="open_attachment">"Открыть"</string>
+	<!---->
+	<string name="install_attachment">"Установить"</string>
+	<!---->
+	<string name="download_again">"Загрузить снова"</string>
+	<!---->
+	<string name="more_info_attachment">"Информация"</string>
+	<!---->
+	<string name="no_application_found">"Нет приложения для просмотра данного вложения."</string>
+	<!---->
+	<string name="fetching_attachment">"Получение вложения..."</string>
+	<!---->
+	<string name="please_wait">"Подождите..."</string>
+	<!---->
+	<string name="saved">"Сохранено"</string>
+	<!---->
+	<string name="download_failed">"Не удалось загрузить. Нажмите, чтобы повторить попытку."</string>
+	<!---->
+	<string name="menu_photo_save_all">"Сохранить все"</string>
+	<!---->
+	<string name="menu_photo_share">"Отправить"</string>
+	<!---->
+	<string name="menu_photo_share_all">"Отправить все"</string>
+	<!---->
+	<string name="menu_photo_print">"Печать"</string>
+	<!---->
+	<string name="saving">"Сохранение..."</string>
+	<!---->
+	<string name="choosertitle_sharevia">"Способ отправки"</string>
+	<!---->
+	<string name="contextmenu_openlink">"Открыть в браузере"</string>
+	<!---->
+	<string name="contextmenu_copy">"Копировать"</string>
+	<!---->
+	<string name="contextmenu_copylink">"Копировать адрес ссылки"</string>
+	<!---->
+	<string name="contextmenu_view_image">"Просмотр изображения"</string>
+	<!---->
+	<string name="contextmenu_dial_dot">"Вызов"</string>
+	<!---->
+	<string name="contextmenu_sms_dot">"SMS\u2026"</string>
+	<!---->
+	<string name="contextmenu_add_contact">"Добавить контакт"</string>
+	<!---->
+	<string name="contextmenu_send_mail">"Отправить email"</string>
+	<!---->
+	<string name="contextmenu_map">"Карта"</string>
+	<!---->
+	<string name="contextmenu_sharelink">"Отправить ссылку"</string>
+	<!---->
+	<string name="contextmenu_savelink">"Сохранить в файл"</string>
+	<!---->
+	<string name="contextmenu_help">"Справка"</string>
+	<!---->
+	<string name="contextmenu_feedback">"Отправить отзыв"</string>
+	<!---->
+	<string name="sort_title">"Сортировка"</string>
+	<!---->
+	<string name="sort_by_tip">"Сортировка <xliff:g id="sor_type">%s</xliff:g>"</string>
+	<!-- no translation found for num_selected -->
+	<skip />
+	<plurals name="move_conversation">
+		<item quantity="one">"Переместить беседу"</item>
+		<item quantity="other">"Переместить <xliff:g>%1$d</xliff:g> разговоры"</item>
+	</plurals>
+	<!---->
+	<string name="content_description">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> о <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> на <xliff:g id="date">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g>"</string>
+	<!---->
+	<string name="content_description_today">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> о <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> в <xliff:g id="time">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g>"</string>
+	<!---->
+	<string name="read_string">"Разговор прочитан"</string>
+	<!---->
+	<string name="unread_string">"Разговор не прочитан"</string>
+	<!---->
+	<string name="filtered_tag">"[<xliff:g id="tag">%1$s</xliff:g>]<xliff:g id="subject">%2$s</xliff:g>"</string>
+	<!-- no translation found for badge_and_subject -->
+	<skip />
+	<plurals name="draft">
+		<item quantity="one">"Черновик"</item>
+		<item quantity="other">"Черновики"</item>
+	</plurals>
+	<!---->
+	<string name="sending">"Идёт отправка\u2026"</string>
+	<!---->
+	<string name="message_retrying">"Повтор\u2026"</string>
+	<!---->
+	<string name="message_failed">"Не удалось"</string>
+	<!---->
+	<string name="send_failed">"Не удалось отправить почту."</string>
+	<!---->
+	<string name="send_failed_wait_attchment_downloaded">"Невозможно переслать, потому что вложения не полностью загружены, пожалуйста, загрузите сначала вложения."</string>
+	<!---->
+	<string name="me_object_pronoun">"Я"</string>
+	<!---->
+	<string name="me_subject_pronoun">"Я"</string>
+	<plurals name="confirm_delete_conversation">
+		<item quantity="one">"Удалить эту цепочку?"</item>
+		<item quantity="other">"Удалить эти цепочки (<xliff:g id="count">%1$d</xliff:g>)?"</item>
+	</plurals>
+	<plurals name="confirm_archive_conversation">
+		<item quantity="one">"Архивировать этот разговор?"</item>
+		<item quantity="other">"Архивировать эти <xliff:g id="count">%1$d</xliff:g> разговоры?"</item>
+	</plurals>
+	<plurals name="confirm_discard_drafts_conversation">
+		<item quantity="one">"Удалить это сообщение?"</item>
+		<item quantity="other">"Отменить <xliff:g id="count">%1$d</xliff:g> сообщения?"</item>
+	</plurals>
+	<!---->
+	<string name="confirm_discard_text">"Удалить это сообщение?"</string>
+	<!---->
+	<string name="loading_conversations">"Идет загрузка\u2026"</string>
+	<!---->
+	<string name="empty_inbox">"Вы все сделали! Пожалуйста, наслаждайтесь вашим днем."</string>
+	<!---->
+	<string name="empty_search">"Ой! Мы не нашли ничего для \"<xliff:g id="search_query">%1$s</xliff:g>\"."</string>
+	<!---->
+	<string name="empty_spam_folder">"Ура, никакого спама здесь!"</string>
+	<!---->
+	<string name="empty_trash_folder">"Корзина пуста. Спасибо!"</string>
+	<!---->
+	<string name="empty_folder">"Здесь нет сообщений."</string>
+	<!---->
+	<string name="getting_messages">"Идёт получение ваших сообщений..."</string>
+	<!---->
+	<string name="undo">"Отменить"</string>
+	<plurals name="conversation_unstarred">
+		<item quantity="one">"Не помеченный <xliff:g id="count">%1$d</xliff:g> разговор."</item>
+		<item quantity="other">"Не помеченные <xliff:g id="count">%1$d</xliff:g> разговоры."</item>
+	</plurals>
+	<plurals name="conversation_muted">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> отключен."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> отключен."</item>
+	</plurals>
+	<plurals name="conversation_spammed">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> отмечено как спам."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> отмечено как спам."</item>
+	</plurals>
+	<plurals name="conversation_not_spam">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> отмечено как не спам."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> отмечено как не спам."</item>
+	</plurals>
+	<plurals name="conversation_not_important">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> отмечено как не важное."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> отмечено как не важное."</item>
+	</plurals>
+	<plurals name="conversation_phished">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> отмечено как фишинг."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> отмечено как фишинг."</item>
+	</plurals>
+	<plurals name="conversation_archived">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> архивировано."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> архивировано."</item>
+	</plurals>
+	<plurals name="conversation_deleted">
+		<item quantity="one">"Удалено: &lt;b&gt;%1$d&lt;/b&gt;."</item>
+		<item quantity="other">"Удалено: &lt;b&gt;%1$d&lt;/b&gt;."</item>
+	</plurals>
+	<!---->
+	<string name="deleted">"Удалено"</string>
+	<!---->
+	<string name="archived">"Архивировано"</string>
+	<!---->
+	<string name="starred">"Помечено"</string>
+	<!---->
+	<string name="unstarred">"Пометка снята"</string>
+	<!---->
+	<string name="folder_removed">"Удалено из <xliff:g id="folderName">%1$s</xliff:g>"</string>
+	<plurals name="conversation_folder_changed">
+		<item quantity="one">"Папка изменилась."</item>
+		<item quantity="other">"Папки изменились."</item>
+	</plurals>
+	<!---->
+	<string name="conversation_folder_moved">"Перемещено в <xliff:g id="folderName">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="search_results_header">"Результаты"</string>
+	<!---->
+	<string name="search_unsupported">"Поиск не поддерживается в этой учетной записи."</string>
+	<!---->
+	<string name="add_label">"Добавить папку"</string>
+	<!---->
+	<string name="new_incoming_messages_one">"Показать новое сообщение от <xliff:g id="sender">%s</xliff:g>."</string>
+	<plurals name="new_incoming_messages_many">
+		<item quantity="other">"Показать новые сообщения: <xliff:g id="count">%1$d</xliff:g>."</item>
+	</plurals>
+	<!---->
+	<string name="date_and_view_details">"<xliff:g id="date">%1$s</xliff:g> &lt;a href=\'http://www.example.com\'&gt;Подробности&lt;/a&gt;"</string>
+	<!---->
+	<string name="date_and_view_details_another">"<xliff:g id="date">%1$s</xliff:g> &lt;font color=\"<xliff:g id="color">%2$d</xliff:g>\"&gt;Подробности&lt;/font&gt;"</string>
+	<!---->
+	<string name="hide_details">"Скрыть подробности"</string>
+	<!---->
+	<string name="to_message_header">"Получатель <xliff:g id="recipients">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="contact_info_string">"Показать контактную информацию для <xliff:g id="name">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="contact_info_string_default">"Показать контактную информацию"</string>
+	<plurals name="show_messages_read">
+		<item quantity="other">"<xliff:g example="4" id="count">%1$d</xliff:g> старые сообщения"</item>
+	</plurals>
+	<!---->
+	<string name="from_heading">"От:"</string>
+	<!---->
+	<string name="replyto_heading">"Ответить:"</string>
+	<!---->
+	<string name="to_heading">"Кому:"</string>
+	<!---->
+	<string name="to_heading_no_space">"Кому:"</string>
+	<!---->
+	<string name="cc_heading">"Копия:"</string>
+	<!---->
+	<string name="bcc_heading">"Скрытая копия:"</string>
+	<!---->
+	<string name="date_heading">"Дата:"</string>
+	<!---->
+	<string name="show_images">"Показать изображения"</string>
+	<!---->
+	<string name="always_show_images">"Всегда показывать изображения с этого адреса"</string>
+	<!---->
+	<string name="always_show_images_toast">"Изображения, отправленные с этого адреса, будут всегда отображаться."</string>
+	<!---->
+	<string name="address_display_format">"<xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g>"</string>
+	<!---->
+	<string name="address_display_format_with_via_domain">"<xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g> через <xliff:g id="via_domain">%3$s</xliff:g>"</string>
+	<!---->
+	<string name="message_saved">"Черновик сообщения сохранен."</string>
+	<!---->
+	<string name="sending_message">"Отправка сообщения\u2026"</string>
+	<!---->
+	<string name="invalid_recipient">"Адрес %s недействительный"</string>
+	<!---->
+	<string name="show_elided">"Показать цитируемый текст"</string>
+	<!---->
+	<string name="hide_elided">"\u25BC Скрыть цитируемый текст"</string>
+	<!---->
+	<string name="message_invite_title">"Приглашение календаря"</string>
+	<!---->
+	<string name="message_invite_available">"Вам доступны"</string>
+	<!---->
+	<string name="message_invite_datetime">"Когда"</string>
+	<!---->
+	<string name="message_invite_location">"Где"</string>
+	<!---->
+	<string name="message_invite_in_calendar_view">"Посмотреть в календаре"</string>
+	<!---->
+	<string name="message_invite_calendar_view">"Открыть в календаре"</string>
+	<!---->
+	<string name="message_invite_label_attending">"Продолжить?"</string>
+	<!---->
+	<string name="message_invite_accept">"Да"</string>
+	<!---->
+	<string name="message_invite_tentative">"Возможно"</string>
+	<!---->
+	<string name="message_invite_decline">"Нет"</string>
+	<!-- no translation found for enumeration_comma -->
+	<skip />
+	<!---->
+	<string name="send_anyway">"Отправить в любом случае"</string>
+	<!---->
+	<string name="ok">"ОК"</string>
+	<!---->
+	<string name="done">"Готово"</string>
+	<!---->
+	<string name="cancel">"Отмена"</string>
+	<!---->
+	<string name="clear">"Очистить"</string>
+	<!---->
+	<string name="next">"Далее"</string>
+	<!---->
+	<string name="previous">"Назад"</string>
+	<string-array name="sync_status">
+		<item>"Нет подключения Wi-Fi, продолжить синхронизировать?"</item>
+		<item>"Нет подключения"</item>
+		<item>"Не удалось войти."</item>
+		<item>"Ошибка безопасности."</item>
+		<item>"Не удается синхронизировать."</item>
+		<item>"Внутренняя ошибка"</item>
+		<item>"Ошибка сервера"</item>
+	</string-array>
+	<!---->
+	<string name="tap_to_configure">"Нажмите для настройки"</string>
+	<!---->
+	<string name="non_synced_folder_description">"Чтобы просмотреть разговоры, синхронизируйте папку."</string>
+	<!---->
+	<string name="tap_to_configure_folder_sync">"Синхронизация папки"</string>
+	<!-- no translation found for widget_large_unread_count -->
+	<skip />
+	<!---->
+	<string name="large_unseen_count">"<xliff:g example="99" id="count">%d</xliff:g>+ новое"</string>
+	<!---->
+	<string name="unseen_count">"<xliff:g example="4" id="count">%d</xliff:g> новый"</string>
+	<plurals name="actionbar_unread_messages">
+		<item quantity="other">"%1$d непрочитанных"</item>
+	</plurals>
+	<!---->
+	<string name="actionbar_large_unread_count">"<xliff:g id="count">%1$d</xliff:g>+ не прочитано"</string>
+	<!---->
+	<string name="view_more_conversations">"Просмотреть больше диалогов"</string>
+	<!---->
+	<string name="loading_conversation">"Идет загрузка\u2026"</string>
+	<!---->
+	<string name="activity_mailbox_selection">"Выберите аккаунт"</string>
+	<!---->
+	<string name="activity_folder_selection">"Выберите папку"</string>
+	<!---->
+	<string name="folder_shortcut_widget_label">"Папка Email"</string>
+	<!---->
+	<string name="change_folders_selection_dialog_title">"Изменить папки"</string>
+	<!---->
+	<string name="move_to_selection_dialog_title">"Переместить в папку"</string>
+	<!-- no translation found for search_results_loaded -->
+	<skip />
+	<!---->
+	<string name="network_error">"Нет подключения"</string>
+	<!---->
+	<string name="retry">"Повторить попытку"</string>
+	<!---->
+	<string name="load_more">"Загрузить ещё"</string>
+	<!---->
+	<string name="shortcut_name_title">"Имя ярлыка папки"</string>
+	<!---->
+	<string name="wait_for_sync_title">"Ожидание синхронизации"</string>
+	<!---->
+	<string name="not_synced_title">"Аккаунт не синхронизирован"</string>
+	<!---->
+	<string name="wait_for_manual_sync_body">"Для данного аккаунта не включена автоматическая синхронизация.\nНажмите <b>Синхронизировать сейчас</b>, чтобы синхронизировать почту один раз, или нажмите <b>Изменить настройки синхронизации</b>, чтобы настроить автоматическую синхронизацию этого аккаунта."</string>
+	<!---->
+	<string name="manual_sync">"Синхронизировать"</string>
+	<!---->
+	<string name="change_sync_settings">"Изменение настроек синхронизации"</string>
+	<!---->
+	<string name="photo_load_failed">"Не удалось загрузить изображение"</string>
+	<!---->
+	<string name="cant_move_or_change_labels">"Не удалось переместить сообщения, так как они находятся в разных аккаунтах."</string>
+	<!-- no translation found for multiple_new_message_notification_item -->
+	<skip />
+	<!-- no translation found for single_new_message_notification_big_text -->
+	<skip />
+	<!---->
+	<string name="ignore_spam_warning">"Игнорировать, я доверяю этому сообщению"</string>
+	<!---->
+	<string name="via_domain">"через <xliff:g id="viaDomain">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="signin">"Вход"</string>
+	<!---->
+	<string name="info">"Информация"</string>
+	<!---->
+	<string name="report">"Отчёт"</string>
+	<!---->
+	<string name="sync_error">"Не удается синхронизировать."</string>
+	<!---->
+	<string name="sync_error_message">"Устройство не имеет достаточно места для синхронизации."</string>
+	<!---->
+	<string name="storage">"Память"</string>
+	<!-- no translation found for senders_split_token -->
+	<skip />
+	<!-- no translation found for draft_count_format -->
+	<skip />
+	<!---->
+	<string name="all_folders_heading">"Все папки"</string>
+	<!---->
+	<string name="recent_folders_heading">"Недавние папки"</string>
+	<!---->
+	<string name="message_details_title">"Сведения о сообщении"</string>
+	<!---->
+	<string name="preference_advance_to_title">"Автопереход"</string>
+	<string-array name="prefEntries_autoAdvance">
+		<item>"Следующему письму"</item>
+		<item>"Предыдущему письму"</item>
+		<item>"Списку цепочек"</item>
+	</string-array>
+	<string-array name="prefSummaries_autoAdvance">
+		<item>"Показывать следующее письмо после удаления текущего письма"</item>
+		<item>"Показывать предыдущее письмо после удаления текущего письма"</item>
+		<item>"Показывать список цепочек после удаления текущего письма"</item>
+	</string-array>
+	<!---->
+	<string name="prefDialogTitle_autoAdvance">"Переходить к"</string>
+	<!---->
+	<string name="clear_display_images_whitelist_title">"Очистить разрешения"</string>
+	<!---->
+	<string name="clear_display_images_whitelist_dialog_title">"Очистить разрешения для изображений?"</string>
+	<!---->
+	<string name="clear_display_images_whitelist_dialog_message">"Прекратить отображение вложенных изображений от отправителей, для которых это было ранее разрешено."</string>
+	<!---->
+	<string name="sender_whitelist_cleared">"Изображения не будут отображаться автоматически"</string>
+	<!---->
+	<string name="preferences_signature_title">"Подпись"</string>
+	<!---->
+	<string name="preferences_signature_dialog_title">"Подпись"</string>
+	<!---->
+	<string name="preferences_signature_summary_not_set">"Не установлено"</string>
+	<!---->
+	<string name="mail_account_signature_prefix">"Отправлено с моего <xliff:g example="4" id="product">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="notification_action_reply">"Ответить"</string>
+	<!---->
+	<string name="notification_action_reply_all">"Ответить всем"</string>
+	<!---->
+	<string name="notification_action_archive">"Архив"</string>
+	<!---->
+	<string name="notification_action_remove_label">"Удалить ярлык"</string>
+	<!---->
+	<string name="notification_action_delete">"Удалить"</string>
+	<!---->
+	<string name="notification_action_undo_archive">"Архивировано"</string>
+	<!---->
+	<string name="notification_action_undo_remove_label">"Ярлык удален"</string>
+	<!---->
+	<string name="notification_action_undo_delete">"Удалено"</string>
+	<!-- no translation found for veiled_address -->
+	<skip />
+	<!-- no translation found for veiled_alternate_text -->
+	<skip />
+	<!-- no translation found for veiled_alternate_text_unknown_person -->
+	<skip />
+	<!-- no translation found for veiled_summary_unknown_person -->
+	<skip />
+	<!-- no translation found for label_notification_ticker -->
+	<skip />
+	<plurals name="new_messages">
+		<item quantity="one">"Новых сообщение: <xliff:g id="count">%1$d</xliff:g>"</item>
+		<item quantity="other">"Новых сообщений: <xliff:g id="count">%1$d</xliff:g>"</item>
+	</plurals>
+	<!-- no translation found for single_new_message_notification_title -->
+	<skip />
+	<!---->
+	<string name="silent_ringtone">"Без звука"</string>
+	<!---->
+	<string name="preference_removal_action_title">"Архивирование и удаление"</string>
+	<string-array name="prefEntries_removal_action">
+		<item>"Показывать только архивированные"</item>
+		<item>"Показывать только удаленные"</item>
+		<item>"Показать архив и удалить"</item>
+	</string-array>
+	<string-array name="prefSummaries_removal_action_summary">
+		<item>"Показывать только архивированные"</item>
+		<item>"Показывать только удаленные"</item>
+		<item>"Показать архив и удалить"</item>
+	</string-array>
+	<!---->
+	<string name="prefDialogTitle_removal_action">"Архивирование и удаление"</string>
+	<!---->
+	<string name="preferences_default_reply_all_title">"Ответить всем"</string>
+	<!---->
+	<string name="preferences_default_reply_all_summary_impl">"Использовать по умолчанию для ответных сообщений"</string>
+	<!---->
+	<string name="preference_swipe_title_archive">"Архивация смахиванием"</string>
+	<!---->
+	<string name="preference_swipe_title_delete">"Удаление смахиванием"</string>
+	<!---->
+	<string name="preference_swipe_description">"В списке цепочек"</string>
+	<!---->
+	<string name="preference_swipe_actions">"Смахивание"</string>
+	<!---->
+	<string name="preference_sender_image_title">"Фотография отправителя"</string>
+	<!---->
+	<string name="preference_sender_image_description">"Показывать рядом с именем в списке цепочек"</string>
+	<!---->
+	<string name="empty_trash">"Очистить корзину"</string>
+	<!---->
+	<string name="empty_spam">"Очистить Спам"</string>
+	<!---->
+	<string name="star_toggle">"Переключатель Звезда"</string>
+	<!---->
+	<string name="empty_trash_dialog_title">"Очистить корзину?"</string>
+	<!---->
+	<string name="empty_spam_dialog_title">"Очистить Спам?"</string>
+	<plurals name="empty_folder_dialog_message">
+		<item quantity="one">"Будет удалено сообщений: %1$d."</item>
+		<item quantity="other">"Будет удалено сообщений: %1$d."</item>
+	</plurals>
+	<!---->
+	<string name="drawer_open">"Откройте ящик навигации"</string>
+	<!---->
+	<string name="drawer_close">"Информация об авторских правах"</string>
+	<!---->
+	<string name="conversation_photo_welcome_text">"Нажмите на фото отправителя, чтобы выбрать цепочку."</string>
+	<!---->
+	<string name="long_press_to_select_tip">"Нажмите и удерживайте, чтобы выбрать один разговор, затем нажмите, чтобы выбрать еще."</string>
+	<!---->
+	<string name="folder_icon_desc">"Иконка папки"</string>
+	<!---->
+	<string name="add_account">"Добавить аккаунт"</string>
+	<!---->
+	<string name="dismiss_tip_hover_text">"Отклонить совет"</string>
+	<!---->
+	<string name="auto_sync_off">"Автоматическая синхронизация выключена."</string>
+	<!---->
+	<string name="tap_to_enable_sync">"Нажмите, чтобы включить."</string>
+	<!---->
+	<string name="account_sync_off">"Синхронизация аккаунта отключена."</string>
+	<!---->
+	<string name="enable_sync_in_account_settings">"Включить в <xliff:g id="account_settings">%1$s</xliff:g>."</string>
+	<!---->
+	<string name="account_settings_param">"Настройки аккаунта"</string>
+	<!---->
+	<string name="unsent_messages_in_outbox">"<xliff:g id="number">%1$s</xliff:g> неотправленное в <xliff:g id="outbox">%2$s</xliff:g>"</string>
+	<!---->
+	<string name="turn_auto_sync_on_dialog_title">"Включить автосинхронизацию?"</string>
+	<!---->
+	<string name="turn_auto_sync_on_dialog_body">"Изменения, которые вы вносите для всех приложений и аккаунтов, а не только Gmail, будут синхронизированы с веб-сайтов, на другие устройства, и ваш <xliff:g id="phone_or_tablet">%1$s</xliff:g>."</string>
+	<!---->
+	<string name="phone">"Телефон"</string>
+	<!---->
+	<string name="tablet">"Телефон"</string>
+	<!---->
+	<string name="turn_auto_sync_on_dialog_confirm_btn">"Включить"</string>
+	<!---->
+	<string name="show_n_more_folders">"Показать все папки (%1$s)"</string>
+	<!---->
+	<string name="hide_folders">"Скрыть папки"</string>
+	<!---->
+	<string name="print">"Печать"</string>
+	<!---->
+	<string name="print_all">"Распечатать все"</string>
+	<plurals name="num_messages">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> сообщение"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> сообщений"</item>
+	</plurals>
+	<!---->
+	<string name="date_message_received_print">"<xliff:g id="day_and_date">%1$s</xliff:g> на <xliff:g id="time">%2$s</xliff:g>"</string>
+	<!---->
+	<string name="draft_to_heading">"Черновик:"</string>
+	<!---->
+	<string name="draft_heading">"Черновик"</string>
+	<!---->
+	<string name="quoted_text_hidden_print">"Цитируемый текст скрыт"</string>
+	<plurals name="num_attachments">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> вложение"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> вложений"</item>
+	</plurals>
+	<!---->
+	<string name="no_subject">"(Без темы)"</string>
+	<!---->
+	<string name="vacation_responder">"Автоответчик"</string>
+	<!---->
+	<string name="preferences_vacation_responder_title">"Автоответчик"</string>
+	<!---->
+	<string name="vacation_responder_body_hint_text">"Сообщение"</string>
+	<!---->
+	<string name="send_to_contacts_text">"Отправить только моим контактам"</string>
+	<!---->
+	<string name="send_to_domain_text">"Отправить только <xliff:g id="domain">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="pick_start_date_title">"Начать"</string>
+	<!---->
+	<string name="pick_end_date_title">"Окончание (необязательно)"</string>
+	<!---->
+	<string name="date_not_set">"Не установлено"</string>
+	<!---->
+	<string name="set_end_date_dialog_title">"Дата окончания (опционально)"</string>
+	<!---->
+	<string name="custom_date">"Пользовательский"</string>
+	<!---->
+	<string name="date_none">"Нет"</string>
+	<!---->
+	<string name="discard_changes">"Отменить изменения?"</string>
+	<!---->
+	<string name="draft_saved">"Черновик сохранён"</string>
+	<!---->
+	<string name="draft_discard">"Черновик удалён"</string>
+	<!---->
+	<string name="vacation_responder_changes_saved">"Изменения Автоответчика были сохранены"</string>
+	<!---->
+	<string name="vacation_responder_changes_discarded">"Настройки автоответа отменены"</string>
+	<!---->
+	<string name="vacation_responder_off">"Не выключать"</string>
+	<!---->
+	<string name="vacation_responder_on">"ВКЛ, с <xliff:g id="date">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="vacation_responder_on_with_end_date">"ВКЛ, с <xliff:g id="start-date">%1$s</xliff:g> по <xliff:g id="end-date">%2$s</xliff:g>"</string>
+	<!---->
+	<string name="vacation_responder_empty_subject_and_body_warning">"Добавить тему или текст сообщения"</string>
+	<!---->
+	<string name="view_entire_message">"Просмотреть все сообщение"</string>
+	<!---->
+	<string name="eml_loader_error_toast">"Невозможно открыть этот файл."</string>
+	<!---->
+	<string name="help_and_info">"Справка"</string>
+	<!---->
+	<string name="help_and_feedback">"Справка и отзывы"</string>
+	<!---->
+	<string name="feedback">"Отправить отзыв"</string>
+	<!---->
+	<string name="copyright">"©<xliff:g example="2010" id="year">%1$d</xliff:g> Google Inc."</string>
+	<!---->
+	<string name="version">"<xliff:g example="Email" id="app_name">%1$s</xliff:g> версия <xliff:g example="2.2.1" id="version">%2$s</xliff:g>"</string>
+	<!-- no translation found for view_app_page -->
+	<skip />
+	<!---->
+	<string name="print_dialog">"Печать\u2026"</string>
+	<!---->
+	<string name="copyright_information">"Информация об авторских правах"</string>
+	<!---->
+	<string name="privacy_policy">"Политика конфиденциальности"</string>
+	<!---->
+	<string name="open_source_licenses">"Лицензии открытого ПО"</string>
+	<!---->
+	<string name="reply_choice_yes">"Да"</string>
+	<!---->
+	<string name="reply_choice_no">"Нет"</string>
+	<!---->
+	<string name="reply_choice_ok">"ОК"</string>
+	<!-- no translation found for reply_choice_hehe -->
+	<skip />
+	<!---->
+	<string name="reply_choice_thanks">"Спасибо"</string>
+	<!---->
+	<string name="reply_choice_i_agree">"Я согласен"</string>
+	<!---->
+	<string name="reply_choice_nice">"Хорошо"</string>
+	<!---->
+	<string name="reply_on_my_way">"По дороге"</string>
+	<!---->
+	<string name="reply_choice_later">"ОК, позвольте ответить вам позже"</string>
+	<!-- no translation found for reply_choice_smiling_face -->
+	<skip />
+	<!-- no translation found for reply_choice_frowning_face -->
+	<skip />
+	<!---->
+	<string name="preference_header_action_confirmations">"Подтверждение действий"</string>
+	<!---->
+	<string name="preference_confirm_before_delete_title">"Подтверждать удаление"</string>
+	<!---->
+	<string name="preference_confirm_before_archive_title">"Подтверждать архивацию"</string>
+	<!---->
+	<string name="preference_confirm_before_send_title">"Подтверждать отправку"</string>
+	<!---->
+	<string name="preferences_conversation_mode_title">"Автомасштабирование сообщений"</string>
+	<!---->
+	<string name="preferences_conversation_mode_summary">"Сжимать сообщения по размеру экрана"</string>
+	<!---->
+	<string name="preferences_disable_snap_headers_title">"Действия с сообщением"</string>
+	<string-array name="prefSummaries_snapHeader">
+		<item>"Всегда показывать действия с сообщениями в верхней части экрана"</item>
+		<item>"Показывать только действия с сообщениями в верхней части экрана при повороте в портретный режим"</item>
+		<item>"Не показывать действия с сообщениями вне поля заголовка сообщения"</item>
+	</string-array>
+	<string-array name="prefEntries_snapHeader">
+		<item>"Всегда показывать"</item>
+		<item>"Показывать только в портретном режиме"</item>
+		<item>"Не показывать"</item>
+	</string-array>
+	<!---->
+	<string name="clear_history_title">"Очистить историю поиска"</string>
+	<!---->
+	<string name="search_history_cleared">"История поиска удалена."</string>
+	<!---->
+	<string name="clear_history_dialog_title">"Очистить историю поиска?"</string>
+	<!---->
+	<string name="clear_history_dialog_message">"Результаты всех, ранее выполненных поисков, будут удалены."</string>
+	<!---->
+	<string name="manage_accounts_menu_item">"Управление аккаунтами"</string>
+	<!---->
+	<string name="general_preferences_title">"Общие настройки"</string>
+	<!---->
+	<string name="activity_preferences">"Настройки"</string>
+	<!---->
+	<string name="always_bcc_myself">"Отправлять копию себе"</string>
+	<!---->
+	<string name="always_bcc_myself_summary">"Всегда добавлять себя в скрытую копию при создании, ответе и пересылке сообщения"</string>
+	<!---->
+	<string name="general_preference_auto_download_remaining_label">"Автозагрузка сообщения"</string>
+	<!---->
+	<string name="general_preference_auto_download_remaining_summary">"Автоматически подгружать текст письма при пролистывании вниз"</string>
+	<!---->
+	<string name="download_remaining">"Загрузить сообщение целиком"</string>
+	<!---->
+	<string name="downloading_remaining">"Загрузка..."</string>
+	<!---->
+	<string name="unable_to_connect">"Невозможно подключиться"</string>
+	<!---->
+	<string name="need_connection_prompt">"Для использования данного приложения вам необходимо подключение к сети. Пожалуйста, включите мобильную передачу данных или Wi-Fi в Настройках."</string>
+	<!---->
+	<string name="connection_settings">"Настройки"</string>
+	<!---->
+	<string name="priority_action">"Приоритет"</string>
+	<!---->
+	<string name="set_priority_dialog_title">"Установить важность"</string>
+	<!---->
+	<string name="dialog_warning">"Предупреждение\u2026"</string>
+	<!---->
+	<string name="dialog_warning_message">"Версия приложения Exchange не совпадает с версией приложения Email, продолжить?"</string>
+	<!---->
+	<string name="toast_warning_text">"Версия приложения Exchange не совпадает с версией приложения Email"</string>
+	<!---->
+	<string name="tips_sync_alter_title">"Синхронизация"</string>
+	<!---->
+	<string name="tips_sync_alter_content">"Нет подключения Wi-Fi, продолжить синхронизировать?"</string>
+	<!---->
+	<string name="tips_sync_alter_yes">"Да"</string>
+	<!---->
+	<string name="tips_sync_alter_no">"Нет"</string>
+	<!---->
+	<string name="message_invite_tentative_title">"Может быть"</string>
+	<!---->
+	<string name="message_invite_decline_title">"Отклонить"</string>
+	<!---->
+	<string name="message_invite_accent_title">"Принять"</string>
+	<!---->
+	<string name="drm_file_remind">"Передача и загрузка этого файла запрещены, поскольку файл имеет защиту DRM!"</string>
+	<!---->
+	<string name="not_add_more_recipients">"Слишком много получателей. Максимальное количество получателей: <xliff:g id="maxLimit">%1$d</xliff:g>."</string>
+	<!---->
+	<string name="global_search_label">"Email"</string>
+	<!---->
+	<string name="global_search_hint">"Поиск email"</string>
+	<!---->
+	<string name="global_search_description">"Отправители, темы, содержимое"</string>
+	<!---->
+	<string name="remote_search_failed">"Не удалось найти сервер!"</string>
+	<!---->
+	<string name="searching_on_server">"Поиск на сервере"</string>
+	<!---->
+	<string name="searching_on_server_title">"Поиск «<xliff:g id="account_name">%s</xliff:g>» на сервере"</string>
+	<!---->
+	<string name="searching_all_fields_on_sever">"Поиск по всем полям на сервере"</string>
+	<!---->
+	<string name="search_field_subject">"Тема"</string>
+	<!---->
+	<string name="search_field_receiver">"Получатель"</string>
+	<!---->
+	<string name="search_field_sender">"Отправитель"</string>
+	<!---->
+	<string name="search_field_body">"Основная часть"</string>
+	<!---->
+	<string name="search_field_all">"Всё сообщение"</string>
+	<!---->
+	<string name="search_field_attachment">"Вложения"</string>
+	<!---->
+	<string name="select_all">"Выбрать все"</string>
+	<!---->
+	<string name="deselect_all">"Отменить все"</string>
+	<!---->
+	<string name="need_wifi_connection_prompt">"Для использования данного приложения вам необходимо подключение к сети. Пожалуйста, включите мобильную передачу данных или Wi-Fi в Настройках."</string>
+	<!---->
+	<string name="account_setup_names_account_name_des_label">"Не обязательно"</string>
+	<!---->
+	<string name="account_setup_names_user_name_des_label">"отображается в исходящих"</string>
+	<!---->
+	<string name="finish_action">"Готово"</string>
+	<!---->
+	<string name="copy_email">"Копировать адрес email"</string>
+	<!---->
+	<string name="out_of_office_syncing">"Синхронизация настроек автоответов…"</string>
+	<!---->
+	<string name="out_of_office_fail">"Ошибка синхронизации настроек автоответов."</string>
+	<!---->
+	<string name="out_of_office_success">"Синхронизация настроек автоответов успешно выполнена."</string>
+	<!---->
+	<string name="manual_sync_when_roaming">"Синхронизация в роуминге"</string>
+	<!---->
+	<string name="manual_sync_when_roaming_summery">"Обновлять только вручную"</string>
+	<!---->
+	<string name="manual_sync_when_roaming_toast">"Проведите вниз, чтобы обновить вручную при роуминге"</string>
+	<!---->
+	<string name="manual_sync_when_roaming_refresh">"Обновить"</string>
+	<!---->
+	<string name="server_rule_can_not_change">"Правила сервера невозможно изменить"</string>
+	<!---->
+	<string name="server_rules">"Правила сервера"</string>
+	<!---->
+	<string name="confirm_forward_message">"Не все файлы были загружены. Переслать, не загружая файлы?"</string>
+	<!---->
+	<string name="confirm_forward_cancel">"Отмена"</string>
+	<!---->
+	<string name="confirm_forward_drop_unload_attachment">"Переслать"</string>
+	<!---->
+	<string name="mail_not_download_completely">"Подождите, пока загрузка не будет завершена"</string>
+	<!---->
+	<string name="account_settings_inline_images_lable">"Изображения"</string>
+	<!---->
+	<string name="account_settings_inline_always_show">"Всегда показывать"</string>
+	<!---->
+	<string name="account_settings_inline_ask_before_show">"Подтверждать отображение"</string>
+	<!---->
+	<string name="conversation_time_after_today">"После сегодня"</string>
+	<!---->
+	<string name="conversation_time_today">"Сегодня"</string>
+	<!---->
+	<string name="conversation_time_yesterday">"Вчера"</string>
+	<!---->
+	<string name="conversation_time_this_month">"Этот месяц"</string>
+	<!---->
+	<string name="conversation_time_elapse_just_now">"Сейчас"</string>
+	<!---->
+	<string name="conversation_time_elapse_minute">"<xliff:g id="count">%d</xliff:g> мин"</string>
+	<!---->
+	<string name="message_in_queued_status">"В очереди"</string>
+	<plurals name="send_failed_messages">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> письмо не отправлено"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> письма не отправлены"</item>
+	</plurals>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_label">"Период синхронизации календаря"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_2weeks">"2 недели"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_1month">"Один месяц"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_3months">"Три месяца"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_6months">"Шесть месяцев"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_all">"Все"</string>
+	<!---->
+	<string name="no_permission_to_open_file">"Для разрешения на хранение необходимо открыть файл"</string>
+	<!---->
+	<string name="conversation_update_time_text">"Обновлено:"</string>
+	<!---->
+	<string name="conversation_update_unknown_time_stamp">"Неизвестный"</string>
+	<!---->
+	<string name="conversation_time_elapse_today">"Сегодня"</string>
+	<!---->
+	<string name="save_to_attachment">"Сохранить"</string>
+	<!---->
+	<string name="download_settings_title">"Сохранить вложения"</string>
+	<!---->
+	<string name="download_edit_filename_label">"Имя"</string>
+	<!---->
+	<string name="download_filepath_label">"Путь"</string>
+	<!---->
+	<string name="download_file_size">"Размер:"</string>
+	<!---->
+	<string name="download_time_needed">"Время"</string>
+	<!---->
+	<string name="download_cancel">"Отмена"</string>
+	<!---->
+	<string name="download_start">"ОК"</string>
+	<!---->
+	<string name="unknown_length">"Неизвестный"</string>
+	<!---->
+	<string name="time_min">"мин"</string>
+	<!---->
+	<string name="open_file_manager_failed">"Невозможно открыть Файлы"</string>
+	<!---->
+	<string name="attachment_not_saved">"Не удалось сохранить вложение"</string>
+	<!---->
+	<string name="sync_calendar_title">"Невозможно синхронизировать Календарь"</string>
+	<!---->
+	<string name="sync_calendar_content">"Чтобы выполнять синхронизацию, разрешите службам Exchange доступ к Календарю"</string>
+	<!---->
+	<string name="sync_contacts_title">"Не удалось синхронизировать контакты"</string>
+	<!---->
+	<string name="sync_contacts_content">"Чтобы выполнять синхронизацию, разрешите службам Exchange доступ к контактам"</string>
+	<!---->
+	<string name="notification_never_ask_again">"Не спрашивать снова"</string>
+	<!---->
+	<string name="sync_storage_title">"Не удалось сохранить вложения"</string>
+	<!---->
+	<string name="sync_storage_content">"Чтобы сохранять вложения, разрешите службам Exchange доступ к памяти"</string>
+	<!---->
+	<string name="oof_continue">"Продолжить"</string>
+	<!---->
+	<string name="permission_needed_to_add_attachments">"Чтобы добавлять вложения, разрешите приложению «Email» доступ к памяти"</string>
+	<!---->
+	<string name="permission_needed_to_check_ringtone">"Чтобы проверить мелодию, разрешите приложению «Email» доступ к памяти"</string>
+	<!---->
+	<string name="add_folder_as_attachment_fail_tips">"Невозможно добавить папку в качестве вложения"</string>
+	<!---->
+	<string name="choose_action_title">"Выберите действие"</string>
+	<!---->
+	<string name="choose_action_contact">"Добавить контакт: <xliff:g example="4" id="email_address">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="choose_action_email">"Email: <xliff:g example="4" id="email_address">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="choose_action_message">"Сообщение: <xliff:g example="4" id="email_address">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="account_setup_basics_exit_action">"Выйти"</string>
+</resources>

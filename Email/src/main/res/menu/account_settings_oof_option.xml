@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+================================================================================
+|                                                                 Date:08/2013 |
+|                                 PRESENTATION                                 |
+|                                                                              |
+|        Copyright 2013 TCL Communication Technology Holdings Limited.         |
+|                                                                              |
+| This material is company confidential, cannot be reproduced in any form      |
+| without the written permission of TCL Communication Technology Holdings      |
+| Limited.                                                                     |
+|                                                                              |
+| **************************************************************************** |
+|  Author :  chen caixia                                                       |
+|  Email  :  caixia.chen@tcl-mobile.com                                        |
+|  Role   :                                                                    |
+|  Reference documents :                                                       |
+| **************************************************************************** |
+|  Comments :                                                                  |
+|  File     : res/menu/account_settings_oof_option.xml                         |
+|  Labels   :                                                                  |
+| **************************************************************************** |
+| ============================================================================ |
+|      Modifications on Features list / Changes Request / Problems Report      |
+| **************************************************************************** |
+|    date   |        author        |         Key          |      comment       |
+| **********|**********************|**********************|******************* |
+| 04/15/2014|     zhonghua.tuo     |  FR 635145(porting   |Email] OUT OF OFFI- |
+|           |                      |    from 476662)      |CE setting          |
+| **********|**********************|**********************|******************* |
+================================================================================
+-->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+        <!-- TS: Gantao 2015-11-27 EMAIL FEATURE-988794 MOD_S -->
+        <item android:id="@+id/done"
+        android:title="@string/save_action"
+        android:showAsAction="always"/>
+        <!-- TS: Gantao 2015-11-27 EMAIL FEATURE-988794 MOD_E -->
+</menu>

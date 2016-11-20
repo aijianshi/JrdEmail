@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!-- no translation found for app_name -->
+	<skip />
+	<!-- no translation found for photo_view_count -->
+	<skip />
+	<!---->
+	<string name="retry">"إعادة المحاولة"</string>
+	<!---->
+	<string name="failed">"لا يمكن تحميل الصورة"</string>
+	<!-- no translation found for more_string -->
+	<skip />
+	<!---->
+	<string name="copy_email">"نسخ عنوان البريد الإلكتروني"</string>
+	<!---->
+	<string name="copy_number">"نسخ رقم الهاتف"</string>
+	<!---->
+	<string name="action_label">"رجوع"</string>
+	<!---->
+	<string name="search_hint">"البحث في البريد الإلكتروني"</string>
+	<!---->
+	<string name="compose">"إنشاء"</string>
+	<!---->
+	<string name="activity_folder_selection">"اختر مجلدًا"</string>
+	<!---->
+	<string name="activity_preferences">"الإعدادات"</string>
+	<!---->
+	<string name="tap_to_configure">"المس للإعداد"</string>
+	<!---->
+	<string name="loading_conversations">"تحميل\u2026"</string>
+	<!---->
+	<string name="non_synced_folder_description">"لعرض المحادثات، قم بمزامنة هذا المجلد."</string>
+	<!---->
+	<string name="tap_to_configure_folder_sync">"مزامنة المجلد"</string>
+	<!-- no translation found for def_email_accountGermanSignature -->
+	<skip />
+	<!---->
+	<string name="send_failed">"لم يتم إرسال الرسالة."</string>
+	<!-- no translation found for permission_needed -->
+	<skip />
+	<!---->
+	<string name="permission_needed_label">"أذونات مطلوبة"</string>
+	<!---->
+	<string name="permission_grant_access_label">"منح الوصول"</string>
+	<!---->
+	<string name="permission_grant_access_descs">"قم بتغيير الأذونات في إعدادات التطبيق في جهازك. امنح البريد الالكتروني حق الوصول إلى جهات الاتصال."</string>
+	<!---->
+	<string name="permission_grant_exit">"خروج"</string>
+	<!---->
+	<string name="permission_grant_go_setting">"الإعدادات"</string>
+	<!---->
+	<string name="permission_needed_to_save_attachment">"لحفظ مرفق، اسمح لأذونات البريد الإلكتروني بالوصول إلى وحدة التخزين"</string>
+	<!---->
+	<string name="permission_needed_to_add_attachment">"لإضافة مرفق، امنح البريد الالكتروني الأذونات للوصول إلى وحدة التخزين"</string>
+	<!---->
+	<string name="permission_needed_to_see_calendar">"لرؤية معلومات في التقويم، اسمح لأذونات البريد الإلكتروني بالوصول إلى التقويم"</string>
+</resources>

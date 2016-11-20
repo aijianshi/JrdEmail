@@ -1,0 +1,1747 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Tue Sep 20 16:24:06 CST 2016
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="permission_read_attachment_label">"Прочитај прилози од е-поштата"</string>
+	<!---->
+	<string name="permission_read_attachment_desc">"Дозволува оваа апликација да ги прочита вашите прилози од е-поштата."</string>
+	<!---->
+	<string name="permission_access_provider_label">"Пристап до податоци на провајдерот на е-поштата"</string>
+	<!---->
+	<string name="permission_access_provider_desc">"Дозволува на апликацијата да пристапи до податочната база на е-поштата, да прима пораки, да праќа пораки, кориснички имиња и лозинки."</string>
+	<!---->
+	<string name="debug_title">"Отстрани грешка"</string>
+	<!---->
+	<string name="next_action">"Следно"</string>
+	<!---->
+	<string name="okay_action">"OK"</string>
+	<!---->
+	<string name="cancel_action">"Откажи"</string>
+	<!---->
+	<string name="previous_action">"Претходно"</string>
+	<!---->
+	<string name="done_action">"Готово"</string>
+	<!---->
+	<string name="create_action">"Креирај"</string>
+	<!---->
+	<string name="quick_responses_empty_view">"Нема брзи одговори"</string>
+	<!---->
+	<string name="account_settings_action">"Подесување на сметка"</string>
+	<!---->
+	<string name="status_network_error">"Проблем со поврзувањето."</string>
+	<plurals name="move_messages">
+		<item quantity="one">"Премести ја пораката"</item>
+		<item quantity="other">"Премести ги пораките"</item>
+	</plurals>
+	<!---->
+	<string name="cannot_move_protocol_not_supported_toast">"Преместувањето не е поддржано на POP3 сметките."</string>
+	<!---->
+	<string name="cannot_move_multiple_accounts_toast">"Не може да се премести бидејќи има неколку сметки."</string>
+	<!---->
+	<string name="cannot_move_special_mailboxes_toast">"Пораките во Недовршени, Појдовно сандаче и Испратени, не можат да се преместат."</string>
+	<!---->
+	<string name="mailbox_name_display_inbox">"Влезно сандаче"</string>
+	<!---->
+	<string name="mailbox_name_display_outbox">"Испратени"</string>
+	<!---->
+	<string name="mailbox_name_display_drafts">"Недовршени"</string>
+	<!---->
+	<string name="mailbox_name_display_trash">"Отпад"</string>
+	<!---->
+	<string name="mailbox_name_display_sent">"Испратени"</string>
+	<!---->
+	<string name="mailbox_name_display_junk">"Спам"</string>
+	<!---->
+	<string name="mailbox_name_display_starred">"Омилени"</string>
+	<!---->
+	<string name="mailbox_name_display_unread">"Непроч."</string>
+	<!---->
+	<string name="account_folder_list_summary_inbox">"Влезно сандаче"</string>
+	<!---->
+	<string name="account_folder_list_summary_starred">"Омилени"</string>
+	<!---->
+	<string name="account_folder_list_summary_drafts">"Недовршени"</string>
+	<!---->
+	<string name="account_folder_list_summary_outbox">"Испратени"</string>
+	<!---->
+	<string name="mailbox_list_account_selector_combined_view">"Комбиниран преглед"</string>
+	<!---->
+	<string name="message_compose_fwd_header_fmt">"\n\n-------- Oригинална порака --------\nПредмет: <xliff:g id="subject">%1$s</xliff:g>\nОд: <xliff:g id="sender">%2$s</xliff:g>\nДо: <xliff:g id="to">%3$s</xliff:g>\nCC: <xliff:g id="cc">%4$s</xliff:g>\n\n"</string>
+	<!---->
+	<string name="message_compose_insert_quick_response_list_title">"Внеси брз одговор"</string>
+	<!---->
+	<string name="message_compose_insert_quick_response_menu_title">"Внеси брзо одговор"</string>
+	<!---->
+	<string name="message_view_attachment_background_load">"Забелешка: Некои прилози во вашите пренасочени пораки ќе бидат превземени пред праќање."</string>
+	<!---->
+	<string name="attachment_not_found">"Не може да се превземе овој прилог."</string>
+	<!---->
+	<string name="message_decode_error">"Настана грешка при декодирање на пораката."</string>
+	<!---->
+	<string name="forward_download_failed_ticker">"Не може да се пренасочат еден или повеќе прилози."</string>
+	<!---->
+	<string name="forward_download_failed_title">"Прилогот не е пренасочен"</string>
+	<!---->
+	<string name="login_failed_ticker">"<xliff:g id="account_name">%s</xliff:g> неуспешно најавување на сметката."</string>
+	<!---->
+	<string name="login_failed_title">"Не може да се најави"</string>
+	<plurals name="message_view_attachment_bytes">
+		<item quantity="one">"<xliff:g example="1" id="size_in_bytes">%d</xliff:g>В"</item>
+		<item quantity="other">"<xliff:g example="279" id="size_in_bytes">%d</xliff:g>В"</item>
+	</plurals>
+	<plurals name="message_view_attachment_kilobytes">
+		<item quantity="one">"<xliff:g example="1" id="size_in_kilobytes">%d</xliff:g>KB"</item>
+		<item quantity="other">"<xliff:g example="279" id="size_in_kilobytes">%d</xliff:g>KB"</item>
+	</plurals>
+	<plurals name="message_view_attachment_megabytes">
+		<item quantity="one">"<xliff:g example="1" id="size_in_megabytes">%d</xliff:g>MB"</item>
+		<item quantity="other">"<xliff:g example="279" id="size_in_megabytes">%d</xliff:g>MB"</item>
+	</plurals>
+	<plurals name="message_view_attachment_gigabytes">
+		<item quantity="one">"<xliff:g example="1" id="size_in_gigabytes">%d</xliff:g>GB"</item>
+		<item quantity="other">"<xliff:g example="279" id="size_in_gigabytes">%d</xliff:g>GB"</item>
+	</plurals>
+	<!---->
+	<string name="account_setup_basics_title">"Подесување на сметка"</string>
+	<!---->
+	<string name="oauth_authentication_title">"Барање за авторизација"</string>
+	<!---->
+	<string name="sign_in_title">"Најави се"</string>
+	<!---->
+	<string name="oauth_error_description">"Неуспешна автентификација"</string>
+	<!---->
+	<string name="password_warning_label">"Адресата на е-поштата или лозинката се неточни"</string>
+	<!---->
+	<string name="email_confirmation_label">"Адреса на е-пошта"</string>
+	<!---->
+	<string name="account_setup_basics_headline">"Сметка на е-пошта"</string>
+	<!---->
+	<string name="accounts_welcome">"Можеш да ја подесиш твојата сметка во неколку чекори."</string>
+	<!---->
+	<string name="account_setup_basics_email_label">"Адреса на е-пошта"</string>
+	<!---->
+	<string name="account_setup_basics_email_flying_label">"Е-пошта"</string>
+	<!---->
+	<string name="or_label">"ИЛИ"</string>
+	<!---->
+	<string name="sign_in_with_google">"Најави се преку Google"</string>
+	<!---->
+	<string name="account_setup_basics_password_label">"Лозинка"</string>
+	<!---->
+	<string name="password_hint">"Лозинка"</string>
+	<!---->
+	<string name="signed_in_with_service_label">"Најавен со %s"</string>
+	<!---->
+	<string name="authentication_label">"АВТЕНТИФИКАЦИЈА"</string>
+	<!---->
+	<string name="add_authentication_label">"Додај автентификација"</string>
+	<!---->
+	<string name="clear_authentication_label">"Избриши автентификација"</string>
+	<!---->
+	<string name="account_setup_basics_manual_setup_action">"Рачно подесув."</string>
+	<!---->
+	<string name="account_setup_username_password_toast">"Внесете валидно корисничко име и лозинка"</string>
+	<!---->
+	<string name="account_duplicate_dlg_title">"Дуплирај сметка"</string>
+	<!---->
+	<string name="account_duplicate_dlg_message_fmt">"Веќе го користите корисничкото име на сметката \"<xliff:g id="duplicate">%s</xliff:g>\"."</string>
+	<!---->
+	<string name="account_password_spaces_error">"Оваа лозинка почнува или завршува со еден или повеќе знаци за празно место. Многу сервери не поддржуваат лозинки со знаци за празно место."</string>
+	<!---->
+	<string name="account_setup_check_settings_retr_info_msg">"Добивање на информација за сметката..."</string>
+	<!---->
+	<string name="account_setup_check_settings_check_incoming_msg">"Потврдување на подесувањата на серверот..."</string>
+	<!---->
+	<string name="account_setup_check_settings_check_outgoing_msg">"Потврдување на smtp подесувања..."</string>
+	<!---->
+	<string name="account_setup_creating_account_msg">"Креирање на сметка..."</string>
+	<!---->
+	<string name="account_setup_ab_headline">"Потврди тип на сметка"</string>
+	<!---->
+	<string name="account_setup_ab_instructions_format">"Назначивте <xliff:g id="email">%1$s</xliff:g> uses <xliff:g id="userProtocol">%2$s</xliff:g>, но сметката може да користи <xliff:g id="providerProtocol">%3$s</xliff:g>"</string>
+	<!---->
+	<string name="account_setup_names_title">"Подесување на сметка"</string>
+	<!---->
+	<string name="account_setup_names_headline">"Вашата сметка е поставена и е-пораката е на пат!"</string>
+	<!---->
+	<string name="account_setup_names_account_name_label">"Додај име на сметката"</string>
+	<!---->
+	<string name="account_setup_names_user_name_label">"Име"</string>
+	<!---->
+	<string name="account_setup_names_user_name_empty_error">"Ова поле не може да биде празно."</string>
+	<!---->
+	<string name="account_setup_account_type_title">"Подесување на сметка"</string>
+	<!---->
+	<string name="account_setup_account_type_headline">"Тип на сметка"</string>
+	<!---->
+	<string name="account_setup_account_type_instructions">"Каков тип на сметка е ова?"</string>
+	<!---->
+	<string name="account_setup_incoming_title">"Подесување на сметка"</string>
+	<!---->
+	<string name="account_setup_incoming_headline">"Дојдовни подес.на серверот"</string>
+	<!---->
+	<string name="account_setup_incoming_username_label">"Корисничко име"</string>
+	<!---->
+	<string name="account_setup_incoming_password_label">"Лозинка"</string>
+	<!---->
+	<string name="account_setup_password_subheading">"Лозинка"</string>
+	<!---->
+	<string name="account_setup_incoming_server_label">"Сервер"</string>
+	<!---->
+	<string name="account_setup_incoming_port_label">"Влез"</string>
+	<!---->
+	<string name="account_setup_incoming_security_label">"Вид на безбедност"</string>
+	<!---->
+	<string name="account_setup_incoming_domain_label">"Домен"</string>
+	<!---->
+	<string name="account_setup_incoming_add_domain_label">"Додај домен"</string>
+	<!---->
+	<string name="account_setup_incoming_security_none_label">"Нема"</string>
+	<!---->
+	<string name="account_setup_incoming_security_ssl_trust_certificates_label">"SSL/TLS (Прифати ги сите серт.)"</string>
+	<!---->
+	<string name="account_setup_incoming_security_ssl_label">"SSL/TLS"</string>
+	<!---->
+	<string name="account_setup_incoming_security_tls_trust_certificates_label">"STARTTLS (прифати ги сите сертификати)"</string>
+	<!---->
+	<string name="account_setup_incoming_security_tls_label">"STARTTLS"</string>
+	<!---->
+	<string name="account_setup_incoming_delete_policy_label">"Избриши ја е-порака од серверот"</string>
+	<!---->
+	<string name="account_setup_incoming_delete_policy_never_label">"Никогаш"</string>
+	<!---->
+	<string name="account_setup_incoming_delete_policy_delete_label">"Кога да избр.од дојд.сан"</string>
+	<!---->
+	<string name="account_setup_incoming_imap_path_prefix_label">"IMAP префикс на патека"</string>
+	<!---->
+	<string name="account_setup_incoming_imap_path_prefix_hint">"Изборно"</string>
+	<!---->
+	<string name="account_setup_outgoing_title">"Подесување на сметка"</string>
+	<!---->
+	<string name="account_setup_outgoing_headline">"Појдовни подес.на сервер"</string>
+	<!---->
+	<string name="account_setup_outgoing_smtp_server_label">"SMTP сервер"</string>
+	<!---->
+	<string name="account_setup_outgoing_port_label">"Влез"</string>
+	<!---->
+	<string name="account_setup_outgoing_security_label">"Вид на безбедност"</string>
+	<!---->
+	<string name="account_setup_outgoing_require_login_label">"Потребна е најава"</string>
+	<!---->
+	<string name="account_setup_outgoing_username_label">"Корисничко име"</string>
+	<!---->
+	<string name="account_setup_outgoing_password_label">"Лозинка"</string>
+	<!---->
+	<string name="account_setup_exchange_certificate_title">"Сертификат на клиент"</string>
+	<!---->
+	<string name="account_setup_exchange_select_certificate">"Избери"</string>
+	<!---->
+	<string name="account_setup_exchange_use_certificate">"Користи сертификат на клиент"</string>
+	<!---->
+	<string name="account_setup_exchange_remove_certificate">"Отстрани"</string>
+	<!---->
+	<string name="account_setup_exchange_no_certificate">"ништо"</string>
+	<!---->
+	<string name="account_setup_exchange_device_id_label">"Идентификација на мобилниот уред"</string>
+	<!---->
+	<string name="account_setup_options_title">"Подесување на сметка"</string>
+	<!---->
+	<string name="account_setup_options_headline">"Опции на сметката"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_label">"Синхронизирај фрекфенција"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_never">"Никогаш"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_push">"Автоматски (Push)"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_5min">"Секои 5 минути"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_10min">"Секои 10 минути"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_15min">"Секои 15 минути"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_30min">"Секои 30 минути"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_1hour">"Секој час"</string>
+	<!---->
+	<string name="account_setup_options_notify_label">"Извести ме кога добивам порака."</string>
+	<!---->
+	<string name="account_setup_options_sync_contacts_label">"Синхронизирај контакти со оваа сметка."</string>
+	<!---->
+	<string name="account_setup_options_sync_calendar_label">"Синхоризирај го календарот од овaa сметка."</string>
+	<!---->
+	<string name="account_setup_options_sync_email_label">"Синхронизирај ја е-поштата со оваа сметка."</string>
+	<!---->
+	<string name="account_setup_options_background_attachments_label">"Автоматски превземи ги прилозите кога е поврзано со Wi-Fi мрежа"</string>
+	<!---->
+	<string name="account_setup_failed_dlg_title">"Не може да заврши"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_label">"Синхронизација на е-пораки од"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_auto">"Автоматски"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1day">"Минатиот ден"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_3days">"Последни три дена"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1week">"Минатата недела"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_2weeks">"Последни две недели"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1month">"Минатиот месец"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_all">"Сите"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_default">"Користи зададена сметка"</string>
+	<!---->
+	<string name="account_setup_failed_dlg_auth_message">"Погрешно корисничко име и лозинка."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_auth_message_fmt">"Неуспешна најава.\n(<xliff:g id="error">%s</xliff:g>)"</string>
+	<!---->
+	<string name="account_setup_autodiscover_dlg_authfail_title">"Проблем со подесување на сметка"</string>
+	<!---->
+	<string name="account_setup_autodiscover_dlg_authfail_message">"Потврди дали подесувањата на корисничкото име, лозинката и сметката се точни."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_certificate_message">"Не може да се воспостави врска со серверот поради невалиден или недоверлив сертификат."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_certificate_message_fmt">"Не може да се поврзе безбедно на серверот.\n(<xliff:g id="error">%s</xliff:g>)"</string>
+	<!---->
+	<string name="account_setup_failed_certificate_required">"Потребен е сертификат на клиент. Дали сакате да се поврзете со серверот преку сертификатот на клиент?"</string>
+	<!---->
+	<string name="account_setup_failed_certificate_inaccessible">"Сертификатот е неважечки или е недостапен."</string>
+	<!---->
+	<string name="account_setup_failed_check_credentials_message">"Серверот одговори со грешка. Проверете го корисничкото име и лозинката и обидете се повторно."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_server_message">"Не можете да се поврзете на серверот."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_server_message_fmt">"Не можете да се поврзете на серверот.\n(<xliff:g id="error">%s</xliff:g>)"</string>
+	<!---->
+	<string name="account_setup_failed_tls_required">"Бараниот TLS не е поддржан од серверот."</string>
+	<!---->
+	<string name="account_setup_failed_auth_required">"Серверот не поддржува методи на автентификација."</string>
+	<!---->
+	<string name="account_setup_failed_security">"Не можете да отворите врска на серверот поради безбедносна грешка."</string>
+	<!---->
+	<string name="account_setup_failed_ioerror">"Не можете да отворите врска на серверот."</string>
+	<!---->
+	<string name="account_setup_failed_protocol_unsupported">"Внесовте погрешна адреса на серверот или серверот бара верзија на протокол која е-поштата не ја подржува."</string>
+	<!---->
+	<string name="account_setup_failed_access_denied">"Немате дозвола да синхронизирате со овој сервер. Контактирајте го администраторот на серверот за повеќе информации."</string>
+	<!---->
+	<string name="account_setup_security_required_title">"Администрација за оддалечена безбедност"</string>
+	<!---->
+	<string name="account_setup_security_policies_required_fmt">"Серверот <xliff:g id="server">%s</xliff:g> бара далечинско управување на некои опции од телефонот, сакате ли да го довршите подесувањето на оваа сметка?"</string>
+	<!---->
+	<string name="account_setup_failed_security_policies_unsupported">"Овој сервер бара безбедносни функции, а кои вашиот Android уред не ги поддржува, вклучувајќи: <xliff:g id="error">%s</xliff:g>"</string>
+	<!---->
+	<string name="account_setup_username_uneditable_error">"Не можете да го смените корисничкото име на сметката. За додавање на сметка со друго корисничко име, допрете Додај сметка."</string>
+	<!---->
+	<string name="disable_admin_warning">"ПРЕДУПРЕДУВАЊЕ: Деактивирањето на апликацијата на е-поштата за администрација на уредот ќе ги избрише сите сметки на е-поштата, кои тоа го бараат, како и нивната содржина, контакти, настаните ви календарот и други останати податоци."</string>
+	<!---->
+	<string name="account_security_dialog_title">"Безбедносно ажурирање"</string>
+	<!---->
+	<string name="account_security_dialog_content_fmt">"<xliff:g id="account">%s</xliff:g> бара да ги ажурирате безбедносните подесувања."</string>
+	<!---->
+	<string name="security_unsupported_ticker_fmt">"Сметката \"<xliff:g id="account">%s</xliff:g>\" не може да се синхронизира поради безбедносните барања."</string>
+	<!---->
+	<string name="security_needed_ticker_fmt">"Сметката \"<xliff:g id="account">%s</xliff:g>\"бара ажурирање на безбедносните подесувања."</string>
+	<!---->
+	<string name="security_changed_ticker_fmt">"Сметката \"<xliff:g id="account">%s</xliff:g>\" ги промени безбедносните подесувања; нема потреба од активност на корисникот."</string>
+	<!---->
+	<string name="security_notification_content_update_title">"Потребно е безбедносно ажурирање"</string>
+	<!---->
+	<string name="security_notification_content_change_title">"Безбедносните политики се сменети"</string>
+	<!---->
+	<string name="security_notification_content_unsupported_title">"Безбедносните полиси не можат да се исполнат"</string>
+	<!---->
+	<string name="account_security_title">"Безбедност на уредот"</string>
+	<!---->
+	<string name="account_security_policy_explanation_fmt">"Серверот <xliff:g id="server">%s</xliff:g> бара да му овозможите далечинска контрола на одредени безбедносни функции на Android уредот."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_edit_details_action">"Измени информации"</string>
+	<!---->
+	<string name="password_expire_warning_ticker_fmt">"\"<xliff:g id="account">%s</xliff:g>\" бара да ги смените PIN кодот или лозинката за заклучување на екран."</string>
+	<!---->
+	<string name="password_expire_warning_content_title">"Лозинката за заклучување на екран изминува"</string>
+	<!---->
+	<string name="password_expired_ticker">"PIN кодот или лозинката за заклучување на екран се изминати."</string>
+	<!---->
+	<string name="password_expired_content_title">"Лозинката за заклучување на екран измина"</string>
+	<!---->
+	<string name="password_expire_warning_dialog_title">"Лозинката за заклучување на екран изминува"</string>
+	<!---->
+	<string name="password_expire_warning_dialog_content_fmt">"Потребно е наскоро да го промените PIN кодот или лозинката, или податоците за <xliff:g id="account">%s</xliff:g> ќе бидат избришани. Дали сакате да го промените сега?"</string>
+	<!---->
+	<string name="password_expired_dialog_title">"Лозинката за заклучување на екран измина"</string>
+	<!---->
+	<string name="password_expired_dialog_content_fmt">"Податоците за <xliff:g id="account">%s</xliff:g> се бришат од овој уред. Можете да ги вратите преку промена на заклучување на екран PIN код или лозинка. Дали сакате да го смените сега?"</string>
+	<!---->
+	<string name="account_settings_exit_server_settings">"Отфрлете ги незачуваните промени?"</string>
+	<!---->
+	<string name="account_settings_login_dialog_title">"Не може да се најави"</string>
+	<!---->
+	<string name="account_settings_login_dialog_content_fmt">"Корисничкото име или лозинката за <xliff:g id="account">%s</xliff:g> се потрешни. Ажурирајте ги сега?"</string>
+	<!---->
+	<string name="account_settings_login_dialog_reason_fmt">"Неуспешно регистрирање на <xliff:g id="account">%s</xliff:g>; серверот вели: <xliff:g id="reason">%s</xliff:g>Сакате да ја ажурирате лозинката и корисничкото име?"</string>
+	<!---->
+	<string name="account_settings_background_attachments_label">"Превземи прилози"</string>
+	<!---->
+	<string name="account_settings_background_attachments_summary">"Автоматски превземи ги прилозите од неодамнешните пораки преку Wi-Fi"</string>
+	<!---->
+	<string name="account_settings_notify_label">"Известувања за е-пошта"</string>
+	<!---->
+	<string name="account_settings_summary">"Синхронизирај фреквенција, известувања итн."</string>
+	<!---->
+	<string name="account_settings_notify_summary">"Прати известување кога пристигнува е-пошта"</string>
+	<!---->
+	<string name="account_settings_mail_check_frequency_label">"Синхронизирај фрекфенција"</string>
+	<!---->
+	<string name="account_settings_incoming_label">"Дојдовни подесувања"</string>
+	<!---->
+	<string name="account_settings_incoming_summary">"Корисничко име, лозинка, и останати подесувања на дојдовниот сервер"</string>
+	<!---->
+	<string name="account_settings_outgoing_label">"Појдовни подесувања"</string>
+	<!---->
+	<string name="account_settings_outgoing_summary">"Корисничко име, лозинка и останати подесувања на појдовниот сервер"</string>
+	<!---->
+	<string name="account_settings_reply_to_category">"Одговори на подесувања"</string>
+	<!---->
+	<string name="account_settings_reply_to_label">"Одговори на"</string>
+	<!---->
+	<string name="account_settings_reply_to_invalid">"Адресата е невалидна"</string>
+	<!---->
+	<string name="account_settings_enforced_label">"Спроведени поликити"</string>
+	<!---->
+	<string name="account_settings_enforced_summary">"Нема"</string>
+	<!---->
+	<string name="account_settings_unsupported_label">"Неподдржани политики"</string>
+	<!---->
+	<string name="account_settings_unsupported_summary">"Нема"</string>
+	<!---->
+	<string name="account_settings_retry_label">"Обид за синхронизација"</string>
+	<!---->
+	<string name="account_settings_retry_summary">"Допри тука за синхронизирање на сметката"</string>
+	<!---->
+	<string name="account_settings_description_label">"Име на сметка"</string>
+	<!---->
+	<string name="account_settings_name_label">"Вашето име"</string>
+	<!---->
+	<string name="account_settings_edit_quick_responses_label">"Брзи одговори"</string>
+	<!---->
+	<string name="account_settings_edit_quick_responses_summary">"Изменете го текстот што сакате често да го внесувате при пишување на е-пошти"</string>
+	<!---->
+	<string name="account_settings_notifications">"Подесувања на известувања"</string>
+	<!---->
+	<string name="account_settings_data_usage">"Употреба на податоци"</string>
+	<!---->
+	<string name="account_settings_policies">"Безбедносни политики"</string>
+	<!---->
+	<string name="system_folders_title">"Системски папки"</string>
+	<!---->
+	<string name="system_folders_trash_title">"Папка за отпадоци"</string>
+	<!---->
+	<string name="system_folders_trash_summary">"Избери ја папката од овој сервер"</string>
+	<!---->
+	<string name="system_folders_trash_dlg">"Избери ја папката за отпадоци на вашиот сервер"</string>
+	<!---->
+	<string name="system_folders_sent_title">"Папката со ставки е пратена"</string>
+	<!---->
+	<string name="system_folders_sent_summary">"Избери ја паплката на прати пораки од својот сервер"</string>
+	<!---->
+	<string name="system_folders_sent_dlg">"Избери ја папката за пратени пораки од својот сервер"</string>
+	<!---->
+	<string name="edit_quick_response_dialog">"Брз одговор"</string>
+	<!---->
+	<string name="save_action">"Сними"</string>
+	<!---->
+	<string name="account_settings_sync_contacts_enable">"Синхр.на контакти"</string>
+	<!---->
+	<string name="account_settings_sync_contacts_summary">"Синхронизирај ги контактите за оваа сметка"</string>
+	<!---->
+	<string name="account_settings_sync_calendar_enable">"Синхронизација на календарот"</string>
+	<!---->
+	<string name="account_settings_sync_calendar_summary">"Синхронизирај го настанот во календарот за оваа сметка"</string>
+	<!---->
+	<string name="account_settings_sync_email_enable">"Синхронизирај ја е-поштата"</string>
+	<!---->
+	<string name="account_settings_sync_email_summary">"Синхронизирај ја е-поштата за оваа сметка"</string>
+	<!---->
+	<string name="account_settings_vibrate_when_label">"Вибрации"</string>
+	<!---->
+	<string name="account_settings_ringtone">"Избери мелодија"</string>
+	<!---->
+	<string name="account_settings_servers">"Подесување на сервер"</string>
+	<!---->
+	<string name="default_ringtone">"Стандардна мелодија"</string>
+	<!---->
+	<string name="default_ringtone_unkonwn">"Непозната мелодија"</string>
+	<!---->
+	<string name="mailbox_settings_activity_title">"Опции за синхринизација"</string>
+	<!---->
+	<string name="mailbox_settings_activity_title_with_mailbox">"Опции за синхронизација (<xliff:g example="Family" id="mailboxx_name">%s</xliff:g>)"</string>
+	<!---->
+	<string name="mailbox_settings_sync_enabled_label">"Синхронизирај ја папката"</string>
+	<!---->
+	<string name="mailbox_settings_sync_enabled_summary">"Пораките ќе бидат превземени кога ќе се поврзете"</string>
+	<!---->
+	<string name="mailbox_settings_mailbox_sync_window_label">"Денови за синхронизација на е-пошта"</string>
+	<!---->
+	<string name="prefDialogTitle_conversationListIcon">"Слика на испраќачот"</string>
+	<!---->
+	<string name="provider_note_live">"Само некои \"Плус\" профили вклучуваат POP пристап и дозволуваат на оваа програма да се поврзе. Ако не сте во можност да се најавите со вашата е-адреса и лозинка, или можеби немате претплата за \"Плус\" профил. Вклучете го веб- пребарувачот за да добиете пристап до овие профили на е-пошта."</string>
+	<!---->
+	<string name="provider_note_t_online">"Пред подесување на оваа сметка на е-пошта, посетете ја T-Online веб страната и креирајте лозинка за POP3 е-пошта пристап."</string>
+	<!---->
+	<string name="exchange_name">"Службено"</string>
+	<!---->
+	<string name="exchange_name_alternate">"Microsoft ActiveSync за размена"</string>
+	<!---->
+	<string name="system_account_create_failed">"Не може да се отвори сметка. Обидете се повторно."</string>
+	<!---->
+	<string name="device_admin_label">"Е-пошта"</string>
+	<!---->
+	<string name="device_admin_description">"Овозможување на одредени сигурносни ставки на сметката"</string>
+	<!---->
+	<string name="settings_activity_title">"Подесувања"</string>
+	<!---->
+	<string name="header_label_general_preferences">"Општи подесув."</string>
+	<!---->
+	<string name="general_preference_confirm_delete_label">"Потврди пред бришење"</string>
+	<!---->
+	<string name="general_preference_confirm_send_label">"Потврди пред праќање"</string>
+	<!---->
+	<string name="more_than_999">"999+"</string>
+	<!---->
+	<string name="search_hint">"Пребарување"</string>
+	<!---->
+	<string name="policy_dont_allow_camera">"Не дозволувај користење на камерата на уредот"</string>
+	<!---->
+	<string name="policy_require_password">"Се бара лозинка на уред"</string>
+	<!---->
+	<string name="policy_password_history">"Ограничи го повторното користење на неодамнешните лозинки"</string>
+	<!---->
+	<string name="policy_password_expiration">"Бараните лозинки се пред истекување"</string>
+	<!---->
+	<string name="policy_screen_timeout">"Се бара уред во мирување за заклучување на неговиот екран"</string>
+	<!---->
+	<string name="policy_calendar_age">"Ограничи го бројот на синхронизирани настани во календарот"</string>
+	<!---->
+	<string name="policy_email_age">"Ограничи го бројот на синхронизирани е-пораки"</string>
+	<!---->
+	<string name="quick_1">"Благодарам!"</string>
+	<!---->
+	<string name="quick_2">"И јас се согласувам!"</string>
+	<!---->
+	<string name="quick_3">"Ќе го прочитам подоцна и ќе те побарам."</string>
+	<!---->
+	<string name="quick_4">"Ајде да закажеме состанок за да разговараме за ова."</string>
+	<!---->
+	<string name="require_manual_sync_message">"Синхронизацијата во позадина за оваа сметка е исклучена во роаминг."</string>
+	<!---->
+	<string name="confirm_response">"Праќање на одговор..."</string>
+	<!---->
+	<string name="no_conversations">"Нема пораки."</string>
+	<!-- no translation found for imap_name -->
+	<skip />
+	<!-- no translation found for pop3_name -->
+	<skip />
+	<!---->
+	<string name="email_name">"Е-пошта"</string>
+	<!---->
+	<string name="folder_picker_title">"Избор на папки"</string>
+	<!---->
+	<string name="trash_folder_selection_title">"Избери серверска папка за избришани ставки за <xliff:g id="account">%s</xliff:g>"</string>
+	<!---->
+	<string name="sent_folder_selection_title">"Избери серверска папка за пратени ставки за <xliff:g id="account">%s</xliff:g>"</string>
+	<!---->
+	<string name="account_waiting_for_folders_msg">"Вчитување на листата на папки..."</string>
+	<!---->
+	<string name="no_quick_responses">"Не е достапно"</string>
+	<!---->
+	<string name="gmail_name">"Gmail"</string>
+	<!---->
+	<string name="folder_sync_settings_pref_title">"Подесувања за синхронизација на папка"</string>
+	<!---->
+	<string name="select_your_account">"Избери сметка"</string>
+	<!---->
+	<string name="select_account_list_below">"Избери сметка од листата:"</string>
+	<!---->
+	<string name="cancel_label">"Откажи"</string>
+	<!---->
+	<string name="next_label">"Следно"</string>
+	<!---->
+	<string name="str_account_provider_other">"Останато"</string>
+	<!---->
+	<string name="account_settings_download_options_label">"Опции за превземање"</string>
+	<!---->
+	<string name="account_setting_download_opt_headonly">"Само наслов"</string>
+	<!---->
+	<string name="account_setting_download_opt_all">"Сите"</string>
+	<!-- no translation found for account_setting_download_opt_2k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_5k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_10k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_20k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_50k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_100k -->
+	<skip />
+	<!---->
+	<string name="account_oof_error_tip_past">"Крајното време не може да биде во минато. Променете го крајното време во идно време."</string>
+	<!---->
+	<string name="account_oof_error_tip_earlier">"Врмето на завршување не може да биде порано од времето на започнување. Променете го времето на завршување."</string>
+	<!---->
+	<string name="account_setting_oof_label">"Подесувања надвор од канцеларија"</string>
+	<!---->
+	<string name="oof_auto_repley">"Испрати “надвор од канцеларија“ авто-одговор"</string>
+	<!---->
+	<string name="oof_auto_replies_period">"Прати автоматски одговори во текот на овој период"</string>
+	<!---->
+	<string name="start_time">"Почетно време"</string>
+	<!---->
+	<string name="end_time">"Време на завршување"</string>
+	<!---->
+	<string name="internal_message">"Внатрешна порака"</string>
+	<!---->
+	<string name="oof_auto_replies_external_senders">"Прати автоматски одговори на надворешните испраќачи"</string>
+	<!---->
+	<string name="oof_choice_oof_in_contacts">"Прати автоматски одговори во режимот надвор од канцеларија на испраќачите од мојата контакт листа"</string>
+	<!---->
+	<string name="oof_choice_oof_outside_organisation">"Прати автоматски одговор во режимот надвор од канцеларија до сите контакти надвор од мојата организација"</string>
+	<!---->
+	<string name="external_message">"Надворешна порака"</string>
+	<!---->
+	<string name="oof_done_message_attention">"Не одредивте порака за автоматски одговор за луѓето во организацијата. Ако не ја внесете пораката во режимот надвор од канцеларија, луѓето нема да примаат известување за надвор од канцеларија.Вашите правила за надвор од канцеларија ќе бидат во функција и понатаму. Продолжи?"</string>
+	<!---->
+	<string name="oof_choice_in_contacts">"Испрати одговори на испраќачите во контакти"</string>
+	<!---->
+	<string name="oof_choice_all_senders">"Испрати одговри до сите испраќачи"</string>
+	<!---->
+	<string name="hint_text_of_internal_message">"Одговори на адресите од вашата организација"</string>
+	<!---->
+	<string name="hint_text_of_external_message">"Одговорете на адреси вон вашата организација"</string>
+	<!---->
+	<string name="account_delete_dlg_title">"Отстрани сметка?"</string>
+	<!---->
+	<string name="account_delete_dlg_instructions_fmt">"Сметката \"<xliff:g id="account">%s</xliff:g>\" ќе биде отстранета од е-поштата."</string>
+	<!---->
+	<string name="account_delete_dlg_instructions_fmt_new">"Со отстранување на сметката ќе се избришат сите пораки, контакти, и други податоци од телефонот."</string>
+	<!---->
+	<string name="account_delete_dlg_action_remove_label">"Отстрани"</string>
+	<!---->
+	<string name="account_delete_dlg_action_cancel_label">"Откажи"</string>
+	<!---->
+	<string name="account_settings_category_delete_account">"Избриши ја сметката"</string>
+	<!---->
+	<string name="account_settings_delete_account_label">"Избриши ја сметката"</string>
+	<!---->
+	<string name="account_settings_default_label">"Зададена сметка"</string>
+	<!---->
+	<string name="account_settings_default_summary">"Испрати е-пошта од зададената сметка."</string>
+	<!---->
+	<string name="account_setup_options_default_label">"Праќај е-пошта од оваа сметка како зададено."</string>
+	<!---->
+	<string name="account_setup_basics_default_label">"Праќај е-пошта од оваа сметка како зададено."</string>
+	<!---->
+	<string name="local_search_action">"Локално пребарување"</string>
+	<!---->
+	<string name="service_search_action">"Пребарај на серверот"</string>
+	<!---->
+	<string name="local_search_all">"Сите"</string>
+	<!---->
+	<string name="local_search_from">"Од"</string>
+	<!---->
+	<string name="local_search_to">"До"</string>
+	<!---->
+	<string name="local_search_subject">"Наслов"</string>
+	<!---->
+	<string name="status_loading_attachments">"Вчитување"</string>
+	<!---->
+	<string name="account_use_proxy_label">"Користи прокси сервер"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_label">"Прокси IP"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_port_label">"Прокси влез"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_name">"Име на прокси"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_password">"Прокси лозинка"</string>
+	<!---->
+	<string name="attachment_info_dialog_wifi_title">"Потребно е Wi-Fi поврзување"</string>
+	<!---->
+	<string name="attachment_info_wifi_settings">"Wi-Fi подесување"</string>
+	<!---->
+	<string name="attachment_info_wifi_only">"Овој прилог е преголем за да го превземете преку мобилната мрежа. Можете да го преземете следниот пат кога ќе се поврзете преку Wi-Fi мрежа."</string>
+	<!---->
+	<string name="attachment_info_ok">"OK"</string>
+	<!---->
+	<string name="mailbox_name_display_draft">"Недовршени"</string>
+	<!---->
+	<string name="message_compose_display_name">"<xliff:g example="John" id="name">%1$s</xliff:g> и <xliff:g example="27" id="number">%2$d</xliff:g> други"</string>
+	<!---->
+	<string name="app_name">"Е-пошта"</string>
+	<!---->
+	<string name="from">"Од"</string>
+	<!---->
+	<string name="to">"До"</string>
+	<!---->
+	<string name="cc">"Cc"</string>
+	<!---->
+	<string name="bcc">"Bcc"</string>
+	<!---->
+	<string name="subject_hint">"Наслов"</string>
+	<!---->
+	<string name="body_hint">"Креирај нова е-порака"</string>
+	<!---->
+	<string name="add_file_attachment">"Прикачи датотека"</string>
+	<!---->
+	<string name="add_photo_attachment">"Прикачи слика"</string>
+	<!---->
+	<string name="save_draft">"Зачувај го недовршеното"</string>
+	<!---->
+	<string name="discard">"Отфрли"</string>
+	<!---->
+	<string name="compose">"Креирај"</string>
+	<!---->
+	<string name="select_contacts_field">"Избери контакти од"</string>
+	<!---->
+	<string name="item_save_group">"Зачувај ја групата"</string>
+	<!---->
+	<string name="confirm_select">"Избери"</string>
+	<!---->
+	<string name="cancel_select">"Откажи"</string>
+	<string-array name="compose_modes">
+		<item>"Одговори"</item>
+		<item>"Одговори на сите"</item>
+		<item>"Пренасочи"</item>
+	</string-array>
+	<string-array name="compose_modes_without_reply_all">
+		<item>"Одговори"</item>
+		<item>"Пренасочи"</item>
+	</string-array>
+	<!---->
+	<string name="reply_subject_label">"Одговори:"</string>
+	<!---->
+	<string name="forward_subject_label">"Пренасочи:"</string>
+	<!---->
+	<string name="reply_attribution">"на <xliff:g id="date">%s</xliff:g>, <xliff:g id="person">%s</xliff:g> напиша:"</string>
+	<!---->
+	<string name="forward_attribution">"---------- Пренасочена порака ----------；Од:；Датум:；Наслов:；До:"</string>
+	<!---->
+	<string name="forward_attribution_with_headers">"---------- Пренасочена порака ---------- <xliff:g id="a">%s</xliff:g> Од: <xliff:g id="from">%s</xliff:g> <xliff:g id="b">%s</xliff:g> Датум: <xliff:g id="date">%s</xliff:g> <xliff:g id="c">%s</xliff:g> Предмет: <xliff:g id="subject">%s</xliff:g> <xliff:g id="d">%s</xliff:g> До: <xliff:g id="to">%s</xliff:g> <xliff:g id="e">%s</xliff:g> Cc: <xliff:g id="cc">%s</xliff:g> <br/>"</string>
+	<!---->
+	<string name="forward_attribution_no_headers">"---------- Пренасочена порака ----------"</string>
+	<!---->
+	<string name="cc_attribution">"Cc:"</string>
+	<!---->
+	<string name="select_attachment_type">"Избери тип на прилог"</string>
+	<!---->
+	<string name="too_large_to_attach_single">"Не може да се прикачи датотеката преку %1$s"</string>
+	<!---->
+	<string name="too_large_to_attach_multiple">"Една или повеќе датотеки не се прикачени. Ограничување <xliff:g id="maxSize">%1$s</xliff:g>."</string>
+	<!---->
+	<string name="too_large_to_mid_attach_additional">"Вашата е-пошта надминува <xliff:g id="maxSize">%1$s</xliff:g>. Вашата сметка на е-пошта не го поддржува ова."</string>
+	<!---->
+	<string name="too_large_to_attach_additional">"Не може да се додаде датотеката. Големината на е-пораката ќе го надмине максималното <xliff:g id="maxSize">%1$s</xliff:g> ограничување."</string>
+	<!---->
+	<string name="generic_attachment_problem">"Датотеката не може да се прикачи."</string>
+	<!---->
+	<string name="recipient_needed">"Додај најмалку еден примач"</string>
+	<!---->
+	<string name="recipient_error_dialog_title">"Грешка во примачот"</string>
+	<!---->
+	<string name="confirm_send_title">"Прати порака?"</string>
+	<!---->
+	<string name="confirm_send_message_with_no_subject">"Нема текст во насловот на пораката"</string>
+	<!---->
+	<string name="confirm_send_message_with_no_body">"Нема текст во содржината на пораката."</string>
+	<!---->
+	<string name="confirm_send_message">"Прати ја пораката?"</string>
+	<!---->
+	<string name="message_discarded">"Пораката е откажана"</string>
+	<!-- no translation found for signature -->
+	<skip />
+	<!---->
+	<string name="custom_from_account_label">"Прати е-пошта како:"</string>
+	<!---->
+	<string name="send">"Испрати"</string>
+	<!---->
+	<string name="mark_read">"Означи како прочитано"</string>
+	<!---->
+	<string name="mark_unread">"Означи како непрочитано"</string>
+	<!---->
+	<string name="mute">"Нечујно"</string>
+	<!---->
+	<string name="add_star">"Додај ѕвезда"</string>
+	<!---->
+	<string name="remove_star">"Отстр.ѕвезда"</string>
+	<!---->
+	<string name="remove_folder">"Отстрани од <xliff:g id="folderName">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="archive">"Архивирај"</string>
+	<!---->
+	<string name="report_spam">"Извештај за спам"</string>
+	<!---->
+	<string name="mark_not_spam">"Извештај: Не е спам"</string>
+	<!---->
+	<string name="report_phishing">"Извести за лажно"</string>
+	<!---->
+	<string name="delete">"избриши"</string>
+	<!---->
+	<string name="discard_drafts">"Отстрани ги недовршените"</string>
+	<!---->
+	<string name="discard_failed">"Неуспешно отстранување"</string>
+	<!---->
+	<string name="refresh">"Обнови"</string>
+	<!---->
+	<string name="reply">"Одговори"</string>
+	<!---->
+	<string name="reply_all">"Одговори на сите"</string>
+	<!---->
+	<string name="resume_draft">"Измени"</string>
+	<!---->
+	<string name="forward">"Пренасочи"</string>
+	<!---->
+	<string name="menu_compose">"Креирај"</string>
+	<!---->
+	<string name="menu_sort">"Сортирај"</string>
+	<!---->
+	<string name="menu_change_folders">"Промени папки"</string>
+	<!---->
+	<string name="menu_move_to">"Премести во"</string>
+	<!---->
+	<string name="menu_move_to_inbox">"Премести во влезно сандаче"</string>
+	<!---->
+	<string name="menu_manage_folders">"Подесувања на папки"</string>
+	<!---->
+	<string name="menu_show_original">"Врати автоматски"</string>
+	<!---->
+	<string name="menu_settings">"Подесувања"</string>
+	<!---->
+	<string name="menu_search">"Пребарај"</string>
+	<!---->
+	<string name="drawer_title">"Навигација"</string>
+	<!---->
+	<string name="mark_important">"Означи како важно"</string>
+	<!---->
+	<string name="mark_not_important">"Означи како неважно"</string>
+	<!---->
+	<string name="select_all_conversations">"Избери се"</string>
+	<!---->
+	<string name="unselect_all_conversations">"Поништи избор"</string>
+	<!---->
+	<string name="add_cc_label">"Додај Cc/Bcc"</string>
+	<!---->
+	<string name="add_bcc_label">"Додај Bcc"</string>
+	<!---->
+	<string name="quoted_text">"Вклучи цитиран текст"</string>
+	<!---->
+	<string name="quoted_text_label">"Цитирај текст"</string>
+	<!---->
+	<string name="respond_inline">"Вметнати одговори"</string>
+	<!---->
+	<string name="bytes">"<xliff:g id="count">%s</xliff:g> Б"</string>
+	<!---->
+	<string name="kilobytes">"<xliff:g id="count">%s</xliff:g> КБ"</string>
+	<!---->
+	<string name="megabytes">"<xliff:g id="count">%s</xliff:g> MB"</string>
+	<!---->
+	<string name="attachment_image">"Слика"</string>
+	<!---->
+	<string name="attachment_video">"Видео"</string>
+	<!---->
+	<string name="attachment_audio">"Аудио"</string>
+	<!---->
+	<string name="attachment_text">"Текст"</string>
+	<!---->
+	<string name="attachment_application_msword">"Документ"</string>
+	<!---->
+	<string name="attachment_application_vnd_ms_powerpoint">"Презентација"</string>
+	<!---->
+	<string name="attachment_application_vnd_ms_excel">"Табела"</string>
+	<!-- no translation found for attachment_application_pdf -->
+	<skip />
+	<!---->
+	<string name="attachment_unknown">"<xliff:g id="attachmentExtension">%s</xliff:g> Датотека"</string>
+	<!---->
+	<string name="preview_attachment">"Преглед"</string>
+	<!---->
+	<string name="save_attachment">"Зачувај"</string>
+	<!---->
+	<string name="cancel_attachment">"Откажи"</string>
+	<!---->
+	<string name="open_attachment">"Отвори"</string>
+	<!---->
+	<string name="install_attachment">"Инсталирај"</string>
+	<!---->
+	<string name="download_again">"Превземи повторно"</string>
+	<!---->
+	<string name="more_info_attachment">"Информации"</string>
+	<!---->
+	<string name="no_application_found">"Нема апликација за да го отвори овој прилог за преглед."</string>
+	<!---->
+	<string name="fetching_attachment">"Прифаќање на прилогот"</string>
+	<!---->
+	<string name="please_wait">"Почекајте\u2026"</string>
+	<!---->
+	<string name="saved">"Зачувано,"</string>
+	<!---->
+	<string name="download_failed">"Не може да се превземе. Обидете се повторно."</string>
+	<!---->
+	<string name="menu_photo_save_all">"Зачувај се"</string>
+	<!---->
+	<string name="menu_photo_share">"Сподели"</string>
+	<!---->
+	<string name="menu_photo_share_all">"Сподели се"</string>
+	<!---->
+	<string name="menu_photo_print">"Печати"</string>
+	<!---->
+	<string name="saving">"Зачувување,"</string>
+	<!---->
+	<string name="choosertitle_sharevia">"Сподели преку"</string>
+	<!---->
+	<string name="contextmenu_openlink">"Отвори во пребарувач"</string>
+	<!---->
+	<string name="contextmenu_copy">"Копирај"</string>
+	<!---->
+	<string name="contextmenu_copylink">"Копирај URL на линк"</string>
+	<!---->
+	<string name="contextmenu_view_image">"Види слика"</string>
+	<!---->
+	<string name="contextmenu_dial_dot">"Повикај"</string>
+	<!---->
+	<string name="contextmenu_sms_dot">"SMS\u2026"</string>
+	<!---->
+	<string name="contextmenu_add_contact">"Додај контакт"</string>
+	<!---->
+	<string name="contextmenu_send_mail">"Испрати е-порака"</string>
+	<!---->
+	<string name="contextmenu_map">"Мапи"</string>
+	<!---->
+	<string name="contextmenu_sharelink">"Сподели линк"</string>
+	<!---->
+	<string name="contextmenu_savelink">"Меморирај линк"</string>
+	<!---->
+	<string name="contextmenu_help">"Помош"</string>
+	<!---->
+	<string name="contextmenu_feedback">"Прати повратна информација"</string>
+	<!---->
+	<string name="sort_title">"Сорт.по"</string>
+	<!---->
+	<string name="sort_by_tip">"Распоредено според <xliff:g id="sor_type">%s</xliff:g>"</string>
+	<!-- no translation found for num_selected -->
+	<skip />
+	<plurals name="move_conversation">
+		<item quantity="one">"Премести разговор"</item>
+		<item quantity="other">"Премести <xliff:g>%1$d</xliff:g> разговори"</item>
+	</plurals>
+	<!---->
+	<string name="content_description">"Испраќач: <xliff:g id="sender">%1$s</xliff:g>, Наслов: <xliff:g id="subject">%2$s</xliff:g>, Дел: <xliff:g id="snippet">%3$s</xliff:g>, Датум: <xliff:g id="date">%4$s</xliff:g>, Состојба на прочитано: <xliff:g id="readstate">%5$s</xliff:g>"</string>
+	<!---->
+	<string name="content_description_today">"Испраќач: <xliff:g id="sender">%1$s</xliff:g>, Наслов: <xliff:g id="subject">%2$s</xliff:g>, Дел: <xliff:g id="snippet">%3$s</xliff:g>, Време: <xliff:g id="time">%4$s</xliff:g>, Состојба на прочитано: <xliff:g id="readstate">%5$s</xliff:g>"</string>
+	<!---->
+	<string name="read_string">"Разговорот е прочитан"</string>
+	<!---->
+	<string name="unread_string">"Разговорот не е прочитан"</string>
+	<!---->
+	<string name="filtered_tag">"[<xliff:g id="tag">%1$s</xliff:g>]<xliff:g id="subject">%2$s</xliff:g>"</string>
+	<!-- no translation found for badge_and_subject -->
+	<skip />
+	<plurals name="draft">
+		<item quantity="one">"Недовршени"</item>
+		<item quantity="other">"Недовршени"</item>
+	</plurals>
+	<!---->
+	<string name="sending">"Праќање\u2026"</string>
+	<!---->
+	<string name="message_retrying">"Обидете се повторно\u2026"</string>
+	<!---->
+	<string name="message_failed">"I pasuksesshëm"</string>
+	<!---->
+	<string name="send_failed">"Неуспешно праќање на е-порака."</string>
+	<!---->
+	<string name="send_failed_wait_attchment_downloaded">"Не може да се пренасочи бидејќи прилозите не се целосно превземени, ве молиме превземете ги прилозите."</string>
+	<!---->
+	<string name="me_object_pronoun">"Јас"</string>
+	<!---->
+	<string name="me_subject_pronoun">"Јас"</string>
+	<plurals name="confirm_delete_conversation">
+		<item quantity="one">"Избриши го овој разговор?"</item>
+		<item quantity="other">"Избриши ги овие <xliff:g id="count">%1$d</xliff:g> разговори?"</item>
+	</plurals>
+	<plurals name="confirm_archive_conversation">
+		<item quantity="one">"Архивирај го разговорот?"</item>
+		<item quantity="other">"Архивирај ги овие <xliff:g id="count">%1$d</xliff:g> разговори?"</item>
+	</plurals>
+	<plurals name="confirm_discard_drafts_conversation">
+		<item quantity="one">"Отфрли ја оваа порака?"</item>
+		<item quantity="other">"Отфрли ги овие <xliff:g id="count">%1$d</xliff:g> пораки?"</item>
+	</plurals>
+	<!---->
+	<string name="confirm_discard_text">"Отфрли ја пораката?"</string>
+	<!---->
+	<string name="loading_conversations">"Вчитување\u2026"</string>
+	<!---->
+	<string name="empty_inbox">"Се е завршено! Уживајте во денот."</string>
+	<!---->
+	<string name="empty_search">"Упс! Не пронајдовме ништо за \"<xliff:g id="search_query">%1$s</xliff:g>\"."</string>
+	<!---->
+	<string name="empty_spam_folder">"Одлично, тука нема спам!"</string>
+	<!---->
+	<string name="empty_trash_folder">"Нема корпа за отпадоци тука. Рециклирајте!"</string>
+	<!---->
+	<string name="empty_folder">"Нема пошта тука."</string>
+	<!---->
+	<string name="getting_messages">"Превземање на вашите пораки"</string>
+	<!---->
+	<string name="undo">"Врати назад"</string>
+	<plurals name="conversation_unstarred">
+		<item quantity="one">"Отстранување ознака на <xliff:g id="count">%1$d</xliff:g> разговор."</item>
+		<item quantity="other">"Отстранување ознака на <xliff:g id="count">%1$d</xliff:g> разговори."</item>
+	</plurals>
+	<plurals name="conversation_muted">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> исклучен звук."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> исклучен звук."</item>
+	</plurals>
+	<plurals name="conversation_spammed">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> пријавено како спам."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> пријавено како спам."</item>
+	</plurals>
+	<plurals name="conversation_not_spam">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> пријавено не е спам."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> пријавено не е спам."</item>
+	</plurals>
+	<plurals name="conversation_not_important">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> означено како неважно."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> означено како неважно."</item>
+	</plurals>
+	<plurals name="conversation_phished">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> пријавено е како грешка."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> пријавено е како грешка."</item>
+	</plurals>
+	<plurals name="conversation_archived">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> архивиран."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> архивиран."</item>
+	</plurals>
+	<plurals name="conversation_deleted">
+		<item quantity="one">"&lt;b&gt;%1$d&lt;/b&gt; избришано."</item>
+		<item quantity="other">"&lt;b&gt;%1$d&lt;/b&gt; избришано."</item>
+	</plurals>
+	<!---->
+	<string name="deleted">"Избришано"</string>
+	<!---->
+	<string name="archived">"Архивирано"</string>
+	<!---->
+	<string name="starred">"Со ѕвездичка"</string>
+	<!---->
+	<string name="unstarred">"Острани ја ѕвездата"</string>
+	<!---->
+	<string name="folder_removed">"Отстрането од <xliff:g id="folderName">%1$s</xliff:g>"</string>
+	<plurals name="conversation_folder_changed">
+		<item quantity="one">"Папката е сменета."</item>
+		<item quantity="other">"Папките се сменети."</item>
+	</plurals>
+	<!---->
+	<string name="conversation_folder_moved">"Преместено во <xliff:g id="folderName">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="search_results_header">"Резултати"</string>
+	<!---->
+	<string name="search_unsupported">"Пребарувањето не е поддржано на оваа сметка."</string>
+	<!---->
+	<string name="add_label">"Додај папка"</string>
+	<!---->
+	<string name="new_incoming_messages_one">"Прикажи нова порака од <xliff:g id="sender">%s</xliff:g>."</string>
+	<plurals name="new_incoming_messages_many">
+		<item quantity="other">"Прикажи <xliff:g id="count">%1$d</xliff:g> нови пораки."</item>
+	</plurals>
+	<!---->
+	<string name="date_and_view_details">"<xliff:g id="date">%1$s</xliff:g> &lt;a href=\'http://www.example.com\'&gt;Прикажи детали&lt;/a&gt;"</string>
+	<!---->
+	<string name="date_and_view_details_another">"<xliff:g id="date">%1$s</xliff:g> &lt;font color=\"<xliff:g id="color">%2$d</xliff:g>\"&gt;Прикажи детали&lt;/font&gt;"</string>
+	<!---->
+	<string name="hide_details">"Сокриј ги деталите"</string>
+	<!---->
+	<string name="to_message_header">"за <xliff:g id="recipients">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="contact_info_string">"Прикажи информации за контактот за <xliff:g id="name">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="contact_info_string_default">"Прикажи информации за контактот"</string>
+	<plurals name="show_messages_read">
+		<item quantity="other">"<xliff:g example="4" id="count">%1$d</xliff:g> стари пораки"</item>
+	</plurals>
+	<!---->
+	<string name="from_heading">"Од:"</string>
+	<!---->
+	<string name="replyto_heading">"Одговори до:"</string>
+	<!---->
+	<string name="to_heading">"До:"</string>
+	<!---->
+	<string name="to_heading_no_space">"До:"</string>
+	<!---->
+	<string name="cc_heading">"Cc:"</string>
+	<!---->
+	<string name="bcc_heading">"Сокриена копија (Bcc):"</string>
+	<!---->
+	<string name="date_heading">"Датум:"</string>
+	<!---->
+	<string name="show_images">"Прикажи слики"</string>
+	<!---->
+	<string name="always_show_images">"Секогаш прикажи ги сликите од овој испраќач"</string>
+	<!---->
+	<string name="always_show_images_toast">"Сликите од овој испраќач ќе бидат прикажани автоматски."</string>
+	<!---->
+	<string name="address_display_format">"<xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g>"</string>
+	<!---->
+	<string name="address_display_format_with_via_domain">"<xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g> преку <xliff:g id="via_domain">%3$s</xliff:g>"</string>
+	<!---->
+	<string name="message_saved">"Пораката е меморирана во недовршени"</string>
+	<!---->
+	<string name="sending_message">"Праќање на пораки\u2026"</string>
+	<!---->
+	<string name="invalid_recipient">"Адресата %s е неважечка."</string>
+	<!---->
+	<string name="show_elided">"Прикажи цитиран текст"</string>
+	<!---->
+	<string name="hide_elided">"\u25BC Сокриј го цитираниот текст"</string>
+	<!---->
+	<string name="message_invite_title">"Покана на календар"</string>
+	<!---->
+	<string name="message_invite_available">"Достапни сте"</string>
+	<!---->
+	<string name="message_invite_datetime">"Кога"</string>
+	<!---->
+	<string name="message_invite_location">"Каде"</string>
+	<!---->
+	<string name="message_invite_in_calendar_view">"Провери во календарот"</string>
+	<!---->
+	<string name="message_invite_calendar_view">"Прикажи во календар"</string>
+	<!---->
+	<string name="message_invite_label_attending">"Во тек?"</string>
+	<!---->
+	<string name="message_invite_accept">"Да"</string>
+	<!---->
+	<string name="message_invite_tentative">"Можеби"</string>
+	<!---->
+	<string name="message_invite_decline">"Не"</string>
+	<!-- no translation found for enumeration_comma -->
+	<skip />
+	<!---->
+	<string name="send_anyway">"Секако прати"</string>
+	<!---->
+	<string name="ok">"OK"</string>
+	<!---->
+	<string name="done">"Готово"</string>
+	<!---->
+	<string name="cancel">"Откажи"</string>
+	<!---->
+	<string name="clear">"Избриши"</string>
+	<!---->
+	<string name="next">"Следно"</string>
+	<!---->
+	<string name="previous">"Претходно"</string>
+	<string-array name="sync_status">
+		<item>"Нема Wi-Fi мрежа, продолжи со синхронизирањето?"</item>
+		<item>"Нема врска."</item>
+		<item>"Не може да се пополни."</item>
+		<item>"Грешка во безбедноста."</item>
+		<item>"Не може да се синхронизира."</item>
+		<item>"Внатрешна грешка"</item>
+		<item>"Грешка при сервер"</item>
+	</string-array>
+	<!---->
+	<string name="tap_to_configure">"Допрете за поставување"</string>
+	<!---->
+	<string name="non_synced_folder_description">"За преглед на разговорите, синхронизирајте ја оваа папка."</string>
+	<!---->
+	<string name="tap_to_configure_folder_sync">"Синхронизирај ја папката"</string>
+	<!-- no translation found for widget_large_unread_count -->
+	<skip />
+	<!---->
+	<string name="large_unseen_count">"<xliff:g example="99" id="count">%d</xliff:g>+ нови"</string>
+	<!---->
+	<string name="unseen_count">"<xliff:g example="4" id="count">%d</xliff:g> нова"</string>
+	<plurals name="actionbar_unread_messages">
+		<item quantity="other">"%1$d непрочитано"</item>
+	</plurals>
+	<!---->
+	<string name="actionbar_large_unread_count">"<xliff:g id="count">%1$d</xliff:g>+ непрочитано"</string>
+	<!---->
+	<string name="view_more_conversations">"Види уште разговори"</string>
+	<!---->
+	<string name="loading_conversation">"Вчитување\u2026"</string>
+	<!---->
+	<string name="activity_mailbox_selection">"Избери сметка"</string>
+	<!---->
+	<string name="activity_folder_selection">"Избери папка"</string>
+	<!---->
+	<string name="folder_shortcut_widget_label">"Папка за е-пошта"</string>
+	<!---->
+	<string name="change_folders_selection_dialog_title">"Измени папки"</string>
+	<!---->
+	<string name="move_to_selection_dialog_title">"Премести во"</string>
+	<!-- no translation found for search_results_loaded -->
+	<skip />
+	<!---->
+	<string name="network_error">"Нема врска"</string>
+	<!---->
+	<string name="retry">"Обидете се повторно"</string>
+	<!---->
+	<string name="load_more">"Вчитај повеќе"</string>
+	<!---->
+	<string name="shortcut_name_title">"Име на кратенка за папка"</string>
+	<!---->
+	<string name="wait_for_sync_title">"Се чека синхронизација"</string>
+	<!---->
+	<string name="not_synced_title">"Сметката не е синхронизирана"</string>
+	<!---->
+	<string name="wait_for_manual_sync_body">"Оваа сметка не е подесена за автомтска синхронизација.\nДопрете <b>Синхронизирај сега</b> за да ја синхронизирате е-поштата еднаш, или <b>Промени подесувања на синхронизација</b> за поставување на автоматско синхронизирање на оваа сметка."</string>
+	<!---->
+	<string name="manual_sync">"Синхронизацијата е во тек"</string>
+	<!---->
+	<string name="change_sync_settings">"Смени подесувања за синхронизација"</string>
+	<!---->
+	<string name="photo_load_failed">"Сликата не може да се вчита"</string>
+	<!---->
+	<string name="cant_move_or_change_labels">"Не може да се премести бидејќи има неколку сметки."</string>
+	<!-- no translation found for multiple_new_message_notification_item -->
+	<skip />
+	<!-- no translation found for single_new_message_notification_big_text -->
+	<skip />
+	<!---->
+	<string name="ignore_spam_warning">"Игнорирај, оваа порака е во ред"</string>
+	<!---->
+	<string name="via_domain">"преку <xliff:g id="viaDomain">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="signin">"Најави се"</string>
+	<!---->
+	<string name="info">"Инфо"</string>
+	<!---->
+	<string name="report">"Извештај"</string>
+	<!---->
+	<string name="sync_error">"Не може да се синхрониз."</string>
+	<!---->
+	<string name="sync_error_message">"Вашиот уред нема доволно меморија за синхроизирање."</string>
+	<!---->
+	<string name="storage">"Меморија"</string>
+	<!-- no translation found for senders_split_token -->
+	<skip />
+	<!-- no translation found for draft_count_format -->
+	<skip />
+	<!---->
+	<string name="all_folders_heading">"Сите папки"</string>
+	<!---->
+	<string name="recent_folders_heading">"Неодамнешни папки"</string>
+	<!---->
+	<string name="message_details_title">"Детали"</string>
+	<!---->
+	<string name="preference_advance_to_title">"Автоматско преминување"</string>
+	<string-array name="prefEntries_autoAdvance">
+		<item>"Најново"</item>
+		<item>"Постаро"</item>
+		<item>"Листа на разговор"</item>
+	</string-array>
+	<string-array name="prefSummaries_autoAdvance">
+		<item>"Прикажи ги поновите разговори по бришењето"</item>
+		<item>"Прикажи ги постарите разговори по бришењето"</item>
+		<item>"Прикажи ја листата на разговори по бришењето"</item>
+	</string-array>
+	<!---->
+	<string name="prefDialogTitle_autoAdvance">"Премини на"</string>
+	<!---->
+	<string name="clear_display_images_whitelist_title">"Избриши ги дозволите за слика"</string>
+	<!---->
+	<string name="clear_display_images_whitelist_dialog_title">"Избриши ги дозволите за слика?"</string>
+	<!---->
+	<string name="clear_display_images_whitelist_dialog_message">"Запри го прикажувањето на слика од испраќачите на кои претходно им било дозволено."</string>
+	<!---->
+	<string name="sender_whitelist_cleared">"Сликите не се прикажуваат автоматски."</string>
+	<!---->
+	<string name="preferences_signature_title">"Потпис"</string>
+	<!---->
+	<string name="preferences_signature_dialog_title">"Потпис"</string>
+	<!---->
+	<string name="preferences_signature_summary_not_set">"Не е подесено"</string>
+	<!---->
+	<string name="mail_account_signature_prefix">"Испратено од мојот <xliff:g example="4" id="product">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="notification_action_reply">"Одговори"</string>
+	<!---->
+	<string name="notification_action_reply_all">"Одговори на сите"</string>
+	<!---->
+	<string name="notification_action_archive">"Архивирај"</string>
+	<!---->
+	<string name="notification_action_remove_label">"Отстрани ознака"</string>
+	<!---->
+	<string name="notification_action_delete">"Избриши"</string>
+	<!---->
+	<string name="notification_action_undo_archive">"Архивирано"</string>
+	<!---->
+	<string name="notification_action_undo_remove_label">"Ознаката е отстранета"</string>
+	<!---->
+	<string name="notification_action_undo_delete">"Избришано"</string>
+	<!-- no translation found for veiled_address -->
+	<skip />
+	<!-- no translation found for veiled_alternate_text -->
+	<skip />
+	<!-- no translation found for veiled_alternate_text_unknown_person -->
+	<skip />
+	<!-- no translation found for veiled_summary_unknown_person -->
+	<skip />
+	<!-- no translation found for label_notification_ticker -->
+	<skip />
+	<plurals name="new_messages">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> нова порака"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> нови пораки"</item>
+	</plurals>
+	<!-- no translation found for single_new_message_notification_title -->
+	<skip />
+	<!---->
+	<string name="silent_ringtone">"Нечујно"</string>
+	<!---->
+	<string name="preference_removal_action_title">"Архивирај и избриши ги активностите"</string>
+	<string-array name="prefEntries_removal_action">
+		<item>"Прикажи само архивирани"</item>
+		<item>"Прикажи само избришани"</item>
+		<item>"Прикажи архивирани и избришани"</item>
+	</string-array>
+	<string-array name="prefSummaries_removal_action_summary">
+		<item>"Прикажи само архивирани"</item>
+		<item>"Прикажи само избришани"</item>
+		<item>"Прикажи архивирани и избришани"</item>
+	</string-array>
+	<!---->
+	<string name="prefDialogTitle_removal_action">"Архивирај и избриши ги активностите"</string>
+	<!---->
+	<string name="preferences_default_reply_all_title">"Одговори на сите"</string>
+	<!---->
+	<string name="preferences_default_reply_all_summary_impl">"Користи како зададено за одговор на пораки"</string>
+	<!---->
+	<string name="preference_swipe_title_archive">"Повлечи за архивирање"</string>
+	<!---->
+	<string name="preference_swipe_title_delete">"Повлечи за бришење"</string>
+	<!---->
+	<string name="preference_swipe_description">"Во листата со разговори"</string>
+	<!---->
+	<string name="preference_swipe_actions">"Избриши ги активностите"</string>
+	<!---->
+	<string name="preference_sender_image_title">"Слика на испраќач"</string>
+	<!---->
+	<string name="preference_sender_image_description">"Прикажи го името во листата со разговори"</string>
+	<!---->
+	<string name="empty_trash">"Корпа за отпадоци"</string>
+	<!---->
+	<string name="empty_spam">"Испразни спам"</string>
+	<!---->
+	<string name="star_toggle">"Стави ѕвезда"</string>
+	<!---->
+	<string name="empty_trash_dialog_title">"Испразни ги отпадоците?"</string>
+	<!---->
+	<string name="empty_spam_dialog_title">"Испразни спам?"</string>
+	<plurals name="empty_folder_dialog_message">
+		<item quantity="one">"%1$d порака ќе биде трајно избришана."</item>
+		<item quantity="other">"%1$d пораки ќе бидат трајно избришани."</item>
+	</plurals>
+	<!---->
+	<string name="drawer_open">"Отвори ја навигацијата"</string>
+	<!---->
+	<string name="drawer_close">"Информации за авторски права"</string>
+	<!---->
+	<string name="conversation_photo_welcome_text">"Допри ја сликата на испраќачот за да изберете разговор."</string>
+	<!---->
+	<string name="long_press_to_select_tip">"Допри и задржи за избор на еден разговор, потоа допри за избор на повеќе."</string>
+	<!---->
+	<string name="folder_icon_desc">"Икона на папка"</string>
+	<!---->
+	<string name="add_account">"Додај сметка"</string>
+	<!---->
+	<string name="dismiss_tip_hover_text">"Отфрли совет"</string>
+	<!---->
+	<string name="auto_sync_off">"Автоматското синхронизирање е исклучено."</string>
+	<!---->
+	<string name="tap_to_enable_sync">"Допрете за вклучување."</string>
+	<!---->
+	<string name="account_sync_off">"Синхронизацијата за сметка е исклучена."</string>
+	<!---->
+	<string name="enable_sync_in_account_settings">"Вклучи во <xliff:g id="account_settings">%1$s</xliff:g>."</string>
+	<!---->
+	<string name="account_settings_param">"Подесување на сметка"</string>
+	<!---->
+	<string name="unsent_messages_in_outbox">"<xliff:g id="number">%1$s</xliff:g> неиспратени во <xliff:g id="outbox">%2$s</xliff:g>"</string>
+	<!---->
+	<string name="turn_auto_sync_on_dialog_title">"Вклучи авто. синхрониз.?"</string>
+	<!---->
+	<string name="turn_auto_sync_on_dialog_body">"Промените што ги правите на сите апликации и сметки, не само на Gmail, ќе се синхронизираат на интернет, на другите уреди и на твојот <xliff:g id="phone_or_tablet">%1$s</xliff:g>."</string>
+	<!---->
+	<string name="phone">"Телефон"</string>
+	<!---->
+	<string name="tablet">"Телефон"</string>
+	<!---->
+	<string name="turn_auto_sync_on_dialog_confirm_btn">"Вклучи"</string>
+	<!---->
+	<string name="show_n_more_folders">"Прикажи уште %1$s папки"</string>
+	<!---->
+	<string name="hide_folders">"Сокриј ги папките"</string>
+	<!---->
+	<string name="print">"Печати"</string>
+	<!---->
+	<string name="print_all">"Печати се"</string>
+	<plurals name="num_messages">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> порака"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> пораки"</item>
+	</plurals>
+	<!-- no translation found for date_message_received_print -->
+	<skip />
+	<!---->
+	<string name="draft_to_heading">"Недовршено До:"</string>
+	<!---->
+	<string name="draft_heading">"Недовршени"</string>
+	<!---->
+	<string name="quoted_text_hidden_print">"Цитираниот текст е скриен"</string>
+	<plurals name="num_attachments">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> прилог"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> прилози"</item>
+	</plurals>
+	<!---->
+	<string name="no_subject">"(Без наслов)"</string>
+	<!---->
+	<string name="vacation_responder">"Одговор за одмор"</string>
+	<!---->
+	<string name="preferences_vacation_responder_title">"Одговор за одмор"</string>
+	<!---->
+	<string name="vacation_responder_body_hint_text">"Порака"</string>
+	<!---->
+	<string name="send_to_contacts_text">"Прати само на моите Контакти"</string>
+	<!---->
+	<string name="send_to_domain_text">"Прати само на <xliff:g id="domain">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="pick_start_date_title">"Почеток"</string>
+	<!---->
+	<string name="pick_end_date_title">"Крај (опционално)"</string>
+	<!---->
+	<string name="date_not_set">"Не е подесено"</string>
+	<!---->
+	<string name="set_end_date_dialog_title">"Датум на завршување (опционално)"</string>
+	<!---->
+	<string name="custom_date">"Персонализација"</string>
+	<!---->
+	<string name="date_none">"Нема"</string>
+	<!---->
+	<string name="discard_changes">"Отфрли промени?"</string>
+	<!---->
+	<string name="draft_saved">"Недовршената е зачувана"</string>
+	<!---->
+	<string name="draft_discard">"Недовршената е отфрлена"</string>
+	<!---->
+	<string name="vacation_responder_changes_saved">"Промените на одговорот за одморот се зачувани"</string>
+	<!---->
+	<string name="vacation_responder_changes_discarded">"Промените на одговорот за одморот се отфрлени"</string>
+	<!---->
+	<string name="vacation_responder_off">"Исклучено"</string>
+	<!-- no translation found for vacation_responder_on -->
+	<skip />
+	<!-- no translation found for vacation_responder_on_with_end_date -->
+	<skip />
+	<!---->
+	<string name="vacation_responder_empty_subject_and_body_warning">"Додај наслов или порака"</string>
+	<!---->
+	<string name="view_entire_message">"Прикажи цела порака"</string>
+	<!---->
+	<string name="eml_loader_error_toast">"Оваа датотека не може да се отвори"</string>
+	<!---->
+	<string name="help_and_info">"Помош"</string>
+	<!---->
+	<string name="help_and_feedback">"Помош и повратни информации"</string>
+	<!---->
+	<string name="feedback">"Прати повратна информација"</string>
+	<!---->
+	<string name="copyright">"©<xliff:g example="2010" id="year">%1$d</xliff:g> Google Inc."</string>
+	<!---->
+	<string name="version">"<xliff:g example="Email" id="app_name">%1$s</xliff:g> верзија <xliff:g example="2.2.1" id="version">%2$s</xliff:g>"</string>
+	<!-- no translation found for view_app_page -->
+	<skip />
+	<!---->
+	<string name="print_dialog">"Печатење\u2026"</string>
+	<!---->
+	<string name="copyright_information">"Информации за авторски права"</string>
+	<!---->
+	<string name="privacy_policy">"Политика за приватност"</string>
+	<!---->
+	<string name="open_source_licenses">"Отворете извор на лиценците"</string>
+	<!---->
+	<string name="reply_choice_yes">"Да"</string>
+	<!---->
+	<string name="reply_choice_no">"Не"</string>
+	<!---->
+	<string name="reply_choice_ok">"OK"</string>
+	<!-- no translation found for reply_choice_hehe -->
+	<skip />
+	<!---->
+	<string name="reply_choice_thanks">"Благодарам"</string>
+	<!---->
+	<string name="reply_choice_i_agree">"Се согласувам"</string>
+	<!---->
+	<string name="reply_choice_nice">"Убаво"</string>
+	<!---->
+	<string name="reply_on_my_way">"Си одам дома"</string>
+	<!---->
+	<string name="reply_choice_later">"OK, ќе се слушнеме повторно"</string>
+	<!-- no translation found for reply_choice_smiling_face -->
+	<skip />
+	<!-- no translation found for reply_choice_frowning_face -->
+	<skip />
+	<!---->
+	<string name="preference_header_action_confirmations">"Потврди за активност"</string>
+	<!---->
+	<string name="preference_confirm_before_delete_title">"Потври пред бришење"</string>
+	<!---->
+	<string name="preference_confirm_before_archive_title">"Потврди пред архивирање"</string>
+	<!---->
+	<string name="preference_confirm_before_send_title">"Потврди пред праќање"</string>
+	<!---->
+	<string name="preferences_conversation_mode_title">"Автоматско пополнување на порака"</string>
+	<!---->
+	<string name="preferences_conversation_mode_summary">"Намали ја пораката за да ја собере на екранот"</string>
+	<!---->
+	<string name="preferences_disable_snap_headers_title">"Активности на пораки"</string>
+	<string-array name="prefSummaries_snapHeader">
+		<item>"Секогаш прикажи опција на пораката на врв на екранот"</item>
+		<item>"Прикажи опција на пораката на врвот од екранот кога е во портрет"</item>
+		<item>"Не прикажувај опции на пораката надвор од насловот на пораката"</item>
+	</string-array>
+	<string-array name="prefEntries_snapHeader">
+		<item>"Секогаш прикажи"</item>
+		<item>"Прикажи само во портрет"</item>
+		<item>"Не прикажувај"</item>
+	</string-array>
+	<!---->
+	<string name="clear_history_title">"Избриши историја на пребарување"</string>
+	<!---->
+	<string name="search_history_cleared">"Историјата на пребарување е избришана."</string>
+	<!---->
+	<string name="clear_history_dialog_title">"Избриши историја на пребарување?"</string>
+	<!---->
+	<string name="clear_history_dialog_message">"Сите претходни пребарувања ќе се избришат."</string>
+	<!---->
+	<string name="manage_accounts_menu_item">"Управување на сметки"</string>
+	<!---->
+	<string name="general_preferences_title">"Општи подесувања"</string>
+	<!---->
+	<string name="activity_preferences">"Подесувања"</string>
+	<!---->
+	<string name="always_bcc_myself">"Секог.додај ме во ВСС"</string>
+	<!---->
+	<string name="always_bcc_myself_summary">"Секогаш додај ме во ВСС кога пишувам, одговарам или пренасочувам"</string>
+	<!---->
+	<string name="general_preference_auto_download_remaining_label">"Автоматско превземање на преостанато"</string>
+	<!---->
+	<string name="general_preference_auto_download_remaining_summary">"Автоматско превземање на преостанатото тело при повлекување надолу"</string>
+	<!---->
+	<string name="download_remaining">"Преостанато превземање"</string>
+	<!---->
+	<string name="downloading_remaining">"Вчитување"</string>
+	<!---->
+	<string name="unable_to_connect">"Не може да се поврзе"</string>
+	<!---->
+	<string name="need_connection_prompt">"Потребна е податочна врска за користење на оваа апликација. Вклучете мобилна мрежа или Wi-Fi во Подесување"</string>
+	<!---->
+	<string name="connection_settings">"Подесувања"</string>
+	<!---->
+	<string name="priority_action">"Приоритет"</string>
+	<!---->
+	<string name="set_priority_dialog_title">"Постави приоритет"</string>
+	<!---->
+	<string name="dialog_warning">"Предупредување\u2026"</string>
+	<!---->
+	<string name="dialog_warning_message">"Верзијата на апликацијата Exchange не е иста со Email, продолжи?"</string>
+	<!---->
+	<string name="toast_warning_text">"Верзијата на апликацијата Exchange не е иста со Email"</string>
+	<!---->
+	<string name="tips_sync_alter_title">"Синхронизација"</string>
+	<!---->
+	<string name="tips_sync_alter_content">"Не сте поврзани на Wi-Fi мрежа, сакате ли да продолжите со синхронизирање?"</string>
+	<!---->
+	<string name="tips_sync_alter_yes">"Да"</string>
+	<!---->
+	<string name="tips_sync_alter_no">"Не"</string>
+	<!---->
+	<string name="message_invite_tentative_title">"Привремено"</string>
+	<!---->
+	<string name="message_invite_decline_title">"Одбиј"</string>
+	<!---->
+	<string name="message_invite_accent_title">"Прифати"</string>
+	<!---->
+	<string name="drm_file_remind">"Датотеката не може да се прикачи и сподели бидејќи има DRM заштита!"</string>
+	<!---->
+	<string name="not_add_more_recipients">"Не можат да се додадат повеќе од <xliff:g id="maxLimit">%1$d</xliff:g> во исто време."</string>
+	<!---->
+	<string name="global_search_label">"Е-пошта"</string>
+	<!---->
+	<string name="global_search_hint">"Пребарување на е-пошта"</string>
+	<!---->
+	<string name="global_search_description">"Испраќачи, наслови и главен дел"</string>
+	<!---->
+	<string name="remote_search_failed">"Неуспешно пребарување на серверот!"</string>
+	<!---->
+	<string name="searching_on_server">"Пребарај на серверот"</string>
+	<!---->
+	<string name="searching_on_server_title">"Пребарај \"<xliff:g id="account_name">%s</xliff:g>\"на серверот"</string>
+	<!---->
+	<string name="searching_all_fields_on_sever">"Пребарај се од серверот"</string>
+	<!---->
+	<string name="search_field_subject">"Наслов"</string>
+	<!---->
+	<string name="search_field_receiver">"Примач"</string>
+	<!---->
+	<string name="search_field_sender">"Испраќач"</string>
+	<!---->
+	<string name="search_field_body">"Содржина"</string>
+	<!---->
+	<string name="search_field_all">"Сите"</string>
+	<!---->
+	<string name="search_field_attachment">"Прилог"</string>
+	<!---->
+	<string name="select_all">"Избери се"</string>
+	<!---->
+	<string name="deselect_all">"Откажи ги сите"</string>
+	<!---->
+	<string name="need_wifi_connection_prompt">"Потребна е податочна врска за користење на оваа апликација. Вклучете мобилна мрежа или Wi-Fi во Подесување"</string>
+	<!---->
+	<string name="account_setup_names_account_name_des_label">"опц."</string>
+	<!---->
+	<string name="account_setup_names_user_name_des_label">"прик. на појдов.пораки"</string>
+	<!---->
+	<string name="finish_action">"Заврши"</string>
+	<!---->
+	<string name="copy_email">"Копирај ги сите е-адреси"</string>
+	<!---->
+	<string name="out_of_office_syncing">"Синхронизирање на подесувањата за Надвор од канцеларија"</string>
+	<!---->
+	<string name="out_of_office_fail">"Неуспешно синхронизирање на подесувањата за “Надвор од канцеларија“!"</string>
+	<!---->
+	<string name="out_of_office_success">"Успешно синхронизирање на подесувањата за “Надвор од канцеларија“!"</string>
+	<!---->
+	<string name="manual_sync_when_roaming">"Синхронизација во роаминг"</string>
+	<!---->
+	<string name="manual_sync_when_roaming_summery">"Обнови рачно со"</string>
+	<!---->
+	<string name="manual_sync_when_roaming_toast">"Повлечете надолу за рачно обновување во роаминг"</string>
+	<!---->
+	<string name="manual_sync_when_roaming_refresh">"Обнови"</string>
+	<!---->
+	<string name="server_rule_can_not_change">"Правилата на серверот не можат да се променат"</string>
+	<!---->
+	<string name="server_rules">"Правила на сервер"</string>
+	<!---->
+	<string name="confirm_forward_message">"Не се сите датотеки превземени. Пренасочи без превземање на датотеки?"</string>
+	<!---->
+	<string name="confirm_forward_cancel">"ОТКАЖИ"</string>
+	<!---->
+	<string name="confirm_forward_drop_unload_attachment">"ПРЕНАСОЧИ"</string>
+	<!---->
+	<string name="mail_not_download_completely">"Почекајте додека не заврши превземањето"</string>
+	<!---->
+	<string name="account_settings_inline_images_lable">"Слики"</string>
+	<!---->
+	<string name="account_settings_inline_always_show">"Секогаш прикажи"</string>
+	<!---->
+	<string name="account_settings_inline_ask_before_show">"Прашај пред прикажување"</string>
+	<!---->
+	<string name="conversation_time_after_today">"Ден потоа"</string>
+	<!---->
+	<string name="conversation_time_today">"Денес"</string>
+	<!---->
+	<string name="conversation_time_yesterday">"Вчера"</string>
+	<!---->
+	<string name="conversation_time_this_month">"Овој месец"</string>
+	<!---->
+	<string name="conversation_time_elapse_just_now">"Токму сега"</string>
+	<!---->
+	<string name="conversation_time_elapse_minute">"<xliff:g id="count">%d</xliff:g> минути"</string>
+	<!---->
+	<string name="message_in_queued_status">"Во редица"</string>
+	<plurals name="send_failed_messages">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> е-пораката не е пратена"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> е-пораките не се пратени"</item>
+	</plurals>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_label">"Синхрон.календари од:"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_2weeks">"Две недели"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_1month">"Еден месец"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_3months">"Три месеци"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_6months">"Шест месеци"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_all">"Сите"</string>
+	<!---->
+	<string name="no_permission_to_open_file">"За отворање на оваа датотека потребна е дозвола од меморија"</string>
+	<!---->
+	<string name="conversation_update_time_text">"Последни ажурирани:"</string>
+	<!---->
+	<string name="conversation_update_unknown_time_stamp">"Непознато"</string>
+	<!---->
+	<string name="conversation_time_elapse_today">"Денес"</string>
+	<!---->
+	<string name="save_to_attachment">"Зачувај во"</string>
+	<!---->
+	<string name="download_settings_title">"Зачувај го прилогот"</string>
+	<!---->
+	<string name="download_edit_filename_label">"Име"</string>
+	<!---->
+	<string name="download_filepath_label">"Патека"</string>
+	<!---->
+	<string name="download_file_size">"Големина"</string>
+	<!---->
+	<string name="download_time_needed">"Време"</string>
+	<!---->
+	<string name="download_cancel">"Откажи"</string>
+	<!---->
+	<string name="download_start">"ОК"</string>
+	<!---->
+	<string name="unknown_length">"Непозн."</string>
+	<!---->
+	<string name="time_min">"минута"</string>
+	<!---->
+	<string name="open_file_manager_failed">"Не може да се отвори Фајл Менаџер"</string>
+	<!---->
+	<string name="attachment_not_saved">"Прикачената датотека не е зачувана"</string>
+	<!---->
+	<string name="sync_calendar_title">"Синхронизирање на Календар е невозможно"</string>
+	<!---->
+	<string name="sync_calendar_content">"За синхронизација, дозволи на апликацијата Размена да пристапи до Календар"</string>
+	<!---->
+	<string name="sync_contacts_title">"Синхронизирање на Контакти е невозможно"</string>
+	<!---->
+	<string name="sync_contacts_content">"За синхронизација, дозволи на апликацијата Размена да пристапи до Контакти"</string>
+	<!---->
+	<string name="notification_never_ask_again">"Не прашувај повторно"</string>
+	<!---->
+	<string name="sync_storage_title">"Не може да се зачува прилогот"</string>
+	<!---->
+	<string name="sync_storage_content">"За зачувување, дозволи на апликацијата Размена да пристапи до меморија"</string>
+	<!---->
+	<string name="oof_continue">"Продолжи"</string>
+	<!---->
+	<string name="permission_needed_to_add_attachments">"За додавање на прилози, дозволи апликацијата Е-пошта да пристапи до меморија"</string>
+	<!---->
+	<string name="permission_needed_to_check_ringtone">"За да го проверите тонот за ѕвонење, дајте дозвола на е-поштата да пристапува до меморијата"</string>
+	<!---->
+	<string name="add_folder_as_attachment_fail_tips">"Не може да се додаде папка како прилог"</string>
+	<!---->
+	<string name="choose_action_title">"Избери акција"</string>
+	<!---->
+	<string name="choose_action_contact">"Додај го контакт: <xliff:g example="4" id="email_address">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="choose_action_email">"Е-порака: <xliff:g example="4" id="email_address">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="choose_action_message">"Порака: <xliff:g example="4" id="email_address">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="account_setup_basics_exit_action">"Излез"</string>
+</resources>

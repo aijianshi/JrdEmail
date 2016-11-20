@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Tue Sep 20 16:24:06 CST 2016
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="exchange_name">"الشركة"</string>
+	<!---->
+	<string name="exchange_name_alternate">"Microsoft Exchange ActiveSync"</string>
+	<!---->
+	<string name="meeting_accepted">"تم قبول: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_declined">"تم رفض: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_tentative">"مؤقت: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_canceled">"ملغي: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_updated">"تم تحديث: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_when">"الوقت: <xliff:g id="when">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_where">"المكان: <xliff:g id="where">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_recurring">"الوقت: <xliff:g example="Tue, Mar 10, 2010 at 2:30 pm" id="eventdate">%s</xliff:g> (متكرر)"</string>
+	<!---->
+	<string name="meeting_allday">"عند: <xliff:g example="Tue, Mar 10, 2010 " id="eventdate">%s</xliff:g> (طوال اليوم)"</string>
+	<!---->
+	<string name="meeting_allday_recurring">"عندما: <xliff:g example="Tue, Mar 10, 2010 " id="eventdate">%s</xliff:g> (طوال اليوم، متكرر)"</string>
+	<!---->
+	<string name="notification_exchange_calendar_added">"تمت إضافة تقويم Exchange"</string>
+	<!---->
+	<string name="app_name">"خدمات Exchange"</string>
+	<!---->
+	<string name="exception_cancel">"تم إلغاء هذا الحدث لـ: <xliff:g id="date">%s</xliff:g>"</string>
+	<!---->
+	<string name="exception_updated">"تم تغيير تفاصيل هذا الحدث منذ: <xliff:g id="date">%s</xliff:g>"</string>
+	<!---->
+	<string name="policy_dont_allow_storage_cards">"عدم السماح ببطاقات التخزين"</string>
+	<!---->
+	<string name="policy_dont_allow_unsigned_apps">"عدم السماح بالتطبيقات غير الموقعة"</string>
+	<!---->
+	<string name="policy_dont_allow_unsigned_installers">"عدم السماح بمثبتات التطبيق غير الموقعة"</string>
+	<!---->
+	<string name="policy_dont_allow_wifi">"عدم السماح بشبكات Wi-Fi"</string>
+	<!---->
+	<string name="policy_dont_allow_text_messaging">"عدم السماح بالمراسلة النصية"</string>
+	<!---->
+	<string name="policy_dont_allow_pop_imap">"عدم السماح بحسابات POP3 أو IMAP"</string>
+	<!---->
+	<string name="policy_dont_allow_irda">"عدم السماح باتصالات الأشعة تحت الحمراء"</string>
+	<!---->
+	<string name="policy_dont_allow_html">"عدم السماح لبريد HTML الإلكتروني"</string>
+	<!---->
+	<string name="policy_dont_allow_browser">"عدم السماح للمتصفحات"</string>
+	<!---->
+	<string name="policy_dont_allow_consumer_email">"عدم السماح بالبريد الإلكتروني للمستهلك"</string>
+	<!---->
+	<string name="policy_dont_allow_internet_sharing">"عدم السماح بمشاركة الإنترنت"</string>
+	<!---->
+	<string name="policy_require_smime">"يستلزم وجود رسائل SMIME"</string>
+	<!---->
+	<string name="policy_bluetooth_restricted">"تقييد استخدام Bluetooth"</string>
+	<!---->
+	<string name="policy_app_blacklist">"إلغاء السماح لتطبيقات معينة"</string>
+	<!---->
+	<string name="policy_app_whitelist">"السماح لتطبيقات محددة فقط"</string>
+	<!---->
+	<string name="policy_text_truncation">"تقييد حجم البريد الإلكتروني النصي"</string>
+	<!---->
+	<string name="policy_html_truncation">"تقييد حجم بريد HTML الإلكتروني"</string>
+	<!---->
+	<string name="policy_require_sd_encryption">"طلب تشفير بطاقة SD"</string>
+	<!---->
+	<string name="policy_dont_allow_attachments">"عدم السماح بالمرفقات"</string>
+	<!---->
+	<string name="policy_max_attachment_size">"تقييد حجم المرفق"</string>
+	<!---->
+	<string name="policy_require_manual_sync_roaming">"السماح بالمزامنة اليدوية فقط أثناء التجوال"</string>
+	<!---->
+	<string name="policy_require_encryption">"طلب تشفير الجهاز"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_auto">"تلقائي"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1day">"يوم واحد"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_3days">"ثلاثة أيام"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1week">"أسبوع"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_2weeks">"أسبوعان"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1month">"شهر واحد"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_all">"الكل"</string>
+	<!---->
+	<string name="auth_error_notification_title">"خطأ في المصادقة"</string>
+	<!---->
+	<string name="auth_error_notification_text">"المس لتعديل إعدادات الحساب من أجل <xliff:g id="account">%s</xliff:g>"</string>
+	<!---->
+	<string name="email_settings_not_available">"قم بإعادة تمكين تطبيق "البريد الإلكتروني" لعرض الإعدادات."</string>
+</resources>

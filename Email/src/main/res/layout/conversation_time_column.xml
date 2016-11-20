@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+==========================================================================
+*HISTORY
+*
+*Tag            Date         Author          Description
+*============== ============ =============== ==============================
+*BUGFIX-539892  2015-09-01   zheng.zou       CR:in email list view, group email with time range and show time range in column
+*BUGFIX-1270504  2016-01-04  kaifeng.lu     [Android 6.0][Email][Ergo]There is no bg color under Today/Yesterday/this month
+============================================================================
+-->
+
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:paddingStart="@dimen/conv_list_padding"
+              android:paddingEnd="@dimen/conv_list_padding"
+              android:textSize="@dimen/conv_list_time_column_font_size"
+              android:textColor="@color/conversation_time_column_color"
+              android:background="@color/conversation_time_column_background_color"
+              android:minHeight="@dimen/conv_list_time_column_mini_height"
+              android:gravity="center_vertical|start"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+</TextView>

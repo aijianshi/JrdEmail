@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2008 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<!--
+*======================================================================================================
+*HISTORY
+*
+*Tag             Date        Author    Description
+*============== ============ =============== ==========================================================
+*BUGFIX-871987 2014/12/17 xiaolin.li  [Android5.0][Email] No Email version info when checking App info.
+*BUGFIX-923708 2014/02/04 xiaolin.li  [CTS]: android.permission.cts.DebuggableTest failed
+*======================================================================================================
+-->
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tct.exchange"><!--TS: xiaolin.li 2014-12-17 Exchange BUGFIX_871987 ADD-->
+
+    <uses-permission
+        android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission
+        android:name="android.permission.INTERNET"/>
+    <uses-permission
+        android:name="android.permission.VIBRATE"/>
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission
+        android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission
+        android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission
+        android:name="android.permission.READ_SYNC_SETTINGS" />
+    <uses-permission
+        android:name="android.permission.WRITE_SYNC_SETTINGS" />
+
+    <uses-permission
+        android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission
+        android:name="android.permission.WRITE_CONTACTS"/>
+    <uses-permission
+        android:name="android.permission.READ_CALENDAR"/>
+    <uses-permission
+        android:name="android.permission.WRITE_CALENDAR"/>
+    <uses-permission
+        android:name="android.permission.USE_CREDENTIALS"/>
+
+    <!-- Only required if a store implements push mail and needs to keep network open -->
+    <uses-permission
+        android:name="android.permission.WAKE_LOCK"/>
+
+    <uses-permission
+        android:name="com.tct.email.permission.READ_ATTACHMENT"/>
+    <uses-permission
+        android:name="com.tct.email.permission.ACCESS_PROVIDER"/>
+
+    <uses-sdk android:targetSdkVersion="19" android:minSdkVersion="17" />
+
+    <!-- additional uses -->
+
+    <application
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:name="Exchange"
+        android:requiredAccountType="com.tct.exchange"
+        android:theme="@android:style/Theme.Holo.Light"
+        android:debuggable="false"
+        ><!--TS: xiaolin.li 2015-02-04 Email BUGFIX_923708 ADD-->
+
+        <service
+                android:name="com.tct.exchange.service.EasService"
+                android:exported="true">
+            <intent-filter>
+                <action
+                        android:name="com.tct.email.EXCHANGE_INTENT" />
+            </intent-filter>
+
+        </service>
+
+        <!--Required stanza to register the EAS EmailSyncAdapterService with SyncManager -->
+        <service
+            android:name="com.tct.exchange.service.EmailSyncAdapterService"
+            android:exported="true">
+            <intent-filter>
+                <action
+                    android:name="android.content.SyncAdapter" />
+            </intent-filter>
+            <meta-data android:name="android.content.SyncAdapter"
+                       android:resource="@xml/syncadapter_email" />
+        </service>
+
+        <!--Required stanza to register the EAS ContactsSyncAdapterService with SyncManager -->
+        <service
+            android:name="com.tct.exchange.service.ContactsSyncAdapterService"
+            android:exported="true">
+            <intent-filter>
+                <action
+                    android:name="android.content.SyncAdapter" />
+            </intent-filter>
+            <meta-data android:name="android.content.SyncAdapter"
+                       android:resource="@xml/syncadapter_contacts" />
+        </service>
+
+        <!--Required stanza to register the EAS CalendarSyncAdapterService with SyncManager -->
+        <service
+            android:name="com.tct.exchange.service.CalendarSyncAdapterService"
+            android:exported="true">
+            <intent-filter>
+                <action
+                    android:name="android.content.SyncAdapter" />
+            </intent-filter>
+            <meta-data android:name="android.content.SyncAdapter"
+                       android:resource="@xml/syncadapter_calendar" />
+        </service>
+
+        <provider
+            android:name="com.tct.exchange.provider.ExchangeDirectoryProvider"
+            android:authorities="com.tct.exchange.directory.provider"
+            android:readPermission="android.permission.READ_CONTACTS"
+            android:multiprocess="false"
+            android:exported="true"
+            >
+          <meta-data
+              android:name="android.content.ContactDirectory"
+              android:value="true"/>
+        </provider>
+
+        <activity android:name="com.tct.exchange.EasCertificateRequestor">
+            <intent-filter>
+                <action android:name="com.tct.email.EXCHANGE_REQUEST_CERT" />
+                <data android:scheme="eas" android:path="/certrequest" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.tct.exchange.SettingsRedirector">
+            <intent-filter>
+                <action android:name="android.intent.action.MANAGE_NETWORK_USAGE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name="ExchangeBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.accounts.LOGIN_ACCOUNTS_CHANGED" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+</manifest>

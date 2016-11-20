@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!-- no translation found for app_name -->
+	<skip />
+	<!-- no translation found for photo_view_count -->
+	<skip />
+	<!---->
+	<string name="retry">"Riprova"</string>
+	<!---->
+	<string name="failed">"Impossibile caricare l\'immagine"</string>
+	<!-- no translation found for more_string -->
+	<skip />
+	<!---->
+	<string name="copy_email">"Copia indirizzo e-mail"</string>
+	<!---->
+	<string name="copy_number">"Copia numero di telefono"</string>
+	<!---->
+	<string name="action_label">"Indietro"</string>
+	<!---->
+	<string name="search_hint">"Cerca email"</string>
+	<!---->
+	<string name="compose">"Scrivi"</string>
+	<!---->
+	<string name="activity_folder_selection">"Scegli cartella"</string>
+	<!---->
+	<string name="activity_preferences">"Impostazioni"</string>
+	<!---->
+	<string name="tap_to_configure">"Tocca per configurare"</string>
+	<!---->
+	<string name="loading_conversations">"Caricamento..."</string>
+	<!---->
+	<string name="non_synced_folder_description">"Per visualizzare le conversazioni, sincronizzare questa cartella."</string>
+	<!---->
+	<string name="tap_to_configure_folder_sync">"Sincronizza cartella"</string>
+	<!-- no translation found for def_email_accountGermanSignature -->
+	<skip />
+	<!---->
+	<string name="send_failed">"Il messaggio non è stato spedito."</string>
+	<!-- no translation found for permission_needed -->
+	<skip />
+	<!---->
+	<string name="permission_needed_label">"Autorizzazioni necessarie"</string>
+	<!---->
+	<string name="permission_grant_access_label">"Consenti accesso"</string>
+	<!---->
+	<string name="permission_grant_access_descs">"Modificare le autorizzazioni nelle impostazioni per le applicazioni del dispositivo. Consentire a E-mail l\'accesso a Contatti."</string>
+	<!---->
+	<string name="permission_grant_exit">"Esci"</string>
+	<!---->
+	<string name="permission_grant_go_setting">"Impostazioni"</string>
+	<!---->
+	<string name="permission_needed_to_save_attachment">"Per aggiungere allegati, consentire a Email l\'accesso alla memoria"</string>
+	<!---->
+	<string name="permission_needed_to_add_attachment">"Per aggiungere allegati, consentire a Email l\'accesso alla memoria"</string>
+	<!---->
+	<string name="permission_needed_to_see_calendar">"Per vederle nel calendario, consentire a E-mail le autorizzazioni per accedere a Calendario"</string>
+</resources>

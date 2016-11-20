@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!-- no translation found for app_name -->
+	<skip />
+	<!-- no translation found for photo_view_count -->
+	<skip />
+	<!---->
+	<string name="retry">"Tekrar dene"</string>
+	<!---->
+	<string name="failed">"Resim yüklenemedi"</string>
+	<!-- no translation found for more_string -->
+	<skip />
+	<!---->
+	<string name="copy_email">"E-posta adresini kopyala"</string>
+	<!---->
+	<string name="copy_number">"Telefon numarasını kopyala"</string>
+	<!---->
+	<string name="action_label">"Geri dön"</string>
+	<!---->
+	<string name="search_hint">"E-postada ara"</string>
+	<!---->
+	<string name="compose">"Oluştur"</string>
+	<!---->
+	<string name="activity_folder_selection">"Klasör seç"</string>
+	<!---->
+	<string name="activity_preferences">"Ayarlar"</string>
+	<!---->
+	<string name="tap_to_configure">"Kurulum için dokunun"</string>
+	<!---->
+	<string name="loading_conversations">"Yükleniyor\u2026"</string>
+	<!---->
+	<string name="non_synced_folder_description">"Sohbetleri görüntülemek için bu klasörü eşitleyin."</string>
+	<!---->
+	<string name="tap_to_configure_folder_sync">"Klasörü eşitle"</string>
+	<!-- no translation found for def_email_accountGermanSignature -->
+	<skip />
+	<!---->
+	<string name="send_failed">"Mesaj gönderilmedi."</string>
+	<!-- no translation found for permission_needed -->
+	<skip />
+	<!---->
+	<string name="permission_needed_label">"İzinler gerekli"</string>
+	<!---->
+	<string name="permission_grant_access_label">"Erişim ver"</string>
+	<!---->
+	<string name="permission_grant_access_descs">"Cihazınızdaki uygulama ayarlarında izinleri değiştirin. E-postaya Kişiler için erişim izni verin."</string>
+	<!---->
+	<string name="permission_grant_exit">"Çıkş"</string>
+	<!---->
+	<string name="permission_grant_go_setting">"Ayarlar"</string>
+	<!---->
+	<string name="permission_needed_to_save_attachment">"Eki kaydetmek için, E-postanın, depolama birimine erişmesine izin verin"</string>
+	<!---->
+	<string name="permission_needed_to_add_attachment">"Ek ilave etmek için, E-posta\'nın, depolama birimine erişmesine izin verin"</string>
+	<!---->
+	<string name="permission_needed_to_see_calendar">"Takvimde görmek için, E-posta izinlerinin Takvime erişmesine izin verin"</string>
+</resources>

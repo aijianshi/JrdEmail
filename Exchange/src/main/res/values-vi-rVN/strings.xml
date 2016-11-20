@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Tue Sep 20 16:24:06 CST 2016
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="exchange_name">"Kết hợp"</string>
+	<!---->
+	<string name="exchange_name_alternate">"Microsoft Exchange ActiveSync"</string>
+	<!---->
+	<string name="meeting_accepted">"Đã chấp nhận: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_declined">"Đã từ chối: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_tentative">"Chưa quyết: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_canceled">"Đã hủy: <xliff:g id="SUBJECT">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_updated">"Đã cập nhật: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_when">"Thời gian: <xliff:g id="when">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_where">"Địa điểm: <xliff:g id="where">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_recurring">"Thời gian: <xliff:g example="Tue, Mar 10, 2010 at 2:30 pm" id="eventdate">%s</xliff:g> (lặp lại)"</string>
+	<!---->
+	<string name="meeting_allday">"Thời gian: <xliff:g example="Thứ 3, 10 T3, 2010 " id="eventdate">%s</xliff:g> (cả ngày)"</string>
+	<!---->
+	<string name="meeting_allday_recurring">"Thời gian: <xliff:g example="Thứ 3, 10 T3, 2010 " id="eventdate">%s</xliff:g> (cả ngày, lặp lại)"</string>
+	<!---->
+	<string name="notification_exchange_calendar_added">"Đã thêm lịch Exchange"</string>
+	<!---->
+	<string name="app_name">"Dịch vụ Exchange"</string>
+	<!---->
+	<string name="exception_cancel">"Sự kiện này đã bị hủy cho: <xliff:g id="DATE">%s</xliff:g>"</string>
+	<!---->
+	<string name="exception_updated">"Chi tiết của sự kiện này đã được thay đổi cho: <xliff:g id="date">%s</xliff:g>"</string>
+	<!---->
+	<string name="policy_dont_allow_storage_cards">"Không cho phép thẻ lưu trữ"</string>
+	<!---->
+	<string name="policy_dont_allow_unsigned_apps">"Không cho phép ứng dụng chưa kiểm tra"</string>
+	<!---->
+	<string name="policy_dont_allow_unsigned_installers">"Ko cho phép tr.cài đặt ứ.dụng chưa k.tra"</string>
+	<!---->
+	<string name="policy_dont_allow_wifi">"Không cho phép Wi-Fi"</string>
+	<!---->
+	<string name="policy_dont_allow_text_messaging">"Không cho phép nhắn tin văn bản"</string>
+	<!---->
+	<string name="policy_dont_allow_pop_imap">"Không cho phép tài khoản POP3 hoặc IMAP"</string>
+	<!---->
+	<string name="policy_dont_allow_irda">"Không cho phép giao tiếp bằng hồng ngoại"</string>
+	<!---->
+	<string name="policy_dont_allow_html">"Không cho phép email HTML"</string>
+	<!---->
+	<string name="policy_dont_allow_browser">"Không cho phép trình duyệt"</string>
+	<!---->
+	<string name="policy_dont_allow_consumer_email">"Không cho phép email của người dùng"</string>
+	<!---->
+	<string name="policy_dont_allow_internet_sharing">"Không cho phép chia sẻ kết nối Internet"</string>
+	<!---->
+	<string name="policy_require_smime">"Yêu cầu tin nhắn SMIME"</string>
+	<!---->
+	<string name="policy_bluetooth_restricted">"Hạn chế sử dụng Bluetooth"</string>
+	<!---->
+	<string name="policy_app_blacklist">"Ko cho phép các ứng dụng được chỉ định"</string>
+	<!---->
+	<string name="policy_app_whitelist">"Chỉ cho phép các ứng dụng được chỉ định"</string>
+	<!---->
+	<string name="policy_text_truncation">"Hạn chế kích thước email văn bản"</string>
+	<!---->
+	<string name="policy_html_truncation">"Hạn chế kích thước email HTML"</string>
+	<!---->
+	<string name="policy_require_sd_encryption">"Yêu cầu mã hóa thẻ nhớ"</string>
+	<!---->
+	<string name="policy_dont_allow_attachments">"Không cho phép đính kèm"</string>
+	<!---->
+	<string name="policy_max_attachment_size">"Hạn chế kích thước đính kèm"</string>
+	<!---->
+	<string name="policy_require_manual_sync_roaming">"Chỉ được đ.bộ hóa thủ công khi ch.vùng"</string>
+	<!---->
+	<string name="policy_require_encryption">"Yêu cầu mã hóa thiết bị"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_auto">"Tự động"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1day">"Một ngày"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_3days">"Ba ngày"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1week">"Một tuần"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_2weeks">"Hai tuần"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1month">"Một tháng"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_all">"Tất cả"</string>
+	<!---->
+	<string name="auth_error_notification_title">"Lỗi xác thực"</string>
+	<!---->
+	<string name="auth_error_notification_text">"Chạm để sửa cài đặt tài khoản cho <xliff:g id="account">%s</xliff:g>"</string>
+	<!---->
+	<string name="email_settings_not_available">"Bật lại ứng dụng Email để xem cài đặt."</string>
+</resources>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ *===================================================================================================================
+ *HISTORY
+ *
+ *Tag            Date         Author          Description
+ *============== ============ =============== =======================================================================
+ *CR-932701      2015/02/13   ke.ma           [Android5.0][Email][GD] Achieve 'Account setup' according to GD_v5.1.5.4
+ *BUGFIX-932277  2015/02/15   ke.ma           [Arabic][Email]Cannot find new email icon
+ *BUGFIX-932701  2015/03/06   ke.ma           [Android5.0][Email][GD] Achieve 'Account setup' according to GD_v5.1.5.4
+ *BUGFIX-932701  2015/03/12   ke.ma           [Android5.0][Email][GD] Achieve 'Account setup' according to GD_v5.1.5.4
+ ====================================================================================================================
+ */
+ -->
+<!-- TS: ke.ma 2015-02-13 EMAIL CR932701 ADD_S -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#f0f0f0"
+    android:orientation="horizontal" >
+
+    <!--
+                 <ImageButton
+                style="@style/account_setup_nav_button"
+                android:contentDescription="@string/previous"
+                android:id="@+id/previous"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:src="@drawable/ic_nav_arrow_previous_button"
+                android:text="@string/next" />
+    -->
+
+    <!-- TS: ke.ma 2015-03-12 EMAIL BUGFIX-932701 MOD_S -->
+    <!-- TS: ke.ma 2015-03-06 EMAIL BUGFIX-932701 MOD_S -->
+    <Button
+        android:id="@+id/previous"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:layout_marginLeft="5dp"
+        android:background="#f0f0f0"
+        android:drawableLeft="@drawable/ic_chevron_left"
+        android:gravity="center_vertical"
+        android:text="@string/previous"
+        android:textColor="#343535"
+        android:textSize="15sp" /><!-- TS: ke.ma 2015-02-15 EMAIL BUGFIX-932277 MOD -->
+    <!-- TS: ke.ma 2015-03-06 EMAIL BUGFIX-932701 MOD_E -->
+    <!-- TS: ke.ma 2015-03-12 EMAIL BUGFIX-932701 MOD_E -->
+
+    <!-- TS: ke.ma 2015-03-12 EMAIL BUGFIX-932701 MOD_S -->
+    <!-- TS: ke.ma 2015-03-06 EMAIL BUGFIX-932701 MOD_S -->
+    <Button
+        android:id="@+id/manual_setup"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:layout_marginLeft="30dp"
+        android:background="#f0f0f0"
+        android:gravity="center_vertical"
+        android:text="@string/account_setup_basics_manual_setup_action"
+        android:textSize="15sp"
+        android:visibility="gone" /><!-- TS: ke.ma 2015-02-15 EMAIL BUGFIX-932277 MOD -->
+    <!-- TS: ke.ma 2015-03-06 EMAIL BUGFIX-932701 MOD_E -->
+    <!-- TS: ke.ma 2015-03-12 EMAIL BUGFIX-932701 MOD_E -->
+
+    //[BUGFIX]-Add-BEGIN by SCDTABLET.yingjie.chen@tcl.com,02/18/2016,1604305
+    //[Email][Perso]Cann't customized email account
+    <Button
+        android:id="@+id/exit"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:layout_marginLeft="5dp"
+        android:background="#f0f0f0"
+        android:drawableLeft="@drawable/ic_chevron_left"
+        android:gravity="center_vertical"
+        android:text="@string/account_setup_basics_exit_action"
+        android:textColor="#343535"
+        android:textSize="15sp"
+        android:visibility="gone"/>
+    //[BUGFIX]-Add-END by SCDTABLET.yingjie.chen@tcl.com
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+    <!--
+                 <ImageButton
+                style="@style/account_setup_nav_button"
+                android:contentDescription="@string/next"
+                android:id="@+id/next"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:src="@drawable/ic_nav_arrow_next_button"
+                android:text="@string/next" />
+    -->
+
+    <!-- TS: ke.ma 2015-03-12 EMAIL BUGFIX-932701 MOD_S -->
+    <!-- TS: ke.ma 2015-03-06 EMAIL BUGFIX-932701 MOD_S -->
+    <Button
+        android:id="@+id/next"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:layout_marginRight="5dp"
+        android:background="#f0f0f0"
+        android:drawableRight="@drawable/ic_chevron_right_enable"
+        android:gravity="center_vertical|right"
+        android:text="@string/next"
+        android:textSize="15sp" /><!-- TS: ke.ma 2015-02-15 EMAIL BUGFIX-932277 MOD -->
+    <!-- TS: ke.ma 2015-03-06 EMAIL BUGFIX-932701 MOD_E -->
+    <!-- TS: ke.ma 2015-03-12 EMAIL BUGFIX-932701 MOD_E -->
+
+</LinearLayout>
+<!-- TS: ke.ma 2015-02-13 EMAIL CR932701 ADD_E -->

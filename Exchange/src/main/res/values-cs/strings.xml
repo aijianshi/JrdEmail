@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Tue Sep 20 16:24:06 CST 2016
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="exchange_name">"Firemní"</string>
+	<!---->
+	<string name="exchange_name_alternate">"Microsoft Exchange ActiveSync"</string>
+	<!---->
+	<string name="meeting_accepted">"Přijato: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_declined">"Odmítnuto: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_tentative">"Nepotvrzeno: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_canceled">"Zrušeno: <xliff:g id="SUBJECT">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_updated">"Aktualizováno: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_when">"Kdy: <xliff:g id="when">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_where">"Kde: <xliff:g id="where">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_recurring">"Kdy: <xliff:g example="Tue, Mar 10, 2010 at 2:30 pm" id="eventdate">%s</xliff:g> (opakovaně)"</string>
+	<!---->
+	<string name="meeting_allday">"Termín: <xliff:g example="Tue, Mar 10, 2010 " id="eventdate">%s</xliff:g> (celý den)"</string>
+	<!---->
+	<string name="meeting_allday_recurring">"Termín: <xliff:g example="Tue, Mar 10, 2010 " id="eventdate">%s</xliff:g> (celý den, opakovaně)"</string>
+	<!---->
+	<string name="notification_exchange_calendar_added">"Kalendář Exchange byl přidán"</string>
+	<!---->
+	<string name="app_name">"Služby Exchange"</string>
+	<!---->
+	<string name="exception_cancel">"Tato událost byla zrušena pro datum: <xliff:g id="DATE">%s</xliff:g>"</string>
+	<!---->
+	<string name="exception_updated">"Podrobnosti o události se změnily pro: <xliff:g id="date">%s</xliff:g>"</string>
+	<!---->
+	<string name="policy_dont_allow_storage_cards">"Nepovolit paměťové karty"</string>
+	<!---->
+	<string name="policy_dont_allow_unsigned_apps">"Nepovolit nepodepsané aplikace"</string>
+	<!---->
+	<string name="policy_dont_allow_unsigned_installers">"Nepovolit nepodepsané instalátory"</string>
+	<!---->
+	<string name="policy_dont_allow_wifi">"Nepovolit připojení Wi-Fi"</string>
+	<!---->
+	<string name="policy_dont_allow_text_messaging">"Nepovolit textové zprávy"</string>
+	<!---->
+	<string name="policy_dont_allow_pop_imap">"Nepovolovat účty POP3 a IMAP"</string>
+	<!---->
+	<string name="policy_dont_allow_irda">"Nepovolit komunikaci IR"</string>
+	<!---->
+	<string name="policy_dont_allow_html">"Nepovolit e-maily ve formátu HTML"</string>
+	<!---->
+	<string name="policy_dont_allow_browser">"Nepovolit prohlížeče"</string>
+	<!---->
+	<string name="policy_dont_allow_consumer_email">"Nepovolit marketingové e-maily"</string>
+	<!---->
+	<string name="policy_dont_allow_internet_sharing">"Nepovolit sdílení internetu"</string>
+	<!---->
+	<string name="policy_require_smime">"Požadovat zprávy ve formátu SMIME"</string>
+	<!---->
+	<string name="policy_bluetooth_restricted">"Omezit použití připojení Bluetooth"</string>
+	<!---->
+	<string name="policy_app_blacklist">"Blokovat zadané aplikace"</string>
+	<!---->
+	<string name="policy_app_whitelist">"Povolit pouze zadané aplikace"</string>
+	<!---->
+	<string name="policy_text_truncation">"Omezit velikost textových e-mailů"</string>
+	<!---->
+	<string name="policy_html_truncation">"Omezit velikost e-mailů ve formátu HTML"</string>
+	<!---->
+	<string name="policy_require_sd_encryption">"Požadovat šifrování karty SD"</string>
+	<!---->
+	<string name="policy_dont_allow_attachments">"Nepovolit přílohy"</string>
+	<!---->
+	<string name="policy_max_attachment_size">"Omezit velikost příloh"</string>
+	<!---->
+	<string name="policy_require_manual_sync_roaming">"Při roamingu povolit jen ruční synch."</string>
+	<!---->
+	<string name="policy_require_encryption">"Požadovat šifrování zařízení"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_auto">"Automaticky"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1day">"Jeden den"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_3days">"Tři dny"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1week">"Jeden týden"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_2weeks">"Dva týdny"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1month">"Jeden měsíc"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_all">"Vše"</string>
+	<!---->
+	<string name="auth_error_notification_title">"Chyba ověření"</string>
+	<!---->
+	<string name="auth_error_notification_text">"Stisknutím upravte nastavení účtu pro: <xliff:g id="account">%s</xliff:g>"</string>
+	<!---->
+	<string name="email_settings_not_available">"Chcete-li zobrazit nastavení, znovu povolte aplikaci E-mail."</string>
+</resources>

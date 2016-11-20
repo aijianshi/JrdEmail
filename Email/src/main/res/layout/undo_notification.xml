@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+**
+** Copyright 2012, Google Inc.
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+/*
+
+ ==========================================================================
+ *HISTORY
+ *
+ *Tag            Date              Author        Description
+ *============== ============ =============== ==============================
+ *FEATURE-1055835  2015/07/31 Gantao          [2015W31][IOT9][MR3][Email]When you remove some email directly from notification panel then the appeared notification doesn't follow material deisgn style
+ *CR_540049        2015/9/1    yanhua.chen     delete from notification
+ *TASK-901652    2015/11/12   zheng.zou      [Email]Config Gradle compile environment
+ *===========================================================================
+*/
+-->
+<!--  TS: tao.gan 2015-07-31 EMAIL FEATURE_1055835 MOD_S -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:internal="http://schemas.android.com/apk/prv/res/android"
+    android:id="@+id/status_bar_latest_event_content"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"><!-- TS: zheng.zou 2015-11-12 EMAIL TASK_901652 MOD update to sdk 23-->
+
+    <!-- <ImageView
+        android:layout_width="@android:dimen/notification_large_icon_width"
+        android:layout_height="@android:dimen/notification_large_icon_height"
+        android:background="@color/notification_template_icon_low_bg"
+        android:scaleType="center"
+        android:src="@drawable/ic_notification_mail_24dp" /> -->
+
+    <!-- TS: yanhua.chen 2015-9-1 EMAIL CR_540049 MOD_S -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_vertical"
+        android:gravity="top"
+        android:minHeight="@android:dimen/notification_large_icon_height"
+        android:orientation="horizontal"
+        android:paddingBottom="2dp"
+        android:paddingTop="2dp"
+        style="@style/UndoNotificationStyle" >
+
+        <TextView
+            android:id="@+id/description_text"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:ellipsize="marquee"
+            android:fadingEdge="horizontal"
+            android:textColor="@color/dark_gray_text_color"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            android:gravity="center_vertical" />
+        <!-- TS: yanhua.chen 2015-9-1 EMAIL CR_540049 MOD_E -->
+
+        <!-- <ImageView
+            android:layout_width="1dip"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dip"
+            android:layout_marginRight="12dip"
+            android:layout_marginTop="10dip"
+            android:src="#aaaaaa" /> -->
+
+        <!-- <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="4dip"
+            android:src="@drawable/ic_menu_revert_holo_dark" /> -->
+
+        <!-- TS: yanhua.chen 2015-9-1 EMAIL CR_540049 MOD_S -->
+        <TextView
+            style="@style/UndoTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="4dip"
+            android:gravity="center_vertical"
+            android:text="@string/undo"
+            android:textColor="@color/snack_bar_action_text_color"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            android:textAllCaps="true" />
+        <!-- TS: yanhua.chen 2015-9-1 EMAIL CR_540049 MOD_E -->
+    </LinearLayout>
+<!--  TS: tao.gan 2015-07-31 EMAIL FEATURE_1055835 MOD_S -->
+</FrameLayout>

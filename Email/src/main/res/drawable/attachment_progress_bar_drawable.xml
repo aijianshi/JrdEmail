@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+ <!-- /*
+ ==========================================================================
+ *HISTORY
+ *
+ *Tag            Date         Author          Description
+ *============== ============ =============== ==============================
+ *FEATURE-ID     2015/08/27   Gantao         Horizontal attachment
+ ===========================================================================
+ */ -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+ 
+    <item android:id="@android:id/background">
+        <shape>
+ 
+            <solid android:color="#e0e0e0" />
+        </shape>
+    </item>
+    <item android:id="@android:id/secondaryProgress">
+        <clip>
+            <shape>
+ 
+                <gradient
+                    android:angle="90.0"
+                    android:centerColor="#ac6079"
+                    android:centerY="0.45"
+                    android:endColor="#ff9800"
+                    android:startColor="#e0e0e0" />
+            </shape>
+        </clip>
+    </item>
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+ 
+                <solid android:color="#ff9800" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>  

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!-- no translation found for app_name -->
+	<skip />
+	<!-- no translation found for photo_view_count -->
+	<skip />
+	<!---->
+	<string name="retry">"재시도"</string>
+	<!---->
+	<string name="failed">"이미지를 로드할 수 없습니다."</string>
+	<!-- no translation found for more_string -->
+	<skip />
+	<!---->
+	<string name="copy_email">"이메일 주소 복사"</string>
+	<!---->
+	<string name="copy_number">"전화번호 복사"</string>
+	<!---->
+	<string name="action_label">"리턴 키"</string>
+	<!---->
+	<string name="search_hint">"이메일 검색"</string>
+	<!---->
+	<string name="compose">"편지쓰기"</string>
+	<!---->
+	<string name="activity_folder_selection">"폴더 선택"</string>
+	<!---->
+	<string name="activity_preferences">"설정"</string>
+	<!---->
+	<string name="tap_to_configure">"설정하려면 터치하세요."</string>
+	<!---->
+	<string name="loading_conversations">"로드 중..."</string>
+	<!---->
+	<string name="non_synced_folder_description">"대화를 보려면 폴더를 동기화하세요."</string>
+	<!---->
+	<string name="tap_to_configure_folder_sync">"동기화 폴더"</string>
+	<!-- no translation found for def_email_accountGermanSignature -->
+	<skip />
+	<!---->
+	<string name="send_failed">"메시지가 발송되지 않았습니다."</string>
+	<!-- no translation found for permission_needed -->
+	<skip />
+	<!---->
+	<string name="permission_needed_label">"허용 필요함"</string>
+	<!---->
+	<string name="permission_grant_access_label">"액세스 허용"</string>
+	<!---->
+	<string name="permission_grant_access_descs">"장치의 앱 설정에서 승인을 변경하십시오. 연락처에 이메일 접근을 허용하십시오."</string>
+	<!---->
+	<string name="permission_grant_exit">"종료"</string>
+	<!---->
+	<string name="permission_grant_go_setting">"설정"</string>
+	<!---->
+	<string name="permission_needed_to_save_attachment">"첨부 파일을 저장하려면 이메일 승인을 허용해 저장소에 접근하십시오."</string>
+	<!---->
+	<string name="permission_needed_to_add_attachment">"첨부 파일을 추가하려면 이메일 승인을 허용해 저장소에 접근하십시오."</string>
+	<!---->
+	<string name="permission_needed_to_see_calendar">"캘린더에서 확인하려면 이메일 승인을 허용해 캘린더에 접근하십시오."</string>
+</resources>

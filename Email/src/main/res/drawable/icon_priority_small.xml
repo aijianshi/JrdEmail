@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+================================================================================
+|                                                                 Date:04/2014 |
+|                                 PRESENTATION                                 |
+|                                                                              |
+|        Copyright 2013 TCL Communication Technology Holdings Limited.         |
+|                                                                              |
+| This material is company confidential, cannot be reproduced in any form      |
+| without the written permission of TCL Communication Technology Holdings      |
+| Limited.                                                                     |
+|                                                                              |
+| **************************************************************************** |
+|  Author :  Zhang Chao                                                        |
+|  Email  :  chaozhang@jrdcom.com                                              |
+|  Role   :                                                                    |
+|  Reference documents :                                                       |
+| **************************************************************************** |
+|  Comments :                                                                  |
+|  File     : res/drawable/icon_priority_small.xml                             |
+|  Labels   :                                                                  |
+| **************************************************************************** |
+| ============================================================================ |
+|      Modifications on Features list / Changes Request / Problems Report      |
+| **************************************************************************** |
+|    date   |        author        |         Key          |      comment       |
+| **********|**********************|**********************|******************* |
+| 04/17/2014|     Chao Zhang       |      FR 514398       |[HOMO][HOMO][Orang- |
+|           |                      |porting from FR514398 |e][Homologation] E- |
+|           |                      |                      |xchange Active Sync |
+|           |                      |                      | Priority           |
+| **********|**********************|**********************|******************* |
+================================================================================
+-->
+
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:maxLevel="0" android:drawable="@drawable/ic_importance_high_small" />
+  <item android:maxLevel="1" android:drawable="@drawable/ic_normal_priority" />
+  <item android:maxLevel="2" android:drawable="@drawable/ic_importance_low_small" />
+</level-list>

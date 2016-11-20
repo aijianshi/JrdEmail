@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Tue Sep 20 16:24:06 CST 2016
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="exchange_name">"کارپوریٹ"</string>
+	<!---->
+	<string name="exchange_name_alternate">"Microsoft ایکسچنج فعال سنک"</string>
+	<!---->
+	<string name="meeting_accepted">"قبول کیا گیا: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_declined">"مسترد کیا گيا: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_tentative">"عارضی: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_canceled">"منسوخ کردہ: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_updated">"اپ ڈیٹ کردہ: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_when">"کب: <xliff:g id="when">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_where">"کہاں: <xliff:g id="where">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_recurring">"کب: <xliff:g example="Tue, Mar 10, 2010 at 2:30 pm" id="eventdate">%s</xliff:g> (اعادی)"</string>
+	<!---->
+	<string name="meeting_allday">"کب: <xliff:g example="Tue, Mar 10, 2010 " id="eventdate">%s</xliff:g> (پورے دن)"</string>
+	<!---->
+	<string name="meeting_allday_recurring">"کب: <xliff:g example="Tue, Mar 10, 2010 " id="eventdate">%s</xliff:g> (پورے دن، اعادی)"</string>
+	<!---->
+	<string name="notification_exchange_calendar_added">"ایکسچینج کیلنڈر شامل کیا گیا"</string>
+	<!---->
+	<string name="app_name">"ایکسچینج سروسز"</string>
+	<!---->
+	<string name="exception_cancel">"یہ واقعہ منسوخ ہوگیا برائے: <xliff:g id="date">%s</xliff:g>"</string>
+	<!---->
+	<string name="exception_updated">"اس واقعہ کی تفصیلات تبدیل ہوگئیں برائے: <xliff:g id="date">%s</xliff:g>"</string>
+	<!---->
+	<string name="policy_dont_allow_storage_cards">"اسٹوریج کارڈوں کی اجازت نہ دیں"</string>
+	<!---->
+	<string name="policy_dont_allow_unsigned_apps">"غیر دستخط شدہ ایپسں کی اجازت نہ دیں"</string>
+	<!---->
+	<string name="policy_dont_allow_unsigned_installers">"غیر دستخط شدہ ایپسں انسٹالرز کی اجازت نہ دیں"</string>
+	<!---->
+	<string name="policy_dont_allow_wifi">"وائی-فائی کی اجازت نہ دیں"</string>
+	<!---->
+	<string name="policy_dont_allow_text_messaging">"متنی پیغام رسانی کی اجازت نہ دیں"</string>
+	<!---->
+	<string name="policy_dont_allow_pop_imap">"پوپ 3 یا آئی ایم اے پی اکاؤنٹس کی اجازت نہ دیں"</string>
+	<!---->
+	<string name="policy_dont_allow_irda">"انفرا ریڈ کمیونیکیشنز کی اجازت نہ دیں"</string>
+	<!---->
+	<string name="policy_dont_allow_html">"ایچ ٹی ایم ایل ای میل کی اجازت نہ دیں"</string>
+	<!---->
+	<string name="policy_dont_allow_browser">"براؤزرس کی اجازت نہ دیں"</string>
+	<!---->
+	<string name="policy_dont_allow_consumer_email">"کنزیومر ای میل کی اجازت نہ دیں"</string>
+	<!---->
+	<string name="policy_dont_allow_internet_sharing">"انٹرنیٹ شیئرنگ کی اجازت نہ دیں"</string>
+	<!---->
+	<string name="policy_require_smime">"ایس ایم آئی ایم ای پیغامات مطلوب ہے"</string>
+	<!---->
+	<string name="policy_bluetooth_restricted">"بلیو ٹوتھ استعمال محدود کریں"</string>
+	<!---->
+	<string name="policy_app_blacklist">"تصریح شدہ ایپس کی اجازت نہ دیں"</string>
+	<!---->
+	<string name="policy_app_whitelist">"صرف تصریح شدہ ایپس کی اجازت دیں"</string>
+	<!---->
+	<string name="policy_text_truncation">"متنی ای میل سائز محدود کریں"</string>
+	<!---->
+	<string name="policy_html_truncation">"ایچ ٹی ایم ایل ای میل سائز محدود کریں"</string>
+	<!---->
+	<string name="policy_require_sd_encryption">"SD کارڈ خفیہ کاری درکار ہے"</string>
+	<!---->
+	<string name="policy_dont_allow_attachments">"منسلکات کی اجازت نہ دیں"</string>
+	<!---->
+	<string name="policy_max_attachment_size">"منسلکہ کا سائز محدود کریں"</string>
+	<!---->
+	<string name="policy_require_manual_sync_roaming">"رومنگ کے دوران صرف دستی سنک کی اجازت دیں"</string>
+	<!---->
+	<string name="policy_require_encryption">"ڈیوائس کا اینکرِپشن مطلوب ہے"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_auto">"خودکار"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1day">"ایک دن"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_3days">"تین دن"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1week">"ایک ھفتہ"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_2weeks">"دو ھفتے"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1month">"ایک مہینہ"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_all">"سبھی"</string>
+	<!---->
+	<string name="auth_error_notification_title">"تصدیق کا نقص"</string>
+	<!---->
+	<string name="auth_error_notification_text">"<xliff:g id="account">%s</xliff:g> کے لیے اکاؤنٹ سیٹنگز میں ترمیم کرنے کے لیے چھوئیں"</string>
+	<!---->
+	<string name="email_settings_not_available">"سیٹنگز دیکھنے کے لیے ای میل اپلیکیشن کو دوبارہ فعال کریں۔"</string>
+</resources>

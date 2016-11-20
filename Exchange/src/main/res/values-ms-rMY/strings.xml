@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Tue Sep 20 16:24:06 CST 2016
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="exchange_name">"Korporat"</string>
+	<!---->
+	<string name="exchange_name_alternate">"Microsoft Exchange ActiveSync"</string>
+	<!---->
+	<string name="meeting_accepted">"Diterima: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_declined">"Ditolak: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_tentative">"Tentatif: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_canceled">"Dibatalkan: <xliff:g id="SUBJECT">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_updated">"Dikemas kini: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_when">"Apabila: <xliff:g id="when">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_where">"Di mana: <xliff:g id="where">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_recurring">"Apabila: <xliff:g example="Tue, Mar 10, 2010 at 2:30 pm" id="eventdate">%s</xliff:g> (berulang)"</string>
+	<!---->
+	<string name="meeting_allday">"Bila: <xliff:g example="Tue, Mar 10, 2010 " id="eventdate">%s</xliff:g> (spjg hari)"</string>
+	<!---->
+	<string name="meeting_allday_recurring">"Apabila: <xliff:g example="Tue, Mar 10, 2010 " id="eventdate">%s</xliff:g> (sepanjang hari, berulang)"</string>
+	<!---->
+	<string name="notification_exchange_calendar_added">"Kalendar Exchange ditambah"</string>
+	<!---->
+	<string name="app_name">"Perkhidmatan Exchange"</string>
+	<!---->
+	<string name="exception_cancel">"Acara ini sudah dibatalkan untuk: <xliff:g id="DATE">%s</xliff:g>"</string>
+	<!---->
+	<string name="exception_updated">"Butiran acara ini ditukar untuk: <xliff:g id="date">%s</xliff:g>"</string>
+	<!---->
+	<string name="policy_dont_allow_storage_cards">"Jgn benarkan kad storan"</string>
+	<!---->
+	<string name="policy_dont_allow_unsigned_apps">"Jgn bnrkan apl tanpa tandatangan"</string>
+	<!---->
+	<string name="policy_dont_allow_unsigned_installers">"Jgn bnrkan pemsng apl tanpa tandatangan"</string>
+	<!---->
+	<string name="policy_dont_allow_wifi">"Jgn benarkan Wi-Fi"</string>
+	<!---->
+	<string name="policy_dont_allow_text_messaging">"Jgn benarkan pemesejan teks"</string>
+	<!---->
+	<string name="policy_dont_allow_pop_imap">"Jgn benarkan akaun POP3 atau IMAP"</string>
+	<!---->
+	<string name="policy_dont_allow_irda">"Jgn benarkan komunikasi inframerah"</string>
+	<!---->
+	<string name="policy_dont_allow_html">"Jgn benarkan e-mel HTML"</string>
+	<!---->
+	<string name="policy_dont_allow_browser">"Jgn benarkan penyemak imbas"</string>
+	<!---->
+	<string name="policy_dont_allow_consumer_email">"Jgn benarkan e-mel pengguna"</string>
+	<!---->
+	<string name="policy_dont_allow_internet_sharing">"Jgn benarkan perkongsian internet"</string>
+	<!---->
+	<string name="policy_require_smime">"Perlukan mesej SMIME"</string>
+	<!---->
+	<string name="policy_bluetooth_restricted">"Hadkan penggunaan Bluetooth"</string>
+	<!---->
+	<string name="policy_app_blacklist">"Jangan benarkan aplikasi tertentu"</string>
+	<!---->
+	<string name="policy_app_whitelist">"Benarnya hanya apl dinyatakan"</string>
+	<!---->
+	<string name="policy_text_truncation">"Hadkan saiz e-mel teks"</string>
+	<!---->
+	<string name="policy_html_truncation">"Hadkan saiz e-mel HTML"</string>
+	<!---->
+	<string name="policy_require_sd_encryption">"Memerlukan penyulitan kad SD"</string>
+	<!---->
+	<string name="policy_dont_allow_attachments">"Jgn benarkan lampiran"</string>
+	<!---->
+	<string name="policy_max_attachment_size">"Hadkan saiz lampiran"</string>
+	<!---->
+	<string name="policy_require_manual_sync_roaming">"Hanya benarkan sync manual semasa perayauan"</string>
+	<!---->
+	<string name="policy_require_encryption">"Perlukan penyulitan peranti"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_auto">"Automatik"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1day">"Satu hari"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_3days">"Tiga hari"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1week">"Satu minggu"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_2weeks">"Dua minggu"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1month">"Satu bulan"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_all">"Semua"</string>
+	<!---->
+	<string name="auth_error_notification_title">"Ralat Pengesahan"</string>
+	<!---->
+	<string name="auth_error_notification_text">"Sentuh untuk mengedit tetapan akaun untuk <xliff:g id="account">%s</xliff:g>"</string>
+	<!---->
+	<string name="email_settings_not_available">"Dayakan semula aplikasi E-mel untuk melihat seting."</string>
+</resources>

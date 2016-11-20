@@ -1,0 +1,1747 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Tue Sep 20 16:24:06 CST 2016
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="permission_read_attachment_label">"Funda izinamathiseli ze-imeyili"</string>
+	<!---->
+	<string name="permission_read_attachment_desc">"Ivumela hlelo ukufunda izinamathiseli ze-imeyili yakho."</string>
+	<!---->
+	<string name="permission_access_provider_label">"Finyelela idatha yomhlinzeki we-Imeyili"</string>
+	<!---->
+	<string name="permission_access_provider_desc">"Ivumela uhlelo ukufinyelela isizinda semininingwane se-imeyili yakho, okuhlanganisa imilayezo etholiwe, imilayezo ethunyelwe, amagama abasebenzisi, namaphasiwedi."</string>
+	<!---->
+	<string name="debug_title">"Lungisa iphutha"</string>
+	<!---->
+	<string name="next_action">"Okulandelayo"</string>
+	<!---->
+	<string name="okay_action">"KULUNGILE"</string>
+	<!---->
+	<string name="cancel_action">"Khansela"</string>
+	<!---->
+	<string name="previous_action">"Okwandulele"</string>
+	<!---->
+	<string name="done_action">"Iqedile"</string>
+	<!---->
+	<string name="create_action">"Yakha okusha"</string>
+	<!---->
+	<string name="quick_responses_empty_view">"Azikho izimpendulo ezisheshayo."</string>
+	<!---->
+	<string name="account_settings_action">"Izilungiselelo ze-akhawunti"</string>
+	<!---->
+	<string name="status_network_error">"Inkinga yoxhumano."</string>
+	<plurals name="move_messages">
+		<item quantity="one">"Hambisa umlayezo"</item>
+		<item quantity="other">"Hambisa imilayezo"</item>
+	</plurals>
+	<!---->
+	<string name="cannot_move_protocol_not_supported_toast">"Ukuhambisa akusekelwa kuma-akhawunti we-POP3."</string>
+	<!---->
+	<string name="cannot_move_multiple_accounts_toast">"Ayikwazi ukusuka ngoba okukhethiwe kuqukethe ama-akhawunti amaningi."</string>
+	<!---->
+	<string name="cannot_move_special_mailboxes_toast">"Imilayezo Kokungaphelele, Kwibhokisi Lemilayezo Ephumayo, Kokuthuneylwe ayikhwazi ukukhishwa."</string>
+	<!---->
+	<string name="mailbox_name_display_inbox">"Ibhokisi lemilayezo engenayo"</string>
+	<!---->
+	<string name="mailbox_name_display_outbox">"Ibhokisi lemilayezo ephumayo"</string>
+	<!---->
+	<string name="mailbox_name_display_drafts">"Okungaphelele"</string>
+	<!---->
+	<string name="mailbox_name_display_trash">"Udoti"</string>
+	<!---->
+	<string name="mailbox_name_display_sent">"Kuthunyelwe"</string>
+	<!---->
+	<string name="mailbox_name_display_junk">"I-Imeyili engadingeki"</string>
+	<!---->
+	<string name="mailbox_name_display_starred">"Okunenkanyezi"</string>
+	<!---->
+	<string name="mailbox_name_display_unread">"Okungafundiwe"</string>
+	<!---->
+	<string name="account_folder_list_summary_inbox">"Ibhokisi lemilayezo engenayo"</string>
+	<!---->
+	<string name="account_folder_list_summary_starred">"Okunenkanyezi"</string>
+	<!---->
+	<string name="account_folder_list_summary_drafts">"Okungaphelele"</string>
+	<!---->
+	<string name="account_folder_list_summary_outbox">"Ibhokisi lemilayezo ephumayo"</string>
+	<!---->
+	<string name="mailbox_list_account_selector_combined_view">"Ukubuka okuhlanganisiwe"</string>
+	<!---->
+	<string name="message_compose_fwd_header_fmt">"\n\n-------- Umlayezo Wasekuqaleni --------\nIsihloko: <xliff:g id="subject">%1$s</xliff:g>\nKusuka ku-: <xliff:g id="sender">%2$s</xliff:g>\nKuya ku: <xliff:g id="to">%3$s</xliff:g>\nCC: <xliff:g id="cc">%4$s</xliff:g>\n\n"</string>
+	<!---->
+	<string name="message_compose_insert_quick_response_list_title">"Faka impendulo esheshayo"</string>
+	<!---->
+	<string name="message_compose_insert_quick_response_menu_title">"Faka impendulo esheshayo"</string>
+	<!---->
+	<string name="message_view_attachment_background_load">"Isinamathiseli esisodwa noma ngaphezulu kumlayezo wakho odlulisiwe sizolandwa ngaphambi kokuthumela."</string>
+	<!---->
+	<string name="attachment_not_found">"Ayikwazi ukulanda isinamathiseli."</string>
+	<!---->
+	<string name="message_decode_error">"Kube nephutha ngenkathi kukhishwa ikhodi kumlayezo."</string>
+	<!---->
+	<string name="forward_download_failed_ticker">"Ayikwazanga ukudlulisa isinamathiseli esisodwa noma ngaphezulu."</string>
+	<!---->
+	<string name="forward_download_failed_title">"Isinamathiseli asidluliswanga"</string>
+	<!---->
+	<string name="login_failed_ticker">"<xliff:g id="account_name">%s</xliff:g> ukungena akuphumelele."</string>
+	<!---->
+	<string name="login_failed_title">"Ayikwazanga ukungena ngemvume"</string>
+	<plurals name="message_view_attachment_bytes">
+		<item quantity="one">"<xliff:g example="1" id="size_in_bytes">%d</xliff:g>B"</item>
+		<item quantity="other">"<xliff:g example="279" id="size_in_bytes">%d</xliff:g>B"</item>
+	</plurals>
+	<plurals name="message_view_attachment_kilobytes">
+		<item quantity="one">"<xliff:g example="1" id="size_in_kilobytes">%d</xliff:g>KB"</item>
+		<item quantity="other">"<xliff:g example="279" id="size_in_kilobytes">%d</xliff:g>KB"</item>
+	</plurals>
+	<plurals name="message_view_attachment_megabytes">
+		<item quantity="one">"<xliff:g example="1" id="size_in_megabytes">%d</xliff:g>MB"</item>
+		<item quantity="other">"<xliff:g example="279" id="size_in_megabytes">%d</xliff:g>MB"</item>
+	</plurals>
+	<plurals name="message_view_attachment_gigabytes">
+		<item quantity="one">"<xliff:g example="1" id="size_in_gigabytes">%d</xliff:g>GB"</item>
+		<item quantity="other">"<xliff:g example="279" id="size_in_gigabytes">%d</xliff:g>GB"</item>
+	</plurals>
+	<!---->
+	<string name="account_setup_basics_title">"Ukumisa i-akhawunti"</string>
+	<!---->
+	<string name="oauth_authentication_title">"Ukucela ukugunyaza"</string>
+	<!---->
+	<string name="sign_in_title">"Ukungena"</string>
+	<!---->
+	<string name="oauth_error_description">"Ayikwazi ukugunyaza"</string>
+	<!---->
+	<string name="password_warning_label">"Ikheli le-imeyili noma iphasiwedi akulungile."</string>
+	<!---->
+	<string name="email_confirmation_label">"Ikheli le-imeyili"</string>
+	<!---->
+	<string name="account_setup_basics_headline">"I-Akhawunti ye-imeyili"</string>
+	<!---->
+	<string name="accounts_welcome">"Ungasetha i-akhawunti yakho kuzinyathelo ezimbalwa."</string>
+	<!---->
+	<string name="account_setup_basics_email_label">"Ikheli le-imeyili"</string>
+	<!---->
+	<string name="account_setup_basics_email_flying_label">"I-Imeyili"</string>
+	<!---->
+	<string name="or_label">"NOMA"</string>
+	<!---->
+	<string name="sign_in_with_google">"Ngena nge-Google"</string>
+	<!---->
+	<string name="account_setup_basics_password_label">"Iphasiwedi"</string>
+	<!---->
+	<string name="password_hint">"Iphasiwedi"</string>
+	<!---->
+	<string name="signed_in_with_service_label">"Ungene nge-%s"</string>
+	<!---->
+	<string name="authentication_label">"UKUGUNYAZA"</string>
+	<!---->
+	<string name="add_authentication_label">"Engeza ukugunyaza"</string>
+	<!---->
+	<string name="clear_authentication_label">"Cima ukugunyaza"</string>
+	<!---->
+	<string name="account_setup_basics_manual_setup_action">"Ukumisa ngokuzenzela"</string>
+	<!---->
+	<string name="account_setup_username_password_toast">"Thayipha ikheli le-imeyili nephasiwedi elungile."</string>
+	<!---->
+	<string name="account_duplicate_dlg_title">"I-Akhawunti Iphindwe Kabili"</string>
+	<!---->
+	<string name="account_duplicate_dlg_message_fmt">"Usuvele usebenzisa leli gama lomsebenzisi le-akhawunti \"<xliff:g id="duplicate">%s</xliff:g>\"."</string>
+	<!---->
+	<string name="account_password_spaces_error">"Le phasiwedi iqala noma iphela ngenhlamvu yesikhala eyodwa noma ngaphezulu. Amaseva amaningi awasekeli amaphasiwedi anezikhala."</string>
+	<!---->
+	<string name="account_setup_check_settings_retr_info_msg">"Ithola ulwazi lwe-akhawunti..."</string>
+	<!---->
+	<string name="account_setup_check_settings_check_incoming_msg">"Iqinisekisa amasethingi eseva..."</string>
+	<!---->
+	<string name="account_setup_check_settings_check_outgoing_msg">"Iqinisekisa amasethingi e-SMTP..."</string>
+	<!---->
+	<string name="account_setup_creating_account_msg">"Yakha i-akhawunti..."</string>
+	<!---->
+	<string name="account_setup_ab_headline">"Qinisekisa uhlobo lwe-akhawunti"</string>
+	<!---->
+	<string name="account_setup_ab_instructions_format">"Ukhombise i-<xliff:g id="email">%1$s</xliff:g> ukuthi isebenzisa i-<xliff:g id="userProtocol">%2$s</xliff:g>, kodwa i-akhawunti ingahle isebenzise <xliff:g id="providerProtocol">%3$s</xliff:g>"</string>
+	<!---->
+	<string name="account_setup_names_title">"Ukumisa i-akhawunti"</string>
+	<!---->
+	<string name="account_setup_names_headline">"I-Akhawunti yakho imisiwe futhi ama-imeyili asendleleni!"</string>
+	<!---->
+	<string name="account_setup_names_account_name_label">"Qamba igama le akhawunti"</string>
+	<!---->
+	<string name="account_setup_names_user_name_label">"Igama lakho"</string>
+	<!---->
+	<string name="account_setup_names_user_name_empty_error">"Le nkambu ayikwazi ukungabi nalutho."</string>
+	<!---->
+	<string name="account_setup_account_type_title">"Ukumisa i-akhawunti"</string>
+	<!---->
+	<string name="account_setup_account_type_headline">"Uhlobo le-akhawunti"</string>
+	<!---->
+	<string name="account_setup_account_type_instructions">"Hlobo luni le-akhawunti lolu?"</string>
+	<!---->
+	<string name="account_setup_incoming_title">"Ukumisa i-akhawunti"</string>
+	<!---->
+	<string name="account_setup_incoming_headline">"Amasethingi weseva yokungenayo"</string>
+	<!---->
+	<string name="account_setup_incoming_username_label">"Igama lomsebenzisi"</string>
+	<!---->
+	<string name="account_setup_incoming_password_label">"Iphasiwedi"</string>
+	<!---->
+	<string name="account_setup_password_subheading">"Iphasiwedi"</string>
+	<!---->
+	<string name="account_setup_incoming_server_label">"Iseva"</string>
+	<!---->
+	<string name="account_setup_incoming_port_label">"Imbobo"</string>
+	<!---->
+	<string name="account_setup_incoming_security_label">"Uhlobo lokuvikeleka"</string>
+	<!---->
+	<string name="account_setup_incoming_domain_label">"Isizinda"</string>
+	<!---->
+	<string name="account_setup_incoming_add_domain_label">"Engeza isizinda"</string>
+	<!---->
+	<string name="account_setup_incoming_security_none_label">"Lutho"</string>
+	<!---->
+	<string name="account_setup_incoming_security_ssl_trust_certificates_label">"I-SSL/TLS (Yamukela zonke izitifiketi)"</string>
+	<!---->
+	<string name="account_setup_incoming_security_ssl_label">"I-SSL/TLS"</string>
+	<!---->
+	<string name="account_setup_incoming_security_tls_trust_certificates_label">"STARTTLS (Yam. zon izitif.)"</string>
+	<!---->
+	<string name="account_setup_incoming_security_tls_label">"STARTTLS"</string>
+	<!---->
+	<string name="account_setup_incoming_delete_policy_label">"Susa i-imeyili kusuka kwiseva"</string>
+	<!---->
+	<string name="account_setup_incoming_delete_policy_never_label">"Akusoze"</string>
+	<!---->
+	<string name="account_setup_incoming_delete_policy_delete_label">"Uma ngisula kusuka Ebhokisini lemilayezo engenayo"</string>
+	<!---->
+	<string name="account_setup_incoming_imap_path_prefix_label">"Isiqalo somzila we-IMAP"</string>
+	<!---->
+	<string name="account_setup_incoming_imap_path_prefix_hint">"Okokuzikhethela"</string>
+	<!---->
+	<string name="account_setup_outgoing_title">"Ukumisa i-akhawunti"</string>
+	<!---->
+	<string name="account_setup_outgoing_headline">"Amasethingi eseva yokuphumayo"</string>
+	<!---->
+	<string name="account_setup_outgoing_smtp_server_label">"Iseva ye-SMTP"</string>
+	<!---->
+	<string name="account_setup_outgoing_port_label">"Imbobo"</string>
+	<!---->
+	<string name="account_setup_outgoing_security_label">"Uhlobo lokuvikeleka"</string>
+	<!---->
+	<string name="account_setup_outgoing_require_login_label">"Kudingeka ukungena"</string>
+	<!---->
+	<string name="account_setup_outgoing_username_label">"Igama lomsebenzisi"</string>
+	<!---->
+	<string name="account_setup_outgoing_password_label">"Iphasiwedi"</string>
+	<!---->
+	<string name="account_setup_exchange_certificate_title">"Isitifiketi seklayenti"</string>
+	<!---->
+	<string name="account_setup_exchange_select_certificate">"Khetha"</string>
+	<!---->
+	<string name="account_setup_exchange_use_certificate">"Sebenzisa isitifiketi seklayenti"</string>
+	<!---->
+	<string name="account_setup_exchange_remove_certificate">"Khipha"</string>
+	<!---->
+	<string name="account_setup_exchange_no_certificate">"Lutho"</string>
+	<!---->
+	<string name="account_setup_exchange_device_id_label">"I-ID Yedivayisi Yeselula"</string>
+	<!---->
+	<string name="account_setup_options_title">"Izilungiselelo ze-akhawunti"</string>
+	<!---->
+	<string name="account_setup_options_headline">"Izinketho ze-akhawunti"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_label">"Vumelanisa ukuvama"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_never">"Akusoze"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_push">"Okuzenzakalelayo (i-Push)"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_5min">"Njalo ngemva kwemizuzu engu-5"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_10min">"Njalo ngemva kwemizuzu engu-10"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_15min">"Njalo kumaminithi angu-15"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_30min">"Njalo ngemva kwemizuzu engu-30"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_1hour">"Njalo ngemva kwehora"</string>
+	<!---->
+	<string name="account_setup_options_notify_label">"Ngazise uma i-imeyili ifika"</string>
+	<!---->
+	<string name="account_setup_options_sync_contacts_label">"Vumelanisa oxhumana nabo kusuka kule akhawunti."</string>
+	<!---->
+	<string name="account_setup_options_sync_calendar_label">"Vumelanisa i-akhawunti kusuka kule akhawunti."</string>
+	<!---->
+	<string name="account_setup_options_sync_email_label">"Vumelanisa ama-imeyili kusuka kule akhawunti."</string>
+	<!---->
+	<string name="account_setup_options_background_attachments_label">"Landa ngokuzenzakalelayo izinamathiseli uma uxhumeke ku-Wi-Fi"</string>
+	<!---->
+	<string name="account_setup_failed_dlg_title">"Ayikwazanga ukuqeda"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_label">"Vumelanisa ama-imeyili kusuka ku-"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_auto">"Okuzenzakalelayo"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1day">"Usuku lokugcina"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_3days">"Izinsuku ezintathu zokugcina"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1week">"Iviki eledlule"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_2weeks">"Amaviki amabili adlule"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1month">"Inyanga edlule"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_all">"Konke"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_default">"Sebenzisa okumisiwe kwe-akhawunti"</string>
+	<!---->
+	<string name="account_setup_failed_dlg_auth_message">"Igama lomsebenzisi noma iphasiwedi akulungile."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_auth_message_fmt">"Ukungena kwehlulekile.\n(<xliff:g id="error">%s</xliff:g>)"</string>
+	<!---->
+	<string name="account_setup_autodiscover_dlg_authfail_title">"Inkinga ngokumisa i-akhawunti"</string>
+	<!---->
+	<string name="account_setup_autodiscover_dlg_authfail_message">"Qinisekisa ukuthi igama lomsebenzisi, iphasiwedi, namasethingi e-khawunti kulungile."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_certificate_message">"Ayikwazanga ukuqalisa uxhumo kuseva ngenxa yesitifiketi esingethembeki noma esingavumelekile."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_certificate_message_fmt">"Ayikwazi ukuxhuma ngokuphephile kuseva.\n(<xliff:g id="error">%s</xliff:g>)"</string>
+	<!---->
+	<string name="account_setup_failed_certificate_required">"Isitifiketi seklayenti siyadingeka. Ingabe ufuna ukuxhuma kuseva ngesitifiketi seklayenti?"</string>
+	<!---->
+	<string name="account_setup_failed_certificate_inaccessible">"Isitifiketi asilungile noma asifinyeleleki."</string>
+	<!---->
+	<string name="account_setup_failed_check_credentials_message">"Iseva iphendule ngephutha. Hlola igama lakho lomsebenzi nephasiwedi, bese uyazama futhi."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_server_message">"Ayikwazi ukuxhumana kuseva."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_server_message_fmt">"Ayikwazi ukuxhumana kuseva.\n(<xliff:g id="error">%s</xliff:g>)"</string>
+	<!---->
+	<string name="account_setup_failed_tls_required">"I-TLS iyadingeka kodwa ayisekelwa iseva."</string>
+	<!---->
+	<string name="account_setup_failed_auth_required">"Izindlela zokuqinisekisa azisekelwa iseva."</string>
+	<!---->
+	<string name="account_setup_failed_security">"Ayikwazi ukuvula iseva ngenxa yephutha lenethiwekhi noma lokuvikeleka."</string>
+	<!---->
+	<string name="account_setup_failed_ioerror">"Ayikwazanga ukuvula uxhumano kwiseva."</string>
+	<!---->
+	<string name="account_setup_failed_protocol_unsupported">"Uthayiphe ikheli leseva elingalungile noma iseva idinga inguqulo yephrothokholi i-Imeyili engayisekeli."</string>
+	<!---->
+	<string name="account_setup_failed_access_denied">"Awunayo imvume yokuvumelanisa nale seva. Xhumana nomphathi wakho weseva ukuze uthole ulwazi olwengeziwe."</string>
+	<!---->
+	<string name="account_setup_security_required_title">"Ukuphatha ukuvikeleka ngokulawula kude"</string>
+	<!---->
+	<string name="account_setup_security_policies_required_fmt">"Iseva ye-<xliff:g id="server">%s</xliff:g> idinga ukuthi uyivumele ilawule kude ezinye izici zokuvikeleka zedivayisi yakho ye-Android yakho. Ingabe ufuna ukuqedela ukumisa le akhawunti?"</string>
+	<!---->
+	<string name="account_setup_failed_security_policies_unsupported">"Le seva idinga izici zokuvikeleka idivayisi yakho ye-Android engazisekeli, okuhlanganisa: <xliff:g id="error">%s</xliff:g>"</string>
+	<!---->
+	<string name="account_setup_username_uneditable_error">"Ngeke ukwazi ukushintsha igama lomsebenzisi le-akhawunti. Ukuze ufake i-akhawunti ngegama lomsebenzisi elehlukile, thinta okuthi Engeza I-Akhawunti."</string>
+	<!---->
+	<string name="disable_admin_warning">"ISEXWAYISO: Ukwenza igunya le-app ye-Imeyili lingasebenzi lokuphatha idivayisi yakho kuzosula wonke ama-akhawunti we-imeyili adingekayo, kanye ne-imeyili yawo, oxhumana nabo, izenzakalo zekhalenda, nenye idatha."</string>
+	<!---->
+	<string name="account_security_dialog_title">"Isibuyekezo sokuvikeleka"</string>
+	<!---->
+	<string name="account_security_dialog_content_fmt">"I-<xliff:g id="account">%s</xliff:g> ukuthi ubuyekeze amasethingi wakho okuvikeleka."</string>
+	<!---->
+	<string name="security_unsupported_ticker_fmt">"I-akhawunti \"<xliff:g id="account">%s</xliff:g>\" ayikwazi ukuvumelaniswa ngenxa yezimfuneko zokuphepha."</string>
+	<!---->
+	<string name="security_needed_ticker_fmt">"I-Akhawunti ye-\"<xliff:g id="account">%s</xliff:g>\" idinga isibuyekezo samasethingi okuvikeleka."</string>
+	<!---->
+	<string name="security_changed_ticker_fmt">"I-Akhawunti ye-\"<xliff:g id="account">%s</xliff:g>\" ishintshe amasethingi ayo wokuvikeleka; asikho isenzo somsebenzisi esidingekayo."</string>
+	<!---->
+	<string name="security_notification_content_update_title">"Ukubuyekeza kokuvikeleka kuyadingeka"</string>
+	<!---->
+	<string name="security_notification_content_change_title">"Izinqubomgomo zokuvikeleka zishintshile"</string>
+	<!---->
+	<string name="security_notification_content_unsupported_title">"Akukwazi ukuhlangabezana nezinqubomgomo zokuvikeleka"</string>
+	<!---->
+	<string name="account_security_title">"Ukuphepha kwedivaysi"</string>
+	<!---->
+	<string name="account_security_policy_explanation_fmt">"Iseva ye-<xliff:g id="server">%s</xliff:g> idinga ukuthi uyivumele ilawule kude ezinye izici zokuvikeleka zedivayisi yakho ye-Android yakho."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_edit_details_action">"Hlela imininingwane"</string>
+	<!---->
+	<string name="password_expire_warning_ticker_fmt">"I-\"<xliff:g id="account">%s</xliff:g>\" idinga ukuthi ushintshe i-PIN yokukhiya isikrini sakho noma iphasiwedi."</string>
+	<!---->
+	<string name="password_expire_warning_content_title">"Ukuphela kwesikhathi kwephasiwedi yokukhiya isikrini"</string>
+	<!---->
+	<string name="password_expired_ticker">"I-PIN yakho yokukhiya isikrini noma iphasiwedi kuphelelwe isikhathi."</string>
+	<!---->
+	<string name="password_expired_content_title">"Iphasiwedi yokukhiya isikrini iphelelwe isikhathi"</string>
+	<!---->
+	<string name="password_expire_warning_dialog_title">"Ukuphela kwesikhathi kwephasiwedi yokukhiya isikrini"</string>
+	<!---->
+	<string name="password_expire_warning_dialog_content_fmt">"Udinga ukushintsha i-PIN yakho yokukhiya isikrini noma iphasiwedi maduze nje, uma kungenjalo idatha ye-<xliff:g id="account">%s</xliff:g> izosuswa. Ingabe ufuna ukuyishintsha manje?"</string>
+	<!---->
+	<string name="password_expired_dialog_title">"Iphasiwedi yokukhiya isikrini iphelelwe isikhathi"</string>
+	<!---->
+	<string name="password_expired_dialog_content_fmt">"Idatha ye-<xliff:g id="account">%s</xliff:g> iyasuswa kwidivayisi yakho. Ungayibuyisela ngokushintsha i-PIN yokukhiya isikrini noma iphasiwedi. Ingabe ufuna ukuyishintsha manje?"</string>
+	<!---->
+	<string name="account_settings_exit_server_settings">"Lahla izinguquko ezingalondoloziwe?"</string>
+	<!---->
+	<string name="account_settings_login_dialog_title">"Ayikwazanga ukungena ngemvume"</string>
+	<!---->
+	<string name="account_settings_login_dialog_content_fmt">"Igama lomsebenzisi noma iphasiwedi ye-<xliff:g id="account">%s</xliff:g> akulungile. Kubuyekeze manje?"</string>
+	<!---->
+	<string name="account_settings_login_dialog_reason_fmt">"Ukungena kwakho ngemvume ku-<xliff:g id="account">%s</xliff:g> kwehlulekile; iseva ithe: <xliff:g id="reason">%s</xliff:g> Ingabe ufuna ukubuyekeza igama lakho lomsebenzisi kanye/noma iphasiwedi?"</string>
+	<!---->
+	<string name="account_settings_background_attachments_label">"Landa izinamathiseli"</string>
+	<!---->
+	<string name="account_settings_background_attachments_summary">"Landa ngokuzenzakalelayo izinamathiseli kwimilayezo yakamuva nge-Wi-Fi"</string>
+	<!---->
+	<string name="account_settings_notify_label">"Izaziso ze-imeyili"</string>
+	<!---->
+	<string name="account_settings_summary">"Vumelanisa ukuvama, izaziso, nokunye."</string>
+	<!---->
+	<string name="account_settings_notify_summary">"Thumela isaziso uma i-imeyili ifika"</string>
+	<!---->
+	<string name="account_settings_mail_check_frequency_label">"Vumelanisa ukuvama"</string>
+	<!---->
+	<string name="account_settings_incoming_label">"Amasethingi okungenayo"</string>
+	<!---->
+	<string name="account_settings_incoming_summary">"Igama lomsebenzisi, iphasiwedi, noma amanye amasethingi eseva yokungenayo"</string>
+	<!---->
+	<string name="account_settings_outgoing_label">"Amasethingi aphumayo"</string>
+	<!---->
+	<string name="account_settings_outgoing_summary">"Igama lomsebenzisi, iphasiwedi, namanye amasethingi weseva yokuphumayo"</string>
+	<!---->
+	<string name="account_settings_reply_to_category">"Phendula kumasethingi"</string>
+	<!---->
+	<string name="account_settings_reply_to_label">"Phendula ku-"</string>
+	<!---->
+	<string name="account_settings_reply_to_invalid">"Ikheli alilungile"</string>
+	<!---->
+	<string name="account_settings_enforced_label">"Izinqubomgomo ziphoqelelwe"</string>
+	<!---->
+	<string name="account_settings_enforced_summary">"Lutho"</string>
+	<!---->
+	<string name="account_settings_unsupported_label">"Izinqubomgomo ezingasekelwa"</string>
+	<!---->
+	<string name="account_settings_unsupported_summary">"Lutho"</string>
+	<!---->
+	<string name="account_settings_retry_label">"Zama ukuvumelanisa"</string>
+	<!---->
+	<string name="account_settings_retry_summary">"Thinta lapha ukuze uvumelanise le akhawunti"</string>
+	<!---->
+	<string name="account_settings_description_label">"Igama le-akhawunti"</string>
+	<!---->
+	<string name="account_settings_name_label">"Igama lakho"</string>
+	<!---->
+	<string name="account_settings_edit_quick_responses_label">"Izimpendulo ezisheshayo"</string>
+	<!---->
+	<string name="account_settings_edit_quick_responses_summary">"Hlela umbhalo owufaka njalo uma uqamba ama-imeyili"</string>
+	<!---->
+	<string name="account_settings_notifications">"Izilungiselelo zesaziso"</string>
+	<!---->
+	<string name="account_settings_data_usage">"Ukusebenzisa idatha"</string>
+	<!---->
+	<string name="account_settings_policies">"Izinqubomgomo zokuvikeleka"</string>
+	<!---->
+	<string name="system_folders_title">"Amafolda esistimu"</string>
+	<!---->
+	<string name="system_folders_trash_title">"Ifolda yodoti"</string>
+	<!---->
+	<string name="system_folders_trash_summary">"Khetha ifolda yodoti weseva yakho"</string>
+	<!---->
+	<string name="system_folders_trash_dlg">"Khetha ifolda yodoti weseva yakho"</string>
+	<!---->
+	<string name="system_folders_sent_title">"Thumela ifolda yezinto"</string>
+	<!---->
+	<string name="system_folders_sent_summary">"Khetha ifolda yezinto ezithunyelwe kwiseva yakho"</string>
+	<!---->
+	<string name="system_folders_sent_dlg">"Khetha ifolda yezinto ezithunyelwe kwiseva yakho"</string>
+	<!---->
+	<string name="edit_quick_response_dialog">"Izimpendulo ezisheshayo"</string>
+	<!---->
+	<string name="save_action">"Londoloza"</string>
+	<!---->
+	<string name="account_settings_sync_contacts_enable">"Vumelanisa oxhumana nabo"</string>
+	<!---->
+	<string name="account_settings_sync_contacts_summary">"Vumelanisa oxhumana nabo bale akhawunti"</string>
+	<!---->
+	<string name="account_settings_sync_calendar_enable">"Vumelanisa ikhalenda"</string>
+	<!---->
+	<string name="account_settings_sync_calendar_summary">"Vumelanisa umcimbi wekhalenda wale akhawunti."</string>
+	<!---->
+	<string name="account_settings_sync_email_enable">"Vumelanisa i-imeyili"</string>
+	<!---->
+	<string name="account_settings_sync_email_summary">"Vumelanisa ama-imeyili wale akhawunti"</string>
+	<!---->
+	<string name="account_settings_vibrate_when_label">"Dlidliza"</string>
+	<!---->
+	<string name="account_settings_ringtone">"Khetha iringithoni"</string>
+	<!---->
+	<string name="account_settings_servers">"Amasethingi eseva"</string>
+	<!---->
+	<string name="default_ringtone">"Iringithoni emisiwe"</string>
+	<!---->
+	<string name="default_ringtone_unkonwn">"Iringithoni engaziwa"</string>
+	<!---->
+	<string name="mailbox_settings_activity_title">"Izinketho zokuvumelanisa"</string>
+	<!---->
+	<string name="mailbox_settings_activity_title_with_mailbox">"Izinketho zokuvumelanisa (<xliff:g example="Family" id="mailboxx_name">%s</xliff:g>)"</string>
+	<!---->
+	<string name="mailbox_settings_sync_enabled_label">"Vumelanisa le folda"</string>
+	<!---->
+	<string name="mailbox_settings_sync_enabled_summary">"Imiyalezo izolandwa uma kuxhunyiwe."</string>
+	<!---->
+	<string name="mailbox_settings_mailbox_sync_window_label">"Izinsuku ze-imeyili zokuvumelanisa"</string>
+	<!---->
+	<string name="prefDialogTitle_conversationListIcon">"Isithombe somthumeli"</string>
+	<!---->
+	<string name="provider_note_live">"Amanye ama-akhawunti we-\"Plus\" kuphela ahlanganisa ukufinyelela i-POP avumela lolu hlelo ukuxhuma. Uma ungakwazi ukungena ngemvume ngekheli lakho le-imeyili elilungile nephasiwedi, kungenzeka awukhokhanga i-akhawunti ye-\"Plus\". Qalisa isiphequluli sewebhu ukuze ukwazi ukufinyelela lawa ma-akhawunti wemeyili."</string>
+	<!---->
+	<string name="provider_note_t_online">"Ngaphambi kokumisa le akhawunti ye-imeyili, vakasehla iwebhusayithi ye-T-Online bese wakha iphasiwedi ye-POP3 yokufinyelela i-imeyili."</string>
+	<!---->
+	<string name="exchange_name">"Ibhizinisi"</string>
+	<!---->
+	<string name="exchange_name_alternate">"I-Microsoft Exchange ActiveSync"</string>
+	<!---->
+	<string name="system_account_create_failed">"Ayikwazanga ukwakha i-akhawunti. Zama futhi."</string>
+	<!---->
+	<string name="device_admin_label">"I-Imeyili"</string>
+	<!---->
+	<string name="device_admin_description">"Inika amandla izinqubomgomo zokuvikeleka kweseva ezicacisiwe"</string>
+	<!---->
+	<string name="settings_activity_title">"Amasethingi"</string>
+	<!---->
+	<string name="header_label_general_preferences">"Izilungiselelo ezijwayelekile"</string>
+	<!---->
+	<string name="general_preference_confirm_delete_label">"Qinisekisa ngaphambi kokusula"</string>
+	<!---->
+	<string name="general_preference_confirm_send_label">"Qinisekisa ngaphambi kokuthumela"</string>
+	<!---->
+	<string name="more_than_999">"999+"</string>
+	<!---->
+	<string name="search_hint">"Cinga"</string>
+	<!---->
+	<string name="policy_dont_allow_camera">"Ungavumeli ukusebenzisa ikhamera yedivayisi"</string>
+	<!---->
+	<string name="policy_require_password">"Idinga iphasiwedi yedivayisi"</string>
+	<!---->
+	<string name="policy_password_history">"Faka umkhawulo ekusebenziseni kabusha amaphasiwedi akamuva"</string>
+	<!---->
+	<string name="policy_password_expiration">"Kudinga amaphasiwedi ukuthi aphelelwe isikhathi"</string>
+	<!---->
+	<string name="policy_screen_timeout">"Kudinga idivayisi engenzi lutho ukukhiya isikrini"</string>
+	<!---->
+	<string name="policy_calendar_age">"Khawulela inombolo yemicimbi yekhalenda evumelanisiwe"</string>
+	<!---->
+	<string name="policy_email_age">"Khawulela inombolo yama-imeyili avumelanisiwe"</string>
+	<!---->
+	<string name="quick_1">"Siyabonga!"</string>
+	<!---->
+	<string name="quick_2">"Kuzwakala kukuhle loko!"</string>
+	<!---->
+	<string name="quick_3">"Ngizofunda lokhu ngemva kwesikhathi bese ngibuyela kuwe."</string>
+	<!---->
+	<string name="quick_4">"Masimise umhlangano ukuxoxisana ngalokhu."</string>
+	<!---->
+	<string name="require_manual_sync_message">"Ukuvumelanisa ingemuva kwale akhawunti kukhutshaziwe ngenkathi\ izulazula."</string>
+	<!---->
+	<string name="confirm_response">"Ithumela impendulo..."</string>
+	<!---->
+	<string name="no_conversations">"Ayikho imilayezo."</string>
+	<!-- no translation found for imap_name -->
+	<skip />
+	<!-- no translation found for pop3_name -->
+	<skip />
+	<!---->
+	<string name="email_name">"I-Imeyili"</string>
+	<!---->
+	<string name="folder_picker_title">"Isikhethi sefolda"</string>
+	<!---->
+	<string name="trash_folder_selection_title">"Khetha ifolda yodoti beseva <xliff:g id="account">%s</xliff:g>"</string>
+	<!---->
+	<string name="sent_folder_selection_title">"Khetha ifolda yezinto ezithunyelwe ye- <xliff:g id="account">%s</xliff:g>"</string>
+	<!---->
+	<string name="account_waiting_for_folders_msg">"Ilayisha uhlu lwefolda..."</string>
+	<!---->
+	<string name="no_quick_responses">"Akukho okutholakalayo"</string>
+	<!---->
+	<string name="gmail_name">"I-Gmail"</string>
+	<!---->
+	<string name="folder_sync_settings_pref_title">"Amasethingi okuvumelanisa ifolda"</string>
+	<!---->
+	<string name="select_your_account">"Khetha i-Akhawunti"</string>
+	<!---->
+	<string name="select_account_list_below">"Khetha i-akhawunti yakho kusuka kuhlu olungezansi:"</string>
+	<!---->
+	<string name="cancel_label">"Khansela"</string>
+	<!---->
+	<string name="next_label">"Okulandelayo"</string>
+	<!---->
+	<string name="str_account_provider_other">"Okunye"</string>
+	<!---->
+	<string name="account_settings_download_options_label">"Izinketho zokulanda"</string>
+	<!---->
+	<string name="account_setting_download_opt_headonly">"Okuphambili kuphela"</string>
+	<!---->
+	<string name="account_setting_download_opt_all">"Konke"</string>
+	<!-- no translation found for account_setting_download_opt_2k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_5k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_10k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_20k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_50k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_100k -->
+	<skip />
+	<!---->
+	<string name="account_oof_error_tip_past">"Isikhathi sokuphela asikwa ukuba esaphambilini. Sicela ushintshele isikhathi sokuphela esikhathini esizayo."</string>
+	<!---->
+	<string name="account_oof_error_tip_earlier">"Isikhathi sokuphela asikwazi ukuba ngaphambi kwesikhathi sokuqala Shintsha isikhathi sokuphela."</string>
+	<!---->
+	<string name="account_setting_oof_label">"Amasethingi wokungabikhona ehhovisini"</string>
+	<!---->
+	<string name="oof_auto_repley">"Thumela impendulo yokuzenzakalela yokungabi sehhovisini"</string>
+	<!---->
+	<string name="oof_auto_replies_period">"Thumela izimpendulo zokuzenzakalela phakathi kwalesi sikhathi"</string>
+	<!---->
+	<string name="start_time">"Isikhathi sokuqala"</string>
+	<!---->
+	<string name="end_time">"Isikhathi sokugcina"</string>
+	<!---->
+	<string name="internal_message">"Umlayezo wangaphakathi"</string>
+	<!---->
+	<string name="oof_auto_replies_external_senders">"Thumela izimpendulo ezizenzakalaleyo kubathumeli bangaphandle"</string>
+	<!---->
+	<string name="oof_choice_oof_in_contacts">"Thumela izimpendulo zokuzenzakalela kubathumeli kuhlu lwami lwabaxhumana nami"</string>
+	<!---->
+	<string name="oof_choice_oof_outside_organisation">"Thumela izimpendulo zokuzenzakalela kunoma ubani ngaphandle kwenhlangano yami"</string>
+	<!---->
+	<string name="external_message">"Umlayezo wangaphandle"</string>
+	<!---->
+	<string name="oof_done_message_attention">""Awucacisanga umlayezo wempendulo yokuzenzakalela kubantu abangaphakathi kwenhlangano yakho. Uma umlayezo wokuphuma ehhovisini ungafakiwe, abantu ngeke bathole isaziso sokuphuma ehhovisini. Imithetho yakho yokungabikhona ehhovisini, yize kunjalo, isazosebenza. Ingabe ufuna ukuqhubeka?"</string>
+	<!---->
+	<string name="oof_choice_in_contacts">"Thumela kubathumeli kuhlu lwami lwabaxhumana nami"</string>
+	<!---->
+	<string name="oof_choice_all_senders">"Thumela kubo bonke abathumeli"</string>
+	<!---->
+	<string name="hint_text_of_internal_message">"Phela emakhelini kusuka enhlanganweni yakho"</string>
+	<!---->
+	<string name="hint_text_of_external_message">"Phela emakhelini angaphandle kwenhlanganweni yakho"</string>
+	<!---->
+	<string name="account_delete_dlg_title">"Khipha i-akhawunti"</string>
+	<!---->
+	<string name="account_delete_dlg_instructions_fmt">"I-Akhawunti ye-\"<xliff:g id="account">%s</xliff:g>\" izokhishwa kule Imeyili."</string>
+	<!---->
+	<string name="account_delete_dlg_instructions_fmt_new">"Ukukhipha le akhawunti kuzosula yonke imilayezo yayo, oxhumana nabo, nenye idatha kusuka efonini yakho."</string>
+	<!---->
+	<string name="account_delete_dlg_action_remove_label">"Khipha"</string>
+	<!---->
+	<string name="account_delete_dlg_action_cancel_label">"Khansela"</string>
+	<!---->
+	<string name="account_settings_category_delete_account">"Susa i-akhawunti"</string>
+	<!---->
+	<string name="account_settings_delete_account_label">"Susa i-akhawunti"</string>
+	<!---->
+	<string name="account_settings_default_label">"I-akhawunti ezenzakalelayo"</string>
+	<!---->
+	<string name="account_settings_default_summary">"Thumela i-imeyili kusuka kule akhawunti ngokuzenzakalela"</string>
+	<!---->
+	<string name="account_setup_options_default_label">"Thumela i-imeyili kusuka kule akhawunti ngokuzenzakalela."</string>
+	<!---->
+	<string name="account_setup_basics_default_label">"Thumela i-imeyili kusuka kule akhawunti ngokuzenzakalela."</string>
+	<!---->
+	<string name="local_search_action">"Sesha endaweni"</string>
+	<!---->
+	<string name="service_search_action">"Cinga kwiseva"</string>
+	<!---->
+	<string name="local_search_all">"Konke"</string>
+	<!---->
+	<string name="local_search_from">"Kusuka ku-"</string>
+	<!---->
+	<string name="local_search_to">"Ku-"</string>
+	<!---->
+	<string name="local_search_subject">"Isihloko"</string>
+	<!---->
+	<string name="status_loading_attachments">"Iyalayisha"</string>
+	<!---->
+	<string name="account_use_proxy_label">"Sebenzisa ummeleli"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_label">"I-IP Yommeleli"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_port_label">"Imbobo yephrokzi"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_name">"Igama lommeleli"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_password">"Iphasiwedi yommeleli"</string>
+	<!---->
+	<string name="attachment_info_dialog_wifi_title">"Uxhumano lwe-Wi-Fi luyadingeka"</string>
+	<!---->
+	<string name="attachment_info_wifi_settings">"Amasethingi we-Wi-Fi"</string>
+	<!---->
+	<string name="attachment_info_wifi_only">"Lokhu okunamathiselwe kukhulu kakhulu ukulanda ngenethiwekhi yeselula. Ungayilanda isikhathi esilandelayo uma uxhumeke kunethiwekhi ye-Wi-Fi."</string>
+	<!---->
+	<string name="attachment_info_ok">"KULUNGILE"</string>
+	<!---->
+	<string name="mailbox_name_display_draft">"Okungaphelele"</string>
+	<!---->
+	<string name="message_compose_display_name">"<xliff:g example="John" id="name">%1$s</xliff:g> nabanye abangu-<xliff:g example="27" id="number">%2$d</xliff:g>"</string>
+	<!---->
+	<string name="app_name">"I-Imeyili"</string>
+	<!---->
+	<string name="from">"Kusuka ku-"</string>
+	<!---->
+	<string name="to">"Ku-"</string>
+	<!---->
+	<string name="cc">"Cc"</string>
+	<!---->
+	<string name="bcc">"Bcc"</string>
+	<!---->
+	<string name="subject_hint">"Isihloko"</string>
+	<!---->
+	<string name="body_hint">"Qamba i-imeyili"</string>
+	<!---->
+	<string name="add_file_attachment">"Namathisela ifayela"</string>
+	<!---->
+	<string name="add_photo_attachment">"Namathisela isithombe"</string>
+	<!---->
+	<string name="save_draft">"Londoloza okungaphelele"</string>
+	<!---->
+	<string name="discard">"Lahla"</string>
+	<!---->
+	<string name="compose">"Qamba"</string>
+	<!---->
+	<string name="select_contacts_field">"Khetha oxhumana nabo kusuka ku-"</string>
+	<!---->
+	<string name="item_save_group">"Londoloza iqembu"</string>
+	<!---->
+	<string name="confirm_select">"Khetha"</string>
+	<!---->
+	<string name="cancel_select">"Khansela"</string>
+	<string-array name="compose_modes">
+		<item>"Phendula"</item>
+		<item>"Phendula bonke"</item>
+		<item>"Dlulisa"</item>
+	</string-array>
+	<string-array name="compose_modes_without_reply_all">
+		<item>"Phendula"</item>
+		<item>"Dlulisa"</item>
+	</string-array>
+	<!---->
+	<string name="reply_subject_label">"Phen:"</string>
+	<!---->
+	<string name="forward_subject_label">"Dlulisa"</string>
+	<!---->
+	<string name="reply_attribution">"Ngomhla ka-<xliff:g id="date">%s</xliff:g>, <xliff:g id="person">%s</xliff:g> ubhale ukuthi:"</string>
+	<!---->
+	<string name="forward_attribution">"---------- Umlayezo odluliselwe ----------；Kusuka ku-:；Usuku:；Isihloko:；Kuya ku-:"</string>
+	<!---->
+	<string name="forward_attribution_with_headers">"---------- Umlayezo odluliselwe ---------- <xliff:g id="a">%s</xliff:g> Kusuka ku-: <xliff:g id="from">%s</xliff:g> <xliff:g id="b">%s</xliff:g> Usuku: <xliff:g id="date">%s</xliff:g> <xliff:g id="c">%s</xliff:g> Isihloko: <xliff:g id="subject">%s</xliff:g> <xliff:g id="d">%s</xliff:g> Kuya ku-: <xliff:g id="to">%s</xliff:g> <xliff:g id="e">%s</xliff:g> Cc: <xliff:g id="cc">%s</xliff:g> <br/>"</string>
+	<!---->
+	<string name="forward_attribution_no_headers">"---------- Umlayezo odlulisiwe ----------"</string>
+	<!---->
+	<string name="cc_attribution">"Cc:"</string>
+	<!---->
+	<string name="select_attachment_type">"Khetha uhlobo lesinamathiseli"</string>
+	<!---->
+	<string name="too_large_to_attach_single">"Ayikwazi ukunamathisela nge-%1$s"</string>
+	<!---->
+	<string name="too_large_to_attach_multiple">"Ifayela eyodwa noma ngaphezulu akunamathiselwanga. Umkhawulo ongu-<xliff:g id="maxSize">%1$s</xliff:g>."</string>
+	<!---->
+	<string name="too_large_to_mid_attach_additional">"I-imeyili yakho idlula i-<xliff:g id="maxSize">%1$s</xliff:g>. I-akhawunti ye-imeyili ingahle ingasekeli lokhu."</string>
+	<!---->
+	<string name="too_large_to_attach_additional">"Ayikwazi ukungeza ifayela. Usayizi we-imeyili uzodlula umkhawulo ongu-<xliff:g id="maxSize">%1$s</xliff:g>."</string>
+	<!---->
+	<string name="generic_attachment_problem">"Ayikwazanga ukunamathisela ifayela."</string>
+	<!---->
+	<string name="recipient_needed">"Engeza okungenani umamukeli oyedwa."</string>
+	<!---->
+	<string name="recipient_error_dialog_title">"Iphutha lomamukeli"</string>
+	<!---->
+	<string name="confirm_send_title">"Thumela umlayezo?"</string>
+	<!---->
+	<string name="confirm_send_message_with_no_subject">"Awukho umbhalo esihlokweni somlayezo"</string>
+	<!---->
+	<string name="confirm_send_message_with_no_body">"Awukho umbhalo emzimbeni womlayezo."</string>
+	<!---->
+	<string name="confirm_send_message">"Thumela lo mlayezo?"</string>
+	<!---->
+	<string name="message_discarded">"Umlayezo ulahliwe."</string>
+	<!-- no translation found for signature -->
+	<skip />
+	<!---->
+	<string name="custom_from_account_label">"Thumela i-imeyili njenge:"</string>
+	<!---->
+	<string name="send">"Thumela"</string>
+	<!---->
+	<string name="mark_read">"Maka njengokufundiwe"</string>
+	<!---->
+	<string name="mark_unread">"Maka njengokufundiwe"</string>
+	<!---->
+	<string name="mute">"Thulisa okwesikhashana"</string>
+	<!---->
+	<string name="add_star">"Engeza inkanyezi"</string>
+	<!---->
+	<string name="remove_star">"Inkanyezi yokulawula kude"</string>
+	<!---->
+	<string name="remove_folder">"Khipha kusuka ku-<xliff:g id="folderName">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="archive">"Londoloza okwesikhashana"</string>
+	<!---->
+	<string name="report_spam">"Bika imeyli engadingekile"</string>
+	<!---->
+	<string name="mark_not_spam">"Bika: Akuyona i-imeyili engadingeki"</string>
+	<!---->
+	<string name="report_phishing">"Bika umkhonyovu wokuheha"</string>
+	<!---->
+	<string name="delete">"Sula"</string>
+	<!---->
+	<string name="discard_drafts">"Lahla okungaphelele"</string>
+	<!---->
+	<string name="discard_failed">"Ukulahla kwehlulekile"</string>
+	<!---->
+	<string name="refresh">"Vuselela"</string>
+	<!---->
+	<string name="reply">"Phendula"</string>
+	<!---->
+	<string name="reply_all">"Phendula bonke"</string>
+	<!---->
+	<string name="resume_draft">"Hlela"</string>
+	<!---->
+	<string name="forward">"Dlulisa"</string>
+	<!---->
+	<string name="menu_compose">"Qamba"</string>
+	<!---->
+	<string name="menu_sort">"Hlunga"</string>
+	<!---->
+	<string name="menu_change_folders">"Shintsha amafolda"</string>
+	<!---->
+	<string name="menu_move_to">"Hambisa ku-"</string>
+	<!---->
+	<string name="menu_move_to_inbox">"Hambisa Ebhokisini lokungenayo"</string>
+	<!---->
+	<string name="menu_manage_folders">"Amasethingi wefolda"</string>
+	<!---->
+	<string name="menu_show_original">"Buyisela ukwenza usayizi okuzenzakalelayo"</string>
+	<!---->
+	<string name="menu_settings">"Amasethingi"</string>
+	<!---->
+	<string name="menu_search">"Cinga"</string>
+	<!---->
+	<string name="drawer_title">"Ukuzulazula"</string>
+	<!---->
+	<string name="mark_important">"Khipha njengokubalulekile"</string>
+	<!---->
+	<string name="mark_not_important">"Maka njengokungabalulekile"</string>
+	<!---->
+	<string name="select_all_conversations">"Khetha konke"</string>
+	<!---->
+	<string name="unselect_all_conversations">"Ungakhethi konke"</string>
+	<!---->
+	<string name="add_cc_label">"Engeza i-Cc/Bcc"</string>
+	<!---->
+	<string name="add_bcc_label">"Engeza i-Bcc"</string>
+	<!---->
+	<string name="quoted_text">"Bandakanya umbhalo ocashuniwe"</string>
+	<!---->
+	<string name="quoted_text_label">"Umbhalo ocashuniwe"</string>
+	<!---->
+	<string name="respond_inline">"Phen kul"</string>
+	<!---->
+	<string name="bytes">"<xliff:g id="count">%s</xliff:g> B"</string>
+	<!---->
+	<string name="kilobytes">"<xliff:g id="count">%s</xliff:g> KB"</string>
+	<!---->
+	<string name="megabytes">"<xliff:g id="count">%s</xliff:g> MB"</string>
+	<!---->
+	<string name="attachment_image">"Isithombe"</string>
+	<!---->
+	<string name="attachment_video">"Ividiyo"</string>
+	<!---->
+	<string name="attachment_audio">"Umsindo"</string>
+	<!---->
+	<string name="attachment_text">"Umbhalo"</string>
+	<!---->
+	<string name="attachment_application_msword">"Idokhumenti"</string>
+	<!---->
+	<string name="attachment_application_vnd_ms_powerpoint">"Umbukiso"</string>
+	<!---->
+	<string name="attachment_application_vnd_ms_excel">"Ispredishithi"</string>
+	<!-- no translation found for attachment_application_pdf -->
+	<skip />
+	<!---->
+	<string name="attachment_unknown">"Ifayela ye-<xliff:g id="attachmentExtension">%s</xliff:g>"</string>
+	<!---->
+	<string name="preview_attachment">"Buka kuqala"</string>
+	<!---->
+	<string name="save_attachment">"Londoloza"</string>
+	<!---->
+	<string name="cancel_attachment">"Khansela"</string>
+	<!---->
+	<string name="open_attachment">"Vula"</string>
+	<!---->
+	<string name="install_attachment">"Faka"</string>
+	<!---->
+	<string name="download_again">"Landa futhi"</string>
+	<!---->
+	<string name="more_info_attachment">"Ulwazi"</string>
+	<!---->
+	<string name="no_application_found">"Ayikho i-app engavule lesi sinamathiseli ukuze sivulwe."</string>
+	<!---->
+	<string name="fetching_attachment">"Ilanda isinamathiseli"</string>
+	<!---->
+	<string name="please_wait">"Sicela ulinde\u2026"</string>
+	<!---->
+	<string name="saved">"Kulondoloziwe,"</string>
+	<!---->
+	<string name="download_failed">"Ayikwazanga ukulanda. Thinta ukuze uzame futhi."</string>
+	<!---->
+	<string name="menu_photo_save_all">"Londoloza konke"</string>
+	<!---->
+	<string name="menu_photo_share">"Yabelana"</string>
+	<!---->
+	<string name="menu_photo_share_all">"Yabelana ngakho konke"</string>
+	<!---->
+	<string name="menu_photo_print">"Phrinta"</string>
+	<!---->
+	<string name="saving">"Iyalondoloza…"</string>
+	<!---->
+	<string name="choosertitle_sharevia">"Abelana nge-"</string>
+	<!---->
+	<string name="contextmenu_openlink">"Vula kwiSiphequluli"</string>
+	<!---->
+	<string name="contextmenu_copy">"Kopisha"</string>
+	<!---->
+	<string name="contextmenu_copylink">"Kopisha i-URL yesixhumanisi"</string>
+	<!---->
+	<string name="contextmenu_view_image">"Buka isithombe"</string>
+	<!---->
+	<string name="contextmenu_dial_dot">"Ikholi"</string>
+	<!---->
+	<string name="contextmenu_sms_dot">"I-SMS\u2026"</string>
+	<!---->
+	<string name="contextmenu_add_contact">"Faka oxhumana naye"</string>
+	<!---->
+	<string name="contextmenu_send_mail">"Thumela i-imeyili"</string>
+	<!---->
+	<string name="contextmenu_map">"Imephu"</string>
+	<!---->
+	<string name="contextmenu_sharelink">"Yabelana nesixhumanisi"</string>
+	<!---->
+	<string name="contextmenu_savelink">"Londoloza isixhumanisi"</string>
+	<!---->
+	<string name="contextmenu_help">"Usizo"</string>
+	<!---->
+	<string name="contextmenu_feedback">"Thumela impendulo"</string>
+	<!---->
+	<string name="sort_title">"Hlunga nge-"</string>
+	<!---->
+	<string name="sort_by_tip">"Kuhlungwe nge- <xliff:g id="sor_type">%s</xliff:g>"</string>
+	<!-- no translation found for num_selected -->
+	<skip />
+	<plurals name="move_conversation">
+		<item quantity="one">"Hambisa ingxoxo"</item>
+		<item quantity="other">"Khipha <xliff:g>%1$d</xliff:g> izingxoxo"</item>
+	</plurals>
+	<!---->
+	<string name="content_description">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> mayelana <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> ku-<xliff:g id="date">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g>"</string>
+	<!---->
+	<string name="content_description_today">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> mayelana <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> ku-<xliff:g id="time">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g>"</string>
+	<!---->
+	<string name="read_string">"Ingxoxo ifundiwe"</string>
+	<!---->
+	<string name="unread_string">"Ingxoxo ayifundiwe"</string>
+	<!---->
+	<string name="filtered_tag">"[<xliff:g id="tag">%1$s</xliff:g>]<xliff:g id="subject">%2$s</xliff:g>"</string>
+	<!-- no translation found for badge_and_subject -->
+	<skip />
+	<plurals name="draft">
+		<item quantity="one">"Okungaphelele"</item>
+		<item quantity="other">"Okungaphelele"</item>
+	</plurals>
+	<!---->
+	<string name="sending">"Iyathumela\u2026"</string>
+	<!---->
+	<string name="message_retrying">"Kuyazama futhi\u2026"</string>
+	<!---->
+	<string name="message_failed">"Kwehlulekile"</string>
+	<!---->
+	<string name="send_failed">"Yehlulekile ukuthumela i-imeyili."</string>
+	<!---->
+	<string name="send_failed_wait_attchment_downloaded">"Ayikwazi ukudlulisela ngoba okunamathiselwe akulandiwe ngokuphelele, sicela ulande okunamathiselwe kuqala."</string>
+	<!---->
+	<string name="me_object_pronoun">"Mina"</string>
+	<!---->
+	<string name="me_subject_pronoun">"Mina"</string>
+	<plurals name="confirm_delete_conversation">
+		<item quantity="one">"Susa lezi zingxoxo?"</item>
+		<item quantity="other">"Sula lezi zingxoxo ezingu-<xliff:g id="count">%1$d</xliff:g>?"</item>
+	</plurals>
+	<plurals name="confirm_archive_conversation">
+		<item quantity="one">"Londoloza okwesikhashana le ngxoxo?"</item>
+		<item quantity="other">"Londoloza okwesikhashana izingxoxo ezingu-<xliff:g id="count">%1$d</xliff:g>?"</item>
+	</plurals>
+	<plurals name="confirm_discard_drafts_conversation">
+		<item quantity="one">"Chitha lo mlayezo?"</item>
+		<item quantity="other">"Lahla le milayezo engu-<xliff:g id="count">%1$d</xliff:g>?"</item>
+	</plurals>
+	<!---->
+	<string name="confirm_discard_text">"Chitha lo mlayezo?"</string>
+	<!---->
+	<string name="loading_conversations">"Iyalayisha\u2026"</string>
+	<!---->
+	<string name="empty_inbox">"Kuphele konke! Sicela ujabulele usuku lwakho."</string>
+	<!---->
+	<string name="empty_search">"Whoops! Asikwazanga ukuthola okuthile kwe-\"<xliff:g id="search_query">%1$s</xliff:g>\"."</string>
+	<!---->
+	<string name="empty_spam_folder">"Hooray, abekho ogaxekile lapha!"</string>
+	<!---->
+	<string name="empty_trash_folder">"Awukho udoti lapha. Siyabonga ngokusebenzisa kabusha!"</string>
+	<!---->
+	<string name="empty_folder">"Ayikho i-imeyili lapha."</string>
+	<!---->
+	<string name="getting_messages">"Ithola imilayezo yakho"</string>
+	<!---->
+	<string name="undo">"Yekisa"</string>
+	<plurals name="conversation_unstarred">
+		<item quantity="one">"Kukhipha inkanyezi <xliff:g id="count">%1$d</xliff:g> kwingxoxo."</item>
+		<item quantity="other">"Kukhipha inkanyezi <xliff:g id="count">%1$d</xliff:g> kwizingxoxo."</item>
+	</plurals>
+	<plurals name="conversation_muted">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> ithulisiwe."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> ithulisiwe."</item>
+	</plurals>
+	<plurals name="conversation_spammed">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> ibikwe njengogaxekile."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> ibikwe njengogaxekile."</item>
+	</plurals>
+	<plurals name="conversation_not_spam">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> ibikwe njengokungekona ugaxekile."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> ibikwe njengokungekona ugaxekile."</item>
+	</plurals>
+	<plurals name="conversation_not_important">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> imakwe njengengabalulekile."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> imakwe njengengabalulekile."</item>
+	</plurals>
+	<plurals name="conversation_phished">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> ubikwe njengesigebengu."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> ubikwe njengesigebengu."</item>
+	</plurals>
+	<plurals name="conversation_archived">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> ikakwe kungobo yomlando."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> ikakwe kungobo yomlando."</item>
+	</plurals>
+	<plurals name="conversation_deleted">
+		<item quantity="one">"&lt;b&gt;%1$d&lt;/b&gt; kusuliwe."</item>
+		<item quantity="other">"&lt;b&gt;%1$d&lt;/b&gt; kusuliwe."</item>
+	</plurals>
+	<!---->
+	<string name="deleted">"Kususiwe"</string>
+	<!---->
+	<string name="archived">"Kulondolozwe okwesikhashana"</string>
+	<!---->
+	<string name="starred">"Okunenkanyezi"</string>
+	<!---->
+	<string name="unstarred">"Akunayo inkanyezi"</string>
+	<!---->
+	<string name="folder_removed">"Kususiwe kusuka ku-<xliff:g id="folderName">%1$s</xliff:g>"</string>
+	<plurals name="conversation_folder_changed">
+		<item quantity="one">"Ifolda ishintshiwe."</item>
+		<item quantity="other">"Amafolda ashintshile.."</item>
+	</plurals>
+	<!---->
+	<string name="conversation_folder_moved">"Kuhambiswe ku-<xliff:g id="folderName">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="search_results_header">"Imiphumela"</string>
+	<!---->
+	<string name="search_unsupported">"Ukucinga akusekelwa kule akhawunti."</string>
+	<!---->
+	<string name="add_label">"Engeza ifolda"</string>
+	<!---->
+	<string name="new_incoming_messages_one">"Bonisa imilayezo emisha <xliff:g id="sender">%s</xliff:g>."</string>
+	<plurals name="new_incoming_messages_many">
+		<item quantity="other">"Bonisa imilayezo emisha engu-<xliff:g id="count">%1$d</xliff:g>."</item>
+	</plurals>
+	<!---->
+	<string name="date_and_view_details">"<xliff:g id="date">%1$s</xliff:g> &lt;a href=\'http://www.example.com\'&gt;Buka imininingwane&lt;/a&gt;"</string>
+	<!---->
+	<string name="date_and_view_details_another">"<xliff:g id="date">%1$s</xliff:g> &lt;font color=\"<xliff:g id="color">%2$d</xliff:g>\"&gt;Buka imininingwane&lt;/font&gt;"</string>
+	<!---->
+	<string name="hide_details">"Fihla imininingwane"</string>
+	<!---->
+	<string name="to_message_header">"ku- <xliff:g id="recipients">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="contact_info_string">"Bonisa ulwazi loxhumana naye lika-<xliff:g id="name">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="contact_info_string_default">"Bonisa ulwazi loxhumana naye"</string>
+	<plurals name="show_messages_read">
+		<item quantity="other">"Imilayezo yakudala engu-<xliff:g example="4" id="count">%1$d</xliff:g>"</item>
+	</plurals>
+	<!---->
+	<string name="from_heading">"Kusuka ku-:"</string>
+	<!---->
+	<string name="replyto_heading">"Phendula ku-:"</string>
+	<!---->
+	<string name="to_heading">"Ku-:"</string>
+	<!---->
+	<string name="to_heading_no_space">"Ku-:"</string>
+	<!---->
+	<string name="cc_heading">"Cc:"</string>
+	<!---->
+	<string name="bcc_heading">"Bcc:"</string>
+	<!---->
+	<string name="date_heading">"Usuku:"</string>
+	<!---->
+	<string name="show_images">"Bonisa izithombe"</string>
+	<!---->
+	<string name="always_show_images">"Bonisa njalo izithombe ezisuka kulo mthumeli"</string>
+	<!---->
+	<string name="always_show_images_toast">"Izithombe ezisuka kulo mthumeli zizoboniswa ngokuzenzakalelayo."</string>
+	<!---->
+	<string name="address_display_format">"<xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g>"</string>
+	<!---->
+	<string name="address_display_format_with_via_domain">"I-<xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g> via <xliff:g id="via_domain">%3$s</xliff:g>"</string>
+	<!---->
+	<string name="message_saved">"Umlayezo ulondolozwe njengokungaphelele."</string>
+	<!---->
+	<string name="sending_message">"Ithumela umlayezo\u2026"</string>
+	<!---->
+	<string name="invalid_recipient">"Ikheli le-%s alilungile."</string>
+	<!---->
+	<string name="show_elided">"Bonisa umbhalo ocashuniwe"</string>
+	<!---->
+	<string name="hide_elided">"\u25BC Fihla umbhalo ocashuniwe"</string>
+	<!---->
+	<string name="message_invite_title">"Isimemo sekhalenda"</string>
+	<!---->
+	<string name="message_invite_available">"Uyatholakala"</string>
+	<!---->
+	<string name="message_invite_datetime">"Nini"</string>
+	<!---->
+	<string name="message_invite_location">"Kuphi"</string>
+	<!---->
+	<string name="message_invite_in_calendar_view">"Bona kukhalenda"</string>
+	<!---->
+	<string name="message_invite_calendar_view">"Buka kuKhalenda"</string>
+	<!---->
+	<string name="message_invite_label_attending">"Uyahamba?"</string>
+	<!---->
+	<string name="message_invite_accept">"Yebo"</string>
+	<!---->
+	<string name="message_invite_tentative">"Mhlawumbe"</string>
+	<!---->
+	<string name="message_invite_decline">"Cha"</string>
+	<!-- no translation found for enumeration_comma -->
+	<skip />
+	<!---->
+	<string name="send_anyway">"Thumela noma kunjalo"</string>
+	<!---->
+	<string name="ok">"KULUNGILE"</string>
+	<!---->
+	<string name="done">"Iqedile"</string>
+	<!---->
+	<string name="cancel">"Khansela"</string>
+	<!---->
+	<string name="clear">"Susa"</string>
+	<!---->
+	<string name="next">"Okulandelayo"</string>
+	<!---->
+	<string name="previous">"Okwandulele"</string>
+	<string-array name="sync_status">
+		<item>"Uwunalo uxhumo lwe-Wi-Fi, noma ungaqhubeka nokuvumelanisa?"</item>
+		<item>"Alukho uxhumano."</item>
+		<item>"Ayikwazanga ukungena ngemvume."</item>
+		<item>"Iphutha lokuvikeleka."</item>
+		<item>"Ayikwazanga ukuvumelanisa."</item>
+		<item>"Iphutha langaphakathi"</item>
+		<item>"Iphutha leseva"</item>
+	</string-array>
+	<!---->
+	<string name="tap_to_configure">"Thinta ukuze usethe"</string>
+	<!---->
+	<string name="non_synced_folder_description">"Ukzue ubuke izingxoxo, vumelanisa le folda."</string>
+	<!---->
+	<string name="tap_to_configure_folder_sync">"Vumelanisa ifolda"</string>
+	<!-- no translation found for widget_large_unread_count -->
+	<skip />
+	<!---->
+	<string name="large_unseen_count">"<xliff:g example="99" id="count">%d</xliff:g>+ okusha"</string>
+	<!---->
+	<string name="unseen_count">"<xliff:g example="4" id="count">%d</xliff:g> okusha"</string>
+	<plurals name="actionbar_unread_messages">
+		<item quantity="other">"%1$d okungafundiwe"</item>
+	</plurals>
+	<!---->
+	<string name="actionbar_large_unread_count">"Okungu-<xliff:g id="count">%1$d</xliff:g>+ akufundiwe"</string>
+	<!---->
+	<string name="view_more_conversations">"Buka izingxoxo ezengeziwe"</string>
+	<!---->
+	<string name="loading_conversation">"Iyalayisha\u2026"</string>
+	<!---->
+	<string name="activity_mailbox_selection">"Khetha i-akhawunti"</string>
+	<!---->
+	<string name="activity_folder_selection">"Khetha ifolda"</string>
+	<!---->
+	<string name="folder_shortcut_widget_label">"Ifolda ye-imeyili"</string>
+	<!---->
+	<string name="change_folders_selection_dialog_title">"Shintsha amafolda"</string>
+	<!---->
+	<string name="move_to_selection_dialog_title">"Hambisa ku-"</string>
+	<!-- no translation found for search_results_loaded -->
+	<skip />
+	<!---->
+	<string name="network_error">"Alukho uxhumano"</string>
+	<!---->
+	<string name="retry">"Zama futhi"</string>
+	<!---->
+	<string name="load_more">"Layisha okuningi"</string>
+	<!---->
+	<string name="shortcut_name_title">"Isinqamuleli sefolda entsha"</string>
+	<!---->
+	<string name="wait_for_sync_title">"Ilindele ukuvumelanisa"</string>
+	<!---->
+	<string name="not_synced_title">"I-Akhawunti ayivumelaniswanga"</string>
+	<!---->
+	<string name="wait_for_manual_sync_body">"Le akhawunti ayimisiwe ukuze ivumelanise ngokuzenzakalelayo.\nThintha <b>Vumelanisa manje</b> ukuze uvumelanise imeyili kanye <b>Shintsha amasethingi okuvumelanisa</b> ukuze umise i-imeyili ye-akhawunti ngokuzenzakalelayo."</string>
+	<!---->
+	<string name="manual_sync">"Vumelanisa manje"</string>
+	<!---->
+	<string name="change_sync_settings">"Shintsha amasethingi okuvumelanisa"</string>
+	<!---->
+	<string name="photo_load_failed">"Ayikwazanga ukulayisha isithombe"</string>
+	<!---->
+	<string name="cant_move_or_change_labels">"Ayikwazi ukusuka ngoba okukhethiwe kuqukethe ama-akhawunti amaningi."</string>
+	<!-- no translation found for multiple_new_message_notification_item -->
+	<skip />
+	<!-- no translation found for single_new_message_notification_big_text -->
+	<skip />
+	<!---->
+	<string name="ignore_spam_warning">"Shaya indiva, ngiyawethemba lo mlayezo"</string>
+	<!---->
+	<string name="via_domain">"nge-<xliff:g id="viaDomain">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="signin">"Ngena"</string>
+	<!---->
+	<string name="info">"Ulwazi"</string>
+	<!---->
+	<string name="report">"Bika"</string>
+	<!---->
+	<string name="sync_error">"Ayikwazanga ukuvumelanisa."</string>
+	<!---->
+	<string name="sync_error_message">"Idivayisi yakho ayinaso isikhala sesitoreji."</string>
+	<!---->
+	<string name="storage">"Isitoreji"</string>
+	<!-- no translation found for senders_split_token -->
+	<skip />
+	<!-- no translation found for draft_count_format -->
+	<skip />
+	<!---->
+	<string name="all_folders_heading">"Amafolda wonke"</string>
+	<!---->
+	<string name="recent_folders_heading">"Amafolda akamuva"</string>
+	<!---->
+	<string name="message_details_title">"Imininingwane yomlayezo"</string>
+	<!---->
+	<string name="preference_advance_to_title">"Ukuthuthukisa ngokuzenzakalelayo"</string>
+	<string-array name="prefEntries_autoAdvance">
+		<item>"Okusha"</item>
+		<item>"Okwakudala"</item>
+		<item>"Uhlu lwengxoxo"</item>
+	</string-array>
+	<string-array name="prefSummaries_autoAdvance">
+		<item>"Bonisa ingxoxo entsha ngemva kokususa"</item>
+		<item>"Bonisa ingxoxo yakudala ngemva kokususa"</item>
+		<item>"Bonisa uhlu lwengxoxo ngemva kokususa"</item>
+	</string-array>
+	<!---->
+	<string name="prefDialogTitle_autoAdvance">"Thuthukela ku"</string>
+	<!---->
+	<string name="clear_display_images_whitelist_title">"Sula izimvume zesithombe"</string>
+	<!---->
+	<string name="clear_display_images_whitelist_dialog_title">"Susa izimvume zesithombe?"</string>
+	<!---->
+	<string name="clear_display_images_whitelist_dialog_message">"Misa ukubonisa izithombe ezisemugqeni kusuka kubathumeli obavumele ngaphambilini."</string>
+	<!---->
+	<string name="sender_whitelist_cleared">"Izithombe ngeke ziboniswe ngokuzenzakalelayo."</string>
+	<!---->
+	<string name="preferences_signature_title">"Isiginesha"</string>
+	<!---->
+	<string name="preferences_signature_dialog_title">"Isiginesha"</string>
+	<!---->
+	<string name="preferences_signature_summary_not_set">"Akusethiwe"</string>
+	<!---->
+	<string name="mail_account_signature_prefix">"Kuthunyelwe kusuka ku- <xliff:g example="4" id="product">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="notification_action_reply">"Phendula"</string>
+	<!---->
+	<string name="notification_action_reply_all">"Phendula bonke"</string>
+	<!---->
+	<string name="notification_action_archive">"Londoloza okwesikhashana"</string>
+	<!---->
+	<string name="notification_action_remove_label">"Khipha ilebula"</string>
+	<!---->
+	<string name="notification_action_delete">"Sula"</string>
+	<!---->
+	<string name="notification_action_undo_archive">"Kulondolozwe okwesikhashana"</string>
+	<!---->
+	<string name="notification_action_undo_remove_label">"Ilebula ikhishiwe"</string>
+	<!---->
+	<string name="notification_action_undo_delete">"Kususiwe"</string>
+	<!-- no translation found for veiled_address -->
+	<skip />
+	<!-- no translation found for veiled_alternate_text -->
+	<skip />
+	<!-- no translation found for veiled_alternate_text_unknown_person -->
+	<skip />
+	<!-- no translation found for veiled_summary_unknown_person -->
+	<skip />
+	<!-- no translation found for label_notification_ticker -->
+	<skip />
+	<plurals name="new_messages">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> umlayezo omusha"</item>
+		<item quantity="other">"Imilayezo emisha engu-<xliff:g id="count">%1$d</xliff:g>"</item>
+	</plurals>
+	<!-- no translation found for single_new_message_notification_title -->
+	<skip />
+	<!---->
+	<string name="silent_ringtone">"Thulile"</string>
+	<!---->
+	<string name="preference_removal_action_title">"Londoloza okwesikhashana bese ususa izenzo"</string>
+	<string-array name="prefEntries_removal_action">
+		<item>"Bonisa okugciniwe kuphela"</item>
+		<item>"Bonisa okusuliwe kuphela"</item>
+		<item>"Bonisa okugciniwe nokusuliwe"</item>
+	</string-array>
+	<string-array name="prefSummaries_removal_action_summary">
+		<item>"Bonisa okugciniwe kuphela"</item>
+		<item>"Bonisa okusuliwe kuphela"</item>
+		<item>"Bonisa okugciniwe nokusuliwe"</item>
+	</string-array>
+	<!---->
+	<string name="prefDialogTitle_removal_action">"Londoloza okwesikhashana bese ususa izenzo"</string>
+	<!---->
+	<string name="preferences_default_reply_all_title">"Phendula bonke"</string>
+	<!---->
+	<string name="preferences_default_reply_all_summary_impl">"Sebenzisa njengokumisiwe kwizimpendulo zomlayezo"</string>
+	<!---->
+	<string name="preference_swipe_title_archive">"Swayipha ukuze ulondoloze okwesikhashana"</string>
+	<!---->
+	<string name="preference_swipe_title_delete">"Swayipha ukuze usule"</string>
+	<!---->
+	<string name="preference_swipe_description">"Ohlwini lengxoxo"</string>
+	<!---->
+	<string name="preference_swipe_actions">"Izenzo zokuswayipha"</string>
+	<!---->
+	<string name="preference_sender_image_title">"Isithombe somthumeli"</string>
+	<!---->
+	<string name="preference_sender_image_description">"Bonisa igama eliseceleni ohlwini lengxoxo"</string>
+	<!---->
+	<string name="empty_trash">"Chitha udoti"</string>
+	<!---->
+	<string name="empty_spam">"Chitha i-imeyili engadingeki"</string>
+	<!---->
+	<string name="star_toggle">"Ukushintsha inkanyezi"</string>
+	<!---->
+	<string name="empty_trash_dialog_title">"Chitha udoti?"</string>
+	<!---->
+	<string name="empty_spam_dialog_title">"Chitha i-imeyili engadingeki?"</string>
+	<plurals name="empty_folder_dialog_message">
+		<item quantity="one">"Umlayezo ongu-%1$d uzosulwa ngokuphelele."</item>
+		<item quantity="other">"Imilayezo engu-%1$d izosulwa ngokuphelele."</item>
+	</plurals>
+	<!---->
+	<string name="drawer_open">"Vula ikhabethe lokuzulazula"</string>
+	<!---->
+	<string name="drawer_close">"Ulwazi lelungelo lobunikazi"</string>
+	<!---->
+	<string name="conversation_photo_welcome_text">"Thinta isithombe somthumeli ukuze ukhethe leyo ngxoxo."</string>
+	<!---->
+	<string name="long_press_to_select_tip">"Thinta bese uyabamba ukuze ukhethe ingxoxo eyodwa, bese uyathinta ukuze ukhethe okwengeziwe."</string>
+	<!---->
+	<string name="folder_icon_desc">"Isithonjana sefolda"</string>
+	<!---->
+	<string name="add_account">"Engeza i-akhawunti"</string>
+	<!---->
+	<string name="dismiss_tip_hover_text">"Lahla ithiphu"</string>
+	<!---->
+	<string name="auto_sync_off">"Ukuvumelanisa okuzenzakalelayo kuvaliwe."</string>
+	<!---->
+	<string name="tap_to_enable_sync">"Thinta ukuvula."</string>
+	<!---->
+	<string name="account_sync_off">"Ukuvumelanisa kwe-akhawunti kuvaliwe."</string>
+	<!---->
+	<string name="enable_sync_in_account_settings">"Vula ku-<xliff:g id="account_settings">%1$s</xliff:g>."</string>
+	<!---->
+	<string name="account_settings_param">"Izilungiselelo ze-akhawunti"</string>
+	<!---->
+	<string name="unsent_messages_in_outbox">"<xliff:g id="number">%1$s</xliff:g> ungasethi ku-<xliff:g id="outbox">%2$s</xliff:g>"</string>
+	<!---->
+	<string name="turn_auto_sync_on_dialog_title">"Vula ukuvumelanisa ngokuzenzakalaleyo?"</string>
+	<!---->
+	<string name="turn_auto_sync_on_dialog_body">"Izinguquko ozenza kuwo wonke ama-app nama-akhawunti, hhayi ku-Gmail nje kuphela, zizovumelwaniswa kwiwebhu, kwamanye amadivayisi wakho <xliff:g id="nakufoni noma kuthebhulethi">%1$s</xliff:g>."</string>
+	<!---->
+	<string name="phone">"Ifoni"</string>
+	<!---->
+	<string name="tablet">"Ithebhulethi"</string>
+	<!---->
+	<string name="turn_auto_sync_on_dialog_confirm_btn">"Vula"</string>
+	<!---->
+	<string name="show_n_more_folders">"Bonisa amafolda amanye angu-%1$s"</string>
+	<!---->
+	<string name="hide_folders">"Fihla amafolda"</string>
+	<!---->
+	<string name="print">"Phrinta"</string>
+	<!---->
+	<string name="print_all">"Phrinta konke"</string>
+	<plurals name="num_messages">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> umlayezo"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> imilayezo"</item>
+	</plurals>
+	<!-- no translation found for date_message_received_print -->
+	<skip />
+	<!---->
+	<string name="draft_to_heading">"Okungaphelele ku-:"</string>
+	<!---->
+	<string name="draft_heading">"Okungaphelele"</string>
+	<!---->
+	<string name="quoted_text_hidden_print">"Umbhalo ocashuniwe ufihlwe"</string>
+	<plurals name="num_attachments">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> okufakiwe"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> okufakiwe"</item>
+	</plurals>
+	<!---->
+	<string name="no_subject">"(Asikho isihloko)"</string>
+	<!---->
+	<string name="vacation_responder">"Isiphenduli seholide"</string>
+	<!---->
+	<string name="preferences_vacation_responder_title">"Isiphenduli seholide"</string>
+	<!---->
+	<string name="vacation_responder_body_hint_text">"Umlayezo"</string>
+	<!---->
+	<string name="send_to_contacts_text">"Thumela kuphela koxhumana nabo"</string>
+	<!---->
+	<string name="send_to_domain_text">"Thumela kuphela ku- <xliff:g id="domain">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="pick_start_date_title">"Iqala"</string>
+	<!---->
+	<string name="pick_end_date_title">"Iphela (Inketho)"</string>
+	<!---->
+	<string name="date_not_set">"Akusethiwe"</string>
+	<!---->
+	<string name="set_end_date_dialog_title">"Usuku lokuphela (inketho)"</string>
+	<!---->
+	<string name="custom_date">"Okuqokiwe"</string>
+	<!---->
+	<string name="date_none">"Lutho"</string>
+	<!---->
+	<string name="discard_changes">"Lahla izinguquko?"</string>
+	<!---->
+	<string name="draft_saved">"Okungaphelele kulondoloziwe"</string>
+	<!---->
+	<string name="draft_discard">"Okungaphelele kulahliwe"</string>
+	<!---->
+	<string name="vacation_responder_changes_saved">"Izinguquko zesiphenduli seholide zilondoloziwe"</string>
+	<!---->
+	<string name="vacation_responder_changes_discarded">"Izinguquko zesiphenduli seholide zilahliwe"</string>
+	<!---->
+	<string name="vacation_responder_off">"VALIWE"</string>
+	<!-- no translation found for vacation_responder_on -->
+	<skip />
+	<!-- no translation found for vacation_responder_on_with_end_date -->
+	<skip />
+	<!---->
+	<string name="vacation_responder_empty_subject_and_body_warning">"Engeza isihloko noma umlayezo"</string>
+	<!---->
+	<string name="view_entire_message">"Buka wonke umlayezo"</string>
+	<!---->
+	<string name="eml_loader_error_toast">"Ayikwazi ukuvula leli fayela"</string>
+	<!---->
+	<string name="help_and_info">"Usizo"</string>
+	<!---->
+	<string name="help_and_feedback">"Usizo nempendulo"</string>
+	<!---->
+	<string name="feedback">"Thumela impendulo"</string>
+	<!---->
+	<string name="copyright">"©<xliff:g example="2010" id="year">%1$d</xliff:g> Google Inc."</string>
+	<!---->
+	<string name="version">"<xliff:g example="Email" id="app_name">%1$s</xliff:g> inguqulo <xliff:g example="2.2.1" id="version">%2$s</xliff:g>"</string>
+	<!-- no translation found for view_app_page -->
+	<skip />
+	<!---->
+	<string name="print_dialog">"Phrinta\u2026"</string>
+	<!---->
+	<string name="copyright_information">"Ulwazi lelungelo lobunikazi"</string>
+	<!---->
+	<string name="privacy_policy">"inqubomgomo yokugcinwa kwemininingwane iyimfihlo"</string>
+	<!---->
+	<string name="open_source_licenses">"Amalayisense womthombo ovulekile"</string>
+	<!---->
+	<string name="reply_choice_yes">"Yebo"</string>
+	<!---->
+	<string name="reply_choice_no">"Cha"</string>
+	<!---->
+	<string name="reply_choice_ok">"KULUNGILE"</string>
+	<!-- no translation found for reply_choice_hehe -->
+	<skip />
+	<!---->
+	<string name="reply_choice_thanks">"Siyabonga"</string>
+	<!---->
+	<string name="reply_choice_i_agree">"Ngiyavuma"</string>
+	<!---->
+	<string name="reply_choice_nice">"Kuhle"</string>
+	<!---->
+	<string name="reply_on_my_way">"Ngisendleleni"</string>
+	<!---->
+	<string name="reply_choice_later">"KULUNGILE, mangibuye kuwe"</string>
+	<!-- no translation found for reply_choice_smiling_face -->
+	<skip />
+	<!-- no translation found for reply_choice_frowning_face -->
+	<skip />
+	<!---->
+	<string name="preference_header_action_confirmations">"Ukuqinisekisa isenzo"</string>
+	<!---->
+	<string name="preference_confirm_before_delete_title">"Qinisekisa ngaphambi kokusula"</string>
+	<!---->
+	<string name="preference_confirm_before_archive_title">"Qinisekisa ngaphambi kokufaka kungobo yomlando"</string>
+	<!---->
+	<string name="preference_confirm_before_send_title">"Qinisekisa ngaphambi kokuthumela"</string>
+	<!---->
+	<string name="preferences_conversation_mode_title">"Linganisa ngokuzenzakalela imilayezo"</string>
+	<!---->
+	<string name="preferences_conversation_mode_summary">"Nciphisa imilayezo ukuze ilingane isikrini"</string>
+	<!---->
+	<string name="preferences_disable_snap_headers_title">"Izenzo zemilayezo"</string>
+	<string-array name="prefSummaries_snapHeader">
+		<item>"Njalo bonisa izenzo zomlayezo phezulu kwesikrini"</item>
+		<item>"Bonisa kuphela izenzo zomlayezo phezulu kwesikrini uma kuphendukiselwa ku-portrait"</item>
+		<item>"Ungabonisi izenzo zomlayezo ngaphandle kwekhanda lomlayezo"</item>
+	</string-array>
+	<string-array name="prefEntries_snapHeader">
+		<item>"Bonisa njalo"</item>
+		<item>"Bonisa kuphela ku-portrait"</item>
+		<item>"Ungabonisi"</item>
+	</string-array>
+	<!---->
+	<string name="clear_history_title">"Susa umlando wokucinga"</string>
+	<!---->
+	<string name="search_history_cleared">"Umlando wokucinga usuliwe."</string>
+	<!---->
+	<string name="clear_history_dialog_title">"Sula umlando wokusesha?"</string>
+	<!---->
+	<string name="clear_history_dialog_message">"Lonke usesho olenze ngaphambilini luzosuswa."</string>
+	<!---->
+	<string name="manage_accounts_menu_item">"Phatha ama-akhawunti"</string>
+	<!---->
+	<string name="general_preferences_title">"Izilungiselelo ezijwayelekile"</string>
+	<!---->
+	<string name="activity_preferences">"Amasethingi"</string>
+	<!---->
+	<string name="always_bcc_myself">"Njalo ngizenza i-bcv"</string>
+	<!---->
+	<string name="always_bcc_myself_summary">"Njalo ngizenza i-bcc uma ngiqamba, ngiphendula noma ngidlulisa umlayezo"</string>
+	<!---->
+	<string name="general_preference_auto_download_remaining_label">"Ukulanda ngokuzenzakalelayo okusele"</string>
+	<!---->
+	<string name="general_preference_auto_download_remaining_summary">"Umzimba wokulanda ngokuzenzakalelayo okusele uma uskrolela phansi"</string>
+	<!---->
+	<string name="download_remaining">"Ukulanda kusele"</string>
+	<!---->
+	<string name="downloading_remaining">"Iyalayisha ..."</string>
+	<!---->
+	<string name="unable_to_connect">"Ayikwazi ukuxhuma"</string>
+	<!---->
+	<string name="need_connection_prompt">"Udinga uxhumano lenethiwekhi ukuze usebenzise lolu hlelo. Sicela uvule inethiwekhi yeselula noma i-Wi-Fi kokuthi Amasethingi."</string>
+	<!---->
+	<string name="connection_settings">"Amasethingi"</string>
+	<!---->
+	<string name="priority_action">"Okubalulekile"</string>
+	<!---->
+	<string name="set_priority_dialog_title">"Setha okuphambili"</string>
+	<!---->
+	<string name="dialog_warning">"Isexwayiso\u2026"</string>
+	<!---->
+	<string name="dialog_warning_message">"Inguqulo yohlelo lwe-Exchange alisani ne-imeyili, qhubeka?"</string>
+	<!---->
+	<string name="toast_warning_text">"Inguqulo yohlelo lwe-Exchange ayifani ne-imeyili"</string>
+	<!---->
+	<string name="tips_sync_alter_title">"Ukuvumelanisa"</string>
+	<!---->
+	<string name="tips_sync_alter_content">"Uwunalo uxhumo lwe-Wi-Fi, noma ungaqhubeka nokuvumelanisa?"</string>
+	<!---->
+	<string name="tips_sync_alter_yes">"Yebo"</string>
+	<!---->
+	<string name="tips_sync_alter_no">"Cha"</string>
+	<!---->
+	<string name="message_invite_tentative_title">"Okokulinga"</string>
+	<!---->
+	<string name="message_invite_decline_title">"Nqaba"</string>
+	<!---->
+	<string name="message_invite_accent_title">"Yamukela"</string>
+	<!---->
+	<string name="drm_file_remind">"Leli fayela alivunyelwe ukulayisha noma ukwabiwa ngoba ifayela livikelwe nge-DRM!"</string>
+	<!---->
+	<string name="not_add_more_recipients">"Ayikwazi ukufaka abamukeli abangaphezu kuka-<xliff:g id="maxLimit">%1$d</xliff:g> ngesikhathi esisodwa."</string>
+	<!---->
+	<string name="global_search_label">"I-Imeyili"</string>
+	<!---->
+	<string name="global_search_hint">"Cinga i-imeyili"</string>
+	<!---->
+	<string name="global_search_description">"Abathumeli, izihloko nemizimba"</string>
+	<!---->
+	<string name="remote_search_failed">"Ukucinga kweseva kwehlulekile!"</string>
+	<!---->
+	<string name="searching_on_server">"Cinga kwiseva"</string>
+	<!---->
+	<string name="searching_on_server_title">"Cinga i-\"<xliff:g id="account_name">%s</xliff:g>\" kwiseva"</string>
+	<!---->
+	<string name="searching_all_fields_on_sever">"Cinga zonke izinkundla kwiseva"</string>
+	<!---->
+	<string name="search_field_subject">"Isihloko"</string>
+	<!---->
+	<string name="search_field_receiver">"Umamukeli"</string>
+	<!---->
+	<string name="search_field_sender">"Umthumeli"</string>
+	<!---->
+	<string name="search_field_body">"Umzimba"</string>
+	<!---->
+	<string name="search_field_all">"Konke"</string>
+	<!---->
+	<string name="search_field_attachment">"Izinamathiseli"</string>
+	<!---->
+	<string name="select_all">"Khetha konke"</string>
+	<!---->
+	<string name="deselect_all">"Ungakhethi konke"</string>
+	<!---->
+	<string name="need_wifi_connection_prompt">"Udinga uxhumano lenethiwekhi ukuze usebenzise lolu hlelo. Sicela uvule amasethingi e-WiFi."</string>
+	<!---->
+	<string name="account_setup_names_account_name_des_label">"okokuzikhethela"</string>
+	<!---->
+	<string name="account_setup_names_user_name_des_label">"kuboniswa kumilayezo ephumayo"</string>
+	<!---->
+	<string name="finish_action">"Kuqedile"</string>
+	<!---->
+	<string name="copy_email">"Kopisha ikheli le-imeyli"</string>
+	<!---->
+	<string name="out_of_office_syncing">"Ukuvumelanisa amasethingi okungabikhona ehhovisini"</string>
+	<!---->
+	<string name="out_of_office_fail">"Ukuvumelanisa amasethingi okungabikhona ehhovisini kwehlulekile!"</string>
+	<!---->
+	<string name="out_of_office_success">"Ukuvumelanisa amasethingi okungabikhona ehhovisini kuphumelele!"</string>
+	<!---->
+	<string name="manual_sync_when_roaming">"Vumelanisa ngenkathi izulazula"</string>
+	<!---->
+	<string name="manual_sync_when_roaming_summery">"Vuselela ngokwenza kuphela"</string>
+	<!---->
+	<string name="manual_sync_when_roaming_toast">"Swayiphela phansi ukuze uvuselele ngokwenza uma uzula"</string>
+	<!---->
+	<string name="manual_sync_when_roaming_refresh">"Vuselela"</string>
+	<!---->
+	<string name="server_rule_can_not_change">"Imithetho yeseva ayikwazi ukushintshwa"</string>
+	<!---->
+	<string name="server_rules">"Imithetho yeseva"</string>
+	<!---->
+	<string name="confirm_forward_message">"Akuwona wonke amafayela alandiwe. Dlulisela ngaphandle kokulanda amafayela?"</string>
+	<!---->
+	<string name="confirm_forward_cancel">"KHANSLELA"</string>
+	<!---->
+	<string name="confirm_forward_drop_unload_attachment">"DLULISELA PHAMBILI"</string>
+	<!---->
+	<string name="mail_not_download_completely">"Linda ukulanda kuze kuphele"</string>
+	<!---->
+	<string name="account_settings_inline_images_lable">"Izithombe"</string>
+	<!---->
+	<string name="account_settings_inline_always_show">"Bonisa njalo"</string>
+	<!---->
+	<string name="account_settings_inline_ask_before_show">"Buza ngaphambi kokubonisa"</string>
+	<!---->
+	<string name="conversation_time_after_today">"Ngemuva kwanamuhla"</string>
+	<!---->
+	<string name="conversation_time_today">"Namahlanje"</string>
+	<!---->
+	<string name="conversation_time_yesterday">"Izolo"</string>
+	<!---->
+	<string name="conversation_time_this_month">"Kule nyanga"</string>
+	<!---->
+	<string name="conversation_time_elapse_just_now">"Khona manje"</string>
+	<!---->
+	<string name="conversation_time_elapse_minute">"<xliff:g id="count">%d</xliff:g> amaminithi"</string>
+	<!---->
+	<string name="message_in_queued_status">"Kusemugqeni"</string>
+	<plurals name="send_failed_messages">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> i-imeyili ayithunyelwe"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> ama-imeyili awathunyelwe"</item>
+	</plurals>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_label">"Vumelanisa amakhalenda kusuka ku-"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_2weeks">"Amawiki amabili"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_1month">"Inyanga eyodwa"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_3months">"Izinyanga ezingu-3"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_6months">"Izinyanga eziyisithupha"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_all">"Konke"</string>
+	<!---->
+	<string name="no_permission_to_open_file">"Imvume yesitoreji iyadingeka ukuvula leli fayela"</string>
+	<!---->
+	<string name="conversation_update_time_text">"Kugcinwe ukubuyekezwa"</string>
+	<!---->
+	<string name="conversation_update_unknown_time_stamp">"Akwaziwa"</string>
+	<!---->
+	<string name="conversation_time_elapse_today">"Namahlanje"</string>
+	<!---->
+	<string name="save_to_attachment">"Londoloza ku-"</string>
+	<!---->
+	<string name="download_settings_title">"Londoloza isinamathiseli"</string>
+	<!---->
+	<string name="download_edit_filename_label">"Igama"</string>
+	<!---->
+	<string name="download_filepath_label">"Umzila"</string>
+	<!---->
+	<string name="download_file_size">"Usayizi"</string>
+	<!---->
+	<string name="download_time_needed">"Isikhathi"</string>
+	<!---->
+	<string name="download_cancel">"Khansela"</string>
+	<!---->
+	<string name="download_start">"KULUNGILE"</string>
+	<!---->
+	<string name="unknown_length">"Akwaziwa"</string>
+	<!---->
+	<string name="time_min">"umzuzu"</string>
+	<!---->
+	<string name="open_file_manager_failed">"Ayikwazanga ukuvula isiphathi sefayela"</string>
+	<!---->
+	<string name="attachment_not_saved">"Isinamathiseli asilondoloziwe"</string>
+	<!---->
+	<string name="sync_calendar_title">"Akukwazi ukuvumelanisa ikhalenda"</string>
+	<!---->
+	<string name="sync_calendar_content">"Ukuze uvumelanise, vumela amasevisi e-Exchange ukufinyelela ikhalenda"</string>
+	<!---->
+	<string name="sync_contacts_title">"Akukwazi ukuvumelanisa oxhumana nabo"</string>
+	<!---->
+	<string name="sync_contacts_content">"Ukuze uvumelanise, vumela amasevisi e-Exchange ukufinyelela koxhumana nabo"</string>
+	<!---->
+	<string name="notification_never_ask_again">"Ungabuzi futhi"</string>
+	<!---->
+	<string name="sync_storage_title">"Ayikwazi ukulondoloza isinamathiseli"</string>
+	<!---->
+	<string name="sync_storage_content">"Ukuze ulondoloze, vumela amasevisi e-Exchange ukufinyelela isitoreji"</string>
+	<!---->
+	<string name="oof_continue">"Qhubeka"</string>
+	<!---->
+	<string name="permission_needed_to_add_attachments">"Ukuze ungeze okunamathiselwe, vumela i-imeyili imvume yokufinyelela isitoreji"</string>
+	<!---->
+	<string name="permission_needed_to_check_ringtone">"Ukuze uhlole ithoni yokukhala, vumela i-imeyili imvume yokufinyelela isitoreji"</string>
+	<!---->
+	<string name="add_folder_as_attachment_fail_tips">"Ayikwazi ukwengeza ifolda njengokunamathiselwe"</string>
+	<!---->
+	<string name="choose_action_title">"Khetha isenzo"</string>
+	<!---->
+	<string name="choose_action_contact">"Yengeza oxhumana nabo: <xliff:g example="4" id="email_address">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="choose_action_email">"I-imeyili: <xliff:g example="4" id="email_address">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="choose_action_message">"Umlayezo: <xliff:g example="4" id="email_address">%1$s</xliff:g>"</string>
+	<!-- no translation found for account_setup_basics_exit_action -->
+	<skip />
+</resources>

@@ -1,0 +1,1747 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Tue Sep 20 16:24:06 CST 2016
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="permission_read_attachment_label">"读取电子邮件附件"</string>
+	<!---->
+	<string name="permission_read_attachment_desc">"允许此应用读取您的电子邮件附件。"</string>
+	<!---->
+	<string name="permission_access_provider_label">"访问电子邮件提供者数据"</string>
+	<!---->
+	<string name="permission_access_provider_desc">"允许此应用访问您的电子邮件数据库，包括已收邮件、已发邮件、用户名和密码。"</string>
+	<!---->
+	<string name="debug_title">"调试"</string>
+	<!---->
+	<string name="next_action">"下一步"</string>
+	<!---->
+	<string name="okay_action">"确定"</string>
+	<!---->
+	<string name="cancel_action">"取消"</string>
+	<!---->
+	<string name="previous_action">"上一步"</string>
+	<!---->
+	<string name="done_action">"完成"</string>
+	<!---->
+	<string name="create_action">"新建"</string>
+	<!---->
+	<string name="quick_responses_empty_view">"没有快速回复。"</string>
+	<!---->
+	<string name="account_settings_action">"帐户设置"</string>
+	<!---->
+	<string name="status_network_error">"发生连接问题。"</string>
+	<plurals name="move_messages">
+		<item quantity="one">"移动邮件"</item>
+		<item quantity="other">"移动邮件"</item>
+	</plurals>
+	<!---->
+	<string name="cannot_move_protocol_not_supported_toast">"POP3 帐户不支持移动邮件的操作。"</string>
+	<!---->
+	<string name="cannot_move_multiple_accounts_toast">"所选内容包含多个帐户的邮件，因此无法进行移动。"</string>
+	<!---->
+	<string name="cannot_move_special_mailboxes_toast">"无法移动“草稿”、“发件箱”和“已发邮件”中的邮件。"</string>
+	<!---->
+	<string name="mailbox_name_display_inbox">"收件箱"</string>
+	<!---->
+	<string name="mailbox_name_display_outbox">"发件箱"</string>
+	<!---->
+	<string name="mailbox_name_display_drafts">"草稿"</string>
+	<!---->
+	<string name="mailbox_name_display_trash">"已删除邮件"</string>
+	<!---->
+	<string name="mailbox_name_display_sent">"已发送邮件"</string>
+	<!---->
+	<string name="mailbox_name_display_junk">"垃圾邮件"</string>
+	<!---->
+	<string name="mailbox_name_display_starred">"已标记"</string>
+	<!---->
+	<string name="mailbox_name_display_unread">"未读邮件"</string>
+	<!---->
+	<string name="account_folder_list_summary_inbox">"收件箱"</string>
+	<!---->
+	<string name="account_folder_list_summary_starred">"已标记"</string>
+	<!---->
+	<string name="account_folder_list_summary_drafts">"草稿"</string>
+	<!---->
+	<string name="account_folder_list_summary_outbox">"发件箱"</string>
+	<!---->
+	<string name="mailbox_list_account_selector_combined_view">"合并的视图"</string>
+	<!---->
+	<string name="message_compose_fwd_header_fmt">"\n\n"-------- 原始邮件 --------"\n"主题：<xliff:g id="SUBJECT">%1$s</xliff:g>"\n"发件人：<xliff:g id="SENDER">%2$s</xliff:g>"\n"收件人：<xliff:g id="TO">%3$s</xliff:g>"\n"抄送：<xliff:g id="CC_0">%4$s</xliff:g>"\n\n"</string>
+	<!---->
+	<string name="message_compose_insert_quick_response_list_title">"插入快速回复"</string>
+	<!---->
+	<string name="message_compose_insert_quick_response_menu_title">"插入快速回复"</string>
+	<!---->
+	<string name="message_view_attachment_background_load">"您转发的邮件中有一个或多个附件需要先下载，然后才能发送。"</string>
+	<!---->
+	<string name="attachment_not_found">"无法下载该附件。"</string>
+	<!---->
+	<string name="message_decode_error">"解码邮件时出错。"</string>
+	<!---->
+	<string name="forward_download_failed_ticker">"一个或多个附件无法转发。"</string>
+	<!---->
+	<string name="forward_download_failed_title">"无法转发附件"</string>
+	<!---->
+	<string name="login_failed_ticker">"<xliff:g id="ACCOUNT_NAME">%s</xliff:g> 登录失败。"</string>
+	<!---->
+	<string name="login_failed_title">"无法登录"</string>
+	<plurals name="message_view_attachment_bytes">
+		<item quantity="one">"<xliff:g id="SIZE_IN_BYTES">%d</xliff:g> B"</item>
+		<item quantity="other">"<xliff:g id="SIZE_IN_BYTES">%d</xliff:g> B"</item>
+	</plurals>
+	<plurals name="message_view_attachment_kilobytes">
+		<item quantity="one">"<xliff:g id="SIZE_IN_KILOBYTES">%d</xliff:g> KB"</item>
+		<item quantity="other">"<xliff:g id="SIZE_IN_KILOBYTES">%d</xliff:g> KB"</item>
+	</plurals>
+	<plurals name="message_view_attachment_megabytes">
+		<item quantity="one">"<xliff:g id="SIZE_IN_MEGABYTES">%d</xliff:g> MB"</item>
+		<item quantity="other">"<xliff:g id="SIZE_IN_MEGABYTES">%d</xliff:g> MB"</item>
+	</plurals>
+	<plurals name="message_view_attachment_gigabytes">
+		<item quantity="one">"<xliff:g id="SIZE_IN_GIGABYTES">%d</xliff:g> GB"</item>
+		<item quantity="other">"<xliff:g id="SIZE_IN_GIGABYTES">%d</xliff:g> GB"</item>
+	</plurals>
+	<!---->
+	<string name="account_setup_basics_title">"帐户设置"</string>
+	<!---->
+	<string name="oauth_authentication_title">"正在请求授权"</string>
+	<!---->
+	<string name="sign_in_title">"登录"</string>
+	<!---->
+	<string name="oauth_error_description">"无法进行身份验证"</string>
+	<!---->
+	<string name="password_warning_label">"电子邮件地址或密码不正确"</string>
+	<!---->
+	<string name="email_confirmation_label">"电子邮件地址"</string>
+	<!---->
+	<string name="account_setup_basics_headline">"电子邮件帐户"</string>
+	<!---->
+	<string name="accounts_welcome">"只需几步操作，即可设置好您的帐户。"</string>
+	<!---->
+	<string name="account_setup_basics_email_label">"电子邮件地址"</string>
+	<!---->
+	<string name="account_setup_basics_email_flying_label">"电子邮件"</string>
+	<!---->
+	<string name="or_label">"或"</string>
+	<!---->
+	<string name="sign_in_with_google">"使用Google帐户登录"</string>
+	<!---->
+	<string name="account_setup_basics_password_label">"密码"</string>
+	<!---->
+	<string name="password_hint">"密码"</string>
+	<!---->
+	<string name="signed_in_with_service_label">"已登录%s"</string>
+	<!---->
+	<string name="authentication_label">"认证"</string>
+	<!---->
+	<string name="add_authentication_label">"添加身份验证"</string>
+	<!---->
+	<string name="clear_authentication_label">"清除身份验证"</string>
+	<!---->
+	<string name="account_setup_basics_manual_setup_action">"手动设置"</string>
+	<!---->
+	<string name="account_setup_username_password_toast">"请键入有效的电子邮件地址和密码。"</string>
+	<!---->
+	<string name="account_duplicate_dlg_title">"帐户重复"</string>
+	<!---->
+	<string name="account_duplicate_dlg_message_fmt">"帐户“<xliff:g id="DUPLICATE">%s</xliff:g>”已经使用了此用户名。"</string>
+	<!---->
+	<string name="account_password_spaces_error">"该密码的开头或结尾存在一个或多个空格。很多服务器不支持带空格的密码。"</string>
+	<!---->
+	<string name="account_setup_check_settings_retr_info_msg">"正在检索帐户信息..."</string>
+	<!---->
+	<string name="account_setup_check_settings_check_incoming_msg">"正在验证服务器设置…"</string>
+	<!---->
+	<string name="account_setup_check_settings_check_outgoing_msg">"正在验证SMTP设置…"</string>
+	<!---->
+	<string name="account_setup_creating_account_msg">"正在创建帐户…"</string>
+	<!---->
+	<string name="account_setup_ab_headline">"确认帐户类型"</string>
+	<!---->
+	<string name="account_setup_ab_instructions_format">"您已指明<xliff:g id="EMAIL">%1$s</xliff:g>使用<xliff:g id="USERPROTOCOL">%2$s</xliff:g>，但该帐户使用的可能是<xliff:g id="PROVIDERPROTOCOL">%3$s</xliff:g>"</string>
+	<!---->
+	<string name="account_setup_names_title">"帐户设置"</string>
+	<!---->
+	<string name="account_setup_names_headline">"您的帐户已设置完毕，可以收发电子邮件了！"</string>
+	<!---->
+	<string name="account_setup_names_account_name_label">"为此帐户起个名称"</string>
+	<!---->
+	<string name="account_setup_names_user_name_label">"您的姓名"</string>
+	<!---->
+	<string name="account_setup_names_user_name_empty_error">"此字段不能为空。"</string>
+	<!---->
+	<string name="account_setup_account_type_title">"帐户设置"</string>
+	<!---->
+	<string name="account_setup_account_type_headline">"帐户类型"</string>
+	<!---->
+	<string name="account_setup_account_type_instructions">"这是什么类型的帐户？"</string>
+	<!---->
+	<string name="account_setup_incoming_title">"帐户设置"</string>
+	<!---->
+	<string name="account_setup_incoming_headline">"接收服务器设置"</string>
+	<!---->
+	<string name="account_setup_incoming_username_label">"用户名"</string>
+	<!---->
+	<string name="account_setup_incoming_password_label">"密码"</string>
+	<!---->
+	<string name="account_setup_password_subheading">"密码"</string>
+	<!---->
+	<string name="account_setup_incoming_server_label">"服务器"</string>
+	<!---->
+	<string name="account_setup_incoming_port_label">"端口"</string>
+	<!---->
+	<string name="account_setup_incoming_security_label">"安全类型"</string>
+	<!---->
+	<string name="account_setup_incoming_domain_label">"域"</string>
+	<!---->
+	<string name="account_setup_incoming_add_domain_label">"添加域"</string>
+	<!---->
+	<string name="account_setup_incoming_security_none_label">"无"</string>
+	<!---->
+	<string name="account_setup_incoming_security_ssl_trust_certificates_label">"SSL/TLS（接受所有证书）"</string>
+	<!---->
+	<string name="account_setup_incoming_security_ssl_label">"SSL/TLS"</string>
+	<!---->
+	<string name="account_setup_incoming_security_tls_trust_certificates_label">"STARTTLS（接受所有证书）"</string>
+	<!---->
+	<string name="account_setup_incoming_security_tls_label">"STARTTLS"</string>
+	<!---->
+	<string name="account_setup_incoming_delete_policy_label">"从服务器中删除电子邮件"</string>
+	<!---->
+	<string name="account_setup_incoming_delete_policy_never_label">"永不"</string>
+	<!---->
+	<string name="account_setup_incoming_delete_policy_delete_label">"当从收件箱中删除时"</string>
+	<!---->
+	<string name="account_setup_incoming_imap_path_prefix_label">"IMAP 路径前缀"</string>
+	<!---->
+	<string name="account_setup_incoming_imap_path_prefix_hint">"可选"</string>
+	<!---->
+	<string name="account_setup_outgoing_title">"帐户设置"</string>
+	<!---->
+	<string name="account_setup_outgoing_headline">"外发服务器设置"</string>
+	<!---->
+	<string name="account_setup_outgoing_smtp_server_label">"SMTP 服务器"</string>
+	<!---->
+	<string name="account_setup_outgoing_port_label">"端口"</string>
+	<!---->
+	<string name="account_setup_outgoing_security_label">"安全类型"</string>
+	<!---->
+	<string name="account_setup_outgoing_require_login_label">"要求登录"</string>
+	<!---->
+	<string name="account_setup_outgoing_username_label">"用户名"</string>
+	<!---->
+	<string name="account_setup_outgoing_password_label">"密码"</string>
+	<!---->
+	<string name="account_setup_exchange_certificate_title">"客户端证书"</string>
+	<!---->
+	<string name="account_setup_exchange_select_certificate">"选择"</string>
+	<!---->
+	<string name="account_setup_exchange_use_certificate">"使用客户端证书"</string>
+	<!---->
+	<string name="account_setup_exchange_remove_certificate">"删除"</string>
+	<!---->
+	<string name="account_setup_exchange_no_certificate">"无"</string>
+	<!---->
+	<string name="account_setup_exchange_device_id_label">"移动设备 ID"</string>
+	<!---->
+	<string name="account_setup_options_title">"帐户设置"</string>
+	<!---->
+	<string name="account_setup_options_headline">"帐户选项"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_label">"同步频率"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_never">"永不"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_push">"自动（推送）"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_5min">"每 5 分钟"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_10min">"每 10 分钟"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_15min">"每 15 分钟"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_30min">"每 30 分钟"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_1hour">"每小时"</string>
+	<!---->
+	<string name="account_setup_options_notify_label">"收到电子邮件时通知我"</string>
+	<!---->
+	<string name="account_setup_options_sync_contacts_label">"同步此帐户下的联系人。"</string>
+	<!---->
+	<string name="account_setup_options_sync_calendar_label">"同步此帐户下的日历。"</string>
+	<!---->
+	<string name="account_setup_options_sync_email_label">"同步此帐户中的电子邮件"</string>
+	<!---->
+	<string name="account_setup_options_background_attachments_label">"连接到 WLAN 后自动下载附件"</string>
+	<!---->
+	<string name="account_setup_failed_dlg_title">"无法完成"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_label">"同步最近多少天的邮件"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_auto">"自动"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1day">"最近一天"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_3days">"最近三天"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1week">"最近一周"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_2weeks">"最近两周"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1month">"上月"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_all">"全部"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_default">"使用帐户的默认设置"</string>
+	<!---->
+	<string name="account_setup_failed_dlg_auth_message">"用户名或密码不正确。"</string>
+	<!---->
+	<string name="account_setup_failed_dlg_auth_message_fmt">"登录失败。\n(<xliff:g id="ERROR">%s</xliff:g>)"</string>
+	<!---->
+	<string name="account_setup_autodiscover_dlg_authfail_title">"设置帐户时出现问题"</string>
+	<!---->
+	<string name="account_setup_autodiscover_dlg_authfail_message">"请确认用户名、密码和帐户设置均正确无误。"</string>
+	<!---->
+	<string name="account_setup_failed_dlg_certificate_message">"无法建立与服务器的链接因为不信任或无效的证书。"</string>
+	<!---->
+	<string name="account_setup_failed_dlg_certificate_message_fmt">"无法安全地连接到服务器。\n（<xliff:g id="ERROR">%s</xliff:g>）"</string>
+	<!---->
+	<string name="account_setup_failed_certificate_required">"需要客户端证书。要通过客户端证书连接到服务器吗？"</string>
+	<!---->
+	<string name="account_setup_failed_certificate_inaccessible">"证书无效或无法使用。"</string>
+	<!---->
+	<string name="account_setup_failed_check_credentials_message">"该服务器返回了包含错误讯息的响应。请检查您的用户名和密码，然后重试。"</string>
+	<!---->
+	<string name="account_setup_failed_dlg_server_message">"无法连接到服务器。"</string>
+	<!---->
+	<string name="account_setup_failed_dlg_server_message_fmt">"无法连接到服务器。\n（<xliff:g id="ERROR">%s</xliff:g>）"</string>
+	<!---->
+	<string name="account_setup_failed_tls_required">"需要 TLS，但服务器不支持 TLS。"</string>
+	<!---->
+	<string name="account_setup_failed_auth_required">"服务器不支持身份验证方法。"</string>
+	<!---->
+	<string name="account_setup_failed_security">"由于网络或安全错误，无法连接到服务器。"</string>
+	<!---->
+	<string name="account_setup_failed_ioerror">"无法连接到服务器。"</string>
+	<!---->
+	<string name="account_setup_failed_protocol_unsupported">"您键入的服务器地址不正确，或电子邮件服务不支持该服务器需要的协议版本。"</string>
+	<!---->
+	<string name="account_setup_failed_access_denied">"您没有与此服务器同步的权限。要了解详情，请与您服务器的管理员联系。"</string>
+	<!---->
+	<string name="account_setup_security_required_title">"远程安全管理"</string>
+	<!---->
+	<string name="account_setup_security_policies_required_fmt">"“<xliff:g id="SERVER">%s</xliff:g>”服务器要求您允许其远程控制您 Android 设备的某些安全功能。您想要完成此帐户设置吗？"</string>
+	<!---->
+	<string name="account_setup_failed_security_policies_unsupported">"您的 Android 设备不支持此服务器要求使用的安全功能，其中包括：<xliff:g id="ERROR">%s</xliff:g>"</string>
+	<!---->
+	<string name="account_setup_username_uneditable_error">"您无法更改帐户的用户名。要添加使用其他用户名的帐户，请轻触“添加帐户”。"</string>
+	<!---->
+	<string name="disable_admin_warning">"警告：撤消“电子邮件”应用程序管理您设备的权限会删除所有需要此权限的电子邮件帐户，以及这些帐户中的电子邮件、联系人、日历活动和其他数据。"</string>
+	<!---->
+	<string name="account_security_dialog_title">"安全更新"</string>
+	<!---->
+	<string name="account_security_dialog_content_fmt">"<xliff:g id="account">%s</xliff:g> 要求更新您的安全设置。"</string>
+	<!---->
+	<string name="security_unsupported_ticker_fmt">"帐户“<xliff:g id="ACCOUNT">%s</xliff:g>”由于安全要求而无法同步。"</string>
+	<!---->
+	<string name="security_needed_ticker_fmt">"帐户“<xliff:g id="ACCOUNT">%s</xliff:g>”要求更新安全设置。"</string>
+	<!---->
+	<string name="security_changed_ticker_fmt">"帐户“<xliff:g id="ACCOUNT">%s</xliff:g>”已更改其安全设置，用户无需进行任何操作。"</string>
+	<!---->
+	<string name="security_notification_content_update_title">"需要进行安全更新"</string>
+	<!---->
+	<string name="security_notification_content_change_title">"安全政策已更改"</string>
+	<!---->
+	<string name="security_notification_content_unsupported_title">"无法满足安全政策的要求"</string>
+	<!---->
+	<string name="account_security_title">"设备安全性"</string>
+	<!---->
+	<string name="account_security_policy_explanation_fmt">"“<xliff:g id="server">%s</xliff:g>”服务器要求您允许其远程控制您 Android 设备的某些安全功能。"</string>
+	<!---->
+	<string name="account_setup_failed_dlg_edit_details_action">"修改设置"</string>
+	<!---->
+	<string name="password_expire_warning_ticker_fmt">"“<xliff:g id="account">%s</xliff:g>”要求更改锁定屏幕 PIN 或密码。"</string>
+	<!---->
+	<string name="password_expire_warning_content_title">"锁定屏幕密码即将过期"</string>
+	<!---->
+	<string name="password_expired_ticker">"您的锁定屏幕 PIN 或密码已过期。"</string>
+	<!---->
+	<string name="password_expired_content_title">"锁定屏幕密码已过期"</string>
+	<!---->
+	<string name="password_expire_warning_dialog_title">"锁定屏幕密码即将过期"</string>
+	<!---->
+	<string name="password_expire_warning_dialog_content_fmt">"您需要尽快更改锁定屏幕 PIN 或密码，否则系统将会清除 <xliff:g id="ACCOUNT">%s</xliff:g> 的数据。要立即更改吗？"</string>
+	<!---->
+	<string name="password_expired_dialog_title">"锁定屏幕密码已过期"</string>
+	<!---->
+	<string name="password_expired_dialog_content_fmt">"<xliff:g id="ACCOUNT">%s</xliff:g> 的数据已从设备中清除。您可以通过更改锁定屏幕 PIN 或密码来还原这些数据。要立即更改吗？"</string>
+	<!---->
+	<string name="account_settings_exit_server_settings">"要舍弃未保存的更改？"</string>
+	<!---->
+	<string name="account_settings_login_dialog_title">"无法登录"</string>
+	<!---->
+	<string name="account_settings_login_dialog_content_fmt">"<xliff:g id="account">%s</xliff:g> 的用户名或密码错误。要立即更新吗？"</string>
+	<!---->
+	<string name="account_settings_login_dialog_reason_fmt">"无法登录 <xliff:g id="ACCOUNT">%s</xliff:g>；服务器提示：<xliff:g id="REASON">%s</xliff:g>。您要更新自己的用户名和/或密码吗？"</string>
+	<!---->
+	<string name="account_settings_background_attachments_label">"下载附件"</string>
+	<!---->
+	<string name="account_settings_background_attachments_summary">"通过 WLAN 自动下载最新邮件的附件"</string>
+	<!---->
+	<string name="account_settings_notify_label">"电子邮件通知"</string>
+	<!---->
+	<string name="account_settings_summary">"同步频率、通知等。"</string>
+	<!---->
+	<string name="account_settings_notify_summary">"收到电子邮件时发送通知"</string>
+	<!---->
+	<string name="account_settings_mail_check_frequency_label">"同步频率"</string>
+	<!---->
+	<string name="account_settings_incoming_label">"接收设置"</string>
+	<!---->
+	<string name="account_settings_incoming_summary">"用户名、密码和其他接收服务器设置"</string>
+	<!---->
+	<string name="account_settings_outgoing_label">"外发设置"</string>
+	<!---->
+	<string name="account_settings_outgoing_summary">"用户名、密码和其他外发服务器设置"</string>
+	<!---->
+	<string name="account_settings_reply_to_category">"回复设置"</string>
+	<!---->
+	<string name="account_settings_reply_to_label">"回复给"</string>
+	<!---->
+	<string name="account_settings_reply_to_invalid">"地址是不合法的"</string>
+	<!---->
+	<string name="account_settings_enforced_label">"政策已执行"</string>
+	<!---->
+	<string name="account_settings_enforced_summary">"无"</string>
+	<!---->
+	<string name="account_settings_unsupported_label">"政策不支持"</string>
+	<!---->
+	<string name="account_settings_unsupported_summary">"无"</string>
+	<!---->
+	<string name="account_settings_retry_label">"尝试同步"</string>
+	<!---->
+	<string name="account_settings_retry_summary">"轻触此处以同步此帐户"</string>
+	<!---->
+	<string name="account_settings_description_label">"帐户名称"</string>
+	<!---->
+	<string name="account_settings_name_label">"您的姓名"</string>
+	<!---->
+	<string name="account_settings_edit_quick_responses_label">"快速回复"</string>
+	<!---->
+	<string name="account_settings_edit_quick_responses_summary">"编辑撰写电子邮件时经常插入的文本"</string>
+	<!---->
+	<string name="account_settings_notifications">"通知设置"</string>
+	<!---->
+	<string name="account_settings_data_usage">"数据使用"</string>
+	<!---->
+	<string name="account_settings_policies">"安全政策"</string>
+	<!---->
+	<string name="system_folders_title">"系统文件夹"</string>
+	<!---->
+	<string name="system_folders_trash_title">"已删除邮件文件夹"</string>
+	<!---->
+	<string name="system_folders_trash_summary">"选择您在服务器上的已删除邮件文件夹"</string>
+	<!---->
+	<string name="system_folders_trash_dlg">"选择您在服务器上的已删除邮件文件夹"</string>
+	<!---->
+	<string name="system_folders_sent_title">"已发邮件文件夹"</string>
+	<!---->
+	<string name="system_folders_sent_summary">"选择您在服务器上的已发邮件文件夹"</string>
+	<!---->
+	<string name="system_folders_sent_dlg">"选择您在服务器上的已发邮件文件夹"</string>
+	<!---->
+	<string name="edit_quick_response_dialog">"快速回复"</string>
+	<!---->
+	<string name="save_action">"保存"</string>
+	<!---->
+	<string name="account_settings_sync_contacts_enable">"同步联系人"</string>
+	<!---->
+	<string name="account_settings_sync_contacts_summary">"同步此帐户的联系人"</string>
+	<!---->
+	<string name="account_settings_sync_calendar_enable">"同步日历"</string>
+	<!---->
+	<string name="account_settings_sync_calendar_summary">"同步此帐户中的日历活动"</string>
+	<!---->
+	<string name="account_settings_sync_email_enable">"同步电子邮件"</string>
+	<!---->
+	<string name="account_settings_sync_email_summary">"同步此帐户的电子邮件"</string>
+	<!---->
+	<string name="account_settings_vibrate_when_label">"振动"</string>
+	<!---->
+	<string name="account_settings_ringtone">"选择铃声"</string>
+	<!---->
+	<string name="account_settings_servers">"服务器设置"</string>
+	<!---->
+	<string name="default_ringtone">"默认铃声"</string>
+	<!---->
+	<string name="default_ringtone_unkonwn">"未知铃声"</string>
+	<!---->
+	<string name="mailbox_settings_activity_title">"同步选项"</string>
+	<!---->
+	<string name="mailbox_settings_activity_title_with_mailbox">"同步选项（<xliff:g id="MAILBOXX_NAME">%s</xliff:g>）"</string>
+	<!---->
+	<string name="mailbox_settings_sync_enabled_label">"同步此文件夹"</string>
+	<!---->
+	<string name="mailbox_settings_sync_enabled_summary">"连接到网络后下载邮件"</string>
+	<!---->
+	<string name="mailbox_settings_mailbox_sync_window_label">"同步最近多少天的邮件"</string>
+	<!---->
+	<string name="prefDialogTitle_conversationListIcon">"发件人头像"</string>
+	<!---->
+	<string name="provider_note_live">"只有某些“Plus”帐户支持 POP 访问而允许此程序进行连接。如果您使用正确的电子邮件地址和密码无法登录，则可能还未开通付费的“Plus”帐户。请启动网络浏览器以获取对这些电子邮件帐户的访问权限。"</string>
+	<!---->
+	<string name="provider_note_t_online">"在设置该电子邮件帐户之前，请访问 T-Online 网站，为访问 POP3 电子邮件创建密码。"</string>
+	<!---->
+	<string name="exchange_name">"公司"</string>
+	<!---->
+	<string name="exchange_name_alternate">"Microsoft Exchange ActiveSync"</string>
+	<!---->
+	<string name="system_account_create_failed">"无法创建帐户，请重试。"</string>
+	<!---->
+	<string name="device_admin_label">"电子邮件"</string>
+	<!---->
+	<string name="device_admin_description">"启用指定服务器的安全政策"</string>
+	<!---->
+	<string name="settings_activity_title">"设置"</string>
+	<!---->
+	<string name="header_label_general_preferences">"常规设置"</string>
+	<!---->
+	<string name="general_preference_confirm_delete_label">"删除前先确认"</string>
+	<!---->
+	<string name="general_preference_confirm_send_label">"发送前先确认"</string>
+	<!---->
+	<string name="more_than_999">"999+"</string>
+	<!---->
+	<string name="search_hint">"搜索"</string>
+	<!---->
+	<string name="policy_dont_allow_camera">"不允许使用设备的相机"</string>
+	<!---->
+	<string name="policy_require_password">"需要设备密码"</string>
+	<!---->
+	<string name="policy_password_history">"限制重复使用近期所用密码"</string>
+	<!---->
+	<string name="policy_password_expiration">"强制密码在一段时间后过期"</string>
+	<!---->
+	<string name="policy_screen_timeout">"要求闲置设备锁定其屏幕"</string>
+	<!---->
+	<string name="policy_calendar_age">"限制同步的日历活动数"</string>
+	<!---->
+	<string name="policy_email_age">"限制同步的电子邮件数"</string>
+	<!---->
+	<string name="quick_1">"谢谢"</string>
+	<!---->
+	<string name="quick_2">"这主意不错"</string>
+	<!---->
+	<string name="quick_3">"稍后我会阅读此邮件并给您回复。"</string>
+	<!---->
+	<string name="quick_4">"我们可以安排一个会议，讨论一下这个问题。"</string>
+	<!---->
+	<string name="require_manual_sync_message">"漫游时停用了此帐户的后台同步功能。"</string>
+	<!---->
+	<string name="confirm_response">"正在发送回复…"</string>
+	<!---->
+	<string name="no_conversations">"无信息。"</string>
+	<!-- no translation found for imap_name -->
+	<skip />
+	<!-- no translation found for pop3_name -->
+	<skip />
+	<!---->
+	<string name="email_name">"电子邮件"</string>
+	<!---->
+	<string name="folder_picker_title">"文件夹选取"</string>
+	<!---->
+	<string name="trash_folder_selection_title">"选择 <xliff:g id="ACCOUNT">%s</xliff:g> 在服务器上的已删除邮件文件夹"</string>
+	<!---->
+	<string name="sent_folder_selection_title">"选择 <xliff:g id="ACCOUNT">%s</xliff:g> 在服务器上的已发邮件文件夹"</string>
+	<!---->
+	<string name="account_waiting_for_folders_msg">"正在加载文件夹列表…"</string>
+	<!---->
+	<string name="no_quick_responses">"没有可供选择的快速回复"</string>
+	<!---->
+	<string name="gmail_name">"Gmail"</string>
+	<!---->
+	<string name="folder_sync_settings_pref_title">"文件夹同步设置"</string>
+	<!---->
+	<string name="select_your_account">"选择账户"</string>
+	<!---->
+	<string name="select_account_list_below">"请从下面清单中选择您的账户:"</string>
+	<!---->
+	<string name="cancel_label">"取消"</string>
+	<!---->
+	<string name="next_label">"下一步"</string>
+	<!---->
+	<string name="str_account_provider_other">"其他"</string>
+	<!---->
+	<string name="account_settings_download_options_label">"下载选项"</string>
+	<!---->
+	<string name="account_setting_download_opt_headonly">"仅邮件标头"</string>
+	<!---->
+	<string name="account_setting_download_opt_all">"全部"</string>
+	<!-- no translation found for account_setting_download_opt_2k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_5k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_10k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_20k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_50k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_100k -->
+	<skip />
+	<!---->
+	<string name="account_oof_error_tip_past">"结束时间不能是过去的时间，请修改为未来的时间"</string>
+	<!---->
+	<string name="account_oof_error_tip_earlier">"结束时间不可早于开始时间。请再次更改结束时间。"</string>
+	<!---->
+	<string name="account_setting_oof_label">"离开办公室设置"</string>
+	<!---->
+	<string name="oof_auto_repley">"发送离开自动回复"</string>
+	<!---->
+	<string name="oof_auto_replies_period">"在此期间发送自动回复"</string>
+	<!---->
+	<string name="start_time">"开始时间"</string>
+	<!---->
+	<string name="end_time">"结束时间"</string>
+	<!---->
+	<string name="internal_message">"内部信息"</string>
+	<!---->
+	<string name="oof_auto_replies_external_senders">"发送自动回复给外部发件人"</string>
+	<!---->
+	<string name="oof_choice_oof_in_contacts">"当发件人为我的联系人时，自动回复离开办公室"</string>
+	<!---->
+	<string name="oof_choice_oof_outside_organisation">"自动回复离开办公室给不在我组织内的人"</string>
+	<!---->
+	<string name="external_message">"外部信息"</string>
+	<!---->
+	<string name="oof_done_message_attention">"您还没有写一个自动回复邮件。如果你留下空白,一封空邮件将被发送。其他被指定的离开办公室的设置依旧生效。您需要继续操作吗?"</string>
+	<!---->
+	<string name="oof_choice_in_contacts">"发送给我联系人列表里的发件人"</string>
+	<!---->
+	<string name="oof_choice_all_senders">"发送给所有的发件人"</string>
+	<!---->
+	<string name="hint_text_of_internal_message">"回复给组织内的邮箱地址"</string>
+	<!---->
+	<string name="hint_text_of_external_message">"回复给组织外的邮箱地址"</string>
+	<!---->
+	<string name="account_delete_dlg_title">"删除帐户？"</string>
+	<!---->
+	<string name="account_delete_dlg_instructions_fmt">"将会从电子邮件中删除“<xliff:g id="ACCOUNT">%s</xliff:g>”帐户。"</string>
+	<!---->
+	<string name="account_delete_dlg_instructions_fmt_new">"删除该帐户会从手机中删除所有相关的邮件、联系人以及其它数据。"</string>
+	<!---->
+	<string name="account_delete_dlg_action_remove_label">"删除"</string>
+	<!---->
+	<string name="account_delete_dlg_action_cancel_label">"取消"</string>
+	<!---->
+	<string name="account_settings_category_delete_account">"删除帐户"</string>
+	<!---->
+	<string name="account_settings_delete_account_label">"删除帐户"</string>
+	<!---->
+	<string name="account_settings_default_label">"默认帐户"</string>
+	<!---->
+	<string name="account_settings_default_summary">"默认情况下用此帐户发送电子邮件"</string>
+	<!---->
+	<string name="account_setup_options_default_label">"默认情况下从此帐户发送电子邮件。"</string>
+	<!---->
+	<string name="account_setup_basics_default_label">"默认情况下从此帐户发送电子邮件。"</string>
+	<!---->
+	<string name="local_search_action">"本地查找"</string>
+	<!---->
+	<string name="service_search_action">"从服务器搜索"</string>
+	<!---->
+	<string name="local_search_all">"全部"</string>
+	<!---->
+	<string name="local_search_from">"从"</string>
+	<!---->
+	<string name="local_search_to">"收件人"</string>
+	<!---->
+	<string name="local_search_subject">"主题"</string>
+	<!---->
+	<string name="status_loading_attachments">"正在加载"</string>
+	<!---->
+	<string name="account_use_proxy_label">"使用代理"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_label">"代理IP"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_port_label">"代理端口"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_name">"代理用户"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_password">"代理密码"</string>
+	<!---->
+	<string name="attachment_info_dialog_wifi_title">"需要使用 Wi-Fi 连接"</string>
+	<!---->
+	<string name="attachment_info_wifi_settings">"Wi-Fi 设置"</string>
+	<!---->
+	<string name="attachment_info_wifi_only">"附件过大，无法通过移动网络下载。您可以在下次连接到 WLAN网络时下载。"</string>
+	<!---->
+	<string name="attachment_info_ok">"确定"</string>
+	<!---->
+	<string name="mailbox_name_display_draft">"草稿"</string>
+	<!---->
+	<string name="message_compose_display_name">"<xliff:g id="NAME">%1$s</xliff:g>以及其他 <xliff:g id="NUMBER">%2$d</xliff:g> 人"</string>
+	<!---->
+	<string name="app_name">"电子邮件"</string>
+	<!---->
+	<string name="from">"发件人"</string>
+	<!---->
+	<string name="to">"收件人"</string>
+	<!---->
+	<string name="cc">"抄送"</string>
+	<!---->
+	<string name="bcc">"密送："</string>
+	<!---->
+	<string name="subject_hint">"主题"</string>
+	<!---->
+	<string name="body_hint">"撰写电子邮件"</string>
+	<!---->
+	<string name="add_file_attachment">"添加附件"</string>
+	<!---->
+	<string name="add_photo_attachment">"附加图片"</string>
+	<!---->
+	<string name="save_draft">"保存草稿"</string>
+	<!---->
+	<string name="discard">"丢弃"</string>
+	<!---->
+	<string name="compose">"写邮件"</string>
+	<!---->
+	<string name="select_contacts_field">"选择联系人"</string>
+	<!---->
+	<string name="item_save_group">"保存组"</string>
+	<!---->
+	<string name="confirm_select">"选择"</string>
+	<!---->
+	<string name="cancel_select">"取消"</string>
+	<string-array name="compose_modes">
+		<item>"回复"</item>
+		<item>"全部回复"</item>
+		<item>"转发"</item>
+	</string-array>
+	<string-array name="compose_modes_without_reply_all">
+		<item>"回复"</item>
+		<item>"转发"</item>
+	</string-array>
+	<!---->
+	<string name="reply_subject_label">"回复："</string>
+	<!---->
+	<string name="forward_subject_label">"转发："</string>
+	<!---->
+	<string name="reply_attribution">"于 <xliff:g id="date">%s</xliff:g>, <xliff:g id="person">%s</xliff:g> 写道:"</string>
+	<!---->
+	<string name="forward_attribution">"转发的邮件; 发件人;日期;主题;收件人"</string>
+	<!---->
+	<string name="forward_attribution_with_headers">"---------- 转发的邮件 ---------- <xliff:g id="a">%s</xliff:g> 发件人: <xliff:g id="from">%s</xliff:g> <xliff:g id="b">%s</xliff:g> 日期: <xliff:g id="date">%s</xliff:g> <xliff:g id="c">%s</xliff:g> 主题: <xliff:g id="subject">%s</xliff:g> <xliff:g id="d">%s</xliff:g> 收件人: <xliff:g id="to">%s</xliff:g> <xliff:g id="e">%s</xliff:g> 抄送: <xliff:g id="cc">%s</xliff:g> <br/>"</string>
+	<!---->
+	<string name="forward_attribution_no_headers">"---------- 转发的邮件 ----------"</string>
+	<!---->
+	<string name="cc_attribution">"抄送："</string>
+	<!---->
+	<string name="select_attachment_type">"选择附件类型"</string>
+	<!---->
+	<string name="too_large_to_attach_single">"不能附加大小超过 %1$s 的文件。"</string>
+	<!---->
+	<string name="too_large_to_attach_multiple">"未能附加一个或多个文件。上限为 <xliff:g id="maxSize">%1$s</xliff:g>。"</string>
+	<!---->
+	<string name="too_large_to_mid_attach_additional">"你的邮件超过<xliff:g id="maxSize">%1$s</xliff:g>。你的电子邮件账户可能不支持这一点。"</string>
+	<!---->
+	<string name="too_large_to_attach_additional">"不能添加文件。邮件大小超过<xliff:g id="maxSize">%1$s</xliff:g>限制。"</string>
+	<!---->
+	<string name="generic_attachment_problem">"无法附加文件。"</string>
+	<!---->
+	<string name="recipient_needed">"请至少添加一位收件人。"</string>
+	<!---->
+	<string name="recipient_error_dialog_title">"收件人出错"</string>
+	<!---->
+	<string name="confirm_send_title">"要发送邮件吗？"</string>
+	<!---->
+	<string name="confirm_send_message_with_no_subject">"邮件主题中没有文字。"</string>
+	<!---->
+	<string name="confirm_send_message_with_no_body">"邮件正文中没有文字。"</string>
+	<!---->
+	<string name="confirm_send_message">"要发送此邮件吗？"</string>
+	<!---->
+	<string name="message_discarded">"邮件已舍弃。"</string>
+	<!-- no translation found for signature -->
+	<skip />
+	<!---->
+	<string name="custom_from_account_label">"用以下地址发送邮件："</string>
+	<!---->
+	<string name="send">"发送"</string>
+	<!---->
+	<string name="mark_read">"标记为已读"</string>
+	<!---->
+	<string name="mark_unread">"标记为未读"</string>
+	<!---->
+	<string name="mute">"静音"</string>
+	<!---->
+	<string name="add_star">"加注星标"</string>
+	<!---->
+	<string name="remove_star">"删除星标"</string>
+	<!---->
+	<string name="remove_folder">"从<xliff:g id="folderName">%1$s</xliff:g>中删除"</string>
+	<!---->
+	<string name="archive">"归档"</string>
+	<!---->
+	<string name="report_spam">"举报垃圾邮件"</string>
+	<!---->
+	<string name="mark_not_spam">"这不是垃圾邮件"</string>
+	<!---->
+	<string name="report_phishing">"举报网上诱骗行为"</string>
+	<!---->
+	<string name="delete">"删除"</string>
+	<!---->
+	<string name="discard_drafts">"舍弃草稿"</string>
+	<!---->
+	<string name="discard_failed">"丢弃失败"</string>
+	<!---->
+	<string name="refresh">"刷新"</string>
+	<!---->
+	<string name="reply">"回复"</string>
+	<!---->
+	<string name="reply_all">"全部回复"</string>
+	<!---->
+	<string name="resume_draft">"编辑"</string>
+	<!---->
+	<string name="forward">"转发"</string>
+	<!---->
+	<string name="menu_compose">"撰写"</string>
+	<!---->
+	<string name="menu_sort">"排序"</string>
+	<!---->
+	<string name="menu_change_folders">"更改文件夹"</string>
+	<!---->
+	<string name="menu_move_to">"移至"</string>
+	<!---->
+	<string name="menu_move_to_inbox">"移至收件箱"</string>
+	<!---->
+	<string name="menu_manage_folders">"文件夹设置"</string>
+	<!---->
+	<string name="menu_show_original">"撤消自动重设大小"</string>
+	<!---->
+	<string name="menu_settings">"设置"</string>
+	<!---->
+	<string name="menu_search">"搜索"</string>
+	<!---->
+	<string name="drawer_title">"导航"</string>
+	<!---->
+	<string name="mark_important">"标记为重要"</string>
+	<!---->
+	<string name="mark_not_important">"标记为不重要"</string>
+	<!---->
+	<string name="select_all_conversations">"全选"</string>
+	<!---->
+	<string name="unselect_all_conversations">"取消全选"</string>
+	<!---->
+	<string name="add_cc_label">"添加抄送/密送地址"</string>
+	<!---->
+	<string name="add_bcc_label">"添加密送地址"</string>
+	<!---->
+	<string name="quoted_text">"包含引用文字"</string>
+	<!---->
+	<string name="quoted_text_label">"引用文字"</string>
+	<!---->
+	<string name="respond_inline">"内联回复"</string>
+	<!---->
+	<string name="bytes">"<xliff:g id="count">%s</xliff:g> B"</string>
+	<!---->
+	<string name="kilobytes">"<xliff:g id="count">%s</xliff:g> KB"</string>
+	<!---->
+	<string name="megabytes">"<xliff:g id="count">%s</xliff:g> MB"</string>
+	<!---->
+	<string name="attachment_image">"图片"</string>
+	<!---->
+	<string name="attachment_video">"视频"</string>
+	<!---->
+	<string name="attachment_audio">"音频"</string>
+	<!---->
+	<string name="attachment_text">"文字"</string>
+	<!---->
+	<string name="attachment_application_msword">"文档"</string>
+	<!---->
+	<string name="attachment_application_vnd_ms_powerpoint">"演示文稿"</string>
+	<!---->
+	<string name="attachment_application_vnd_ms_excel">"电子表格"</string>
+	<!-- no translation found for attachment_application_pdf -->
+	<skip />
+	<!---->
+	<string name="attachment_unknown">"<xliff:g id="attachmentExtension">%s</xliff:g> 文件"</string>
+	<!---->
+	<string name="preview_attachment">"预览"</string>
+	<!---->
+	<string name="save_attachment">"保存"</string>
+	<!---->
+	<string name="cancel_attachment">"取消"</string>
+	<!---->
+	<string name="open_attachment">"打开"</string>
+	<!---->
+	<string name="install_attachment">"安装"</string>
+	<!---->
+	<string name="download_again">"再次下载"</string>
+	<!---->
+	<string name="more_info_attachment">"信息"</string>
+	<!---->
+	<string name="no_application_found">"无应用可打开此附件，因此无法查看。"</string>
+	<!---->
+	<string name="fetching_attachment">"正在提取附件"</string>
+	<!---->
+	<string name="please_wait">"请稍候..."</string>
+	<!---->
+	<string name="saved">"已保存，"</string>
+	<!---->
+	<string name="download_failed">"无法下载。请触摸以重试。"</string>
+	<!---->
+	<string name="menu_photo_save_all">"全部保存"</string>
+	<!---->
+	<string name="menu_photo_share">"分享"</string>
+	<!---->
+	<string name="menu_photo_share_all">"全部分享"</string>
+	<!---->
+	<string name="menu_photo_print">"打印"</string>
+	<!---->
+	<string name="saving">"正在保存…"</string>
+	<!---->
+	<string name="choosertitle_sharevia">"分享方式"</string>
+	<!---->
+	<string name="contextmenu_openlink">"在“浏览器”中打开"</string>
+	<!---->
+	<string name="contextmenu_copy">"复制"</string>
+	<!---->
+	<string name="contextmenu_copylink">"复制链接网址"</string>
+	<!---->
+	<string name="contextmenu_view_image">"查看图片"</string>
+	<!---->
+	<string name="contextmenu_dial_dot">"拨号"</string>
+	<!---->
+	<string name="contextmenu_sms_dot">"短信..."</string>
+	<!---->
+	<string name="contextmenu_add_contact">"添加联系人"</string>
+	<!---->
+	<string name="contextmenu_send_mail">"发送电子邮件"</string>
+	<!---->
+	<string name="contextmenu_map">"地图"</string>
+	<!---->
+	<string name="contextmenu_sharelink">"分享链接"</string>
+	<!---->
+	<string name="contextmenu_savelink">"保存链接"</string>
+	<!---->
+	<string name="contextmenu_help">"帮助"</string>
+	<!---->
+	<string name="contextmenu_feedback">"发送反馈"</string>
+	<!---->
+	<string name="sort_title">"排序"</string>
+	<!---->
+	<string name="sort_by_tip">"按<xliff:g id="sor_type">%s</xliff:g>排序"</string>
+	<!-- no translation found for num_selected -->
+	<skip />
+	<plurals name="move_conversation">
+		<item quantity="one">"移动会话"</item>
+		<item quantity="other">"移动 <xliff:g>%1$d</xliff:g> 个会话"</item>
+	</plurals>
+	<!---->
+	<string name="content_description">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g>；主题为<xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g>, <xliff:g id="date">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g>"</string>
+	<!---->
+	<string name="content_description_today">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g>；主题： <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g>, <xliff:g id="time">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g>"</string>
+	<!---->
+	<string name="read_string">"已读会话"</string>
+	<!---->
+	<string name="unread_string">"未读会话"</string>
+	<!---->
+	<string name="filtered_tag">"[<xliff:g id="TAG">%1$s</xliff:g>] <xliff:g id="SUBJECT">%2$s</xliff:g>"</string>
+	<!-- no translation found for badge_and_subject -->
+	<skip />
+	<plurals name="draft">
+		<item quantity="one">"草稿"</item>
+		<item quantity="other">"草稿"</item>
+	</plurals>
+	<!---->
+	<string name="sending">"正在发送…"</string>
+	<!---->
+	<string name="message_retrying">"正在重试\u2026"</string>
+	<!---->
+	<string name="message_failed">"失败"</string>
+	<!---->
+	<string name="send_failed">"发送邮件失败"</string>
+	<!---->
+	<string name="send_failed_wait_attchment_downloaded">"附件未下载，无法转发，请先下载附件"</string>
+	<!---->
+	<string name="me_object_pronoun">"我"</string>
+	<!---->
+	<string name="me_subject_pronoun">"我"</string>
+	<plurals name="confirm_delete_conversation">
+		<item quantity="one">"要删除此会话吗？"</item>
+		<item quantity="other">"要删除这 <xliff:g id="count">%1$d</xliff:g> 个会话吗？"</item>
+	</plurals>
+	<plurals name="confirm_archive_conversation">
+		<item quantity="one">"要将此会话归档吗？"</item>
+		<item quantity="other">"要将这 <xliff:g id="COUNT">%1$d</xliff:g> 个会话存档吗？"</item>
+	</plurals>
+	<plurals name="confirm_discard_drafts_conversation">
+		<item quantity="one">"要舍弃此邮件吗？"</item>
+		<item quantity="other">"要舍弃这 <xliff:g id="count">%1$d</xliff:g> 个邮件吗？"</item>
+	</plurals>
+	<!---->
+	<string name="confirm_discard_text">"要舍弃此邮件吗？"</string>
+	<!---->
+	<string name="loading_conversations">"正在载入..."</string>
+	<!---->
+	<string name="empty_inbox">"你所有的事情都做完！请享受你的一天。"</string>
+	<!---->
+	<string name="empty_search">"哎呀！我们没有找到任何的\"<xliff:g id="search_query">%1$s</xliff:g>\"。"</string>
+	<!---->
+	<string name="empty_spam_folder">"万岁，这里没有垃圾"</string>
+	<!---->
+	<string name="empty_trash_folder">"这里没有垃圾。谢谢回收！"</string>
+	<!---->
+	<string name="empty_folder">"没有邮件。"</string>
+	<!---->
+	<string name="getting_messages">"得到你的消息"</string>
+	<!---->
+	<string name="undo">"还原"</string>
+	<plurals name="conversation_unstarred">
+		<item quantity="one">"正在取消 <xliff:g id="COUNT">%1$d</xliff:g> 个会话的星标。"</item>
+		<item quantity="other">"正在取消 <xliff:g id="COUNT">%1$d</xliff:g> 个会话的星标。"</item>
+	</plurals>
+	<plurals name="conversation_muted">
+		<item quantity="one">"已忽略 <b><xliff:g id="count">%1$d</xliff:g></b> 个会话。"</item>
+		<item quantity="other">"已忽略 <b><xliff:g id="count">%1$d</xliff:g></b> 个会话。"</item>
+	</plurals>
+	<plurals name="conversation_spammed">
+		<item quantity="one">"已将 <b><xliff:g id="count">%1$d</xliff:g></b> 个会话举报为垃圾邮件。"</item>
+		<item quantity="other">"已将 <b><xliff:g id="count">%1$d</xliff:g></b> 个会话举报为垃圾邮件。"</item>
+	</plurals>
+	<plurals name="conversation_not_spam">
+		<item quantity="one">"已将 <b><xliff:g id="count">%1$d</xliff:g></b> 个会话举报为非垃圾邮件。"</item>
+		<item quantity="other">"已将 <b><xliff:g id="count">%1$d</xliff:g></b> 个会话举报为非垃圾邮件。"</item>
+	</plurals>
+	<plurals name="conversation_not_important">
+		<item quantity="one">"已将 <b><xliff:g id="count">%1$d</xliff:g></b> 个会话标记为不重要。"</item>
+		<item quantity="other">"已将 <b><xliff:g id="count">%1$d</xliff:g></b> 个会话标记为不重要。"</item>
+	</plurals>
+	<plurals name="conversation_phished">
+		<item quantity="one">"已将 <b><xliff:g id="count">%1$d</xliff:g></b> 个会话举报为网上诱骗。"</item>
+		<item quantity="other">"已将 <b><xliff:g id="count">%1$d</xliff:g></b> 个会话举报为网上诱骗。"</item>
+	</plurals>
+	<plurals name="conversation_archived">
+		<item quantity="one">"已将 <b><xliff:g id="count">%1$d</xliff:g></b> 个会话归档。"</item>
+		<item quantity="other">"已将 <b><xliff:g id="count">%1$d</xliff:g></b> 个会话归档。"</item>
+	</plurals>
+	<plurals name="conversation_deleted">
+		<item quantity="one">"已删除 &lt;b&gt;%1$d&lt;/b&gt; 个会话。"</item>
+		<item quantity="other">"已删除 &lt;b&gt;%1$d&lt;/b&gt; 个会话。"</item>
+	</plurals>
+	<!---->
+	<string name="deleted">"已删除"</string>
+	<!---->
+	<string name="archived">"已存档"</string>
+	<!---->
+	<string name="starred">"已加星标"</string>
+	<!---->
+	<string name="unstarred">"取消星标"</string>
+	<!---->
+	<string name="folder_removed">"已从<xliff:g id="FOLDERNAME">%1$s</xliff:g>中删除"</string>
+	<plurals name="conversation_folder_changed">
+		<item quantity="one">"已更改文件夹。"</item>
+		<item quantity="other">"已更改文件夹。"</item>
+	</plurals>
+	<!---->
+	<string name="conversation_folder_moved">"已移至“<xliff:g id="FOLDERNAME">%1$s</xliff:g>”"</string>
+	<!---->
+	<string name="search_results_header">"结果"</string>
+	<!---->
+	<string name="search_unsupported">"此帐户不支持搜索。"</string>
+	<!---->
+	<string name="add_label">"添加文件夹"</string>
+	<!---->
+	<string name="new_incoming_messages_one">"显示来自 <xliff:g id="sender">%s</xliff:g> 的新邮件。"</string>
+	<plurals name="new_incoming_messages_many">
+		<item quantity="other">"显示 <xliff:g id="count">%1$d</xliff:g> 封新邮件"</item>
+	</plurals>
+	<!---->
+	<string name="date_and_view_details">"<xliff:g id="date">%1$s</xliff:g> &lt;a href=\'http://www.example.com\'&gt;查看详情&lt;/a&gt;"</string>
+	<!---->
+	<string name="date_and_view_details_another">"<xliff:g id="date">%1$s</xliff:g> &lt;font color=\"<xliff:g id="color">%2$d</xliff:g>\"&gt;查看详情&lt;/font&gt;"</string>
+	<!---->
+	<string name="hide_details">"隐藏详情"</string>
+	<!---->
+	<string name="to_message_header">"收件人 <xliff:g id="recipients">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="contact_info_string">"显示<xliff:g id="NAME">%1$s</xliff:g>的联系人信息"</string>
+	<!---->
+	<string name="contact_info_string_default">"显示联系人信息"</string>
+	<plurals name="show_messages_read">
+		<item quantity="other">"<xliff:g id="COUNT">%1$d</xliff:g>封较早的邮件"</item>
+	</plurals>
+	<!---->
+	<string name="from_heading">"发件人"</string>
+	<!---->
+	<string name="replyto_heading">"回复地址："</string>
+	<!---->
+	<string name="to_heading">"收件人"</string>
+	<!---->
+	<string name="to_heading_no_space">"收件人："</string>
+	<!---->
+	<string name="cc_heading">"抄送："</string>
+	<!---->
+	<string name="bcc_heading">"密送："</string>
+	<!---->
+	<string name="date_heading">"日期"</string>
+	<!---->
+	<string name="show_images">"显示图片"</string>
+	<!---->
+	<string name="always_show_images">"总是显示来自此发件人的图片"</string>
+	<!---->
+	<string name="always_show_images_toast">"来自该发件人的图片将会自动显示。"</string>
+	<!---->
+	<string name="address_display_format">"<xliff:g id="NAME">%1$s</xliff:g> <xliff:g id="EMAIL">%2$s</xliff:g>"</string>
+	<!---->
+	<string name="address_display_format_with_via_domain">"<xliff:g id="NAME">%1$s</xliff:g> <xliff:g id="EMAIL">%2$s</xliff:g> 来自 <xliff:g id="VIA_DOMAIN">%3$s</xliff:g>"</string>
+	<!---->
+	<string name="message_saved">"邮件已保存为草稿。"</string>
+	<!---->
+	<string name="sending_message">"正在发送邮件\u2026"</string>
+	<!---->
+	<string name="invalid_recipient">"地址是无效的"</string>
+	<!---->
+	<string name="show_elided">"显示引用文字"</string>
+	<!---->
+	<string name="hide_elided">"\u25BC 隐藏引用文字"</string>
+	<!---->
+	<string name="message_invite_title">"日历邀请"</string>
+	<!---->
+	<string name="message_invite_available">"你有时间"</string>
+	<!---->
+	<string name="message_invite_datetime">"时间"</string>
+	<!---->
+	<string name="message_invite_location">"地点"</string>
+	<!---->
+	<string name="message_invite_in_calendar_view">"去日历中查看"</string>
+	<!---->
+	<string name="message_invite_calendar_view">"在日历中查看"</string>
+	<!---->
+	<string name="message_invite_label_attending">"参加吗？"</string>
+	<!---->
+	<string name="message_invite_accept">"是"</string>
+	<!---->
+	<string name="message_invite_tentative">"不确定"</string>
+	<!---->
+	<string name="message_invite_decline">"否"</string>
+	<!-- no translation found for enumeration_comma -->
+	<skip />
+	<!---->
+	<string name="send_anyway">"发送"</string>
+	<!---->
+	<string name="ok">"确定"</string>
+	<!---->
+	<string name="done">"完成"</string>
+	<!---->
+	<string name="cancel">"取消"</string>
+	<!---->
+	<string name="clear">"清除"</string>
+	<!---->
+	<string name="next">"下一步"</string>
+	<!---->
+	<string name="previous">"上一步"</string>
+	<string-array name="sync_status">
+		<item>"成功"</item>
+		<item>"无网络连接。"</item>
+		<item>"无法登录。"</item>
+		<item>"安全错误。"</item>
+		<item>"无法同步。"</item>
+		<item>"内部错误"</item>
+		<item>"服务器出错"</item>
+	</string-array>
+	<!---->
+	<string name="tap_to_configure">"轻触进行设置"</string>
+	<!---->
+	<string name="non_synced_folder_description">"要查看会话，请同步此文件夹。"</string>
+	<!---->
+	<string name="tap_to_configure_folder_sync">"同步文件夹"</string>
+	<!-- no translation found for widget_large_unread_count -->
+	<skip />
+	<!---->
+	<string name="large_unseen_count">"<xliff:g example="99" id="count">%d</xliff:g>+ 新邮件"</string>
+	<!---->
+	<string name="unseen_count">"<xliff:g example="4" id="count">%d</xliff:g> 未读"</string>
+	<plurals name="actionbar_unread_messages">
+		<item quantity="other">"%1$d条未读信息"</item>
+	</plurals>
+	<!---->
+	<string name="actionbar_large_unread_count">"超过<xliff:g id="COUNT">%1$d</xliff:g>封未读邮件"</string>
+	<!---->
+	<string name="view_more_conversations">"查看更多会话"</string>
+	<!---->
+	<string name="loading_conversation">"正在载入..."</string>
+	<!---->
+	<string name="activity_mailbox_selection">"选择帐户"</string>
+	<!---->
+	<string name="activity_folder_selection">"选择文件夹"</string>
+	<!---->
+	<string name="folder_shortcut_widget_label">"电子邮件文件夹"</string>
+	<!---->
+	<string name="change_folders_selection_dialog_title">"更改文件夹"</string>
+	<!---->
+	<string name="move_to_selection_dialog_title">"移至"</string>
+	<!-- no translation found for search_results_loaded -->
+	<skip />
+	<!---->
+	<string name="network_error">"无连接"</string>
+	<!---->
+	<string name="retry">"重试"</string>
+	<!---->
+	<string name="load_more">"加载更多"</string>
+	<!---->
+	<string name="shortcut_name_title">"为文件夹快捷方式命名"</string>
+	<!---->
+	<string name="wait_for_sync_title">"正在等待同步"</string>
+	<!---->
+	<string name="not_synced_title">"帐户未同步"</string>
+	<!---->
+	<string name="wait_for_manual_sync_body">"此帐户未设置为自动同步。\n您可以轻触"<b>"立即同步"</b>"同步邮件一次，或者轻触"<b>"更改同步设置"</b>"，将此帐户设置为自动同步邮件。"</string>
+	<!---->
+	<string name="manual_sync">"立即同步"</string>
+	<!---->
+	<string name="change_sync_settings">"更改同步设置"</string>
+	<!---->
+	<string name="photo_load_failed">"无法加载图片"</string>
+	<!---->
+	<string name="cant_move_or_change_labels">"所选内容包含多个帐户的邮件，因此无法进行移动。"</string>
+	<!-- no translation found for multiple_new_message_notification_item -->
+	<skip />
+	<!-- no translation found for single_new_message_notification_big_text -->
+	<skip />
+	<!---->
+	<string name="ignore_spam_warning">"忽略，我信任此邮件"</string>
+	<!---->
+	<string name="via_domain">"来自 <xliff:g id="VIADOMAIN">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="signin">"登录"</string>
+	<!---->
+	<string name="info">"信息"</string>
+	<!---->
+	<string name="report">"报告"</string>
+	<!---->
+	<string name="sync_error">"无法同步。"</string>
+	<!---->
+	<string name="sync_error_message">"您的设备存储空间不足，无法同步。"</string>
+	<!---->
+	<string name="storage">"存储"</string>
+	<!-- no translation found for senders_split_token -->
+	<skip />
+	<!-- no translation found for draft_count_format -->
+	<skip />
+	<!---->
+	<string name="all_folders_heading">"所有文件夹"</string>
+	<!---->
+	<string name="recent_folders_heading">"近期文件夹"</string>
+	<!---->
+	<string name="message_details_title">"信息详情"</string>
+	<!---->
+	<string name="preference_advance_to_title">"自动跳转"</string>
+	<string-array name="prefEntries_autoAdvance">
+		<item>"较新"</item>
+		<item>"往前"</item>
+		<item>"会话列表"</item>
+	</string-array>
+	<string-array name="prefSummaries_autoAdvance">
+		<item>"在您执行删除操作后显示较新的一个会话"</item>
+		<item>"在您执行删除操作后显示较旧的一个会话"</item>
+		<item>"在您执行删除操作后显示会话列表"</item>
+	</string-array>
+	<!---->
+	<string name="prefDialogTitle_autoAdvance">"跳转至"</string>
+	<!---->
+	<string name="clear_display_images_whitelist_title">"清除“显示图片”设置"</string>
+	<!---->
+	<string name="clear_display_images_whitelist_dialog_title">"是否要清除“显示图片”设置？"</string>
+	<!---->
+	<string name="clear_display_images_whitelist_dialog_message">"对于您之前允许显示其邮件内嵌图片的发件人，停止显示其邮件内的图片。"</string>
+	<!---->
+	<string name="sender_whitelist_cleared">"图片不会自动显示。"</string>
+	<!---->
+	<string name="preferences_signature_title">"签名"</string>
+	<!---->
+	<string name="preferences_signature_dialog_title">"签名"</string>
+	<!---->
+	<string name="preferences_signature_summary_not_set">"未设置"</string>
+	<!---->
+	<string name="mail_account_signature_prefix">"发送自我的<xliff:g example="4" id="product">%1$s</xliff:g>手机"</string>
+	<!---->
+	<string name="notification_action_reply">"回复"</string>
+	<!---->
+	<string name="notification_action_reply_all">"全部回复"</string>
+	<!---->
+	<string name="notification_action_archive">"归档"</string>
+	<!---->
+	<string name="notification_action_remove_label">"删除标签"</string>
+	<!---->
+	<string name="notification_action_delete">"删除"</string>
+	<!---->
+	<string name="notification_action_undo_archive">"已存档"</string>
+	<!---->
+	<string name="notification_action_undo_remove_label">"已删除标签"</string>
+	<!---->
+	<string name="notification_action_undo_delete">"已删除"</string>
+	<!-- no translation found for veiled_address -->
+	<skip />
+	<!-- no translation found for veiled_alternate_text -->
+	<skip />
+	<!-- no translation found for veiled_alternate_text_unknown_person -->
+	<skip />
+	<!-- no translation found for veiled_summary_unknown_person -->
+	<skip />
+	<!-- no translation found for label_notification_ticker -->
+	<skip />
+	<plurals name="new_messages">
+		<item quantity="one">"%1$d封新邮件"</item>
+		<item quantity="other">"<xliff:g id="COUNT">%1$d</xliff:g>封新邮件"</item>
+	</plurals>
+	<!-- no translation found for single_new_message_notification_title -->
+	<skip />
+	<!---->
+	<string name="silent_ringtone">"静音"</string>
+	<!---->
+	<string name="preference_removal_action_title">"存档和删除操作"</string>
+	<string-array name="prefEntries_removal_action">
+		<item>"仅显示已存档邮件"</item>
+		<item>"仅显示已删除邮件"</item>
+		<item>"显示归档和删除"</item>
+	</string-array>
+	<string-array name="prefSummaries_removal_action_summary">
+		<item>"仅显示已存档邮件"</item>
+		<item>"仅显示已删除邮件"</item>
+		<item>"显示归档和删除"</item>
+	</string-array>
+	<!---->
+	<string name="prefDialogTitle_removal_action">"存档和删除操作"</string>
+	<!---->
+	<string name="preferences_default_reply_all_title">"全部回复"</string>
+	<!---->
+	<string name="preferences_default_reply_all_summary_impl">"用作默认的邮件回复方式"</string>
+	<!---->
+	<string name="preference_swipe_title_archive">"滑动即可存档"</string>
+	<!---->
+	<string name="preference_swipe_title_delete">"滑动即可删除"</string>
+	<!---->
+	<string name="preference_swipe_description">"在会话列表中"</string>
+	<!---->
+	<string name="preference_swipe_actions">"滑动操作"</string>
+	<!---->
+	<string name="preference_sender_image_title">"发件人头像"</string>
+	<!---->
+	<string name="preference_sender_image_description">"在会话列表中的名称旁显示"</string>
+	<!---->
+	<string name="empty_trash">"清空垃圾桶"</string>
+	<!---->
+	<string name="empty_spam">"清空垃圾邮件"</string>
+	<!---->
+	<string name="star_toggle">"显示标星"</string>
+	<!---->
+	<string name="empty_trash_dialog_title">"要清空已删除邮件吗？"</string>
+	<!---->
+	<string name="empty_spam_dialog_title">"要清空垃圾邮件吗？"</string>
+	<plurals name="empty_folder_dialog_message">
+		<item quantity="one">"%1$d个信息将被永久删除。"</item>
+		<item quantity="other">"%1$d个信息将被永久删除。"</item>
+	</plurals>
+	<!---->
+	<string name="drawer_open">"打开抽屉式导航栏"</string>
+	<!---->
+	<string name="drawer_close">"关闭抽屉式导航栏"</string>
+	<!---->
+	<string name="conversation_photo_welcome_text">"轻触发件人头像即可选择相应的会话。"</string>
+	<!---->
+	<string name="long_press_to_select_tip">"长按选择一个会话，然后轻触选择其他会话。"</string>
+	<!---->
+	<string name="folder_icon_desc">"文件夹图标"</string>
+	<!---->
+	<string name="add_account">"添加帐户"</string>
+	<!---->
+	<string name="dismiss_tip_hover_text">"忽略提示"</string>
+	<!---->
+	<string name="auto_sync_off">"自动同步功能已关闭。"</string>
+	<!---->
+	<string name="tap_to_enable_sync">"触摸即可开启。"</string>
+	<!---->
+	<string name="account_sync_off">"帐户同步功能已关闭。"</string>
+	<!---->
+	<string name="enable_sync_in_account_settings">"在“<xliff:g id="ACCOUNT_SETTINGS">%1$s</xliff:g>”中开启。"</string>
+	<!---->
+	<string name="account_settings_param">"帐户设置"</string>
+	<!---->
+	<string name="unsent_messages_in_outbox">"<xliff:g id="OUTBOX">%2$s</xliff:g>中有<xliff:g id="NUMBER">%1$s</xliff:g>封未发送的邮件"</string>
+	<!---->
+	<string name="turn_auto_sync_on_dialog_title">"要开启自动同步功能吗？"</string>
+	<!---->
+	<string name="turn_auto_sync_on_dialog_body">"您对所有应用和帐户（不只是 Gmail）所做的更改都会在网络、您的其他设备和您的<xliff:g id="PHONE_OR_TABLET">%1$s</xliff:g>中同步。"</string>
+	<!---->
+	<string name="phone">"手机"</string>
+	<!---->
+	<string name="tablet">"平板"</string>
+	<!---->
+	<string name="turn_auto_sync_on_dialog_confirm_btn">"打开"</string>
+	<!---->
+	<string name="show_n_more_folders">"显示%1$s个文件夹"</string>
+	<!---->
+	<string name="hide_folders">"隐藏文件夹"</string>
+	<!---->
+	<string name="print">"打印"</string>
+	<!---->
+	<string name="print_all">"打印所有"</string>
+	<plurals name="num_messages">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> 封邮件"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> 封邮件"</item>
+	</plurals>
+	<!-- no translation found for date_message_received_print -->
+	<skip />
+	<!---->
+	<string name="draft_to_heading">"草案："</string>
+	<!---->
+	<string name="draft_heading">"草稿"</string>
+	<!---->
+	<string name="quoted_text_hidden_print">"引用隐藏文本"</string>
+	<plurals name="num_attachments">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> 个附件"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> 个附件"</item>
+	</plurals>
+	<!---->
+	<string name="no_subject">"（无主题）"</string>
+	<!---->
+	<string name="vacation_responder">"度假自动回复"</string>
+	<!---->
+	<string name="preferences_vacation_responder_title">"度假自动回复"</string>
+	<!---->
+	<string name="vacation_responder_body_hint_text">"信息"</string>
+	<!---->
+	<string name="send_to_contacts_text">"发送到我的联系人"</string>
+	<!---->
+	<string name="send_to_domain_text">"只发送到 <xliff:g id="domain">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="pick_start_date_title">"开始"</string>
+	<!---->
+	<string name="pick_end_date_title">"结束（可选）"</string>
+	<!---->
+	<string name="date_not_set">"未设置"</string>
+	<!---->
+	<string name="set_end_date_dialog_title">"结束日期（可选）"</string>
+	<!---->
+	<string name="custom_date">"自定义"</string>
+	<!---->
+	<string name="date_none">"无"</string>
+	<!---->
+	<string name="discard_changes">"放弃更改？"</string>
+	<!---->
+	<string name="draft_saved">"草稿已保存"</string>
+	<!---->
+	<string name="draft_discard">"草稿已丢弃"</string>
+	<!---->
+	<string name="vacation_responder_changes_saved">"度假自动回复修改保存"</string>
+	<!---->
+	<string name="vacation_responder_changes_discarded">"度假自动回复修改放弃"</string>
+	<!---->
+	<string name="vacation_responder_off">"关闭"</string>
+	<!-- no translation found for vacation_responder_on -->
+	<skip />
+	<!-- no translation found for vacation_responder_on_with_end_date -->
+	<skip />
+	<!---->
+	<string name="vacation_responder_empty_subject_and_body_warning">"添加一个主题或消息"</string>
+	<!---->
+	<string name="view_entire_message">"查看整个消息"</string>
+	<!---->
+	<string name="eml_loader_error_toast">"无法打开此文件"</string>
+	<!---->
+	<string name="help_and_info">"帮助"</string>
+	<!---->
+	<string name="help_and_feedback">"帮助和反馈"</string>
+	<!---->
+	<string name="feedback">"发送反馈"</string>
+	<!---->
+	<string name="copyright">"©<xliff:g example="2010" id="year">%1$d</xliff:g> Google Inc."</string>
+	<!---->
+	<string name="version">"<xliff:g example="Email" id="app_name">%1$s</xliff:g>版本为<xliff:g example="2.2.1" id="version">%2$s</xliff:g>"</string>
+	<!-- no translation found for view_app_page -->
+	<skip />
+	<!---->
+	<string name="print_dialog">"打印中\u2026"</string>
+	<!---->
+	<string name="copyright_information">"版权信息"</string>
+	<!---->
+	<string name="privacy_policy">"隐私条款"</string>
+	<!---->
+	<string name="open_source_licenses">"开放源代码许可"</string>
+	<!---->
+	<string name="reply_choice_yes">"是"</string>
+	<!---->
+	<string name="reply_choice_no">"否"</string>
+	<!---->
+	<string name="reply_choice_ok">"确定"</string>
+	<!-- no translation found for reply_choice_hehe -->
+	<skip />
+	<!---->
+	<string name="reply_choice_thanks">"谢谢"</string>
+	<!---->
+	<string name="reply_choice_i_agree">"我同意"</string>
+	<!---->
+	<string name="reply_choice_nice">"好的"</string>
+	<!---->
+	<string name="reply_on_my_way">"我在路上"</string>
+	<!---->
+	<string name="reply_choice_later">"好的，我待会回给你"</string>
+	<!-- no translation found for reply_choice_smiling_face -->
+	<skip />
+	<!-- no translation found for reply_choice_frowning_face -->
+	<skip />
+	<!---->
+	<string name="preference_header_action_confirmations">"动作确认"</string>
+	<!---->
+	<string name="preference_confirm_before_delete_title">"删除前先确认"</string>
+	<!---->
+	<string name="preference_confirm_before_archive_title">"存档前确认"</string>
+	<!---->
+	<string name="preference_confirm_before_send_title">"发送前先确认"</string>
+	<!---->
+	<string name="preferences_conversation_mode_title">"自动适应信息"</string>
+	<!---->
+	<string name="preferences_conversation_mode_summary">"收缩信息适应屏幕"</string>
+	<!---->
+	<string name="preferences_disable_snap_headers_title">"邮件操作"</string>
+	<string-array name="prefSummaries_snapHeader">
+		<item>"消息行为总是显示在屏幕顶部"</item>
+		<item>"只显示在屏幕顶部的信息采取行动时，旋转的肖像"</item>
+		<item>"不显示除了消息头的以外的消息行为"</item>
+	</string-array>
+	<string-array name="prefEntries_snapHeader">
+		<item>"始终显示"</item>
+		<item>"只在画像中显示"</item>
+		<item>"不显示"</item>
+	</string-array>
+	<!---->
+	<string name="clear_history_title">"清除搜索历史记录"</string>
+	<!---->
+	<string name="search_history_cleared">"搜索记录已清除。"</string>
+	<!---->
+	<string name="clear_history_dialog_title">"清除搜索记录？"</string>
+	<!---->
+	<string name="clear_history_dialog_message">"清除搜索历史？搜索所有你先前执行的将被删除。"</string>
+	<!---->
+	<string name="manage_accounts_menu_item">"管理帐户"</string>
+	<!---->
+	<string name="general_preferences_title">"常规设置"</string>
+	<!---->
+	<string name="activity_preferences">"设置"</string>
+	<!---->
+	<string name="always_bcc_myself">"始终密件抄送自己"</string>
+	<!---->
+	<string name="always_bcc_myself_summary">"写邮件，回复和转发时始终密件抄送自己"</string>
+	<!---->
+	<string name="general_preference_auto_download_remaining_label">"自动下载邮件剩余部份"</string>
+	<!---->
+	<string name="general_preference_auto_download_remaining_summary">"向下滚动自动下载邮件剩余部份"</string>
+	<!---->
+	<string name="download_remaining">"下载邮件剩余部份"</string>
+	<!---->
+	<string name="downloading_remaining">"正在载入邮件..."</string>
+	<!---->
+	<string name="unable_to_connect">"无法连接"</string>
+	<!---->
+	<string name="need_connection_prompt">"使用此应用程序需要网络连接。请在设置中开启移动网络或 WLAN。"</string>
+	<!---->
+	<string name="connection_settings">"设置"</string>
+	<!---->
+	<string name="priority_action">"优先级"</string>
+	<!---->
+	<string name="set_priority_dialog_title">"设置优先级"</string>
+	<!---->
+	<string name="dialog_warning">"警告"</string>
+	<!---->
+	<string name="dialog_warning_message">"Exchange应用的版本和Email版本不一致,您需要继续操作吗?"</string>
+	<!---->
+	<string name="toast_warning_text">"Exchange应用的版本和Email版本不一致"</string>
+	<!---->
+	<string name="tips_sync_alter_title">"同步"</string>
+	<!---->
+	<string name="tips_sync_alter_content">"你没有Wi-Fi连接，是否继续同步？"</string>
+	<!---->
+	<string name="tips_sync_alter_yes">"是"</string>
+	<!---->
+	<string name="tips_sync_alter_no">"否"</string>
+	<!---->
+	<string name="message_invite_tentative_title">"暂定"</string>
+	<!---->
+	<string name="message_invite_decline_title">"拒绝"</string>
+	<!---->
+	<string name="message_invite_accent_title">"接受"</string>
+	<!---->
+	<string name="drm_file_remind">"否"</string>
+	<!---->
+	<string name="not_add_more_recipients">"单次最多添加<xliff:g id="maxLimit">%1$d</xliff:g>个联系人。"</string>
+	<!---->
+	<string name="global_search_label">"电子邮件"</string>
+	<!---->
+	<string name="global_search_hint">"搜索电子邮件"</string>
+	<!---->
+	<string name="global_search_description">"发件人，主题和正文"</string>
+	<!---->
+	<string name="remote_search_failed">"服务器搜索失败！"</string>
+	<!---->
+	<string name="searching_on_server">"从服务器搜索"</string>
+	<!---->
+	<string name="searching_on_server_title">"从服务器搜索 \"<xliff:g id="account_name">%s</xliff:g>\""</string>
+	<!---->
+	<string name="searching_all_fields_on_sever">"从服务器搜索全部"</string>
+	<!---->
+	<string name="search_field_subject">"主题"</string>
+	<!---->
+	<string name="search_field_receiver">"收件人"</string>
+	<!---->
+	<string name="search_field_sender">"发件人"</string>
+	<!---->
+	<string name="search_field_body">"内容"</string>
+	<!---->
+	<string name="search_field_all">"全部"</string>
+	<!---->
+	<string name="search_field_attachment">"附件"</string>
+	<!---->
+	<string name="select_all">"全选"</string>
+	<!---->
+	<string name="deselect_all">"取消全选"</string>
+	<!---->
+	<string name="need_wifi_connection_prompt">"使用此应用程序需要网络连接。请在设置中开启移动网络或 WLAN。"</string>
+	<!---->
+	<string name="account_setup_names_account_name_des_label">"可选"</string>
+	<!---->
+	<string name="account_setup_names_user_name_des_label">"显示在外发邮件上"</string>
+	<!---->
+	<string name="finish_action">"完成"</string>
+	<!---->
+	<string name="copy_email">"复制电子邮件地址"</string>
+	<!---->
+	<string name="out_of_office_syncing">"正在同步离开办公室回复设置"</string>
+	<!---->
+	<string name="out_of_office_fail">"离开办公室回复设置同步失败！"</string>
+	<!---->
+	<string name="out_of_office_success">"离开办公室回复设置同步完成！"</string>
+	<!---->
+	<string name="manual_sync_when_roaming">"漫游时同步"</string>
+	<!---->
+	<string name="manual_sync_when_roaming_summery">"仅限手动刷新"</string>
+	<!---->
+	<string name="manual_sync_when_roaming_toast">"漫游时手动下拉刷新"</string>
+	<!---->
+	<string name="manual_sync_when_roaming_refresh">"刷新"</string>
+	<!---->
+	<string name="server_rule_can_not_change">"服务器设置无法更改"</string>
+	<!---->
+	<string name="server_rules">"服务器设定"</string>
+	<!---->
+	<string name="confirm_forward_message">"并非所有的附件都已下载，去掉未下载附件转发吗？"</string>
+	<!---->
+	<string name="confirm_forward_cancel">"取消"</string>
+	<!---->
+	<string name="confirm_forward_drop_unload_attachment">"转发"</string>
+	<!---->
+	<string name="mail_not_download_completely">"等待下载完成"</string>
+	<!---->
+	<string name="account_settings_inline_images_lable">"图片"</string>
+	<!---->
+	<string name="account_settings_inline_always_show">"始终显示"</string>
+	<!---->
+	<string name="account_settings_inline_ask_before_show">"显示前询问"</string>
+	<!---->
+	<string name="conversation_time_after_today">"今天后"</string>
+	<!---->
+	<string name="conversation_time_today">"今天"</string>
+	<!---->
+	<string name="conversation_time_yesterday">"昨天"</string>
+	<!---->
+	<string name="conversation_time_this_month">"本月"</string>
+	<!---->
+	<string name="conversation_time_elapse_just_now">"刚刚"</string>
+	<!---->
+	<string name="conversation_time_elapse_minute">"<xliff:g id="COUNT">%d</xliff:g> 分钟"</string>
+	<!---->
+	<string name="message_in_queued_status">"排队中"</string>
+	<plurals name="send_failed_messages">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g>封邮件未发送成功"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g>封邮件未发送成功"</item>
+	</plurals>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_label">"同步最近多少天的日历"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_2weeks">"2 周"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_1month">"1 个月"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_3months">"3个月"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_6months">"6个月"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_all">"全部"</string>
+	<!---->
+	<string name="no_permission_to_open_file">"打开该文件需要外部存储访问权限"</string>
+	<!---->
+	<string name="conversation_update_time_text">"上次更新时间:"</string>
+	<!---->
+	<string name="conversation_update_unknown_time_stamp">"未知"</string>
+	<!---->
+	<string name="conversation_time_elapse_today">"今天"</string>
+	<!---->
+	<string name="save_to_attachment">"保存文件"</string>
+	<!---->
+	<string name="download_settings_title">"保存附件"</string>
+	<!---->
+	<string name="download_edit_filename_label">"名称"</string>
+	<!---->
+	<string name="download_filepath_label">"路径"</string>
+	<!---->
+	<string name="download_file_size">"大小"</string>
+	<!---->
+	<string name="download_time_needed">"时间"</string>
+	<!---->
+	<string name="download_cancel">"取消"</string>
+	<!---->
+	<string name="download_start">"确定"</string>
+	<!---->
+	<string name="unknown_length">"未知"</string>
+	<!---->
+	<string name="time_min">"分钟"</string>
+	<!---->
+	<string name="open_file_manager_failed">"无法打开文件管理器"</string>
+	<!---->
+	<string name="attachment_not_saved">"附件未保存"</string>
+	<!---->
+	<string name="sync_calendar_title">"无法同步日历"</string>
+	<!---->
+	<string name="sync_calendar_content">"允许 Exchange 服务访问日历来进行同步"</string>
+	<!---->
+	<string name="sync_contacts_title">"无法同步联系人"</string>
+	<!---->
+	<string name="sync_contacts_content">"允许 Exchange 服务访问联系人来进行同步"</string>
+	<!---->
+	<string name="notification_never_ask_again">"不再询问"</string>
+	<!---->
+	<string name="sync_storage_title">"无法保存附件"</string>
+	<!---->
+	<string name="sync_storage_content">"允许Exchange服务访问设备存储来保存"</string>
+	<!---->
+	<string name="oof_continue">"继续"</string>
+	<!---->
+	<string name="permission_needed_to_add_attachments">"添加多个附件,需要允许邮件获取存储权限"</string>
+	<!---->
+	<string name="permission_needed_to_check_ringtone">"检查铃声，需要允许邮件获取存储权限"</string>
+	<!---->
+	<string name="add_folder_as_attachment_fail_tips">"不能添加文件夹作为附件"</string>
+	<!---->
+	<string name="choose_action_title">"选择操作"</string>
+	<!---->
+	<string name="choose_action_contact">"添加联系人: <xliff:g example="4" id="email_address">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="choose_action_email">"电子邮件: <xliff:g example="4" id="email_address">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="choose_action_message">"信息: <xliff:g example="4" id="email_address">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="account_setup_basics_exit_action">"退出"</string>
+</resources>

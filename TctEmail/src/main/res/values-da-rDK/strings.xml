@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!-- no translation found for app_name -->
+	<skip />
+	<!-- no translation found for photo_view_count -->
+	<skip />
+	<!---->
+	<string name="retry">"Prøv igen"</string>
+	<!---->
+	<string name="failed">"Billedet kunne ikke indlæses"</string>
+	<!-- no translation found for more_string -->
+	<skip />
+	<!---->
+	<string name="copy_email">"Kopiér e-mailadressen"</string>
+	<!---->
+	<string name="copy_number">"Kopiér telefonnummeret"</string>
+	<!---->
+	<string name="action_label">"Tilbage"</string>
+	<!---->
+	<string name="search_hint">"Søg i e-mail"</string>
+	<!---->
+	<string name="compose">"Skriv"</string>
+	<!---->
+	<string name="activity_folder_selection">"Vælg mappe"</string>
+	<!---->
+	<string name="activity_preferences">"Indstillinger"</string>
+	<!---->
+	<string name="tap_to_configure">"Tryk for at konfigurere"</string>
+	<!---->
+	<string name="loading_conversations">"Indlæser..."</string>
+	<!---->
+	<string name="non_synced_folder_description">"Synkroniser denne mappe for at få vist samtaler."</string>
+	<!---->
+	<string name="tap_to_configure_folder_sync">"Synkroniser mappe"</string>
+	<!-- no translation found for def_email_accountGermanSignature -->
+	<skip />
+	<!---->
+	<string name="send_failed">"Meddelelse blev ikke sendt."</string>
+	<!-- no translation found for permission_needed -->
+	<skip />
+	<!---->
+	<string name="permission_needed_label">"Tilladelser nødvendig"</string>
+	<!---->
+	<string name="permission_grant_access_label">"Giv adgang"</string>
+	<!---->
+	<string name="permission_grant_access_descs">"Skift tilladelser i din enheds app-indstillinger. Giv e-mail adgang til Kontakter."</string>
+	<!---->
+	<string name="permission_grant_exit">"Afslut"</string>
+	<!---->
+	<string name="permission_grant_go_setting">"Indstillinger"</string>
+	<!---->
+	<string name="permission_needed_to_save_attachment">"For at gemme vedhæftning, giv E-mail tilladelse til at bruge lagring"</string>
+	<!---->
+	<string name="permission_needed_to_add_attachment">"For at tilføje vedhæftning, giv E-mail tilladelse til at bruge lagring"</string>
+	<!---->
+	<string name="permission_needed_to_see_calendar">"For at se kalender, giv E-mail tilladelse til at tilgå Kontakter"</string>
+</resources>

@@ -1,0 +1,919 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2012 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<!-- The format of the version code is vvMMDDc
+     vv is major version number
+     MM is the ordinal month number. This starts at 0 for each major release and
+         counts up for each month
+     DD is the day of the month
+     c is a code which increments per version, in case we have multiple releases
+          on the same date. This should start at zero. -->
+<!--
+| ============================================================================ |
+|      Modifications on Features list / Changes Request / Problems Report      |
+| **************************************************************************** |
+|    date   |        author        |         Key          |      comment       |
+| **********|**********************|**********************|******************* |
+| 03/12/2014|     Zhenhua.Fan      |      PR 859738       |Email FC since theme|
+|           |                      |                      |                    |
+| **********|**********************|**********************|******************* |
+================================================================================
+-->
+<!--
+*======================================================================================================
+*HISTORY
+*
+*Tag            Date        Author          Description
+*============== ============ =============== ==========================================================
+*BUGFIX-853233 2014/11/27 wenggangjin        [Android5.0][Email][Crash] Email crashs when opening a eml file
+*BUGFIX-871987 2014/12/17 xiaolin.li         [Android5.0][Email] No Email version info when checking App info.
+*BUGFIX-875365 2014/12/20 zhaotianyong       [Android5.0][Email][Crash] Email crash when saving a file in Sent/Outbox.
+*BUGFIX-891880 2014/01/12 zhaotianyong       [Android5.0][Email][Gallery] Failed to open image by Gallery in a mail.
+*BUGFIX-902870 2015/01/15 xiaolin.li         [Email]Auto exit the email when log in a email account
+*BUGFIX-904760  2015-01-21   wenggangjin     [Email][UI] Change the color of Email status bar
+*BUGFIX-923708  2014/02/04    xiaolin.li         [CTS]: android.permission.cts.DebuggableTest failed
+*BUGFIX-919369 2015/02/05 xinlei.sheng       [Android5.0][Exchange]The list of "Days of mail to sync" will miss after rotating the screen
+*BUGFIX-921199 2015/03/04 zheng.zou          [Android5.0][Exchange][Compatibility]Incoming server settings screen and account options screen are displayed incompletely on Alto 5 LATAM.
+*BUGFIX-957602  2015/4/09   zheng.zou        [Android5.0][Email][REG] Reply/Reply all/Forward does not work when reading a mail.
+*BUGFIX-987422  2015/04/27   zhonghua.tuo    [Monitor][Email]Work abnormal when tap " Authentication error " notification
+*BUGFIX-947804  2015/05/22   zhonghua.tuo    [HOMO][ALWE] [Email] Email widget is not updated after some use
+*BUGFIX-1015246  2015/06/03  Gantao          [Android5.0][Email] [UI] 'Out of Office settings' is not follow tct email style
+*BUGFIX-340554  2015/06/26    zheng.zou      [Launcher]The keyboard will disappear when rotate the screen
+*BUGFIX-1019620 2015/07/07   jin.dong        [Android5.0][Email] The last item cannot be selected on Search history.
+*BUGFIX-1045176 2015/07/16   jin.dong        [Android5.0][Email]The search history not display when search on server.
+*BUGFIX_996919 2015/07/14    zheng.zou       [Email](new) draft auto saving & discard ui change
+*BUGFIX_667469 2015/09/25    zheng.zou       check multi user for upgrade to M
+*FEATURE-1778597   2016/03/10   tianjing.su    [Email]Configuration message can't install
+*======================================================================================================
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tct.email"><!--TS: xiaolin.li 2014-12-17 EMAIL BUGFIX_871987 ADD-->
+
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+    <uses-permission android:name="android.permission.READ_CALENDAR"/>
+    <uses-permission android:name="android.permission.WRITE_CALENDAR"/>
+    <uses-permission android:name="android.permission.READ_PROFILE"/>
+    <uses-permission android:name="android.permission.NFC"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+    <uses-permission android:name="android.permission.READ_SYNC_STATS" />      <!-- TS: zheng.zou 2015-05-26 EMAIL add-log-1009974  -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <!-- TS: jian.xu 2016-01-20 EMAIL FEATURE-1477377 ADD_S -->
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE" />
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE" />
+    <uses-permission android:name="android.permission.MANAGE_DOCUMENTS" />
+    <!-- TS: jian.xu 2016-01-20 EMAIL FEATURE-1477377 ADD_E -->
+   <!-- [BUGFIX]-Add-BEGIN by SCDTABLET.yingjie.chen@tcl.com,03/02/2016,1711311 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <!--[BUGFIX]-Add-END by SCDTABLET.yingjie.chen@tcl.com -->
+    <!-- This needs to be present when we are doing unbundled releases. -->
+    <!-- TS: wenggangjin 2015-01-21 EMAIL BUGFIX_904760 MOD_S -->
+    <uses-sdk android:targetSdkVersion="21" android:minSdkVersion="17" />
+    <!-- TS: wenggangjin 2015-01-21 EMAIL BUGFIX_904760 MOD_E -->
+
+    <!-- additional uses -->
+
+    <original-package android:name="com.tct.email" />
+
+    <!-- Grant permission to other apps to view attachments -->
+    <!-- STOPSHIP: protectionLevel should not be dangerous -->
+    <!--TS: zheng.zou 2016-02-24 Email BUGFIX_1657434 MOD-->
+    <!--note:lower the protectionLevel to normal-->
+    <permission
+        android:name="com.tct.email.permission.READ_ATTACHMENT"
+        android:permissionGroup="android.permission-group.MESSAGES"
+        android:protectionLevel="normal"
+        android:label="@string/permission_read_attachment_label"
+        android:description="@string/permission_read_attachment_desc"/>
+    <uses-permission
+        android:name="com.tct.email.permission.READ_ATTACHMENT"/>
+    <uses-permission
+        android:name="android.permission.USE_CREDENTIALS"/>
+
+    <!-- Grant permission to system apps to access provider (see provider below) -->
+    <permission
+        android:name="com.tct.email.permission.ACCESS_PROVIDER"
+        android:protectionLevel="signature"
+        android:label="@string/permission_access_provider_label"
+        android:description="@string/permission_access_provider_desc"/>
+    <uses-permission
+        android:name="com.tct.email.permission.ACCESS_PROVIDER"/>
+
+    <application
+        android:name=".EmailApplication"
+        android:icon="@mipmap/ic_launcher_mail"
+        android:label="@string/app_name"
+        android:requiredAccountType="com.tct.exchange,com.tct.email"
+        android:theme="@style/UnifiedEmailTheme"
+        android:hardwareAccelerated="true"
+        android:allowBackup="false"
+        android:supportsRtl="true"
+        android:debuggable="false"><!--TS: xiaolin.li 2015-02-04 Email BUGFIX_923708 ADD-->
+        <!-- TCT: disable it due to local search.
+        Enable search in all activities
+        <meta-data android:name="android.app.default_searchable"
+            android:value="com.tct.email2.ui.MailActivityEmail" />
+        -->
+        <activity
+            android:name="com.tct.email.activity.ComposeActivityEmail"
+            android:label="@string/app_name"
+            android:documentLaunchMode="intoExisting"
+            android:autoRemoveFromRecents="true"
+            android:theme="@style/ComposeEmailTheme"><!--TS: zheng.zou 2015-04-09 Email BUGFIX_970434 MOD-->
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.VIEW" />
+                <action
+                    android:name="android.intent.action.SENDTO" />
+                <data
+                    android:scheme="mailto" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+                <category
+                    android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+            <intent-filter
+                android:label="@string/app_name">
+                <action
+                    android:name="android.intent.action.SEND" />
+                <data
+                    android:mimeType="*/*" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter
+                android:label="@string/app_name">
+                <action
+                    android:name="android.intent.action.SEND_MULTIPLE" />
+                <data
+                    android:mimeType="*/*" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="com.tct.email.intent.action.REPLY" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+                <data
+                    android:scheme="content"
+                    android:host="ui.email2.android.com"
+                    android:pathPrefix="/compose"
+                    />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="mailto" />
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="com.tct.mail.intent.action.LAUNCH_COMPOSE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="com.tct.mail.intent.action.LAUNCH_COMPOSE" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="content" />
+            </intent-filter>
+        </activity>
+
+        <activity-alias android:name="com.tct.mail.compose.ComposeActivity"
+            android:targetActivity="com.tct.email.activity.ComposeActivityEmail"/>
+
+        <activity
+            android:name=".activity.setup.OAuthAuthenticationActivity"
+            android:label="@string/oauth_authentication_title">
+        </activity>
+
+        <activity
+            android:name=".activity.setup.AccountCredentials"
+            android:label="@string/sign_in_title"
+            android:exported="false"
+            android:excludeFromRecents="true"
+            android:theme="@style/AccountSetupDialogActivityTheme">
+        </activity>
+
+        <activity
+            android:name=".activity.EventViewer"
+            android:label="@string/app_name"
+            android:theme="@style/UnifiedEmailTheme.Appcompat" />
+
+        <activity android:name="com.tct.mail.ui.FolderSelectionActivity"
+            android:label="@string/activity_folder_selection"
+            android:theme="@style/ShortcutWidgetTheme" />
+
+        <activity android:name="com.tct.email2.ui.MailboxSelectionActivityEmail"
+            android:theme="@style/ShortcutWidgetTheme"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.tct.mail.ui.ShortcutNameActivity"
+            android:label="@string/shortcut_name_title"
+            android:windowSoftInputMode="stateVisible"
+            android:theme="@style/ShortcutWidgetTheme">    <!--TS: zheng.zou 2015-06-26 Email BUGFIX_340554 ADD-->
+        </activity>
+
+        <activity android:name="com.tct.mail.ui.MailboxSelectionActivity"
+            android:theme="@style/ShortcutWidgetTheme"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.tct.email2.ui.CreateShortcutActivityEmail"
+            android:theme="@style/ShortcutWidgetTheme"
+            android:label="@string/folder_shortcut_widget_label">
+
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:label="@string/app_name"
+            android:name="com.tct.email2.ui.MailActivityEmail"
+            android:theme="@style/MailActivityTheme"
+            android:windowSoftInputMode="adjustPan|stateUnspecified"><!-- PR959064 zhiqiang.shao add adjustResize -->
+            <!-- TS: jin.dong 2015-07-07 EMAIL BUGFIX_1019620 Delete adjustResize -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="content"/>
+                <data android:mimeType="@string/application_mime_type" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="android.app.searchable" android:resource="@xml/searchable" />
+        </activity>
+
+        <activity-alias android:name="com.tct.email.activity.Welcome"
+            android:targetActivity="com.tct.email2.ui.MailActivityEmail"
+            android:label="@string/app_name" >
+            <intent-filter android:priority="1">   <!-- TS: zheng.zou 2016-02-16 EMAIL BUGFIX_1557328 MOD -->
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.APP_EMAIL" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <data
+                    android:scheme="content"
+                    android:host="ui.email.android.com"
+                    android:path="/view/mailbox"
+                    />
+            </intent-filter>
+            <!-- TCT: Global email search support -->
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="android.app.searchable"
+            android:resource="@xml/searchable"/><!-- TS: jin.dong 2015-07-16 EMAIL BUGFIX_1045176 MOD -->
+        </activity-alias>
+
+        <!-- Must be exported in order for the AccountManager to launch it -->
+        <!-- Also available for continuous test systems to force account creation -->
+        <!-- TODO: fix this label -->
+        <activity
+            android:name=".activity.setup.AccountSetupFinal"
+            android:label="@string/account_setup_basics_title"
+            android:exported="true">
+            <!-- TS: zheng.zou 2015-03-04 EMAIL BUGFIX_921199 DEL_S -->
+            <!--android:configChanges="keyboardHidden|orientation|screenSize">&lt;!&ndash; TS: xiaolin.li 2015-01-15 EMAIL BUGFIX_902870 &ndash;&gt;-->
+            <!-- TS: zheng.zou 2015-03-04 EMAIL BUGFIX_921199 DEL_E -->
+            <intent-filter>
+                <action android:name="com.tct.email.FORCE_CREATE_ACCOUNT" />
+                <action android:name="com.tct.email.CREATE_NEW_ACCOUNT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.setup.EmailPreferenceActivity"
+            android:label="@string/settings_activity_title"
+            android:exported="true" > <!--TS: zhonghua.tuo 2015-04-27 Email BUGFIX_ 987422-->
+            <intent-filter>
+                <action android:name="android.intent.action.EDIT" />
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data
+                        android:scheme="content"
+                        android:host="ui.email.android.com"
+                        android:pathPrefix="/settings"
+                        />
+            </intent-filter>
+        </activity>
+        <activity
+                android:name="com.tct.mail.ui.settings.PublicPreferenceActivity"
+                android:label="@string/settings_activity_title"
+                android:exported="true"
+                android:theme="@android:style/Theme.NoDisplay" >
+            <!-- Must be exported in order for the AccountManager to launch it -->
+            <intent-filter>
+                <action android:name="com.tct.email.activity.setup.ACCOUNT_MANAGER_ENTRY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MANAGE_NETWORK_USAGE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.setup.AccountServerSettingsActivity"
+            android:label="@string/mailbox_settings_activity_title"
+            android:exported="false"
+            android:excludeFromRecents="true"
+            android:theme="@style/AccountSetupDialogActivityTheme" />
+        <!-- a Headless Activity to load the account from the account id before navigating to the
+        Incoming Account Settings fragment -->
+        <activity
+            android:name=".activity.setup.HeadlessAccountSettingsLoader"
+            android:theme="@android:style/Theme.NoDisplay"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:host="com.tct.email.ACCOUNT_SETTINGS" />
+                <data android:scheme="auth"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".provider.FolderPickerActivity"
+            android:label="@string/folder_picker_title"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.EDIT" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data
+                    android:scheme="content"
+                    android:host="ui.email.android.com"
+                    android:pathPrefix="/setup"
+                    />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.setup.AccountSecurity"
+            android:label="@string/account_security_title"
+            >
+        </activity>
+
+        <activity
+            android:name=".activity.setup.MailboxSettings"
+            android:label="@string/mailbox_settings_activity_title"
+            android:exported="false"
+            android:configChanges="keyboardHidden|orientation|screenSize" /> <!-- TS: xinlei.sheng 2015-02-05 EMAIL BUGFIX-919369 ADD -->
+
+        <activity
+            android:name="com.tct.mail.photo.MailPhotoViewActivity"
+            android:label="@string/app_name"
+            android:theme="@style/PhotoViewTheme" >
+        </activity>
+<!-- TS: wenggangjin 2014-11-27 EMAIL BUGFIX_853233 MOD_S -->
+        <activity
+                android:name="com.tct.mail.browse.EmlViewerActivity"
+                android:label="@string/app_name"
+                android:theme="@style/UnifiedEmailTheme.Appcompat" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="message/rfc822" />
+                <data android:mimeType="application/eml" />
+            </intent-filter>
+        </activity>
+<!-- TS: wenggangjin 2014-11-27 EMAIL BUGFIX_853233 MOD_E -->
+        <!-- TS: Gantao 2015-06-03 EMAIL BUGFIX_1015246 MOD_S -->
+        <!--[FEATURE]-ADD-BEGIN by TSNJ,wenlu.wu,10/20/2014,FR-719110-->
+        <activity
+            android:name=".activity.setup.OofSettings"
+            android:theme="@style/OofEmailTheme"
+            android:label="@string/account_setting_oof_label"
+            android:windowSoftInputMode="stateHidden|adjustUnspecified">
+        </activity>
+        <!--[FEATURE]-ADD-END by TSNJ,wenlu.wu,10/20/2014,FR-719110-->
+        <!-- TS: Gantao 2015-06-03 EMAIL BUGFIX_1015246 MOD_E -->
+
+        <activity
+            android:name="com.tct.mail.ui.HelpActivity"
+            android:label="@string/help_and_info">
+        </activity>
+
+        <activity
+            android:name="com.tct.mail.ui.LicensesActivity"
+            android:label="@string/open_source_licenses">
+        </activity>
+
+        <!-- TS: jian.xu 2016-01-20 EMAIL FEATURE-1477377 ADD_S -->
+        <activity
+            android:name="com.tct.mail.browse.AttachmentDownloadSetting"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/download_settings_title"
+            android:theme="@style/UnifiedEmailTheme.Appcompat"
+            android:uiOptions="splitActionBarWhenNarrow"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <!-- TS: jian.xu 2016-01-20 EMAIL FEATURE-1477377 ADD_E -->
+        <!-- additional activities -->
+
+        <!-- TCT: Use for global email search -->
+        <provider android:name="com.tct.email.provider.EmailSuggestionsProvider"
+        android:authorities="com.tct.email.provider.EmailSuggestionsProvider"
+        android:exported="true"/>
+
+        <provider
+            android:authorities="com.tct.email.conversation.provider"
+            android:label="@string/conversation_content_provider"
+            android:exported="true"
+            android:name="com.tct.mail.browse.EmailConversationProvider" >
+            <grant-uri-permission android:pathPattern=".*" />
+        </provider>
+
+        <provider
+            android:authorities="com.tct.email.accountcache"
+            android:label="@string/account_cache_provider"
+            android:exported="true"
+            android:name="com.tct.mail.providers.EmailAccountCacheProvider" >
+            <grant-uri-permission android:pathPattern=".*" />
+        </provider>
+
+        <provider
+                android:authorities="@string/eml_attachment_provider"
+                android:exported="false"
+                android:name="com.tct.mail.providers.EmlAttachmentProvider" >
+            <grant-uri-permission android:pathPattern=".*" />
+        </provider>
+
+        <!-- The android:name is the name of the Provider class which is stored in
+          UnifiedEmail, and has package name com.tct.mail.providers and the class is
+          called SuggestionsProvider. The authority name is specified in the MailAppProvider
+          which is specific to the two apps separately. -->
+        <provider android:name="com.tct.mail.providers.SuggestionsProvider"
+            android:authorities="com.tct.email.suggestionsprovider"
+            android:exported="true" />
+
+        <service android:name="com.tct.mail.compose.EmptyService"/>
+        <!-- Widget -->
+        <receiver android:name=".provider.WidgetProvider" android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.tct.mail.ACTION_NOTIFY_DATASET_CHANGED" />
+                <data android:mimeType="@string/application_mime_type" />
+            </intent-filter>
+            <!-- TS: zhonghua.tuo 2015-05-22 EMAIL BUGFIX-947804 ADD_S -->
+            <intent-filter>
+                <action android:name="com.tct.email.MESSAGE_LIST_DATASET_CHANGED" />
+            </intent-filter>
+            <!-- TS: zhonghua.tuo 2015-05-22 EMAIL BUGFIX-947804 ADD_E -->
+            <intent-filter>
+                <action android:name="com.tct.mail.ACTION_UPDATE_WIDGET" />
+                <data android:mimeType="@string/application_mime_type" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.tct.mail.ACTION_VALIDATE_ALL_WIDGETS" />
+                <data android:mimeType="@string/application_mime_type" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider"
+                       android:resource="@xml/widget_info" />
+        </receiver>
+        <service android:name="com.tct.mail.widget.WidgetService"
+                 android:permission="android.permission.BIND_REMOTEVIEWS"
+                 android:exported="false" />
+
+        <!-- From Email application -->
+
+        <receiver
+            android:name=".service.AttachmentService$AttachmentWatchdog"
+            android:enabled="true"/>
+
+        <!-- Handles app upgrade. This disables itself after running once. -->
+        <receiver
+            android:name=".service.EmailUpgradeBroadcastReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+            </intent-filter>
+        </receiver>
+
+        <receiver
+            android:name=".service.EmailBroadcastReceiver"
+            android:enabled="true"
+            android:permission="com.tct.email.permission.ACCESS_PROVIDER">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+                <action android:name="android.intent.action.LOCALE_CHANGED"/>
+                <action android:name="android.accounts.LOGIN_ACCOUNTS_CHANGED" />
+                <action android:name="com.tct.email.intent.action.MAIL_SERVICE_WAKEUP" />
+                <action
+                    android:name="com.tct.email.intent.action.MAIL_SERVICE_DELETE_MESSAGE" />
+                <action
+                    android:name="com.tct.email.intent.action.MAIL_SERVICE_MOVE_MESSAGE" />
+                <action
+                    android:name="com.tct.email.intent.action.MAIL_SERVICE_MESSAGE_READ" />
+                <action
+                    android:name="com.tct.email.intent.action.MAIL_SERVICE_SEND_PENDING" />
+                <action
+                    android:name= "android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+            <!-- To handle new message notifications -->
+            <intent-filter>
+                <action android:name="com.tct.mail.action.update_notification"
+                        android:priority="-10" />
+                <data android:mimeType="@string/application_mime_type" />
+            </intent-filter>
+            <!-- To handle secret code to activate the debug screen. -->
+            <intent-filter>
+                <action
+                    android:name="android.provider.Telephony.SECRET_CODE" />
+                <!-- "36245" = "email" -->
+                <data
+                    android:scheme="android_secret_code"
+                    android:host="36245" />
+            </intent-filter>
+        </receiver>
+
+        <!-- TS: zheng.zou 2015-07-14 EMAIL BUGFIX-996919 ADD_S -->
+        <!-- TS: to handle the draft save broadcast -->
+        <receiver android:name=".service.EmailDraftSavedReceiver">
+            <intent-filter>
+                <action android:name="com.tct.mail.action.DRAFT_SAVED_ACTION"
+                        android:priority="-10"/>
+            </intent-filter>
+        </receiver>
+        <!-- TS: zheng.zou 2015-07-14 EMAIL BUGFIX-996919 ADD_E -->
+
+        <service
+            android:name=".service.EmailBroadcastProcessorService" />
+
+        <!-- Support for DeviceAdmin / DevicePolicyManager.  See SecurityPolicy class for impl. -->
+        <receiver
+            android:name=".SecurityPolicy$PolicyAdmin"
+            android:label="@string/device_admin_label"
+            android:description="@string/device_admin_description"
+            android:permission="android.permission.BIND_DEVICE_ADMIN" >
+            <meta-data
+                android:name="android.app.device_admin"
+                android:resource="@xml/device_admin" />
+            <intent-filter>
+                <action
+                    android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".service.AttachmentService"
+            android:enabled="false"
+            >
+        </service>
+
+        <!--Required stanza to register the PopImapAuthenticatorService with AccountManager -->
+        <service
+            android:name=".service.Pop3AuthenticatorService"
+            android:exported="true"
+            android:enabled="true"
+            >
+            <intent-filter>
+                <action
+                    android:name="android.accounts.AccountAuthenticator" />
+            </intent-filter>
+            <meta-data
+                android:name="android.accounts.AccountAuthenticator"
+                android:resource="@xml/authenticator_pop3"
+                />
+        </service>
+        <!--Required stanza to register the PopImapAuthenticatorService with AccountManager -->
+        <service
+            android:name=".service.ImapAuthenticatorService"
+            android:exported="true"
+            android:enabled="false"
+            >
+            <intent-filter>
+                <action
+                    android:name="android.accounts.AccountAuthenticator" />
+            </intent-filter>
+            <meta-data
+                android:name="android.accounts.AccountAuthenticator"
+                android:resource="@xml/authenticator_imap"
+                />
+        </service>
+
+        <!--Required stanza to register the PopImapSyncAdapterService with SyncManager -->
+        <service
+            android:name="com.tct.email.service.Pop3SyncAdapterService"
+            android:exported="true">
+            <intent-filter>
+                <action
+                    android:name="android.content.SyncAdapter" />
+            </intent-filter>
+            <meta-data android:name="android.content.SyncAdapter"
+                       android:resource="@xml/syncadapter_pop3" />
+        </service>
+
+        <service
+            android:name="com.tct.email.service.LegacyImapSyncAdapterService"
+            android:exported="true">
+            <intent-filter>
+                <action
+                    android:name="android.content.SyncAdapter" />
+            </intent-filter>
+            <meta-data android:name="android.content.SyncAdapter"
+                       android:resource="@xml/syncadapter_legacy_imap" />
+        </service>
+
+        <!-- Require provider permission to use our Policy and Account services -->
+        <service
+            android:name=".service.PolicyService"
+            android:enabled="true"
+            android:permission="com.tct.email.permission.ACCESS_PROVIDER"
+            >
+            <intent-filter>
+                <action
+                    android:name="com.tct.email.POLICY_INTENT" />
+            </intent-filter>
+        </service>
+
+        <service
+            android:name=".service.AccountService"
+            android:enabled="true"
+            android:permission="com.tct.email.permission.ACCESS_PROVIDER"
+            >
+            <intent-filter>
+                <action
+                    android:name="com.tct.email.ACCOUNT_INTENT" />
+            </intent-filter>
+        </service>
+
+        <service
+            android:name=".service.ImapService"
+            android:enabled="true"
+            android:permission="com.tct.email.permission.ACCESS_PROVIDER"
+            >
+            <intent-filter>
+                <action
+                    android:name="com.tct.email.IMAP_INTENT" />
+                <action
+                    android:name="com.tct.email.intent.action.MAIL_SERVICE_DELETE_MESSAGE" />
+                <action
+                    android:name="com.tct.email.intent.action.MAIL_SERVICE_MOVE_MESSAGE" />
+                <action
+                    android:name="com.tct.email.intent.action.MAIL_SERVICE_MESSAGE_READ" />
+                <action
+                    android:name="com.tct.email.intent.action.MAIL_SERVICE_SEND_PENDING" />
+            </intent-filter>
+        </service>
+
+        <service
+            android:name=".service.Pop3Service"
+            android:enabled="true"
+            android:permission="com.tct.email.permission.ACCESS_PROVIDER"
+            >
+            <intent-filter>
+                <action
+                    android:name="com.tct.email.POP3_INTENT" />
+            </intent-filter>
+        </service>
+
+        <!--Required stanza to register the EasAuthenticatorService with AccountManager -->
+        <service
+            android:name=".service.EasAuthenticatorService"
+            android:exported="true"
+            android:enabled="true"
+            >
+            <intent-filter>
+                <action
+                    android:name="android.accounts.AccountAuthenticator" />
+            </intent-filter>
+            <meta-data
+                android:name="android.accounts.AccountAuthenticator"
+                android:resource="@xml/authenticator_eas"
+                />
+        </service>
+        <!--Required stanza to register the EasTestAuthenticatorService with AccountManager -->
+        <service
+            android:name=".service.EasTestAuthenticatorService"
+            android:exported="true"
+            android:enabled="false"
+            >
+            <intent-filter>
+                <action
+                    android:name="android.accounts.AccountAuthenticator" />
+            </intent-filter>
+            <meta-data
+                android:name="android.accounts.AccountAuthenticator"
+                android:resource="@xml/eastest_authenticator"
+                />
+        </service>
+        <!--
+            EasAuthenticatorService with the alternative label.  Disabled by default,
+            and OneTimeInitializer enables it if the vendor policy tells so.
+        -->
+        <service
+            android:name=".service.EasAuthenticatorServiceAlternate"
+            android:exported="true"
+            android:enabled="false"
+            >
+            <intent-filter>
+                <action
+                    android:name="android.accounts.AccountAuthenticator" />
+            </intent-filter>
+            <meta-data
+                android:name="android.accounts.AccountAuthenticator"
+                android:resource="@xml/authenticator_alternate"
+                />
+        </service>
+
+        <service
+            android:name=".service.LegacyImapAuthenticatorService"
+            android:exported="false"
+            android:enabled="true"
+            >
+            <intent-filter>
+                <action
+                    android:name="android.accounts.AccountAuthenticator" />
+            </intent-filter>
+            <meta-data
+                android:name="android.accounts.AccountAuthenticator"
+                android:resource="@xml/authenticator_legacy_imap"
+                />
+        </service>
+
+        <provider
+            android:name=".provider.AttachmentProvider"
+            android:authorities="com.tct.email.attachmentprovider"
+            android:grantUriPermissions="true"
+            android:exported="true"
+            /><!-- TS: zhaotianyong 2014-01-12 EMAIL BUGFIX_891880 MOD -->
+
+        <!-- This provider MUST be protected by strict permissions, as granting access to
+             it exposes user passwords and other confidential information. -->
+        <provider
+            android:name=".provider.EmailProvider"
+            android:authorities="com.tct.email.provider;com.tct.email.notifier"
+            android:exported="true"
+            android:permission="com.tct.email.permission.ACCESS_PROVIDER"
+            android:grantUriPermissions="true"
+            android:label="@string/app_name"><!-- TS: zhaotianyong 2014-12-20 EMAIL BUGFIX_875367 MOD -->
+        <grant-uri-permission android:pathPrefix="/attachment/cachedFile"/>
+        </provider>
+
+        <!-- Legacy authenticators, etc. can be added below. OEMs may remove these -->
+
+        <service
+            android:name=".service.LegacyEmailAuthenticatorService"
+            android:exported="false"
+            android:enabled="true"
+            >
+            <intent-filter>
+                <action
+                    android:name="android.accounts.AccountAuthenticator" />
+            </intent-filter>
+            <meta-data
+                android:name="android.accounts.AccountAuthenticator"
+                android:resource="@xml/authenticator_legacy_email"
+                />
+        </service>
+
+        <service
+            android:name=".service.LegacyEasAuthenticatorService"
+            android:exported="false"
+            android:enabled="true"
+            >
+            <intent-filter>
+                <action
+                    android:name="android.accounts.AccountAuthenticator" />
+            </intent-filter>
+            <meta-data
+                android:name="android.accounts.AccountAuthenticator"
+                android:resource="@xml/authenticator_legacy_eas"
+                />
+        </service>
+
+        <service android:name="com.tct.email.EmailIntentService"
+                 android:exported="false">
+            <intent-filter>
+                <action android:name="com.tct.mail.action.RESEND_NOTIFICATIONS" />
+                <action android:name="com.tct.mail.action.RESEND_NOTIFICATIONS_WEAR" />
+                <action android:name="com.tct.mail.action.SEND_SET_NEW_EMAIL_INDICATOR" />
+                <action android:name="com.tct.mail.action.SEND_MAIL_FAILED_NOTIFICATIONS" />
+                <action android:name="com.tct.mail.action.SEND_CALENDAR_NOTIFICATIONS" />
+                <action android:name="com.tct.mail.action.SEND_CONTACTS_NOTIFICATIONS" />
+                <action android:name="com.tct.mail.action.SEND_STORAGE_NOTIFICATIONS" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.tct.mail.action.CLEAR_NEW_MAIL_NOTIFICATIONS" />
+                <data android:scheme="content" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.tct.mail.action.update_notification"
+                        android:priority="-10"/>
+                <data android:mimeType="@string/application_mime_type" />
+            </intent-filter>
+        </service>
+
+        <service android:name="com.tct.mail.NotificationActionIntentService"
+                  android:exported="false">
+            <intent-filter>
+                <action android:name="com.tct.mail.action.notification.MARK_READ" />
+                <action android:name="com.tct.mail.action.notification.ARCHIVE" />
+                <action android:name="com.tct.mail.action.notification.DELETE" />
+                <action android:name="com.tct.mail.action.notification.UNDO" />
+                <action android:name="com.tct.mail.action.notification.DESTRUCT" />
+                <action android:name="com.tct.mail.action.notification.UNDO_TIMEOUT" />
+                <action android:name="com.tct.mail.action.notification.REPLY" />
+                <action android:name="com.tct.mail.action.notification.REPLY_ALL" />
+                <action android:name="com.tct.mail.action.notification.FORWARD" />
+                <action android:name="com.tct.mail.action.notification.REFRESH" />
+                <data android:scheme="content" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.tct.mail.action.notification.calendar.NEVER_ASK_AGAIN" />
+                <action android:name="com.tct.mail.action.notification.contacts.NEVER_ASK_AGAIN" />
+                <action android:name="com.tct.mail.action.notification.storage.NEVER_ASK_AGAIN" />  <!-- TS: zheng.zou 2016-03-19 EMAIL BUGFIX-1841389 ADD -->
+            </intent-filter>
+        </service>
+        <service android:name="com.tct.mail.MailLogService">
+        </service>
+        <service android:name="com.tct.mail.browse.EmlTempFileDeletionService" />
+        <!--[FEATURE]-Add-BEGIN by TSCD.Chao Zhang,04/16/2014,FR 631895(porting fromFR473181)-->
+        <activity
+             android:name="com.tct.email.predefine.PreDefineAccountProvider">
+        </activity>
+        <!--[FEATURE]-Add-END by TSCD.Chao Zhang-->
+        <!--[BUGFIX]-Add-BEGIN by TSNJ.wei.huang,12/02/2014,PR846106 ,-->
+        <!--[Wap push&CP]There is no email account after receive a CP that contain POP3 profile-->
+        <receiver
+            android:name="com.tct.email.AccountSetupBroadcastReceiver">
+           <intent-filter>
+                <action
+                    android:name="email.intent.android.emailsetting" />
+            </intent-filter>
+            <!-- TS: tianjing.su 2016-03-10 EMAIL FEATURE-1778597 MOD_S -->
+            <intent-filter>
+                <action android:name="com.mediatek.omacp.settings" />
+                <data android:mimeType="application/com.mediatek.omacp-25" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.mediatek.omacp.capability" />
+            </intent-filter>
+            <!-- TS: tianjing.su 2016-03-10 EMAIL FEATURE-1778597 MOD_E -->
+        </receiver>
+        <!--[BUGFIX]-Add-END by TSNJ.wei.huang -->
+
+
+        <!--[BUGFIX]-Add-START by tao.gan -->
+        <receiver android:name=".service.EmailResetReceiver">
+            <intent-filter android:priority="86">
+                <action android:name="android.intent.action.LAUNCH_DEVICE_RESET" />
+            </intent-filter>
+        </receiver>
+        <!--[BUGFIX]-Add-END by tao.gan -->
+
+    </application>
+    <!-- Legacy permissions, etc. can go here -->
+
+</manifest>

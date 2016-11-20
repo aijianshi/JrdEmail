@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!-- no translation found for app_name -->
+	<skip />
+	<!-- no translation found for photo_view_count -->
+	<skip />
+	<!---->
+	<string name="retry">"Skúsiť znova"</string>
+	<!---->
+	<string name="failed">"Nebolo možné načítať obrázok"</string>
+	<!-- no translation found for more_string -->
+	<skip />
+	<!---->
+	<string name="copy_email">"Kopírovať e-mailovú adresu"</string>
+	<!---->
+	<string name="copy_number">"Kopírovať telefónne číslo"</string>
+	<!---->
+	<string name="action_label">"Návrat"</string>
+	<!---->
+	<string name="search_hint">"Hľadať v e-maile"</string>
+	<!---->
+	<string name="compose">"Napísať"</string>
+	<!---->
+	<string name="activity_folder_selection">"Zvoliť priečinok"</string>
+	<!---->
+	<string name="activity_preferences">"Nastavenia"</string>
+	<!---->
+	<string name="tap_to_configure">"Pre nastavenie ťuknite."</string>
+	<!---->
+	<string name="loading_conversations">"Načítava sa\u2026"</string>
+	<!---->
+	<string name="non_synced_folder_description">"Pre zobrazenie konverzácií zosynchronizujte tento priečinok."</string>
+	<!---->
+	<string name="tap_to_configure_folder_sync">"Synchronizovať priečinok"</string>
+	<!-- no translation found for def_email_accountGermanSignature -->
+	<skip />
+	<!---->
+	<string name="send_failed">"Správa nebola odoslaná."</string>
+	<!-- no translation found for permission_needed -->
+	<skip />
+	<!---->
+	<string name="permission_needed_label">"Vyžadujú sa oprávnenia"</string>
+	<!---->
+	<string name="permission_grant_access_label">"Udeliť prístup"</string>
+	<!---->
+	<string name="permission_grant_access_descs">"Oprávnenia zmeňte v nastaveniach aplikácií svojho zariadenia. Udeľte aplikácii E-mail prístup ku kontaktom."</string>
+	<!---->
+	<string name="permission_grant_exit">"Ukončiť"</string>
+	<!---->
+	<string name="permission_grant_go_setting">"Nastavenia"</string>
+	<!---->
+	<string name="permission_needed_to_save_attachment">"Ak chcete uložiť prílohu, povoľte e-mailu prístup k úložisku"</string>
+	<!---->
+	<string name="permission_needed_to_add_attachment">"Ak chcete pridať prílohu, povoľte e-mailu prístup k úložisku"</string>
+	<!---->
+	<string name="permission_needed_to_see_calendar">"Ak chcete, aby sa udalosť zobrazila v kalendári, povoľte aplikácii E-mail prístup ku kalendáru"</string>
+</resources>

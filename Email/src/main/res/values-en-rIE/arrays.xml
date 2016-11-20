@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Tue Sep 20 16:24:06 CST 2016
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <integer-array name="senders_with_attachment_lengths">
+        <item>25</item>
+        <item>25</item>
+    </integer-array>
+    <integer-array name="senders_lengths">
+        <item>27</item>
+        <item>27</item>
+    </integer-array>
+<!-- [FEATURE]-ADD-BEGIN by TSNJ,zhujian.shao,10/23/2014,FR-736411(porting from FR622697)-->
+    <string-array name="set_priority_dialog_options">
+        <item>"High"</item>
+        <item>"Normal"</item>
+        <item>"Low"</item>
+    </string-array>
+    <integer-array name="set_priority_dialog_options_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+    <!--[FEATURE]-ADD-END by TSNJ,zhujian.shao,10/23/2014,FR-736411-->
+
+    <!-- Do not change any of the values in this array without checking/changing -->
+    <!-- related values in: AccountSetupBasics.java & AccountSetupOptions.java  -->
+
+    <!-- In particular, 15 minutes is hardcoded as the default for new accounts. -->
+
+    
+
+    
+
+    <!--TS: jian.xu 2015-12-18 EMAIL Task_1190494 ADD_S-->
+    <!-- For att requirement,delete 5 minutes and 15 minutes -->
+    
+
+    
+
+    
+
+    
+    <!--TS: jian.xu 2015-12-18 EMAIL Task_1190494 ADD_E-->
+
+    <!-- The arrays that are presented to push-enabled accounts -->
+    
+
+    
+
+    <!-- Mail sync window sizes for EAS accounts -->
+    
+
+    <!-- Mail sync window size codes for EAS accounts -->
+    
+
+    <!-- Mail sync window sizes for EAS mailboxes.  It's the same thing as
+         account_settings_mail_window_entries, but has 0=default.  -->
+    
+
+    <!-- Mail sync window size codes for EAS milboxes.  It's the same thing as
+         account_settings_mail_window_values, but has 0=default.  -->
+    
+
+    <!-- A small number of default quick responses -->
+    
+
+    <!-- Account color chips on combined view -->
+    
+
+    <!-- Host addresses starting with these infer an smtp address replacing the word with "smtp" -->
+    
+
+    <!--[FEATURE]-Add-BEGIN by TSCD.Chao Zhang,04/14/2014,FR 631895(porting from FR 472914)-->
+    
+
+    
+
+    
+
+
+    
+    <!--[FEATURE]-Add-END by TSCD.Chao Zhang-->
+
+    <!-- TCT: search fields list -->
+    
+
+    <!-- TS: tao.gan 2015-08-12 EMAIL FEATURE-ID ADD_S -->
+    
+
+    
+    <!-- TS: tao.gan 2015-08-12 EMAIL FEATURE-ID ADD_E -->
+
+    <!-- TS: junwei-xu 2015-09-29 EMAIL FEATURE-1093309 ADD_S -->
+    <!-- Mail sync contactswindow sizes for EAS accounts -->
+    
+
+    <!-- Mail sync contactswindow size codes for EAS accounts -->
+    
+    <!-- TS: junwei-xu 2015-09-29 EMAIL FEATURE-1093309 ADD_E -->
+
+    <!--TS: zheng.zou 2016-01-14 EMAIL TASK-1431225 ADD_S-->
+    <string-array name="mail_sort_types">
+        <item>"Date (oldest)"</item>
+        <item>"From (A-Z)"</item>
+        <item>"From (Z-A)"</item>
+        <item>"Attachments"</item>
+        <item>"Importance"</item>
+        <item>"Size"</item>
+        <item>"Unread"</item>
+    </string-array>
+
+    <integer-array name="mail_sort_order">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </integer-array>
+    <!--TS: zheng.zou 2016-01-14 EMAIL TASK-1431225 ADD_E-->
+</resources>

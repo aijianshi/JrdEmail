@@ -1,0 +1,1696 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Tue Sep 20 16:24:06 CST 2016
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!-- no translation found for permission_read_attachment_label -->
+	<skip />
+	<!---->
+	<string name="permission_read_attachment_desc">"ອະນຸຍາດໃຫ້ແອັບຯອ່ານໄຟລ໌ແນບໃນອີເມວຂອງທ່ານໄດ້."</string>
+	<!---->
+	<string name="permission_access_provider_label">"ເຂົ້າເຖິງຂໍ້ມູນຜູ້ໃຫ້ບໍລິການອີເມລ"</string>
+	<!-- no translation found for permission_access_provider_desc -->
+	<skip />
+	<!---->
+	<string name="debug_title">"ການແກ້ຈຸດບົກພ່ອງ"</string>
+	<!---->
+	<string name="next_action">"ຕໍ່ໄປ"</string>
+	<!---->
+	<string name="okay_action">"ຕົກລົງ"</string>
+	<!---->
+	<string name="cancel_action">"ຍົກເລີກ"</string>
+	<!-- no translation found for previous_action -->
+	<skip />
+	<!---->
+	<string name="done_action">"ສໍາເລັດ"</string>
+	<!-- no translation found for create_action -->
+	<skip />
+	<!---->
+	<string name="quick_responses_empty_view">"ບໍ່ມີຄໍາຕອບແບບວ່ອງໄວ."</string>
+	<!---->
+	<string name="account_settings_action">"ການຕັ້ງບັນຊີ"</string>
+	<!-- no translation found for status_network_error -->
+	<skip />
+	<!-- no translation found for move_messages -->
+	<skip />
+	<!---->
+	<string name="cannot_move_protocol_not_supported_toast">"ບໍ່ຮອງຮັບການຍ້າຍໃນບັນຊີແບບ POP3."</string>
+	<!-- no translation found for cannot_move_multiple_accounts_toast -->
+	<skip />
+	<!-- no translation found for cannot_move_special_mailboxes_toast -->
+	<skip />
+	<!---->
+	<string name="mailbox_name_display_inbox">"ກ່ອງຂາເຂົ້າ"</string>
+	<!---->
+	<string name="mailbox_name_display_outbox">"ກ່ອງຂາອອກ"</string>
+	<!---->
+	<string name="mailbox_name_display_drafts">"ຮ່າງ"</string>
+	<!---->
+	<string name="mailbox_name_display_trash">"ກ່ອງຂີ້ເຫຍື້ອ"</string>
+	<!---->
+	<string name="mailbox_name_display_sent">"ສົ່ງແລ້ວ"</string>
+	<!---->
+	<string name="mailbox_name_display_junk">"ຂີ້ເຫຍື້ອ"</string>
+	<!---->
+	<string name="mailbox_name_display_starred">"ຕິດດາວ"</string>
+	<!---->
+	<string name="mailbox_name_display_unread">"ຍັງບໍ່ໄດ້ອ່ານ"</string>
+	<!---->
+	<string name="account_folder_list_summary_inbox">"ກ່ອງຂາເຂົ້າ"</string>
+	<!---->
+	<string name="account_folder_list_summary_starred">"ຕິດດາວ"</string>
+	<!---->
+	<string name="account_folder_list_summary_drafts">"ຮ່າງ"</string>
+	<!---->
+	<string name="account_folder_list_summary_outbox">"ກ່ອງຈົດໝາຍອອກ"</string>
+	<!-- no translation found for mailbox_list_account_selector_combined_view -->
+	<skip />
+	<!-- no translation found for message_compose_fwd_header_fmt -->
+	<skip />
+	<!-- no translation found for message_compose_insert_quick_response_list_title -->
+	<skip />
+	<!-- no translation found for message_compose_insert_quick_response_menu_title -->
+	<skip />
+	<!---->
+	<string name="message_view_attachment_background_load">"ນຶ່ງຫຼື່ຫຼາຍກວ່ານຶ່ງໄຟລ໌ແນບ ໃນຂໍ້ຄວາມທີ່ທ່ານສົ່ງຕໍ່ ຈະຖືກດາວໂຫລດກ່ອນໜ້າທຳການສົ່ງຕໍ່."</string>
+	<!-- no translation found for attachment_not_found -->
+	<skip />
+	<!-- no translation found for message_decode_error -->
+	<skip />
+	<!-- no translation found for forward_download_failed_ticker -->
+	<skip />
+	<!-- no translation found for forward_download_failed_title -->
+	<skip />
+	<!-- no translation found for login_failed_ticker -->
+	<skip />
+	<!-- no translation found for login_failed_title -->
+	<skip />
+	<!-- no translation found for message_view_attachment_bytes -->
+	<skip />
+	<!-- no translation found for message_view_attachment_kilobytes -->
+	<skip />
+	<!-- no translation found for message_view_attachment_megabytes -->
+	<skip />
+	<!-- no translation found for message_view_attachment_gigabytes -->
+	<skip />
+	<!-- no translation found for account_setup_basics_title -->
+	<skip />
+	<!-- no translation found for oauth_authentication_title -->
+	<skip />
+	<!---->
+	<string name="sign_in_title">"ເຂົ້າສູ່ລະບົບ"</string>
+	<!-- no translation found for oauth_error_description -->
+	<skip />
+	<!-- no translation found for password_warning_label -->
+	<skip />
+	<!---->
+	<string name="email_confirmation_label">"ທີ່ຢູ່ອີເມລ"</string>
+	<!-- no translation found for account_setup_basics_headline -->
+	<skip />
+	<!-- no translation found for accounts_welcome -->
+	<skip />
+	<!-- no translation found for account_setup_basics_email_label -->
+	<skip />
+	<!-- no translation found for account_setup_basics_email_flying_label -->
+	<skip />
+	<!-- no translation found for or_label -->
+	<skip />
+	<!-- no translation found for sign_in_with_google -->
+	<skip />
+	<!-- no translation found for account_setup_basics_password_label -->
+	<skip />
+	<!-- no translation found for password_hint -->
+	<skip />
+	<!-- no translation found for signed_in_with_service_label -->
+	<skip />
+	<!-- no translation found for authentication_label -->
+	<skip />
+	<!-- no translation found for add_authentication_label -->
+	<skip />
+	<!-- no translation found for clear_authentication_label -->
+	<skip />
+	<!---->
+	<string name="account_setup_basics_manual_setup_action">"ຕັ້ງຄ່າດ້ວຍຕົນເອງ"</string>
+	<!---->
+	<string name="account_setup_username_password_toast">"ພິມທີ່ຢູ່ອີເມວ ແລະ ລະຫັດຜ່ານທີ່ຖືກຕ້ອງ."</string>
+	<!---->
+	<string name="account_duplicate_dlg_title">"ບັນຊີຊ້ຳກັນ"</string>
+	<!-- no translation found for account_duplicate_dlg_message_fmt -->
+	<skip />
+	<!-- no translation found for account_password_spaces_error -->
+	<skip />
+	<!-- no translation found for account_setup_check_settings_retr_info_msg -->
+	<skip />
+	<!-- no translation found for account_setup_check_settings_check_incoming_msg -->
+	<skip />
+	<!-- no translation found for account_setup_check_settings_check_outgoing_msg -->
+	<skip />
+	<!-- no translation found for account_setup_creating_account_msg -->
+	<skip />
+	<!-- no translation found for account_setup_ab_headline -->
+	<skip />
+	<!-- no translation found for account_setup_ab_instructions_format -->
+	<skip />
+	<!-- no translation found for account_setup_names_title -->
+	<skip />
+	<!-- no translation found for account_setup_names_headline -->
+	<skip />
+	<!---->
+	<string name="account_setup_names_account_name_label">"ສ້າງຊື່ບັນຊີນີ້"</string>
+	<!---->
+	<string name="account_setup_names_user_name_label">"ຊື່ຂອງທ່ານ"</string>
+	<!-- no translation found for account_setup_names_user_name_empty_error -->
+	<skip />
+	<!-- no translation found for account_setup_account_type_title -->
+	<skip />
+	<!-- no translation found for account_setup_account_type_headline -->
+	<skip />
+	<!---->
+	<string name="account_setup_account_type_instructions">"ບັນຊີນີ້ເປັນບັນຊີປະເພດໃດ？"</string>
+	<!-- no translation found for account_setup_incoming_title -->
+	<skip />
+	<!-- no translation found for account_setup_incoming_headline -->
+	<skip />
+	<!---->
+	<string name="account_setup_incoming_username_label">"ຊື່ຜູ້ໃຊ້"</string>
+	<!---->
+	<string name="account_setup_incoming_password_label">"ລະຫັດຜ່ານ"</string>
+	<!---->
+	<string name="account_setup_password_subheading">"ລະຫັດຜ່ານ"</string>
+	<!---->
+	<string name="account_setup_incoming_server_label">"ຜູ້ໃຫ້ບໍລິການ"</string>
+	<!---->
+	<string name="account_setup_incoming_port_label">"ພອດພ໌"</string>
+	<!---->
+	<string name="account_setup_incoming_security_label">"ປະເພດຄວາມປອດໄພສາຄວາມປອດໄພ"</string>
+	<!-- no translation found for account_setup_incoming_domain_label -->
+	<skip />
+	<!-- no translation found for account_setup_incoming_add_domain_label -->
+	<skip />
+	<!---->
+	<string name="account_setup_incoming_security_none_label">"ບໍ່ມີ"</string>
+	<!-- no translation found for account_setup_incoming_security_ssl_trust_certificates_label -->
+	<skip />
+	<!-- no translation found for account_setup_incoming_security_ssl_label -->
+	<skip />
+	<!-- no translation found for account_setup_incoming_security_tls_trust_certificates_label -->
+	<skip />
+	<!-- no translation found for account_setup_incoming_security_tls_label -->
+	<skip />
+	<!---->
+	<string name="account_setup_incoming_delete_policy_label">"ລົບອີເມລຈາກຜູ້ຈາກບໍລິການ"</string>
+	<!---->
+	<string name="account_setup_incoming_delete_policy_never_label">"ບໍ່ເຄີຍ"</string>
+	<!---->
+	<string name="account_setup_incoming_delete_policy_delete_label">"ເມື່ອຂ້ອຍລຶບອອກຈາກກ່ອງຂາເຂົ້າ"</string>
+	<!---->
+	<string name="account_setup_incoming_imap_path_prefix_label">"ຄຳນຳໜ້າທາງເສັ້ນທາງ IMAP"</string>
+	<!---->
+	<string name="account_setup_incoming_imap_path_prefix_hint">"ໂຕເລືອກ"</string>
+	<!-- no translation found for account_setup_outgoing_title -->
+	<skip />
+	<!-- no translation found for account_setup_outgoing_headline -->
+	<skip />
+	<!---->
+	<string name="account_setup_outgoing_smtp_server_label">"ຜູ້ໃຫ້ບໍລິການ SMTP"</string>
+	<!---->
+	<string name="account_setup_outgoing_port_label">"ພອດພ໌"</string>
+	<!---->
+	<string name="account_setup_outgoing_security_label">"ປະເພດຄວາມປອດໄພ"</string>
+	<!---->
+	<string name="account_setup_outgoing_require_login_label">"ຕ້ອງເຂົ້າສູ່ລະບົບ"</string>
+	<!---->
+	<string name="account_setup_outgoing_username_label">"ຊື່ຜູ້ໃຊ້"</string>
+	<!---->
+	<string name="account_setup_outgoing_password_label">"ລະຫັດຜ່ານ"</string>
+	<!-- no translation found for account_setup_exchange_certificate_title -->
+	<skip />
+	<!-- no translation found for account_setup_exchange_select_certificate -->
+	<skip />
+	<!-- no translation found for account_setup_exchange_use_certificate -->
+	<skip />
+	<!-- no translation found for account_setup_exchange_remove_certificate -->
+	<skip />
+	<!---->
+	<string name="account_setup_exchange_no_certificate">"ບໍ່ມີ"</string>
+	<!-- no translation found for account_setup_exchange_device_id_label -->
+	<skip />
+	<!-- no translation found for account_setup_options_title -->
+	<skip />
+	<!-- no translation found for account_setup_options_headline -->
+	<skip />
+	<!-- no translation found for account_setup_options_mail_check_frequency_label -->
+	<skip />
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_never">"ບໍ່ເຄີຍ"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_push">"ອັດຕະໂນມັດ（Push）"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_5min">"ທຸກໆ 5 ນາທີ"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_10min">"ທຸກໆ 10 ນາທີ"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_15min">"ທຸກໆ 15 ນາທີ"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_30min">"ທຸກໆ 30 ນາທີ"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_1hour">"ທຸກໆຊົ່ວໂມງ"</string>
+	<!---->
+	<string name="account_setup_options_notify_label">"ແຈ້ງໃຫ້ຂ້ອຍຮູ້ເມື່ອມີອີເມວມາຮອດ"</string>
+	<!---->
+	<string name="account_setup_options_sync_contacts_label">"ຊີງຄ໌ຜູ້ຕິດຕໍ່ຈາກບັນຊີນີ້。"</string>
+	<!---->
+	<string name="account_setup_options_sync_calendar_label">"ຊີງຄ໌ປະຕິທິນຈາກບັນຊີນີ້。"</string>
+	<!-- no translation found for account_setup_options_sync_email_label -->
+	<skip />
+	<!---->
+	<string name="account_setup_options_background_attachments_label">"ດາວໂຫຼດໄຟລ໌ແນບອັດຕະໂນມັດໃນເວລາເຊື່ອມຕໍ່ Wi-Fi"</string>
+	<!-- no translation found for account_setup_failed_dlg_title -->
+	<skip />
+	<!-- no translation found for account_setup_options_mail_window_label -->
+	<skip />
+	<!---->
+	<string name="account_setup_options_mail_window_auto">"ອັດຕະໂນມັດ"</string>
+	<!-- no translation found for account_setup_options_mail_window_1day -->
+	<skip />
+	<!-- no translation found for account_setup_options_mail_window_3days -->
+	<skip />
+	<!-- no translation found for account_setup_options_mail_window_1week -->
+	<skip />
+	<!-- no translation found for account_setup_options_mail_window_2weeks -->
+	<skip />
+	<!---->
+	<string name="account_setup_options_mail_window_1month">"ເດືອນກ່ອນ"</string>
+	<!-- no translation found for account_setup_options_mail_window_all -->
+	<skip />
+	<!-- no translation found for account_setup_options_mail_window_default -->
+	<skip />
+	<!---->
+	<string name="account_setup_failed_dlg_auth_message">"ຊື່ຜູ່ໃຊ້ ຫລື ລະຫັດຜ່ານບໍ່ຖືກຕ້ອງ."</string>
+	<!-- no translation found for account_setup_failed_dlg_auth_message_fmt -->
+	<skip />
+	<!-- no translation found for account_setup_autodiscover_dlg_authfail_title -->
+	<skip />
+	<!-- no translation found for account_setup_autodiscover_dlg_authfail_message -->
+	<skip />
+	<!-- no translation found for account_setup_failed_dlg_certificate_message -->
+	<skip />
+	<!---->
+	<string name="account_setup_failed_dlg_certificate_message_fmt">"ບໍ່ສາມາດເຊື່ອມຕໍ່ກັບເຊີບເວີຢ່າງປອດໄພໄດ້.\n(<xliff:g id="ERROR">%s</xliff:g>)"</string>
+	<!---->
+	<string name="account_setup_failed_certificate_required">"ຕ້ອງໃຊ້ໃບຮັບຮອງໄຄຼເອນ. ທ່ານຕ້ອງການເຊື່ອມຕໍ່ກັບເຊີບເວີດ້ວຍໃບຮັບຮອງໄຄຼເອນຫຼືບໍ່?"</string>
+	<!---->
+	<string name="account_setup_failed_certificate_inaccessible">"ໃບຮັບຮອງນີ້ບໍ່ຖືກຕ້ອງ ຫຼື ບໍ່ສາມາດເຂົ້າເຖິງໄດ້."</string>
+	<!-- no translation found for account_setup_failed_check_credentials_message -->
+	<skip />
+	<!---->
+	<string name="account_setup_failed_dlg_server_message">"ບໍ່ສາມາດເຊື່ອມຕໍ່ຫາເຊີບເວີໄດ້."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_server_message_fmt">"ບໍ່ສາມາດເຊື່ອມຕໍ່ກັບເຊີບເວີໄດ້.\n(<xliff:g id="ERROR">%s</xliff:g>)"</string>
+	<!---->
+	<string name="account_setup_failed_tls_required">"ຕ້ອງໃຊ້ TLS，ແຕ່ຜູ້ໃຫ້ບໍລິການເຄືອຂ່າຍບໍ້ສະໜັບສະໜູນ."</string>
+	<!---->
+	<string name="account_setup_failed_auth_required">"ເຊີບເວີບໍ່ຮອງຮັບວິທີການຢືນຢັນນີ້."</string>
+	<!---->
+	<string name="account_setup_failed_security">"ບໍ່ສາມາດເປີດການເຊື່ອມຕໍ່ຫາເຊີບເວີໄດ້ ເນື່ອງຈາກຂໍ້ຜິດພາດທາງຄວາມປອດໄພ."</string>
+	<!---->
+	<string name="account_setup_failed_ioerror">"ບໍ່ສາມາດເປີດການເຊື່ອມຕໍ່ກັບເຊີບເວີໄດ້."</string>
+	<!---->
+	<string name="account_setup_failed_protocol_unsupported">"ທ່ານໃສ່ທີ່ຢູ່ເຊີບເວີບໍ່ຖືກຕ້ອງ ຫຼື ເຊີບເວີຕ້ອງໃຊ້ໂປຣໂຕຄອນເວີຊັນທີ່ອີເມວບໍ່ຮອງຮັບ."</string>
+	<!-- no translation found for account_setup_failed_access_denied -->
+	<skip />
+	<!---->
+	<string name="account_setup_security_required_title">"ການເບີ່ງແຍງຄວາມປອດໄພຈາກໄລຍະໄກ"</string>
+	<!---->
+	<string name="account_setup_security_policies_required_fmt">"ເຊີບເວີ <xliff:g id="SERVER">%s</xliff:g> ຮຽກຮ້ອງໃຫ້ທ່ານອະນຸຍາດ ໃຫ້ມັນສາມາດຄວບຄຸມ ຄວາມສາມາດທາງດ້ານຄວາມປອດໄພບາງອັນໃນອຸປະກອນ Android ຂອງທ່ານໄດ້ຈາກໄລຍະໄກ. ທ່ານຕ້ອງການຕັ້ງຄ່າບັນຊີນີ້ໃຫ້ແລ້ວບໍ່?"</string>
+	<!---->
+	<string name="account_setup_failed_security_policies_unsupported">"ເຊີບເວີນີ້ຕ້ອງການໃຊ້ຄວາມສາມາດດ້ານຄວາມປອດໄພ ທີ່ອຸປະກອນ Android ຂອງທ່ານບໍ່ຮອງຮັບ, ຮວມມີ: <xliff:g id="ERROR">%s</xliff:g>"</string>
+	<!-- no translation found for account_setup_username_uneditable_error -->
+	<skip />
+	<!-- no translation found for disable_admin_warning -->
+	<skip />
+	<!-- no translation found for account_security_dialog_title -->
+	<skip />
+	<!-- no translation found for account_security_dialog_content_fmt -->
+	<skip />
+	<!-- no translation found for security_unsupported_ticker_fmt -->
+	<skip />
+	<!---->
+	<string name="security_needed_ticker_fmt">"ບັນຊີ“<xliff:g id="ACCOUNT">%s</xliff:g>”ກຳນົດໃຫ້ຕ້ອງປັບປຸງການຕັ້ງຄ່າຄວາມປອດໄພ。"</string>
+	<!-- no translation found for security_changed_ticker_fmt -->
+	<skip />
+	<!-- no translation found for security_notification_content_update_title -->
+	<skip />
+	<!-- no translation found for security_notification_content_change_title -->
+	<skip />
+	<!-- no translation found for security_notification_content_unsupported_title -->
+	<skip />
+	<!---->
+	<string name="account_security_title">"ຄວາມປອດໄພຂອງອຸປະກອນ"</string>
+	<!-- no translation found for account_security_policy_explanation_fmt -->
+	<skip />
+	<!---->
+	<string name="account_setup_failed_dlg_edit_details_action">"ແກ້ໄຂລາຍລະອຽດ"</string>
+	<!-- no translation found for password_expire_warning_ticker_fmt -->
+	<skip />
+	<!-- no translation found for password_expire_warning_content_title -->
+	<skip />
+	<!-- no translation found for password_expired_ticker -->
+	<skip />
+	<!-- no translation found for password_expired_content_title -->
+	<skip />
+	<!-- no translation found for password_expire_warning_dialog_title -->
+	<skip />
+	<!-- no translation found for password_expire_warning_dialog_content_fmt -->
+	<skip />
+	<!-- no translation found for password_expired_dialog_title -->
+	<skip />
+	<!-- no translation found for password_expired_dialog_content_fmt -->
+	<skip />
+	<!-- no translation found for account_settings_exit_server_settings -->
+	<skip />
+	<!-- no translation found for account_settings_login_dialog_title -->
+	<skip />
+	<!-- no translation found for account_settings_login_dialog_content_fmt -->
+	<skip />
+	<!-- no translation found for account_settings_login_dialog_reason_fmt -->
+	<skip />
+	<!-- no translation found for account_settings_background_attachments_label -->
+	<skip />
+	<!-- no translation found for account_settings_background_attachments_summary -->
+	<skip />
+	<!---->
+	<string name="account_settings_notify_label">"ການແຈ້ງເຕືອນອີເມລ"</string>
+	<!-- no translation found for account_settings_summary -->
+	<skip />
+	<!-- no translation found for account_settings_notify_summary -->
+	<skip />
+	<!-- no translation found for account_settings_mail_check_frequency_label -->
+	<skip />
+	<!---->
+	<string name="account_settings_incoming_label">"ການຕັ້ງຄ່າຂາເຂົ້າ"</string>
+	<!-- no translation found for account_settings_incoming_summary -->
+	<skip />
+	<!---->
+	<string name="account_settings_outgoing_label">"ການຕັ້ງຄ່າຂາອອກ"</string>
+	<!-- no translation found for account_settings_outgoing_summary -->
+	<skip />
+	<!-- no translation found for account_settings_reply_to_category -->
+	<skip />
+	<!-- no translation found for account_settings_reply_to_label -->
+	<skip />
+	<!-- no translation found for account_settings_reply_to_invalid -->
+	<skip />
+	<!-- no translation found for account_settings_enforced_label -->
+	<skip />
+	<!---->
+	<string name="account_settings_enforced_summary">"ບໍ່ມີ"</string>
+	<!-- no translation found for account_settings_unsupported_label -->
+	<skip />
+	<!---->
+	<string name="account_settings_unsupported_summary">"ບໍ່ມີ"</string>
+	<!---->
+	<string name="account_settings_retry_label">"ພະຍາຍາມຊິ້ງຂໍ້ມູນ"</string>
+	<!-- no translation found for account_settings_retry_summary -->
+	<skip />
+	<!---->
+	<string name="account_settings_description_label">"ຊື່ບັນຊີ"</string>
+	<!---->
+	<string name="account_settings_name_label">"ຊື່ຂອງທ່ານ"</string>
+	<!-- no translation found for account_settings_edit_quick_responses_label -->
+	<skip />
+	<!-- no translation found for account_settings_edit_quick_responses_summary -->
+	<skip />
+	<!---->
+	<string name="account_settings_notifications">"ການຕັ້ງຄ່າການແຈ້ງເຕືອນ"</string>
+	<!-- no translation found for account_settings_data_usage -->
+	<skip />
+	<!-- no translation found for account_settings_policies -->
+	<skip />
+	<!-- no translation found for system_folders_title -->
+	<skip />
+	<!-- no translation found for system_folders_trash_title -->
+	<skip />
+	<!-- no translation found for system_folders_trash_summary -->
+	<skip />
+	<!-- no translation found for system_folders_trash_dlg -->
+	<skip />
+	<!-- no translation found for system_folders_sent_title -->
+	<skip />
+	<!-- no translation found for system_folders_sent_summary -->
+	<skip />
+	<!-- no translation found for system_folders_sent_dlg -->
+	<skip />
+	<!-- no translation found for edit_quick_response_dialog -->
+	<skip />
+	<!---->
+	<string name="save_action">"ບັນທຶກ"</string>
+	<!---->
+	<string name="account_settings_sync_contacts_enable">"ຊີງຄ໌ຜູ້ຕິດຕໍ່"</string>
+	<!-- no translation found for account_settings_sync_contacts_summary -->
+	<skip />
+	<!---->
+	<string name="account_settings_sync_calendar_enable">"ຊີງຄ໌ປະຕິທິນ"</string>
+	<!-- no translation found for account_settings_sync_calendar_summary -->
+	<skip />
+	<!-- no translation found for account_settings_sync_email_enable -->
+	<skip />
+	<!-- no translation found for account_settings_sync_email_summary -->
+	<skip />
+	<!---->
+	<string name="account_settings_vibrate_when_label">"ສັ່ນ"</string>
+	<!-- no translation found for account_settings_ringtone -->
+	<skip />
+	<!---->
+	<string name="account_settings_servers">"ການຕັ້ງຄ່ສເຊີເວີ້"</string>
+	<!---->
+	<string name="default_ringtone">"ສຽງເອີ້ນເຂົ້າເລີ່ມຕົ້ນ"</string>
+	<!---->
+	<string name="default_ringtone_unkonwn">"ສຽງເອີ້ນເຂົ້າທີ່ບໍ່ຮູ້ຈັກ"</string>
+	<!-- no translation found for mailbox_settings_activity_title -->
+	<skip />
+	<!-- no translation found for mailbox_settings_activity_title_with_mailbox -->
+	<skip />
+	<!-- no translation found for mailbox_settings_sync_enabled_label -->
+	<skip />
+	<!-- no translation found for mailbox_settings_sync_enabled_summary -->
+	<skip />
+	<!-- no translation found for mailbox_settings_mailbox_sync_window_label -->
+	<skip />
+	<!-- no translation found for prefDialogTitle_conversationListIcon -->
+	<skip />
+	<!---->
+	<string name="provider_note_live">"ມີແຕ່ບາງບັນຊີ \"Plus\" ທີ່ມີການເຂົ້າເຖິງ POP ເພື່ອອະນຸຍາດໃຫ້ໂປຣແກຣມນີ້ເຊື່ອມຕໍ່. ຫາກທ່ານບໍ່ສາມາດເຂົ້າສູ່ລະບົບດ້ວຍທີ່ຢູ່ອີເມວ ແລະ ລະຫັດຜ່ານທີ່ຖືກຕ້ອງ, ທ່ານອາດບໍ່ມີບັນຊີ \"Plus\" ທີ່ບໍ່ທຳການຊຳລະ. ເປີດໂປຣແກຣມທ່ອງເວັບເພື່ອເຂົ້າເຖິງບັນຊີອີເມວເຫຼົ່ານີ້."</string>
+	<!-- no translation found for provider_note_t_online -->
+	<skip />
+	<!-- no translation found for exchange_name -->
+	<skip />
+	<!-- no translation found for exchange_name_alternate -->
+	<skip />
+	<!-- no translation found for system_account_create_failed -->
+	<skip />
+	<!---->
+	<string name="device_admin_label">"ອີເມລ"</string>
+	<!---->
+	<string name="device_admin_description">"ເປີດໃຊ້ງານນະໂຍບາຍດ້ານຄວາມປອດໄພສະເພາະຜູ້ໃຫ້ບໍລິການ"</string>
+	<!---->
+	<string name="settings_activity_title">"ການຕັ້ງຄ່າ"</string>
+	<!---->
+	<string name="header_label_general_preferences">"ການຕັ້ງຄ່າທົ່ວໄປ"</string>
+	<!-- no translation found for general_preference_confirm_delete_label -->
+	<skip />
+	<!-- no translation found for general_preference_confirm_send_label -->
+	<skip />
+	<!-- no translation found for more_than_999 -->
+	<skip />
+	<!-- no translation found for search_hint -->
+	<skip />
+	<!-- no translation found for policy_dont_allow_camera -->
+	<skip />
+	<!-- no translation found for policy_require_password -->
+	<skip />
+	<!-- no translation found for policy_password_history -->
+	<skip />
+	<!-- no translation found for policy_password_expiration -->
+	<skip />
+	<!-- no translation found for policy_screen_timeout -->
+	<skip />
+	<!---->
+	<string name="policy_calendar_age">"ຈຳກັດຈຳນວນຂໍ້ມູນກິດຈະກຳໃນປະຕິທິນເພື່ອຈະຊິ້ງຂໍ້ມູນ"</string>
+	<!---->
+	<string name="policy_email_age">"ຈຳກັດຈຳນວນຂໍ້ມູນອີເມວທີ່ຈະຊິ້ງຂໍ້ມູນ"</string>
+	<!-- no translation found for quick_1 -->
+	<skip />
+	<!-- no translation found for quick_2 -->
+	<skip />
+	<!-- no translation found for quick_3 -->
+	<skip />
+	<!-- no translation found for quick_4 -->
+	<skip />
+	<!-- no translation found for require_manual_sync_message -->
+	<skip />
+	<!-- no translation found for confirm_response -->
+	<skip />
+	<!-- no translation found for no_conversations -->
+	<skip />
+	<!-- no translation found for imap_name -->
+	<skip />
+	<!-- no translation found for pop3_name -->
+	<skip />
+	<!---->
+	<string name="email_name">"ອີເມລ"</string>
+	<!-- no translation found for folder_picker_title -->
+	<skip />
+	<!-- no translation found for trash_folder_selection_title -->
+	<skip />
+	<!---->
+	<string name="sent_folder_selection_title">"ເລືອກໂຟນເດີສົ່ງລາຍການຂອງເຊີບເວີສຳລັບ <xliff:g id="ACCOUNT">%s</xliff:g>"</string>
+	<!-- no translation found for account_waiting_for_folders_msg -->
+	<skip />
+	<!-- no translation found for no_quick_responses -->
+	<skip />
+	<!-- no translation found for gmail_name -->
+	<skip />
+	<!-- no translation found for folder_sync_settings_pref_title -->
+	<skip />
+	<!---->
+	<string name="select_your_account">"ເລືອກບັນຊີ"</string>
+	<!---->
+	<string name="select_account_list_below">"ເລືອກບັນຊີຈາກລາຍການດ້ານລຸ່ມ:"</string>
+	<!---->
+	<string name="cancel_label">"ຍົກເລີກ"</string>
+	<!---->
+	<string name="next_label">"ຕໍ່ໄປ"</string>
+	<!---->
+	<string name="str_account_provider_other">"ອື່ນໆ"</string>
+	<!-- no translation found for account_settings_download_options_label -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_headonly -->
+	<skip />
+	<!---->
+	<string name="account_setting_download_opt_all">"ທັງໜົດ"</string>
+	<!-- no translation found for account_setting_download_opt_2k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_5k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_10k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_20k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_50k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_100k -->
+	<skip />
+	<!-- no translation found for account_oof_error_tip_past -->
+	<skip />
+	<!-- no translation found for account_oof_error_tip_earlier -->
+	<skip />
+	<!-- no translation found for account_setting_oof_label -->
+	<skip />
+	<!-- no translation found for oof_auto_repley -->
+	<skip />
+	<!-- no translation found for oof_auto_replies_period -->
+	<skip />
+	<!-- no translation found for start_time -->
+	<skip />
+	<!-- no translation found for end_time -->
+	<skip />
+	<!-- no translation found for internal_message -->
+	<skip />
+	<!-- no translation found for oof_auto_replies_external_senders -->
+	<skip />
+	<!-- no translation found for oof_choice_oof_in_contacts -->
+	<skip />
+	<!-- no translation found for oof_choice_oof_outside_organisation -->
+	<skip />
+	<!-- no translation found for external_message -->
+	<skip />
+	<!-- no translation found for oof_done_message_attention -->
+	<skip />
+	<!-- no translation found for oof_choice_in_contacts -->
+	<skip />
+	<!-- no translation found for oof_choice_all_senders -->
+	<skip />
+	<!-- no translation found for hint_text_of_internal_message -->
+	<skip />
+	<!-- no translation found for hint_text_of_external_message -->
+	<skip />
+	<!-- no translation found for account_delete_dlg_title -->
+	<skip />
+	<!-- no translation found for account_delete_dlg_instructions_fmt -->
+	<skip />
+	<!-- no translation found for account_delete_dlg_instructions_fmt_new -->
+	<skip />
+	<!-- no translation found for account_delete_dlg_action_remove_label -->
+	<skip />
+	<!-- no translation found for account_delete_dlg_action_cancel_label -->
+	<skip />
+	<!-- no translation found for account_settings_category_delete_account -->
+	<skip />
+	<!-- no translation found for account_settings_delete_account_label -->
+	<skip />
+	<!-- no translation found for account_settings_default_label -->
+	<skip />
+	<!-- no translation found for account_settings_default_summary -->
+	<skip />
+	<!-- no translation found for account_setup_options_default_label -->
+	<skip />
+	<!-- no translation found for account_setup_basics_default_label -->
+	<skip />
+	<!-- no translation found for local_search_action -->
+	<skip />
+	<!-- no translation found for service_search_action -->
+	<skip />
+	<!---->
+	<string name="local_search_all">"ທັງໜົດ"</string>
+	<!---->
+	<string name="local_search_from">"ຈາກ"</string>
+	<!-- no translation found for local_search_to -->
+	<skip />
+	<!---->
+	<string name="local_search_subject">"ຫົວຂໍ້"</string>
+	<!-- no translation found for status_loading_attachments -->
+	<skip />
+	<!---->
+	<string name="account_use_proxy_label">"ໃຊ້ Proxy"</string>
+	<!-- no translation found for account_setup_exchange_proxy_label -->
+	<skip />
+	<!-- no translation found for account_setup_exchange_proxy_port_label -->
+	<skip />
+	<!-- no translation found for account_setup_exchange_proxy_name -->
+	<skip />
+	<!-- no translation found for account_setup_exchange_proxy_password -->
+	<skip />
+	<!-- no translation found for attachment_info_dialog_wifi_title -->
+	<skip />
+	<!-- no translation found for attachment_info_wifi_settings -->
+	<skip />
+	<!-- no translation found for attachment_info_wifi_only -->
+	<skip />
+	<!-- no translation found for attachment_info_ok -->
+	<skip />
+	<!---->
+	<string name="mailbox_name_display_draft">"ຮ່າງສະບັບ"</string>
+	<!-- no translation found for message_compose_display_name -->
+	<skip />
+	<!---->
+	<string name="app_name">"ອີເມລ"</string>
+	<!-- no translation found for from -->
+	<skip />
+	<!-- no translation found for to -->
+	<skip />
+	<!-- no translation found for cc -->
+	<skip />
+	<!-- no translation found for bcc -->
+	<skip />
+	<!-- no translation found for subject_hint -->
+	<skip />
+	<!-- no translation found for body_hint -->
+	<skip />
+	<!-- no translation found for add_file_attachment -->
+	<skip />
+	<!-- no translation found for add_photo_attachment -->
+	<skip />
+	<!-- no translation found for save_draft -->
+	<skip />
+	<!-- no translation found for discard -->
+	<skip />
+	<!---->
+	<string name="compose">"ຂຽນ"</string>
+	<!-- no translation found for select_contacts_field -->
+	<skip />
+	<!-- no translation found for item_save_group -->
+	<skip />
+	<!-- no translation found for confirm_select -->
+	<skip />
+	<!-- no translation found for cancel_select -->
+	<skip />
+	<string-array name="compose_modes">
+		<item>"ຕອບກັບທັງໜົດ"</item>
+		<item>"Reply all"</item>
+		<item>"Forward"</item>
+	</string-array>
+	<string-array name="compose_modes_without_reply_all">
+		<item>"Reply"</item>
+		<item>"Forward"</item>
+	</string-array>
+	<!-- no translation found for reply_subject_label -->
+	<skip />
+	<!-- no translation found for forward_subject_label -->
+	<skip />
+	<!-- no translation found for reply_attribution -->
+	<skip />
+	<!-- no translation found for forward_attribution -->
+	<skip />
+	<!-- no translation found for forward_attribution_with_headers -->
+	<skip />
+	<!-- no translation found for forward_attribution_no_headers -->
+	<skip />
+	<!-- no translation found for cc_attribution -->
+	<skip />
+	<!-- no translation found for select_attachment_type -->
+	<skip />
+	<!-- no translation found for too_large_to_attach_single -->
+	<skip />
+	<!-- no translation found for too_large_to_attach_multiple -->
+	<skip />
+	<!-- no translation found for too_large_to_mid_attach_additional -->
+	<skip />
+	<!-- no translation found for too_large_to_attach_additional -->
+	<skip />
+	<!-- no translation found for generic_attachment_problem -->
+	<skip />
+	<!-- no translation found for recipient_needed -->
+	<skip />
+	<!-- no translation found for recipient_error_dialog_title -->
+	<skip />
+	<!-- no translation found for confirm_send_title -->
+	<skip />
+	<!-- no translation found for confirm_send_message_with_no_subject -->
+	<skip />
+	<!-- no translation found for confirm_send_message_with_no_body -->
+	<skip />
+	<!-- no translation found for confirm_send_message -->
+	<skip />
+	<!---->
+	<string name="message_discarded">"ຂໍ້ຄວາມຖືກຍົກເລີກແລ້ວ。"</string>
+	<!-- no translation found for signature -->
+	<skip />
+	<!-- no translation found for custom_from_account_label -->
+	<skip />
+	<!---->
+	<string name="send">"ສົ່ງ"</string>
+	<!---->
+	<string name="mark_read">"ເຮັດເປັນເຄື່ອງໜາຍອ່ານແລ້ວ"</string>
+	<!---->
+	<string name="mark_unread">"ເຮັດເຄື່ອງໜາຍວ່າຍັງບໍ່ທັນໄດ້ອ່ານ"</string>
+	<!-- no translation found for mute -->
+	<skip />
+	<!---->
+	<string name="add_star">"ເພີ່ມດາວ"</string>
+	<!---->
+	<string name="remove_star">"ຍົກເລີກໜາຍດາວ"</string>
+	<!-- no translation found for remove_folder -->
+	<skip />
+	<!-- no translation found for archive -->
+	<skip />
+	<!-- no translation found for report_spam -->
+	<skip />
+	<!-- no translation found for mark_not_spam -->
+	<skip />
+	<!-- no translation found for report_phishing -->
+	<skip />
+	<!-- no translation found for delete -->
+	<skip />
+	<!-- no translation found for discard_drafts -->
+	<skip />
+	<!-- no translation found for discard_failed -->
+	<skip />
+	<!---->
+	<string name="refresh">"ຣີເຟຣດ"</string>
+	<!-- no translation found for reply -->
+	<skip />
+	<!---->
+	<string name="reply_all">"ຕອບກັບທັງໜົດ"</string>
+	<!---->
+	<string name="resume_draft">"ແກ້ໄຂ"</string>
+	<!-- no translation found for forward -->
+	<skip />
+	<!---->
+	<string name="menu_compose">"ຂຽນ"</string>
+	<!-- no translation found for menu_sort -->
+	<skip />
+	<!-- no translation found for menu_change_folders -->
+	<skip />
+	<!-- no translation found for menu_move_to -->
+	<skip />
+	<!-- no translation found for menu_move_to_inbox -->
+	<skip />
+	<!-- no translation found for menu_manage_folders -->
+	<skip />
+	<!-- no translation found for menu_show_original -->
+	<skip />
+	<!-- no translation found for menu_settings -->
+	<skip />
+	<!---->
+	<string name="menu_search">"ຄົ້ນຫາ"</string>
+	<!-- no translation found for drawer_title -->
+	<skip />
+	<!-- no translation found for mark_important -->
+	<skip />
+	<!-- no translation found for mark_not_important -->
+	<skip />
+	<!-- no translation found for select_all_conversations -->
+	<skip />
+	<!-- no translation found for unselect_all_conversations -->
+	<skip />
+	<!-- no translation found for add_cc_label -->
+	<skip />
+	<!-- no translation found for add_bcc_label -->
+	<skip />
+	<!-- no translation found for quoted_text -->
+	<skip />
+	<!-- no translation found for quoted_text_label -->
+	<skip />
+	<!-- no translation found for respond_inline -->
+	<skip />
+	<!-- no translation found for bytes -->
+	<skip />
+	<!-- no translation found for kilobytes -->
+	<skip />
+	<!-- no translation found for megabytes -->
+	<skip />
+	<!-- no translation found for attachment_image -->
+	<skip />
+	<!---->
+	<string name="attachment_video">"ວິດີໂອ"</string>
+	<!---->
+	<string name="attachment_audio">"ສຽງ"</string>
+	<!-- no translation found for attachment_text -->
+	<skip />
+	<!-- no translation found for attachment_application_msword -->
+	<skip />
+	<!-- no translation found for attachment_application_vnd_ms_powerpoint -->
+	<skip />
+	<!-- no translation found for attachment_application_vnd_ms_excel -->
+	<skip />
+	<!-- no translation found for attachment_application_pdf -->
+	<skip />
+	<!-- no translation found for attachment_unknown -->
+	<skip />
+	<!-- no translation found for preview_attachment -->
+	<skip />
+	<!-- no translation found for save_attachment -->
+	<skip />
+	<!---->
+	<string name="cancel_attachment">"ຍົກເລີກ"</string>
+	<!---->
+	<string name="open_attachment">"ເປີດ"</string>
+	<!---->
+	<string name="install_attachment">"ຕິດຕັ້ງ"</string>
+	<!-- no translation found for download_again -->
+	<skip />
+	<!-- no translation found for more_info_attachment -->
+	<skip />
+	<!-- no translation found for no_application_found -->
+	<skip />
+	<!-- no translation found for fetching_attachment -->
+	<skip />
+	<!---->
+	<string name="please_wait">"ກະລູນາລໍຖ້າ\u2026"</string>
+	<!-- no translation found for saved -->
+	<skip />
+	<!-- no translation found for download_failed -->
+	<skip />
+	<!-- no translation found for menu_photo_save_all -->
+	<skip />
+	<!-- no translation found for menu_photo_share -->
+	<skip />
+	<!-- no translation found for menu_photo_share_all -->
+	<skip />
+	<!---->
+	<string name="menu_photo_print">"ພິມ"</string>
+	<!-- no translation found for saving -->
+	<skip />
+	<!---->
+	<string name="choosertitle_sharevia">"ຮູບແບບຮ່ວມກັນ"</string>
+	<!-- no translation found for contextmenu_openlink -->
+	<skip />
+	<!---->
+	<string name="contextmenu_copy">"ສຳເນົາ"</string>
+	<!---->
+	<string name="contextmenu_copylink">"ສໍາເນົາການເຊື່ອມໂຍງເວັບໄຊ້"</string>
+	<!---->
+	<string name="contextmenu_view_image">"ກວດເບິ່ງຮູບ"</string>
+	<!-- no translation found for contextmenu_dial_dot -->
+	<skip />
+	<!-- no translation found for contextmenu_sms_dot -->
+	<skip />
+	<!---->
+	<string name="contextmenu_add_contact">"ເພີ່ມຄົນຕິດຕໍ່"</string>
+	<!---->
+	<string name="contextmenu_send_mail">"ສົ່ງອີເມລ"</string>
+	<!---->
+	<string name="contextmenu_map">"ແຜນທີ່"</string>
+	<!---->
+	<string name="contextmenu_sharelink">"ການເຊື່ອມໂຍງຮ່ວມກັນ"</string>
+	<!---->
+	<string name="contextmenu_savelink">"ບັນທຶກການເຊື່ອມໂຍງ"</string>
+	<!---->
+	<string name="contextmenu_help">"ຊ່ວຍເຫຼືອ"</string>
+	<!-- no translation found for contextmenu_feedback -->
+	<skip />
+	<!-- no translation found for sort_title -->
+	<skip />
+	<!-- no translation found for sort_by_tip -->
+	<skip />
+	<!-- no translation found for num_selected -->
+	<skip />
+	<!-- no translation found for move_conversation -->
+	<skip />
+	<!-- no translation found for content_description -->
+	<skip />
+	<!-- no translation found for content_description_today -->
+	<skip />
+	<!-- no translation found for read_string -->
+	<skip />
+	<!-- no translation found for unread_string -->
+	<skip />
+	<!-- no translation found for filtered_tag -->
+	<skip />
+	<!-- no translation found for badge_and_subject -->
+	<skip />
+	<!-- no translation found for draft -->
+	<skip />
+	<!---->
+	<string name="sending">"ກໍາລັງສົ່ງ…"</string>
+	<!-- no translation found for message_retrying -->
+	<skip />
+	<!-- no translation found for message_failed -->
+	<skip />
+	<!-- no translation found for send_failed -->
+	<skip />
+	<!-- no translation found for send_failed_wait_attchment_downloaded -->
+	<skip />
+	<!---->
+	<string name="me_object_pronoun">"ຂ້ອຍ"</string>
+	<!---->
+	<string name="me_subject_pronoun">"ຂ້ອຍ"</string>
+	<!-- no translation found for confirm_delete_conversation -->
+	<skip />
+	<!-- no translation found for confirm_archive_conversation -->
+	<skip />
+	<!-- no translation found for confirm_discard_drafts_conversation -->
+	<skip />
+	<!-- no translation found for confirm_discard_text -->
+	<skip />
+	<!---->
+	<string name="loading_conversations">"ກໍາລັງໂຫລດ\u2026"</string>
+	<!-- no translation found for empty_inbox -->
+	<skip />
+	<!-- no translation found for empty_search -->
+	<skip />
+	<!-- no translation found for empty_spam_folder -->
+	<skip />
+	<!-- no translation found for empty_trash_folder -->
+	<skip />
+	<!-- no translation found for empty_folder -->
+	<skip />
+	<!-- no translation found for getting_messages -->
+	<skip />
+	<!---->
+	<string name="undo">"ເຮັດກັບຄືນ"</string>
+	<!-- no translation found for conversation_unstarred -->
+	<skip />
+	<!-- no translation found for conversation_muted -->
+	<skip />
+	<!-- no translation found for conversation_spammed -->
+	<skip />
+	<!-- no translation found for conversation_not_spam -->
+	<skip />
+	<!-- no translation found for conversation_not_important -->
+	<skip />
+	<!-- no translation found for conversation_phished -->
+	<skip />
+	<!-- no translation found for conversation_archived -->
+	<skip />
+	<!-- no translation found for conversation_deleted -->
+	<skip />
+	<!-- no translation found for deleted -->
+	<skip />
+	<!-- no translation found for archived -->
+	<skip />
+	<!-- no translation found for starred -->
+	<skip />
+	<!-- no translation found for unstarred -->
+	<skip />
+	<!-- no translation found for folder_removed -->
+	<skip />
+	<!-- no translation found for conversation_folder_changed -->
+	<skip />
+	<!-- no translation found for conversation_folder_moved -->
+	<skip />
+	<!-- no translation found for search_results_header -->
+	<skip />
+	<!-- no translation found for search_unsupported -->
+	<skip />
+	<!-- no translation found for add_label -->
+	<skip />
+	<!-- no translation found for new_incoming_messages_one -->
+	<skip />
+	<!-- no translation found for new_incoming_messages_many -->
+	<skip />
+	<!---->
+	<string name="date_and_view_details">"ເບິ່ງລາຍລະອຽດ"</string>
+	<!-- no translation found for date_and_view_details_another -->
+	<skip />
+	<!-- no translation found for hide_details -->
+	<skip />
+	<!-- no translation found for to_message_header -->
+	<skip />
+	<!-- no translation found for contact_info_string -->
+	<skip />
+	<!-- no translation found for contact_info_string_default -->
+	<skip />
+	<!-- no translation found for show_messages_read -->
+	<skip />
+	<!-- no translation found for from_heading -->
+	<skip />
+	<!-- no translation found for replyto_heading -->
+	<skip />
+	<!-- no translation found for to_heading -->
+	<skip />
+	<!---->
+	<string name="to_heading_no_space">"ເຖິງ："</string>
+	<!---->
+	<string name="cc_heading">"ສຳເນົາເຖິງ"</string>
+	<!-- no translation found for bcc_heading -->
+	<skip />
+	<!-- no translation found for date_heading -->
+	<skip />
+	<!---->
+	<string name="show_images">"ສະແດງພາບ"</string>
+	<!-- no translation found for always_show_images -->
+	<skip />
+	<!-- no translation found for always_show_images_toast -->
+	<skip />
+	<!-- no translation found for address_display_format -->
+	<skip />
+	<!-- no translation found for address_display_format_with_via_domain -->
+	<skip />
+	<!-- no translation found for message_saved -->
+	<skip />
+	<!-- no translation found for sending_message -->
+	<skip />
+	<!-- no translation found for invalid_recipient -->
+	<skip />
+	<!-- no translation found for show_elided -->
+	<skip />
+	<!-- no translation found for hide_elided -->
+	<skip />
+	<!-- no translation found for message_invite_title -->
+	<skip />
+	<!-- no translation found for message_invite_available -->
+	<skip />
+	<!-- no translation found for message_invite_datetime -->
+	<skip />
+	<!-- no translation found for message_invite_location -->
+	<skip />
+	<!-- no translation found for message_invite_in_calendar_view -->
+	<skip />
+	<!-- no translation found for message_invite_calendar_view -->
+	<skip />
+	<!---->
+	<string name="message_invite_label_attending">"ຈະໄປບໍ່？"</string>
+	<!---->
+	<string name="message_invite_accept">"ຕົກລົງ"</string>
+	<!---->
+	<string name="message_invite_tentative">"ອາດຈະ"</string>
+	<!---->
+	<string name="message_invite_decline">"ບໍ່"</string>
+	<!-- no translation found for enumeration_comma -->
+	<skip />
+	<!-- no translation found for send_anyway -->
+	<skip />
+	<!---->
+	<string name="ok">"ຕົກລົງ"</string>
+	<!---->
+	<string name="done">"ແລ້ວໆ"</string>
+	<!-- no translation found for cancel -->
+	<skip />
+	<!---->
+	<string name="clear">"ລຶບອອກ"</string>
+	<!---->
+	<string name="next">"ຕໍ່ໄປ"</string>
+	<!-- no translation found for previous -->
+	<skip />
+	<string-array name="sync_status">
+		<item>"You don\'t have Wi-Fi connectivity, whether to continue the synchronisation?"</item>
+		<item>"Couldn\'t sign in."</item>
+		<item>"Security error."</item>
+		<item>"Couldn\'t sync."</item>
+		<item>"Internal error"</item>
+		<item>"Internal error"</item>
+		<item>"Server error"</item>
+	</string-array>
+	<!-- no translation found for tap_to_configure -->
+	<skip />
+	<!-- no translation found for non_synced_folder_description -->
+	<skip />
+	<!-- no translation found for tap_to_configure_folder_sync -->
+	<skip />
+	<!-- no translation found for widget_large_unread_count -->
+	<skip />
+	<!-- no translation found for large_unseen_count -->
+	<skip />
+	<!-- no translation found for unseen_count -->
+	<skip />
+	<!-- no translation found for actionbar_unread_messages -->
+	<skip />
+	<!-- no translation found for actionbar_large_unread_count -->
+	<skip />
+	<!-- no translation found for view_more_conversations -->
+	<skip />
+	<!---->
+	<string name="loading_conversation">"ກໍາລັງໂຫລດ\u2026"</string>
+	<!-- no translation found for activity_mailbox_selection -->
+	<skip />
+	<!-- no translation found for activity_folder_selection -->
+	<skip />
+	<!-- no translation found for folder_shortcut_widget_label -->
+	<skip />
+	<!-- no translation found for change_folders_selection_dialog_title -->
+	<skip />
+	<!-- no translation found for move_to_selection_dialog_title -->
+	<skip />
+	<!-- no translation found for search_results_loaded -->
+	<skip />
+	<!-- no translation found for network_error -->
+	<skip />
+	<!---->
+	<string name="retry">"ລອງອີກຄັ້ງ"</string>
+	<!-- no translation found for load_more -->
+	<skip />
+	<!-- no translation found for shortcut_name_title -->
+	<skip />
+	<!-- no translation found for wait_for_sync_title -->
+	<skip />
+	<!-- no translation found for not_synced_title -->
+	<skip />
+	<!-- no translation found for wait_for_manual_sync_body -->
+	<skip />
+	<!-- no translation found for manual_sync -->
+	<skip />
+	<!-- no translation found for change_sync_settings -->
+	<skip />
+	<!-- no translation found for photo_load_failed -->
+	<skip />
+	<!-- no translation found for cant_move_or_change_labels -->
+	<skip />
+	<!-- no translation found for multiple_new_message_notification_item -->
+	<skip />
+	<!-- no translation found for single_new_message_notification_big_text -->
+	<skip />
+	<!-- no translation found for ignore_spam_warning -->
+	<skip />
+	<!-- no translation found for via_domain -->
+	<skip />
+	<!-- no translation found for signin -->
+	<skip />
+	<!---->
+	<string name="info">"ຂໍ້ມູນ"</string>
+	<!---->
+	<string name="report">"ລາຍງານ"</string>
+	<!-- no translation found for sync_error -->
+	<skip />
+	<!-- no translation found for sync_error_message -->
+	<skip />
+	<!---->
+	<string name="storage">"ບອນບັນທຶກ"</string>
+	<!-- no translation found for senders_split_token -->
+	<skip />
+	<!-- no translation found for draft_count_format -->
+	<skip />
+	<!-- no translation found for all_folders_heading -->
+	<skip />
+	<!-- no translation found for recent_folders_heading -->
+	<skip />
+	<!---->
+	<string name="message_details_title">"ລາຍລະອຽດຂໍ້ຄວາມ"</string>
+	<!-- no translation found for preference_advance_to_title -->
+	<skip />
+	<string-array name="prefEntries_autoAdvance">
+		<item>"Newer"</item>
+		<item>"ເກົ່າ​ກ່ວາ"</item>
+		<item>"Conversation list"</item>
+	</string-array>
+	<string-array name="prefSummaries_autoAdvance">
+		<item>"Show newer conversation after you delete"</item>
+		<item>"Show older conversation after you delete"</item>
+		<item>"Show conversation list after you delete"</item>
+	</string-array>
+	<!-- no translation found for prefDialogTitle_autoAdvance -->
+	<skip />
+	<!-- no translation found for clear_display_images_whitelist_title -->
+	<skip />
+	<!-- no translation found for clear_display_images_whitelist_dialog_title -->
+	<skip />
+	<!-- no translation found for clear_display_images_whitelist_dialog_message -->
+	<skip />
+	<!-- no translation found for sender_whitelist_cleared -->
+	<skip />
+	<!-- no translation found for preferences_signature_title -->
+	<skip />
+	<!---->
+	<string name="preferences_signature_dialog_title">"ລາຍເຊັນ"</string>
+	<!---->
+	<string name="preferences_signature_summary_not_set">"ບໍ່ໄດ້ຕັ້ງຄ່າ"</string>
+	<!-- no translation found for mail_account_signature_prefix -->
+	<skip />
+	<!-- no translation found for notification_action_reply -->
+	<skip />
+	<!---->
+	<string name="notification_action_reply_all">"ຕອບກັບທັງໜົດ"</string>
+	<!-- no translation found for notification_action_archive -->
+	<skip />
+	<!-- no translation found for notification_action_remove_label -->
+	<skip />
+	<!-- no translation found for notification_action_delete -->
+	<skip />
+	<!-- no translation found for notification_action_undo_archive -->
+	<skip />
+	<!-- no translation found for notification_action_undo_remove_label -->
+	<skip />
+	<!-- no translation found for notification_action_undo_delete -->
+	<skip />
+	<!-- no translation found for veiled_address -->
+	<skip />
+	<!-- no translation found for veiled_alternate_text -->
+	<skip />
+	<!-- no translation found for veiled_alternate_text_unknown_person -->
+	<skip />
+	<!-- no translation found for veiled_summary_unknown_person -->
+	<skip />
+	<!-- no translation found for label_notification_ticker -->
+	<skip />
+	<!-- no translation found for new_messages -->
+	<skip />
+	<!-- no translation found for single_new_message_notification_title -->
+	<skip />
+	<!-- no translation found for silent_ringtone -->
+	<skip />
+	<!-- no translation found for preference_removal_action_title -->
+	<skip />
+	<string-array name="prefEntries_removal_action">
+		<item>"Show archived only"</item>
+		<item>"Show deleted only"</item>
+		<item>"Show archive &amp; delete"</item>
+	</string-array>
+	<string-array name="prefSummaries_removal_action_summary">
+		<item>"Show archived only"</item>
+		<item>"Show deleted only"</item>
+		<item>"Show archive &amp; delete"</item>
+	</string-array>
+	<!-- no translation found for prefDialogTitle_removal_action -->
+	<skip />
+	<!-- no translation found for preferences_default_reply_all_title -->
+	<skip />
+	<!-- no translation found for preferences_default_reply_all_summary_impl -->
+	<skip />
+	<!-- no translation found for preference_swipe_title_archive -->
+	<skip />
+	<!-- no translation found for preference_swipe_title_delete -->
+	<skip />
+	<!-- no translation found for preference_swipe_description -->
+	<skip />
+	<!-- no translation found for preference_swipe_actions -->
+	<skip />
+	<!-- no translation found for preference_sender_image_title -->
+	<skip />
+	<!-- no translation found for preference_sender_image_description -->
+	<skip />
+	<!-- no translation found for empty_trash -->
+	<skip />
+	<!-- no translation found for empty_spam -->
+	<skip />
+	<!-- no translation found for star_toggle -->
+	<skip />
+	<!-- no translation found for empty_trash_dialog_title -->
+	<skip />
+	<!-- no translation found for empty_spam_dialog_title -->
+	<skip />
+	<!-- no translation found for empty_folder_dialog_message -->
+	<skip />
+	<!-- no translation found for drawer_open -->
+	<skip />
+	<!-- no translation found for drawer_close -->
+	<skip />
+	<!-- no translation found for conversation_photo_welcome_text -->
+	<skip />
+	<!-- no translation found for long_press_to_select_tip -->
+	<skip />
+	<!-- no translation found for folder_icon_desc -->
+	<skip />
+	<!-- no translation found for add_account -->
+	<skip />
+	<!-- no translation found for dismiss_tip_hover_text -->
+	<skip />
+	<!-- no translation found for auto_sync_off -->
+	<skip />
+	<!-- no translation found for tap_to_enable_sync -->
+	<skip />
+	<!-- no translation found for account_sync_off -->
+	<skip />
+	<!-- no translation found for enable_sync_in_account_settings -->
+	<skip />
+	<!---->
+	<string name="account_settings_param">"ການຕັ້ງບັນຊີ"</string>
+	<!-- no translation found for unsent_messages_in_outbox -->
+	<skip />
+	<!-- no translation found for turn_auto_sync_on_dialog_title -->
+	<skip />
+	<!-- no translation found for turn_auto_sync_on_dialog_body -->
+	<skip />
+	<!-- no translation found for phone -->
+	<skip />
+	<!---->
+	<string name="tablet">"ໂທລະສັບ"</string>
+	<!---->
+	<string name="turn_auto_sync_on_dialog_confirm_btn">"ເປີດ"</string>
+	<!-- no translation found for show_n_more_folders -->
+	<skip />
+	<!-- no translation found for hide_folders -->
+	<skip />
+	<!-- no translation found for print -->
+	<skip />
+	<!-- no translation found for print_all -->
+	<skip />
+	<!-- no translation found for num_messages -->
+	<skip />
+	<!-- no translation found for date_message_received_print -->
+	<skip />
+	<!-- no translation found for draft_to_heading -->
+	<skip />
+	<!---->
+	<string name="draft_heading">"ຮ່າງສະບັບ"</string>
+	<!-- no translation found for quoted_text_hidden_print -->
+	<skip />
+	<!-- no translation found for num_attachments -->
+	<skip />
+	<!---->
+	<string name="no_subject">"（ບໍ່ມີຫົວຂໍ້）"</string>
+	<!-- no translation found for vacation_responder -->
+	<skip />
+	<!-- no translation found for preferences_vacation_responder_title -->
+	<skip />
+	<!---->
+	<string name="vacation_responder_body_hint_text">"ຂໍ້ຄວາມ"</string>
+	<!-- no translation found for send_to_contacts_text -->
+	<skip />
+	<!-- no translation found for send_to_domain_text -->
+	<skip />
+	<!-- no translation found for pick_start_date_title -->
+	<skip />
+	<!-- no translation found for pick_end_date_title -->
+	<skip />
+	<!---->
+	<string name="date_not_set">"ບໍ່ໄດ້ຕັ້ງຄ່າ"</string>
+	<!-- no translation found for set_end_date_dialog_title -->
+	<skip />
+	<!-- no translation found for custom_date -->
+	<skip />
+	<!---->
+	<string name="date_none">"ບໍ່ມີ"</string>
+	<!-- no translation found for discard_changes -->
+	<skip />
+	<!-- no translation found for draft_saved -->
+	<skip />
+	<!-- no translation found for draft_discard -->
+	<skip />
+	<!-- no translation found for vacation_responder_changes_saved -->
+	<skip />
+	<!-- no translation found for vacation_responder_changes_discarded -->
+	<skip />
+	<!---->
+	<string name="vacation_responder_off">"ປິດ"</string>
+	<!-- no translation found for vacation_responder_on -->
+	<skip />
+	<!-- no translation found for vacation_responder_on_with_end_date -->
+	<skip />
+	<!-- no translation found for vacation_responder_empty_subject_and_body_warning -->
+	<skip />
+	<!-- no translation found for view_entire_message -->
+	<skip />
+	<!-- no translation found for eml_loader_error_toast -->
+	<skip />
+	<!---->
+	<string name="help_and_info">"ຊ່ວຍເຫຼືອ"</string>
+	<!-- no translation found for help_and_feedback -->
+	<skip />
+	<!-- no translation found for feedback -->
+	<skip />
+	<!-- no translation found for copyright -->
+	<skip />
+	<!-- no translation found for version -->
+	<skip />
+	<!-- no translation found for view_app_page -->
+	<skip />
+	<!-- no translation found for print_dialog -->
+	<skip />
+	<!-- no translation found for copyright_information -->
+	<skip />
+	<!-- no translation found for privacy_policy -->
+	<skip />
+	<!---->
+	<string name="open_source_licenses">"ໃບອະນຸຍາດສຳຫລັບໂອເພິນຊອສ໌"</string>
+	<!---->
+	<string name="reply_choice_yes">"ຕົກລົງ"</string>
+	<!---->
+	<string name="reply_choice_no">"ບໍ່"</string>
+	<!---->
+	<string name="reply_choice_ok">"ຕົກລົງ"</string>
+	<!-- no translation found for reply_choice_hehe -->
+	<skip />
+	<!-- no translation found for reply_choice_thanks -->
+	<skip />
+	<!-- no translation found for reply_choice_i_agree -->
+	<skip />
+	<!-- no translation found for reply_choice_nice -->
+	<skip />
+	<!-- no translation found for reply_on_my_way -->
+	<skip />
+	<!-- no translation found for reply_choice_later -->
+	<skip />
+	<!-- no translation found for reply_choice_smiling_face -->
+	<skip />
+	<!-- no translation found for reply_choice_frowning_face -->
+	<skip />
+	<!-- no translation found for preference_header_action_confirmations -->
+	<skip />
+	<!-- no translation found for preference_confirm_before_delete_title -->
+	<skip />
+	<!-- no translation found for preference_confirm_before_archive_title -->
+	<skip />
+	<!-- no translation found for preference_confirm_before_send_title -->
+	<skip />
+	<!-- no translation found for preferences_conversation_mode_title -->
+	<skip />
+	<!-- no translation found for preferences_conversation_mode_summary -->
+	<skip />
+	<!-- no translation found for preferences_disable_snap_headers_title -->
+	<skip />
+	<string-array name="prefSummaries_snapHeader">
+		<item>"Always show message actions at the top of the screen"</item>
+		<item>"Only show message actions at the top of the screen when rotated to portrait"</item>
+		<item>"Don\'t show message actions outside the message header"</item>
+	</string-array>
+	<string-array name="prefEntries_snapHeader">
+		<item>"Always show"</item>
+		<item>"Only show in portrait"</item>
+		<item>"Don\'t show"</item>
+	</string-array>
+	<!---->
+	<string name="clear_history_title">"ລົບລ້າງປະຫວັດການຄົ້ນຫາ"</string>
+	<!-- no translation found for search_history_cleared -->
+	<skip />
+	<!-- no translation found for clear_history_dialog_title -->
+	<skip />
+	<!-- no translation found for clear_history_dialog_message -->
+	<skip />
+	<!-- no translation found for manage_accounts_menu_item -->
+	<skip />
+	<!-- no translation found for general_preferences_title -->
+	<skip />
+	<!---->
+	<string name="activity_preferences">"ການຕັ້ງຄ່າ"</string>
+	<!-- no translation found for always_bcc_myself -->
+	<skip />
+	<!-- no translation found for always_bcc_myself_summary -->
+	<skip />
+	<!-- no translation found for general_preference_auto_download_remaining_label -->
+	<skip />
+	<!-- no translation found for general_preference_auto_download_remaining_summary -->
+	<skip />
+	<!-- no translation found for download_remaining -->
+	<skip />
+	<!-- no translation found for downloading_remaining -->
+	<skip />
+	<!-- no translation found for unable_to_connect -->
+	<skip />
+	<!-- no translation found for need_connection_prompt -->
+	<skip />
+	<!---->
+	<string name="connection_settings">"ການຕັ້ງຄ່າ"</string>
+	<!-- no translation found for priority_action -->
+	<skip />
+	<!-- no translation found for set_priority_dialog_title -->
+	<skip />
+	<!-- no translation found for dialog_warning -->
+	<skip />
+	<!-- no translation found for dialog_warning_message -->
+	<skip />
+	<!-- no translation found for toast_warning_text -->
+	<skip />
+	<!-- no translation found for tips_sync_alter_title -->
+	<skip />
+	<!-- no translation found for tips_sync_alter_content -->
+	<skip />
+	<!-- no translation found for tips_sync_alter_yes -->
+	<skip />
+	<!-- no translation found for tips_sync_alter_no -->
+	<skip />
+	<!-- no translation found for message_invite_tentative_title -->
+	<skip />
+	<!-- no translation found for message_invite_decline_title -->
+	<skip />
+	<!-- no translation found for message_invite_accent_title -->
+	<skip />
+	<!-- no translation found for drm_file_remind -->
+	<skip />
+	<!-- no translation found for not_add_more_recipients -->
+	<skip />
+	<!---->
+	<string name="global_search_label">"ອີເມລ"</string>
+	<!-- no translation found for global_search_hint -->
+	<skip />
+	<!-- no translation found for global_search_description -->
+	<skip />
+	<!-- no translation found for remote_search_failed -->
+	<skip />
+	<!-- no translation found for searching_on_server -->
+	<skip />
+	<!-- no translation found for searching_on_server_title -->
+	<skip />
+	<!-- no translation found for searching_all_fields_on_sever -->
+	<skip />
+	<!---->
+	<string name="search_field_subject">"ຫົວຂໍ້"</string>
+	<!-- no translation found for search_field_receiver -->
+	<skip />
+	<!-- no translation found for search_field_sender -->
+	<skip />
+	<!-- no translation found for search_field_body -->
+	<skip />
+	<!-- no translation found for search_field_all -->
+	<skip />
+	<!-- no translation found for search_field_attachment -->
+	<skip />
+	<!---->
+	<string name="select_all">"ເລືອກທັງໝົດ"</string>
+	<!-- no translation found for deselect_all -->
+	<skip />
+	<!-- no translation found for need_wifi_connection_prompt -->
+	<skip />
+	<!---->
+	<string name="account_setup_names_account_name_des_label">"ໂຕເລືອກ"</string>
+	<!-- no translation found for account_setup_names_user_name_des_label -->
+	<skip />
+	<!-- no translation found for finish_action -->
+	<skip />
+	<!-- no translation found for copy_email -->
+	<skip />
+	<!-- no translation found for out_of_office_syncing -->
+	<skip />
+	<!-- no translation found for out_of_office_fail -->
+	<skip />
+	<!-- no translation found for out_of_office_success -->
+	<skip />
+	<!-- no translation found for manual_sync_when_roaming -->
+	<skip />
+	<!-- no translation found for manual_sync_when_roaming_summery -->
+	<skip />
+	<!-- no translation found for manual_sync_when_roaming_toast -->
+	<skip />
+	<!-- no translation found for manual_sync_when_roaming_refresh -->
+	<skip />
+	<!-- no translation found for server_rule_can_not_change -->
+	<skip />
+	<!-- no translation found for server_rules -->
+	<skip />
+	<!-- no translation found for confirm_forward_message -->
+	<skip />
+	<!-- no translation found for confirm_forward_cancel -->
+	<skip />
+	<!-- no translation found for confirm_forward_drop_unload_attachment -->
+	<skip />
+	<!-- no translation found for mail_not_download_completely -->
+	<skip />
+	<!-- no translation found for account_settings_inline_images_lable -->
+	<skip />
+	<!-- no translation found for account_settings_inline_always_show -->
+	<skip />
+	<!-- no translation found for account_settings_inline_ask_before_show -->
+	<skip />
+	<!-- no translation found for conversation_time_after_today -->
+	<skip />
+	<!-- no translation found for conversation_time_today -->
+	<skip />
+	<!-- no translation found for conversation_time_yesterday -->
+	<skip />
+	<!-- no translation found for conversation_time_this_month -->
+	<skip />
+	<!-- no translation found for conversation_time_elapse_just_now -->
+	<skip />
+	<!-- no translation found for conversation_time_elapse_minute -->
+	<skip />
+	<!-- no translation found for message_in_queued_status -->
+	<skip />
+	<!-- no translation found for send_failed_messages -->
+	<skip />
+	<!-- no translation found for account_setup_options_mail_calendar_window_label -->
+	<skip />
+	<!-- no translation found for account_setup_options_mail_calendar_window_2weeks -->
+	<skip />
+	<!-- no translation found for account_setup_options_mail_calendar_window_1month -->
+	<skip />
+	<!-- no translation found for account_setup_options_mail_calendar_window_3months -->
+	<skip />
+	<!-- no translation found for account_setup_options_mail_calendar_window_6months -->
+	<skip />
+	<!-- no translation found for account_setup_options_mail_calendar_window_all -->
+	<skip />
+	<!-- no translation found for no_permission_to_open_file -->
+	<skip />
+	<!-- no translation found for conversation_update_time_text -->
+	<skip />
+	<!-- no translation found for conversation_update_unknown_time_stamp -->
+	<skip />
+	<!-- no translation found for conversation_time_elapse_today -->
+	<skip />
+	<!-- no translation found for save_to_attachment -->
+	<skip />
+	<!---->
+	<string name="download_settings_title">"ສໍາເນົາສິ່ງທີ່ແນບໄປໄວ້ SD ຄາດ"</string>
+	<!-- no translation found for download_edit_filename_label -->
+	<skip />
+	<!-- no translation found for download_filepath_label -->
+	<skip />
+	<!-- no translation found for download_file_size -->
+	<skip />
+	<!-- no translation found for download_time_needed -->
+	<skip />
+	<!-- no translation found for download_cancel -->
+	<skip />
+	<!-- no translation found for download_start -->
+	<skip />
+	<!-- no translation found for unknown_length -->
+	<skip />
+	<!---->
+	<string name="time_min">"ນາທີ"</string>
+	<!-- no translation found for open_file_manager_failed -->
+	<skip />
+	<!-- no translation found for attachment_not_saved -->
+	<skip />
+	<!-- no translation found for sync_calendar_title -->
+	<skip />
+	<!-- no translation found for sync_calendar_content -->
+	<skip />
+	<!-- no translation found for sync_contacts_title -->
+	<skip />
+	<!-- no translation found for sync_contacts_content -->
+	<skip />
+	<!-- no translation found for notification_never_ask_again -->
+	<skip />
+	<!---->
+	<string name="sync_storage_title">"ສໍາເນົາສິ່ງທີ່ແນບໄປໄວ້ SD ຄາດບໍ່ໄດ້"</string>
+	<!-- no translation found for sync_storage_content -->
+	<skip />
+	<!-- no translation found for oof_continue -->
+	<skip />
+	<!-- no translation found for permission_needed_to_add_attachments -->
+	<skip />
+	<!-- no translation found for permission_needed_to_check_ringtone -->
+	<skip />
+	<!-- no translation found for add_folder_as_attachment_fail_tips -->
+	<skip />
+	<!---->
+	<string name="choose_action_title">"ເລືອກການດໍາເນີນງານ"</string>
+	<!-- no translation found for choose_action_contact -->
+	<skip />
+	<!-- no translation found for choose_action_email -->
+	<skip />
+	<!-- no translation found for choose_action_message -->
+	<skip />
+	<!-- no translation found for account_setup_basics_exit_action -->
+	<skip />
+</resources>

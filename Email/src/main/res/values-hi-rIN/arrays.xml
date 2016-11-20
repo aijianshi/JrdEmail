@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Tue Sep 20 16:24:06 CST 2016
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string-array name="set_priority_dialog_options">
+		<item>"उच्च"</item>
+		<item>"सामान्य"</item>
+		<item>"निम्न"</item>
+	</string-array>
+	<string-array name="mail_sort_types">
+		<item>"तिथि (सबसे पुरानी)"</item>
+		<item>"(A-Z) से"</item>
+		<item>"(Z-A) से"</item>
+		<item>"अटैचमेंट"</item>
+		<item>"महत्‍व"</item>
+		<item>"आकार"</item>
+		<item>"अपठित"</item>
+	</string-array>
+</resources>

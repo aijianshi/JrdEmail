@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!-- no translation found for app_name -->
+	<skip />
+	<!-- no translation found for photo_view_count -->
+	<skip />
+	<!---->
+	<string name="retry">"Saiatu berriro"</string>
+	<!---->
+	<string name="failed">"Ezin izan da irudia kargatu"</string>
+	<!-- no translation found for more_string -->
+	<skip />
+	<!---->
+	<string name="copy_email">"Kopiatu helbide elektronikoa"</string>
+	<!---->
+	<string name="copy_number">"Copy phone number"</string>
+	<!---->
+	<string name="action_label">"Itzuli"</string>
+	<!---->
+	<string name="search_hint">"Bilatu mezu elektronikoa"</string>
+	<!---->
+	<string name="compose">"Idatzi"</string>
+	<!---->
+	<string name="activity_folder_selection">"Aukeratu karpeta"</string>
+	<!---->
+	<string name="activity_preferences">"Ezarpenak"</string>
+	<!---->
+	<string name="tap_to_configure">"Ukitu konfiguratzeko"</string>
+	<!---->
+	<string name="loading_conversations">"Kargatzen\u2026"</string>
+	<!---->
+	<string name="non_synced_folder_description">"Elkarrizketak ikusteko, sinkronizatu karpeta hau."</string>
+	<!---->
+	<string name="tap_to_configure_folder_sync">"Sinkronizatu karpeta"</string>
+	<!-- no translation found for def_email_accountGermanSignature -->
+	<skip />
+	<!---->
+	<string name="send_failed">"Ez da mezua bidali."</string>
+	<!-- no translation found for permission_needed -->
+	<skip />
+	<!---->
+	<string name="permission_needed_label">"Baimenak behar dira"</string>
+	<!---->
+	<string name="permission_grant_access_label">"Eman sarbidea"</string>
+	<!---->
+	<string name="permission_grant_access_descs">"Aldatu baimenak gailuaren aplikazio-ezarpenetan. Eman Postari Kontaktuak atalean sartzeko baimena."</string>
+	<!---->
+	<string name="permission_grant_exit">"Irten"</string>
+	<!---->
+	<string name="permission_grant_go_setting">"Ezarpenak"</string>
+	<!---->
+	<string name="permission_needed_to_save_attachment">"Eranskina gordetzeko, eman Postari memoria atzitzeko baimena"</string>
+	<!---->
+	<string name="permission_needed_to_add_attachment">"Eranskina gehitzeko, eman Postari memoria atzitzeko baimena"</string>
+	<!---->
+	<string name="permission_needed_to_see_calendar">"Egutegian ikusteko, eman Posta eginbideari Kontaktuak eginbidea atzitzeko baimena"</string>
+</resources>

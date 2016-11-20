@@ -1,0 +1,230 @@
+<!--
+======================================================================================
+*HISTORY
+*
+*Tag                   Date         Author          Description
+*================== ============ =============== =========================================
+*CONFLICT_10000      2014/10/23   lixl            Modify the resource conflict
+*CONFLICT_20000     2014/10/23   gangjin.wen     Modify the resource conflict
+*CONFLICT_50004     2014/11/05   zhaotiany9ong   Modify the resource conflict
+*BUGFIX-904760  2015-01-21   wenggangjin     [Email][UI] Change the color of Email status bar
+*BUGFIX-947440  2015/03/12    ke.ma          [Email] Need to add Email FAB button shadow effect.
+======================================================================================
+-->
+<!-- TS: MOD by lixl for CONFLICT_10000 START -->
+<!-- <resources> -->
+<resources xmlns:tools="http://schemas.android.com/tools"
+           xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
+<!-- TS: MOD by lixl for CONFLICT_10000 END -->
+
+    <!-- TS: ADD by gangjin.wen for CONFLICT_20000 START -->
+    <style name="RecipientEditTextViewBase" parent="@android:attr/autoCompleteTextViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@null</item>
+        <item name="android:inputType">textEmailAddress|textMultiLine</item>
+        <item name="android:minHeight">@dimen/chip_height</item>
+        <item name="android:popupBackground">@null</item>
+        <item name="android:textAlignment" tools:ignore="NewApi">viewStart</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textDirection" tools:ignore="NewApi">locale</item>
+    </style>
+
+    <style name="RecipientEditTextView" parent="@style/RecipientEditTextViewBase">
+        <item name="android:imeOptions">actionNext|flagNoFullscreen</item>
+    </style>
+
+    <style name="ChipAutocompleteWrapperStyle">
+        <item name="android:paddingLeft">@dimen/chip_wrapper_start_padding</item>
+        <item name="android:paddingTop">@dimen/chip_wrapper_top_padding</item>
+        <item name="android:paddingRight">@dimen/chip_wrapper_end_padding</item>
+        <item name="android:paddingBottom">@dimen/chip_wrapper_bottom_padding</item>
+    </style>
+
+    <style name="ChipAutocompleteDividerStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/chip_custom_divider_height</item>
+        <item name="android:background">@color/autocomplete_divider_color</item>
+        <item name="android:layout_marginLeft">@dimen/chip_wrapper_start_padding</item>
+    </style>
+
+    <style name="ChipTextViewLayoutStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="ChipTitleStyle">
+        <item name="android:id">@android:id/title</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ellipsize">middle</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:textColor">@color/chips_dropdown_title_text</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="ChipSubtitleStyle">
+        <item name="android:id">@android:id/text1</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ellipsize">middle</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:textColor">@color/chips_dropdown_subtitle_text</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="ChipIconBaseStyle">
+        <item name="android:id">@android:id/icon</item>
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:contentDescription">@null</item>
+    </style>
+
+    <style name="ChipStartIconStyle" parent="@style/ChipIconBaseStyle">
+        <item name="android:layout_marginRight">@dimen/chip_icon_margin_end</item>
+    </style>
+
+    <style name="ChipEndIconStyle" parent="@style/ChipIconBaseStyle">
+        <item name="android:layout_marginLeft">@dimen/chip_icon_margin_end</item>
+    </style>
+
+    <style name="ChipDeleteIconBaseStyle">
+        <item name="android:id">@android:id/icon1</item>
+        <item name="android:layout_width">36dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+    </style>
+
+    <style name="ChipDeleteIconStyle" parent="@style/ChipDeleteIconBaseStyle">
+        <item name="android:paddingLeft">8dp</item>
+    </style>
+    <!--TS: ADD by gangjin.wen for CONFLICT_20000 END -->
+
+<!-- TS: ADD by lixl for CONFLICT_10000 START -->
+    <style name="PhotoViewTheme" parent="android:Theme.Holo">
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@color/solid_black</item>
+        <item name="android:actionBarStyle">@style/Holo.ActionBar</item>
+    </style>
+
+    <style name="Holo.ActionBar" parent="android:Widget.Holo.ActionBar">
+        <item name="android:background">@drawable/actionbar_translucent</item>
+    </style>
+<!-- TS: ADD by lixl for CONFLICT_10000 END -->
+<!-- TS: wenggangjin 2015-01-23 EMAIL BUGFIX_904760 MOD_E -->
+<!-- TS: ADD by zhaotianyong for CONFLICT_50004 START -->
+<!--
+    -    <style name="UnifiedEmailTheme" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+-        <item name="android:actionBarStyle">@style/ActionBarStyle</item>
+-        <item name="android:actionModeBackground">@color/action_mode_background</item>
+-        <item name="android:actionOverflowButtonStyle">@style/ActionBarOverflowButtonStyle</item>
+-        <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back_wht_24dp</item>
+-        <item name="android:listViewWhiteStyle">@android:style/Widget.Holo.Light.ListView</item>
+-    </style>
+-    <style name="MailActivityTheme" parent="@style/UnifiedEmailTheme.Appcompat.Toolbar" />
+-    <style name="UnifiedEmailTheme.Appcompat.Toolbar" parent="@style/UnifiedEmailTheme.Appcompat">
+-        <item name="android:windowNoTitle">true</item>
+-        <item name="windowActionBar">false</item>
+-        <item name="windowActionModeOverlay">true</item>
+-    </style>
+-    <style name="UnifiedEmailTheme.Appcompat" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+-        <item name="actionModeBackground">@color/action_mode_background</item>
+-        <item name="actionOverflowButtonStyle">@style/ActionBarOverflowButtonStyle.Appcompat</item>
+-        <item name="colorPrimary">@color/actionbar_color</item>
+-        Used by the StatusBar and NavBar (currently broken?)
+-        TS: wenggangjin 2015-01-21 EMAIL BUGFIX_904760 MOD_S
+-        <item name="colorPrimaryDark">@android:color/transparent</item>
+-        <item name="colorPrimaryDark">@color/statusbar_color</item>
+-        TS: wenggangjin 2015-01-21 EMAIL BUGFIX_904760 MOD_E
+-        <item name="colorAccent">@color/accent_blue</item>
+-        <item name="homeAsUpIndicator">@drawable/ic_arrow_back_wht_24dp</item>
+-    </style>
+-    <style name="ComposeTheme" parent="@style/UnifiedEmailTheme.Appcompat">
+-        <item name="android:colorBackground">@android:color/white</item>
+-        <item name="android:colorBackgroundCacheHint">@android:color/white</item>
+-        <item name="android:dropDownListViewStyle">@style/ComposeDropdownListViewStyle</item>
+-        <item name="android:windowBackground">@android:color/white</item>
+-    </style>
+  -->
+    <!-- TS: wenggangjin 2015-01-23 EMAIL BUGFIX_904760 MOD_E -->
+    <!--<style name="ShortcutWidgetTheme" parent="@style/UnifiedEmailTheme.Appcompat" />-->
+    <!--<style name="InvisibleShortcutWidgetTheme" parent="@style/ShortcutWidgetTheme">-->
+        <!--<item name="android:windowNoDisplay">true</item>-->
+    <!--</style>-->
+    <!-- Widget styles -->
+    <style name="WidgetTitle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:singleLine">true</item>
+    </style>
+     <!-- Browse list item styles -->
+    <style name="ConversationListFadeBase" parent="android:Widget.Holo.Light.ListView" />
+    <style name="ConversationListFade" parent="@style/ConversationListFadeBase">
+        <item name="android:divider">@null</item>
+    </style>
+    <!-- End browse list item styles -->
+     <style name="ActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/actionbar_color</item>
+    </style>
+    <!-- TS: wenggangjin 2015-01-23 EMAIL BUGFIX_904760 MOD_S -->
+    <style name="ActionBarStyle1" parent="@android:style/Widget.Material.Light.ActionBar.Solid">
+        <item name="itemPadding">8dip</item>
+        <item name="android:background">@color/actionbar_color</item>
+        <!-- TS: ke.ma 2015-03-12 EMAIL BUGFIX-947440 ADD_S -->
+        <item name="android:elevation">2dp</item>
+        <!-- TS: ke.ma 2015-03-12 EMAIL BUGFIX-947440 ADD_E -->
+    </style>
+
+    <!-- TS: Gantao 2015-11-27 EMAIL FEATURE-988794 ADD_S -->
+    <style name="OofActionBarMenue" parent="@android:style/TextAppearance.Holo.Large">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <!-- TS: Gantao 2015-03-12 EMAIL FEATURE-988794 ADD_E -->
+
+    <style name="ActionBarOverflowButtonStyle1" parent="@android:style/Widget.Material.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_menu_moreoverflow_mtrl_alpha</item>
+    </style>
+    <!-- TS: wenggangjin 2015-01-23 EMAIL BUGFIX_904760 MOD_E -->
+    <style name="ActionBarOverflowButtonStyle" parent="@android:style/Widget.Holo.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_menu_moreoverflow_mtrl_alpha</item>
+    </style>
+    <style name="ActionBarOverflowButtonStyle.Appcompat" parent="@style/Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_menu_moreoverflow_mtrl_alpha</item>
+    </style>
+<!-- TS: ADD by zhaotianyong for CONFLICT_50004 END -->
+
+
+<!--  AM: zhiqiang.shao 2015-04-10 EMAIL BUGFIX_961183 MOD_S -->
+<style name="ChipTitleStyle_enabled">
+        <item name="android:id">@android:id/title</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ellipsize">middle</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:textColor">@color/chips_dropdown_title_text_enabled</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="ChipSubtitleStyle_enabled">
+        <item name="android:id">@android:id/text1</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ellipsize">middle</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:textColor">@color/chips_dropdown_subtitle_text_enabled</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+<!--  AM: zhiqiang.shao 2015-04-10 EMAIL BUGFIX_961183 MOD_E -->
+
+</resources>

@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!--[FEATURE]-Add-BEGIN by TSCD.Chao Zhang,04/14/2014,FR 635028(porting from FR473181)-->
+    <string-array name="account_provider1">
+        <item>@string/def_email_account1Id</item>
+        <item>@string/def_email_account1LabelValue</item>
+        <item>@string/def_email_account1DomainValue</item>
+        <item>@string/def_email_account1IncomingServerValue</item>
+        <item>@string/def_email_account1OutgoingServerValue</item>
+        <item>@string/def_email_account1UsernameValue</item>
+        <item>@string/def_email_account1DisplayValue</item>
+        <item>@string/def_email_account1ReloginValue</item>
+    </string-array>
+
+    <string-array name="account_provider2">
+        <item>@string/def_email_account2Id</item>
+        <item>@string/def_email_account2LabelValue</item>
+        <item>@string/def_email_account2DomainValue</item>
+        <item>@string/def_email_account2IncomingServerValue</item>
+        <item>@string/def_email_account2OutgoingServerValue</item>
+        <item>@string/def_email_account2UsernameValue</item>
+        <item>@string/def_email_account2DisplayValue</item>
+        <item>@string/def_email_account2ReloginValue</item>
+    </string-array>
+    <string-array name="account_provider3">
+        <item>@string/def_email_account3Id</item>
+        <item>@string/def_email_account3LabelValue</item>
+        <item>@string/def_email_account3DomainValue</item>
+        <item>@string/def_email_account3IncomingServerValue</item>
+        <item>@string/def_email_account3OutgoingServerValue</item>
+        <item>@string/def_email_account3UsernameValue</item>
+        <item>@string/def_email_account3DisplayValue</item>
+        <item>@string/def_email_account3ReloginValue</item>
+    </string-array>
+
+    <string-array name="account_provider4">
+        <item>@string/def_email_account4Id</item>
+        <item>@string/def_email_account4LabelValue</item>
+        <item>@string/def_email_account4DomainValue</item>
+        <item>@string/def_email_account4IncomingServerValue</item>
+        <item>@string/def_email_account4OutgoingServerValue</item>
+        <item>@string/def_email_account4UsernameValue</item>
+        <item>@string/def_email_account4DisplayValue</item>
+        <item>@string/def_email_account4ReloginValue</item>
+    </string-array>
+
+    <string-array name="account_provider5">
+        <item>@string/def_email_account5Id</item>
+        <item>@string/def_email_account5LabelValue</item>
+        <item>@string/def_email_account5DomainValue</item>
+        <item>@string/def_email_account5IncomingServerValue</item>
+        <item>@string/def_email_account5OutgoingServerValue</item>
+        <item>@string/def_email_account5UsernameValue</item>
+        <item>@string/def_email_account5DisplayValue</item>
+        <item>@string/def_email_account5ReloginValue</item>
+    </string-array>
+
+    <string-array name="account_provider6">
+        <item>@string/def_email_account6Id</item>
+        <item>@string/def_email_account6LabelValue</item>
+        <item>@string/def_email_account6DomainValue</item>
+        <item>@string/def_email_account6IncomingServerValue</item>
+        <item>@string/def_email_account6OutgoingServerValue</item>
+        <item>@string/def_email_account6UsernameValue</item>
+        <item>@string/def_email_account6DisplayValue</item>
+        <item>@string/def_email_account6ReloginValue</item>
+    </string-array>
+
+    <string-array name="account_provider7">
+        <item>@string/def_email_account7Id</item>
+        <item>@string/def_email_account7LabelValue</item>
+        <item>@string/def_email_account7DomainValue</item>
+        <item>@string/def_email_account7IncomingServerValue</item>
+        <item>@string/def_email_account7OutgoingServerValue</item>
+        <item>@string/def_email_account7UsernameValue</item>
+        <item>@string/def_email_account7DisplayValue</item>
+        <item>@string/def_email_account7ReloginValue</item>
+    </string-array>
+
+    <string-array name="account_provider8">
+        <item>@string/def_email_account8Id</item>
+        <item>@string/def_email_account8LabelValue</item>
+        <item>@string/def_email_account8DomainValue</item>
+        <item>@string/def_email_account8IncomingServerValue</item>
+        <item>@string/def_email_account8OutgoingServerValue</item>
+        <item>@string/def_email_account8UsernameValue</item>
+        <item>@string/def_email_account8DisplayValue</item>
+        <item>@string/def_email_account8ReloginValue</item>
+    </string-array>
+
+    <string-array name="account_provider9">
+        <item>@string/def_email_account9Id</item>
+        <item>@string/def_email_account9LabelValue</item>
+        <item>@string/def_email_account9DomainValue</item>
+        <item>@string/def_email_account9IncomingServerValue</item>
+        <item>@string/def_email_account9OutgoingServerValue</item>
+        <item>@string/def_email_account9UsernameValue</item>
+        <item>@string/def_email_account9DisplayValue</item>
+        <item>@string/def_email_account9ReloginValue</item>
+    </string-array>
+
+        <string-array name="account_provider10">
+        <item>@string/def_email_account10Id</item>
+        <item>@string/def_email_account10LabelValue</item>
+        <item>@string/def_email_account10DomainValue</item>
+        <item>@string/def_email_account10IncomingServerValue</item>
+        <item>@string/def_email_account10OutgoingServerValue</item>
+        <item>@string/def_email_account10UsernameValue</item>
+        <item>@string/def_email_account10DisplayValue</item>
+        <item>@string/def_email_account10ReloginValue</item>
+    </string-array>
+
+    <string-array name="account_provider11">
+        <item>@string/def_email_account11Id</item>
+        <item>@string/def_email_account11LabelValue</item>
+        <item>@string/def_email_account11DomainValue</item>
+        <item>@string/def_email_account11IncomingServerValue</item>
+        <item>@string/def_email_account11OutgoingServerValue</item>
+        <item>@string/def_email_account11UsernameValue</item>
+        <item>@string/def_email_account11DisplayValue</item>
+        <item>@string/def_email_account11ReloginValue</item>
+    </string-array>
+
+    <string-array name="account_provider12">
+        <item>@string/def_email_account12Id</item>
+        <item>@string/def_email_account12LabelValue</item>
+        <item>@string/def_email_account12DomainValue</item>
+        <item>@string/def_email_account12IncomingServerValue</item>
+        <item>@string/def_email_account12OutgoingServerValue</item>
+        <item>@string/def_email_account12UsernameValue</item>
+        <item>@string/def_email_account12DisplayValue</item>
+        <item>@string/def_email_account12ReloginValue</item>
+    </string-array>
+
+    <string-array name="account_provider13">
+        <item>@string/def_email_account13Id</item>
+        <item>@string/def_email_account13LabelValue</item>
+        <item>@string/def_email_account13DomainValue</item>
+        <item>@string/def_email_account13IncomingServerValue</item>
+        <item>@string/def_email_account13OutgoingServerValue</item>
+        <item>@string/def_email_account13UsernameValue</item>
+        <item>@string/def_email_account13DisplayValue</item>
+        <item>@string/def_email_account13ReloginValue</item>
+    </string-array>
+
+    <string-array name="account_provider14">
+        <item>@string/def_email_account14Id</item>
+        <item>@string/def_email_account14LabelValue</item>
+        <item>@string/def_email_account14DomainValue</item>
+        <item>@string/def_email_account14IncomingServerValue</item>
+        <item>@string/def_email_account14OutgoingServerValue</item>
+        <item>@string/def_email_account14UsernameValue</item>
+        <item>@string/def_email_account14DisplayValue</item>
+        <item>@string/def_email_account14ReloginValue</item>
+    </string-array>
+
+    <string-array name="account_provider15">
+        <item>@string/def_email_account15Id</item>
+        <item>@string/def_email_account15LabelValue</item>
+        <item>@string/def_email_account15DomainValue</item>
+        <item>@string/def_email_account15IncomingServerValue</item>
+        <item>@string/def_email_account15OutgoingServerValue</item>
+        <item>@string/def_email_account15UsernameValue</item>
+        <item>@string/def_email_account15DisplayValue</item>
+        <item>@string/def_email_account15ReloginValue</item>
+    </string-array>
+
+    <string-array name="account_provider16">
+        <item>@string/def_email_account16Id</item>
+        <item>@string/def_email_account16LabelValue</item>
+        <item>@string/def_email_account16DomainValue</item>
+        <item>@string/def_email_account16IncomingServerValue</item>
+        <item>@string/def_email_account16OutgoingServerValue</item>
+        <item>@string/def_email_account16UsernameValue</item>
+        <item>@string/def_email_account16DisplayValue</item>
+        <item>@string/def_email_account16ReloginValue</item>
+    </string-array>
+
+    <string-array name="account_provider17">
+        <item>@string/def_email_account17Id</item>
+        <item>@string/def_email_account17LabelValue</item>
+        <item>@string/def_email_account17DomainValue</item>
+        <item>@string/def_email_account17IncomingServerValue</item>
+        <item>@string/def_email_account17OutgoingServerValue</item>
+        <item>@string/def_email_account17UsernameValue</item>
+        <item>@string/def_email_account17DisplayValue</item>
+        <item>@string/def_email_account17ReloginValue</item>
+    </string-array>
+
+    <string-array name="account_provider18">
+        <item>@string/def_email_account18Id</item>
+        <item>@string/def_email_account18LabelValue</item>
+        <item>@string/def_email_account18DomainValue</item>
+        <item>@string/def_email_account18IncomingServerValue</item>
+        <item>@string/def_email_account18OutgoingServerValue</item>
+        <item>@string/def_email_account18UsernameValue</item>
+        <item>@string/def_email_account18DisplayValue</item>
+        <item>@string/def_email_account18ReloginValue</item>
+    </string-array>
+
+    <string-array name="account_provider19">
+        <item>@string/def_email_account19Id</item>
+        <item>@string/def_email_account19LabelValue</item>
+        <item>@string/def_email_account19DomainValue</item>
+        <item>@string/def_email_account19IncomingServerValue</item>
+        <item>@string/def_email_account19OutgoingServerValue</item>
+        <item>@string/def_email_account19UsernameValue</item>
+        <item>@string/def_email_account19DisplayValue</item>
+        <item>@string/def_email_account19ReloginValue</item>
+    </string-array>
+
+    <string-array name="account_provider20">
+        <item>@string/def_email_account20Id</item>
+        <item>@string/def_email_account20LabelValue</item>
+        <item>@string/def_email_account20DomainValue</item>
+        <item>@string/def_email_account20IncomingServerValue</item>
+        <item>@string/def_email_account20OutgoingServerValue</item>
+        <item>@string/def_email_account20UsernameValue</item>
+        <item>@string/def_email_account20DisplayValue</item>
+        <item>@string/def_email_account20ReloginValue</item>
+    </string-array>
+
+    <string-array name="account_provider21">
+        <item>@string/def_email_account21Id</item>
+        <item>@string/def_email_account21LabelValue</item>
+        <item>@string/def_email_account21DomainValue</item>
+        <item>@string/def_email_account21IncomingServerValue</item>
+        <item>@string/def_email_account21OutgoingServerValue</item>
+        <item>@string/def_email_account21UsernameValue</item>
+        <item>@string/def_email_account21DisplayValue</item>
+        <item>@string/def_email_account21ReloginValue</item>
+    </string-array>
+
+    <string-array name="account_provider22">
+        <item>@string/def_email_account22Id</item>
+        <item>@string/def_email_account22LabelValue</item>
+        <item>@string/def_email_account22DomainValue</item>
+        <item>@string/def_email_account22IncomingServerValue</item>
+        <item>@string/def_email_account22OutgoingServerValue</item>
+        <item>@string/def_email_account22UsernameValue</item>
+        <item>@string/def_email_account22DisplayValue</item>
+        <item>@string/def_email_account22ReloginValue</item>
+    </string-array>
+
+    <string-array name="account_provider23">
+        <item>@string/def_email_account23Id</item>
+        <item>@string/def_email_account23LabelValue</item>
+        <item>@string/def_email_account23DomainValue</item>
+        <item>@string/def_email_account23IncomingServerValue</item>
+        <item>@string/def_email_account23OutgoingServerValue</item>
+        <item>@string/def_email_account23UsernameValue</item>
+        <item>@string/def_email_account23DisplayValue</item>
+        <item>@string/def_email_account23ReloginValue</item>
+    </string-array>
+
+    <string-array name="account_provider24">
+        <item>@string/def_email_account24Id</item>
+        <item>@string/def_email_account24LabelValue</item>
+        <item>@string/def_email_account24DomainValue</item>
+        <item>@string/def_email_account24IncomingServerValue</item>
+        <item>@string/def_email_account24OutgoingServerValue</item>
+        <item>@string/def_email_account24UsernameValue</item>
+        <item>@string/def_email_account24DisplayValue</item>
+        <item>@string/def_email_account24ReloginValue</item>
+    </string-array>
+
+    <string-array name="account_provider25">
+        <item>@string/def_email_account25Id</item>
+        <item>@string/def_email_account25LabelValue</item>
+        <item>@string/def_email_account25DomainValue</item>
+        <item>@string/def_email_account25IncomingServerValue</item>
+        <item>@string/def_email_account25OutgoingServerValue</item>
+        <item>@string/def_email_account25UsernameValue</item>
+        <item>@string/def_email_account25DisplayValue</item>
+        <item>@string/def_email_account25ReloginValue</item>
+    </string-array>
+</resources>

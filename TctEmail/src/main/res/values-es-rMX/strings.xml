@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!-- no translation found for app_name -->
+	<skip />
+	<!-- no translation found for photo_view_count -->
+	<skip />
+	<!---->
+	<string name="retry">"Reintentar"</string>
+	<!---->
+	<string name="failed">"No se puede cargar la imagen"</string>
+	<!-- no translation found for more_string -->
+	<skip />
+	<!---->
+	<string name="copy_email">"Copiar dirección de correo electrónico"</string>
+	<!---->
+	<string name="copy_number">"Copiar número de teléfono"</string>
+	<!---->
+	<string name="action_label">"Atrás"</string>
+	<!---->
+	<string name="search_hint">"Buscar correo"</string>
+	<!---->
+	<string name="compose">"Redactar"</string>
+	<!---->
+	<string name="activity_folder_selection">"Elegir carpeta"</string>
+	<!---->
+	<string name="activity_preferences">"Ajustes"</string>
+	<!---->
+	<string name="tap_to_configure">"Toque para configurar"</string>
+	<!---->
+	<string name="loading_conversations">"Cargando\u2026"</string>
+	<!---->
+	<string name="non_synced_folder_description">"Para ver conversaciones, sincronice esta carpeta."</string>
+	<!---->
+	<string name="tap_to_configure_folder_sync">"Sincronizar esta carpeta"</string>
+	<!-- no translation found for def_email_accountGermanSignature -->
+	<skip />
+	<!---->
+	<string name="send_failed">"El mensaje no se envió."</string>
+	<!-- no translation found for permission_needed -->
+	<skip />
+	<!---->
+	<string name="permission_needed_label">"Se requieren permisos"</string>
+	<!---->
+	<string name="permission_grant_access_label">"Otorgar acceso"</string>
+	<!---->
+	<string name="permission_grant_access_descs">"Cambie los permisos en los ajustes de aplicación de su dispositivo. Permita que el Correo electrónico acceda a los Contactos."</string>
+	<!---->
+	<string name="permission_grant_exit">"Salir"</string>
+	<!---->
+	<string name="permission_grant_go_setting">"Ajustes"</string>
+	<!---->
+	<string name="permission_needed_to_save_attachment">"Para guardar un archivo adjunto, permita que el Correo electrónico acceda al almacenamiento."</string>
+	<!---->
+	<string name="permission_needed_to_add_attachment">"Para añadir un archivo adjunto, permita que el Correo Electrónico acceda al almacenamiento."</string>
+	<!---->
+	<string name="permission_needed_to_see_calendar">"Para ver la información en el calendario, permita que el Correo electrónico acceda a Calendario."</string>
+</resources>

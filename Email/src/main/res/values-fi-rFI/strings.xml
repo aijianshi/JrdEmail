@@ -1,0 +1,1747 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Tue Sep 20 16:24:06 CST 2016
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="permission_read_attachment_label">"Lue sähköpostiliitteitä"</string>
+	<!---->
+	<string name="permission_read_attachment_desc">"Antaa sovelluksen lukea sähköpostiliitteitä."</string>
+	<!---->
+	<string name="permission_access_provider_label">"Käytä sähköpostintarjoajan tietoja"</string>
+	<!---->
+	<string name="permission_access_provider_desc">"Antaa sovelluksen käyttää sähköpostitietokantaasi, kuten vastaanotettuja viestejä, lähetettyjä viestejä, käyttäjänimiä ja salasanoja."</string>
+	<!---->
+	<string name="debug_title">"Virheenjäljitys"</string>
+	<!---->
+	<string name="next_action">"Seuraava"</string>
+	<!---->
+	<string name="okay_action">"OK"</string>
+	<!---->
+	<string name="cancel_action">"Peruuta"</string>
+	<!---->
+	<string name="previous_action">"Edellinen"</string>
+	<!---->
+	<string name="done_action">"Valmis"</string>
+	<!---->
+	<string name="create_action">"Luo uusi"</string>
+	<!---->
+	<string name="quick_responses_empty_view">"Ei pikavastauksia."</string>
+	<!---->
+	<string name="account_settings_action">"Tilin asetukset"</string>
+	<!---->
+	<string name="status_network_error">"Yhteysongelma."</string>
+	<plurals name="move_messages">
+		<item quantity="one">"Siirrä viesti"</item>
+		<item quantity="other">"Siirrä viestit"</item>
+	</plurals>
+	<!---->
+	<string name="cannot_move_protocol_not_supported_toast">"POP3-tilit eivät tue siirtoa."</string>
+	<!---->
+	<string name="cannot_move_multiple_accounts_toast">"Ei voi siirtää. Valinta sisältää useita tilejä."</string>
+	<!---->
+	<string name="cannot_move_special_mailboxes_toast">"Luonnokset-, Lähtevät- ja Lähetetyt-kansioissa olevia viestejä ei voi siirtää."</string>
+	<!---->
+	<string name="mailbox_name_display_inbox">"Postilaatikko"</string>
+	<!---->
+	<string name="mailbox_name_display_outbox">"Lähtevät"</string>
+	<!---->
+	<string name="mailbox_name_display_drafts">"Luonnokset"</string>
+	<!---->
+	<string name="mailbox_name_display_trash">"Roskakori"</string>
+	<!---->
+	<string name="mailbox_name_display_sent">"Lähetetyt"</string>
+	<!---->
+	<string name="mailbox_name_display_junk">"Roskaposti"</string>
+	<!---->
+	<string name="mailbox_name_display_starred">"Tähdelliset"</string>
+	<!---->
+	<string name="mailbox_name_display_unread">"Lukem."</string>
+	<!---->
+	<string name="account_folder_list_summary_inbox">"Postilaatikko"</string>
+	<!---->
+	<string name="account_folder_list_summary_starred">"Tähdelliset"</string>
+	<!---->
+	<string name="account_folder_list_summary_drafts">"Luonnokset"</string>
+	<!---->
+	<string name="account_folder_list_summary_outbox">"Lähtevät"</string>
+	<!---->
+	<string name="mailbox_list_account_selector_combined_view">"Yhdistetty näkymä"</string>
+	<!---->
+	<string name="message_compose_fwd_header_fmt">"\n\n"-------- Alkuperäinen viesti --------"\n"Aihe: <xliff:g id="SUBJECT">%1$s</xliff:g>"\n"Lähettäjä: <xliff:g id="SENDER">%2$s</xliff:g>"\n"Vastaanottaja: <xliff:g id="TO">%3$s</xliff:g>"\n"Kopio: <xliff:g id="CC_0">%4$s</xliff:g>"\n\n"</string>
+	<!---->
+	<string name="message_compose_insert_quick_response_list_title">"Lisää pikavastaus"</string>
+	<!---->
+	<string name="message_compose_insert_quick_response_menu_title">"Lisää pikavastaus"</string>
+	<!---->
+	<string name="message_view_attachment_background_load">"Vähintään yksi edelleen lähetettävän viestisi liitteistä ladataan ennen lähettämistä."</string>
+	<!---->
+	<string name="attachment_not_found">"Liitettä ei voitu ladata."</string>
+	<!---->
+	<string name="message_decode_error">"Virhe purettaessa viestiä."</string>
+	<!---->
+	<string name="forward_download_failed_ticker">"Vähintään yhden liitteen edelleenlähettäminen epäonnistui."</string>
+	<!---->
+	<string name="forward_download_failed_title">"Liitettä ei lähetetty edelleen"</string>
+	<!---->
+	<string name="login_failed_ticker">"Kirjautuminen tiliin <xliff:g id="account_name">%s</xliff:g> epäonnistui."</string>
+	<!---->
+	<string name="login_failed_title">"Kirjautuminen ei onnistu"</string>
+	<plurals name="message_view_attachment_bytes">
+		<item quantity="one">"<xliff:g id="SIZE_IN_BYTES">%d</xliff:g> t"</item>
+		<item quantity="other">"<xliff:g id="SIZE_IN_BYTES">%d</xliff:g> t"</item>
+	</plurals>
+	<plurals name="message_view_attachment_kilobytes">
+		<item quantity="one">"<xliff:g id="SIZE_IN_KILOBYTES">%d</xliff:g> kt"</item>
+		<item quantity="other">"<xliff:g id="SIZE_IN_KILOBYTES">%d</xliff:g> kt"</item>
+	</plurals>
+	<plurals name="message_view_attachment_megabytes">
+		<item quantity="one">"<xliff:g id="SIZE_IN_MEGABYTES">%d</xliff:g> Mt"</item>
+		<item quantity="other">"<xliff:g id="SIZE_IN_MEGABYTES">%d</xliff:g> Mt"</item>
+	</plurals>
+	<plurals name="message_view_attachment_gigabytes">
+		<item quantity="one">"<xliff:g id="SIZE_IN_GIGABYTES">%d</xliff:g> Gt"</item>
+		<item quantity="other">"<xliff:g id="SIZE_IN_GIGABYTES">%d</xliff:g> Gt"</item>
+	</plurals>
+	<!---->
+	<string name="account_setup_basics_title">"Tilin asetukset"</string>
+	<!---->
+	<string name="oauth_authentication_title">"Pyydetään todentamista"</string>
+	<!---->
+	<string name="sign_in_title">"Kirjaudu sisään"</string>
+	<!---->
+	<string name="oauth_error_description">"Todentaminen ei onnistu"</string>
+	<!---->
+	<string name="password_warning_label">"Sähköpostiosoite tai salasana on virheellinen."</string>
+	<!---->
+	<string name="email_confirmation_label">"Sähköpostiosoite"</string>
+	<!---->
+	<string name="account_setup_basics_headline">"Sähköpostitili"</string>
+	<!---->
+	<string name="accounts_welcome">"Voit määrittää tilisi asetukset helposti."</string>
+	<!---->
+	<string name="account_setup_basics_email_label">"Sähköpostiosoite"</string>
+	<!---->
+	<string name="account_setup_basics_email_flying_label">"Sähköposti"</string>
+	<!---->
+	<string name="or_label">"TAI"</string>
+	<!---->
+	<string name="sign_in_with_google">"Kirjaudu Google-palveluun"</string>
+	<!---->
+	<string name="account_setup_basics_password_label">"Salasana"</string>
+	<!---->
+	<string name="password_hint">"Salasana"</string>
+	<!---->
+	<string name="signed_in_with_service_label">"Kirjauduttu palveluun %s"</string>
+	<!---->
+	<string name="authentication_label">"TODENNUS"</string>
+	<!---->
+	<string name="add_authentication_label">"Lisää todennus"</string>
+	<!---->
+	<string name="clear_authentication_label">"Tyhjennä todennus"</string>
+	<!---->
+	<string name="account_setup_basics_manual_setup_action">"Manuaalinen määritys"</string>
+	<!---->
+	<string name="account_setup_username_password_toast">"Anna kelvollinen sähköpostiosoite ja salasana."</string>
+	<!---->
+	<string name="account_duplicate_dlg_title">"Päällekkäiset tilit"</string>
+	<!---->
+	<string name="account_duplicate_dlg_message_fmt">"Käytät tätä käyttäjänimeä jo tilissä <xliff:g id="DUPLICATE">%s</xliff:g>."</string>
+	<!---->
+	<string name="account_password_spaces_error">"Tämän salasanan alussa tai lopussa on välilyönti. Monet palvelimet eivät tue välilyöntejä sisältäviä salasanoja."</string>
+	<!---->
+	<string name="account_setup_check_settings_retr_info_msg">"Noudetaan tilitietoja..."</string>
+	<!---->
+	<string name="account_setup_check_settings_check_incoming_msg">"Vahvistetaan palvelinasetukset..."</string>
+	<!---->
+	<string name="account_setup_check_settings_check_outgoing_msg">"Vahvistetaan SMTP-asetukset..."</string>
+	<!---->
+	<string name="account_setup_creating_account_msg">"Luodaan tiliä..."</string>
+	<!---->
+	<string name="account_setup_ab_headline">"Vahvista tilin tyyppi"</string>
+	<!---->
+	<string name="account_setup_ab_instructions_format">"Määrittämäsi <xliff:g id="email">%1$s</xliff:g> käyttää muotoa <xliff:g id="userProtocol">%2$s</xliff:g>, mutta tili voi käyttää muotoa <xliff:g id="providerProtocol">%3$s</xliff:g>"</string>
+	<!---->
+	<string name="account_setup_names_title">"Tilin asetukset"</string>
+	<!---->
+	<string name="account_setup_names_headline">"Tili on määritetty ja sähköpostit noudetaan."</string>
+	<!---->
+	<string name="account_setup_names_account_name_label">"Anna tilille nimi (valinnainen)"</string>
+	<!---->
+	<string name="account_setup_names_user_name_label">"Oma nimi (näytetään lähtevissä viesteissä)"</string>
+	<!---->
+	<string name="account_setup_names_user_name_empty_error">"Kenttä ei voi olla tyhjä."</string>
+	<!---->
+	<string name="account_setup_account_type_title">"Tilin asetukset"</string>
+	<!---->
+	<string name="account_setup_account_type_headline">"Tilin tyyppi"</string>
+	<!---->
+	<string name="account_setup_account_type_instructions">"Millainen tili tämä on?"</string>
+	<!---->
+	<string name="account_setup_incoming_title">"Tilin asetukset"</string>
+	<!---->
+	<string name="account_setup_incoming_headline">"Saapuvan postin palvelimen asetukset"</string>
+	<!---->
+	<string name="account_setup_incoming_username_label">"Käyttäjänimi"</string>
+	<!---->
+	<string name="account_setup_incoming_password_label">"Salasana"</string>
+	<!---->
+	<string name="account_setup_password_subheading">"Salasana"</string>
+	<!---->
+	<string name="account_setup_incoming_server_label">"Palvelin"</string>
+	<!---->
+	<string name="account_setup_incoming_port_label">"Portti"</string>
+	<!---->
+	<string name="account_setup_incoming_security_label">"Suojaustyyppi"</string>
+	<!---->
+	<string name="account_setup_incoming_domain_label">"Toimialue"</string>
+	<!---->
+	<string name="account_setup_incoming_add_domain_label">"Lisää toimialue"</string>
+	<!---->
+	<string name="account_setup_incoming_security_none_label">"Ei mitään"</string>
+	<!---->
+	<string name="account_setup_incoming_security_ssl_trust_certificates_label">"SSL/TLS (Hyväksy kaikki varmenteet)"</string>
+	<!---->
+	<string name="account_setup_incoming_security_ssl_label">"SSL/TLS"</string>
+	<!---->
+	<string name="account_setup_incoming_security_tls_trust_certificates_label">"STARTTLS (Hyväksy kaikki varmenteet)"</string>
+	<!---->
+	<string name="account_setup_incoming_security_tls_label">"STARTTLS"</string>
+	<!---->
+	<string name="account_setup_incoming_delete_policy_label">"Poista viestit palvelimelta"</string>
+	<!---->
+	<string name="account_setup_incoming_delete_policy_never_label">"Ei koskaan"</string>
+	<!---->
+	<string name="account_setup_incoming_delete_policy_delete_label">"Kun poistan viestin postilaatikosta"</string>
+	<!---->
+	<string name="account_setup_incoming_imap_path_prefix_label">"IMAP-polun etuliite"</string>
+	<!---->
+	<string name="account_setup_incoming_imap_path_prefix_hint">"Valinnainen"</string>
+	<!---->
+	<string name="account_setup_outgoing_title">"Tilin asetukset"</string>
+	<!---->
+	<string name="account_setup_outgoing_headline">"Lähtevän postin palvelimen asetukset"</string>
+	<!---->
+	<string name="account_setup_outgoing_smtp_server_label">"SMTP-palvelin"</string>
+	<!---->
+	<string name="account_setup_outgoing_port_label">"Portti"</string>
+	<!---->
+	<string name="account_setup_outgoing_security_label">"Suojaustyyppi"</string>
+	<!---->
+	<string name="account_setup_outgoing_require_login_label">"Vaadi kirjautuminen"</string>
+	<!---->
+	<string name="account_setup_outgoing_username_label">"Käyttäjänimi"</string>
+	<!---->
+	<string name="account_setup_outgoing_password_label">"Salasana"</string>
+	<!---->
+	<string name="account_setup_exchange_certificate_title">"Asiakassovelluksen varmenne"</string>
+	<!---->
+	<string name="account_setup_exchange_select_certificate">"Valitse"</string>
+	<!---->
+	<string name="account_setup_exchange_use_certificate">"Käytä asiakasvarmennetta"</string>
+	<!---->
+	<string name="account_setup_exchange_remove_certificate">"Poista"</string>
+	<!---->
+	<string name="account_setup_exchange_no_certificate">"Ei mitään"</string>
+	<!---->
+	<string name="account_setup_exchange_device_id_label">"Mobiililaitteen tunnus"</string>
+	<!---->
+	<string name="account_setup_options_title">"Tilin asetukset"</string>
+	<!---->
+	<string name="account_setup_options_headline">"Tiliasetukset"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_label">"Synkronointiaikaväli:"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_never">"Ei koskaan"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_push">"Automaattinen (Push)"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_5min">"5 minuutin välein"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_10min">"10 minuutin välein"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_15min">"15 minuutin välein"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_30min">"30 minuutin välein"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_1hour">"Tunnin välein"</string>
+	<!---->
+	<string name="account_setup_options_notify_label">"Ilmoita saapuvasta sähköpostista"</string>
+	<!---->
+	<string name="account_setup_options_sync_contacts_label">"Synkronoi tämän tilin yhteystiedot."</string>
+	<!---->
+	<string name="account_setup_options_sync_calendar_label">"Synkronoi tämän tilin kalenteri."</string>
+	<!---->
+	<string name="account_setup_options_sync_email_label">"Synkronoi tämän tilin lähetetyt sähköpostit."</string>
+	<!---->
+	<string name="account_setup_options_background_attachments_label">"Lataa liitteet automaattisesti wifi-yhteyden ollessa käytössä."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_title">"Ei onnistunut"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_label">"Synkronoi sähköpostiviestit alkaen:"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_auto">"Automaattinen"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1day">"Viimeinen päivä"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_3days">"Viimeiset kolme päivää"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1week">"Viimeinen viikko"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_2weeks">"Viimeiset kaksi viikkoa"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1month">"Viime kuussa"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_all">"Kaikki"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_default">"Käytä tilin oletusta"</string>
+	<!---->
+	<string name="account_setup_failed_dlg_auth_message">"Käyttäjänimi tai salasana on virheellinen."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_auth_message_fmt">"Kirjautuminen epäonnistui.\n(<xliff:g id="ERROR">%s</xliff:g>)"</string>
+	<!---->
+	<string name="account_setup_autodiscover_dlg_authfail_title">"Ongelma tilin asetuksissa"</string>
+	<!---->
+	<string name="account_setup_autodiscover_dlg_authfail_message">"Varmista, että käyttäjänimi, salasana ja tilin asetukset ovat oikeat."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_certificate_message">"Yhteyttä palvelimeen ei voitu luoda ei-luotetun tai virheellisen varmenteen takia."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_certificate_message_fmt">"Palvelimeen ei voi muodostaa suojattua yhteyttä."\n"(<xliff:g id="ERROR">%s</xliff:g>)"</string>
+	<!---->
+	<string name="account_setup_failed_certificate_required">"Asiakasvarmenne vaaditaan. Haluatko yhdistää palvelimeen asiakasvarmenteen avulla?"</string>
+	<!---->
+	<string name="account_setup_failed_certificate_inaccessible">"Varmenne ei kelpaa tai ole käytettävissä."</string>
+	<!---->
+	<string name="account_setup_failed_check_credentials_message">"Palvelin palautti virheilmoituksen. Tarkista käyttäjänimi ja salasana ja yritä sitten uudelleen."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_server_message">"Palvelimeen ei voi muodostaa yhteyttä."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_server_message_fmt">"Palvelimeen ei voi muodostaa yhteyttä."\n"(<xliff:g id="ERROR">%s</xliff:g>)"</string>
+	<!---->
+	<string name="account_setup_failed_tls_required">"TLS vaaditaan, mutta palvelin ei tue sitä."</string>
+	<!---->
+	<string name="account_setup_failed_auth_required">"Palvelin ei tue todennustapoja."</string>
+	<!---->
+	<string name="account_setup_failed_security">"Palvelimeen ei voi muodostaa yhteyttä suojausvirheen takia."</string>
+	<!---->
+	<string name="account_setup_failed_ioerror">"Ei voida avata yhteyttä palvelimeen."</string>
+	<!---->
+	<string name="account_setup_failed_protocol_unsupported">"Annoit virheellisen palvelimen osoitteen tai palvelin edellyttää protokollaversiota, jota sähköposti ei tue."</string>
+	<!---->
+	<string name="account_setup_failed_access_denied">"Sinulla ei ole lupaa synkronoida tämän palvelimen kanssa. Saat lisätietoja ottamalla yhteyttä palvelimesi järjestelmänvalvojaan."</string>
+	<!---->
+	<string name="account_setup_security_required_title">"Suojauksen etähallinta"</string>
+	<!---->
+	<string name="account_setup_security_policies_required_fmt">"Palvelin <xliff:g id="SERVER">%s</xliff:g> vaatii, että sen sallitaan hallita joitakin Android-laitteen suojaustoiminnoista. Haluatko määrittää tämän tilin loppuun?"</string>
+	<!---->
+	<string name="account_setup_failed_security_policies_unsupported">"Tämä palvelin edellyttää turvaominaisuuksia, joita Android-laitteesi ei tue, kuten: <xliff:g id="ERROR">%s</xliff:g>"</string>
+	<!---->
+	<string name="account_setup_username_uneditable_error">"Et voi muuttaa tilin käyttäjänimeä. Voit lisätä tilin eri käyttäjänimellä koskettamalla kohtaa Lisää tili."</string>
+	<!---->
+	<string name="disable_admin_warning">"VAROITUS: jos poistat sähköpostisovellukselta oikeuden hallinnoida laitettasi, myös kaikki sovellukseen liittyvät sähköpostitilit sekä niiden sähköpostit, yhteystiedot, kalenteritapahtumat ja muut tiedot poistetaan."</string>
+	<!---->
+	<string name="account_security_dialog_title">"Tietoturvapäivitys"</string>
+	<!---->
+	<string name="account_security_dialog_content_fmt">"<xliff:g id="ACCOUNT">%s</xliff:g> pyytää sinua päivittämään suojausasetuksesi."</string>
+	<!---->
+	<string name="security_unsupported_ticker_fmt">"Tiliä \"<xliff:g id="account">%s</xliff:g>\" ei voi synkronoida suojausvaatimusten vuoksi."</string>
+	<!---->
+	<string name="security_needed_ticker_fmt">"Tili \"<xliff:g id="ACCOUNT">%s</xliff:g>\" edellyttää, että suojausasetukset päivitetään."</string>
+	<!---->
+	<string name="security_changed_ticker_fmt">"Tili \"<xliff:g id="ACCOUNT">%s</xliff:g>\" muutti suojausasetuksiaan. Käyttäjältä ei vaadita toimia."</string>
+	<!---->
+	<string name="security_notification_content_update_title">"Suojauspäivitys tarvitaan"</string>
+	<!---->
+	<string name="security_notification_content_change_title">"Suojauskäytännöt muuttuneet"</string>
+	<!---->
+	<string name="security_notification_content_unsupported_title">"Suojauskäytäntöjä ei voida noudattaa"</string>
+	<!---->
+	<string name="account_security_title">"Laitteen suojaus"</string>
+	<!---->
+	<string name="account_security_policy_explanation_fmt">"Palvelin <xliff:g id="SERVER">%s</xliff:g> vaatii, että sen sallitaan hallita joitakin Android-laitteen suojaustoiminnoista."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_edit_details_action">"Muokkaa tietoja"</string>
+	<!---->
+	<string name="password_expire_warning_ticker_fmt">"<xliff:g id="ACCOUNT">%s</xliff:g> pyytää muuttamaan ruudunlukituksen PIN-koodin tai salasanan."</string>
+	<!---->
+	<string name="password_expire_warning_content_title">"Ruudunlukituksen salasana vanhentuu pian"</string>
+	<!---->
+	<string name="password_expired_ticker">"Ruudunlukituksen PIN-koodi tai salasana on vanhentunut."</string>
+	<!---->
+	<string name="password_expired_content_title">"Ruudunlukituksen salasana vanhentunut"</string>
+	<!---->
+	<string name="password_expire_warning_dialog_title">"Ruudunlukituksen salasana vanhentuu pian"</string>
+	<!---->
+	<string name="password_expire_warning_dialog_content_fmt">"Ruudunlukituksen PIN-koodi tai salasana on vaihdettava pian, koska muutoin tilin <xliff:g id="account">%s</xliff:g> tiedot poistetaan. Vaihdetaanko se nyt?"</string>
+	<!---->
+	<string name="password_expired_dialog_title">"Ruudunlukituksen salasana vanhentunut"</string>
+	<!---->
+	<string name="password_expired_dialog_content_fmt">"Tilin <xliff:g id="account">%s</xliff:g> tietoja poistetaan laitteesta. Voit palauttaa ne vaihtamalla ruudunlukituksen PIN-koodin tai salasanan. Vaihdetaanko se nyt?"</string>
+	<!---->
+	<string name="account_settings_exit_server_settings">"Hylätäänkö tallentamattomat muutokset?"</string>
+	<!---->
+	<string name="account_settings_login_dialog_title">"Kirjautuminen ei onnistu."</string>
+	<!---->
+	<string name="account_settings_login_dialog_content_fmt">"Tilin <xliff:g id="ACCOUNT">%s</xliff:g> käyttäjänimi tai salasana on virheellinen. Päivitetäänkö?"</string>
+	<!---->
+	<string name="account_settings_login_dialog_reason_fmt">"Kirjautuminen tiliin <xliff:g id="account">%s</xliff:g> epäonnistui. Palvelimen ilmoitus: <xliff:g id="reason">%s</xliff:g> Haluatko päivittää käyttäjänimen ja/tai salasanan?"</string>
+	<!---->
+	<string name="account_settings_background_attachments_label">"Lataa liitetiedostoja"</string>
+	<!---->
+	<string name="account_settings_background_attachments_summary">"Lataa viimeaikaisten viestien liitteet wifi-yhteyden kautta."</string>
+	<!---->
+	<string name="account_settings_notify_label">"Sähköposti-ilmoitukset"</string>
+	<!---->
+	<string name="account_settings_summary">"Synkronoinnin tiheys, ilmoitukset jne."</string>
+	<!---->
+	<string name="account_settings_notify_summary">"Lähetä ilmoitus, kun sähköpostiviesti saapuu"</string>
+	<!---->
+	<string name="account_settings_mail_check_frequency_label">"Synkronointiaikaväli"</string>
+	<!---->
+	<string name="account_settings_incoming_label">"Saapuvan postin asetukset"</string>
+	<!---->
+	<string name="account_settings_incoming_summary">"Käyttäjänimi, salasana ja muut tulevat palvelimen asetukset"</string>
+	<!---->
+	<string name="account_settings_outgoing_label">"Lähtevän postin asetukset"</string>
+	<!---->
+	<string name="account_settings_outgoing_summary">"Käyttäjänimi, salasana ja muut lähtevät palvelimen asetukset"</string>
+	<!---->
+	<string name="account_settings_reply_to_category">"Vastausasetukset"</string>
+	<!---->
+	<string name="account_settings_reply_to_label">"Vastausosoite"</string>
+	<!---->
+	<string name="account_settings_reply_to_invalid">"Osoite on virheellinen"</string>
+	<!---->
+	<string name="account_settings_enforced_label">"Käytännöt otettu käyttöön"</string>
+	<!---->
+	<string name="account_settings_enforced_summary">"Ei mitään"</string>
+	<!---->
+	<string name="account_settings_unsupported_label">"Käytäntöjä ei tueta"</string>
+	<!---->
+	<string name="account_settings_unsupported_summary">"Ei mitään"</string>
+	<!---->
+	<string name="account_settings_retry_label">"Yritä synkronointia"</string>
+	<!---->
+	<string name="account_settings_retry_summary">"Synkronoi tili koskettamalla tätä"</string>
+	<!---->
+	<string name="account_settings_description_label">"Tilin nimi"</string>
+	<!---->
+	<string name="account_settings_name_label">"Oma nimi"</string>
+	<!---->
+	<string name="account_settings_edit_quick_responses_label">"Pikavastaukset"</string>
+	<!---->
+	<string name="account_settings_edit_quick_responses_summary">"Muokkaa tekstiä, jota lisäät usein sähköpostiviesteihin"</string>
+	<!---->
+	<string name="account_settings_notifications">"Ilmoitusasetukset"</string>
+	<!---->
+	<string name="account_settings_data_usage">"Tiedonsiirto"</string>
+	<!---->
+	<string name="account_settings_policies">"Suojauskäytännöt"</string>
+	<!---->
+	<string name="system_folders_title">"Järjestelmäkansiot"</string>
+	<!---->
+	<string name="system_folders_trash_title">"Roskapostikansio"</string>
+	<!---->
+	<string name="system_folders_trash_summary">"Valitse palvelimen roskakorikansio"</string>
+	<!---->
+	<string name="system_folders_trash_dlg">"Valitse palvelimen roskakorikansio"</string>
+	<!---->
+	<string name="system_folders_sent_title">"Lähetetyt-kansio"</string>
+	<!---->
+	<string name="system_folders_sent_summary">"Valitse palvelimen lähetettyjen viestien kansio"</string>
+	<!---->
+	<string name="system_folders_sent_dlg">"Valitse palvelimen lähetettyjen viestien kansio"</string>
+	<!---->
+	<string name="edit_quick_response_dialog">"Pikavastaus"</string>
+	<!---->
+	<string name="save_action">"Tallenna"</string>
+	<!---->
+	<string name="account_settings_sync_contacts_enable">"Synkronoi yhteystiedot"</string>
+	<!---->
+	<string name="account_settings_sync_contacts_summary">"Synkronoi tämän tilin yhteystiedot"</string>
+	<!---->
+	<string name="account_settings_sync_calendar_enable">"Synkronoi Kalenteri"</string>
+	<!---->
+	<string name="account_settings_sync_calendar_summary">"Synkronoi tämän tilin kalenteritapahtumat"</string>
+	<!---->
+	<string name="account_settings_sync_email_enable">"Synkronoi sähköposti"</string>
+	<!---->
+	<string name="account_settings_sync_email_summary">"Synkronoi tämän tilin sähköpostit"</string>
+	<!---->
+	<string name="account_settings_vibrate_when_label">"Värinä"</string>
+	<!---->
+	<string name="account_settings_ringtone">"Valitse soittoääni"</string>
+	<!---->
+	<string name="account_settings_servers">"Palvelinasetukset"</string>
+	<!---->
+	<string name="default_ringtone">"Oletussoittoääni"</string>
+	<!---->
+	<string name="default_ringtone_unkonwn">"Tuntematon soittoääni"</string>
+	<!---->
+	<string name="mailbox_settings_activity_title">"Synkronointiasetukset"</string>
+	<!---->
+	<string name="mailbox_settings_activity_title_with_mailbox">"Synkronointiasetukset (<xliff:g id="MAILBOXX_NAME">%s</xliff:g>)"</string>
+	<!---->
+	<string name="mailbox_settings_sync_enabled_label">"Synkronoi tämä kansio"</string>
+	<!---->
+	<string name="mailbox_settings_sync_enabled_summary">"Viestit ladataan yhteyden muodostuttua."</string>
+	<!---->
+	<string name="mailbox_settings_mailbox_sync_window_label">"Päivät, joilta posti synkronoidaan"</string>
+	<!---->
+	<string name="prefDialogTitle_conversationListIcon">"Lähettäjän kuva"</string>
+	<!---->
+	<string name="provider_note_live">"Vain joihinkin Plus-tileihin sisältyy POP-käyttö, joka sallii tämän ohjelman muodostaa yhteyden. Jos et pysty kirjautumaan tiliisi sähköpostiosoitteellasi ja salasanallasi, sinulla ei ehkä ole maksullista Plus-tiliä. Pääset käyttämään näitä sähköpostitile"</string>
+	<!---->
+	<string name="provider_note_t_online">"Käy ennen tämän sähköpostitilin luomista T-Onlinen sivustossa ja luo salasana sähköpostin POP3-käyttöä varten."</string>
+	<!---->
+	<string name="exchange_name">"Yritys"</string>
+	<!---->
+	<string name="exchange_name_alternate">"Microsoft Exchange ActiveSync"</string>
+	<!---->
+	<string name="system_account_create_failed">"Tiliä ei voitu luoda. Yritä uudelleen."</string>
+	<!---->
+	<string name="device_admin_label">"Sähköposti"</string>
+	<!---->
+	<string name="device_admin_description">"Ottaa käyttöön palvelinten määrittämät suojauskäytännöt"</string>
+	<!---->
+	<string name="settings_activity_title">"Asetukset"</string>
+	<!---->
+	<string name="header_label_general_preferences">"Yleiset asetukset"</string>
+	<!---->
+	<string name="general_preference_confirm_delete_label">"Vahvista ennen poistamista"</string>
+	<!---->
+	<string name="general_preference_confirm_send_label">"Vahvista ennen lähetystä"</string>
+	<!---->
+	<string name="more_than_999">"999+"</string>
+	<!---->
+	<string name="search_hint">"Hae sähköpostista"</string>
+	<!---->
+	<string name="policy_dont_allow_camera">"Älä salli laitteen kameran käyttöä"</string>
+	<!---->
+	<string name="policy_require_password">"Vaadi laitteen salasana"</string>
+	<!---->
+	<string name="policy_password_history">"Rajoita viim. salasanojen uud.käyttöä"</string>
+	<!---->
+	<string name="policy_password_expiration">"Vaadi salasanojen vanhenemista"</string>
+	<!---->
+	<string name="policy_screen_timeout">"Käyttämättömän laitteen lukittava ruutu"</string>
+	<!---->
+	<string name="policy_calendar_age">"Rajoita synkronoitavien kalenteritap. lukumäärää"</string>
+	<!---->
+	<string name="policy_email_age">"Rajoita synkronoitavien sähköpostien lukumäärää"</string>
+	<!---->
+	<string name="quick_1">"Kiitos!"</string>
+	<!---->
+	<string name="quick_2">"Kuulostaa hyvältä!"</string>
+	<!---->
+	<string name="quick_3">"Luen tämän myöhemmin ja palaan asiaan."</string>
+	<!---->
+	<string name="quick_4">"Voisimme tavata ja puhua asiasta."</string>
+	<!---->
+	<string name="require_manual_sync_message">"Tämän tilin taustasynkronointi on pois käytöstä roaming-tilassa."</string>
+	<!---->
+	<string name="confirm_response">"Lähetetään vastausta..."</string>
+	<!---->
+	<string name="no_conversations">"Ei viestejä."</string>
+	<!-- no translation found for imap_name -->
+	<skip />
+	<!-- no translation found for pop3_name -->
+	<skip />
+	<!---->
+	<string name="email_name">"Sähköposti"</string>
+	<!---->
+	<string name="folder_picker_title">"Kansionvalitsin"</string>
+	<!---->
+	<string name="trash_folder_selection_title">"Valitse roskakori tilille <xliff:g id="ACCOUNT">%s</xliff:g>"</string>
+	<!---->
+	<string name="sent_folder_selection_title">"Valitse lähet. kansio tilille <xliff:g id="ACCOUNT">%s</xliff:g>"</string>
+	<!---->
+	<string name="account_waiting_for_folders_msg">"Ladataan kansioluetteloa..."</string>
+	<!---->
+	<string name="no_quick_responses">"Ei saatavilla"</string>
+	<!---->
+	<string name="gmail_name">"Gmail"</string>
+	<!---->
+	<string name="folder_sync_settings_pref_title">"Kansion synkronointiasetukset"</string>
+	<!---->
+	<string name="select_your_account">"Valitse tili"</string>
+	<!---->
+	<string name="select_account_list_below">"Valitse tilisi seuraavasta luettelosta:"</string>
+	<!---->
+	<string name="cancel_label">"Peruuta"</string>
+	<!---->
+	<string name="next_label">"Seuraava"</string>
+	<!---->
+	<string name="str_account_provider_other">"Muu"</string>
+	<!---->
+	<string name="account_settings_download_options_label">"Latausasetukset"</string>
+	<!---->
+	<string name="account_setting_download_opt_headonly">"Vain otsaketiedot"</string>
+	<!---->
+	<string name="account_setting_download_opt_all">"Kaikki"</string>
+	<!---->
+	<string name="account_setting_download_opt_2k">"2K"</string>
+	<!---->
+	<string name="account_setting_download_opt_5k">"5K"</string>
+	<!---->
+	<string name="account_setting_download_opt_10k">"10K"</string>
+	<!---->
+	<string name="account_setting_download_opt_20k">"20K"</string>
+	<!---->
+	<string name="account_setting_download_opt_50k">"50K"</string>
+	<!---->
+	<string name="account_setting_download_opt_100k">"100K"</string>
+	<!---->
+	<string name="account_oof_error_tip_past">"Loppumisaika ei voi olla menneisyydessä. Muuta loppumisaika tulevaisuuteen."</string>
+	<!---->
+	<string name="account_oof_error_tip_earlier">"Loppumisaika ei voi olla ennen alkamisaikaa. Muuta loppumisaikaa uudelleen."</string>
+	<!---->
+	<string name="account_setting_oof_label">"Poissaoloasetukset"</string>
+	<!---->
+	<string name="oof_auto_repley">"Lähetä automaattinen poissaolovastaus"</string>
+	<!---->
+	<string name="oof_auto_replies_period">"Lähetä automaattinen poissaolovastaus tänä aikana"</string>
+	<!---->
+	<string name="start_time">"Aloitusaika"</string>
+	<!---->
+	<string name="end_time">"Lopetusaika"</string>
+	<!---->
+	<string name="internal_message">"Sisäinen viesti"</string>
+	<!---->
+	<string name="oof_auto_replies_external_senders">"Lähetä automaattinen poissaolovastaus ulkopuolisille lähettäjille"</string>
+	<!---->
+	<string name="oof_choice_oof_in_contacts">"Lähetä automaattinen poissaolovastaus omassa osoitekirjassa oleville lähettäjille"</string>
+	<!---->
+	<string name="oof_choice_oof_outside_organisation">"Lähetä automaattinen poissaolovastaus organisaation ulkopuolisille henkilöille"</string>
+	<!---->
+	<string name="external_message">"Ulkoinen viesti"</string>
+	<!---->
+	<string name="oof_done_message_attention">""Et ole määrittänyt automaattisen vastauksen viestiä organisaatioosi kuuluville henkilöille. Jos poissaoloviestiä ei anneta, henkilöille ei lähetetä automaattista poissaolovastausta. Poissaolosäännöt toimivat silti. Haluatko jatkaa?"</string>
+	<!---->
+	<string name="oof_choice_in_contacts">"Lähetä osoitekirjassani oleville lähettäjille"</string>
+	<!---->
+	<string name="oof_choice_all_senders">"Lähetä kaikille lähettäjille"</string>
+	<!---->
+	<string name="hint_text_of_internal_message">"Vastaa organisaatiosi osoitteisiin"</string>
+	<!---->
+	<string name="hint_text_of_external_message">"Vastaa organisaatiosi ulkopuolisesta osoitteesta"</string>
+	<!---->
+	<string name="account_delete_dlg_title">"Poista tili"</string>
+	<!---->
+	<string name="account_delete_dlg_instructions_fmt">"Tili \"<xliff:g id="ACCOUNT">%s</xliff:g>\" poistetaan sähköpostista."</string>
+	<!---->
+	<string name="account_delete_dlg_instructions_fmt_new">"Poistamalla tämän tilin poistat kaikki sen viestit, kontaktit ja muut tiedot puhelimesta."</string>
+	<!---->
+	<string name="account_delete_dlg_action_remove_label">"Poista"</string>
+	<!---->
+	<string name="account_delete_dlg_action_cancel_label">"Peruuta"</string>
+	<!---->
+	<string name="account_settings_category_delete_account">"Poista tili"</string>
+	<!---->
+	<string name="account_settings_delete_account_label">"Poista tili"</string>
+	<!---->
+	<string name="account_settings_default_label">"Oletustili"</string>
+	<!---->
+	<string name="account_settings_default_summary">"Lähetä sähköposti oletuksena tältä tililtä"</string>
+	<!---->
+	<string name="account_setup_options_default_label">"Lähetä sähköposti oletuksena tältä tililtä."</string>
+	<!---->
+	<string name="account_setup_basics_default_label">"Lähetä sähköposti oletuksena tältä tililtä."</string>
+	<!---->
+	<string name="local_search_action">"Hae paikallisesta"</string>
+	<!---->
+	<string name="service_search_action">"Hae palvelimesta"</string>
+	<!---->
+	<string name="local_search_all">"Kaikki"</string>
+	<!---->
+	<string name="local_search_from">"Alkupvm"</string>
+	<!---->
+	<string name="local_search_to">"V.o."</string>
+	<!---->
+	<string name="local_search_subject">"Aihe"</string>
+	<!---->
+	<string name="status_loading_attachments">"Ladataan"</string>
+	<!---->
+	<string name="account_use_proxy_label">"Käytä välityspalvelinta"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_label">"Välityspalvelimen IP-osoite"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_port_label">"Välityspalvelimen portti"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_name">"Välityspalvelimen nimi"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_password">"Välityspalvelimen salasana"</string>
+	<!---->
+	<string name="attachment_info_dialog_wifi_title">"Wi-Fi-yhteys vaaditaan"</string>
+	<!---->
+	<string name="attachment_info_wifi_settings">"Wi-Fi-asetukset"</string>
+	<!---->
+	<string name="attachment_info_wifi_only">"Tämä liite on liian suuri ladattavaksi mobiiliverkon kautta. Voit ladata sen muodostaessasi Wi-Fi-yhteyden seuraavan kerran."</string>
+	<!---->
+	<string name="attachment_info_ok">"OK"</string>
+	<!---->
+	<string name="mailbox_name_display_draft">"Luonnos"</string>
+	<!---->
+	<string name="message_compose_display_name">"<xliff:g example="John" id="name">%1$s</xliff:g> ja <xliff:g example="27" id="number">%2$d</xliff:g> muuta"</string>
+	<!---->
+	<string name="app_name">"Sähköposti"</string>
+	<!---->
+	<string name="from">"Lähettäjä"</string>
+	<!---->
+	<string name="to">"V.o."</string>
+	<!---->
+	<string name="cc">"Kop."</string>
+	<!---->
+	<string name="bcc">"Piilokop."</string>
+	<!---->
+	<string name="subject_hint">"Aihe"</string>
+	<!---->
+	<string name="body_hint">"Kirjoita sähköposti"</string>
+	<!---->
+	<string name="add_file_attachment">"Liitä tiedosto"</string>
+	<!---->
+	<string name="add_photo_attachment">"Liitä kuva"</string>
+	<!---->
+	<string name="save_draft">"Tallenna luonnos"</string>
+	<!---->
+	<string name="discard">"Hylkää"</string>
+	<!---->
+	<string name="compose">"Viestin kirjoitus"</string>
+	<!---->
+	<string name="select_contacts_field">"Valitse yhteystiedot"</string>
+	<!---->
+	<string name="item_save_group">"Tallenna ryhmä"</string>
+	<!---->
+	<string name="confirm_select">"Valitse"</string>
+	<!---->
+	<string name="cancel_select">"Peruuta"</string>
+	<string-array name="compose_modes">
+		<item>"Vastaa"</item>
+		<item>"Vastaa kaikille"</item>
+		<item>"Lähetä edelleen"</item>
+	</string-array>
+	<string-array name="compose_modes_without_reply_all">
+		<item>"Vastaa"</item>
+		<item>"Lähetä edelleen"</item>
+	</string-array>
+	<!---->
+	<string name="reply_subject_label">"Vs:"</string>
+	<!---->
+	<string name="forward_subject_label">"Vl:"</string>
+	<!---->
+	<string name="reply_attribution">"<xliff:g id="date">%s</xliff:g> <xliff:g id="person">%s</xliff:g> kirjoitti:"</string>
+	<!---->
+	<string name="forward_attribution">"---------- Edelleenlähetetty viesti ----------；Läh.:；Pvm:；Aihe:；V.o.:"</string>
+	<!---->
+	<string name="forward_attribution_with_headers">"---------- Edelleenlähetetty viesti ---------- <xliff:g id="a">%s</xliff:g> Lähettäjä: <xliff:g id="from">%s</xliff:g> <xliff:g id="b">%s</xliff:g> Päivä: <xliff:g id="date">%s</xliff:g> <xliff:g id="c">%s</xliff:g> Aihe: <xliff:g id="subject">%s</xliff:g> <xliff:g id="d">%s</xliff:g> Vastaanottaja: <xliff:g id="to">%s</xliff:g> <xliff:g id="e">%s</xliff:g> Kopio: <xliff:g id="cc">%s</xliff:g> <br/>"</string>
+	<!---->
+	<string name="forward_attribution_no_headers">"---------- Edelleenlähetetty viesti ----------"</string>
+	<!---->
+	<string name="cc_attribution">"Kop.:"</string>
+	<!---->
+	<string name="select_attachment_type">"Valitse liitteen tyyppi."</string>
+	<!---->
+	<string name="too_large_to_attach_single">"Liitteen enimmäiskoko on %1$s"</string>
+	<!---->
+	<string name="too_large_to_attach_multiple">"Vähintään yhtä tiedostoa ei liitetty. Rajoitus <xliff:g id="maxSize">%1$s</xliff:g>."</string>
+	<!---->
+	<string name="too_large_to_mid_attach_additional">"Sähköpostiviestisi koko ylittää <xliff:g id="maxSize">%1$s</xliff:g>. Sähköpostitilisi ei ehkä tue tätä."</string>
+	<!---->
+	<string name="too_large_to_attach_additional">"Tiedostoa ei voi liittää. Sähköpostiviestin kokorajoitus <xliff:g id="maxSize">%1$s</xliff:g> ylittyy."</string>
+	<!---->
+	<string name="generic_attachment_problem">"Tiedoston liittäminen epäonnistui"</string>
+	<!---->
+	<string name="recipient_needed">"Lisää vähintään yksi vastaanottaja."</string>
+	<!---->
+	<string name="recipient_error_dialog_title">"Vastaanottajavirhe"</string>
+	<!---->
+	<string name="confirm_send_title">"Lähetetäänkö viesti?"</string>
+	<!---->
+	<string name="confirm_send_message_with_no_subject">"Viestin aihe on tyhjä"</string>
+	<!---->
+	<string name="confirm_send_message_with_no_body">"Viestin teksti on tyhjä."</string>
+	<!---->
+	<string name="confirm_send_message">"Lähetetäänkö tämä viesti?"</string>
+	<!---->
+	<string name="message_discarded">"Viesti hylätty."</string>
+	<!-- no translation found for signature -->
+	<skip />
+	<!---->
+	<string name="custom_from_account_label">"Lähettäjältä:"</string>
+	<!---->
+	<string name="send">"Lähetä"</string>
+	<!---->
+	<string name="mark_read">"Merkitse luetuksi"</string>
+	<!---->
+	<string name="mark_unread">"Merkitse lukemattomaksi"</string>
+	<!---->
+	<string name="mute">"Äänetön"</string>
+	<!---->
+	<string name="add_star">"Lisää tähti"</string>
+	<!---->
+	<string name="remove_star">"Poista tähti"</string>
+	<!---->
+	<string name="remove_folder">"Poistaan kohteesta <xliff:g id="folderName">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="archive">"Arkistoi"</string>
+	<!---->
+	<string name="report_spam">"Ilmoita roskapostiksi"</string>
+	<!---->
+	<string name="mark_not_spam">"Raportoi: Ei roskapostia"</string>
+	<!---->
+	<string name="report_phishing">"Ilmoita tietojenkalasteluksi"</string>
+	<!---->
+	<string name="delete">"Poista"</string>
+	<!---->
+	<string name="discard_drafts">"Hylkää luonnokset"</string>
+	<!---->
+	<string name="discard_failed">"Hylkääminen epäonnistui"</string>
+	<!---->
+	<string name="refresh">"Päivitä"</string>
+	<!---->
+	<string name="reply">"Vastaa"</string>
+	<!---->
+	<string name="reply_all">"Vastaa kaikille"</string>
+	<!---->
+	<string name="resume_draft">"Muokkaa"</string>
+	<!---->
+	<string name="forward">"Lähetä edelleen"</string>
+	<!---->
+	<string name="menu_compose">"Viestin kirjoitus"</string>
+	<!---->
+	<string name="menu_sort">"Lajittele"</string>
+	<!---->
+	<string name="menu_change_folders">"Vaihda kansioita"</string>
+	<!---->
+	<string name="menu_move_to">"Siirrä kansioon"</string>
+	<!---->
+	<string name="menu_move_to_inbox">"Siirrä saapuneisiin"</string>
+	<!---->
+	<string name="menu_manage_folders">"Kansion asetukset"</string>
+	<!---->
+	<string name="menu_show_original">"Palauta koonmuutto"</string>
+	<!---->
+	<string name="menu_settings">"Asetukset"</string>
+	<!---->
+	<string name="menu_search">"Etsi"</string>
+	<!---->
+	<string name="drawer_title">"Navigointi"</string>
+	<!---->
+	<string name="mark_important">"Merkitse tärkeäksi"</string>
+	<!---->
+	<string name="mark_not_important">"Merkitse ei tärkeäksi"</string>
+	<!---->
+	<string name="select_all_conversations">"Valitse kaikki"</string>
+	<!---->
+	<string name="unselect_all_conversations">"Poista kaikki valinnat"</string>
+	<!---->
+	<string name="add_cc_label">"Lisää kopio/piilok."</string>
+	<!---->
+	<string name="add_bcc_label">"Lisää piilok."</string>
+	<!---->
+	<string name="quoted_text">"Lisää lainattu teksti"</string>
+	<!---->
+	<string name="quoted_text_label">"Lainaa teksti"</string>
+	<!---->
+	<string name="respond_inline">"Vastaa inline-muodossa"</string>
+	<!---->
+	<string name="bytes">"<xliff:g id="count">%s</xliff:g> tavua"</string>
+	<!---->
+	<string name="kilobytes">"<xliff:g id="count">%s</xliff:g> kt"</string>
+	<!---->
+	<string name="megabytes">"<xliff:g id="count">%s</xliff:g> Mt"</string>
+	<!---->
+	<string name="attachment_image">"Kuva"</string>
+	<!---->
+	<string name="attachment_video">"Video"</string>
+	<!---->
+	<string name="attachment_audio">"Ääni"</string>
+	<!---->
+	<string name="attachment_text">"Teksti"</string>
+	<!---->
+	<string name="attachment_application_msword">"Asiakirja"</string>
+	<!---->
+	<string name="attachment_application_vnd_ms_powerpoint">"Esitys"</string>
+	<!---->
+	<string name="attachment_application_vnd_ms_excel">"Taulukko"</string>
+	<!-- no translation found for attachment_application_pdf -->
+	<skip />
+	<!---->
+	<string name="attachment_unknown">"<xliff:g id="attachmentExtension">%s</xliff:g>-tiedosto"</string>
+	<!---->
+	<string name="preview_attachment">"Esikatselu"</string>
+	<!---->
+	<string name="save_attachment">"Tallenna"</string>
+	<!---->
+	<string name="cancel_attachment">"Peruuta"</string>
+	<!---->
+	<string name="open_attachment">"Avaa"</string>
+	<!---->
+	<string name="install_attachment">"Asenna"</string>
+	<!---->
+	<string name="download_again">"Lataa uudelleen"</string>
+	<!---->
+	<string name="more_info_attachment">"Tietoja"</string>
+	<!---->
+	<string name="no_application_found">"Mikään sovellus ei voi avata tätä liitettä."</string>
+	<!---->
+	<string name="fetching_attachment">"Noudetaan liitettä"</string>
+	<!---->
+	<string name="please_wait">"Odota hetki\u2026"</string>
+	<!---->
+	<string name="saved">"Tallennettu,"</string>
+	<!---->
+	<string name="download_failed">"Lataus epäonnistui. Yritä uudelleen koskettamalla."</string>
+	<!---->
+	<string name="menu_photo_save_all">"Tallenna kaikki"</string>
+	<!---->
+	<string name="menu_photo_share">"Jaa"</string>
+	<!---->
+	<string name="menu_photo_share_all">"Jaa kaikki"</string>
+	<!---->
+	<string name="menu_photo_print">"Tulosta"</string>
+	<!---->
+	<string name="saving">"Tallennetaan..."</string>
+	<!---->
+	<string name="choosertitle_sharevia">"Jaa sovelluksessa"</string>
+	<!---->
+	<string name="contextmenu_openlink">"Avaa selaimessa"</string>
+	<!---->
+	<string name="contextmenu_copy">"Kopioi"</string>
+	<!---->
+	<string name="contextmenu_copylink">"Kopioi linkin URL-osoite"</string>
+	<!---->
+	<string name="contextmenu_view_image">"Näytä kuva"</string>
+	<!---->
+	<string name="contextmenu_dial_dot">"Soita"</string>
+	<!---->
+	<string name="contextmenu_sms_dot">"Tekstiviesti\u2026"</string>
+	<!---->
+	<string name="contextmenu_add_contact">"Lisää yhteystieto"</string>
+	<!---->
+	<string name="contextmenu_send_mail">"Lähetä sähköpostia"</string>
+	<!---->
+	<string name="contextmenu_map">"Kartta"</string>
+	<!---->
+	<string name="contextmenu_sharelink">"Jaa linkki"</string>
+	<!---->
+	<string name="contextmenu_savelink">"Tallenna linkki"</string>
+	<!---->
+	<string name="contextmenu_help">"Ohje"</string>
+	<!---->
+	<string name="contextmenu_feedback">"Lähetä palautetta"</string>
+	<!---->
+	<string name="sort_title">"Lajitteluperuste"</string>
+	<!---->
+	<string name="sort_by_tip">"Lajittelun peruste <xliff:g id="sor_type">%s</xliff:g>"</string>
+	<!-- no translation found for num_selected -->
+	<skip />
+	<plurals name="move_conversation">
+		<item quantity="one">"Siirretään keskustelua"</item>
+		<item quantity="other">"Siirrä <xliff:g>%1$d</xliff:g> keskustelua"</item>
+	</plurals>
+	<!---->
+	<string name="content_description">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> aiheesta <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> aikaan <xliff:g id="date">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g>"</string>
+	<!---->
+	<string name="content_description_today">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> aiheesta <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> aikaan <xliff:g id="time">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g>"</string>
+	<!---->
+	<string name="read_string">"Keskustelu luettu"</string>
+	<!---->
+	<string name="unread_string">"Keskustelua ei luettu"</string>
+	<!---->
+	<string name="filtered_tag">"[<xliff:g id="tag">%1$s</xliff:g>]<xliff:g id="subject">%2$s</xliff:g>"</string>
+	<!-- no translation found for badge_and_subject -->
+	<skip />
+	<plurals name="draft">
+		<item quantity="one">"Luonnos"</item>
+		<item quantity="other">"Luonnokset"</item>
+	</plurals>
+	<!---->
+	<string name="sending">"Lähetetään\u2026"</string>
+	<!---->
+	<string name="message_retrying">"Yritetään uudelleen\u2026"</string>
+	<!---->
+	<string name="message_failed">"Epäonnistui"</string>
+	<!---->
+	<string name="send_failed">"Sähköpostin lähettäminen epäonnistui."</string>
+	<!---->
+	<string name="send_failed_wait_attchment_downloaded">"Ei voida lähettää edelleen, koska liitteitä ei ole ladattu kokonaan. Lataa liitteet ensin."</string>
+	<!---->
+	<string name="me_object_pronoun">"Minä"</string>
+	<!---->
+	<string name="me_subject_pronoun">"Minä"</string>
+	<plurals name="confirm_delete_conversation">
+		<item quantity="one">"Poistetaanko tämä keskustelu?"</item>
+		<item quantity="other">"Poistetaanko nämä <xliff:g id="count">%1$d</xliff:g> keskustelua?"</item>
+	</plurals>
+	<plurals name="confirm_archive_conversation">
+		<item quantity="one">"Arkistoidaanko tämä keskustelu?"</item>
+		<item quantity="other">"Arkistoidaanko nämä <xliff:g id="count">%1$d</xliff:g> keskustelua?"</item>
+	</plurals>
+	<plurals name="confirm_discard_drafts_conversation">
+		<item quantity="one">"Hylätäänkö tämä viesti?"</item>
+		<item quantity="other">"Hylätäänkö nämä <xliff:g id="count">%1$d</xliff:g> viestiä?"</item>
+	</plurals>
+	<!---->
+	<string name="confirm_discard_text">"Hylätäänkö tämä viesti?"</string>
+	<!---->
+	<string name="loading_conversations">"Ladataan\u2026"</string>
+	<!---->
+	<string name="empty_inbox">"Kaikki tehty. Nauti päivästäsi."</string>
+	<!---->
+	<string name="empty_search">"Hups! Emme löytäneet mitään kohteelle \"<xliff:g id="search_query">%1$s</xliff:g>\"."</string>
+	<!---->
+	<string name="empty_spam_folder">"Hyvä, ei roskapostia täällä."</string>
+	<!---->
+	<string name="empty_trash_folder">"Roskakori tyhjä. Kiitos kierrätyksestä."</string>
+	<!---->
+	<string name="empty_folder">"Ei viestejä."</string>
+	<!---->
+	<string name="getting_messages">"Haetaan viestejä"</string>
+	<!---->
+	<string name="undo">"Kumoa"</string>
+	<plurals name="conversation_unstarred">
+		<item quantity="one">"Poistetaan tähtimerkintä <xliff:g id="count">%1$d</xliff:g> keskustelusta."</item>
+		<item quantity="other">"Poistetaan tähtimerkintä <xliff:g id="count">%1$d</xliff:g> keskustelusta."</item>
+	</plurals>
+	<plurals name="conversation_muted">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> mykistetty."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> mykistetty."</item>
+	</plurals>
+	<plurals name="conversation_spammed">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> ilmoitettu roskapostiksi."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> ilmoitettu roskapostiksi."</item>
+	</plurals>
+	<plurals name="conversation_not_spam">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> ilmoitettu ei-roskapostiksi."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> ilmoitettu ei-roskapostiksi."</item>
+	</plurals>
+	<plurals name="conversation_not_important">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> merkitty ei-tärkeäksi."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> merkitty ei-tärkeäksi."</item>
+	</plurals>
+	<plurals name="conversation_phished">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> ilmoitettu tietojenkalasteluksi."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> ilmoitettu tietojenkalasteluksi."</item>
+	</plurals>
+	<plurals name="conversation_archived">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> arkistoitu."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> arkistoitu."</item>
+	</plurals>
+	<plurals name="conversation_deleted">
+		<item quantity="one">"&lt;b&gt;%1$d&lt;/b&gt; poistettu."</item>
+		<item quantity="other">"&lt;b&gt;%1$d&lt;/b&gt; poistettu."</item>
+	</plurals>
+	<!---->
+	<string name="deleted">"Poistettu"</string>
+	<!---->
+	<string name="archived">"Arkistoitu"</string>
+	<!---->
+	<string name="starred">"Tähdelliset"</string>
+	<!---->
+	<string name="unstarred">"Tähdittämätön"</string>
+	<!---->
+	<string name="folder_removed">"Poistettu kohteesta <xliff:g id="folderName">%1$s</xliff:g>"</string>
+	<plurals name="conversation_folder_changed">
+		<item quantity="one">"Kansio vaihdettu."</item>
+		<item quantity="other">"Kansiot vaihdettu."</item>
+	</plurals>
+	<!---->
+	<string name="conversation_folder_moved">"Siirretty kohteeseen <xliff:g id="folderName">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="search_results_header">"Tulokset"</string>
+	<!---->
+	<string name="search_unsupported">"Haku ei ole tuettu tällä tilillä."</string>
+	<!---->
+	<string name="add_label">"Lisää kansio"</string>
+	<!---->
+	<string name="new_incoming_messages_one">"Näytä uusi viesti lähettäjältä <xliff:g id="sender">%s</xliff:g>"</string>
+	<plurals name="new_incoming_messages_many">
+		<item quantity="other">"Näytä <xliff:g id="count">%1$d</xliff:g> uutta viestiä."</item>
+	</plurals>
+	<!---->
+	<string name="date_and_view_details">"<xliff:g id="date">%1$s</xliff:g> &lt;a href=\'http://www.example.com\'&gt;Näytä tiedot&lt;/a&gt;"</string>
+	<!---->
+	<string name="date_and_view_details_another">"<xliff:g id="date">%1$s</xliff:g> &lt;font color=\"<xliff:g id="color">%2$d</xliff:g>\"&gt;Näytä tiedot&lt;/font&gt;"</string>
+	<!---->
+	<string name="hide_details">"Piilota tiedot"</string>
+	<!---->
+	<string name="to_message_header">"vastaanottajille <xliff:g id="recipients">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="contact_info_string">"Näytä yhteyshenkilön <xliff:g id="name">%1$s</xliff:g> tiedot"</string>
+	<!---->
+	<string name="contact_info_string_default">"Näytä yhteyshenkilön tiedot"</string>
+	<plurals name="show_messages_read">
+		<item quantity="other">"<xliff:g example="4" id="count">%1$d</xliff:g> vanhempaa viestiä"</item>
+	</plurals>
+	<!---->
+	<string name="from_heading">"Läh.:"</string>
+	<!---->
+	<string name="replyto_heading">"Vastausos.:"</string>
+	<!---->
+	<string name="to_heading">"V.o.:"</string>
+	<!---->
+	<string name="to_heading_no_space">"V.o.:"</string>
+	<!---->
+	<string name="cc_heading">"Kop.:"</string>
+	<!---->
+	<string name="bcc_heading">"Piilokopio:"</string>
+	<!---->
+	<string name="date_heading">"Pvm:"</string>
+	<!---->
+	<string name="show_images">"Näytä kuvat"</string>
+	<!---->
+	<string name="always_show_images">"Näytä aina tämän lähettäjän kuvat"</string>
+	<!---->
+	<string name="always_show_images_toast">"Kuvia tältä lähettäjältä näytetään automaattisesti."</string>
+	<!---->
+	<string name="address_display_format">"<xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g>"</string>
+	<!---->
+	<string name="address_display_format_with_via_domain">"<xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g> toimial. <xliff:g id="via_domain">%3$s</xliff:g>"</string>
+	<!---->
+	<string name="message_saved">"Viesti tallennettiin luonnokseksi."</string>
+	<!---->
+	<string name="sending_message">"Lähetetään viestiä\u2026"</string>
+	<!---->
+	<string name="invalid_recipient">"Osoite %s on virheellinen."</string>
+	<!---->
+	<string name="show_elided">"Näytä lainattu teksti"</string>
+	<!---->
+	<string name="hide_elided">"\u25BC Piilota lainattu teksti"</string>
+	<!---->
+	<string name="message_invite_title">"Kalenterikutsu"</string>
+	<!---->
+	<string name="message_invite_available">"Olet saatavana"</string>
+	<!---->
+	<string name="message_invite_datetime">"Milloin"</string>
+	<!---->
+	<string name="message_invite_location">"Missä"</string>
+	<!---->
+	<string name="message_invite_in_calendar_view">"Ks. kalenterissa"</string>
+	<!---->
+	<string name="message_invite_calendar_view">"Näytä kalenterissa"</string>
+	<!---->
+	<string name="message_invite_label_attending">"Osallistutko?"</string>
+	<!---->
+	<string name="message_invite_accept">"Kyllä"</string>
+	<!---->
+	<string name="message_invite_tentative">"Ehkä"</string>
+	<!---->
+	<string name="message_invite_decline">"Ei"</string>
+	<!-- no translation found for enumeration_comma -->
+	<skip />
+	<!---->
+	<string name="send_anyway">"Lähetä silti"</string>
+	<!---->
+	<string name="ok">"OK"</string>
+	<!---->
+	<string name="done">"Valmis"</string>
+	<!---->
+	<string name="cancel">"Peruuta"</string>
+	<!---->
+	<string name="clear">"Tyhjennä"</string>
+	<!---->
+	<string name="next">"Seuraava"</string>
+	<!---->
+	<string name="previous">"Edellinen"</string>
+	<string-array name="sync_status">
+		<item>"Wi-Fi-yhteyttä ei ole. Jatketaanko synkronointia?"</item>
+		<item>"Ei yhteyttä."</item>
+		<item>"Kirjautuminen ei onnistu."</item>
+		<item>"Suojausvirhe"</item>
+		<item>"Ei voitu synkronoida."</item>
+		<item>"Sisäinen virhe"</item>
+		<item>"Palvelinvirhe"</item>
+	</string-array>
+	<!---->
+	<string name="tap_to_configure">"Määritä koskettamalla"</string>
+	<!---->
+	<string name="non_synced_folder_description">"Synkronoi tämä kansio keskustelujen näyttämistä varten."</string>
+	<!---->
+	<string name="tap_to_configure_folder_sync">"Synkronoi kansio"</string>
+	<!-- no translation found for widget_large_unread_count -->
+	<skip />
+	<!---->
+	<string name="large_unseen_count">"<xliff:g example="99" id="count">%d</xliff:g> + uutta"</string>
+	<!---->
+	<string name="unseen_count">"<xliff:g example="4" id="count">%d</xliff:g> uutta"</string>
+	<plurals name="actionbar_unread_messages">
+		<item quantity="other">"%1$d lukematonta"</item>
+	</plurals>
+	<!---->
+	<string name="actionbar_large_unread_count">"Yli <xliff:g id="count">%1$d</xliff:g> lukematonta"</string>
+	<!---->
+	<string name="view_more_conversations">"Näytä lisää keskusteluita"</string>
+	<!---->
+	<string name="loading_conversation">"Ladataan\u2026"</string>
+	<!---->
+	<string name="activity_mailbox_selection">"Valitse tili"</string>
+	<!---->
+	<string name="activity_folder_selection">"Valitse kansio"</string>
+	<!---->
+	<string name="folder_shortcut_widget_label">"Sähköpostikansio"</string>
+	<!---->
+	<string name="change_folders_selection_dialog_title">"Vaihda kansioita"</string>
+	<!---->
+	<string name="move_to_selection_dialog_title">"Siirrä kansioon"</string>
+	<!-- no translation found for search_results_loaded -->
+	<skip />
+	<!---->
+	<string name="network_error">"Ei yhteyttä"</string>
+	<!---->
+	<string name="retry">"Yritä uudelleen"</string>
+	<!---->
+	<string name="load_more">"Lataa lisää"</string>
+	<!---->
+	<string name="shortcut_name_title">"Nimeä kansion pikakuvake"</string>
+	<!---->
+	<string name="wait_for_sync_title">"Odotetaan synkronointia"</string>
+	<!---->
+	<string name="not_synced_title">"Tiliä ei ole synkronoitu"</string>
+	<!---->
+	<string name="wait_for_manual_sync_body">"Tätä tiliä ei ole määritetty synkronoitavaksi automaattisesti.\nKosketa <b>Synkronoi nyt</b>, jos haluat synkronoida viestit kerran, tai <b>Muuta synkronointiasetuksia</b>, jos haluat määrittää tämän tilin synkronoimaan viestit automaattisesti."</string>
+	<!---->
+	<string name="manual_sync">"Synkronoi nyt"</string>
+	<!---->
+	<string name="change_sync_settings">"Muuta synkr.asetuksia"</string>
+	<!---->
+	<string name="photo_load_failed">"Kuvaa ei voitu ladata"</string>
+	<!---->
+	<string name="cant_move_or_change_labels">"Ei voi siirtää. Valinta sisältää useita tilejä."</string>
+	<!-- no translation found for multiple_new_message_notification_item -->
+	<skip />
+	<!-- no translation found for single_new_message_notification_big_text -->
+	<skip />
+	<!---->
+	<string name="ignore_spam_warning">"Ohita, luotan tähän viestiin"</string>
+	<!---->
+	<string name="via_domain">"toimialueelta <xliff:g id="viaDomain">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="signin">"Kirjaudu sisään"</string>
+	<!---->
+	<string name="info">"Tietoja"</string>
+	<!---->
+	<string name="report">"Ilmoita"</string>
+	<!---->
+	<string name="sync_error">"Ei voitu synkronoida."</string>
+	<!---->
+	<string name="sync_error_message">"Laitteen tallennustila ei riitä synkronointiin."</string>
+	<!---->
+	<string name="storage">"Tallennustila"</string>
+	<!-- no translation found for senders_split_token -->
+	<skip />
+	<!-- no translation found for draft_count_format -->
+	<skip />
+	<!---->
+	<string name="all_folders_heading">"Kaikki kansiot"</string>
+	<!---->
+	<string name="recent_folders_heading">"Viimeaikaiset kansiot"</string>
+	<!---->
+	<string name="message_details_title">"Viestin tiedot"</string>
+	<!---->
+	<string name="preference_advance_to_title">"Automaattinen siirtyminen"</string>
+	<string-array name="prefEntries_autoAdvance">
+		<item>"Uudemmat"</item>
+		<item>"Vanhemmat"</item>
+		<item>"Keskusteluluettelo"</item>
+	</string-array>
+	<string-array name="prefSummaries_autoAdvance">
+		<item>"Näytä uudempi keskustelu poiston jälkeen"</item>
+		<item>"Näytä vanhempi keskustelu poiston jälkeen"</item>
+		<item>"Näytä keskusteluluettelo poiston jälkeen"</item>
+	</string-array>
+	<!---->
+	<string name="prefDialogTitle_autoAdvance">"Siirry ruutuun"</string>
+	<!---->
+	<string name="clear_display_images_whitelist_title">"Tyhjennä kuvahyväksynnät"</string>
+	<!---->
+	<string name="clear_display_images_whitelist_dialog_title">"Tyhjennetäänkö kuvahyväksynnät?"</string>
+	<!---->
+	<string name="clear_display_images_whitelist_dialog_message">"Lopeta aiemmin sallimiesi lähettäjien kuvien näyttö."</string>
+	<!---->
+	<string name="sender_whitelist_cleared">"Kuvat eivät näy automaattisesti."</string>
+	<!---->
+	<string name="preferences_signature_title">"Allekirjoitus"</string>
+	<!---->
+	<string name="preferences_signature_dialog_title">"Allekirjoitus"</string>
+	<!---->
+	<string name="preferences_signature_summary_not_set">"Ei asetettu"</string>
+	<!---->
+	<string name="mail_account_signature_prefix">"Lähetetty minun <xliff:g example="4" id="product">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="notification_action_reply">"Vastaa"</string>
+	<!---->
+	<string name="notification_action_reply_all">"Vastaa kaikille"</string>
+	<!---->
+	<string name="notification_action_archive">"Arkistoi"</string>
+	<!---->
+	<string name="notification_action_remove_label">"Poista nimike"</string>
+	<!---->
+	<string name="notification_action_delete">"Poista"</string>
+	<!---->
+	<string name="notification_action_undo_archive">"Arkistoitu"</string>
+	<!---->
+	<string name="notification_action_undo_remove_label">"Nimike poistettu"</string>
+	<!---->
+	<string name="notification_action_undo_delete">"Poistettu"</string>
+	<!-- no translation found for veiled_address -->
+	<skip />
+	<!-- no translation found for veiled_alternate_text -->
+	<skip />
+	<!-- no translation found for veiled_alternate_text_unknown_person -->
+	<skip />
+	<!-- no translation found for veiled_summary_unknown_person -->
+	<skip />
+	<!-- no translation found for label_notification_ticker -->
+	<skip />
+	<plurals name="new_messages">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> uusi viesti"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> uutta viestiä. Näytä"</item>
+	</plurals>
+	<!-- no translation found for single_new_message_notification_title -->
+	<skip />
+	<!---->
+	<string name="silent_ringtone">"Äänetön"</string>
+	<!---->
+	<string name="preference_removal_action_title">"Arkistointi- ja poistotoiminnot"</string>
+	<string-array name="prefEntries_removal_action">
+		<item>"Näytä vain arkistoidut"</item>
+		<item>"Näytä vain poistetut"</item>
+		<item>"Näytä arkistoi ja poista"</item>
+	</string-array>
+	<string-array name="prefSummaries_removal_action_summary">
+		<item>"Näytä vain arkistoidut"</item>
+		<item>"Näytä vain poistetut"</item>
+		<item>"Näytä arkistoi ja poista"</item>
+	</string-array>
+	<!---->
+	<string name="prefDialogTitle_removal_action">"Arkistointi- ja poistotoiminnot"</string>
+	<!---->
+	<string name="preferences_default_reply_all_title">"Vastaa kaikille"</string>
+	<!---->
+	<string name="preferences_default_reply_all_summary_impl">"Käytä oletuksena viestivastauksissa"</string>
+	<!---->
+	<string name="preference_swipe_title_archive">"Arkistoi pyyhkäisemällä"</string>
+	<!---->
+	<string name="preference_swipe_title_delete">"Poista pyyhkäisemällä"</string>
+	<!---->
+	<string name="preference_swipe_description">"Keskusteluluettelossa"</string>
+	<!---->
+	<string name="preference_swipe_actions">"Pyyhkäisytoiminnot"</string>
+	<!---->
+	<string name="preference_sender_image_title">"Lähettäjän kuva"</string>
+	<!---->
+	<string name="preference_sender_image_description">"Näytä nimen vieressä keskusteluluettelossa"</string>
+	<!---->
+	<string name="empty_trash">"Tyhjennä roskakori"</string>
+	<!---->
+	<string name="empty_spam">"Tyhjennä roskaposti"</string>
+	<!---->
+	<string name="star_toggle">"Tähdityksen vaihtonäppäin"</string>
+	<!---->
+	<string name="empty_trash_dialog_title">"Tyhjennetäänkö roskakori?"</string>
+	<!---->
+	<string name="empty_spam_dialog_title">"Tyhjennetäänkö roskaposti?"</string>
+	<plurals name="empty_folder_dialog_message">
+		<item quantity="one">"%1$d viesti poistetaan pysyvästi."</item>
+		<item quantity="other">"%1$d viestiä poistetaan pysyvästi."</item>
+	</plurals>
+	<!---->
+	<string name="drawer_open">"Avaa navigointipalkki"</string>
+	<!---->
+	<string name="drawer_close">"Tekijänoikeustiedot"</string>
+	<!---->
+	<string name="conversation_photo_welcome_text">"Valitse keskustelu koskettamalla lähettäjän kuvaa."</string>
+	<!---->
+	<string name="long_press_to_select_tip">"Valitse yksi keskustelu koskettamalla jonkin aikaa ja valitse sitten lisää koskettamalla."</string>
+	<!---->
+	<string name="folder_icon_desc">"Kansiokuvake"</string>
+	<!---->
+	<string name="add_account">"Lisää tili"</string>
+	<!---->
+	<string name="dismiss_tip_hover_text">"Hylkää vihje"</string>
+	<!---->
+	<string name="auto_sync_off">"Automaattinen synkronointi on poissa käytöstä."</string>
+	<!---->
+	<string name="tap_to_enable_sync">"Ota käyttöön koskettamalla."</string>
+	<!---->
+	<string name="account_sync_off">"Tilin synkronointi ei ole käytössä."</string>
+	<!---->
+	<string name="enable_sync_in_account_settings">"Ota käyttöön kohteessa <xliff:g id="account_settings">%1$s</xliff:g>."</string>
+	<!---->
+	<string name="account_settings_param">"Tilin asetukset"</string>
+	<!---->
+	<string name="unsent_messages_in_outbox">"<xliff:g id="number">%1$s</xliff:g> lähettämätöntä laatikossa <xliff:g id="outbox">%2$s</xliff:g>"</string>
+	<!---->
+	<string name="turn_auto_sync_on_dialog_title">"Otetaanko autom. synkr. käyttöön?"</string>
+	<!---->
+	<string name="turn_auto_sync_on_dialog_body">"Gmail-sovellukseen sekä kaikkiin muihin sovelluksiin ja tileihin tekemäsi muutokset synkronoidaan Internetiin, muihin laitteisiisi ja <xliff:g id="phone_or_tablet">%1$s</xliff:g> -laitteeseesi"</string>
+	<!---->
+	<string name="phone">"Puhelin"</string>
+	<!---->
+	<string name="tablet">"Puhelin"</string>
+	<!---->
+	<string name="turn_auto_sync_on_dialog_confirm_btn">"Kytke päälle"</string>
+	<!---->
+	<string name="show_n_more_folders">"Näytä %1$s kansiota lisää"</string>
+	<!---->
+	<string name="hide_folders">"Piilota kansiot"</string>
+	<!---->
+	<string name="print">"Tulosta"</string>
+	<!---->
+	<string name="print_all">"Tulosta kaikki"</string>
+	<plurals name="num_messages">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> viesti"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> viestiä"</item>
+	</plurals>
+	<!---->
+	<string name="date_message_received_print">"<xliff:g id="day_and_date">%1$s</xliff:g> klo <xliff:g id="time">%2$s</xliff:g>"</string>
+	<!---->
+	<string name="draft_to_heading">"Luonnos henkilölle:"</string>
+	<!---->
+	<string name="draft_heading">"Luonnos"</string>
+	<!---->
+	<string name="quoted_text_hidden_print">"Lainattu teksti piilotettu"</string>
+	<plurals name="num_attachments">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> liitetiedosto"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> liitetiedostoa"</item>
+	</plurals>
+	<!---->
+	<string name="no_subject">"(Ei aihetta)"</string>
+	<!---->
+	<string name="vacation_responder">"Automaattinen lomaviesti"</string>
+	<!---->
+	<string name="preferences_vacation_responder_title">"Automaattinen lomaviesti"</string>
+	<!---->
+	<string name="vacation_responder_body_hint_text">"Viesti"</string>
+	<!---->
+	<string name="send_to_contacts_text">"Lähetä vain omille yhteystiedoille"</string>
+	<!---->
+	<string name="send_to_domain_text">"Lähetä ainoastaan kohteeseen <xliff:g id="domain">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="pick_start_date_title">"Alkaa"</string>
+	<!---->
+	<string name="pick_end_date_title">"Päättyy (valinnainen)"</string>
+	<!---->
+	<string name="date_not_set">"Ei asetettu"</string>
+	<!---->
+	<string name="set_end_date_dialog_title">"Lopetuspäivä (valinnainen)"</string>
+	<!---->
+	<string name="custom_date">"Muokattu"</string>
+	<!---->
+	<string name="date_none">"Ei mitään"</string>
+	<!---->
+	<string name="discard_changes">"Hylätäänkö muutokset?"</string>
+	<!---->
+	<string name="draft_saved">"Luonnos tallennettu"</string>
+	<!---->
+	<string name="draft_discard">"Luonnos hylätty"</string>
+	<!---->
+	<string name="vacation_responder_changes_saved">"Automaattisen lomaviestin muutokset tallennettu"</string>
+	<!---->
+	<string name="vacation_responder_changes_discarded">"Automaattisen lomaviestin muutokset hylätty"</string>
+	<!---->
+	<string name="vacation_responder_off">"POIS KÄYTÖSTÄ"</string>
+	<!---->
+	<string name="vacation_responder_on">"Käytössä, alkaen <xliff:g id="date">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="vacation_responder_on_with_end_date">"Käytössä, alkaen <xliff:g id="start-date">%1$s</xliff:g> ja jatkuen <xliff:g id="end-date">%2$s</xliff:g>"</string>
+	<!---->
+	<string name="vacation_responder_empty_subject_and_body_warning">"Lisää aihe tai viestiteksti"</string>
+	<!---->
+	<string name="view_entire_message">"Näytä koko viesti"</string>
+	<!---->
+	<string name="eml_loader_error_toast">"Tätä tiedostoa ei voi avata"</string>
+	<!---->
+	<string name="help_and_info">"Ohje"</string>
+	<!---->
+	<string name="help_and_feedback">"Ohje/palaute"</string>
+	<!---->
+	<string name="feedback">"Lähetä palautetta"</string>
+	<!---->
+	<string name="copyright">"©<xliff:g example="2010" id="year">%1$d</xliff:g> Google Inc."</string>
+	<!---->
+	<string name="version">"<xliff:g example="Email" id="app_name">%1$s</xliff:g> -versio <xliff:g example="2.2.1" id="version">%2$s</xliff:g>"</string>
+	<!-- no translation found for view_app_page -->
+	<skip />
+	<!---->
+	<string name="print_dialog">"Tulosta\u2026"</string>
+	<!---->
+	<string name="copyright_information">"Tekijänoikeustiedot"</string>
+	<!---->
+	<string name="privacy_policy">"Tietosuojakäytäntö"</string>
+	<!---->
+	<string name="open_source_licenses">"Avoimen lähdekoodin käyttöluvat"</string>
+	<!---->
+	<string name="reply_choice_yes">"Kyllä"</string>
+	<!---->
+	<string name="reply_choice_no">"Ei"</string>
+	<!---->
+	<string name="reply_choice_ok">"OK"</string>
+	<!-- no translation found for reply_choice_hehe -->
+	<skip />
+	<!---->
+	<string name="reply_choice_thanks">"Kiitos"</string>
+	<!---->
+	<string name="reply_choice_i_agree">"Olen samaa mieltä"</string>
+	<!---->
+	<string name="reply_choice_nice">"Kiva"</string>
+	<!---->
+	<string name="reply_on_my_way">"Olen matkalla"</string>
+	<!---->
+	<string name="reply_choice_later">"OK, otan sinuun yhteyttä"</string>
+	<!-- no translation found for reply_choice_smiling_face -->
+	<skip />
+	<!-- no translation found for reply_choice_frowning_face -->
+	<skip />
+	<!---->
+	<string name="preference_header_action_confirmations">"Toimintojen vahvistukset"</string>
+	<!---->
+	<string name="preference_confirm_before_delete_title">"Vahvista ennen poistamista"</string>
+	<!---->
+	<string name="preference_confirm_before_archive_title">"Vahvista ennen arkistointia"</string>
+	<!---->
+	<string name="preference_confirm_before_send_title">"Vahvista ennen lähetystä"</string>
+	<!---->
+	<string name="preferences_conversation_mode_title">"Sovita viestit automaattisesti"</string>
+	<!---->
+	<string name="preferences_conversation_mode_summary">"Kutista viestit näyttöön sopiviksi"</string>
+	<!---->
+	<string name="preferences_disable_snap_headers_title">"Viestitoiminnot"</string>
+	<string-array name="prefSummaries_snapHeader">
+		<item>"Näytä viestitoiminnot aina näytön yläreunassa"</item>
+		<item>"Näytä viestitoiminnot näytön yläreunassa vain, kun näyttö on käännetty pystysuuntaan"</item>
+		<item>"Älä näytä viestitoimintoja viestiotsikon ulkopuolella"</item>
+	</string-array>
+	<string-array name="prefEntries_snapHeader">
+		<item>"Näytä aina"</item>
+		<item>"Näytä vain pystysuunnassa"</item>
+		<item>"Älä näytä"</item>
+	</string-array>
+	<!---->
+	<string name="clear_history_title">"Tyhjennä hakuhistoria"</string>
+	<!---->
+	<string name="search_history_cleared">"Hakuhistoria tyhjennetty."</string>
+	<!---->
+	<string name="clear_history_dialog_title">"Tyhjennetäänkö hakuhistoria?"</string>
+	<!---->
+	<string name="clear_history_dialog_message">"Kaikki aiemmin suoritetut haut poistetaan."</string>
+	<!---->
+	<string name="manage_accounts_menu_item">"Tilien hallinta"</string>
+	<!---->
+	<string name="general_preferences_title">"Yleiset asetukset"</string>
+	<!---->
+	<string name="activity_preferences">"Asetukset"</string>
+	<!---->
+	<string name="always_bcc_myself">"Läh. piilokop. aina itselle"</string>
+	<!---->
+	<string name="always_bcc_myself_summary">"Läh. piil. kirj., vast. ja ed."</string>
+	<!---->
+	<string name="general_preference_auto_download_remaining_label">"Lataa loput automaattisesti"</string>
+	<!---->
+	<string name="general_preference_auto_download_remaining_summary">"Lataa loput viestin rungosta, kun viestiä vieritetään alaspäin"</string>
+	<!---->
+	<string name="download_remaining">"Latausta jäljellä"</string>
+	<!---->
+	<string name="downloading_remaining">"Ladataan..."</string>
+	<!---->
+	<string name="unable_to_connect">"Yhdistäminen ei onnistu"</string>
+	<!---->
+	<string name="need_connection_prompt">"Tämän sovelluksen käyttöön tarvitaan verkkoyhteys. Ota matkapuhelin- tai WLAN-verkko käyttöön Asetusten kautta."</string>
+	<!---->
+	<string name="connection_settings">"Asetukset"</string>
+	<!---->
+	<string name="priority_action">"Tärkeys"</string>
+	<!---->
+	<string name="set_priority_dialog_title">"Aseta prioriteetti"</string>
+	<!---->
+	<string name="dialog_warning">"Varoitus\u2026"</string>
+	<!---->
+	<string name="dialog_warning_message">"Exchange-sovelluksen versio ei ole sama kuin sähköpostin kanssa, jatka?"</string>
+	<!---->
+	<string name="toast_warning_text">"Exchange-sovelluksen versio ei ole sama kuin sähköpostin kanssa"</string>
+	<!---->
+	<string name="tips_sync_alter_title">"Synkronointi"</string>
+	<!---->
+	<string name="tips_sync_alter_content">"Wi-Fi-yhteyttä ei ole. Jatketaanko synkronointia?"</string>
+	<!---->
+	<string name="tips_sync_alter_yes">"Kyllä"</string>
+	<!---->
+	<string name="tips_sync_alter_no">"Ei"</string>
+	<!---->
+	<string name="message_invite_tentative_title">"Alustava"</string>
+	<!---->
+	<string name="message_invite_decline_title">"Hylkää"</string>
+	<!---->
+	<string name="message_invite_accent_title">"Hyväksy"</string>
+	<!---->
+	<string name="drm_file_remind">"Tätä tiedostoa ei saa ladata tai jakaa, koska se on DRM-suojattu."</string>
+	<!---->
+	<string name="not_add_more_recipients">"Vastaanottajia voi olla kerralla enintään <xliff:g id="maxLimit">%1$d</xliff:g>."</string>
+	<!---->
+	<string name="global_search_label">"Sähköposti"</string>
+	<!---->
+	<string name="global_search_hint">"Hae sähköpostista"</string>
+	<!---->
+	<string name="global_search_description">"Lähettäjät, aiheet ja viestien rungot"</string>
+	<!---->
+	<string name="remote_search_failed">"Haku palvelimesta epäonnistui."</string>
+	<!---->
+	<string name="searching_on_server">"Hae palvelimesta"</string>
+	<!---->
+	<string name="searching_on_server_title">"Hae tiliä \"<xliff:g id="account_name">%s</xliff:g>\" palvelimesta"</string>
+	<!---->
+	<string name="searching_all_fields_on_sever">"Hae kaikkien kenttien perusteella palvelimesta"</string>
+	<!---->
+	<string name="search_field_subject">"Aihe"</string>
+	<!---->
+	<string name="search_field_receiver">"Vastaanottaja"</string>
+	<!---->
+	<string name="search_field_sender">"Lähettäjä"</string>
+	<!---->
+	<string name="search_field_body">"Viestin runko"</string>
+	<!---->
+	<string name="search_field_all">"Kaikki"</string>
+	<!---->
+	<string name="search_field_attachment">"Liitteet"</string>
+	<!---->
+	<string name="select_all">"Valitse kaikki"</string>
+	<!---->
+	<string name="deselect_all">"Poista kaikki valinnat"</string>
+	<!---->
+	<string name="need_wifi_connection_prompt">"Tämän sovelluksen käyttöön tarvitaan verkkoyhteys. Ota matkapuhelin- tai WLAN-verkko käyttöön Asetusten kautta."</string>
+	<!---->
+	<string name="account_setup_names_account_name_des_label">"valinnainen"</string>
+	<!---->
+	<string name="account_setup_names_user_name_des_label">"näytetään lähtevissä viesteissä"</string>
+	<!---->
+	<string name="finish_action">"Valmis"</string>
+	<!---->
+	<string name="copy_email">"Kopioi sähköpostiosoite"</string>
+	<!---->
+	<string name="out_of_office_syncing">"Poissaoloasetusten synkronointi"</string>
+	<!---->
+	<string name="out_of_office_fail">"Poissaoloasetusten synkronointi epäonnistui."</string>
+	<!---->
+	<string name="out_of_office_success">"Poissaoloasetusten synkronointi onnistui."</string>
+	<!---->
+	<string name="manual_sync_when_roaming">"Synkronoi roaming-tilassa"</string>
+	<!---->
+	<string name="manual_sync_when_roaming_summery">"Päivitä vain manuaalisesti"</string>
+	<!---->
+	<string name="manual_sync_when_roaming_toast">"Pyyhkäise alas päivittääksesi manuaalisesti roaming-tilassa"</string>
+	<!---->
+	<string name="manual_sync_when_roaming_refresh">"Päivitä"</string>
+	<!---->
+	<string name="server_rule_can_not_change">"Palvelinsääntöjä ei voi muuttaa"</string>
+	<!---->
+	<string name="server_rules">"Palvelinsäännöt"</string>
+	<!---->
+	<string name="confirm_forward_message">"Kaikkia tiedostoja ei ole ladattu. Lähetetäänkö edelleen tiedostoja lataamatta?"</string>
+	<!---->
+	<string name="confirm_forward_cancel">"Peruuta"</string>
+	<!---->
+	<string name="confirm_forward_drop_unload_attachment">"Lähetä edelleen"</string>
+	<!---->
+	<string name="mail_not_download_completely">"Odota, kunnes lataus on valmis"</string>
+	<!---->
+	<string name="account_settings_inline_images_lable">"Kuvat"</string>
+	<!---->
+	<string name="account_settings_inline_always_show">"Näytä aina"</string>
+	<!---->
+	<string name="account_settings_inline_ask_before_show">"Kysy ennen näyttämistä"</string>
+	<!---->
+	<string name="conversation_time_after_today">"Tämän päivän jälkeen"</string>
+	<!---->
+	<string name="conversation_time_today">"Tämä päivä"</string>
+	<!---->
+	<string name="conversation_time_yesterday">"eilen"</string>
+	<!---->
+	<string name="conversation_time_this_month">"Tämä kuukausi"</string>
+	<!---->
+	<string name="conversation_time_elapse_just_now">"Juuri nyt"</string>
+	<!---->
+	<string name="conversation_time_elapse_minute">"<xliff:g id="COUNT">%d</xliff:g> min"</string>
+	<!---->
+	<string name="message_in_queued_status">"Jonossa"</string>
+	<plurals name="send_failed_messages">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> sähköpostia ei lähetetty"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> sähköposteja ei lähetetty"</item>
+	</plurals>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_label">"Synkronoi kalenterit kohteesta"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_2weeks">"Kaksi viikkoa"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_1month">"Yksi kuukausi"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_3months">"Kolme kuukautta"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_6months">"Kuusi kuukautta"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_all">"Kaikki"</string>
+	<!---->
+	<string name="no_permission_to_open_file">"Tallennustilan käyttöoikeus tarvitaan tämän tiedoston avaamiseen"</string>
+	<!---->
+	<string name="conversation_update_time_text">"Viimeksi päivitetty"</string>
+	<!---->
+	<string name="conversation_update_unknown_time_stamp">"Tuntematon"</string>
+	<!---->
+	<string name="conversation_time_elapse_today">"Tämä päivä"</string>
+	<!---->
+	<string name="save_to_attachment">"Tallenna kohteeseen"</string>
+	<!---->
+	<string name="download_settings_title">"Tallenna liite"</string>
+	<!---->
+	<string name="download_edit_filename_label">"Nimi"</string>
+	<!---->
+	<string name="download_filepath_label">"Polku"</string>
+	<!---->
+	<string name="download_file_size">"Koko"</string>
+	<!---->
+	<string name="download_time_needed">"Aika"</string>
+	<!---->
+	<string name="download_cancel">"Peruuta"</string>
+	<!---->
+	<string name="download_start">"OK"</string>
+	<!---->
+	<string name="unknown_length">"Tuntematon"</string>
+	<!---->
+	<string name="time_min">"min"</string>
+	<!---->
+	<string name="open_file_manager_failed">"Tiedostonhallintaa ei voitu avata"</string>
+	<!---->
+	<string name="attachment_not_saved">"Liitettä ei tallennettu"</string>
+	<!---->
+	<string name="sync_calendar_title">"Kalenterin synkronointi epäonnistui"</string>
+	<!---->
+	<string name="sync_calendar_content">"Synkronoidaksesi anna Exchange-palveluille käyttöoikeus Kalenteriin"</string>
+	<!---->
+	<string name="sync_contacts_title">"Yhteystietojen synkronointi epäonnistui"</string>
+	<!---->
+	<string name="sync_contacts_content">"Synkronoidaksesi anna Exchange-palveluille käyttöoikeus Yhteystietoihin"</string>
+	<!---->
+	<string name="notification_never_ask_again">"Älä kysy uudestaan"</string>
+	<!---->
+	<string name="sync_storage_title">"Liitteen tallentaminen epäonnistui"</string>
+	<!---->
+	<string name="sync_storage_content">"Tallentaaksesi anna Exchange-palveluille käyttöoikeus tallennustilaan"</string>
+	<!---->
+	<string name="oof_continue">"Jatka"</string>
+	<!---->
+	<string name="permission_needed_to_add_attachments">"Lisätäksesi liitteitä anna Sähköpostille oikeus tallennustilaan"</string>
+	<!---->
+	<string name="permission_needed_to_check_ringtone">"Tarkastaaksesi soittoäänen anna Sähköpostille oikeus tallennustilaan"</string>
+	<!---->
+	<string name="add_folder_as_attachment_fail_tips">"Kansioita ei voi lisätä liitteeksi"</string>
+	<!---->
+	<string name="choose_action_title">"Valitse toiminto"</string>
+	<!---->
+	<string name="choose_action_contact">"Lisää yhteystieto: <xliff:g example="4" id="email_address">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="choose_action_email">"Sähköposti: <xliff:g example="4" id="email_address">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="choose_action_message">"Viesti: <xliff:g example="4" id="email_address">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="account_setup_basics_exit_action">"Lopeta"</string>
+</resources>

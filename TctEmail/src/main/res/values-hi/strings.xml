@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!-- no translation found for app_name -->
+	<skip />
+	<!-- no translation found for photo_view_count -->
+	<skip />
+	<!-- no translation found for retry -->
+	<skip />
+	<!---->
+	<string name="failed">"चित्र लोड नहीं की जा सकी"</string>
+	<!-- no translation found for more_string -->
+	<skip />
+	<!---->
+	<string name="copy_email">"ईमेल पता कॉपी करें"</string>
+	<!---->
+	<string name="copy_number">"फ़ोन नंबर कॉपी करें"</string>
+	<!---->
+	<string name="action_label">"रिटर्न"</string>
+	<!---->
+	<string name="search_hint">"ईमेल खोजें"</string>
+	<!---->
+	<string name="compose">"लिखें"</string>
+	<!---->
+	<string name="activity_folder_selection">"फ़ोल्डर चुनें"</string>
+	<!-- no translation found for activity_preferences -->
+	<skip />
+	<!---->
+	<string name="tap_to_configure">"सेट करने के लिए स्पर्श करें"</string>
+	<!---->
+	<string name="loading_conversations">"लोड कर रहा है\u2026"</string>
+	<!---->
+	<string name="non_synced_folder_description">"बातचीत देखने के लिए, फ़ोल्डर समन्वयित करें."</string>
+	<!---->
+	<string name="tap_to_configure_folder_sync">"फ़ोल्डर समन्वयित करें"</string>
+	<!-- no translation found for def_email_accountGermanSignature -->
+	<skip />
+	<!---->
+	<string name="send_failed">"संदेश नहीं भेजा गया था."</string>
+	<!-- no translation found for permission_needed -->
+	<skip />
+	<!---->
+	<string name="permission_needed_label">"अनुमतियां आवश्‍यक हैं"</string>
+	<!---->
+	<string name="permission_grant_access_label">"एक्‍सेस प्रदान करें"</string>
+	<!-- no translation found for permission_grant_access_descs -->
+	<skip />
+	<!---->
+	<string name="permission_grant_exit">"बाहर जायें"</string>
+	<!-- no translation found for permission_grant_go_setting -->
+	<skip />
+	<!-- no translation found for permission_needed_to_save_attachment -->
+	<skip />
+	<!---->
+	<string name="permission_needed_to_add_attachment">"अटैचमेंट जोड़ने के लिए, ईमेल को स्‍टोरेज ऐक्‍सेस की अनुमतियां प्रदान करें"</string>
+	<!-- no translation found for permission_needed_to_see_calendar -->
+	<skip />
+</resources>

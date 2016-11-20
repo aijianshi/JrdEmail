@@ -1,0 +1,1747 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Tue Sep 20 16:24:06 CST 2016
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="permission_read_attachment_label">"Lexim i shtojcave nga mesazhet e e-mail-it"</string>
+	<!---->
+	<string name="permission_read_attachment_desc">"Lejon aplikacionin të lexojë shtojcat në mesazhet e e-mail-it."</string>
+	<!---->
+	<string name="permission_access_provider_label">"Hyrje tek të dhënat Email"</string>
+	<!---->
+	<string name="permission_access_provider_desc">"Lejon aplikacionin të ketë hyrje tek baza e të dhënave të e-mail-it, duke i përfshirë mesazhet e marra, mesazhet e dërguara, emrat e përdoruesit dhe fjalëkalimet."</string>
+	<!---->
+	<string name="debug_title">"Hiq gabimet"</string>
+	<!---->
+	<string name="next_action">"Tjetër"</string>
+	<!---->
+	<string name="okay_action">"OK"</string>
+	<!---->
+	<string name="cancel_action">"Anullo"</string>
+	<!---->
+	<string name="previous_action">"Mbrapa"</string>
+	<!---->
+	<string name="done_action">"Përfundoi"</string>
+	<!---->
+	<string name="create_action">"Krijo"</string>
+	<!---->
+	<string name="quick_responses_empty_view">"Nuk ka përgjigje të shpejta"</string>
+	<!---->
+	<string name="account_settings_action">"Konfigurimet e llogarisë"</string>
+	<!---->
+	<string name="status_network_error">"Problem me lidhjen."</string>
+	<plurals name="move_messages">
+		<item quantity="one">"Zhvendos mesazhin"</item>
+		<item quantity="other">"Zhvendosi mesazhet"</item>
+	</plurals>
+	<!---->
+	<string name="cannot_move_protocol_not_supported_toast">"Zhvendosja nuk është mbështetur në llogaritë POP3."</string>
+	<!---->
+	<string name="cannot_move_multiple_accounts_toast">"Zhvendosje është e pamundshme sepse shënimi përmban më shumë llogari."</string>
+	<!---->
+	<string name="cannot_move_special_mailboxes_toast">"Mesazhet në Skica, Të padërguara dhe Të dërguara nuk mund të zhvendosen."</string>
+	<!---->
+	<string name="mailbox_name_display_inbox">"Kutia në hyrje"</string>
+	<!---->
+	<string name="mailbox_name_display_outbox">"Kutia në dalje"</string>
+	<!---->
+	<string name="mailbox_name_display_drafts">"Skica"</string>
+	<!---->
+	<string name="mailbox_name_display_trash">"Plehrat"</string>
+	<!---->
+	<string name="mailbox_name_display_sent">"Të dërguar"</string>
+	<!---->
+	<string name="mailbox_name_display_junk">"Junk"</string>
+	<!---->
+	<string name="mailbox_name_display_starred">"Me yll"</string>
+	<!---->
+	<string name="mailbox_name_display_unread">"I palexuar"</string>
+	<!---->
+	<string name="account_folder_list_summary_inbox">"Kutia në hyrje"</string>
+	<!---->
+	<string name="account_folder_list_summary_starred">"Me yll"</string>
+	<!---->
+	<string name="account_folder_list_summary_drafts">"Skica"</string>
+	<!---->
+	<string name="account_folder_list_summary_outbox">"Të padërguara"</string>
+	<!---->
+	<string name="mailbox_list_account_selector_combined_view">"Shfaqje e kombinuara"</string>
+	<!---->
+	<string name="message_compose_fwd_header_fmt">"\n\n-------- Mesazhi Origjinal --------\nLënda: <xliff:g id="subject">%1$s</xliff:g>\nNga: <xliff:g id="sender">%2$s</xliff:g>\nMarrës: <xliff:g id="to">%3$s</xliff:g>\nCC: <xliff:g id="cc">%4$s</xliff:g>\n\n"</string>
+	<!---->
+	<string name="message_compose_insert_quick_response_list_title">"Futni përgjigjen e shpejtë"</string>
+	<!---->
+	<string name="message_compose_insert_quick_response_menu_title">"Futni përgjigjen e shpejtë"</string>
+	<!---->
+	<string name="message_view_attachment_background_load">"Shënim: Një ose më shumë shtojca në mesazhet e përcjellur do të shkarkohen para dërgimit."</string>
+	<!---->
+	<string name="attachment_not_found">"Nuk mund të shkarkoj bashkëngjitjen."</string>
+	<!---->
+	<string name="message_decode_error">"Gabim gjatë ndreqjes së gabimit të mesazhit."</string>
+	<!---->
+	<string name="forward_download_failed_ticker">"Nuk mund të devijoj një ose më shumë shtojca."</string>
+	<!---->
+	<string name="forward_download_failed_title">"Shtojca nuk është përcjellur"</string>
+	<!---->
+	<string name="login_failed_ticker">"<xliff:g id="account_name">%s</xliff:g> identifikim i pasuksesshëm."</string>
+	<!---->
+	<string name="login_failed_title">"Nuk mund të regjistrohet."</string>
+	<plurals name="message_view_attachment_bytes">
+		<item quantity="one">"<xliff:g example="1" id="size_in_bytes">%d</xliff:g>B"</item>
+		<item quantity="other">"<xliff:g example="279" id="size_in_bytes">%d</xliff:g>B"</item>
+	</plurals>
+	<plurals name="message_view_attachment_kilobytes">
+		<item quantity="one">"<xliff:g example="1" id="size_in_kilobytes">%d</xliff:g>KB"</item>
+		<item quantity="other">"<xliff:g example="279" id="size_in_kilobytes">%d</xliff:g>KB"</item>
+	</plurals>
+	<plurals name="message_view_attachment_megabytes">
+		<item quantity="one">"<xliff:g example="1" id="size_in_megabytes">%d</xliff:g>MB"</item>
+		<item quantity="other">"<xliff:g example="279" id="size_in_megabytes">%d</xliff:g>MB"</item>
+	</plurals>
+	<plurals name="message_view_attachment_gigabytes">
+		<item quantity="one">"<xliff:g example="1" id="size_in_gigabytes">%d</xliff:g>GB"</item>
+		<item quantity="other">"<xliff:g example="279" id="size_in_gigabytes">%d</xliff:g>GB"</item>
+	</plurals>
+	<!---->
+	<string name="account_setup_basics_title">"Konfigurimi i llogarisë"</string>
+	<!---->
+	<string name="oauth_authentication_title">"Duke kërkuar autorizim"</string>
+	<!---->
+	<string name="sign_in_title">"Identifikohuni"</string>
+	<!---->
+	<string name="oauth_error_description">"Pamundësi për të vërtetuar"</string>
+	<!---->
+	<string name="password_warning_label">"Adresa e postës elektronike ose fjalëkalimi është gabim"</string>
+	<!---->
+	<string name="email_confirmation_label">"Email adresa"</string>
+	<!---->
+	<string name="account_setup_basics_headline">"Llogaria e e-mail-it"</string>
+	<!---->
+	<string name="accounts_welcome">"Mund të konfigurojë llogarinë tuaj në disa hapa."</string>
+	<!---->
+	<string name="account_setup_basics_email_label">"Adresa Email"</string>
+	<!---->
+	<string name="account_setup_basics_email_flying_label">"Email"</string>
+	<!---->
+	<string name="or_label">"OSE"</string>
+	<!---->
+	<string name="sign_in_with_google">"Identifikohuni me Google"</string>
+	<!---->
+	<string name="account_setup_basics_password_label">"Fjalëkalimi"</string>
+	<!---->
+	<string name="password_hint">"Fjalëkalimi"</string>
+	<!---->
+	<string name="signed_in_with_service_label">"Identifikuar me %s"</string>
+	<!---->
+	<string name="authentication_label">"AUTENTICITETI"</string>
+	<!---->
+	<string name="add_authentication_label">"Shtoni autenticitetin"</string>
+	<!---->
+	<string name="clear_authentication_label">"Pastroni autenticitetin"</string>
+	<!---->
+	<string name="account_setup_basics_manual_setup_action">"Konfigurim manual"</string>
+	<!---->
+	<string name="account_setup_username_password_toast">"Shkruani emrin e përdoruesit dhe fjalëkalmin e vlefshëm."</string>
+	<!---->
+	<string name="account_duplicate_dlg_title">"Llogaria e dyfshtë"</string>
+	<!---->
+	<string name="account_duplicate_dlg_message_fmt">"Tashmë e përdorni këtë emër të përdoruesit për llogarinë \"<xliff:g id="duplicate">%s</xliff:g>\"."</string>
+	<!---->
+	<string name="account_password_spaces_error">"Ky fjalëkalim mbaron ose fillon me një ose më shumë vend të lirë. Shumë serverë nuk i mbështetin fjalëkalimet me vend të lirë."</string>
+	<!---->
+	<string name="account_setup_check_settings_retr_info_msg">"Rigjetje e informacionit të llogarisë..."</string>
+	<!---->
+	<string name="account_setup_check_settings_check_incoming_msg">"Konfirmimi i Konfigurimeve të serverit..."</string>
+	<!---->
+	<string name="account_setup_check_settings_check_outgoing_msg">"Konfirmimi i smtp Konfigurimeve..."</string>
+	<!---->
+	<string name="account_setup_creating_account_msg">"Duke krijuar llogari..."</string>
+	<!---->
+	<string name="account_setup_ab_headline">"Konfirmoni tipin e llogarisë"</string>
+	<!---->
+	<string name="account_setup_ab_instructions_format">"Ju treguat <xliff:g id="email">%1$s</xliff:g> përdorues <xliff:g id="userProtocol">%2$s</xliff:g>, por llogaria mund të përdorë <xliff:g id="providerProtocol">%3$s</xliff:g>"</string>
+	<!---->
+	<string name="account_setup_names_title">"Konfigurim i llogarisë"</string>
+	<!---->
+	<string name="account_setup_names_headline">"Llogaria juaj është konfiguruar dhe posta elektronike është në rrugën e saj!"</string>
+	<!---->
+	<string name="account_setup_names_account_name_label">"Jepi një emër kësaj llogarie"</string>
+	<!---->
+	<string name="account_setup_names_user_name_label">"Emri yt"</string>
+	<!---->
+	<string name="account_setup_names_user_name_empty_error">"Fusha nuk duhet të jtë bosh."</string>
+	<!---->
+	<string name="account_setup_account_type_title">"Konfigurimi i llogarisë"</string>
+	<!---->
+	<string name="account_setup_account_type_headline">"Lloji i llogarisë"</string>
+	<!---->
+	<string name="account_setup_account_type_instructions">"Çfarë tip llogarie është kjo llogari?"</string>
+	<!---->
+	<string name="account_setup_incoming_title">"Konfigurim i llogarisë"</string>
+	<!---->
+	<string name="account_setup_incoming_headline">"Konfigurimet hyrëse e serverit"</string>
+	<!---->
+	<string name="account_setup_incoming_username_label">"Emri i përdoruesit"</string>
+	<!---->
+	<string name="account_setup_incoming_password_label">"Fjalëkalimi"</string>
+	<!---->
+	<string name="account_setup_password_subheading">"Fjalëkalimi"</string>
+	<!---->
+	<string name="account_setup_incoming_server_label">"Serveri"</string>
+	<!---->
+	<string name="account_setup_incoming_port_label">"Porta"</string>
+	<!---->
+	<string name="account_setup_incoming_security_label">"Lloji i siguri së"</string>
+	<!---->
+	<string name="account_setup_incoming_domain_label">"Domain"</string>
+	<!---->
+	<string name="account_setup_incoming_add_domain_label">"Shtoni domain"</string>
+	<!---->
+	<string name="account_setup_incoming_security_none_label">"Nuk ka"</string>
+	<!---->
+	<string name="account_setup_incoming_security_ssl_trust_certificates_label">"SSL/TLS (Pranoji të gjitha çertifikatat)"</string>
+	<!---->
+	<string name="account_setup_incoming_security_ssl_label">"SSL/TLS"</string>
+	<!---->
+	<string name="account_setup_incoming_security_tls_trust_certificates_label">"STARTTLS (Pranoji të gjitha çertifikatat)"</string>
+	<!---->
+	<string name="account_setup_incoming_security_tls_label">"STARTTLS"</string>
+	<!---->
+	<string name="account_setup_incoming_delete_policy_label">"Fshi email nga serveri"</string>
+	<!---->
+	<string name="account_setup_incoming_delete_policy_never_label">"Asnjëherë"</string>
+	<!---->
+	<string name="account_setup_incoming_delete_policy_delete_label">"Kur të fshijë nga Kutia hyrëse"</string>
+	<!---->
+	<string name="account_setup_incoming_imap_path_prefix_label">"Prefiks i udhës IMAP"</string>
+	<!---->
+	<string name="account_setup_incoming_imap_path_prefix_hint">"Zgjedhor"</string>
+	<!---->
+	<string name="account_setup_outgoing_title">"Cilësimi i llogarisë"</string>
+	<!---->
+	<string name="account_setup_outgoing_headline">"Konfigurimet e serverit dalës"</string>
+	<!---->
+	<string name="account_setup_outgoing_smtp_server_label">"SMTP server"</string>
+	<!---->
+	<string name="account_setup_outgoing_port_label">"Porta"</string>
+	<!---->
+	<string name="account_setup_outgoing_security_label">"Lloji i sigurisë"</string>
+	<!---->
+	<string name="account_setup_outgoing_require_login_label">"Kërko identifikim"</string>
+	<!---->
+	<string name="account_setup_outgoing_username_label">"Emri i përdoruesit"</string>
+	<!---->
+	<string name="account_setup_outgoing_password_label">"Fjalëkalimi"</string>
+	<!---->
+	<string name="account_setup_exchange_certificate_title">"çertifikatë e klientit"</string>
+	<!---->
+	<string name="account_setup_exchange_select_certificate">"Zgjidh"</string>
+	<!---->
+	<string name="account_setup_exchange_use_certificate">"Përdor çertifikatën e klientit"</string>
+	<!---->
+	<string name="account_setup_exchange_remove_certificate">"Hiq"</string>
+	<!---->
+	<string name="account_setup_exchange_no_certificate">"Asgjë"</string>
+	<!---->
+	<string name="account_setup_exchange_device_id_label">"Idenifikimi i pajisjes mobile"</string>
+	<!---->
+	<string name="account_setup_options_title">"Konfigurimet e llogarisë"</string>
+	<!---->
+	<string name="account_setup_options_headline">"Opsione e llogarisë"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_label">"Frekuencë sinkronizimi"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_never">"Asnjëherë"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_push">"Automatik (Shty)"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_5min">"Çdo 5 minuta"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_10min">"Çdo 10 minuta"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_15min">"Çdo 15 minuta"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_30min">"Çdo 30 minuta"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_1hour">"Çdo orë"</string>
+	<!---->
+	<string name="account_setup_options_notify_label">"Më njofto kur mbërrin e-postë."</string>
+	<!---->
+	<string name="account_setup_options_sync_contacts_label">"Sinkronizo kontaktet nga kësaj llogarie."</string>
+	<!---->
+	<string name="account_setup_options_sync_calendar_label">"Kalendari për sinkronizim nga kësaj llogarie"</string>
+	<!---->
+	<string name="account_setup_options_sync_email_label">"Sinkronizoje e-mail-it për këtë llogari."</string>
+	<!---->
+	<string name="account_setup_options_background_attachments_label">"Shkarko shtojcat në mënyrë automatike kur do të lidheni në rrjetin Wi-Fi"</string>
+	<!---->
+	<string name="account_setup_failed_dlg_title">"Nuk mund të mbarojë"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_label">"Sinkronizoni postën elektronike nga"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_auto">"Automatik"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1day">"Ditën e kaluar"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_3days">"3 ditë të fundit"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1week">"Javën e kaluar"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_2weeks">"Dy javë të fundit"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1month">"Muajin e kaluar"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_all">"Të gjithë"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_default">"Përdorni të paracaktuarat e llogarisë"</string>
+	<!---->
+	<string name="account_setup_failed_dlg_auth_message">"Emri i përdoruesit ose fjalëkalimi i pasaktë."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_auth_message_fmt">"Emri i përdoruesit ose fjalëkalimi i pasaktë.\n(<xliff:g id="error">%s</xliff:g>)"</string>
+	<!---->
+	<string name="account_setup_autodiscover_dlg_authfail_title">"Problem me konfigurimin e llogarisë"</string>
+	<!---->
+	<string name="account_setup_autodiscover_dlg_authfail_message">"Konfirmo emrin e përdoruesit, fjalëkalimin dhe konfigurimet e llogarisë që janë të sakta."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_certificate_message">"Nuk mund të vendos një lidhje me serverin për shkak të çertifikatës së pabesueshme ose të vlefshme."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_certificate_message_fmt">"Nuk mund të lidhet në mënyrë të sigurtë me serverin.\n(<xliff:g id="error">%s</xliff:g>)"</string>
+	<!---->
+	<string name="account_setup_failed_certificate_required">"Është e nevojshme një çertifikatë të klientit. Doni të lidheni në serverin me çertifikatën e klientit?"</string>
+	<!---->
+	<string name="account_setup_failed_certificate_inaccessible">"Çertifikatë është e pavlefshme ose e papërdorshme."</string>
+	<!---->
+	<string name="account_setup_failed_check_credentials_message">"Serveri ktheu përgjigje me një gabim. Kontrolloni ermin tuaj të përdoruesit dhe fjalëkalimin, pastaj provojeni përsëri."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_server_message">"Nuk mund të lidhet me serverin."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_server_message_fmt">"Nuk mund të lidhet me serverin.\n(<xliff:g id="error">%s</xliff:g>)"</string>
+	<!---->
+	<string name="account_setup_failed_tls_required">"TLS i kërkuar nuk është mbështetur nga serveri."</string>
+	<!---->
+	<string name="account_setup_failed_auth_required">"Mënyrat e autencitetit nuk janë mbështetur nga serveri."</string>
+	<!---->
+	<string name="account_setup_failed_security">"Nuk mund të hapni lidhje në serverin për shkak të gabimit të sigurshëm."</string>
+	<!---->
+	<string name="account_setup_failed_ioerror">"Nuk mund të hapni një lidhje në serverin."</string>
+	<!---->
+	<string name="account_setup_failed_protocol_unsupported">"Keni futur një adresë të pavlefshme të serverit ose serveri nuk e mbështet versionin e e-mail-it."</string>
+	<!---->
+	<string name="account_setup_failed_access_denied">"Nuk keni leje për sinkronizim me serverin. Kontaktoje administratoin e serverit për më shumë informacione."</string>
+	<!---->
+	<string name="account_setup_security_required_title">"Adminsitratë e sigurisë së largët"</string>
+	<!---->
+	<string name="account_setup_security_policies_required_fmt">"Serveri <xliff:g id="server">%s</xliff:g> kërkon Kontroll e largët për disa opsione në celularin. A doni të përfundoni konfigurimin e kësaj llogarie?"</string>
+	<!---->
+	<string name="account_setup_failed_security_policies_unsupported">"Ky server kërkon funksione të sigurtë, me që pajisje juaj Androidi nuk i mbështet, duke përfshirë: <xliff:g id="error">%s</xliff:g>"</string>
+	<!---->
+	<string name="account_setup_username_uneditable_error">"Nuk mund të ndryshoni emrin e përdoruesit në llogari. Për të shtuar një llogari me një emër të përdoruesit tjetër, prekni Shto llogari."</string>
+	<!---->
+	<string name="disable_admin_warning">"PARALAJMËRIM: Çaktivizimi i aplikacionit të autorizuar për administrim të pajisjeve do t\'fshij të gjitha e-mail-et që kërkojnë, si edhe përmbajtjen e tyre, kontaktet, ngjarje në kalendar dhe të dhëna të tjera."</string>
+	<!---->
+	<string name="account_security_dialog_title">"Përditësim i sigurtë"</string>
+	<!---->
+	<string name="account_security_dialog_content_fmt">"<xliff:g id="account">%s</xliff:g> kërko të përditësoni konfigurimet e sigurisë ."</string>
+	<!---->
+	<string name="security_unsupported_ticker_fmt">"Llogaria \"<xliff:g id="account">%s</xliff:g>\" nuk mund të sinkronizohet për shkak të kërkesave të sigurtë."</string>
+	<!---->
+	<string name="security_needed_ticker_fmt">"Llogaria \"<xliff:g id="account">%s</xliff:g>\" kërkon përditësim të Konfigurimeve të sigurtë."</string>
+	<!---->
+	<string name="security_changed_ticker_fmt">"Llogaria \"<xliff:g id="account">%s</xliff:g>\" është ndryshuar me konfigurimet e sigurisë nuk ka aktivitet që kërkohet."</string>
+	<!---->
+	<string name="security_notification_content_update_title">"Kërkohet përditësimi i sigurisë."</string>
+	<!---->
+	<string name="security_notification_content_change_title">"Rregullat e sigurisë janë ndryshuar"</string>
+	<!---->
+	<string name="security_notification_content_unsupported_title">"Rregullat e sigurisë nuk mund të plotësohen"</string>
+	<!---->
+	<string name="account_security_title">"Siguria e pajisjes"</string>
+	<!---->
+	<string name="account_security_policy_explanation_fmt">"Serveri <xliff:g id="server">%s</xliff:g> kërkon kontroll i largët për të kontrolluar disa opsione në celularin."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_edit_details_action">"Modifko detajet"</string>
+	<!---->
+	<string name="password_expire_warning_ticker_fmt">"\"<xliff:g id="account">%s</xliff:g>\" kërkon të ndryshoni kodin PIN ose fjalëkalimin për kyçjen e ekranit."</string>
+	<!---->
+	<string name="password_expire_warning_content_title">"Fjalëkalimi për kyçjen e ekranit do të kalojë"</string>
+	<!---->
+	<string name="password_expired_ticker">"Kodi PIN ose fjalëkalimi për kyçjen e ekranit janë skaduar."</string>
+	<!---->
+	<string name="password_expired_content_title">"Fjalëkalimi për kyçjen e ekranit ka kaluar"</string>
+	<!---->
+	<string name="password_expire_warning_dialog_title">"Fjalëkalimi për kyçje të ekranit do të kalojë"</string>
+	<!---->
+	<string name="password_expire_warning_dialog_content_fmt">"Duhet të ndryshoni PIN ose fjalëkalimin sa më shpejtë për kyçjen e ekranit, ose të dhënat për <xliff:g id="account">%s</xliff:g> do të fshihen. Ndrysho tani?"</string>
+	<!---->
+	<string name="password_expired_dialog_title">"Fjalëkalimi për kyçje të ekranit ka kaluar"</string>
+	<!---->
+	<string name="password_expired_dialog_content_fmt">"Të dhënat për <xliff:g id="account">%s</xliff:g> fshihen nga pajisja. Mund të ktheni nëse e ndryshoni kodin PIN ose fjalëkalimin për kyçjen e ekrani. Doni të ndryshoni tani?"</string>
+	<!---->
+	<string name="account_settings_exit_server_settings">"Refuzo ndryshimet e paruajtura"</string>
+	<!---->
+	<string name="account_settings_login_dialog_title">"Nuk mund të kyçet"</string>
+	<!---->
+	<string name="account_settings_login_dialog_content_fmt">"Emri i përdoruesit ose fjalëkalimi për <xliff:g id="account">%s</xliff:g> janë të gabuar. Përditësojini tani?"</string>
+	<!---->
+	<string name="account_settings_login_dialog_reason_fmt">"Identifikimi juaj në <xliff:g id="account">%s</xliff:g> dështoi; serveri tha: <xliff:g id="reason">%s</xliff:g> Dëshironi të përditësoni emrin tuaj të përdoruesit dhe/ose fjalëkalimin?"</string>
+	<!---->
+	<string name="account_settings_background_attachments_label">"Shkarko shtojcat"</string>
+	<!---->
+	<string name="account_settings_background_attachments_summary">"Në mënyrë automatike shkarkoji shtojcat nga mesazhet e fundit me Wi-Fi"</string>
+	<!---->
+	<string name="account_settings_notify_label">"Njoftime Email"</string>
+	<!---->
+	<string name="account_settings_summary">"Sinkronizo frekuencën, njoftimet etj."</string>
+	<!---->
+	<string name="account_settings_notify_summary">"Njoftomë në shiritin e sistemit kur merrni e-mail."</string>
+	<!---->
+	<string name="account_settings_mail_check_frequency_label">"Sinkronizo frekuencën"</string>
+	<!---->
+	<string name="account_settings_incoming_label">"Konfigurimet hyrëse"</string>
+	<!---->
+	<string name="account_settings_incoming_summary">"Emri i përdoruesit, fjalëkalimi dhe konfigurimet e tjera të serverit për postën hyrëse"</string>
+	<!---->
+	<string name="account_settings_outgoing_label">"Konfigurimet dalëse"</string>
+	<!---->
+	<string name="account_settings_outgoing_summary">"Emri i përdoruesit, fjalëkalimi dhe konfigurimet e tjera të serverit për postën dalëse"</string>
+	<!---->
+	<string name="account_settings_reply_to_category">"Përgjigjuni te cilësimet"</string>
+	<!---->
+	<string name="account_settings_reply_to_label">"Përgjigjuni drejt"</string>
+	<!---->
+	<string name="account_settings_reply_to_invalid">"Adresa është e pavlefshme"</string>
+	<!---->
+	<string name="account_settings_enforced_label">"Politikat e sforcuara"</string>
+	<!---->
+	<string name="account_settings_enforced_summary">"Asnjë"</string>
+	<!---->
+	<string name="account_settings_unsupported_label">"Rregulla të pambështetur"</string>
+	<!---->
+	<string name="account_settings_unsupported_summary">"Asnjë"</string>
+	<!---->
+	<string name="account_settings_retry_label">"Përpjekja për sinkronizim"</string>
+	<!---->
+	<string name="account_settings_retry_summary">"Prek këtu për sinkronizim të llogarisë"</string>
+	<!---->
+	<string name="account_settings_description_label">"Emri i llogarisë"</string>
+	<!---->
+	<string name="account_settings_name_label">"Emri juaj"</string>
+	<!---->
+	<string name="account_settings_edit_quick_responses_label">"Përgjigjet e shpejt"</string>
+	<!---->
+	<string name="account_settings_edit_quick_responses_summary">"Ndrysho tekstin që doni të futni më shpesh gjatë shkruarjes së e-postave"</string>
+	<!---->
+	<string name="account_settings_notifications">"Konfigurimet e njoftimeve"</string>
+	<!---->
+	<string name="account_settings_data_usage">"Përdorimi i të dhënave"</string>
+	<!---->
+	<string name="account_settings_policies">"Rregulla të sigurtë"</string>
+	<!---->
+	<string name="system_folders_title">"Dosjet e sistemit"</string>
+	<!---->
+	<string name="system_folders_trash_title">"Dosje KoshPlehrash"</string>
+	<!---->
+	<string name="system_folders_trash_summary">"Zgjidh dosjen KoshPlehrash të serverit tuaj"</string>
+	<!---->
+	<string name="system_folders_trash_dlg">"Zgjidh dosjen Koshplehrash të serverit tuaj"</string>
+	<!---->
+	<string name="system_folders_sent_title">"Dosje për artikuj të dërguar"</string>
+	<!---->
+	<string name="system_folders_sent_summary">"Zgjidh dosjen me artikuj të dërguar të serverit tuaj"</string>
+	<!---->
+	<string name="system_folders_sent_dlg">"Zgjidh dosjen me artikuj të dërguar të serverit tuaj"</string>
+	<!---->
+	<string name="edit_quick_response_dialog">"Përgjigje e shpejtë"</string>
+	<!---->
+	<string name="save_action">"Ruaj"</string>
+	<!---->
+	<string name="account_settings_sync_contacts_enable">"Sinkronizo kontaktet"</string>
+	<!---->
+	<string name="account_settings_sync_contacts_summary">"Sinkronizo kontaktet për këtë llogari"</string>
+	<!---->
+	<string name="account_settings_sync_calendar_enable">"Sinkronizo kalendarin"</string>
+	<!---->
+	<string name="account_settings_sync_calendar_summary">"Sinkronizoni ngjarjen e kalendarit për këtë llogari"</string>
+	<!---->
+	<string name="account_settings_sync_email_enable">"Sinkronizoje e-mailn"</string>
+	<!---->
+	<string name="account_settings_sync_email_summary">"Sinkronizoje e-mail-in për këtë llogari"</string>
+	<!---->
+	<string name="account_settings_vibrate_when_label">"Dridhje"</string>
+	<!---->
+	<string name="account_settings_ringtone">"Përzgjidh melodi"</string>
+	<!---->
+	<string name="account_settings_servers">"Konfigurimet e serverit"</string>
+	<!---->
+	<string name="default_ringtone">"Melodia standarde"</string>
+	<!---->
+	<string name="default_ringtone_unkonwn">"Melodia e panjohur"</string>
+	<!---->
+	<string name="mailbox_settings_activity_title">"Opsione për sinkronizim"</string>
+	<!---->
+	<string name="mailbox_settings_activity_title_with_mailbox">"Opsione për sinkronizim (<xliff:g example="Family" id="mailboxx_name">%s</xliff:g>)"</string>
+	<!---->
+	<string name="mailbox_settings_sync_enabled_label">"Sinkronizo këtë dosje"</string>
+	<!---->
+	<string name="mailbox_settings_sync_enabled_summary">"Mesazhet do të shkarkohen kur të lidheni"</string>
+	<!---->
+	<string name="mailbox_settings_mailbox_sync_window_label">"Ditë për sinkronizim të e-mail-it"</string>
+	<!---->
+	<string name="prefDialogTitle_conversationListIcon">"Imazh dërguesi"</string>
+	<!---->
+	<string name="provider_note_live">"Vetëm disa \"Plus\" llogaria përfshijnë hyrje POP dhe lejojnë të lidheni në këtë program. Nëse nuk keni mundësi të regjistrohuni me adresën e email dhe fjalëkalimin e vlefshëm, ndoshta nuk keni paguar për llogarinë \"Plus\". Aktivizoje Ueb-shfletuesin për të hyrë deri në këtë llogari email-i."</string>
+	<!---->
+	<string name="provider_note_t_online">"Para konfigurimit të këtij e-mail përdoruesi, shkoni në ueb faqen T-Online Web dhe krijoni fjalëkalim për hyrje në email POP3."</string>
+	<!---->
+	<string name="exchange_name">"Zyrtarisht"</string>
+	<!---->
+	<string name="exchange_name_alternate">"Microsoft Exchange ActiveSync"</string>
+	<!---->
+	<string name="system_account_create_failed">"Nuk mund të hapet llogari. Përpiquni përsëri."</string>
+	<!---->
+	<string name="device_admin_label">"Email"</string>
+	<!---->
+	<string name="device_admin_description">"Mundëson rregulla të sigurtë të serverit"</string>
+	<!---->
+	<string name="settings_activity_title">"Konfigurimet"</string>
+	<!---->
+	<string name="header_label_general_preferences">"Konfigurime të përgjithshme"</string>
+	<!---->
+	<string name="general_preference_confirm_delete_label">"Konfirmo përpara fshirjes"</string>
+	<!---->
+	<string name="general_preference_confirm_send_label">"Konfirmo përpara dërgimit"</string>
+	<!---->
+	<string name="more_than_999">"999+"</string>
+	<!---->
+	<string name="search_hint">"Kërko"</string>
+	<!---->
+	<string name="policy_dont_allow_camera">"Mos lejo përdorim të kamerës"</string>
+	<!---->
+	<string name="policy_require_password">"Këkohet fjalëkalim për pajisjen"</string>
+	<!---->
+	<string name="policy_password_history">"Kufizo përodrimin e fjalëkalimeve të fundit"</string>
+	<!---->
+	<string name="policy_password_expiration">"Fjalëkalimin e kërkuar do të skadoj"</string>
+	<!---->
+	<string name="policy_screen_timeout">"Kërkohet pjisje në qëndrim për kyçje të ekranit"</string>
+	<!---->
+	<string name="policy_calendar_age">"Kufizo numrin e ngjarjeve të sinkronizuara në kalendar"</string>
+	<!---->
+	<string name="policy_email_age">"Kufizo numrin e e-postave të sinkronizuara"</string>
+	<!---->
+	<string name="quick_1">"Faleminderit!"</string>
+	<!---->
+	<string name="quick_2">"Më duket interesante!"</string>
+	<!---->
+	<string name="quick_3">"Do ta lexoj këtë më vonë dhe të kthej përgjigje."</string>
+	<!---->
+	<string name="quick_4">"Takohemi që të diskutojmë."</string>
+	<!---->
+	<string name="require_manual_sync_message">"Sinkronizimi në sfond për këtë llogari është ç\'aktivizuar në roaming."</string>
+	<!---->
+	<string name="confirm_response">"Duke dërguar përgjigje..."</string>
+	<!---->
+	<string name="no_conversations">"Nuk ka mesazhe."</string>
+	<!-- no translation found for imap_name -->
+	<skip />
+	<!-- no translation found for pop3_name -->
+	<skip />
+	<!---->
+	<string name="email_name">"Email"</string>
+	<!---->
+	<string name="folder_picker_title">"Kapësi i dosjes"</string>
+	<!---->
+	<string name="trash_folder_selection_title">"Zgjidh serverin KoshPlehrash dosje për <xliff:g id="account">%s</xliff:g>"</string>
+	<!---->
+	<string name="sent_folder_selection_title">"Zgjidh serverin që ka dërguar dosjen për <xliff:g id="account">%s</xliff:g>"</string>
+	<!---->
+	<string name="account_waiting_for_folders_msg">"Duke u ngarkuar listëa e dosjes..."</string>
+	<!---->
+	<string name="no_quick_responses">"Asnjë i mundshëm"</string>
+	<!---->
+	<string name="gmail_name">"Gmail"</string>
+	<!---->
+	<string name="folder_sync_settings_pref_title">"Dosje e Konfigurimeve të sinkronizimit"</string>
+	<!---->
+	<string name="select_your_account">"Zgjidh llogari"</string>
+	<!---->
+	<string name="select_account_list_below">"Përzgjidh llogari nga lista:"</string>
+	<!---->
+	<string name="cancel_label">"Anullo"</string>
+	<!---->
+	<string name="next_label">"Tjetër"</string>
+	<!---->
+	<string name="str_account_provider_other">"Tjerë"</string>
+	<!---->
+	<string name="account_settings_download_options_label">"Opsione për shkarkim"</string>
+	<!---->
+	<string name="account_setting_download_opt_headonly">"Vetëm titulli"</string>
+	<!---->
+	<string name="account_setting_download_opt_all">"Të gjitha"</string>
+	<!-- no translation found for account_setting_download_opt_2k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_5k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_10k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_20k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_50k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_100k -->
+	<skip />
+	<!---->
+	<string name="account_oof_error_tip_past">"Koha fundore nuk mund të jetë në të kaluarën. Ndërroje kohën fundore në një kohë të ardhme."</string>
+	<!---->
+	<string name="account_oof_error_tip_earlier">"Koha mbarimi nuk mund të jetë më herët nga koha fillimi. Ndërroje kohën e mbarimit."</string>
+	<!---->
+	<string name="account_setting_oof_label">"Konfigurimet për jashtë"</string>
+	<!---->
+	<string name="oof_auto_repley">"Dërgo jashtë zyrës përgjigje automatike"</string>
+	<!---->
+	<string name="oof_auto_replies_period">"Dërgoni përgjigje automatike gjatë kësaj periudhe"</string>
+	<!---->
+	<string name="start_time">"Kohë fillimi"</string>
+	<!---->
+	<string name="end_time">"Kohë përfundimi"</string>
+	<!---->
+	<string name="internal_message">"Mesazhi i brendshëm"</string>
+	<!---->
+	<string name="oof_auto_replies_external_senders">"Dërgoni përgjigje automatike tek dërguesit e jashtëm"</string>
+	<!---->
+	<string name="oof_choice_oof_in_contacts">"Dërgo përgjigje automatike jashtë zyrës për dërguesit në listën e kontakteve"</string>
+	<!---->
+	<string name="oof_choice_oof_outside_organisation">"Dërgo përgjigje automatike jashtë zyrës për të gjitha që janë jashtë organizacionit"</string>
+	<!---->
+	<string name="external_message">"Mesazhi i jashtëm"</string>
+	<!---->
+	<string name="oof_done_message_attention">"Ju nuk keni specifikuar një mesazh automatik përgjigje për njerëzit brenda organizatës tuaj. Nëse një mesazh Jashtë Zyre nuk është futur, njerëzit nuk do të marrin një njoftim Jashtë Zyre. Rregullat tuaja Jashtë Zyre, sidoqoftë, do të punojnë ende. Doni të vazhdoni?"</string>
+	<!---->
+	<string name="oof_choice_in_contacts">"Dërgoni te dërguesit në listën time të kontakteve"</string>
+	<!---->
+	<string name="oof_choice_all_senders">"Dërgoni te të gjithë dërguesit"</string>
+	<!---->
+	<string name="hint_text_of_internal_message">"Përgjigjuni adresave nga organizata juaj"</string>
+	<!---->
+	<string name="hint_text_of_external_message">"Përgjigjju adresave nga jashtë organizatës tënde"</string>
+	<!---->
+	<string name="account_delete_dlg_title">"Zhvendos llogarinë?"</string>
+	<!---->
+	<string name="account_delete_dlg_instructions_fmt">"Llogaria \"<xliff:g id="account">%s</xliff:g>\" do të zhvendoset nga Email."</string>
+	<!---->
+	<string name="account_delete_dlg_instructions_fmt_new">"Zhvendosja e kësaj llogarie do të fshijë të gjitha mesazhet e saj, kontaktet dhe të dhënat e tjera nga telefoni juaj."</string>
+	<!---->
+	<string name="account_delete_dlg_action_remove_label">"Zhvendos"</string>
+	<!---->
+	<string name="account_delete_dlg_action_cancel_label">"Anullo"</string>
+	<!---->
+	<string name="account_settings_category_delete_account">"Zhvendos llogarinë"</string>
+	<!---->
+	<string name="account_settings_delete_account_label">"Zhvendos llogarinë"</string>
+	<!---->
+	<string name="account_settings_default_label">"Llogaria e paracaktuar"</string>
+	<!---->
+	<string name="account_settings_default_summary">"Dërgo email nga kjo llogari si paracaktim"</string>
+	<!---->
+	<string name="account_setup_options_default_label">"Dërgo email nga kjo llogari si paracaktim."</string>
+	<!---->
+	<string name="account_setup_basics_default_label">"Dërgo email nga kjo llogari si paracaktim"</string>
+	<!---->
+	<string name="local_search_action">"Kërko lokalisht"</string>
+	<!---->
+	<string name="service_search_action">"Kërko në serverin"</string>
+	<!---->
+	<string name="local_search_all">"Të gjitha"</string>
+	<!---->
+	<string name="local_search_from">"Nga"</string>
+	<!---->
+	<string name="local_search_to">"Deri"</string>
+	<!---->
+	<string name="local_search_subject">"Lënda"</string>
+	<!---->
+	<string name="status_loading_attachments">"Duke ngarkuar"</string>
+	<!---->
+	<string name="account_use_proxy_label">"Përdor proxy server"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_label">"IP përfaqësuese"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_port_label">"Porta e përfaqësuesit"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_name">"Emri i proxy"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_password">"Fjalëkalimi i përfaqësuesit"</string>
+	<!---->
+	<string name="attachment_info_dialog_wifi_title">"Lidhje Wi-Fi është e nevojshme"</string>
+	<!---->
+	<string name="attachment_info_wifi_settings">"Konfigurime Wi-Fi"</string>
+	<!---->
+	<string name="attachment_info_wifi_only">"Kjo shtojcë është e madhe për shkarkim me rrjetin e celularit. Mund të shkarkoni herën e ardhshme kur do të lidheni në rrjetin Wi-Fi."</string>
+	<!---->
+	<string name="attachment_info_ok">"OK"</string>
+	<!---->
+	<string name="mailbox_name_display_draft">"draft"</string>
+	<!---->
+	<string name="message_compose_display_name">"<xliff:g example="John" id="name">%1$s</xliff:g> dhe <xliff:g example="27" id="number">%2$d</xliff:g> të tjerë"</string>
+	<!---->
+	<string name="app_name">"Email"</string>
+	<!---->
+	<string name="from">"Nga"</string>
+	<!---->
+	<string name="to">"Për:"</string>
+	<!---->
+	<string name="cc">"Cc"</string>
+	<!---->
+	<string name="bcc">"Bcc"</string>
+	<!---->
+	<string name="subject_hint">"Subjekt"</string>
+	<!---->
+	<string name="body_hint">"Krijo email mesazh"</string>
+	<!---->
+	<string name="add_file_attachment">"Bashkëngjit skedar"</string>
+	<!---->
+	<string name="add_photo_attachment">"Bashkëngjit foto"</string>
+	<!---->
+	<string name="save_draft">"Ruaj në draft"</string>
+	<!---->
+	<string name="discard">"Fshini"</string>
+	<!---->
+	<string name="compose">"Krijo"</string>
+	<!---->
+	<string name="select_contacts_field">"Zgjidh kontakte nga"</string>
+	<!---->
+	<string name="item_save_group">"Ruani grup"</string>
+	<!---->
+	<string name="confirm_select">"Zgjidhni"</string>
+	<!---->
+	<string name="cancel_select">"Anulo"</string>
+	<string-array name="compose_modes">
+		<item>"Ktheni përgjigje"</item>
+		<item>"Përgjigju të gjitha"</item>
+		<item>"Pasoni"</item>
+	</string-array>
+	<string-array name="compose_modes_without_reply_all">
+		<item>"Ktheni përgjigje"</item>
+		<item>"Pasoni"</item>
+	</string-array>
+	<!---->
+	<string name="reply_subject_label">"Re:"</string>
+	<!---->
+	<string name="forward_subject_label">"Përcille:"</string>
+	<!---->
+	<string name="reply_attribution">"Në <xliff:g id="date">%s</xliff:g>, <xliff:g id="person">%s</xliff:g> ka shkruar:"</string>
+	<!---->
+	<string name="forward_attribution">"---------- Mesazh i pasuar ----------;Nga:;Datë:;Subjekt:;Për:"</string>
+	<!---->
+	<string name="forward_attribution_with_headers">"---------- Mesazh i përcjellë ---------- <xliff:g id="a">%s</xliff:g> Nga: <xliff:g id="from">%s</xliff:g> <xliff:g id="b">%s</xliff:g> Datë: <xliff:g id="date">%s</xliff:g> <xliff:g id="c">%s</xliff:g> Subjekt: <xliff:g id="subject">%s</xliff:g> <xliff:g id="d">%s</xliff:g> Drejtuar: <xliff:g id="to">%s</xliff:g> <xliff:g id="e">%s</xliff:g> Cc: <xliff:g id="cc">%s</xliff:g> <br/>"</string>
+	<!---->
+	<string name="forward_attribution_no_headers">"---------- Mesazh i përcjellur ----------"</string>
+	<!---->
+	<string name="cc_attribution">"CC:"</string>
+	<!---->
+	<string name="select_attachment_type">"Zgjidh llojin e bashkëngjitjes"</string>
+	<!---->
+	<string name="too_large_to_attach_single">"Nuk mund të bashkëngjis skedar mbi %1$s"</string>
+	<!---->
+	<string name="too_large_to_attach_multiple">"Një ose më shumë skedrë nuk janë bashkëngjitur. Kufizimi <xliff:g id="maxSize">%1$s</xliff:g>."</string>
+	<!---->
+	<string name="too_large_to_mid_attach_additional">"Posta juaj elektronike tejkalon <xliff:g id="maxSize">%1$s</xliff:g>. Llogaria juaj e postës elektronike mund të mos e mbështesë këtë."</string>
+	<!---->
+	<string name="too_large_to_attach_additional">"E pamundur të shtoj skedar. Madhësia e postës elektronike do të tejkalojë <xliff:g id="maxSize">%1$s</xliff:g> kufi."</string>
+	<!---->
+	<string name="generic_attachment_problem">"Nuk mund të bashkëngjitet skedarin."</string>
+	<!---->
+	<string name="recipient_needed">"Shto së paku një marrës."</string>
+	<!---->
+	<string name="recipient_error_dialog_title">"Gabim i marrësit"</string>
+	<!---->
+	<string name="confirm_send_title">"Dërgo mesazh?"</string>
+	<!---->
+	<string name="confirm_send_message_with_no_subject">"Asnjë tekst në lëndën e mesazhit."</string>
+	<!---->
+	<string name="confirm_send_message_with_no_body">"Nuk ka asnjë tekst në trupin e mesazhit."</string>
+	<!---->
+	<string name="confirm_send_message">"Dërgo këtë mesazh?"</string>
+	<!---->
+	<string name="message_discarded">"Mesazhi u hodh."</string>
+	<!-- no translation found for signature -->
+	<skip />
+	<!---->
+	<string name="custom_from_account_label">"Dërgo mail si:"</string>
+	<!---->
+	<string name="send">"Dërgo"</string>
+	<!---->
+	<string name="mark_read">"Shëno të lexuara"</string>
+	<!---->
+	<string name="mark_unread">"Shëno të palexuara"</string>
+	<!---->
+	<string name="mute">"Blloko zërin"</string>
+	<!---->
+	<string name="add_star">"Shto yll"</string>
+	<!---->
+	<string name="remove_star">"Hiq yllin"</string>
+	<!---->
+	<string name="remove_folder">"Hiq nga <xliff:g id="folderName">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="archive">"Arkivë"</string>
+	<!---->
+	<string name="report_spam">"Raport si spam"</string>
+	<!---->
+	<string name="mark_not_spam">"Raport: Nuk është në spam"</string>
+	<!---->
+	<string name="report_phishing">"Report phishing"</string>
+	<!---->
+	<string name="delete">"Fshij"</string>
+	<!---->
+	<string name="discard_drafts">"Refuzo skicat"</string>
+	<!---->
+	<string name="discard_failed">"Fshirja dështoi"</string>
+	<!---->
+	<string name="refresh">"Rifresko"</string>
+	<!---->
+	<string name="reply">"Ktheni përgjigje"</string>
+	<!---->
+	<string name="reply_all">"Përgjigj i të gjithëve"</string>
+	<!---->
+	<string name="resume_draft">"Modifiko"</string>
+	<!---->
+	<string name="forward">"Pasoni"</string>
+	<!---->
+	<string name="menu_compose">"Shkruaj"</string>
+	<!---->
+	<string name="menu_sort">"Rendit"</string>
+	<!---->
+	<string name="menu_change_folders">"Ndërro dosjet"</string>
+	<!---->
+	<string name="menu_move_to">"Zhvendos në"</string>
+	<!---->
+	<string name="menu_move_to_inbox">"Zhvendos në Kutia hyrëse"</string>
+	<!---->
+	<string name="menu_manage_folders">"Cilësimi i dosjes"</string>
+	<!---->
+	<string name="menu_show_original">"Kthe madhësinë auto"</string>
+	<!---->
+	<string name="menu_settings">"Cilësimet"</string>
+	<!---->
+	<string name="menu_search">"Kërko"</string>
+	<!---->
+	<string name="drawer_title">"Lundrim"</string>
+	<!---->
+	<string name="mark_important">"Shëno si të rëndësishme"</string>
+	<!---->
+	<string name="mark_not_important">"Shëno si të parëndësishme"</string>
+	<!---->
+	<string name="select_all_conversations">"Përzgjidhni të gjitha"</string>
+	<!---->
+	<string name="unselect_all_conversations">"Ç\'zgjidh të gjitha"</string>
+	<!---->
+	<string name="add_cc_label">"Shto Cc/Bcc"</string>
+	<!---->
+	<string name="add_bcc_label">"Shto Bcc"</string>
+	<!---->
+	<string name="quoted_text">"Përfshin tekstin e cituar"</string>
+	<!---->
+	<string name="quoted_text_label">"Citim teksti"</string>
+	<!---->
+	<string name="respond_inline">"Përgjigj në linjë"</string>
+	<!---->
+	<string name="bytes">"<xliff:g id="count">%s</xliff:g> B"</string>
+	<!---->
+	<string name="kilobytes">"<xliff:g id="count">%s</xliff:g> KB"</string>
+	<!---->
+	<string name="megabytes">"<xliff:g id="count">%s</xliff:g> MB"</string>
+	<!---->
+	<string name="attachment_image">"Imazh"</string>
+	<!---->
+	<string name="attachment_video">"Video"</string>
+	<!---->
+	<string name="attachment_audio">"Audio"</string>
+	<!---->
+	<string name="attachment_text">"Tekst"</string>
+	<!---->
+	<string name="attachment_application_msword">"Dokument"</string>
+	<!---->
+	<string name="attachment_application_vnd_ms_powerpoint">"Prezentimi"</string>
+	<!---->
+	<string name="attachment_application_vnd_ms_excel">"Spreadsheet"</string>
+	<!-- no translation found for attachment_application_pdf -->
+	<skip />
+	<!---->
+	<string name="attachment_unknown">"<xliff:g id="attachmentExtension">%s</xliff:g> Skedar"</string>
+	<!---->
+	<string name="preview_attachment">"Shikim"</string>
+	<!---->
+	<string name="save_attachment">"Ruani"</string>
+	<!---->
+	<string name="cancel_attachment">"Anulo"</string>
+	<!---->
+	<string name="open_attachment">"Hap"</string>
+	<!---->
+	<string name="install_attachment">"Instalo"</string>
+	<!---->
+	<string name="download_again">"Shkarko përsëri"</string>
+	<!---->
+	<string name="more_info_attachment">"Informacion"</string>
+	<!---->
+	<string name="no_application_found">"Asnjë aplikacion nuk mund ta hapet këtë bashkëngjitje për shikim."</string>
+	<!---->
+	<string name="fetching_attachment">"Marrje e bashkëngjitjes"</string>
+	<!---->
+	<string name="please_wait">"Prisni\u2026"</string>
+	<!---->
+	<string name="saved">"Ruajtur,"</string>
+	<!---->
+	<string name="download_failed">"Nuk mund të shkarkohet. Prekni për përsëritje."</string>
+	<!---->
+	<string name="menu_photo_save_all">"Ruaj të gjithë"</string>
+	<!---->
+	<string name="menu_photo_share">"Shpërndaj"</string>
+	<!---->
+	<string name="menu_photo_share_all">"Shpërndaj të gjithë"</string>
+	<!---->
+	<string name="menu_photo_print">"Printo"</string>
+	<!---->
+	<string name="saving">"Duke ruajtur..."</string>
+	<!---->
+	<string name="choosertitle_sharevia">"Ndaj përmes"</string>
+	<!---->
+	<string name="contextmenu_openlink">"Hap në shfletuesin"</string>
+	<!---->
+	<string name="contextmenu_copy">"Kopjo"</string>
+	<!---->
+	<string name="contextmenu_copylink">"Kopjo URL e lidhjes"</string>
+	<!---->
+	<string name="contextmenu_view_image">"Shiko imazhin"</string>
+	<!---->
+	<string name="contextmenu_dial_dot">"Thirr"</string>
+	<!---->
+	<string name="contextmenu_sms_dot">"SMS\u2026"</string>
+	<!---->
+	<string name="contextmenu_add_contact">"Shto kontakt"</string>
+	<!---->
+	<string name="contextmenu_send_mail">"Dërgo email"</string>
+	<!---->
+	<string name="contextmenu_map">"Harta"</string>
+	<!---->
+	<string name="contextmenu_sharelink">"Ndaj lidhjen"</string>
+	<!---->
+	<string name="contextmenu_savelink">"Ruaj lidhjen"</string>
+	<!---->
+	<string name="contextmenu_help">"Ndihmë"</string>
+	<!---->
+	<string name="contextmenu_feedback">"Dërgo informacionin kthyes"</string>
+	<!---->
+	<string name="sort_title">"Klasifiko sipas"</string>
+	<!---->
+	<string name="sort_by_tip">"Renditur sipas <xliff:g id="sor_type">%s</xliff:g>"</string>
+	<!-- no translation found for num_selected -->
+	<skip />
+	<plurals name="move_conversation">
+		<item quantity="one">"Më shumë biseda"</item>
+		<item quantity="other">"Zhvendos <xliff:g>%1$d</xliff:g> bisedat"</item>
+	</plurals>
+	<!---->
+	<string name="content_description">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> rreth <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> në <xliff:g id="date">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g>"</string>
+	<!---->
+	<string name="content_description_today">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> rreth <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> te <xliff:g id="time">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g>"</string>
+	<!---->
+	<string name="read_string">"Lexim i bisedës"</string>
+	<!---->
+	<string name="unread_string">"Biseda e palexuar"</string>
+	<!---->
+	<string name="filtered_tag">"[<xliff:g id="tag">%1$s</xliff:g>]<xliff:g id="subject">%2$s</xliff:g>"</string>
+	<!-- no translation found for badge_and_subject -->
+	<skip />
+	<plurals name="draft">
+		<item quantity="one">"Skica"</item>
+		<item quantity="other">"Sikca"</item>
+	</plurals>
+	<!---->
+	<string name="sending">"Po dërgohet\u2026"</string>
+	<!---->
+	<string name="message_retrying">"Duke ri-provuar\u2026"</string>
+	<!---->
+	<string name="message_failed">"Dështoi"</string>
+	<!---->
+	<string name="send_failed">"Dështoi të dërgojë postën."</string>
+	<!---->
+	<string name="send_failed_wait_attchment_downloaded">"Nuk mund të pasoj pasi shtojcat nuk janë shkarkuar plotësisht, ju lutem shkarkoni më parë shtojcat."</string>
+	<!---->
+	<string name="me_object_pronoun">"Unë"</string>
+	<!---->
+	<string name="me_subject_pronoun">"Unë"</string>
+	<plurals name="confirm_delete_conversation">
+		<item quantity="one">"Fshij bisedën?"</item>
+		<item quantity="other">"Fshij këtë <xliff:g id="count">%1$d</xliff:g> bisedat?"</item>
+	</plurals>
+	<plurals name="confirm_archive_conversation">
+		<item quantity="one">"Arkivo bisedën?"</item>
+		<item quantity="other">"Arkivoji <xliff:g id="count">%1$d</xliff:g> bisedat?"</item>
+	</plurals>
+	<plurals name="confirm_discard_drafts_conversation">
+		<item quantity="one">"Refuzo mesazhin?"</item>
+		<item quantity="other">"Të fshij këto <xliff:g id="count">%1$d</xliff:g> mesazhe?"</item>
+	</plurals>
+	<!---->
+	<string name="confirm_discard_text">"Refuzo mesazhin?"</string>
+	<!---->
+	<string name="loading_conversations">"Duke ngarkuar\u2026"</string>
+	<!---->
+	<string name="empty_inbox">"Keni përfunduar të gjithë! Ju lutem shijoni ditën tuaj."</string>
+	<!---->
+	<string name="empty_search">"Ups! Nuk gjetëm asgjë për \"<xliff:g id="search_query">%1$s</xliff:g>\"."</string>
+	<!---->
+	<string name="empty_spam_folder">"Urra, asnjë bllokim këtu!"</string>
+	<!---->
+	<string name="empty_trash_folder">"Asnjë plehrë këtu. Faleminderit për riciklimin!"</string>
+	<!---->
+	<string name="empty_folder">"Nuk ka asnjë postë këtu."</string>
+	<!---->
+	<string name="getting_messages">"Duke marrë mesazhet e tua"</string>
+	<!---->
+	<string name="undo">"Anulo"</string>
+	<plurals name="conversation_unstarred">
+		<item quantity="one">"Bisedë <xliff:g id="count">%1$d</xliff:g> pa yll."</item>
+		<item quantity="other">"Biseda e <xliff:g id="count">%1$d</xliff:g> pafilluar."</item>
+	</plurals>
+	<plurals name="conversation_muted">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> në heshtje."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> në heshtje."</item>
+	</plurals>
+	<plurals name="conversation_spammed">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> raportuar si spam."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> raportuar si spam."</item>
+	</plurals>
+	<plurals name="conversation_not_spam">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> raportuar si jo spam."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> raportuar si jo spam."</item>
+	</plurals>
+	<plurals name="conversation_not_important">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> shënuar e pa rëndësishme."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> shënuar e pa rëndësishme."</item>
+	</plurals>
+	<plurals name="conversation_phished">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> raportuar si phishing."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> raportuar si phishing."</item>
+	</plurals>
+	<plurals name="conversation_archived">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> arkivuar."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> arkivuar."</item>
+	</plurals>
+	<plurals name="conversation_deleted">
+		<item quantity="one">"&lt;b&gt;%1$d&lt;/b&gt; është fshirë."</item>
+		<item quantity="other">"&lt;b&gt;%1$d&lt;/b&gt; është fshirë."</item>
+	</plurals>
+	<!---->
+	<string name="deleted">"Fshirë"</string>
+	<!---->
+	<string name="archived">"Arkivuar"</string>
+	<!---->
+	<string name="starred">"Me yll"</string>
+	<!---->
+	<string name="unstarred">"Pa yll"</string>
+	<!---->
+	<string name="folder_removed">"Hequr nga <xliff:g id="folderName">%1$s</xliff:g>"</string>
+	<plurals name="conversation_folder_changed">
+		<item quantity="one">"Dosja është ndryshuar."</item>
+		<item quantity="other">"Dosjat është ndryshuar."</item>
+	</plurals>
+	<!---->
+	<string name="conversation_folder_moved">"Zhvendos në <xliff:g id="folderName">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="search_results_header">"Rezultate"</string>
+	<!---->
+	<string name="search_unsupported">"Kërkimi nuk është mbështetur në këtë llogari."</string>
+	<!---->
+	<string name="add_label">"Shto dosje"</string>
+	<!---->
+	<string name="new_incoming_messages_one">"Shfaqni mesazh të ri nga <xliff:g id="sender">%s</xliff:g>."</string>
+	<plurals name="new_incoming_messages_many">
+		<item quantity="other">"Shfaqni <xliff:g id="count">%1$d</xliff:g> mesazhe të reja."</item>
+	</plurals>
+	<!---->
+	<string name="date_and_view_details">"<xliff:g id="date">%1$s</xliff:g> &lt;a href=\'http://www.example.com\'&gt;Shiko detajet&lt;/a&gt;"</string>
+	<!---->
+	<string name="date_and_view_details_another">"<xliff:g id="date">%1$s</xliff:g> &lt;font color=\"<xliff:g id="color">%2$d</xliff:g>\"&gt;Shiko detajet&lt;/font&gt;"</string>
+	<!---->
+	<string name="hide_details">"Fshih Detajet"</string>
+	<!---->
+	<string name="to_message_header">"te <xliff:g id="recipients">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="contact_info_string">"Shfaq kontakt informacioni për <xliff:g id="name">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="contact_info_string_default">"Shfaq kontakt informacioni"</string>
+	<plurals name="show_messages_read">
+		<item quantity="other">"<xliff:g example="4" id="count">%1$d</xliff:g> mesazhet e vjetra"</item>
+	</plurals>
+	<!---->
+	<string name="from_heading">"Nga:"</string>
+	<!---->
+	<string name="replyto_heading">"Përgjigjuni-drejt:"</string>
+	<!---->
+	<string name="to_heading">"Për:"</string>
+	<!---->
+	<string name="to_heading_no_space">"Për:"</string>
+	<!---->
+	<string name="cc_heading">"CC:"</string>
+	<!---->
+	<string name="bcc_heading">"Bcc:"</string>
+	<!---->
+	<string name="date_heading">"Datë:"</string>
+	<!---->
+	<string name="show_images">"Trego fotot"</string>
+	<!---->
+	<string name="always_show_images">"Gjithmonë shfaqi imazhet nga këtij dërguesi"</string>
+	<!---->
+	<string name="always_show_images_toast">"Imazhet nga dërguesi do të shfaqen automatikisht."</string>
+	<!---->
+	<string name="address_display_format">"<xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g>"</string>
+	<!---->
+	<string name="address_display_format_with_via_domain">"<xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g> via <xliff:g id="via_domain">%3$s</xliff:g>"</string>
+	<!---->
+	<string name="message_saved">"Mesazhi u ruajt si draft."</string>
+	<!---->
+	<string name="sending_message">"Dërgimi i mesazhit\u2026"</string>
+	<!---->
+	<string name="invalid_recipient">"Adresa është %s e pasaktë."</string>
+	<!---->
+	<string name="show_elided">"Shfaqni tekstin e cituar"</string>
+	<!---->
+	<string name="hide_elided">"\u25BC Fshih tekstin e caktuar"</string>
+	<!---->
+	<string name="message_invite_title">"Ftesë kalendari"</string>
+	<!---->
+	<string name="message_invite_available">"Ju jeni i disponueshëm"</string>
+	<!---->
+	<string name="message_invite_datetime">"Kur"</string>
+	<!---->
+	<string name="message_invite_location">"Ku"</string>
+	<!---->
+	<string name="message_invite_in_calendar_view">"Shikoni në Kalendar"</string>
+	<!---->
+	<string name="message_invite_calendar_view">"Shfaqni në Kalendar"</string>
+	<!---->
+	<string name="message_invite_label_attending">"Do të shkosh?"</string>
+	<!---->
+	<string name="message_invite_accept">"Po"</string>
+	<!---->
+	<string name="message_invite_tentative">"Ndoshta"</string>
+	<!---->
+	<string name="message_invite_decline">"Jo"</string>
+	<!-- no translation found for enumeration_comma -->
+	<skip />
+	<!---->
+	<string name="send_anyway">"Dërgo gjithsesi"</string>
+	<!---->
+	<string name="ok">"OK"</string>
+	<!---->
+	<string name="done">"U krye"</string>
+	<!---->
+	<string name="cancel">"Anulloni"</string>
+	<!---->
+	<string name="clear">"Pastro"</string>
+	<!---->
+	<string name="next">"Tjetër"</string>
+	<!---->
+	<string name="previous">"Mbrapa"</string>
+	<string-array name="sync_status">
+		<item>"Nuk keni lidhje Wi-Fi, nëse do të vazhdoni sinkronizimin?"</item>
+		<item>"Nuk ka lidhje."</item>
+		<item>"Regjistrim i pasuksesshëm"</item>
+		<item>"Gabim i sigurisë."</item>
+		<item>"Nuk mund të sinkronizohet."</item>
+		<item>"Gabim i brendshëm"</item>
+		<item>"Gabim serveri"</item>
+	</string-array>
+	<!---->
+	<string name="tap_to_configure">"Prek për konfigurim"</string>
+	<!---->
+	<string name="non_synced_folder_description">"Për t\'i shikuar bisedat, sinkronizoje këtë dosje."</string>
+	<!---->
+	<string name="tap_to_configure_folder_sync">"Sinkronizo dosjen"</string>
+	<!-- no translation found for widget_large_unread_count -->
+	<skip />
+	<!---->
+	<string name="large_unseen_count">"<xliff:g example="99" id="count">%d</xliff:g>+ i ri"</string>
+	<!---->
+	<string name="unseen_count">"<xliff:g example="4" id="count">%d</xliff:g> i ri"</string>
+	<plurals name="actionbar_unread_messages">
+		<item quantity="other">"%1$d të palexuara"</item>
+	</plurals>
+	<!---->
+	<string name="actionbar_large_unread_count">"<xliff:g id="count">%1$d</xliff:g>+ palexuar"</string>
+	<!---->
+	<string name="view_more_conversations">"Shfaq më shumë biseda"</string>
+	<!---->
+	<string name="loading_conversation">"Duke ngarkuar\u2026"</string>
+	<!---->
+	<string name="activity_mailbox_selection">"Përzgjidh llogarinë"</string>
+	<!---->
+	<string name="activity_folder_selection">"Zgjidh dosje"</string>
+	<!---->
+	<string name="folder_shortcut_widget_label">"Dosje me email"</string>
+	<!---->
+	<string name="change_folders_selection_dialog_title">"Ndrysho dosjet"</string>
+	<!---->
+	<string name="move_to_selection_dialog_title">"Zhvendos në"</string>
+	<!-- no translation found for search_results_loaded -->
+	<skip />
+	<!---->
+	<string name="network_error">"Nuk ka lidhje me rrjetin"</string>
+	<!---->
+	<string name="retry">"\'\'Përpiquni përsëri\'\'"</string>
+	<!---->
+	<string name="load_more">"Ngarko më shumë"</string>
+	<!---->
+	<string name="shortcut_name_title">"Emri i dosjes"</string>
+	<!---->
+	<string name="wait_for_sync_title">"Pritje për sinkronizim"</string>
+	<!---->
+	<string name="not_synced_title">"Llogaria nuk është sinkronizuar"</string>
+	<!---->
+	<string name="wait_for_manual_sync_body">"Kjo llogaria nuk është konfiguruar për sinkronizim automatikisht.\nPrek <b> Sinkronizo tani</b> për sinkronizim të mail një herë, ose <b>Ndrysho cilësimet e sinkronizimit </b> për konfigurim të llogarisë për sinkronizim automatikisht."</string>
+	<!---->
+	<string name="manual_sync">"Sinkronizo tani"</string>
+	<!---->
+	<string name="change_sync_settings">"Ndrysho cilësimet e sinkronizuara"</string>
+	<!---->
+	<string name="photo_load_failed">"Nuk mund të ngarkohet imazhin"</string>
+	<!---->
+	<string name="cant_move_or_change_labels">"Zhvendosje është e pamundshme sepse zgjedhja përmban disa llogaria."</string>
+	<!-- no translation found for multiple_new_message_notification_item -->
+	<skip />
+	<!-- no translation found for single_new_message_notification_big_text -->
+	<skip />
+	<!---->
+	<string name="ignore_spam_warning">"Refuzo, Unë besojë mesazhin"</string>
+	<!---->
+	<string name="via_domain">"me <xliff:g id="viaDomain">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="signin">"Regjistrohuni"</string>
+	<!---->
+	<string name="info">"Info"</string>
+	<!---->
+	<string name="report">"Raport"</string>
+	<!---->
+	<string name="sync_error">"Nuk mund të sinkronizohet"</string>
+	<!---->
+	<string name="sync_error_message">"Pajisja juaj nuk ka vand në kujtesën për sinkronizim."</string>
+	<!---->
+	<string name="storage">"Kujtesa"</string>
+	<!-- no translation found for senders_split_token -->
+	<skip />
+	<!-- no translation found for draft_count_format -->
+	<skip />
+	<!---->
+	<string name="all_folders_heading">"Të gjitha dosjet"</string>
+	<!---->
+	<string name="recent_folders_heading">"Dosjet e fundit"</string>
+	<!---->
+	<string name="message_details_title">"Detajet e mesazheve"</string>
+	<!---->
+	<string name="preference_advance_to_title">"Kalimi automatik"</string>
+	<string-array name="prefEntries_autoAdvance">
+		<item>"Më të reja"</item>
+		<item>"Mbrapa"</item>
+		<item>"Listë e bisedave"</item>
+	</string-array>
+	<string-array name="prefSummaries_autoAdvance">
+		<item>"Shfaq bisedën e re pas fshirjes"</item>
+		<item>"Shfaq bisedat e vjetra pas fshirjes"</item>
+		<item>"Shfaq listën e bisedave pas fshirjes"</item>
+	</string-array>
+	<!---->
+	<string name="prefDialogTitle_autoAdvance">"Shko në"</string>
+	<!---->
+	<string name="clear_display_images_whitelist_title">"Fshij konfirmimin e fotos"</string>
+	<!---->
+	<string name="clear_display_images_whitelist_dialog_title">"Fshij konfirmimin e fotove?"</string>
+	<!---->
+	<string name="clear_display_images_whitelist_dialog_message">"Ndal shfaqjen e imazheve nga dërguesit që i keni lejuar."</string>
+	<!---->
+	<string name="sender_whitelist_cleared">"Fotoja nuk do të shfaqet automatikisht."</string>
+	<!---->
+	<string name="preferences_signature_title">"Nënshkrim"</string>
+	<!---->
+	<string name="preferences_signature_dialog_title">"Nënshkrimi"</string>
+	<!---->
+	<string name="preferences_signature_summary_not_set">"Nuk është cilësuar"</string>
+	<!---->
+	<string name="mail_account_signature_prefix">"U dërgua nga imi <xliff:g example="4" id="product">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="notification_action_reply">"Ktheni përgjigje"</string>
+	<!---->
+	<string name="notification_action_reply_all">"Përgjigju të gjitha"</string>
+	<!---->
+	<string name="notification_action_archive">"Arkivë"</string>
+	<!---->
+	<string name="notification_action_remove_label">"Hiq shënim"</string>
+	<!---->
+	<string name="notification_action_delete">"Fshini"</string>
+	<!---->
+	<string name="notification_action_undo_archive">"Arkivuar"</string>
+	<!---->
+	<string name="notification_action_undo_remove_label">"Shënim i hequr"</string>
+	<!---->
+	<string name="notification_action_undo_delete">"Fshirë"</string>
+	<!-- no translation found for veiled_address -->
+	<skip />
+	<!-- no translation found for veiled_alternate_text -->
+	<skip />
+	<!-- no translation found for veiled_alternate_text_unknown_person -->
+	<skip />
+	<!-- no translation found for veiled_summary_unknown_person -->
+	<skip />
+	<!-- no translation found for label_notification_ticker -->
+	<skip />
+	<plurals name="new_messages">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> mesazh i ri"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> mesazhe të reja"</item>
+	</plurals>
+	<!-- no translation found for single_new_message_notification_title -->
+	<skip />
+	<!---->
+	<string name="silent_ringtone">"Në heshtje"</string>
+	<!---->
+	<string name="preference_removal_action_title">"Arkivoni dhe fshini veprimet"</string>
+	<string-array name="prefEntries_removal_action">
+		<item>"Shfaq vetëm të arkivuara"</item>
+		<item>"Shfq vetëm të fshirë"</item>
+		<item>"Tregoni arkivin dhe aplikacionet; fshini"</item>
+	</string-array>
+	<string-array name="prefSummaries_removal_action_summary">
+		<item>"Shfaq vetëm të arkivuara."</item>
+		<item>"Shfaq vetëm të fshirë"</item>
+		<item>"Tregoni arkivin dhe aplikacionet; fshini"</item>
+	</string-array>
+	<!---->
+	<string name="prefDialogTitle_removal_action">"Aktivitete të arkivuar dhe të fshirë"</string>
+	<!---->
+	<string name="preferences_default_reply_all_title">"Përgjigju të gjitha"</string>
+	<!---->
+	<string name="preferences_default_reply_all_summary_impl">"Përdor si e caktuar për mesazhet"</string>
+	<!---->
+	<string name="preference_swipe_title_archive">"Lëviz për arkivë"</string>
+	<!---->
+	<string name="preference_swipe_title_delete">"Lëviz për fshirje"</string>
+	<!---->
+	<string name="preference_swipe_description">"Në listën e bisedave"</string>
+	<!---->
+	<string name="preference_swipe_actions">"Veprime goditëse"</string>
+	<!---->
+	<string name="preference_sender_image_title">"Imazh dërguesi"</string>
+	<!---->
+	<string name="preference_sender_image_description">"Shfaq emrin në listën e bisedave"</string>
+	<!---->
+	<string name="empty_trash">"Zbraz koshin"</string>
+	<!---->
+	<string name="empty_spam">"Boshatis spam"</string>
+	<!---->
+	<string name="star_toggle">"Lidhëse me yll"</string>
+	<!---->
+	<string name="empty_trash_dialog_title">"Të zbraz plehrat?"</string>
+	<!---->
+	<string name="empty_spam_dialog_title">"Boshatis spam?"</string>
+	<plurals name="empty_folder_dialog_message">
+		<item quantity="one">"%1$d mesazh do të fshihet përgjithmonë."</item>
+		<item quantity="other">"%1$d mesazhe do të fshihen përgjithmonë."</item>
+	</plurals>
+	<!---->
+	<string name="drawer_open">"I hapur për navigim"</string>
+	<!---->
+	<string name="drawer_close">"Informacion mbi të drejtat e autorit"</string>
+	<!---->
+	<string name="conversation_photo_welcome_text">"Prek imazhin e dërguesit pët zgjedhje të bisedës."</string>
+	<!---->
+	<string name="long_press_to_select_tip">"Prek dhe mbaj për zgjedhje të bisedës, pastaj prekni më shumë."</string>
+	<!---->
+	<string name="folder_icon_desc">"Ikonë dosje"</string>
+	<!---->
+	<string name="add_account">"Shto llogari"</string>
+	<!---->
+	<string name="dismiss_tip_hover_text">"Mos vlerësoni këshillën"</string>
+	<!---->
+	<string name="auto_sync_off">"Sinkronizimi automatik është fikur."</string>
+	<!---->
+	<string name="tap_to_enable_sync">"Prek për aktivizim."</string>
+	<!---->
+	<string name="account_sync_off">"Sinkronizimi i llogarisë është fikur./"</string>
+	<!---->
+	<string name="enable_sync_in_account_settings">"Ndiz <xliff:g id="account_settings">%1$s</xliff:g>."</string>
+	<!---->
+	<string name="account_settings_param">"Cilësimet e llogarisë"</string>
+	<!---->
+	<string name="unsent_messages_in_outbox">"<xliff:g id="number">%1$s</xliff:g> padërguar në <xliff:g id="outbox">%2$s</xliff:g>"</string>
+	<!---->
+	<string name="turn_auto_sync_on_dialog_title">"Ndiz sinkronizim automatik?"</string>
+	<!---->
+	<string name="turn_auto_sync_on_dialog_body">"Ndryshimet që do të bëhen për aplikacionet dhe llogaritë të tjera, jo për Gmail, do të sinkronizohen në ueb, pajisjet e tjera, dhe juaj <xliff:g id="phone_or_tablet">%1$s</xliff:g>."</string>
+	<!---->
+	<string name="phone">"Celulari"</string>
+	<!---->
+	<string name="tablet">"Tablet"</string>
+	<!---->
+	<string name="turn_auto_sync_on_dialog_confirm_btn">"Ndiz"</string>
+	<!---->
+	<string name="show_n_more_folders">"Shfaqni %1$s më shumë dosje"</string>
+	<!---->
+	<string name="hide_folders">"Fshih dosjet"</string>
+	<!---->
+	<string name="print">"Printoni"</string>
+	<!---->
+	<string name="print_all">"Printoni të gjitha"</string>
+	<plurals name="num_messages">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> mesazh"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> mesazhe"</item>
+	</plurals>
+	<!-- no translation found for date_message_received_print -->
+	<skip />
+	<!---->
+	<string name="draft_to_heading">"Skiconi në:"</string>
+	<!---->
+	<string name="draft_heading">"draft"</string>
+	<!---->
+	<string name="quoted_text_hidden_print">"Tekst i cituar i fshehur"</string>
+	<plurals name="num_attachments">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> shtojcë"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> shtojca"</item>
+	</plurals>
+	<!---->
+	<string name="no_subject">"(Pa titull)"</string>
+	<!---->
+	<string name="vacation_responder">"Përgjigje pushimi"</string>
+	<!---->
+	<string name="preferences_vacation_responder_title">"Përgjigje pushimi"</string>
+	<!---->
+	<string name="vacation_responder_body_hint_text">"Mesazhi"</string>
+	<!---->
+	<string name="send_to_contacts_text">"Dërgoni vetëm kontakteve të mia"</string>
+	<!---->
+	<string name="send_to_domain_text">"Dërgoni vetëm tek <xliff:g id="domain">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="pick_start_date_title">"Fillon"</string>
+	<!---->
+	<string name="pick_end_date_title">"Përfundon (Jo e detyrueshme)"</string>
+	<!---->
+	<string name="date_not_set">"Nuk është cilësuar"</string>
+	<!---->
+	<string name="set_end_date_dialog_title">"Datë e fundit (jo e detyrueshme)"</string>
+	<!---->
+	<string name="custom_date">"Personalizimi"</string>
+	<!---->
+	<string name="date_none">"Asnjë"</string>
+	<!---->
+	<string name="discard_changes">"Të fshij ndryshimet?"</string>
+	<!---->
+	<string name="draft_saved">"Skica u ruajt"</string>
+	<!---->
+	<string name="draft_discard">"Skica u hodh"</string>
+	<!---->
+	<string name="vacation_responder_changes_saved">"Ndryshime përgjigje pushimesh ruajtur"</string>
+	<!---->
+	<string name="vacation_responder_changes_discarded">"Ndryshime përgjigje pushimesh fshirë"</string>
+	<!---->
+	<string name="vacation_responder_off">"FIKUR"</string>
+	<!-- no translation found for vacation_responder_on -->
+	<skip />
+	<!-- no translation found for vacation_responder_on_with_end_date -->
+	<skip />
+	<!---->
+	<string name="vacation_responder_empty_subject_and_body_warning">"Shtoni një temë ose mesazh"</string>
+	<!---->
+	<string name="view_entire_message">"Shfaqni mesazh të plotë"</string>
+	<!---->
+	<string name="eml_loader_error_toast">"Nuk mund të hap këtë skedar"</string>
+	<!---->
+	<string name="help_and_info">"Ndihmë"</string>
+	<!---->
+	<string name="help_and_feedback">"Ndihmë dhe reagime"</string>
+	<!---->
+	<string name="feedback">"Dërgoni reagim"</string>
+	<!---->
+	<string name="copyright">"©<xliff:g example="2010" id="year">%1$d</xliff:g> Google Inc."</string>
+	<!---->
+	<string name="version">"<xliff:g example="Email" id="app_name">%1$s</xliff:g> versioni <xliff:g example="2.2.1" id="version">%2$s</xliff:g>"</string>
+	<!-- no translation found for view_app_page -->
+	<skip />
+	<!---->
+	<string name="print_dialog">"Printoni\u2026"</string>
+	<!---->
+	<string name="copyright_information">"Informacion mbi të drejtat e autorit"</string>
+	<!---->
+	<string name="privacy_policy">"Rregulla mbi privatësinë"</string>
+	<!---->
+	<string name="open_source_licenses">"Licenca me kod të hapur"</string>
+	<!---->
+	<string name="reply_choice_yes">"Po"</string>
+	<!---->
+	<string name="reply_choice_no">"Jo"</string>
+	<!---->
+	<string name="reply_choice_ok">"OK"</string>
+	<!-- no translation found for reply_choice_hehe -->
+	<skip />
+	<!---->
+	<string name="reply_choice_thanks">"Faleminderit"</string>
+	<!---->
+	<string name="reply_choice_i_agree">"Bie dakord"</string>
+	<!---->
+	<string name="reply_choice_nice">"Këndshëm"</string>
+	<!---->
+	<string name="reply_on_my_way">"Në rrugën time"</string>
+	<!---->
+	<string name="reply_choice_later">"Në rregull, më lër të kthehem te ty"</string>
+	<!-- no translation found for reply_choice_smiling_face -->
+	<skip />
+	<!-- no translation found for reply_choice_frowning_face -->
+	<skip />
+	<!---->
+	<string name="preference_header_action_confirmations">"Konfirmim Veprimi"</string>
+	<!---->
+	<string name="preference_confirm_before_delete_title">"Konfirmo përpara fshirjes"</string>
+	<!---->
+	<string name="preference_confirm_before_archive_title">"Konfirmoni para arkivimit"</string>
+	<!---->
+	<string name="preference_confirm_before_send_title">"Konfirmo përpara dërgimit"</string>
+	<!---->
+	<string name="preferences_conversation_mode_title">"Përshtatje automatike mesazhesh"</string>
+	<!---->
+	<string name="preferences_conversation_mode_summary">"Shkurtoni mesazhet që t\'i përshtaten ekranit"</string>
+	<!---->
+	<string name="preferences_disable_snap_headers_title">"Veprime mesazhi"</string>
+	<string-array name="prefSummaries_snapHeader">
+		<item>"Shfaqni gjithmonë aktivitete mesazhesh në krye të ekranit"</item>
+		<item>"Shfaqni vetëm veprime mesazhi në krye të ekranit kur rrotullohet në version portret"</item>
+		<item>"Mos shfaqni veprime mesazhi jashtë kokës së mesazhit"</item>
+	</string-array>
+	<string-array name="prefEntries_snapHeader">
+		<item>"Gjithmonë shfaq"</item>
+		<item>"Tregoni vetëm në portret"</item>
+		<item>"Mos shfaqni"</item>
+	</string-array>
+	<!---->
+	<string name="clear_history_title">"Fshij historikun e kërkimit"</string>
+	<!---->
+	<string name="search_history_cleared">"Historia e shfletimit është fshirë."</string>
+	<!---->
+	<string name="clear_history_dialog_title">"Të fshij histori kërkimi?"</string>
+	<!---->
+	<string name="clear_history_dialog_message">"Të gjitha kërkimet që keni kryer më parë do të hiqen."</string>
+	<!---->
+	<string name="manage_accounts_menu_item">"Menaxho llogaritë"</string>
+	<!---->
+	<string name="general_preferences_title">"Cilësime të përgjithshme"</string>
+	<!---->
+	<string name="activity_preferences">"Cilësimet"</string>
+	<!---->
+	<string name="always_bcc_myself">"Çdoherë shtomë në bcc"</string>
+	<!---->
+	<string name="always_bcc_myself_summary">"Gjithmonë shtomë në bcc kur shkruaj, përgjigjem dhe përcillem"</string>
+	<!---->
+	<string name="general_preference_auto_download_remaining_label">"Auto shkarko të tjerë"</string>
+	<!---->
+	<string name="general_preference_auto_download_remaining_summary">"Shkarko automatikisht të mbeturit të trupit kur lëvizni poshtë"</string>
+	<!---->
+	<string name="download_remaining">"Shkaro të tjerë"</string>
+	<!---->
+	<string name="downloading_remaining">"Po ngarkohet..."</string>
+	<!---->
+	<string name="unable_to_connect">"Nuk mund të lidhet"</string>
+	<!---->
+	<string name="need_connection_prompt">"Duhet të keni lidhje në rrjet për ta përdorur këtë aplikacion. Ju lutem ndizeni rrjetin e celularit ose Wi-Fi në Cilësimet."</string>
+	<!---->
+	<string name="connection_settings">"Cilësimet"</string>
+	<!---->
+	<string name="priority_action">"Prioriteti"</string>
+	<!---->
+	<string name="set_priority_dialog_title">"Vendosni prioritet"</string>
+	<!---->
+	<string name="dialog_warning">"Paralajmërim\u2026"</string>
+	<!---->
+	<string name="dialog_warning_message">"Versioni i aplikacionit të shkëmbimit nuk është i njëjtë me Email, vazhdojmë?"</string>
+	<!---->
+	<string name="toast_warning_text">"Versioni i aplikacionit të shkëmbimit nuk është i njëjtë me Email"</string>
+	<!---->
+	<string name="tips_sync_alter_title">"Sinkronizimi"</string>
+	<!---->
+	<string name="tips_sync_alter_content">"Nuk keni lidhje Wi-Fi, nëse do të vazhdoni sinkronizimin?"</string>
+	<!---->
+	<string name="tips_sync_alter_yes">"Po"</string>
+	<!---->
+	<string name="tips_sync_alter_no">"Jo"</string>
+	<!---->
+	<string name="message_invite_tentative_title">"Përkohësisht"</string>
+	<!---->
+	<string name="message_invite_decline_title">"Refuzo"</string>
+	<!---->
+	<string name="message_invite_accent_title">"Merr"</string>
+	<!---->
+	<string name="drm_file_remind">"Ky skedar nuk lejohet të ngarkohet ose të ndahet sepse skedari është DRM i mbrojtur!"</string>
+	<!---->
+	<string name="not_add_more_recipients">"S\'mund të shtoni marrës mbi <xliff:g id="maxLimit">%1$d</xliff:g> në të njëjtën kohë."</string>
+	<!---->
+	<string name="global_search_label">"Email"</string>
+	<!---->
+	<string name="global_search_hint">"Kërko email"</string>
+	<!---->
+	<string name="global_search_description">"Dërguesit, lënda dhe tekst"</string>
+	<!---->
+	<string name="remote_search_failed">"Kërkimi i serverit është i pasuksesshëm!"</string>
+	<!---->
+	<string name="searching_on_server">"Kërko në serverin"</string>
+	<!---->
+	<string name="searching_on_server_title">"Kërko \"<xliff:g id="account_name">%s</xliff:g>\" në serverin"</string>
+	<!---->
+	<string name="searching_all_fields_on_sever">"Kërkoji të gjitha fusha në serverin"</string>
+	<!---->
+	<string name="search_field_subject">"Lënda"</string>
+	<!---->
+	<string name="search_field_receiver">"Marrës"</string>
+	<!---->
+	<string name="search_field_sender">"Dërgues"</string>
+	<!---->
+	<string name="search_field_body">"Përmbajtja"</string>
+	<!---->
+	<string name="search_field_all">"Të gjitha"</string>
+	<!---->
+	<string name="search_field_attachment">"Shtojcë"</string>
+	<!---->
+	<string name="select_all">"Zgjidh të gjithë"</string>
+	<!---->
+	<string name="deselect_all">"Çshënoji të gjithë"</string>
+	<!---->
+	<string name="need_wifi_connection_prompt">"Duhet të keni lidhje në rrjet për ta përdorur këtë aplikacion. Ju lutem ndizeni rrjetin e celularit ose Wi-Fi në Cilësimet."</string>
+	<!---->
+	<string name="account_setup_names_account_name_des_label">"opsionale"</string>
+	<!---->
+	<string name="account_setup_names_user_name_des_label">"shfaqet në mesazhet dalëse"</string>
+	<!---->
+	<string name="finish_action">"Mbaro"</string>
+	<!---->
+	<string name="copy_email">"Kopjo adresën e e-postës"</string>
+	<!---->
+	<string name="out_of_office_syncing">"Sinkronizimi jashtë zyrës së cilësimeve!"</string>
+	<!---->
+	<string name="out_of_office_fail">"Dështim sinkronizimi jashtë zyrës së cilësimeve!"</string>
+	<!---->
+	<string name="out_of_office_success">"Sukses i sinkronizimi jashtë zyrës së cilësimeve!"</string>
+	<!---->
+	<string name="manual_sync_when_roaming">"Sinkronizoni ndërsa jeni në roaming"</string>
+	<!---->
+	<string name="manual_sync_when_roaming_summery">"Rifreskoni vetëm manualisht"</string>
+	<!---->
+	<string name="manual_sync_when_roaming_toast">"Rrëshqitni poshtë për të rifreskuar manualisht kur jeni në roaming"</string>
+	<!---->
+	<string name="manual_sync_when_roaming_refresh">"Rifreskoni"</string>
+	<!---->
+	<string name="server_rule_can_not_change">"Rregullat e serverit nuk mund të ndërrohen"</string>
+	<!---->
+	<string name="server_rules">"Rregullat e serverit"</string>
+	<!---->
+	<string name="confirm_forward_message">"Jo të gjitha dosjet janë shkarkuar. Vazhdo pa shkarkuar dosjet?"</string>
+	<!---->
+	<string name="confirm_forward_cancel">"Anulloni"</string>
+	<!---->
+	<string name="confirm_forward_drop_unload_attachment">"Pasoni"</string>
+	<!---->
+	<string name="mail_not_download_completely">"Prisni derisa shkarkimi të mbarojë"</string>
+	<!---->
+	<string name="account_settings_inline_images_lable">"Imazhet"</string>
+	<!---->
+	<string name="account_settings_inline_always_show">"Gjithmonë shfaq"</string>
+	<!---->
+	<string name="account_settings_inline_ask_before_show">"Pyesni para shfaqjes"</string>
+	<!---->
+	<string name="conversation_time_after_today">"Pas ditës së sotme"</string>
+	<!---->
+	<string name="conversation_time_today">"Sot"</string>
+	<!---->
+	<string name="conversation_time_yesterday">"Dje"</string>
+	<!---->
+	<string name="conversation_time_this_month">"Këtë muaj"</string>
+	<!---->
+	<string name="conversation_time_elapse_just_now">"Këtë çast"</string>
+	<!---->
+	<string name="conversation_time_elapse_minute">"<xliff:g id="count">%d</xliff:g> minuta"</string>
+	<!---->
+	<string name="message_in_queued_status">"Në listën e pritjes"</string>
+	<plurals name="send_failed_messages">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> e-postë s\'u dërgua"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> e-postat s\'u dërguan"</item>
+	</plurals>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_label">"Sinkronizoni kalendarët nga"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_2weeks">"Dy java"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_1month">"Një muaj"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_3months">"Tre muaj"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_6months">"Gjashtë muaj"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_all">"Të gjitha"</string>
+	<!---->
+	<string name="no_permission_to_open_file">"Autorizim i kujtesës kërkohet për të hapur këtë skedar"</string>
+	<!---->
+	<string name="conversation_update_time_text">"Të fundit të përditësuara:"</string>
+	<!---->
+	<string name="conversation_update_unknown_time_stamp">"I panjohur"</string>
+	<!---->
+	<string name="conversation_time_elapse_today">"Sot"</string>
+	<!---->
+	<string name="save_to_attachment">"Ruaj në"</string>
+	<!---->
+	<string name="download_settings_title">"Ruaje shtojcën"</string>
+	<!---->
+	<string name="download_edit_filename_label">"Emri"</string>
+	<!---->
+	<string name="download_filepath_label">"Udhë"</string>
+	<!---->
+	<string name="download_file_size">"Madhësia"</string>
+	<!---->
+	<string name="download_time_needed">"Orë"</string>
+	<!---->
+	<string name="download_cancel">"Anulo"</string>
+	<!---->
+	<string name="download_start">"OK"</string>
+	<!---->
+	<string name="unknown_length">"I panjohur"</string>
+	<!---->
+	<string name="time_min">"min"</string>
+	<!---->
+	<string name="open_file_manager_failed">"Nuk mund të hapë Skedarin Menaxher"</string>
+	<!---->
+	<string name="attachment_not_saved">"Shtojca nuk u ruajt"</string>
+	<!---->
+	<string name="sync_calendar_title">"E pamundur të sinkronizojë Kalendar"</string>
+	<!---->
+	<string name="sync_calendar_content">"Për të sinkronizuar, lejoni shërbimet e shkëmbimit të hapin Kalendar"</string>
+	<!---->
+	<string name="sync_contacts_title">"E pamundur të sinkronizojë Kontakte"</string>
+	<!---->
+	<string name="sync_contacts_content">"Për të sinkronizuar, lejoni shërbimet e shkëmbimit të hapin Kontakte"</string>
+	<!---->
+	<string name="notification_never_ask_again">"Kurrë mos pyesni përsëri"</string>
+	<!---->
+	<string name="sync_storage_title">"Nuk mund të ruhet shtojcën"</string>
+	<!---->
+	<string name="sync_storage_content">"Për të ruajtur, lejoni shërbimet e shkëmbimit të hapin kujtesën"</string>
+	<!---->
+	<string name="oof_continue">"Vazhdoni"</string>
+	<!---->
+	<string name="permission_needed_to_add_attachments">"Për të shtuar bashkëngjitje, lejojë e-postës leje për të hyrë në ruajtjen"</string>
+	<!---->
+	<string name="permission_needed_to_check_ringtone">"Për të kontrolluar zilen, jepi emailit leje për të hyrë në hapësirën ruajtëse"</string>
+	<!---->
+	<string name="add_folder_as_attachment_fail_tips">"Nuk mund të shtoj një dosje si shtojcë"</string>
+	<!---->
+	<string name="choose_action_title">"Zgjidh aksion"</string>
+	<!---->
+	<string name="choose_action_contact">"Shto kontakt: <xliff:g example="4" id="email_address">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="choose_action_email">"E-postë: <xliff:g example="4" id="email_address">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="choose_action_message">"Mesazh: <xliff:g example="4" id="email_address">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="account_setup_basics_exit_action">"Dil"</string>
+</resources>

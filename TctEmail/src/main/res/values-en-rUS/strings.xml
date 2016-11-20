@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!-- no translation found for app_name -->
+	<skip />
+	<!-- no translation found for photo_view_count -->
+	<skip />
+	<!---->
+	<string name="retry">"Retry"</string>
+	<!---->
+	<string name="failed">"Couldn\'t load image"</string>
+	<!-- no translation found for more_string -->
+	<skip />
+	<!---->
+	<string name="copy_email">"Copy email address"</string>
+	<!---->
+	<string name="copy_number">"Copy phone number"</string>
+	<!---->
+	<string name="action_label">"Return"</string>
+	<!---->
+	<string name="search_hint">"Search email"</string>
+	<!---->
+	<string name="compose">"Compose"</string>
+	<!---->
+	<string name="activity_folder_selection">"Choose folder"</string>
+	<!---->
+	<string name="activity_preferences">"Settings"</string>
+	<!---->
+	<string name="tap_to_configure">"Touch to set up"</string>
+	<!---->
+	<string name="loading_conversations">"Loading\u2026"</string>
+	<!---->
+	<string name="non_synced_folder_description">"To view conversations, sync this folder."</string>
+	<!---->
+	<string name="tap_to_configure_folder_sync">"Sync folder"</string>
+	<!-- no translation found for def_email_accountGermanSignature -->
+	<skip />
+	<!---->
+	<string name="send_failed">"Message wasn\'t sent."</string>
+	<!-- no translation found for permission_needed -->
+	<skip />
+	<!---->
+	<string name="permission_needed_label">"Permissions needed"</string>
+	<!---->
+	<string name="permission_grant_access_label">"Grant access"</string>
+	<!---->
+	<string name="permission_grant_access_descs">"Change permissions in your device\'s app settings. Give Email access to Contacts."</string>
+	<!---->
+	<string name="permission_grant_exit">"Exit"</string>
+	<!---->
+	<string name="permission_grant_go_setting">"Settings"</string>
+	<!---->
+	<string name="permission_needed_to_save_attachment">"To save attachment, allow Email permissions to access storage"</string>
+	<!---->
+	<string name="permission_needed_to_add_attachment">"To add attachment, allow Email permissions to access storage"</string>
+	<!---->
+	<string name="permission_needed_to_see_calendar">"To see in calendar, allow Email permissions to access Calendar"</string>
+</resources>

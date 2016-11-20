@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!-- no translation found for app_name -->
+	<skip />
+	<!-- no translation found for photo_view_count -->
+	<skip />
+	<!---->
+	<string name="retry">"Yritä uudelleen"</string>
+	<!---->
+	<string name="failed">"Kuvaa ei voitu ladata"</string>
+	<!-- no translation found for more_string -->
+	<skip />
+	<!---->
+	<string name="copy_email">"Kopioi sähköpostiosoite"</string>
+	<!---->
+	<string name="copy_number">"Kopioi puhelinnumero"</string>
+	<!---->
+	<string name="action_label">"Palaa"</string>
+	<!---->
+	<string name="search_hint">"Hae sähköpostista"</string>
+	<!---->
+	<string name="compose">"Viestin kirjoitus"</string>
+	<!---->
+	<string name="activity_folder_selection">"Valitse kansio"</string>
+	<!---->
+	<string name="activity_preferences">"Asetukset"</string>
+	<!---->
+	<string name="tap_to_configure">"Määritä koskettamalla"</string>
+	<!---->
+	<string name="loading_conversations">"Ladataan…"</string>
+	<!---->
+	<string name="non_synced_folder_description">"Synkronoi tämä kansio keskustelujen näyttämistä varten."</string>
+	<!---->
+	<string name="tap_to_configure_folder_sync">"Synkronoi kansio"</string>
+	<!-- no translation found for def_email_accountGermanSignature -->
+	<skip />
+	<!---->
+	<string name="send_failed">"Viestiä ei lähetetty."</string>
+	<!-- no translation found for permission_needed -->
+	<skip />
+	<!---->
+	<string name="permission_needed_label">"Käyttöoikeus tarvitaan"</string>
+	<!---->
+	<string name="permission_grant_access_label">"Salli pääsyoikeus"</string>
+	<!---->
+	<string name="permission_grant_access_descs">"Muuta oikeuksia laitteesi sovellusasetuksissa. Anna Sähköpostille käyttöoikeus Yhteystietoihin."</string>
+	<!---->
+	<string name="permission_grant_exit">"Lopeta"</string>
+	<!---->
+	<string name="permission_grant_go_setting">"Asetukset"</string>
+	<!---->
+	<string name="permission_needed_to_save_attachment">"Tallentaaksesi liite anna Sähköpostille oikeus tallennustilaan"</string>
+	<!---->
+	<string name="permission_needed_to_add_attachment">"Lisätäksesi liite mahdollista Sähköpostille pääsy tallennustilaan"</string>
+	<!---->
+	<string name="permission_needed_to_see_calendar">"Nähdäksesi kalenterissa, anna Sähköpostille oikeus käyttää Kalenteria"</string>
+</resources>

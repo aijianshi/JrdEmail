@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Tue Sep 20 16:24:06 CST 2016
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="exchange_name">"Kurumsal"</string>
+	<!---->
+	<string name="exchange_name_alternate">"Microsoft Exchange ActiveSync"</string>
+	<!---->
+	<string name="meeting_accepted">"Kabul edildi: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_declined">"Reddedildi: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_tentative">"Belirsiz: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_canceled">"İptal Edildi: <xliff:g id="SUBJECT">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_updated">"Günellenen: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_when">"Zaman: <xliff:g id="when">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_where">"Yer: <xliff:g id="where">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_recurring">"Zaman: <xliff:g example="Tue, Mar 10, 2010 at 2:30 pm" id="eventdate">%s</xliff:g> (yinelenen)"</string>
+	<!---->
+	<string name="meeting_allday">"Zaman: <xliff:g example="Tue, Mar 10, 2010 " id="eventdate">%s</xliff:g> (tüm gün)"</string>
+	<!---->
+	<string name="meeting_allday_recurring">"Zaman: <xliff:g example="Tue, Mar 10, 2010 " id="eventdate">%s</xliff:g> (tüm gün, yinelenen)"</string>
+	<!---->
+	<string name="notification_exchange_calendar_added">"Exchange takvimi eklendi"</string>
+	<!---->
+	<string name="app_name">"Exchange Hizmetleri"</string>
+	<!---->
+	<string name="exception_cancel">"Bu olay şu tarih için iptal edildi: <xliff:g id="DATE">%s</xliff:g>"</string>
+	<!---->
+	<string name="exception_updated">"Bu olayın ayrıntıları şunun için değiştirildi: <xliff:g id="date">%s</xliff:g>"</string>
+	<!---->
+	<string name="policy_dont_allow_storage_cards">"Depolama kartlarına izin verme"</string>
+	<!---->
+	<string name="policy_dont_allow_unsigned_apps">"İmzasız uygulamalara izin verme"</string>
+	<!---->
+	<string name="policy_dont_allow_unsigned_installers">"İmzasız uygulama yükleyicilere izin verme"</string>
+	<!---->
+	<string name="policy_dont_allow_wifi">"Kablosuza izin verme"</string>
+	<!---->
+	<string name="policy_dont_allow_text_messaging">"Kısa mesaja izin verme"</string>
+	<!---->
+	<string name="policy_dont_allow_pop_imap">"POP3 veya IMAP hesaplarına izin verme"</string>
+	<!---->
+	<string name="policy_dont_allow_irda">"Kızılötesi iletişime izin verme"</string>
+	<!---->
+	<string name="policy_dont_allow_html">"HTML e-postaya izin verme"</string>
+	<!---->
+	<string name="policy_dont_allow_browser">"Tarayıcılara izin verme"</string>
+	<!---->
+	<string name="policy_dont_allow_consumer_email">"Tüketici e-postasına izin verme"</string>
+	<!---->
+	<string name="policy_dont_allow_internet_sharing">"İnternet paylaşımına izin verme"</string>
+	<!---->
+	<string name="policy_require_smime">"İletilerin SMIME olmasını gerektir"</string>
+	<!---->
+	<string name="policy_bluetooth_restricted">"Bluetooth kullanımını kısıtla"</string>
+	<!---->
+	<string name="policy_app_blacklist">"Belirtilen uygulamalara izin verme"</string>
+	<!---->
+	<string name="policy_app_whitelist">"Sadece belirtilen uygulamalara izin ver"</string>
+	<!---->
+	<string name="policy_text_truncation">"Metin e-posta boyutunu kısıtla"</string>
+	<!---->
+	<string name="policy_html_truncation">"HTML e-posta boyutunu kısıtla"</string>
+	<!---->
+	<string name="policy_require_sd_encryption">"SD kart şifrelemesi gerektir"</string>
+	<!---->
+	<string name="policy_dont_allow_attachments">"Eklere izin verme"</string>
+	<!---->
+	<string name="policy_max_attachment_size">"Ek boyutunu kısıtla"</string>
+	<!---->
+	<string name="policy_require_manual_sync_roaming">"Dolaşımda sadece elle senk. izin ver"</string>
+	<!---->
+	<string name="policy_require_encryption">"Cihaz şifrelemesi gerektir"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_auto">"Otomatik"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1day">"Bir gün"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_3days">"Üç gün"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1week">"Bir hafta"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_2weeks">"İki hafta"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1month">"Bir ay"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_all">"Tümü"</string>
+	<!---->
+	<string name="auth_error_notification_title">"Kimlik Doğrulama Hatası"</string>
+	<!---->
+	<string name="auth_error_notification_text">"<xliff:g id="account">%s</xliff:g> hesap ayarlarını düzenlemek için dokunun"</string>
+	<!---->
+	<string name="email_settings_not_available">"E-posta uygulamasını görüntüleme ayarlarına yeniden etkinleştirin."</string>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string-array name="set_priority_dialog_options">
+		<!--inherit from default language-->
+		<item>"High"</item>
+		<!--inherit from default language-->
+		<item>"Normal"</item>
+		<!--inherit from default language-->
+		<item>"Low"</item>
+	</string-array>
+	<!-- no translation found for account_settings_check_frequency_entries -->
+	<skip />
+	<!-- no translation found for account_att_settings_check_frequency_entries -->
+	<skip />
+	<!-- no translation found for account_att_settings_check_frequency_entries_push -->
+	<skip />
+	<!-- no translation found for account_settings_check_frequency_entries_push -->
+	<skip />
+	<!-- no translation found for account_settings_mail_window_entries -->
+	<skip />
+	<!-- no translation found for account_settings_mail_window_entries_with_default -->
+	<skip />
+	<!-- no translation found for default_quick_responses -->
+	<skip />
+	<!-- no translation found for Email_POP3_Download_Options -->
+	<skip />
+	<!-- no translation found for Email_Download_Options -->
+	<skip />
+	<!-- no translation found for search_field_list -->
+	<skip />
+	<!-- no translation found for Email_inline_images_show -->
+	<skip />
+	<!-- no translation found for account_settings_mail_calendar_window_entries -->
+	<skip />
+	<string-array name="mail_sort_types">
+		<item>"အရြယ္အစား"</item>
+		<item>"မဖတ်ရသေးပါ"</item>
+		<!--inherit from default language-->
+		<item>"From (Z-A)"</item>
+		<!--inherit from default language-->
+		<item>"Attachments"</item>
+		<!--inherit from default language-->
+		<item>"Importance"</item>
+		<!--inherit from default language-->
+		<item>"Size"</item>
+		<!--inherit from default language-->
+		<item>"Unread"</item>
+	</string-array>
+</resources>

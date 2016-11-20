@@ -1,0 +1,1749 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Tue Sep 20 16:24:06 CST 2016
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="permission_read_attachment_label">"ای میل منسلکات پڑھیں"</string>
+	<!---->
+	<string name="permission_read_attachment_desc">"ایپ کو آپ کے ای میل منسلکات پڑھنے کی اجازت دیتا ہے۔"</string>
+	<!---->
+	<string name="permission_access_provider_label">"ای میل فراہم کنندہ ڈیٹا تک رسائی حاصل کریں"</string>
+	<!---->
+	<string name="permission_access_provider_desc">"اپلیکیشن کو آپ کے ای میل ڈیٹا بیس، بشمول وصول کردہ پیغامات، بھیجے گئے پیغامات، یوزر نیم، اور پاس ورڈز تک رسائی کی اجازت دیتا ہے۔"</string>
+	<!---->
+	<string name="debug_title">"ڈی بگ"</string>
+	<!---->
+	<string name="next_action">"اگلا"</string>
+	<!---->
+	<string name="okay_action">"ٹھیک ہے"</string>
+	<!---->
+	<string name="cancel_action">"منسوخ کریں"</string>
+	<!---->
+	<string name="previous_action">"پچھلا"</string>
+	<!---->
+	<string name="done_action">"ہو گیا"</string>
+	<!---->
+	<string name="create_action">"نیا بنائیں"</string>
+	<!---->
+	<string name="quick_responses_empty_view">"کوئی فوری جوابات نہیں۔"</string>
+	<!---->
+	<string name="account_settings_action">"اکاؤنٹ کی ترتیبات"</string>
+	<!---->
+	<string name="status_network_error">"کنیکشن کا مسئلہ۔"</string>
+	<plurals name="move_messages">
+		<item quantity="one">"پیغام منتقل کریں"</item>
+		<item quantity="other">"پیغامات منتقل کریں"</item>
+	</plurals>
+	<!---->
+	<string name="cannot_move_protocol_not_supported_toast">"POP3 اکاؤنٹس پر منتقلی تعاون یافتہ نہیں ہے۔"</string>
+	<!---->
+	<string name="cannot_move_multiple_accounts_toast">"منتقل نہیں کرسکتا کیونکہ انتخاب میں متعدد اکاؤنٹس شامل ہیں۔"</string>
+	<!---->
+	<string name="cannot_move_special_mailboxes_toast">"ڈرافٹس، آؤٹ باکس، اور مرسلہ کے پیغامات کو منتقل نہیں کیا جاسکتا۔"</string>
+	<!---->
+	<string name="mailbox_name_display_inbox">"ان باکس"</string>
+	<!---->
+	<string name="mailbox_name_display_outbox">"آؤٹ باکس"</string>
+	<!---->
+	<string name="mailbox_name_display_drafts">"ڈرافٹس"</string>
+	<!---->
+	<string name="mailbox_name_display_trash">"ردی"</string>
+	<!---->
+	<string name="mailbox_name_display_sent">"مرسلہ"</string>
+	<!---->
+	<string name="mailbox_name_display_junk">"فضول"</string>
+	<!---->
+	<string name="mailbox_name_display_starred">"ستارہ کا نشان لگا ہوا"</string>
+	<!---->
+	<string name="mailbox_name_display_unread">"بغیر پڑھا ہو"</string>
+	<!---->
+	<string name="account_folder_list_summary_inbox">"ان باکس"</string>
+	<!---->
+	<string name="account_folder_list_summary_starred">"ستارہ کا نشان لگا ہوا"</string>
+	<!---->
+	<string name="account_folder_list_summary_drafts">"ڈرافٹس"</string>
+	<!---->
+	<string name="account_folder_list_summary_outbox">"آؤٹ باکس"</string>
+	<!---->
+	<string name="mailbox_list_account_selector_combined_view">"مخلوط منظر"</string>
+	<!---->
+	<string name="message_compose_fwd_header_fmt">"\n\n-------- اصل پیغام --------\nموضوع: <xliff:g id="subject">%1$s</xliff:g>\nمنجانب: <xliff:g id="sender">%2$s</xliff:g>\nبنام: <xliff:g id="to">%3$s</xliff:g>\nنقل: <xliff:g id="cc">%4$s</xliff:g>\n\n"</string>
+	<!---->
+	<string name="message_compose_insert_quick_response_list_title">"فوری ردعمل داخل کریں"</string>
+	<!---->
+	<string name="message_compose_insert_quick_response_menu_title">"فوری ردعمل داخل کریں"</string>
+	<!---->
+	<string name="message_view_attachment_background_load">"آپ کے آگے بھیجے گئے پیغام میں ایک یا زیادہ منسلکات بھیجنے سے پہلے اپ لوڈ کئے جائیں گے۔"</string>
+	<!---->
+	<string name="attachment_not_found">"منسلکہ ڈاؤن لوڈ نہیں کرسکتا۔"</string>
+	<!---->
+	<string name="message_decode_error">"پیغام ڈی کوڈ کرتے وقت ایک غیر متوقع نقص تھا۔"</string>
+	<!---->
+	<string name="forward_download_failed_ticker">"ایک یا زیادہ منسلکات آگے نہیں بڑھا سکتا۔"</string>
+	<!---->
+	<string name="forward_download_failed_title">"منسلکہ آگے نہیں بھیجا گيا"</string>
+	<!---->
+	<string name="login_failed_ticker">"<xliff:g id="account_name">%s</xliff:g> سائن ان ناکام رہا"</string>
+	<!---->
+	<string name="login_failed_title">"سائن ان نہیں کرسکتا"</string>
+	<plurals name="message_view_attachment_bytes">
+		<item quantity="one">"<xliff:g example="1" id="size_in_bytes">%d</xliff:g>بائٹ"</item>
+		<item quantity="other">"<xliff:g example="279" id="size_in_bytes">%d</xliff:g>B"</item>
+	</plurals>
+	<plurals name="message_view_attachment_kilobytes">
+		<item quantity="one">"<xliff:g example="1" id="size_in_kilobytes">%d</xliff:g>Kبائٹ"</item>
+		<item quantity="other">"<xliff:g example="279" id="size_in_kilobytes">%d</xliff:g>کلو بائٹ"</item>
+	</plurals>
+	<plurals name="message_view_attachment_megabytes">
+		<item quantity="one">"<xliff:g example="1" id="size_in_megabytes">%d</xliff:g>میگابائٹ"</item>
+		<item quantity="other">"<xliff:g example="279" id="size_in_megabytes">%d</xliff:g>میگا بائٹ"</item>
+	</plurals>
+	<plurals name="message_view_attachment_gigabytes">
+		<item quantity="one">"<xliff:g example="1" id="size_in_gigabytes">%d</xliff:g>گیگا بائٹ"</item>
+		<item quantity="other">"<xliff:g example="279" id="size_in_gigabytes">%d</xliff:g>گیگا بائٹ"</item>
+	</plurals>
+	<!---->
+	<string name="account_setup_basics_title">"اکاؤنٹ سیٹ اپ"</string>
+	<!---->
+	<string name="oauth_authentication_title">"اجازت طلب کررہا ہے"</string>
+	<!---->
+	<string name="sign_in_title">"لاگ ان"</string>
+	<!---->
+	<string name="oauth_error_description">"تصدیق کرنے سے قاصر"</string>
+	<!---->
+	<string name="password_warning_label">"ای میل پتہ یا پاس ورڈ غلط ہے"</string>
+	<!---->
+	<string name="email_confirmation_label">"ای میل پتہ"</string>
+	<!---->
+	<string name="account_setup_basics_headline">"ای میل اکاؤنٹ"</string>
+	<!---->
+	<string name="accounts_welcome">"آپ محض چند اقدامات میں اپنا اکاؤنٹ ترتیب دے سکتے ہیں۔"</string>
+	<!---->
+	<string name="account_setup_basics_email_label">"ای میل پتہ"</string>
+	<!---->
+	<string name="account_setup_basics_email_flying_label">"ای میل"</string>
+	<!---->
+	<string name="or_label">"یا"</string>
+	<!---->
+	<string name="sign_in_with_google">"Google کے ساتھ سائن ان کریں"</string>
+	<!---->
+	<string name="account_setup_basics_password_label">"پاس ورڈ"</string>
+	<!---->
+	<string name="password_hint">"پاس ورڈ"</string>
+	<!---->
+	<string name="signed_in_with_service_label">"%s کے ساتھ سائن ان ہوگیا"</string>
+	<!---->
+	<string name="authentication_label">"توثیقی عمل"</string>
+	<!---->
+	<string name="add_authentication_label">"تصدیق شامل کریں"</string>
+	<!---->
+	<string name="clear_authentication_label">"تصدیق مٹائیں"</string>
+	<!---->
+	<string name="account_setup_basics_manual_setup_action">"دستی سیٹ اپ"</string>
+	<!---->
+	<string name="account_setup_username_password_toast">"ایک قابل قبول ای میل پتہ اور پاس ورڈ ٹائپ کریں۔"</string>
+	<!---->
+	<string name="account_duplicate_dlg_title">"دوہرا اکاؤنٹ"</string>
+	<!---->
+	<string name="account_duplicate_dlg_message_fmt">"آپ پہلے ہی اکاؤنٹ \"<xliff:g id="duplicate">%s</xliff:g>\"کے لیے یہ یوزر نیم استعمال کررہے ہیں۔"</string>
+	<!---->
+	<string name="account_password_spaces_error">"یہ پاس ورڈ ایک یا مزید خالی جگہ والی علامتوں سے شروع ہوتا ہے۔ متعدد سرورز خالی جگہوں کے ساتھ پاس ورڈ کو تعاون نہیں کرتے۔"</string>
+	<!---->
+	<string name="account_setup_check_settings_retr_info_msg">"اکاؤنٹ تفصیلات دوبارہ حاصل کررہا ہے…"</string>
+	<!---->
+	<string name="account_setup_check_settings_check_incoming_msg">"سرور سیٹنگز کی پڑتال کررہا ہے…"</string>
+	<!---->
+	<string name="account_setup_check_settings_check_outgoing_msg">"ایس ایم ٹی پی سیٹنگز کی پڑتال کررہا ہے…"</string>
+	<!---->
+	<string name="account_setup_creating_account_msg">"اکاؤنٹ تخلیق کررہا ہے…"</string>
+	<!---->
+	<string name="account_setup_ab_headline">"اکاؤنٹ کی قسم کی تصدیق کریں"</string>
+	<!---->
+	<string name="account_setup_ab_instructions_format">"آپ نے بتایا کہ <xliff:g id="email">%1$s</xliff:g> uses <xliff:g id="userProtocol">%2$s</xliff:g>, but the account may use <xliff:g id="providerProtocol">%3$s</xliff:g>"</string>
+	<!---->
+	<string name="account_setup_names_title">"اکاؤنٹ سیٹ اپ"</string>
+	<!---->
+	<string name="account_setup_names_headline">"آپ کا اکاؤنٹ ترتیب پاگيا اور ای میلز پہنچ ہی رہے ہیں!"</string>
+	<!---->
+	<string name="account_setup_names_account_name_label">"اس اکاؤنٹ کو کوئی نام دیں"</string>
+	<!---->
+	<string name="account_setup_names_user_name_label">"آپ کا نام"</string>
+	<!---->
+	<string name="account_setup_names_user_name_empty_error">"یہ فیلڈ خالی نہیں رہ سکتا۔"</string>
+	<!---->
+	<string name="account_setup_account_type_title">"اکاؤنٹ سیٹ اپ"</string>
+	<!---->
+	<string name="account_setup_account_type_headline">"اکاؤنٹ کی قسم"</string>
+	<!---->
+	<string name="account_setup_account_type_instructions">"یہ کس قسم کا اکاؤنٹ ہے؟"</string>
+	<!---->
+	<string name="account_setup_incoming_title">"اکاؤنٹ سیٹ اپ"</string>
+	<!---->
+	<string name="account_setup_incoming_headline">"آنے والے سروَر کی سیٹنگز"</string>
+	<!---->
+	<string name="account_setup_incoming_username_label">"صارف نام"</string>
+	<!---->
+	<string name="account_setup_incoming_password_label">"پاس ورڈ"</string>
+	<!---->
+	<string name="account_setup_password_subheading">"پاس ورڈ"</string>
+	<!---->
+	<string name="account_setup_incoming_server_label">"سرور"</string>
+	<!---->
+	<string name="account_setup_incoming_port_label">"پورٹ"</string>
+	<!---->
+	<string name="account_setup_incoming_security_label">"سیکیورٹی قسم"</string>
+	<!---->
+	<string name="account_setup_incoming_domain_label">"ڈومین"</string>
+	<!---->
+	<string name="account_setup_incoming_add_domain_label">"ڈومین شامل کریں"</string>
+	<!---->
+	<string name="account_setup_incoming_security_none_label">"کوئی نہیں"</string>
+	<!---->
+	<string name="account_setup_incoming_security_ssl_trust_certificates_label">"ایس ایس ایل/ٹی ایس ایل (سب اسناد قبول کریں)"</string>
+	<!---->
+	<string name="account_setup_incoming_security_ssl_label">"ایس ایس ایل/ٹی ایل ایس"</string>
+	<!---->
+	<string name="account_setup_incoming_security_tls_trust_certificates_label">"اسٹارٹلس (تمام اسناد قبول کریں)"</string>
+	<!---->
+	<string name="account_setup_incoming_security_tls_label">"ٹی ایل ایس شروع کریں"</string>
+	<!---->
+	<string name="account_setup_incoming_delete_policy_label">"سروَر سے ای میل کو حذف کریں"</string>
+	<!---->
+	<string name="account_setup_incoming_delete_policy_never_label">"کبھی نہیں"</string>
+	<!---->
+	<string name="account_setup_incoming_delete_policy_delete_label">"جب میں ان باکس سے حذف کروں"</string>
+	<!---->
+	<string name="account_setup_incoming_imap_path_prefix_label">"آئی ایم اے پی راستہ سابقہ"</string>
+	<!---->
+	<string name="account_setup_incoming_imap_path_prefix_hint">"اختیاری"</string>
+	<!---->
+	<string name="account_setup_outgoing_title">"اکاؤنٹ سیٹ اپ"</string>
+	<!---->
+	<string name="account_setup_outgoing_headline">"باہر جانے والے سروَر کی سیٹنگز"</string>
+	<!---->
+	<string name="account_setup_outgoing_smtp_server_label">"ایس ٹی ایم پی سرور"</string>
+	<!---->
+	<string name="account_setup_outgoing_port_label">"پورٹ"</string>
+	<!---->
+	<string name="account_setup_outgoing_security_label">"سیکیورٹی قسم"</string>
+	<!---->
+	<string name="account_setup_outgoing_require_login_label">"لاگ ان درکار ہے"</string>
+	<!---->
+	<string name="account_setup_outgoing_username_label">"صارف نام"</string>
+	<!---->
+	<string name="account_setup_outgoing_password_label">"پاس ورڈ"</string>
+	<!---->
+	<string name="account_setup_exchange_certificate_title">"یوزر سرٹیفیکیٹ"</string>
+	<!---->
+	<string name="account_setup_exchange_select_certificate">"منتخب کریں"</string>
+	<!---->
+	<string name="account_setup_exchange_use_certificate">"یوزر سرٹیفیکیٹ استعمال کریں"</string>
+	<!---->
+	<string name="account_setup_exchange_remove_certificate">"ہٹائیں"</string>
+	<!---->
+	<string name="account_setup_exchange_no_certificate">"کوئی نہیں"</string>
+	<!---->
+	<string name="account_setup_exchange_device_id_label">"موبائل ڈیوائس آئی ڈی"</string>
+	<!---->
+	<string name="account_setup_options_title">"اکاؤنٹ کی ترتیبات"</string>
+	<!---->
+	<string name="account_setup_options_headline">"اکاؤنٹ کے اختیارات"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_label">"سنک فریکوئنسی"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_never">"کبھی نہیں"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_push">"خودکار (پش)"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_5min">"ہر 5 منٹ پر"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_10min">"ہر 10 منٹ پر"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_15min">"ہر 15 منٹ پر"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_30min">"ہر 30 منٹ پر"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_1hour">"ہر گھنٹہ پر"</string>
+	<!---->
+	<string name="account_setup_options_notify_label">"ای میل پہنچنے پر مجھے مطلع کریں"</string>
+	<!---->
+	<string name="account_setup_options_sync_contacts_label">"اس اکاؤنٹ سے رابطے سنک کریں"</string>
+	<!---->
+	<string name="account_setup_options_sync_calendar_label">"اس اکاؤنٹ سے کیلنڈر سنک کریں۔"</string>
+	<!---->
+	<string name="account_setup_options_sync_email_label">"اس اکاؤنٹ سے ای میل سنک کریں"</string>
+	<!---->
+	<string name="account_setup_options_background_attachments_label">"وائی-فائی سے کنکٹ ہوتے وقت منسلکات خودکار طور پر ڈاؤن لوڈ کریں"</string>
+	<!---->
+	<string name="account_setup_failed_dlg_title">"ختم نہیں کرسکتا"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_label">"سے ای میل ہم وقت ساز کریں:"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_auto">"خودکار"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1day">"گزشتہ دن"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_3days">"گزشتہ تین دن"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1week">"گزشتہ ہفتہ"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_2weeks">"گزشتہ دو ہفتے"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1month">"پچھلے مہینے"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_all">"سبھی"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_default">"اکاؤنٹ ڈیفالٹ استعمال کریں"</string>
+	<!---->
+	<string name="account_setup_failed_dlg_auth_message">"یوزر نیم یا پاس ورڈ غلط ہے۔"</string>
+	<!---->
+	<string name="account_setup_failed_dlg_auth_message_fmt">"لاگ ان ناکام\n(<xliff:g id="error">%s</xliff:g>)"</string>
+	<!---->
+	<string name="account_setup_autodiscover_dlg_authfail_title">"اکاؤنٹ سیٹ اپ کے ساتھ مسئلہ"</string>
+	<!---->
+	<string name="account_setup_autodiscover_dlg_authfail_message">"یوزر نیم، پاس ورڈ، اور اکاؤنٹ سیٹنگز درست ہے۔"</string>
+	<!---->
+	<string name="account_setup_failed_dlg_certificate_message">"غیر معتبر یا غلط سرٹیفیکیٹ کے سبب سروَر سے کنیکشن قائم نہیں کیا جا سکا۔"</string>
+	<!---->
+	<string name="account_setup_failed_dlg_certificate_message_fmt">"سرور سے محفوظ طور پر مربوط نہیں ہوسکتا\n(<xliff:g id="error">%s</xliff:g>)"</string>
+	<!---->
+	<string name="account_setup_failed_certificate_required">"ایک کلائنٹ سرٹیفیکیٹ درکار ہے۔ کیا آپ کلائنٹ سرٹیفیکیٹ کے ساتھ سروَر سے مربوط ہونا چاہتے ہیں؟"</string>
+	<!---->
+	<string name="account_setup_failed_certificate_inaccessible">"یہ سرٹیفیکیٹ ناقابل قبول یا ناقابل رسائی ہے۔"</string>
+	<!---->
+	<string name="account_setup_failed_check_credentials_message">"سروَر نے ایک نقص کے ساتھ جواب دیا۔ اپنا یوزر نیم اور پاس ورڈ چیک کریں، پھر دوبارہ کوشش کریں۔"</string>
+	<!---->
+	<string name="account_setup_failed_dlg_server_message">"سرور سے مربوط نہیں ہوسکتا۔"</string>
+	<!---->
+	<string name="account_setup_failed_dlg_server_message_fmt">"سرور سے مربوط نہیں ہوسکتا\n(<xliff:g id="error">%s</xliff:g>)"</string>
+	<!---->
+	<string name="account_setup_failed_tls_required">"ٹی ایل ایس مطلوب ہے لیکن سرور سے تعاون یافتہ نہیں ہے۔"</string>
+	<!---->
+	<string name="account_setup_failed_auth_required">"تصدیقی طریقے سروَر سے تعاون یافتہ نہیں ہیں۔"</string>
+	<!---->
+	<string name="account_setup_failed_security">"نیٹ ورک سیکیورٹی کی خامی کے سبب سروَر کا کنیکشن کھول نہیں سکا۔"</string>
+	<!---->
+	<string name="account_setup_failed_ioerror">"سرور کا کنیکشن کھول نہیں سکا۔"</string>
+	<!---->
+	<string name="account_setup_failed_protocol_unsupported">"آپ نے ایک غلط سروَر پتہ ٹائپ کیا یا سروَر کے لیے ایک پروٹوکول ورژن کی ضرورت ہے جسے ای میل تعاون نہیں کرتا۔"</string>
+	<!---->
+	<string name="account_setup_failed_access_denied">"آپ کو اس سرور کے ساتھ سنک کرنے کی اجازت نہیں ہے۔ مزید معلومات کے لیے اپنے سروَر کے ایڈمنسٹریٹر سے رابطہ کریں۔"</string>
+	<!---->
+	<string name="account_setup_security_required_title">"ریموٹ سکیورٹی انتظام"</string>
+	<!---->
+	<string name="account_setup_security_policies_required_fmt">"سرور <xliff:g id="server">%s</xliff:g> یہ چاہتا ہے کہ آپ اپنے اینڈرائیڈ ڈیوائس کے کچھ سکیورٹی خصوصیات کو دور سے کنٹرول کرنے کی اجازت دیں۔ کیا آپ اس اکاؤنٹ کا سیٹ اپ مکمل کرنا چاہتے ہیں؟"</string>
+	<!---->
+	<string name="account_setup_failed_security_policies_unsupported">"سروَر کے لیے سکیورٹی خصوصیات کی ضرورت ہے جسے آپ کا اینڈرائیڈ ڈیوائس تعاون نہیں کرتا، بشمول <xliff:g id="error">%s</xliff:g>"</string>
+	<!---->
+	<string name="account_setup_username_uneditable_error">"آپ کسی اکاؤنٹ کا یوزر نیم تبدیل نہیں کرسکتے۔ ایک مختلف یوزر نیم کے ساتھ اکاؤنٹ شامل کرنے کے لیے، اکاؤنٹ شامل کریں کو چھوئیں۔"</string>
+	<!---->
+	<string name="disable_admin_warning">"تنبیہ: آپ کے ڈیوائس کا انتظام کرنے کے لئے ای میل ایپ کےاختیار کو غیر فعال کرنے سے وہ سبھی ای میل اکاؤنٹس، ساتھ ہی ان کے ای میل، رابطے، کیلنڈر واقعات، اور دیگر ڈیٹا بھی حذف ہوجائیں گے جن کو اس کی ضرورت ہے۔"</string>
+	<!---->
+	<string name="account_security_dialog_title">"سکیورٹی اپ ڈیٹ"</string>
+	<!---->
+	<string name="account_security_dialog_content_fmt">"<xliff:g id="account">%s</xliff:g> چاہتا ہے کہ آپ اپنی سکیورٹی سیٹنگز اپ ڈیٹ کریں۔"</string>
+	<!---->
+	<string name="security_unsupported_ticker_fmt">"اکاؤنٹ \"<xliff:g id="account">%s</xliff:g>\" سکیورٹی کے تقاضوں کے سبب سنک نہیں کیا جاسکتا۔"</string>
+	<!---->
+	<string name="security_needed_ticker_fmt">"اکاؤنٹ \"<xliff:g id="account">%s</xliff:g>\" سکیورٹی سیٹنگز اپ ڈیٹ چاہتا ہے۔"</string>
+	<!---->
+	<string name="security_changed_ticker_fmt">"اکاؤنٹ \"<xliff:g id="account">%s</xliff:g>\" نے اپنی سکیورٹی سیٹنگز تبدیل کردی ہے؛ یوزر کی کسی کارروائی کی ضرورت نہیں ہے۔"</string>
+	<!---->
+	<string name="security_notification_content_update_title">"سلامی کی تازہ کاری کی ضرورت ہے"</string>
+	<!---->
+	<string name="security_notification_content_change_title">"سکیورٹی پالیسیاں تبدیل ہوگئی ہیں"</string>
+	<!---->
+	<string name="security_notification_content_unsupported_title">"سکیورٹی پالیسیوں کی تکمیل نہیں ہوسکتی"</string>
+	<!---->
+	<string name="account_security_title">"ڈیوائس کی سکیورٹی"</string>
+	<!---->
+	<string name="account_security_policy_explanation_fmt">"سرور <xliff:g id="server">%s</xliff:g> یہ چاہتا ہے کہ آپ اپنے اینڈرائیڈ ڈیوائس کے کچھ سکیورٹی خصوصیات کو دور سے کنٹرول کرنے کی اجازت دیں۔"</string>
+	<!---->
+	<string name="account_setup_failed_dlg_edit_details_action">"تفصیلات کی تدوین کریں"</string>
+	<!---->
+	<string name="password_expire_warning_ticker_fmt">"<xliff:g id="account">%s</xliff:g> چاہتا ہے کہ آپ اپنا لاک اسکرین پن یا پاس ورڈ تبدیل کریں۔"</string>
+	<!---->
+	<string name="password_expire_warning_content_title">"لاک اسکرین پاس ورڈ کی میعاد ختم ہورہی ہے"</string>
+	<!---->
+	<string name="password_expired_ticker">"آپ کے لاک اسکرین پن یا پاس ورڈ کی میعاد ختم ہوچکی ہے۔"</string>
+	<!---->
+	<string name="password_expired_content_title">"لاک اسکرین پاس ورڈ کی میعاد ختم ہوگئی ہے"</string>
+	<!---->
+	<string name="password_expire_warning_dialog_title">"لاک اسکرین پاس ورڈ کی میعاد ختم ہورہی ہے"</string>
+	<!---->
+	<string name="password_expire_warning_dialog_content_fmt">"آپ کو آپ اپنا لاک اسکرین پن یا پاس ورڈ جلد ہی تبدیل کرنے کی ضرورت ہے، یا پھر <xliff:g id="account">%s</xliff:g> کے لیے ڈیٹا مٹا دیا جائے گا۔ کیا آپ اسے ابھی تبدیل کرنا چاہتے ہیں؟"</string>
+	<!---->
+	<string name="password_expired_dialog_title">"لاک اسکرین پاس ورڈ کی میعاد ختم ہوگئی ہے"</string>
+	<!---->
+	<string name="password_expired_dialog_content_fmt">"<xliff:g id="account">%s</xliff:g> آپ کے ڈیوائس سے مٹادیا جائے گا۔ آپ اپنا لاک اسکرین پن یا پاس ورڈ تبدیل کرکے اسے بحال کرسکتے ہیں۔ کیا آپ اسے ابھی تبدیل کرنا چاہتے ہیں؟"</string>
+	<!---->
+	<string name="account_settings_exit_server_settings">"غیرمحفوظ کردہ تبدیلیاں رد کریں؟"</string>
+	<!---->
+	<string name="account_settings_login_dialog_title">"سائن ان نہیں کرسکتا"</string>
+	<!---->
+	<string name="account_settings_login_dialog_content_fmt">"<xliff:g id="account">%s</xliff:g> کے لیے یوزر نیم یا پاس ورڈ غلط ہے۔ ان کو اب اپ ڈیٹ کریں؟"</string>
+	<!---->
+	<string name="account_settings_login_dialog_reason_fmt">"<xliff:g id="account">%s</xliff:g> کے لیے آپ کا لاگ ان ناکام ہوگیا؛ سرور نے بتایا: <xliff:g id="reason">%s</xliff:g> کیا آپ اپنا یوزر نیم اور/یا پاس ورڈ اپ ڈیٹ کرنا چاہتے ہیں؟"</string>
+	<!---->
+	<string name="account_settings_background_attachments_label">"منسلکات ڈاؤن لوڈ کریں"</string>
+	<!---->
+	<string name="account_settings_background_attachments_summary">"بذریعہ وائی-فائی حالیہ پیغامات کے لیے منسلکات ڈاؤن لوڈ کریں"</string>
+	<!---->
+	<string name="account_settings_notify_label">"ای میل اطلاعات"</string>
+	<!---->
+	<string name="account_settings_summary">"سنک فریکوئنسی، اطلاعات، وغیرہ"</string>
+	<!---->
+	<string name="account_settings_notify_summary">"ای میل پہنچنے پر نوٹیفیکیشن بھیجیں"</string>
+	<!---->
+	<string name="account_settings_mail_check_frequency_label">"سنک فریکوئنسی"</string>
+	<!---->
+	<string name="account_settings_incoming_label">"اندر آنیوالی سیٹنگز"</string>
+	<!---->
+	<string name="account_settings_incoming_summary">"یوزر نیم، پاس ورڈ، اور دیگر آنیوالے سرور کی سیٹنگز"</string>
+	<!---->
+	<string name="account_settings_outgoing_label">"باہر جانے والی سیٹنگز"</string>
+	<!---->
+	<string name="account_settings_outgoing_summary">"یوزر نیم، پاس ورڈ، اور دیگر باہر جانے والے سرور کی سیٹنگز"</string>
+	<!---->
+	<string name="account_settings_reply_to_category">"ترتیبات کا جواب دیں"</string>
+	<!---->
+	<string name="account_settings_reply_to_label">"ذیل کو جواب دیں"</string>
+	<!---->
+	<string name="account_settings_reply_to_invalid">"ایڈریس غیردرست ہے۔"</string>
+	<!---->
+	<string name="account_settings_enforced_label">"نافذ کردہ پالیسیاں"</string>
+	<!---->
+	<string name="account_settings_enforced_summary">"کوئی نہیں"</string>
+	<!---->
+	<string name="account_settings_unsupported_label">"غیر معاون پالیسیاں"</string>
+	<!---->
+	<string name="account_settings_unsupported_summary">"کوئی نہیں"</string>
+	<!---->
+	<string name="account_settings_retry_label">"سنک کی کوشش کریں"</string>
+	<!---->
+	<string name="account_settings_retry_summary">"اکاؤنٹ سنک کرنے کے لیے یہاں چھوئیں"</string>
+	<!---->
+	<string name="account_settings_description_label">"اکاؤنٹ نام"</string>
+	<!---->
+	<string name="account_settings_name_label">"آپ کا نام"</string>
+	<!---->
+	<string name="account_settings_edit_quick_responses_label">"فوری جوابات"</string>
+	<!---->
+	<string name="account_settings_edit_quick_responses_summary">"وہ متن تدوین کریں جو آپ اکثر ای میلز میں استعمال کرتے ہیں"</string>
+	<!---->
+	<string name="account_settings_notifications">"اطلاع کی ترتیبات"</string>
+	<!---->
+	<string name="account_settings_data_usage">"ڈیٹا کا استعمال"</string>
+	<!---->
+	<string name="account_settings_policies">"سکیورٹی پالیسیاں"</string>
+	<!---->
+	<string name="system_folders_title">"سسٹم فولڈرز"</string>
+	<!---->
+	<string name="system_folders_trash_title">"ردی فولڈر"</string>
+	<!---->
+	<string name="system_folders_trash_summary">"اپنے سروَر کا ردی فولڈر منتخب کریں"</string>
+	<!---->
+	<string name="system_folders_trash_dlg">"اپنے سروَر کا ردی فولڈر منتخب کریں"</string>
+	<!---->
+	<string name="system_folders_sent_title">"مرسلہ آئٹمژ کا فولڈر"</string>
+	<!---->
+	<string name="system_folders_sent_summary">"اپنے سروَر کے مرسلہ آئٹمز کا فولڈر منتخب کریں"</string>
+	<!---->
+	<string name="system_folders_sent_dlg">"اپنے سروَر کے مرسلہ آئٹمز کا فولڈر منتخب کریں"</string>
+	<!---->
+	<string name="edit_quick_response_dialog">"فوری جواب"</string>
+	<!---->
+	<string name="save_action">"محفوظ کریں"</string>
+	<!---->
+	<string name="account_settings_sync_contacts_enable">"رابطوں کو سنک کریں"</string>
+	<!---->
+	<string name="account_settings_sync_contacts_summary">"اس اکاؤنٹ کے لیے رابطے سنک کریں"</string>
+	<!---->
+	<string name="account_settings_sync_calendar_enable">"کیلنڈر سنک کریں"</string>
+	<!---->
+	<string name="account_settings_sync_calendar_summary">"اس اکاؤنٹ کے لیے کیلنڈر سنک کریں"</string>
+	<!---->
+	<string name="account_settings_sync_email_enable">"ای میل سنک کریں"</string>
+	<!---->
+	<string name="account_settings_sync_email_summary">"اس اکاؤنٹ کے لیے ای میل سنک کریں"</string>
+	<!---->
+	<string name="account_settings_vibrate_when_label">"وائبریٹ"</string>
+	<!---->
+	<string name="account_settings_ringtone">"رنگ ٹون چنیں"</string>
+	<!---->
+	<string name="account_settings_servers">"سرور کی سیٹنگز"</string>
+	<!---->
+	<string name="default_ringtone">"ڈیفالٹ رنگ ٹون"</string>
+	<!---->
+	<string name="default_ringtone_unkonwn">"نامعلوم رنگ ٹون"</string>
+	<!---->
+	<string name="mailbox_settings_activity_title">"سنک اختیارات"</string>
+	<!---->
+	<string name="mailbox_settings_activity_title_with_mailbox">"سنک اختیارات (<xliff:g example="Family" id="mailboxx_name">%s</xliff:g>)"</string>
+	<!---->
+	<string name="mailbox_settings_sync_enabled_label">"یہ فولڈر سنک کریں"</string>
+	<!---->
+	<string name="mailbox_settings_sync_enabled_summary">"مربوط ہونے پر پیغام ڈاؤن لوڈ ہوں گے۔"</string>
+	<!---->
+	<string name="mailbox_settings_mailbox_sync_window_label">"میل سنک کرنے کے دن"</string>
+	<!---->
+	<string name="prefDialogTitle_conversationListIcon">"مرسل کی تصویر"</string>
+	<!---->
+	<string name="provider_note_live">"صرف کچھ \"پلس\" اکاؤنٹس میں پوپ رسائی شامل ہے جو اس پروگرام کو جڑنے کی اجازت دیتا ہے۔ اگر آپ اپنے درست ای میل پتہ اور پاس ورڈ کے ساتھ سائن ان نہیں کرپارہے ہیں تو، ممکن ہے آپ کے پاس ادا شدہ \"پلس\" اکاؤنٹ نہ ہو۔ ان ای میل اکاؤنٹس تک رسائی کے لیے ویب براؤزر شروع کریں۔"</string>
+	<!---->
+	<string name="provider_note_t_online">"اس ای میل اکاؤنٹ کو سیٹ اپ کرنے سے قبل، ٹی-آن لائن ویب سائٹ پر جائیں اور پوپ 3 ای میل رسائی کے لیے ایک پاس ورڈ بنائیں۔"</string>
+	<!---->
+	<string name="exchange_name">"کارپوریٹ"</string>
+	<!---->
+	<string name="exchange_name_alternate">"Microsoft ایکسچنج فعال سنک"</string>
+	<!---->
+	<string name="system_account_create_failed">"اکاؤنٹ تخلیق نہیں کرسکتا۔ دوبارہ کوشش کریں۔"</string>
+	<!---->
+	<string name="device_admin_label">"ای میل"</string>
+	<!---->
+	<string name="device_admin_description">"سروَر-سے مخصوص سکیورٹی پالیسیاں"</string>
+	<!---->
+	<string name="settings_activity_title">"ترتیبات"</string>
+	<!---->
+	<string name="header_label_general_preferences">"عمومی سیٹنگز"</string>
+	<!---->
+	<string name="general_preference_confirm_delete_label">"حذف کرنے سے پہلے تصدیق کریں"</string>
+	<!---->
+	<string name="general_preference_confirm_send_label">"بھیجنے سے پہلے تصدیق کریں"</string>
+	<!---->
+	<string name="more_than_999">"‎999+‎"</string>
+	<!---->
+	<string name="search_hint">"تلاش کریں"</string>
+	<!---->
+	<string name="policy_dont_allow_camera">"ڈیوائس کے کیمرہ کے استعمال کی اجازت نہ دیں"</string>
+	<!---->
+	<string name="policy_require_password">"ڈیوائس کا پاس ورڈ مطلوب ہے"</string>
+	<!---->
+	<string name="policy_password_history">"حالیہ پاس ورڈز کے دوبارہ استعمال پر پابندی لگائیں"</string>
+	<!---->
+	<string name="policy_password_expiration">"میعاد ختم ہونے کے لیے پاس ورڈز درکار ہیں"</string>
+	<!---->
+	<string name="policy_screen_timeout">"اسکرین کو لاک کرنے کے لیے ایک فارغ ڈیوائس مطلوب ہے"</string>
+	<!---->
+	<string name="policy_calendar_age">"کیلنڈر واقعات سینکرونائز کرنے کی تعداد کو محدود کریں"</string>
+	<!---->
+	<string name="policy_email_age">"ای میلز سینکرونائز کرنے کی تعداد کو محدود کریں"</string>
+	<!---->
+	<string name="quick_1">"شکریہ!"</string>
+	<!---->
+	<string name="quick_2">"مجھے اچھا لگا!"</string>
+	<!---->
+	<string name="quick_3">"میں اس خط کو پڑھوں گا اور آپ کے پاس واپس آؤں گا۔"</string>
+	<!---->
+	<string name="quick_4">"اس پر گفتگو کے لیے ایک میٹنگ سیٹ اپ کرنے دیں۔"</string>
+	<!---->
+	<string name="require_manual_sync_message">"رومنگ \ پر اس اکاؤنٹ کے لیے پس منظر کا سنک غیرفعال ہے۔"</string>
+	<!---->
+	<string name="confirm_response">"جواب بھیج رہا ہے…"</string>
+	<!---->
+	<string name="no_conversations">"کوئی پیغامات نہیں۔"</string>
+	<!-- no translation found for imap_name -->
+	<skip />
+	<!-- no translation found for pop3_name -->
+	<skip />
+	<!---->
+	<string name="email_name">"ای میل"</string>
+	<!---->
+	<string name="folder_picker_title">"فولڈر اٹھانے والا"</string>
+	<!---->
+	<string name="trash_folder_selection_title">"<xliff:g id="account">%s</xliff:g> کے لیے سرور ردی والا فولڈر منتخب کریں"</string>
+	<!---->
+	<string name="sent_folder_selection_title">"<xliff:g id="account">%s</xliff:g> کے لیے سرور آئٹمز والا فولڈر منتخب کریں"</string>
+	<!---->
+	<string name="account_waiting_for_folders_msg">"فولڈر فہرست لوڈ کررہا ہے..."</string>
+	<!---->
+	<string name="no_quick_responses">"عدم دستیاب"</string>
+	<!---->
+	<string name="gmail_name">"Gmail"</string>
+	<!---->
+	<string name="folder_sync_settings_pref_title">"فولڈر سنک سیٹنگز"</string>
+	<!---->
+	<string name="select_your_account">"اکاؤنٹ منتخب کریں"</string>
+	<!---->
+	<string name="select_account_list_below">"ذیل کی فہرست سے اپنے اکاؤنٹ کا انتخاب کریں۔"</string>
+	<!---->
+	<string name="cancel_label">"منسوخ کریں"</string>
+	<!---->
+	<string name="next_label">"اگلا"</string>
+	<!---->
+	<string name="str_account_provider_other">"دیگر"</string>
+	<!---->
+	<string name="account_settings_download_options_label">"ڈاؤن لوڈ اختیارات"</string>
+	<!---->
+	<string name="account_setting_download_opt_headonly">"صرف ہیڈر"</string>
+	<!---->
+	<string name="account_setting_download_opt_all">"سبھی"</string>
+	<!-- no translation found for account_setting_download_opt_2k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_5k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_10k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_20k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_50k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_100k -->
+	<skip />
+	<!---->
+	<string name="account_oof_error_tip_past">"اختتامی وقت ماضی میں نہیں ہوسکتا۔ براہ کرم اختتامی وقت کو مستقبل کے وقت میں تبدیل کریں۔"</string>
+	<!---->
+	<string name="account_oof_error_tip_earlier">"اختتامی وقت آغاز کے وقت کے بعد ہونا چاہیے۔ براہ کرم اختتامی وقت دوبارہ تبدیل کریں۔"</string>
+	<!---->
+	<string name="account_setting_oof_label">"دفتر سے باہر کی سیٹنگز"</string>
+	<!---->
+	<string name="oof_auto_repley">"دفتر میں نہ ہونے کا جواب خودکار طور پر بھیجیں"</string>
+	<!---->
+	<string name="oof_auto_replies_period">"اس مدت کے دوران خود کار جوابات بھیجیں"</string>
+	<!---->
+	<string name="start_time">"وقت آغاز"</string>
+	<!---->
+	<string name="end_time">"وقت اختتام"</string>
+	<!---->
+	<string name="internal_message">"اندرونی پیغام"</string>
+	<!---->
+	<string name="oof_auto_replies_external_senders">"تمام بیرونی مرسلین کو خود کار جواب بھیجیں"</string>
+	<!---->
+	<string name="oof_choice_oof_in_contacts">"میرے رابطوں میں موجود بھیجنے والوں کو دفتر سے باہر ہونےکے خودکار جواب بھیجیں"</string>
+	<!---->
+	<string name="oof_choice_oof_outside_organisation">"میری تنظیم کے باہر کے کسی بھی فرد کو دفتر سے باہر ہونےکے خودکار جوابات بھیجیں"</string>
+	<!---->
+	<string name="external_message">"بیرونی پیغام"</string>
+	<!---->
+	<string name="oof_done_message_attention">""آپ نے اپنی تنظیم کے اندر کے لوگوں کے لئے ایک خودکار-جوابی پیغام کی صراحت نہیں کی ہے۔ اگر دفتر سے باہر ہونے کا پیغام درج نہیں کیا گيا ہے تو، لوگوں کو دفتر سے باہر ہونے کا پیغام موصول نہیں ہوگا۔ آپ کے دفتر سے باہر ہونے کے اصول، ابھی بھی کام کریں گے۔ کیا آپ جاری رکھنا چاہتے ہیں؟"</string>
+	<!---->
+	<string name="oof_choice_in_contacts">"میرے رابطوں میں موجود مرسلین کو بھیجیں"</string>
+	<!---->
+	<string name="oof_choice_all_senders">"تمام مرسلین کو بھیجیں"</string>
+	<!---->
+	<string name="hint_text_of_internal_message">"اپنی تنظیم سے پتہ پر جواب دیں"</string>
+	<!---->
+	<string name="hint_text_of_external_message">"اپنی تنظیم سے باہر کے پتوں کا جواب دیں"</string>
+	<!---->
+	<string name="account_delete_dlg_title">"اکاؤنٹ ہٹائیں؟"</string>
+	<!---->
+	<string name="account_delete_dlg_instructions_fmt">"اکاؤنٹ \"<xliff:g id="account">%s</xliff:g>\" ای میل سے مٹادیا جائے گا۔"</string>
+	<!---->
+	<string name="account_delete_dlg_instructions_fmt_new">"اس اکاؤنٹ کو ہٹانا اس کے تمام پیغامات، روابط اور فون سے دیگر ڈیٹا کو حذف کر دے گا!"</string>
+	<!---->
+	<string name="account_delete_dlg_action_remove_label">"ہٹائیں"</string>
+	<!---->
+	<string name="account_delete_dlg_action_cancel_label">"منسوخ کریں"</string>
+	<!---->
+	<string name="account_settings_category_delete_account">"اکاؤنٹ ہٹائیں"</string>
+	<!---->
+	<string name="account_settings_delete_account_label">"اکاؤنٹ ہٹائیں"</string>
+	<!---->
+	<string name="account_settings_default_label">"ڈیفالٹ اکاؤنٹ"</string>
+	<!---->
+	<string name="account_settings_default_summary">"اس اکاؤنٹ سے بطور ڈیفالٹ ای میلز بھیجیں"</string>
+	<!---->
+	<string name="account_setup_options_default_label">"اس اکاؤنٹ سے بطور ڈیفالٹ ای میلز بھیجیں۔"</string>
+	<!---->
+	<string name="account_setup_basics_default_label">"اس اکاؤنٹ سے بطور ڈیفالٹ ای میلز بھیجیں۔"</string>
+	<!---->
+	<string name="local_search_action">"لوکل پر تلاش کریں"</string>
+	<!---->
+	<string name="service_search_action">"سرور پر تلاش کریں"</string>
+	<!---->
+	<string name="local_search_all">"سبھی"</string>
+	<!---->
+	<string name="local_search_from">"منجانب"</string>
+	<!---->
+	<string name="local_search_to">"بنام"</string>
+	<!---->
+	<string name="local_search_subject">"موضوع"</string>
+	<!---->
+	<string name="status_loading_attachments">"لوڈ کر رہا ہے"</string>
+	<!---->
+	<string name="account_use_proxy_label">"پراکسی کا استعمال کریں"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_label">"پراکسی آئی پی"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_port_label">"پراکسی پورٹ"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_name">"پراکسی کا نام"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_password">"پراکسی پاس ورڈ"</string>
+	<!---->
+	<string name="attachment_info_dialog_wifi_title">"وائی-فائی کنیکشن درکار ہے"</string>
+	<!---->
+	<string name="attachment_info_wifi_settings">"‏Wi‑Fi ترتیبات"</string>
+	<!---->
+	<string name="attachment_info_wifi_only">"یہ منسلکہ موبائل نیٹ ورک پر ڈاؤن لوڈ کرنے کے لیے بہت بڑا ہے ۔ آپ اسے اگلی بار وائی-فائی نیٹ ورک سے جڑنے پر ڈاؤن لوڈ کرسکتے ہیں۔"</string>
+	<!---->
+	<string name="attachment_info_ok">"ٹھیک ہے"</string>
+	<!---->
+	<string name="mailbox_name_display_draft">"مسودہ"</string>
+	<!---->
+	<string name="message_compose_display_name">"<xliff:g example="John" id="name">%1$s</xliff:g> and <xliff:g example="27" id="number">%2$d</xliff:g> دیگر"</string>
+	<!---->
+	<string name="app_name">"ای میل"</string>
+	<!---->
+	<string name="from">"منجانب"</string>
+	<!---->
+	<string name="to">"بنام"</string>
+	<!---->
+	<string name="cc">"نقل"</string>
+	<!---->
+	<string name="bcc">"نقل ثانی"</string>
+	<!---->
+	<string name="subject_hint">"موضوع"</string>
+	<!---->
+	<string name="body_hint">"ای میل لکھیں"</string>
+	<!---->
+	<string name="add_file_attachment">"فائل منسلک کریں"</string>
+	<!---->
+	<string name="add_photo_attachment">"تصویر منسلک کریں"</string>
+	<!---->
+	<string name="save_draft">"ڈرافٹ محفوظ کریں"</string>
+	<!---->
+	<string name="discard">"مسترد کریں"</string>
+	<!---->
+	<string name="compose">"تصنیف کریں"</string>
+	<!---->
+	<string name="select_contacts_field">"اس سے روابط منتخب کریں"</string>
+	<!---->
+	<string name="item_save_group">"گروپ محفوظ کریں"</string>
+	<!---->
+	<string name="confirm_select">"منتخب کریں"</string>
+	<!---->
+	<string name="cancel_select">"منسوخ کریں"</string>
+	<string-array name="compose_modes">
+		<item>"جواب دیں"</item>
+		<item>"سبھی کو جواب دیں"</item>
+		<item>"آگے بڑھائیں"</item>
+	</string-array>
+	<string-array name="compose_modes_without_reply_all">
+		<item>"جواب دیں"</item>
+		<item>"آگے بڑھائیں"</item>
+	</string-array>
+	<!---->
+	<string name="reply_subject_label">"بابت:"</string>
+	<!---->
+	<string name="forward_subject_label">"آگے بھیجنا:"</string>
+	<!---->
+	<string name="reply_attribution">"<xliff:g id="date">%s</xliff:g>, <xliff:g id="person">%s</xliff:g> کولکھتے ہیں:"</string>
+	<!---->
+	<string name="forward_attribution">"---------- آگے بھیجا گیا پیغام ----------；منجانب: ؛ تاریخ: ؛ موضوع: ؛ مکتوب الیہ:"</string>
+	<!---->
+	<string name="forward_attribution_with_headers">"---------- فاورڈ کیا ہوا پیغام ---------- <xliff:g id="a">%s</xliff:g> منجانب: <xliff:g id="from">%s</xliff:g> <xliff:g id="b">%s</xliff:g> تاریخ: <xliff:g id="date">%s</xliff:g> <xliff:g id="c">%s</xliff:g> موضوع: <xliff:g id="subject">%s</xliff:g> <xliff:g id="d">%s</xliff:g> بطرف: <xliff:g id="to">%s</xliff:g> <xliff:g id="e">%s</xliff:g> Cc: <xliff:g id="cc">%s</xliff:g> <br/>"</string>
+	<!---->
+	<string name="forward_attribution_no_headers">"---------- آگے بڑھایا ہوا پیغام ----------"</string>
+	<!---->
+	<string name="cc_attribution">"نقل ثانی:"</string>
+	<!---->
+	<string name="select_attachment_type">"منسلکہ کی قسم منتخب کریں"</string>
+	<!---->
+	<string name="too_large_to_attach_single">"%1$s پر کوئی فائل منسلک نہیں کر سکتے"</string>
+	<!---->
+	<string name="too_large_to_attach_multiple">"ایک یا زیادہ فائلیں منسلک نہیں ہوئیں۔ حد <xliff:g id="maxSize">%1$s</xliff:g>۔"</string>
+	<!---->
+	<string name="too_large_to_mid_attach_additional">"آپ کا ای میل <xliff:g id="maxSize">%1$s</xliff:g> سے زیادہ ہے. آپ کا ای میل اکاؤنٹ اس کی حمایت نہیں بھی کر سکتا."</string>
+	<!---->
+	<string name="too_large_to_attach_additional">"فائل کو شامل کرنے سے قاصر ہے. ای میل سائز <xliff:g id="maxSize">%1$s</xliff:g> کی حد سے تجاوز کرے گا."</string>
+	<!---->
+	<string name="generic_attachment_problem">"فائل منسلک نہیں کرسکتا۔"</string>
+	<!---->
+	<string name="recipient_needed">"کم از کم ایک وصول کنندہ شامل کریں۔"</string>
+	<!---->
+	<string name="recipient_error_dialog_title">"موصول کنندہ کا نقص"</string>
+	<!---->
+	<string name="confirm_send_title">"پیغام بھیجیں؟"</string>
+	<!---->
+	<string name="confirm_send_message_with_no_subject">"پیغام کے موضوع میں کوئی متن نہیں ہے"</string>
+	<!---->
+	<string name="confirm_send_message_with_no_body">"پیغام کی عبارت میں کوئی متن نہیں ہے۔"</string>
+	<!---->
+	<string name="confirm_send_message">"یہ پیغام بھیجیں؟"</string>
+	<!---->
+	<string name="message_discarded">"پیغام مسترد کر دیا گیا۔"</string>
+	<!-- no translation found for signature -->
+	<skip />
+	<!---->
+	<string name="custom_from_account_label">"میل بھیجیں بطور:"</string>
+	<!---->
+	<string name="send">"بھیجیں"</string>
+	<!---->
+	<string name="mark_read">"پڑھا ہوا کا نشان لگائیں"</string>
+	<!---->
+	<string name="mark_unread">"بغیڑ پڑھے ہوئے کا نشان لگائیں"</string>
+	<!---->
+	<string name="mute">"خاموش کریں"</string>
+	<!---->
+	<string name="add_star">"ستارہ اضافہ کریں"</string>
+	<!---->
+	<string name="remove_star">"ستارہ ہٹائیں"</string>
+	<!---->
+	<string name="remove_folder">"<xliff:g id="folderName">%1$s</xliff:g> سے ہٹائیں"</string>
+	<!---->
+	<string name="archive">"محفوظ کریں"</string>
+	<!---->
+	<string name="report_spam">"اسپام کی اطلاع دیں"</string>
+	<!---->
+	<string name="mark_not_spam">"اطلاع دیں: اسپام نہیں ہے"</string>
+	<!---->
+	<string name="report_phishing">"فشنگ کی اطلاع دیں"</string>
+	<!---->
+	<string name="delete">"حذف کریں"</string>
+	<!---->
+	<string name="discard_drafts">"ڈرافٹ تلف کریں"</string>
+	<!---->
+	<string name="discard_failed">"تلف کرنا ناکام"</string>
+	<!---->
+	<string name="refresh">"تازہ کاری کریں"</string>
+	<!---->
+	<string name="reply">"جواب دیں"</string>
+	<!---->
+	<string name="reply_all">"سبھی کو جواب دیں"</string>
+	<!---->
+	<string name="resume_draft">"ترمیم کریں"</string>
+	<!---->
+	<string name="forward">"آگے بڑھائیں"</string>
+	<!---->
+	<string name="menu_compose">"تصنیف کریں"</string>
+	<!---->
+	<string name="menu_sort">"ترتیب دیں"</string>
+	<!---->
+	<string name="menu_change_folders">"فولڈرز تبدیل کریں"</string>
+	<!---->
+	<string name="menu_move_to">"اس میں منتقل کریں"</string>
+	<!---->
+	<string name="menu_move_to_inbox">"ان باکس پر جائیں"</string>
+	<!---->
+	<string name="menu_manage_folders">"فولڈر سیٹنگز"</string>
+	<!---->
+	<string name="menu_show_original">"خودکار سائز بنانے پر واپس پلٹیں"</string>
+	<!---->
+	<string name="menu_settings">"ترتیبات"</string>
+	<!---->
+	<string name="menu_search">"تلاش کریں"</string>
+	<!---->
+	<string name="drawer_title">"نیویگیشن"</string>
+	<!---->
+	<string name="mark_important">"اہم کے بطور نشان لگائیں"</string>
+	<!---->
+	<string name="mark_not_important">"غیر اہم کے بطور نشان لگائیں"</string>
+	<!---->
+	<string name="select_all_conversations">"سبھی کو منتخب کریں"</string>
+	<!---->
+	<string name="unselect_all_conversations">"سبھی کو غیر منتخب کریں"</string>
+	<!---->
+	<string name="add_cc_label">"نقل/نقل ثانی شامل کریں"</string>
+	<!---->
+	<string name="add_bcc_label">"نقل ثانی شامل کریں"</string>
+	<!---->
+	<string name="quoted_text">"حوالہ دیا گیا متن شامل کریں"</string>
+	<!---->
+	<string name="quoted_text_label">"متن کا اقتباس"</string>
+	<!---->
+	<string name="respond_inline">"ان لائن جواب دیں"</string>
+	<!---->
+	<string name="bytes">"<xliff:g id="count">%s</xliff:g> B"</string>
+	<!---->
+	<string name="kilobytes">"<xliff:g id="count">%s</xliff:g> KB"</string>
+	<!---->
+	<string name="megabytes">"<xliff:g id="count">%s</xliff:g> MB"</string>
+	<!---->
+	<string name="attachment_image">"تصویر"</string>
+	<!---->
+	<string name="attachment_video">"ویڈیو"</string>
+	<!---->
+	<string name="attachment_audio">"آڈیو"</string>
+	<!---->
+	<string name="attachment_text">"متن"</string>
+	<!---->
+	<string name="attachment_application_msword">"دستاویز"</string>
+	<!---->
+	<string name="attachment_application_vnd_ms_powerpoint">"پیشکش"</string>
+	<!---->
+	<string name="attachment_application_vnd_ms_excel">"اسپریڈ شیٹ"</string>
+	<!-- no translation found for attachment_application_pdf -->
+	<skip />
+	<!---->
+	<string name="attachment_unknown">"<xliff:g id="attachmentExtension">%s</xliff:g> فائل"</string>
+	<!---->
+	<string name="preview_attachment">"پیش منظر دیکھیں"</string>
+	<!---->
+	<string name="save_attachment">"محفوظ کریں"</string>
+	<!---->
+	<string name="cancel_attachment">"منسوخ کریں"</string>
+	<!---->
+	<string name="open_attachment">"کھولیں"</string>
+	<!---->
+	<string name="install_attachment">"انسٹال کریں"</string>
+	<!---->
+	<string name="download_again">"دوبارہ ڈاؤن لوڈ کریں"</string>
+	<!---->
+	<string name="more_info_attachment">"معلومات"</string>
+	<!---->
+	<string name="no_application_found">"کوئی ایپ اس منسلکہ کو دیکھنے کے لیے نہیں کھول سکتا۔"</string>
+	<!---->
+	<string name="fetching_attachment">"منسلکہ حاصل کررہا ہے"</string>
+	<!---->
+	<string name="please_wait">"براہ کرم انتظار کریں \u2026"</string>
+	<!---->
+	<string name="saved">"محفوظ کردیا گیا،"</string>
+	<!---->
+	<string name="download_failed">"ڈاؤن لوڈ نہیں کرسکتا۔ دوبارہ کوشش کرنے کیلئے چھوئیں۔"</string>
+	<!---->
+	<string name="menu_photo_save_all">"سبھی کو محفوظ کریں"</string>
+	<!---->
+	<string name="menu_photo_share">"اشتراک کریں"</string>
+	<!---->
+	<string name="menu_photo_share_all">"سبھی شی"</string>
+	<!---->
+	<string name="menu_photo_print">"پرنٹ کریں"</string>
+	<!---->
+	<string name="saving">"محفوظ کررہا ہے…"</string>
+	<!---->
+	<string name="choosertitle_sharevia">"اشتراک کریں بذریعہ"</string>
+	<!---->
+	<string name="contextmenu_openlink">"براؤزر میں کھولیں"</string>
+	<!---->
+	<string name="contextmenu_copy">"کاپی کریں"</string>
+	<!---->
+	<string name="contextmenu_copylink">"یو آر ایل لنک کاپی کریں"</string>
+	<!---->
+	<string name="contextmenu_view_image">"تصویر دیکھیں"</string>
+	<!---->
+	<string name="contextmenu_dial_dot">"کال کریں"</string>
+	<!---->
+	<string name="contextmenu_sms_dot">"SMS\u2026"</string>
+	<!---->
+	<string name="contextmenu_add_contact">"رابطہ شامل کریں"</string>
+	<!---->
+	<string name="contextmenu_send_mail">"ای میل بھیجیں"</string>
+	<!---->
+	<string name="contextmenu_map">"نقشہ"</string>
+	<!---->
+	<string name="contextmenu_sharelink">"لنک شیئر کریں"</string>
+	<!---->
+	<string name="contextmenu_savelink">"لنک محفوظ کریں"</string>
+	<!---->
+	<string name="contextmenu_help">"مدد"</string>
+	<!---->
+	<string name="contextmenu_feedback">"فیڈ بیک بھیجیں"</string>
+	<!---->
+	<string name="sort_title">"ترتیب دیں بلحاظ"</string>
+	<!---->
+	<string name="sort_by_tip">"ترتیب وار بطور <xliff:g id="sor_type">%s</xliff:g>"</string>
+	<!-- no translation found for num_selected -->
+	<skip />
+	<plurals name="move_conversation">
+		<item quantity="one">"بات چیت منتقل کریں"</item>
+		<item quantity="other">"<xliff:g>%1$d</xliff:g> بات چیت منتقل کریں"</item>
+	</plurals>
+	<!---->
+	<string name="content_description">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> لگ بھگ <xliff:g id="subject">%3$s</xliff:g>، <xliff:g id="snippet">%4$s</xliff:g> کو <xliff:g id="date">%5$s</xliff:g>، <xliff:g id="readstate">%6$s</xliff:g>"</string>
+	<!---->
+	<string name="content_description_today">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> لگ بھگ <xliff:g id="subject">%3$s</xliff:g>، <xliff:g id="snippet">%4$s</xliff:g> پر <xliff:g id="time">%5$s</xliff:g>، <xliff:g id="readstate">%6$s</xliff:g>"</string>
+	<!---->
+	<string name="read_string">"پڑھی گئی گفتگو"</string>
+	<!---->
+	<string name="unread_string">"نہ پڑھی ہوئی گفتگو"</string>
+	<!---->
+	<string name="filtered_tag">"[<xliff:g id="tag">%1$s</xliff:g>]<xliff:g id="subject">%2$s</xliff:g>"</string>
+	<!-- no translation found for badge_and_subject -->
+	<skip />
+	<plurals name="draft">
+		<item quantity="one">"مسودہ"</item>
+		<item quantity="other">"ڈرافٹس"</item>
+	</plurals>
+	<!---->
+	<string name="sending">"بھیجا جارہا ہے\u2026"</string>
+	<!---->
+	<string name="message_retrying">"دوبارہ کوشش کر رہا ہے\u2026"</string>
+	<!---->
+	<string name="message_failed">"ناکام ہوگیا"</string>
+	<!---->
+	<string name="send_failed">"میل بھیجنے میں ناکام رہا۔"</string>
+	<!---->
+	<string name="send_failed_wait_attchment_downloaded">"آگے نہیں بھیج سکتا کیونکہ منسلکات پوری طرح ڈاؤن لوڈ نہیں ہوئے ہیں، براہِ کرم پہلے منسلکات ڈاؤن لوڈ کریں۔"</string>
+	<!---->
+	<string name="me_object_pronoun">"میں"</string>
+	<!---->
+	<string name="me_subject_pronoun">"میں"</string>
+	<plurals name="confirm_delete_conversation">
+		<item quantity="one">"اسے ڈیوائس کو حذف کریں؟"</item>
+		<item quantity="other">"ان <xliff:g id="count">%1$d</xliff:g> گفتگوؤں کو حذف کریں؟"</item>
+	</plurals>
+	<plurals name="confirm_archive_conversation">
+		<item quantity="one">"اسے گفتگو کو حذف کریں؟"</item>
+		<item quantity="other">"ان <xliff:g id="count">%1$d</xliff:g> گفتگوؤں کو حذف کریں؟"</item>
+	</plurals>
+	<plurals name="confirm_discard_drafts_conversation">
+		<item quantity="one">"اس پیغام کو مسترد کریں؟"</item>
+		<item quantity="other">"ان <xliff:g id="count">%1$d</xliff:g> پیغامات کو حذف کریں؟"</item>
+	</plurals>
+	<!---->
+	<string name="confirm_discard_text">"اس پیغام کو مسترد کریں؟"</string>
+	<!---->
+	<string name="loading_conversations">"لوڈ ہو رہا ہے\u2026"</string>
+	<!---->
+	<string name="empty_inbox">"آپ نے کرلیا ہے! براہ کرم اپنے دن کا مزہ لیں۔"</string>
+	<!---->
+	<string name="empty_search">"وہوپس! ہمیں \"<xliff:g id="search_query">%1$s</xliff:g>\"کے لیے کوئی چیز نہیں ملی۔"</string>
+	<!---->
+	<string name="empty_spam_folder">"ارے واہ، یہاں کوئی اسپام نہیں ہے!"</string>
+	<!---->
+	<string name="empty_trash_folder">"یہاں کوئی ردی نہیں ہے۔ ریسائیکل کرنے کے لیے شکریہ!"</string>
+	<!---->
+	<string name="empty_folder">"یہاں کوئی میل نہیں ہے۔"</string>
+	<!---->
+	<string name="getting_messages">"اپنے پیغامات وصول کرنا"</string>
+	<!---->
+	<string name="undo">"ان ڈو کریں"</string>
+	<plurals name="conversation_unstarred">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> گفتگو سے ستارہ ختم کرنا۔"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> گفتگو سے ستارہ ختم کرنا۔"</item>
+	</plurals>
+	<plurals name="conversation_muted">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> خاموش کردیا گیا۔"</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> خاموش کردیا گیا۔"</item>
+	</plurals>
+	<plurals name="conversation_spammed">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> کی اطلاع بطور اسپام دی گئی ہے۔"</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> کی اطلاع بطور اسپام دی گئی ہے۔"</item>
+	</plurals>
+	<plurals name="conversation_not_spam">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> کی اطلاع بطور غیر اسپام دی گئی ہے۔"</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> کی اطلاع بطور غیر اسپام دی گئی ہے۔"</item>
+	</plurals>
+	<plurals name="conversation_not_important">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> کو غیر اہم کے بطور نشان زد کیا گیا۔"</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> کو غیر اہم کے بطور نشان زد کیا گیا۔"</item>
+	</plurals>
+	<plurals name="conversation_phished">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> کی اطلاع بطور فشنگ دی گئی ہے۔"</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> کی اطلاع بطور فشنگ دی گئی ہے۔"</item>
+	</plurals>
+	<plurals name="conversation_archived">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> محفوظ کردی گئی۔"</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> محفوظ کردی گئی۔"</item>
+	</plurals>
+	<plurals name="conversation_deleted">
+		<item quantity="one">"&lt;b&gt;%1$d&lt;/b&gt; حذف کیا گیا۔"</item>
+		<item quantity="other">"&lt;b&gt;%1$d&lt;/b&gt; حذف کیا گیا۔"</item>
+	</plurals>
+	<!---->
+	<string name="deleted">"حذف کردہ"</string>
+	<!---->
+	<string name="archived">"محفوظ کردہ"</string>
+	<!---->
+	<string name="starred">"ستارہ کا نشان لگا ہوا"</string>
+	<!---->
+	<string name="unstarred">"غیر ستارہ شدہ"</string>
+	<!---->
+	<string name="folder_removed">"<xliff:g id="folderName">%1$s</xliff:g> سے حذف کردیا گیا"</string>
+	<plurals name="conversation_folder_changed">
+		<item quantity="one">"فولڈر تبدیل ہوگیا۔"</item>
+		<item quantity="other">"فولڈر تبدیل ہوگیا۔"</item>
+	</plurals>
+	<!---->
+	<string name="conversation_folder_moved">"<xliff:g id="folderName">%1$s</xliff:g> میں منتقل کردیا گیا"</string>
+	<!---->
+	<string name="search_results_header">"نتائج"</string>
+	<!---->
+	<string name="search_unsupported">"اس اکاؤنٹ تلاش تعاون یافتہ نہیں ہے۔"</string>
+	<!---->
+	<string name="add_label">"فولڈر شامل کریں"</string>
+	<!---->
+	<string name="new_incoming_messages_one">"<xliff:g id="sender">%s</xliff:g> کی جانب سے نیا پیغام دکھائیں۔"</string>
+	<plurals name="new_incoming_messages_many">
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> نئے پیغامات دکھائیں۔"</item>
+	</plurals>
+	<!---->
+	<string name="date_and_view_details">"<xliff:g id="date">%1$s</xliff:g> &lt;a href=\'http://www.example.com\'&gt;تفصیلات دیکھیں&lt;/a&gt;"</string>
+	<!---->
+	<string name="date_and_view_details_another">"<xliff:g id="date">%1$s</xliff:g> &lt;font color=\"<xliff:g id="color">%2$d</xliff:g>\"&gt;تفصیلات دیکھیں&lt;/font&gt;"</string>
+	<!---->
+	<string name="hide_details">"تفصیلات چھپائیں"</string>
+	<!---->
+	<string name="to_message_header">"بنام <xliff:g id="recipients">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="contact_info_string">"<xliff:g id="name">%1$s</xliff:g> کے لیے رابطے کی معلومات دکھائیں"</string>
+	<!---->
+	<string name="contact_info_string_default">"رابطے کی معلومات دکھائیں"</string>
+	<plurals name="show_messages_read">
+		<item quantity="other">"<xliff:g example="4" id="count">%1$d</xliff:g> پرانے پیغامات"</item>
+	</plurals>
+	<!---->
+	<string name="from_heading">"منجانب:"</string>
+	<!---->
+	<string name="replyto_heading">"انہیں جواب دیں:"</string>
+	<!---->
+	<string name="to_heading">"بنام:"</string>
+	<!---->
+	<string name="to_heading_no_space">"بنام:"</string>
+	<!---->
+	<string name="cc_heading">"نقل ثانی:"</string>
+	<!---->
+	<string name="bcc_heading">"پہچان سے عاری نقل ثانی"</string>
+	<!---->
+	<string name="date_heading">"تاریخ:"</string>
+	<!---->
+	<string name="show_images">"تصاویر دکھائیں"</string>
+	<!---->
+	<string name="always_show_images">"اس بھیجنے والے سے تصویریں ھمیشہ دکھائیں"</string>
+	<!---->
+	<string name="always_show_images_toast">"اس بھیجنے والے کی تصویریں خودکار طور پر دکھائی جائیں گی۔"</string>
+	<!---->
+	<string name="address_display_format">"<xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g>"</string>
+	<!---->
+	<string name="address_display_format_with_via_domain">"<xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g> via <xliff:g id="via_domain">%3$s</xliff:g>"</string>
+	<!---->
+	<string name="message_saved">"پیغام بطور مسودہ محفوظ ہوگیا۔"</string>
+	<!---->
+	<string name="sending_message">"پیغام بھیج رہا ہے\u2026"</string>
+	<!---->
+	<string name="invalid_recipient">"ایڈریس %s ناقابل قبول ہے۔"</string>
+	<!---->
+	<string name="show_elided">"حوالہ دیا گیا متن دکھائیں"</string>
+	<!---->
+	<string name="hide_elided">"\u25BC حوالہ والا متن چھپائیں"</string>
+	<!---->
+	<string name="message_invite_title">"کیلنڈر میں دعوت دیں"</string>
+	<!---->
+	<string name="message_invite_available">"آپ دستیاب ہیں"</string>
+	<!---->
+	<string name="message_invite_datetime">"کب"</string>
+	<!---->
+	<string name="message_invite_location">"کہاں"</string>
+	<!---->
+	<string name="message_invite_in_calendar_view">"کیلنڈر میں دیکھیں"</string>
+	<!---->
+	<string name="message_invite_calendar_view">"کیلنڈر میں دیکھیں"</string>
+	<!---->
+	<string name="message_invite_label_attending">"جارہے ہیں؟"</string>
+	<!---->
+	<string name="message_invite_accept">"ہاں"</string>
+	<!---->
+	<string name="message_invite_tentative">"شاید"</string>
+	<!---->
+	<string name="message_invite_decline">"نہیں"</string>
+	<!-- no translation found for enumeration_comma -->
+	<skip />
+	<!---->
+	<string name="send_anyway">"بہر حال بھیجیں"</string>
+	<!---->
+	<string name="ok">"ٹھیک ہے"</string>
+	<!---->
+	<string name="done">"ہو گیا"</string>
+	<!---->
+	<string name="cancel">"منسوخ کریں"</string>
+	<!---->
+	<string name="clear">"صاف کریں"</string>
+	<!---->
+	<string name="next">"اگلا"</string>
+	<!---->
+	<string name="previous">"پچھلا"</string>
+	<string-array name="sync_status">
+		<item>"آپ کے پاس Wi-Fi کنیکشن نہیں ہے، کیا ہم آہنگی کا عمل جاری رکھیں؟"</item>
+		<item>"کوئی کنکنشن نہیں ہے۔"</item>
+		<item>"سائن ان نہیں کرسکتا۔"</item>
+		<item>"حفاظتی غلطی۔"</item>
+		<item>"سنکرونائز نہیں کرسکتا۔"</item>
+		<item>"اندرونی نقص"</item>
+		<item>"سرور کا نقص"</item>
+	</string-array>
+	<!---->
+	<string name="tap_to_configure">"سیٹ اپ کیلئے چھوئیں"</string>
+	<!---->
+	<string name="non_synced_folder_description">"گفتگو دیکھنے کے لیے، اس فولڈر کو سنک کریں۔"</string>
+	<!---->
+	<string name="tap_to_configure_folder_sync">"فولڈر سنک کریں"</string>
+	<!-- no translation found for widget_large_unread_count -->
+	<skip />
+	<!---->
+	<string name="large_unseen_count">"<xliff:g example="99" id="count">%d</xliff:g>+ نئے"</string>
+	<!---->
+	<string name="unseen_count">"<xliff:g example="4" id="count">%d</xliff:g> نیا"</string>
+	<plurals name="actionbar_unread_messages">
+		<item quantity="other">"%1$d بغیر پڑھا ہوا"</item>
+	</plurals>
+	<!---->
+	<string name="actionbar_large_unread_count">"<xliff:g id="count">%1$d</xliff:g>+ بغیر پڑھا ہوا"</string>
+	<!---->
+	<string name="view_more_conversations">"مزید بات چیت دیکھیں"</string>
+	<!---->
+	<string name="loading_conversation">"لوڈ ہو رہا ہے\u2026"</string>
+	<!---->
+	<string name="activity_mailbox_selection">"اکاؤنٹ منتخب کریں"</string>
+	<!---->
+	<string name="activity_folder_selection">"فولڈر منتخب کریں"</string>
+	<!---->
+	<string name="folder_shortcut_widget_label">"ای میل فولڈر"</string>
+	<!---->
+	<string name="change_folders_selection_dialog_title">"فولڈرز تبدیل کریں"</string>
+	<!---->
+	<string name="move_to_selection_dialog_title">"اس میں منتقل کریں"</string>
+	<!-- no translation found for search_results_loaded -->
+	<skip />
+	<!---->
+	<string name="network_error">"کوئی کنیکشن نہیں ہے"</string>
+	<!---->
+	<string name="retry">"دوبارہ کوشش کریں"</string>
+	<!---->
+	<string name="load_more">"مزید لوڈ کریں"</string>
+	<!---->
+	<string name="shortcut_name_title">"فولڈر شارٹ کٹ کو نام دیں"</string>
+	<!---->
+	<string name="wait_for_sync_title">"سینکرونائز کا انتظار کریں"</string>
+	<!---->
+	<string name="not_synced_title">"اکاؤنٹ مطابقت پذیر نہیں ہوا"</string>
+	<!---->
+	<string name="wait_for_manual_sync_body">"یہ اکاؤنٹ خودکار سنک کے لیے ترتیب نہیں دیا گیا ہے۔\nایک بار میل کو سنک کرنے کے لیے<b>ابھی سینکرونائز کریں</b> کو چھوئیں، یا اس اکاؤنٹ کو خودکار طور پر میل کو سینکرونائز کرنے کے لیے <b>سینکرونائز سیٹنگز تبدیل کریں</b> کو چھوئیں۔"</string>
+	<!---->
+	<string name="manual_sync">"ابھی مطابقت پذیری کریں"</string>
+	<!---->
+	<string name="change_sync_settings">"سینکرونائز کی سیٹنگز تبدیل کریں"</string>
+	<!---->
+	<string name="photo_load_failed">"تصویر لوڈ نہیں کرسکا"</string>
+	<!---->
+	<string name="cant_move_or_change_labels">"منتقل نہیں کرسکتا کیونکہ انتخاب میں متعدد اکاؤنٹس شامل ہیں۔"</string>
+	<!-- no translation found for multiple_new_message_notification_item -->
+	<skip />
+	<!-- no translation found for single_new_message_notification_big_text -->
+	<skip />
+	<!---->
+	<string name="ignore_spam_warning">"نظر انداز کریں، میں اس پیغام پر اعتماد کرتا ہوں"</string>
+	<!---->
+	<string name="via_domain">"بذریعہ <xliff:g id="viaDomain">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="signin">"سائن ان کریں"</string>
+	<!---->
+	<string name="info">"معلومات"</string>
+	<!---->
+	<string name="report">"اطلاع دیں"</string>
+	<!---->
+	<string name="sync_error">"سنکرونائز نہیں کرسکتا۔"</string>
+	<!---->
+	<string name="sync_error_message">"آپ کے ڈیوائس میں مطابقت پذیری کے لیے کافی اسٹوریج نہیں ہے۔"</string>
+	<!---->
+	<string name="storage">"اسٹوریج"</string>
+	<!-- no translation found for senders_split_token -->
+	<skip />
+	<!-- no translation found for draft_count_format -->
+	<skip />
+	<!---->
+	<string name="all_folders_heading">"سبھی فولڈرز"</string>
+	<!---->
+	<string name="recent_folders_heading">"حالیہ فولڈرز"</string>
+	<!---->
+	<string name="message_details_title">"پیغام کی تفصیلات"</string>
+	<!---->
+	<string name="preference_advance_to_title">"خودکار پیش قدمی"</string>
+	<string-array name="prefEntries_autoAdvance">
+		<item>"کبھی نہیں"</item>
+		<item>"پرانا"</item>
+		<item>"گفتگو کی فہرست"</item>
+	</string-array>
+	<string-array name="prefSummaries_autoAdvance">
+		<item>"حذف کرنے کے بعد سب سے نئی گفتگو دکھائیں"</item>
+		<item>"حذف کرنے کے بعد سب سے پرانی گفتگو دکھائیں"</item>
+		<item>"حذف کرنے کے بعد گفتگو کی فہرست دکھائیں"</item>
+	</string-array>
+	<!---->
+	<string name="prefDialogTitle_autoAdvance">"پیش قدمی کریں برائے"</string>
+	<!---->
+	<string name="clear_display_images_whitelist_title">"تصویر کی منظوریاں مٹائیں"</string>
+	<!---->
+	<string name="clear_display_images_whitelist_dialog_title">"تصویر کی منظوریاں مٹائیں؟"</string>
+	<!---->
+	<string name="clear_display_images_whitelist_dialog_message">"ایسے مرسلین سے ان لائن تصویریں ڈسپلے کرنا روکیں جنہیں آپ نے پہلے اجازت دی ہے۔"</string>
+	<!---->
+	<string name="sender_whitelist_cleared">"تصویریں خود بخود نہیں دکھائی جائیں گی۔"</string>
+	<!---->
+	<string name="preferences_signature_title">"دستخط"</string>
+	<!---->
+	<string name="preferences_signature_dialog_title">"دستخط"</string>
+	<!---->
+	<string name="preferences_signature_summary_not_set">"سیٹ نہيں ہے"</string>
+	<!---->
+	<string name="mail_account_signature_prefix">"میرے <xliff:g example="4" id="product">%1$s</xliff:g> سے بھیجا گیا"</string>
+	<!---->
+	<string name="notification_action_reply">"جواب دیں"</string>
+	<!---->
+	<string name="notification_action_reply_all">"سبھی کو جواب دیں"</string>
+	<!---->
+	<string name="notification_action_archive">"محفوظ کریں"</string>
+	<!---->
+	<string name="notification_action_remove_label">"لیبل مٹائیں"</string>
+	<!---->
+	<string name="notification_action_delete">"حذف کریں"</string>
+	<!---->
+	<string name="notification_action_undo_archive">"محفوظ کردہ"</string>
+	<!---->
+	<string name="notification_action_undo_remove_label">"لیبل ہٹا دیا گیا"</string>
+	<!---->
+	<string name="notification_action_undo_delete">"حذف کردہ"</string>
+	<!-- no translation found for veiled_address -->
+	<skip />
+	<!-- no translation found for veiled_alternate_text -->
+	<skip />
+	<!-- no translation found for veiled_alternate_text_unknown_person -->
+	<skip />
+	<!-- no translation found for veiled_summary_unknown_person -->
+	<skip />
+	<!-- no translation found for label_notification_ticker -->
+	<skip />
+	<plurals name="new_messages">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> نئے پیغامات"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> نئے پیغامات"</item>
+	</plurals>
+	<!-- no translation found for single_new_message_notification_title -->
+	<skip />
+	<!---->
+	<string name="silent_ringtone">"خاموش کریں"</string>
+	<!---->
+	<string name="preference_removal_action_title">"اعمال کو محفوظ کریں اور حذف کریں"</string>
+	<string-array name="prefEntries_removal_action">
+		<item>"صرف محفوظ کردہ دکھائیں"</item>
+		<item>"صرف حذف کردہ دکھائیں"</item>
+		<item>"محفوظ کردہ اور حذف کردہ دکھائیں"</item>
+	</string-array>
+	<string-array name="prefSummaries_removal_action_summary">
+		<item>"صرف محفوظ کردہ دکھائیں"</item>
+		<item>"صرف حذف کردہ دکھائیں"</item>
+		<item>"محفوظ کردہ اور حذف کردہ دکھائیں"</item>
+	</string-array>
+	<!---->
+	<string name="prefDialogTitle_removal_action">"اعمال کو محفوظ کریں اور حذف کریں"</string>
+	<!---->
+	<string name="preferences_default_reply_all_title">"سبھی کو جواب دیں"</string>
+	<!---->
+	<string name="preferences_default_reply_all_summary_impl">"پیغام کے جوابات کے لیے بطور ڈیفالٹ استعمال کریں"</string>
+	<!---->
+	<string name="preference_swipe_title_archive">"محفوظ کرنے کے لیے سوائپ کریں"</string>
+	<!---->
+	<string name="preference_swipe_title_delete">"حذف کرنے کے لیے سوائپ کریں"</string>
+	<!---->
+	<string name="preference_swipe_description">"گفتگو کی فہرست میں"</string>
+	<!---->
+	<string name="preference_swipe_actions">"عوامل سوائپ کریں"</string>
+	<!---->
+	<string name="preference_sender_image_title">"مرسل کی تصویر"</string>
+	<!---->
+	<string name="preference_sender_image_description">"گفتگو کی فہرست کے بغل میں نام دکھائیں"</string>
+	<!---->
+	<string name="empty_trash">"ردی کوخالی کریں"</string>
+	<!---->
+	<string name="empty_spam">"ناپسندیدہ کو خالی کریں"</string>
+	<!---->
+	<string name="star_toggle">"اسٹار ٹوگل"</string>
+	<!---->
+	<string name="empty_trash_dialog_title">"ردی کوخالی کریں"</string>
+	<!---->
+	<string name="empty_spam_dialog_title">"اسپام کو خالی کریں؟"</string>
+	<plurals name="empty_folder_dialog_message">
+		<item quantity="one">"%1$d پیغام مستقل طور پر حذف کردیا جائے گا۔"</item>
+		<item quantity="other">"%1$d پیغام مستقل طور پر حذف کردیا جائے گا۔"</item>
+	</plurals>
+	<!---->
+	<string name="drawer_open">"نیویگیشن والی دراز کھولیں"</string>
+	<!---->
+	<string name="drawer_close">"کاپی رائٹ کی معلومات"</string>
+	<!---->
+	<string name="conversation_photo_welcome_text">"مرسل کی تصویر مس کرکے وہ گفتگو منتخب کریں۔"</string>
+	<!---->
+	<string name="long_press_to_select_tip">"ایک گفتگو منتخب کرنے کے لیے چھوئیں اور ہولڈ کریں پھر مزید منتخب کرنے کے لیے چھوئیں۔"</string>
+	<!---->
+	<string name="folder_icon_desc">"فولڈر آئیکان"</string>
+	<!---->
+	<string name="add_account">"اکاؤنٹ شامل کریں"</string>
+	<!---->
+	<string name="dismiss_tip_hover_text">"مشورہ مسترد کریں"</string>
+	<!---->
+	<string name="auto_sync_off">"آٹو سِنک آف ہے۔"</string>
+	<!---->
+	<string name="tap_to_enable_sync">"آن کرنے کیلئے چھوئیں"</string>
+	<!---->
+	<string name="account_sync_off">"اکاؤنٹ سنک بند ہے۔"</string>
+	<!---->
+	<string name="enable_sync_in_account_settings">"<xliff:g id="account_settings">%1$s</xliff:g> میں آن کریں۔"</string>
+	<!---->
+	<string name="account_settings_param">"اکاؤنٹ کی ترتیبات"</string>
+	<!---->
+	<string name="unsent_messages_in_outbox">"<xliff:g id="number">%1$s</xliff:g> بغیر بھیجا ہوا ہے <xliff:g id="outbox">%2$s</xliff:g> میں"</string>
+	<!---->
+	<string name="turn_auto_sync_on_dialog_title">"خودکار سنک آن کریں؟"</string>
+	<!---->
+	<string name="turn_auto_sync_on_dialog_body">"آپ سبھی اپلیکیشنز اور اکاؤنٹس میں کرتے ہیں، صرف Gmail میں نہیں، وہ ویب، آپ کے دیگر ڈیوائسز، اور آپ کے <xliff:g id="phone_or_tablet">%1$s</xliff:g> سے سینکرونائز ہوجائے گا۔"</string>
+	<!---->
+	<string name="phone">"فون"</string>
+	<!---->
+	<string name="tablet">"ٹیبلٹ"</string>
+	<!---->
+	<string name="turn_auto_sync_on_dialog_confirm_btn">"آن کریں"</string>
+	<!---->
+	<string name="show_n_more_folders">"مزید %1$s فولڈرز دکھائیں"</string>
+	<!---->
+	<string name="hide_folders">"فولڈرز چھپائیں"</string>
+	<!---->
+	<string name="print">"پرنٹ کریں"</string>
+	<!---->
+	<string name="print_all">"تمام چھاپیں"</string>
+	<plurals name="num_messages">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> پیغام"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> پیغامات"</item>
+	</plurals>
+	<!-- no translation found for date_message_received_print -->
+	<skip />
+	<!---->
+	<string name="draft_to_heading">"ڈرافٹ بنام:"</string>
+	<!---->
+	<string name="draft_heading">"مسودہ"</string>
+	<!---->
+	<string name="quoted_text_hidden_print">"حوالہ والا متن پوشیدہ"</string>
+	<plurals name="num_attachments">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> منسلکہ"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> منسلکات"</item>
+	</plurals>
+	<!---->
+	<string name="no_subject">"(بلا موضوع)"</string>
+	<!---->
+	<string name="vacation_responder">"چھٹی کا جواب دہندہ"</string>
+	<!---->
+	<string name="preferences_vacation_responder_title">"چھٹی کا جواب دہندہ"</string>
+	<!---->
+	<string name="vacation_responder_body_hint_text">"پیغام"</string>
+	<!---->
+	<string name="send_to_contacts_text">"صرف میرے روابط کو میل بھیجیں"</string>
+	<!---->
+	<string name="send_to_domain_text">"صرف <xliff:g id="domain">%1$s</xliff:g> کو بھیجیں"</string>
+	<!---->
+	<string name="pick_start_date_title">"شروع ہوتا ہے"</string>
+	<!---->
+	<string name="pick_end_date_title">"اختتام (اختیاری)"</string>
+	<!---->
+	<string name="date_not_set">"سیٹ نہيں ہے"</string>
+	<!---->
+	<string name="set_end_date_dialog_title">"تاریخ اختتام (اختیاری)"</string>
+	<!---->
+	<string name="custom_date">"حسب ضرورت"</string>
+	<!---->
+	<string name="date_none">"کوئی نہیں"</string>
+	<!---->
+	<string name="discard_changes">"تبدیلیاں مسترد کریں؟"</string>
+	<!---->
+	<string name="draft_saved">"ڈرافٹ محفوظ کیا گیا"</string>
+	<!---->
+	<string name="draft_discard">"ڈرافٹ مسترد کیا گیا"</string>
+	<!---->
+	<string name="vacation_responder_changes_saved">"چھٹی کےجواب دہندہ کی تبدیلیاں محفوظ ہوگئیں"</string>
+	<!---->
+	<string name="vacation_responder_changes_discarded">"چھٹی کےجواب دہندہ کی تبدیلیاں محفوظ ہوگئیں"</string>
+	<!---->
+	<string name="vacation_responder_off">"آف"</string>
+	<!-- no translation found for vacation_responder_on -->
+	<skip />
+	<!-- no translation found for vacation_responder_on_with_end_date -->
+	<skip />
+	<!---->
+	<string name="vacation_responder_empty_subject_and_body_warning">"ایک موضوع یا پیغام شامل کریں"</string>
+	<!---->
+	<string name="view_entire_message">"پورا پیغام دیکھیں"</string>
+	<!---->
+	<string name="eml_loader_error_toast">"اس فائل کو کھول نہیں سکتا۔"</string>
+	<!---->
+	<string name="help_and_info">"مدد"</string>
+	<!---->
+	<string name="help_and_feedback">"مدد اور تاثرات"</string>
+	<!---->
+	<string name="feedback">"فیڈ بیک بھیجیں"</string>
+	<!---->
+	<string name="copyright">"©<xliff:g example="2010" id="year">%1$d</xliff:g> Google Inc."</string>
+	<!---->
+	<string name="version">"<xliff:g example="Email" id="app_name">%1$s</xliff:g> ورژن <xliff:g example="2.2.1" id="version">%2$s</xliff:g>"</string>
+	<!-- no translation found for view_app_page -->
+	<skip />
+	<!---->
+	<string name="print_dialog">"پرنٹ کریں\u2026"</string>
+	<!---->
+	<string name="copyright_information">"کاپی رائٹ کی معلومات"</string>
+	<!---->
+	<string name="privacy_policy">"رازداری پالیسی"</string>
+	<!---->
+	<string name="open_source_licenses">"اوپن سورس لائسنسز"</string>
+	<!---->
+	<string name="reply_choice_yes">"ہاں"</string>
+	<!---->
+	<string name="reply_choice_no">"نہیں"</string>
+	<!---->
+	<string name="reply_choice_ok">"ٹھیک ہے"</string>
+	<!-- no translation found for reply_choice_hehe -->
+	<skip />
+	<!---->
+	<string name="reply_choice_thanks">"شکریہ"</string>
+	<!---->
+	<string name="reply_choice_i_agree">"متفق ہوں"</string>
+	<!---->
+	<string name="reply_choice_nice">"عمدہ"</string>
+	<!---->
+	<string name="reply_on_my_way">"میری طرف"</string>
+	<!---->
+	<string name="reply_choice_later">"ٹھیک ہے، میں آپ سے رابطہ کرو ںگا"</string>
+	<!-- no translation found for reply_choice_smiling_face -->
+	<skip />
+	<!-- no translation found for reply_choice_frowning_face -->
+	<skip />
+	<!---->
+	<string name="preference_header_action_confirmations">"عمل کی تصدیقات"</string>
+	<!---->
+	<string name="preference_confirm_before_delete_title">"حذف کرنے سے پہلے تصدیق کریں"</string>
+	<!---->
+	<string name="preference_confirm_before_archive_title">"محفوظ کرنے سے پہلے تصدیق کریں"</string>
+	<!---->
+	<string name="preference_confirm_before_send_title">"بھیجنے سے پہلے تصدیق کریں"</string>
+	<!---->
+	<string name="preferences_conversation_mode_title">"آٹو-فٹ پیغامات"</string>
+	<!---->
+	<string name="preferences_conversation_mode_summary">"اسکرین میں فٹ ہونے کے لیے پیغامات کو مختصر کریں"</string>
+	<!---->
+	<string name="preferences_disable_snap_headers_title">"پیغام سے متعلق کارروائیاں"</string>
+	<string-array name="prefSummaries_snapHeader">
+		<item>"ہمیشہ اسکرین کے اوپری حصہ میں پیغام کی کارروائیاں دکھائیں"</item>
+		<item>"صرف اسکرین کے اوپری حصہ میں پیغام کی کارروائیاں دکھائیں"</item>
+		<item>"پیغام کی کارروائیاں پیغام کے ہیڈر سے باہر نہ دکھائیں"</item>
+	</string-array>
+	<string-array name="prefEntries_snapHeader">
+		<item>"ہمیشہ دکھائیں"</item>
+		<item>"صرف پورٹریٹ میں دکھائیں"</item>
+		<item>"نہ دکھائیں"</item>
+	</string-array>
+	<!---->
+	<string name="clear_history_title">"تلاش کی ہسٹری مٹائیں"</string>
+	<!---->
+	<string name="search_history_cleared">"تلاش کی ہسٹری مٹادی گئی۔"</string>
+	<!---->
+	<string name="clear_history_dialog_title">"تلاش کی ہسٹری مٹائیں؟"</string>
+	<!---->
+	<string name="clear_history_dialog_message">"آپ کے ذریعہ پہلے انجام دی گئی تمام تلاشیں مٹادی جائیں گی۔"</string>
+	<!---->
+	<string name="manage_accounts_menu_item">"اکاؤنٹس کا بندوبست کریں"</string>
+	<!---->
+	<string name="general_preferences_title">"عمومی سیٹنگز"</string>
+	<!---->
+	<string name="activity_preferences">"ترتیبات"</string>
+	<!---->
+	<string name="always_bcc_myself">"ہمیشہ مجھے نقل ثانی بھیجیں"</string>
+	<!---->
+	<string name="always_bcc_myself_summary">"جب بھی تصنیف کریں، جواب دیں، اور آگے بڑھائیں تو مجھے نقل ثانی بھیجیں"</string>
+	<!---->
+	<string name="general_preference_auto_download_remaining_label">"خودکار ڈاؤن لوڈ بقایا"</string>
+	<!---->
+	<string name="general_preference_auto_download_remaining_summary">"نیچے اسکرول کرتے وقت خودکار ڈاؤن لوڈ کا بقایا حصہ"</string>
+	<!---->
+	<string name="download_remaining">"بقایا ڈاؤن لوڈ کریں"</string>
+	<!---->
+	<string name="downloading_remaining">"لوڈ ہو رہا ہے…"</string>
+	<!---->
+	<string name="unable_to_connect">"جڑنے سے قاصر"</string>
+	<!---->
+	<string name="need_connection_prompt">"اس خدمت کو استعمال کرنے کے لئے آپ کو نیٹ ورک کنیکشن کی ضرورت ہے۔ براہ کرم سیٹنگز میں موبائل نیٹ ورک یا وائی-فائی آن کریں۔"</string>
+	<!---->
+	<string name="connection_settings">"ترتیبات"</string>
+	<!---->
+	<string name="priority_action">"ترجیح"</string>
+	<!---->
+	<string name="set_priority_dialog_title">"ترجیح متعین کریں"</string>
+	<!---->
+	<string name="dialog_warning">"تنبیہ\u2026"</string>
+	<!---->
+	<string name="dialog_warning_message">"Exchange ایپلیکیشن کا یہ ورژن ای میل جیسا نہیں ہے، جاری رکھیں؟"</string>
+	<!---->
+	<string name="toast_warning_text">"Exchange ایپلیکیشن کا یہ ورژن ای میل جیسا نہیں ہے"</string>
+	<!---->
+	<string name="tips_sync_alter_title">"سینکرونائز کرنا"</string>
+	<!---->
+	<string name="tips_sync_alter_content">"آپ کے پاس Wi-Fi کنیکشن نہیں ہے، کیا ہم آہنگی کا عمل جاری رکھیں؟"</string>
+	<!---->
+	<string name="tips_sync_alter_yes">"ہاں"</string>
+	<!---->
+	<string name="tips_sync_alter_no">"نہیں"</string>
+	<!---->
+	<string name="message_invite_tentative_title">"عارضی"</string>
+	<!---->
+	<string name="message_invite_decline_title">"مسترد کریں"</string>
+	<!---->
+	<string name="message_invite_accent_title">"قبول کریں"</string>
+	<!---->
+	<string name="drm_file_remind">"اس فائل کو اپ لوڈ یا شیئر کرنے کی اجازت نہیں ہے کیونکہ فائل DRM محفوظ شدہ ہے!"</string>
+	<!---->
+	<string name="not_add_more_recipients">"ایک بار میں <xliff:g id="maxLimit">%1$d</xliff:g> سے زیادہ وصول کنندگان شامل نہیں کرسکتا۔"</string>
+	<!---->
+	<string name="global_search_label">"ای میل"</string>
+	<!---->
+	<string name="global_search_hint">"ای میل تلاش کریں"</string>
+	<!---->
+	<string name="global_search_description">"مرسلین، مضامین،اور نفس مضمون"</string>
+	<!---->
+	<string name="remote_search_failed">"سرور کی تلاش ناکام رہی!"</string>
+	<!---->
+	<string name="searching_on_server">"سرور پر تلاش کریں"</string>
+	<!---->
+	<string name="searching_on_server_title">"\" <xliff:g id="account_name">%s</xliff:g>\" کو سرور پر تلاش کریں"</string>
+	<!---->
+	<string name="searching_all_fields_on_sever">"سرور پر سبھی فیلڈز تلاش کریں"</string>
+	<!---->
+	<string name="search_field_subject">"موضوع"</string>
+	<!---->
+	<string name="search_field_receiver">"وصول کنندہ"</string>
+	<!---->
+	<string name="search_field_sender">"مرسل"</string>
+	<!---->
+	<string name="search_field_body">"نفس مضمون"</string>
+	<!---->
+	<string name="search_field_all">"سبھی"</string>
+	<!---->
+	<string name="search_field_attachment">"منسلکہ"</string>
+	<!---->
+	<string name="select_all">"سبھی کو منتخب کریں"</string>
+	<!---->
+	<string name="deselect_all">"سبھی کو غیر منتخب کریں"</string>
+	<!---->
+	<string name="need_wifi_connection_prompt">"اس اپلی کیشن کو استعمال کرنے کے لئے آپ کو نیٹ ورک کنیکشن کی ضرورت ہے۔ براہِ کرم ترتیبات میں WiFi آن کریں۔ ""</string>
+	<!---->
+	<string name="account_setup_names_account_name_des_label">"اختیاری"</string>
+	<!---->
+	<string name="account_setup_names_user_name_des_label">"باہر جانیوالے پیغامات پر ڈسپلے کیا جاتا ہے"</string>
+	<!---->
+	<string name="finish_action">"مکمل"</string>
+	<!---->
+	<string name="copy_email">"ای میل پتہ کاپی کریں"</string>
+	<!---->
+	<string name="out_of_office_syncing">"دفتر سے باہر ہونے کی ترتیبات کی ہم آہنگی ہو رہی ہے"</string>
+	<!---->
+	<string name="out_of_office_fail">"دفتر سے باہر ہونے کی ترتیبات کی ہم آہنگی ناکام!"</string>
+	<!---->
+	<string name="out_of_office_success">"دفتر سے باہر ہونے کی ترتیبات کی ہم آہنگی کامیاب!"</string>
+	<!---->
+	<string name="manual_sync_when_roaming">"رومنگ کرتے وقت ہم وقت ساز کریں"</string>
+	<!---->
+	<string name="manual_sync_when_roaming_summery">"صرف دستی طور پر تازہ کریں"</string>
+	<!---->
+	<string name="manual_sync_when_roaming_toast">"رومنگ کرتے ہوئے تازہ کرنے کے لئے دستی طور پر نیچے سوائپ کریں"</string>
+	<!---->
+	<string name="manual_sync_when_roaming_refresh">"تازہ کاری کریں"</string>
+	<!---->
+	<string name="server_rule_can_not_change">"سرور قوانین کو تبدیل نہیں کیا جا سکتا ہے"</string>
+	<!---->
+	<string name="server_rules">"سرور قوانین"</string>
+	<!---->
+	<string name="confirm_forward_message">"تمام فائلیں ڈاؤن لوڈ نہیں ہوئی ہیں۔ فائلیں ڈاؤن لوڈ کئے بغیر آگے بھیجیں؟"</string>
+	<!---->
+	<string name="confirm_forward_cancel">"منسوخ کریں"</string>
+	<!---->
+	<string name="confirm_forward_drop_unload_attachment">"آگے بڑھائیں"</string>
+	<!---->
+	<string name="mail_not_download_completely">"ڈاؤں لوڈ مکمل ہونے تک انتظار کریں"</string>
+	<!---->
+	<string name="account_settings_inline_images_lable">"تصاویر"</string>
+	<!---->
+	<string name="account_settings_inline_always_show">"ہمیشہ دکھائیں"</string>
+	<!---->
+	<string name="account_settings_inline_ask_before_show">"دیکھنے سے پہلے پوچھیں"</string>
+	<!---->
+	<string name="conversation_time_after_today">"آج کے بعد"</string>
+	<!---->
+	<string name="conversation_time_today">"آج"</string>
+	<!---->
+	<string name="conversation_time_yesterday">"گزشتہ کل"</string>
+	<!---->
+	<string name="conversation_time_this_month">"اس مہینہ"</string>
+	<!---->
+	<string name="conversation_time_elapse_just_now">"بس ابھی"</string>
+	<!---->
+	<string name="conversation_time_elapse_minute">"<xliff:g id="count">%d</xliff:g> منٹس"</string>
+	<!---->
+	<string name="message_in_queued_status">"قطار بند"</string>
+	<plurals name="send_failed_messages">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> ای میل نہیں بھیجا گیا"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> ای میل نہیں بھیجے گیے"</item>
+	</plurals>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_label">"سے کیلنڈرز کو ہم وقت ساز کریں:"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_2weeks">"دو ھفتے"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_1month">"ایک مہینہ"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_3months">"3 مہینے"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_6months">"چھ مہینے"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_all">"سبھی"</string>
+	<!---->
+	<string name="no_permission_to_open_file">"اس فائل کو کھولنے کے لئے ذخیرہ کی اجازت کی ضرورت ہے"</string>
+	<!---->
+	<string name="conversation_update_time_text">"آخری بار اپ ڈیٹ کردہ:"</string>
+	<!---->
+	<string name="conversation_update_unknown_time_stamp">"نامعلوم"</string>
+	<!---->
+	<string name="conversation_time_elapse_today">"آج"</string>
+	<!---->
+	<string name="save_to_attachment">"اس میں محفوظ کریں"</string>
+	<!---->
+	<string name="download_settings_title">"منسلکہ محفوظ کریں"</string>
+	<!---->
+	<string name="download_edit_filename_label">"نام"</string>
+	<!---->
+	<string name="download_filepath_label">"راستہ"</string>
+	<!---->
+	<string name="download_file_size">"سائز"</string>
+	<!---->
+	<string name="download_time_needed">"وقت"</string>
+	<!---->
+	<string name="download_cancel">"منسوخ کریں"</string>
+	<!---->
+	<string name="download_start">"ٹھیک ہے"</string>
+	<!---->
+	<string name="unknown_length">"نامعلوم"</string>
+	<!---->
+	<string name="time_min">"منٹ"</string>
+	<!---->
+	<string name="open_file_manager_failed">"فائل مینیجر کو نہیں کھول سکا"</string>
+	<!---->
+	<string name="attachment_not_saved">"منسلکہ کو محفوظ نہیں کیا"</string>
+	<!---->
+	<string name="sync_calendar_title">"کیلنڈر کو سنک کرنے سے قاصر"</string>
+	<!---->
+	<string name="sync_calendar_content">"سنک کرنے کے لیے، ایکسچینج سروسز کو کیلنڈر تک رسائی کی اجازت دیں"</string>
+	<!---->
+	<string name="sync_contacts_title">"رابطوں کو سنک کرنے سے قاصر"</string>
+	<!---->
+	<string name="sync_contacts_content">"سنک کرنے کے لیے، ایکسچینج سروسز کو رابطوں تک رسائی کی اجازت دیں"</string>
+	<!---->
+	<string name="notification_never_ask_again">"دوبارہ کبھی نہ پوچھیں"</string>
+	<!---->
+	<string name="sync_storage_title">"منسلکہ محفوظ کرنے سے قاصر"</string>
+	<!---->
+	<string name="sync_storage_content">"محفوظ کرنے کے لیے، ایکسچینج سروسز کو اسٹوریج تک رسائی کی اجازت دیں"</string>
+	<!---->
+	<string name="oof_continue">"جاری رکھیں"</string>
+	<!---->
+	<string name="permission_needed_to_add_attachments">"منسلکہ شامل کرنے کے لیے، ای میل کی اجازتوں کو اسٹوریج تک رسائی کی اجازت دیں"</string>
+	<!---->
+	<string name="permission_needed_to_check_ringtone">"رنگ ٹون چیک کرنے کے لئے، اسٹوریج تک رسائی کرنے کے لئے ای میل اجازت ناموں کی اجازت دیں"</string>
+	<!---->
+	<string name="add_folder_as_attachment_fail_tips">"منسلکہ کے طور پر فولڈر شامل نہیں کر سکتا"</string>
+	<!---->
+	<string name="choose_action_title">"Select action"</string>
+	<!---->
+	<string name="choose_action_contact">"رابطہ شامل کریں: <xliff:g example="4" id="email_address">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="choose_action_email">"ای میل: <xliff:g example="4" id="email_address">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="choose_action_message">"پیغام: <xliff:g example="4" id="email_address">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="account_setup_basics_exit_action">"باہر نکلیں"</string>
+	<!---->
+	<skip />
+</resources>

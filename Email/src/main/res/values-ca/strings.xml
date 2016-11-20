@@ -1,0 +1,1747 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Tue Sep 20 16:24:06 CST 2016
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="permission_read_attachment_label">"Llegir fitxers adjunts"</string>
+	<!---->
+	<string name="permission_read_attachment_desc">"Permet que l\'aplicació llegeixi els fitxers adjunts al correu electrònic."</string>
+	<!---->
+	<string name="permission_access_provider_label">"Accés a les dades de proveïment de correu"</string>
+	<!---->
+	<string name="permission_access_provider_desc">"Permet que l\'aplicació accedeixi a la base de dades del vostre correu, inclosos els missatges rebuts, els missatges enviats, els noms d\'usuari i les contrasenyes."</string>
+	<!---->
+	<string name="debug_title">"Depuració"</string>
+	<!---->
+	<string name="next_action">"Següent"</string>
+	<!---->
+	<string name="okay_action">"ACCEPTAR"</string>
+	<!---->
+	<string name="cancel_action">"Anul·lar"</string>
+	<!---->
+	<string name="previous_action">"Anterior"</string>
+	<!---->
+	<string name="done_action">"Fet"</string>
+	<!---->
+	<string name="create_action">"Nou contacte"</string>
+	<!---->
+	<string name="quick_responses_empty_view">"No hi ha respostes ràpides."</string>
+	<!---->
+	<string name="account_settings_action">"Paràmetres compte"</string>
+	<!---->
+	<string name="status_network_error">"Problema de connexió."</string>
+	<plurals name="move_messages">
+		<item quantity="one">"Moure el missatge"</item>
+		<item quantity="other">"Moure els missatges"</item>
+	</plurals>
+	<!---->
+	<string name="cannot_move_protocol_not_supported_toast">"Els comptes POP3 no admeten el desplaçament d\'elements."</string>
+	<!---->
+	<string name="cannot_move_multiple_accounts_toast">"No es pot moure perquè la selecció conté diversos comptes."</string>
+	<!---->
+	<string name="cannot_move_special_mailboxes_toast">"Els missatges d\'Esborranys, Safata de sortida i Enviats no es poden moure."</string>
+	<!---->
+	<string name="mailbox_name_display_inbox">"Saf. entr."</string>
+	<!---->
+	<string name="mailbox_name_display_outbox">"Safata sort."</string>
+	<!---->
+	<string name="mailbox_name_display_drafts">"Esbor."</string>
+	<!---->
+	<string name="mailbox_name_display_trash">"Paperera"</string>
+	<!---->
+	<string name="mailbox_name_display_sent">"Enviat"</string>
+	<!---->
+	<string name="mailbox_name_display_junk">"Correu brossa"</string>
+	<!---->
+	<string name="mailbox_name_display_starred">"Destacats"</string>
+	<!---->
+	<string name="mailbox_name_display_unread">"Sense llegir"</string>
+	<!---->
+	<string name="account_folder_list_summary_inbox">"Saf. entr."</string>
+	<!---->
+	<string name="account_folder_list_summary_starred">"Destacats"</string>
+	<!---->
+	<string name="account_folder_list_summary_drafts">"Esbor."</string>
+	<!---->
+	<string name="account_folder_list_summary_outbox">"Safata sort."</string>
+	<!---->
+	<string name="mailbox_list_account_selector_combined_view">"Vista combinada"</string>
+	<!---->
+	<string name="message_compose_fwd_header_fmt">"\n\n-------- Missatge original --------\nAssumpte: <xliff:g id="subject">%1$s</xliff:g>\nDe: <xliff:g id="sender">%2$s</xliff:g>\nA: <xliff:g id="to">%3$s</xliff:g>\nCC: <xliff:g id="cc">%4$s</xliff:g>\n\n"</string>
+	<!---->
+	<string name="message_compose_insert_quick_response_list_title">"Inserir resposta ràpida"</string>
+	<!---->
+	<string name="message_compose_insert_quick_response_menu_title">"Inserir resposta ràpida"</string>
+	<!---->
+	<string name="message_view_attachment_background_load">"Nota: Un o més fitxers adjunts del teu missatge reenviat es baixaran abans de l\'enviament."</string>
+	<!---->
+	<string name="attachment_not_found">"No s\'ha pogut baixar l\'adjunt."</string>
+	<!---->
+	<string name="message_decode_error">"S\'ha produït un error en descodificar el missatge."</string>
+	<!---->
+	<string name="forward_download_failed_ticker">"No s\'ha pogut reenviar un o més adjunts."</string>
+	<!---->
+	<string name="forward_download_failed_title">"Adjunt no reenviat"</string>
+	<!---->
+	<string name="login_failed_ticker">"No s\'ha iniciat correctament la sessió amb <xliff:g id="account_name">%s</xliff:g>."</string>
+	<!---->
+	<string name="login_failed_title">"No s\'ha pogut iniciar la sessió"</string>
+	<plurals name="message_view_attachment_bytes">
+		<item quantity="one">"<xliff:g example="1" id="size_in_bytes">%d</xliff:g>B"</item>
+		<item quantity="other">"<xliff:g example="279" id="size_in_bytes">%d</xliff:g>B"</item>
+	</plurals>
+	<plurals name="message_view_attachment_kilobytes">
+		<item quantity="one">"<xliff:g example="1" id="size_in_kilobytes">%d</xliff:g>KB"</item>
+		<item quantity="other">"<xliff:g example="279" id="size_in_kilobytes">%d</xliff:g>KB"</item>
+	</plurals>
+	<plurals name="message_view_attachment_megabytes">
+		<item quantity="one">"<xliff:g example="1" id="size_in_megabytes">%d</xliff:g>MB"</item>
+		<item quantity="other">"<xliff:g example="279" id="size_in_megabytes">%d</xliff:g>MB"</item>
+	</plurals>
+	<plurals name="message_view_attachment_gigabytes">
+		<item quantity="one">"<xliff:g example="1" id="size_in_gigabytes">%d</xliff:g>GB"</item>
+		<item quantity="other">"<xliff:g example="279" id="size_in_gigabytes">%d</xliff:g>GB"</item>
+	</plurals>
+	<!---->
+	<string name="account_setup_basics_title">"Configuració del compte"</string>
+	<!---->
+	<string name="oauth_authentication_title">"Sol·licitant autorització"</string>
+	<!---->
+	<string name="sign_in_title">"Inici de sessió"</string>
+	<!---->
+	<string name="oauth_error_description">"No es pot autenticar"</string>
+	<!---->
+	<string name="password_warning_label">"L\'adreça o la contrasenya del correu electrònic són incorrectes"</string>
+	<!---->
+	<string name="email_confirmation_label">"Adreça electr."</string>
+	<!---->
+	<string name="account_setup_basics_headline">"Compte de correu electrònic"</string>
+	<!---->
+	<string name="accounts_welcome">"Podeu configurar el vostre compte en uns pocs passos."</string>
+	<!---->
+	<string name="account_setup_basics_email_label">"Adreça electr."</string>
+	<!---->
+	<string name="account_setup_basics_email_flying_label">"Correu electrònic"</string>
+	<!---->
+	<string name="or_label">"O BÉ"</string>
+	<!---->
+	<string name="sign_in_with_google">"Iniciar la sessió amb Google"</string>
+	<!---->
+	<string name="account_setup_basics_password_label">"Contrasenya"</string>
+	<!---->
+	<string name="password_hint">"Contrasenya"</string>
+	<!---->
+	<string name="signed_in_with_service_label">"S\'ha iniciat la sessió amb %s"</string>
+	<!---->
+	<string name="authentication_label">"AUTENTICACIÓ"</string>
+	<!---->
+	<string name="add_authentication_label">"Afegir autenticació"</string>
+	<!---->
+	<string name="clear_authentication_label">"Esborrar autenticació"</string>
+	<!---->
+	<string name="account_setup_basics_manual_setup_action">"Paràm. manual"</string>
+	<!---->
+	<string name="account_setup_username_password_toast">"Escriu una adreça electrònica i una contrasenya vàlides."</string>
+	<!---->
+	<string name="account_duplicate_dlg_title">"Duplicar compte"</string>
+	<!---->
+	<string name="account_duplicate_dlg_message_fmt">"Ja esteu fent servir aquest nom d\'usuari per al compte \"<xliff:g id="duplicate">%s</xliff:g>\"."</string>
+	<!---->
+	<string name="account_password_spaces_error">"Aquesta contrasenya comença i acaba amb un o més caràcters d\'espai. Molts servidors no admeten les contrasenyes amb espais."</string>
+	<!---->
+	<string name="account_setup_check_settings_retr_info_msg">"Recuperant informació del compte..."</string>
+	<!---->
+	<string name="account_setup_check_settings_check_incoming_msg">"Validant els paràmetres del servidor..."</string>
+	<!---->
+	<string name="account_setup_check_settings_check_outgoing_msg">"Validant els paràmetres de l\'SMTP..."</string>
+	<!---->
+	<string name="account_setup_creating_account_msg">"Creant el compte..."</string>
+	<!---->
+	<string name="account_setup_ab_headline">"Confirmar el tipus de compte"</string>
+	<!---->
+	<string name="account_setup_ab_instructions_format">"Heu indicat <xliff:g id="email">%1$s</xliff:g> usos <xliff:g id="userProtocol">%2$s</xliff:g>, però el compte pot utilitzar <xliff:g id="providerProtocol">%3$s</xliff:g>"</string>
+	<!---->
+	<string name="account_setup_names_title">"Configuració del compte"</string>
+	<!---->
+	<string name="account_setup_names_headline">"El compte ja està configurat, ara només falta el correu electrònic."</string>
+	<!---->
+	<string name="account_setup_names_account_name_label">"Anomenar compte"</string>
+	<!---->
+	<string name="account_setup_names_user_name_label">"Nom"</string>
+	<!---->
+	<string name="account_setup_names_user_name_empty_error">"Aquest camp no es pot deixar en blanc."</string>
+	<!---->
+	<string name="account_setup_account_type_title">"Configuració del compte"</string>
+	<!---->
+	<string name="account_setup_account_type_headline">"Tipus de compte"</string>
+	<!---->
+	<string name="account_setup_account_type_instructions">"Quin tipus de compte és?"</string>
+	<!---->
+	<string name="account_setup_incoming_title">"Configuració del compte"</string>
+	<!---->
+	<string name="account_setup_incoming_headline">"Paràmetres recepció servidor"</string>
+	<!---->
+	<string name="account_setup_incoming_username_label">"Nom d\'usuari"</string>
+	<!---->
+	<string name="account_setup_incoming_password_label">"Contrasenya"</string>
+	<!---->
+	<string name="account_setup_password_subheading">"Contrasenya"</string>
+	<!---->
+	<string name="account_setup_incoming_server_label">"Servidor"</string>
+	<!---->
+	<string name="account_setup_incoming_port_label">"Port"</string>
+	<!---->
+	<string name="account_setup_incoming_security_label">"Tipus de seguretat"</string>
+	<!---->
+	<string name="account_setup_incoming_domain_label">"Domini"</string>
+	<!---->
+	<string name="account_setup_incoming_add_domain_label">"Afegir domini"</string>
+	<!---->
+	<string name="account_setup_incoming_security_none_label">"Cap"</string>
+	<!---->
+	<string name="account_setup_incoming_security_ssl_trust_certificates_label">"SSL/TLS (acceptar tots certificats)"</string>
+	<!---->
+	<string name="account_setup_incoming_security_ssl_label">"SSL/TLS"</string>
+	<!---->
+	<string name="account_setup_incoming_security_tls_trust_certificates_label">"STARTTLS (acceptar tots els certificats)"</string>
+	<!---->
+	<string name="account_setup_incoming_security_tls_label">"STARTTLS"</string>
+	<!---->
+	<string name="account_setup_incoming_delete_policy_label">"Esborrar correu del servidor"</string>
+	<!---->
+	<string name="account_setup_incoming_delete_policy_never_label">"Mai"</string>
+	<!---->
+	<string name="account_setup_incoming_delete_policy_delete_label">"En esborrar de Saf. entr."</string>
+	<!---->
+	<string name="account_setup_incoming_imap_path_prefix_label">"Prefix del camí IMAP"</string>
+	<!---->
+	<string name="account_setup_incoming_imap_path_prefix_hint">"Opcional"</string>
+	<!---->
+	<string name="account_setup_outgoing_title">"Configuració del compte"</string>
+	<!---->
+	<string name="account_setup_outgoing_headline">"Paràmetres enviam. servidor"</string>
+	<!---->
+	<string name="account_setup_outgoing_smtp_server_label">"Servidor SMTP"</string>
+	<!---->
+	<string name="account_setup_outgoing_port_label">"Port"</string>
+	<!---->
+	<string name="account_setup_outgoing_security_label">"Tipus de seguretat"</string>
+	<!---->
+	<string name="account_setup_outgoing_require_login_label">"Heu d’iniciar la sessió."</string>
+	<!---->
+	<string name="account_setup_outgoing_username_label">"Nom d\'usuari"</string>
+	<!---->
+	<string name="account_setup_outgoing_password_label">"Contrasenya"</string>
+	<!---->
+	<string name="account_setup_exchange_certificate_title">"Certificat de client"</string>
+	<!---->
+	<string name="account_setup_exchange_select_certificate">"Seleccionar"</string>
+	<!---->
+	<string name="account_setup_exchange_use_certificate">"Utilitzar certificat de client"</string>
+	<!---->
+	<string name="account_setup_exchange_remove_certificate">"Eliminar"</string>
+	<!---->
+	<string name="account_setup_exchange_no_certificate">"Cap"</string>
+	<!---->
+	<string name="account_setup_exchange_device_id_label">"Identificador de dispositiu mòbil"</string>
+	<!---->
+	<string name="account_setup_options_title">"Paràmetres compte"</string>
+	<!---->
+	<string name="account_setup_options_headline">"Opcions de compte"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_label">"Freqüència de sincronització"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_never">"Mai"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_push">"Automàtic (tramesa)"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_5min">"Cada 5 minuts"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_10min">"Cada 10 minuts"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_15min">"Cada 15 minuts"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_30min">"Cada 30 minuts"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_1hour">"Cada hora"</string>
+	<!---->
+	<string name="account_setup_options_notify_label">"Notificar la rebuda de correus electrònics"</string>
+	<!---->
+	<string name="account_setup_options_sync_contacts_label">"Sincronitzar els contactes del compte."</string>
+	<!---->
+	<string name="account_setup_options_sync_calendar_label">"Sincronitzar l\'agenda del compte."</string>
+	<!---->
+	<string name="account_setup_options_sync_email_label">"Sincronitzar el correu electrònic d\'aquest compte."</string>
+	<!---->
+	<string name="account_setup_options_background_attachments_label">"Baixa automàticament els fitxers adjunts en connectar-te a Wi-Fi"</string>
+	<!---->
+	<string name="account_setup_failed_dlg_title">"No s\'ha pogut finalitzar"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_label">"Sincronitza els correus electrònics de"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_auto">"Automàtic"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1day">"Últim dia"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_3days">"Últims tres dies"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1week">"La setmana passada"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_2weeks">"Les últimes dues setmanes"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1month">"L\'últim mes"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_all">"Tots"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_default">"Utilitzar el valor predeterminat del compte"</string>
+	<!---->
+	<string name="account_setup_failed_dlg_auth_message">"El nom d\'usuari o la contrasenya no són correctes."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_auth_message_fmt">"Error d\'inici de sessió.\n(<xliff:g id="error">%s</xliff:g>)"</string>
+	<!---->
+	<string name="account_setup_autodiscover_dlg_authfail_title">"Problemes amb els paràmetres del compte"</string>
+	<!---->
+	<string name="account_setup_autodiscover_dlg_authfail_message">"Confirmeu que el nom d\'usuari, la contrasenya i els paràmetres del compte són correctes."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_certificate_message">"No s\'ha pogut establir la connexió amb el servidor a causa d\'un certificat que no és vàlid o no és de confiança."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_certificate_message_fmt">"No es pot establir una connexió segura amb el servidor.\n(<xliff:g id="ERROR">%s</xliff:g>)"</string>
+	<!---->
+	<string name="account_setup_failed_certificate_required">"Es necessita un certificat de client. Et vols connectar al servidor amb un certificat de client?"</string>
+	<!---->
+	<string name="account_setup_failed_certificate_inaccessible">"El certificat no és vàlid o no s\'hi pot accedir."</string>
+	<!---->
+	<string name="account_setup_failed_check_credentials_message">"El servidor ha respost amb un error. Comproveu el nom d\'usuari i la contrasenya, i torneu-ho a provar."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_server_message">"No es pot establir la connexió amb el servidor."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_server_message_fmt">"No es pot connectar amb el servidor.\n(<xliff:g id="ERROR">%s</xliff:g>)"</string>
+	<!---->
+	<string name="account_setup_failed_tls_required">"TLS obligatori però incompatible amb el servidor."</string>
+	<!---->
+	<string name="account_setup_failed_auth_required">"Els mètodes d\'autenticació no són compatibles amb el servidor."</string>
+	<!---->
+	<string name="account_setup_failed_security">"No s\'ha pogut obrir la connexió al servidor a causa d\'un error de seguretat."</string>
+	<!---->
+	<string name="account_setup_failed_ioerror">"No s\'ha pogut obrir la connexió amb el servidor."</string>
+	<!---->
+	<string name="account_setup_failed_protocol_unsupported">"Has introduït una adreça de servidor incorrecta o el servidor requereix una versió de protocol que el correu electrònic no admet."</string>
+	<!---->
+	<string name="account_setup_failed_access_denied">"No tens permís per sincronitzar amb aquest servidor. Contacta amb l\'administrador del servidor per a obtenir més informació."</string>
+	<!---->
+	<string name="account_setup_security_required_title">"Administració remota de la seguretat"</string>
+	<!---->
+	<string name="account_setup_security_policies_required_fmt">"És necessari que permetis que el servidor <xliff:g id="SERVER">%s</xliff:g> controli de manera remota algunes funcions de seguretat del dispositiu Android. Vols acabar de configurar aquest compte?"</string>
+	<!---->
+	<string name="account_setup_failed_security_policies_unsupported">"El servidor requereix funcions de seguretat que no són compatibles amb el teu dispositiu Android i que inclouen: <xliff:g id="ERROR">%s</xliff:g>"</string>
+	<!---->
+	<string name="account_setup_username_uneditable_error">"No pots canviar el nom d\'usuari del compte. Per afegir un compte amb un nom d\'usuari diferent, toca Afegir compte."</string>
+	<!---->
+	<string name="disable_admin_warning">"AVÍS: Desactivant l\'autoritat de l\'aplicació de correu per administrar el dispositiu se suprimiran tots els comptes que la necessitin i el correu, els contactes, els esdeveniments del calendari i altres dades."</string>
+	<!---->
+	<string name="account_security_dialog_title">"Actualització de seguretat"</string>
+	<!---->
+	<string name="account_security_dialog_content_fmt">"<xliff:g id="account">%s</xliff:g> requereix l\'actualització dels paràmetres de seguretat."</string>
+	<!---->
+	<string name="security_unsupported_ticker_fmt">"El compte \"<xliff:g id="account">%s</xliff:g>\" no es pot sincronitzar a causa de requisits de seguretat."</string>
+	<!---->
+	<string name="security_needed_ticker_fmt">"El compte \"<xliff:g id="account">%s</xliff:g>\" requereix actualització de paràmetres de seguretat."</string>
+	<!---->
+	<string name="security_changed_ticker_fmt">"S\'han modificat els paràmetres de seguretat del compte \"<xliff:g id="account">%s</xliff:g>\"; no cal que l\'usuari faci cap acció."</string>
+	<!---->
+	<string name="security_notification_content_update_title">"Cal actualització de seguretat"</string>
+	<!---->
+	<string name="security_notification_content_change_title">"Les polítiques de seguretat han canviat."</string>
+	<!---->
+	<string name="security_notification_content_unsupported_title">"No es poden complir les polítiques de seguretat"</string>
+	<!---->
+	<string name="account_security_title">"Seguretat del dispositiu"</string>
+	<!---->
+	<string name="account_security_policy_explanation_fmt">"El servidor <xliff:g id="server">%s</xliff:g> requereix que li permeteu controlar remotament algunes funcions de seguretat del vostre dispositiu Android."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_edit_details_action">"Editar dades"</string>
+	<!---->
+	<string name="password_expire_warning_ticker_fmt">"\"<xliff:g id="account">%s</xliff:g>\" requereix que canviïs el PIN o la contrasenya de bloqueig de pantalla."</string>
+	<!---->
+	<string name="password_expire_warning_content_title">"Contrasenya de bloqueig de pantalla a punt de caducar"</string>
+	<!---->
+	<string name="password_expired_ticker">"El PIN o la contrasenya de bloqueig de pantalla ha caducat."</string>
+	<!---->
+	<string name="password_expired_content_title">"Contrasenya de bloqueig de pantalla caducada"</string>
+	<!---->
+	<string name="password_expire_warning_dialog_title">"Contrasenya de bloqueig de pantalla a punt de caducar"</string>
+	<!---->
+	<string name="password_expire_warning_dialog_content_fmt">"Heu de canviar el PIN o la contrasenya de la pantalla de bloqueig aviat, o les dades del compte <xliff:g id="account">%s</xliff:g> s\'esborraran. Voleu canviar-ho ara?"</string>
+	<!---->
+	<string name="password_expired_dialog_title">"Contrasenya de bloqueig de pantalla caducada"</string>
+	<!---->
+	<string name="password_expired_dialog_content_fmt">"Les dades del compte <xliff:g id="account">%s</xliff:g> s\'estan esborrant del dispositiu. Podeu restaurar-les si canvieu el PIN o la contrasenya de la pantalla de bloqueig. Voleu canviar-ho ara?"</string>
+	<!---->
+	<string name="account_settings_exit_server_settings">"Descartar canvis sense desar?"</string>
+	<!---->
+	<string name="account_settings_login_dialog_title">"No s\'ha pogut iniciar la sessió"</string>
+	<!---->
+	<string name="account_settings_login_dialog_content_fmt">"El nom d\'usuari o la contrasenya de <xliff:g id="account">%s</xliff:g> són incorrectes. Voleu actualitzar-los ara?"</string>
+	<!---->
+	<string name="account_settings_login_dialog_reason_fmt">"No s\'ha pogut iniciar la sessió del compte <xliff:g id="account">%s</xliff:g>; el servidor ha indicat el següent: <xliff:g id="reason">%s</xliff:g> Voleu actualitzar el nom d\'usuari o la contrasenya?"</string>
+	<!---->
+	<string name="account_settings_background_attachments_label">"Baixar els adjunts"</string>
+	<!---->
+	<string name="account_settings_background_attachments_summary">"Baixar automàticament els adjunts dels missatges recents per Wi-Fi"</string>
+	<!---->
+	<string name="account_settings_notify_label">"Notificacions correu"</string>
+	<!---->
+	<string name="account_settings_summary">"Freqüència de sincronització, notificacions, etc."</string>
+	<!---->
+	<string name="account_settings_notify_summary">"Enviar notificació en rebre correu electrònic"</string>
+	<!---->
+	<string name="account_settings_mail_check_frequency_label">"Freqüència de sincronització"</string>
+	<!---->
+	<string name="account_settings_incoming_label">"Paràmetres de recepció"</string>
+	<!---->
+	<string name="account_settings_incoming_summary">"Nom d\'usuari, contrasenya i altres paràmetres del servidor entrant"</string>
+	<!---->
+	<string name="account_settings_outgoing_label">"Paràmetres d’enviament"</string>
+	<!---->
+	<string name="account_settings_outgoing_summary">"Nom d\'usuari, contrasenya i altres paràmetres del servidor sortint"</string>
+	<!---->
+	<string name="account_settings_reply_to_category">"Respon als paràmetres"</string>
+	<!---->
+	<string name="account_settings_reply_to_label">"Respon a"</string>
+	<!---->
+	<string name="account_settings_reply_to_invalid">"L\'adreça no és vàlida."</string>
+	<!---->
+	<string name="account_settings_enforced_label">"Polítiques aplicades"</string>
+	<!---->
+	<string name="account_settings_enforced_summary">"Cap"</string>
+	<!---->
+	<string name="account_settings_unsupported_label">"Polítiques no admeses"</string>
+	<!---->
+	<string name="account_settings_unsupported_summary">"Cap"</string>
+	<!---->
+	<string name="account_settings_retry_label">"Intenta la sincronització"</string>
+	<!---->
+	<string name="account_settings_retry_summary">"Toqueu aquí per sincronitzar aquest compte."</string>
+	<!---->
+	<string name="account_settings_description_label">"Nom compte"</string>
+	<!---->
+	<string name="account_settings_name_label">"El vostre nom"</string>
+	<!---->
+	<string name="account_settings_edit_quick_responses_label">"Respostes ràpides"</string>
+	<!---->
+	<string name="account_settings_edit_quick_responses_summary">"Editar text que inseriu sovint quan redacteu correus"</string>
+	<!---->
+	<string name="account_settings_notifications">"Paràmetres de notificacions"</string>
+	<!---->
+	<string name="account_settings_data_usage">"Ús de dades"</string>
+	<!---->
+	<string name="account_settings_policies">"Polítiques de seguretat"</string>
+	<!---->
+	<string name="system_folders_title">"Carpetes del sistema"</string>
+	<!---->
+	<string name="system_folders_trash_title">"Carpeta de paperera"</string>
+	<!---->
+	<string name="system_folders_trash_summary">"Seleccioneu la carpeta de paperera del servidor"</string>
+	<!---->
+	<string name="system_folders_trash_dlg">"Seleccioneu la carpeta de paperera del servidor"</string>
+	<!---->
+	<string name="system_folders_sent_title">"Carpeta d\'elements enviats"</string>
+	<!---->
+	<string name="system_folders_sent_summary">"Seleccioneu la carpeta d\'elements enviats del servidor"</string>
+	<!---->
+	<string name="system_folders_sent_dlg">"Seleccioneu la carpeta d\'elements enviats del servidor"</string>
+	<!---->
+	<string name="edit_quick_response_dialog">"Resposta ràpida"</string>
+	<!---->
+	<string name="save_action">"Desar"</string>
+	<!---->
+	<string name="account_settings_sync_contacts_enable">"Sincronitzar contactes"</string>
+	<!---->
+	<string name="account_settings_sync_contacts_summary">"Sincronitzar els contactes d\'aquest compte"</string>
+	<!---->
+	<string name="account_settings_sync_calendar_enable">"Sincronitzar agenda"</string>
+	<!---->
+	<string name="account_settings_sync_calendar_summary">"Sincronitzar l\'esdeveniment del calendari d\'aquest compte"</string>
+	<!---->
+	<string name="account_settings_sync_email_enable">"Sincronitzar el correu electrònic"</string>
+	<!---->
+	<string name="account_settings_sync_email_summary">"Sincronitzar el correu electrònic d\'aquest compte"</string>
+	<!---->
+	<string name="account_settings_vibrate_when_label">"Vibració"</string>
+	<!---->
+	<string name="account_settings_ringtone">"Seleccionar to de trucada"</string>
+	<!---->
+	<string name="account_settings_servers">"Paràmetres de servidor"</string>
+	<!---->
+	<string name="default_ringtone">"To de trucada predeterminat"</string>
+	<!---->
+	<string name="default_ringtone_unkonwn">"To de trucada desconegut"</string>
+	<!---->
+	<string name="mailbox_settings_activity_title">"Opcions de sincronització"</string>
+	<!---->
+	<string name="mailbox_settings_activity_title_with_mailbox">"Opcions de sincronització (<xliff:g example="Family" id="mailboxx_name">%s</xliff:g>)"</string>
+	<!---->
+	<string name="mailbox_settings_sync_enabled_label">"Sincronitzar aquesta carpeta"</string>
+	<!---->
+	<string name="mailbox_settings_sync_enabled_summary">"Els missatges es baixaran en tenir connexió"</string>
+	<!---->
+	<string name="mailbox_settings_mailbox_sync_window_label">"Dies de correu per sincronitzar"</string>
+	<!---->
+	<string name="prefDialogTitle_conversationListIcon">"Imatge del remitent"</string>
+	<!---->
+	<string name="provider_note_live">"Només alguns comptes \"Plus\" inclouen l\'accés POP que permet que aquest programa s\'hi connecti. Si no pots iniciar la sessió amb l\'adreça electrònica i la contrasenya correctes, pot ser que no tinguis un compte \"Plus\" de pagament. Inicia el navegador web per accedir a aquests comptes de correu."</string>
+	<!---->
+	<string name="provider_note_t_online">"Abans de configurar aquest compte de correu, visiteu el lloc web de T-Online i creeu una contrasenya per a l\'accés al correu electrònic POP3."</string>
+	<!---->
+	<string name="exchange_name">"Corporatiu"</string>
+	<!---->
+	<string name="exchange_name_alternate">"Microsoft Exchange ActiveSync"</string>
+	<!---->
+	<string name="system_account_create_failed">"No s\'ha pogut crear el compte. Torna-ho a provar."</string>
+	<!---->
+	<string name="device_admin_label">"C/e"</string>
+	<!---->
+	<string name="device_admin_description">"Activa les polítiques de seguretat per a cada servidor"</string>
+	<!---->
+	<string name="settings_activity_title">"Paràmetres"</string>
+	<!---->
+	<string name="header_label_general_preferences">"Config. general"</string>
+	<!---->
+	<string name="general_preference_confirm_delete_label">"Confirmar abans de suprimir"</string>
+	<!---->
+	<string name="general_preference_confirm_send_label">"Confirmar abans d\'enviar"</string>
+	<!---->
+	<string name="more_than_999">"999+"</string>
+	<!---->
+	<string name="search_hint">"Cerca"</string>
+	<!---->
+	<string name="policy_dont_allow_camera">"No permetre l\'ús de la càmera del dispositiu"</string>
+	<!---->
+	<string name="policy_require_password">"Requerir la contrasenya del dispositiu"</string>
+	<!---->
+	<string name="policy_password_history">"Restringir la reutilització de contrasenyes recents"</string>
+	<!---->
+	<string name="policy_password_expiration">"Requerir que les contrasenyes caduquin"</string>
+	<!---->
+	<string name="policy_screen_timeout">"Requerir que els dispositius inactius bloquegin la seva pantalla"</string>
+	<!---->
+	<string name="policy_calendar_age">"Limita el nombre d\'esdev. calendari sincronitzats"</string>
+	<!---->
+	<string name="policy_email_age">"Limita el nombre de correus electr. sincronitzats"</string>
+	<!---->
+	<string name="quick_1">"Gràcies!"</string>
+	<!---->
+	<string name="quick_2">"Sona bé!"</string>
+	<!---->
+	<string name="quick_3">"Ho llegiré més tard i te\'n diré alguna cosa."</string>
+	<!---->
+	<string name="quick_4">"Organitzem una reunió per parlar-ne."</string>
+	<!---->
+	<string name="require_manual_sync_message">"La sincronització en segon pla d\'aquest compte està inhabilitada en\ itinerància."</string>
+	<!---->
+	<string name="confirm_response">"Enviant la resposta…"</string>
+	<!---->
+	<string name="no_conversations">"No hi ha cap missatge."</string>
+	<!-- no translation found for imap_name -->
+	<skip />
+	<!-- no translation found for pop3_name -->
+	<skip />
+	<!---->
+	<string name="email_name">"Correu electrònic"</string>
+	<!---->
+	<string name="folder_picker_title">"Selector de carpetes"</string>
+	<!---->
+	<string name="trash_folder_selection_title">"Seleccioneu la carpeta de paperera del servidor per a <xliff:g id="account">%s</xliff:g>"</string>
+	<!---->
+	<string name="sent_folder_selection_title">"Selecciona la carpeta d\'elements enviats del servidor per a: <xliff:g id="ACCOUNT">%s</xliff:g>"</string>
+	<!---->
+	<string name="account_waiting_for_folders_msg">"Carregant la llista de carpetes..."</string>
+	<!---->
+	<string name="no_quick_responses">"Cap de disponible"</string>
+	<!---->
+	<string name="gmail_name">"Gmail"</string>
+	<!---->
+	<string name="folder_sync_settings_pref_title">"Paràmetres de sincronització de carpetes"</string>
+	<!---->
+	<string name="select_your_account">"Seleccionar compte"</string>
+	<!---->
+	<string name="select_account_list_below">"Seleccioneu el vostre compte de la següent llista:"</string>
+	<!---->
+	<string name="cancel_label">"Anul·lar"</string>
+	<!---->
+	<string name="next_label">"Següent"</string>
+	<!---->
+	<string name="str_account_provider_other">"Altres"</string>
+	<!---->
+	<string name="account_settings_download_options_label">"Baixar opcions"</string>
+	<!---->
+	<string name="account_setting_download_opt_headonly">"Sols encap."</string>
+	<!---->
+	<string name="account_setting_download_opt_all">"Tots"</string>
+	<!-- no translation found for account_setting_download_opt_2k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_5k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_10k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_20k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_50k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_100k -->
+	<skip />
+	<!---->
+	<string name="account_oof_error_tip_past">"L\'hora de finalització no pot ser anterior a l\'actual. Canvieu l\'hora de finalització per una de posterior a l\'actual."</string>
+	<!---->
+	<string name="account_oof_error_tip_earlier">"L\'hora de finalització no pot ser anterior a la d\'inici. Torneu a canviar l\'hora de finalització."</string>
+	<!---->
+	<string name="account_setting_oof_label">"Paràmetres de fora de l\'oficina"</string>
+	<!---->
+	<string name="oof_auto_repley">"Enviar resposta automàtica de fora de l\'oficina"</string>
+	<!---->
+	<string name="oof_auto_replies_period">"Enviar respostes automàtiques durant aquest període"</string>
+	<!---->
+	<string name="start_time">"Hora d\'inici"</string>
+	<!---->
+	<string name="end_time">"Hora de finalització"</string>
+	<!---->
+	<string name="internal_message">"Missatge intern"</string>
+	<!---->
+	<string name="oof_auto_replies_external_senders">"Enviar respostes automàtiques a remitents externs"</string>
+	<!---->
+	<string name="oof_choice_oof_in_contacts">"Enviar resposta automàtica de fora de l\'oficina als remitents de la meva llista de contactes"</string>
+	<!---->
+	<string name="oof_choice_oof_outside_organisation">"Enviar resposta automàtica de fora de l\'oficina a tothom que no pertanyi a la meva organització"</string>
+	<!---->
+	<string name="external_message">"Missatge extern"</string>
+	<!---->
+	<string name="oof_done_message_attention">""No heu especificat cap missatge de resposta automàtica per a les persones de la vostra organització. Si no introduïu un missatge de fora de l\'oficina, les persones no rebran cap notificació de fora de l\'oficina. Les regles de fora de l\'oficina, però, continuaran aplicant-se. Voleu continuar?"</string>
+	<!---->
+	<string name="oof_choice_in_contacts">"Enviar als remitents de la meva llista de contactes"</string>
+	<!---->
+	<string name="oof_choice_all_senders">"Enviar a tots els remitents"</string>
+	<!---->
+	<string name="hint_text_of_internal_message">"Responeu a adreces de la vostra organització"</string>
+	<!---->
+	<string name="hint_text_of_external_message">"Responeu a adreces fora de la vostra organització."</string>
+	<!---->
+	<string name="account_delete_dlg_title">"Voleu eliminar el compte?"</string>
+	<!---->
+	<string name="account_delete_dlg_instructions_fmt">"Esteu a punt d\'esborrar el compte \"<xliff:g id="account">%s</xliff:g>\" del correu electrònic."</string>
+	<!---->
+	<string name="account_delete_dlg_instructions_fmt_new">"Si elimineu aquest compte, s\'esborraran tots els seus missatges, contactes i altres dades del telèfon."</string>
+	<!---->
+	<string name="account_delete_dlg_action_remove_label">"Eliminar"</string>
+	<!---->
+	<string name="account_delete_dlg_action_cancel_label">"Anul·lar"</string>
+	<!---->
+	<string name="account_settings_category_delete_account">"Eliminar compte"</string>
+	<!---->
+	<string name="account_settings_delete_account_label">"Eliminar compte"</string>
+	<!---->
+	<string name="account_settings_default_label">"Compte predeterminat"</string>
+	<!---->
+	<string name="account_settings_default_summary">"Enviar correu des del compte predeterminat"</string>
+	<!---->
+	<string name="account_setup_options_default_label">"Enviar correu des del compte predeterminat."</string>
+	<!---->
+	<string name="account_setup_basics_default_label">"Enviar correu des del compte predeterminat."</string>
+	<!---->
+	<string name="local_search_action">"Buscar a la ubicació local"</string>
+	<!---->
+	<string name="service_search_action">"Buscar al servidor"</string>
+	<!---->
+	<string name="local_search_all">"Tots"</string>
+	<!---->
+	<string name="local_search_from">"De"</string>
+	<!---->
+	<string name="local_search_to">"A"</string>
+	<!---->
+	<string name="local_search_subject">"Assumpte"</string>
+	<!---->
+	<string name="status_loading_attachments">"Carregant"</string>
+	<!---->
+	<string name="account_use_proxy_label">"Utilitzar serv. intermediari"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_label">"IP del servidor intermediari"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_port_label">"Port del servidor intermediari"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_name">"Nom del servidor intermediari"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_password">"Contrasenya servidor intermediari"</string>
+	<!---->
+	<string name="attachment_info_dialog_wifi_title">"Cal una connexió Wi-Fi"</string>
+	<!---->
+	<string name="attachment_info_wifi_settings">"Paràmetres de Wi-Fi"</string>
+	<!---->
+	<string name="attachment_info_wifi_only">"Aquest adjunt és massa gran per baixar-lo en una xarxa mòbil. Pots baixar-lo la propera vegada que et connectis a una xarxa Wi-Fi."</string>
+	<!---->
+	<string name="attachment_info_ok">"Acceptar"</string>
+	<!---->
+	<string name="mailbox_name_display_draft">"Esborrany"</string>
+	<!---->
+	<string name="message_compose_display_name">"<xliff:g example="John" id="name">%1$s</xliff:g> i <xliff:g example="27" id="number">%2$d</xliff:g> altres"</string>
+	<!---->
+	<string name="app_name">"Correu electrònic"</string>
+	<!---->
+	<string name="from">"De"</string>
+	<!---->
+	<string name="to">"A"</string>
+	<!---->
+	<string name="cc">"CC"</string>
+	<!---->
+	<string name="bcc">"CCO"</string>
+	<!---->
+	<string name="subject_hint">"Assumpte"</string>
+	<!---->
+	<string name="body_hint">"Redactar missatge de correu electrònic"</string>
+	<!---->
+	<string name="add_file_attachment">"Adjuntar fitxer"</string>
+	<!---->
+	<string name="add_photo_attachment">"Adjuntar imatge"</string>
+	<!---->
+	<string name="save_draft">"Desa l\'esborrany"</string>
+	<!---->
+	<string name="discard">"Descartar"</string>
+	<!---->
+	<string name="compose">"Escriure"</string>
+	<!---->
+	<string name="select_contacts_field">"Selecciona els contactes de"</string>
+	<!---->
+	<string name="item_save_group">"Desa el grup"</string>
+	<!---->
+	<string name="confirm_select">"Seleccionar"</string>
+	<!---->
+	<string name="cancel_select">"Anul·lar"</string>
+	<string-array name="compose_modes">
+		<item>"Respondre"</item>
+		<item>"Resp. a tots"</item>
+		<item>"Reenviar"</item>
+	</string-array>
+	<string-array name="compose_modes_without_reply_all">
+		<item>"Respondre"</item>
+		<item>"Reenviar"</item>
+	</string-array>
+	<!---->
+	<string name="reply_subject_label">"Re:"</string>
+	<!---->
+	<string name="forward_subject_label">"Reenv.:"</string>
+	<!---->
+	<string name="reply_attribution">"el <xliff:g id="date">%s</xliff:g>, <xliff:g id="person">%s</xliff:g> va escriure:"</string>
+	<!---->
+	<string name="forward_attribution">"---------- Missatge reenviat ----------；De:；Data:；Assumpte:；A:"</string>
+	<!---->
+	<string name="forward_attribution_with_headers">"---------- Missatge reenviat ---------- <xliff:g id="a">%s</xliff:g> De: <xliff:g id="from">%s</xliff:g> <xliff:g id="b">%s</xliff:g> Data: <xliff:g id="date">%s</xliff:g> <xliff:g id="c">%s</xliff:g> Assumpte: <xliff:g id="subject">%s</xliff:g> <xliff:g id="d">%s</xliff:g> A: <xliff:g id="to">%s</xliff:g> <xliff:g id="e">%s</xliff:g> CC: <xliff:g id="cc">%s</xliff:g> <br/>"</string>
+	<!---->
+	<string name="forward_attribution_no_headers">"---------- Missatge reenviat ----------"</string>
+	<!---->
+	<string name="cc_attribution">"CC:"</string>
+	<!---->
+	<string name="select_attachment_type">"Seleccionar el tipus de fitxer adjunt"</string>
+	<!---->
+	<string name="too_large_to_attach_single">"No es pot adjuntar un fitxer superior a %1$s."</string>
+	<!---->
+	<string name="too_large_to_attach_multiple">"No s\'han adjuntat un o diversos fitxers. Límit <xliff:g id="maxSize">%1$s</xliff:g>."</string>
+	<!---->
+	<string name="too_large_to_mid_attach_additional">"El correu electrònic supera <xliff:g id="maxSize">%1$s</xliff:g>. És possible que el compte de correu electrònic no pugui admetre\'l."</string>
+	<!---->
+	<string name="too_large_to_attach_additional">"No es pot afegir el fitxer. La mida del correu electrònic no pot supera el límit de: <xliff:g id="maxSize">%1$s</xliff:g>."</string>
+	<!---->
+	<string name="generic_attachment_problem">"No s\'ha pogut adjuntar el fitxer."</string>
+	<!---->
+	<string name="recipient_needed">"Afegiu almenys un destinatari."</string>
+	<!---->
+	<string name="recipient_error_dialog_title">"Error de destinatari"</string>
+	<!---->
+	<string name="confirm_send_title">"Voleu enviar el missatge?"</string>
+	<!---->
+	<string name="confirm_send_message_with_no_subject">"L\'assumpte del missatge és buit."</string>
+	<!---->
+	<string name="confirm_send_message_with_no_body">"El cos del missatge és buit."</string>
+	<!---->
+	<string name="confirm_send_message">"Voleu enviar aquest missatge?"</string>
+	<!---->
+	<string name="message_discarded">"Missatge descartat."</string>
+	<!-- no translation found for signature -->
+	<skip />
+	<!---->
+	<string name="custom_from_account_label">"Enviar el correu com a:"</string>
+	<!---->
+	<string name="send">"Enviar"</string>
+	<!---->
+	<string name="mark_read">"Marcar llegit"</string>
+	<!---->
+	<string name="mark_unread">"Marc. no llegit"</string>
+	<!---->
+	<string name="mute">"Silenci"</string>
+	<!---->
+	<string name="add_star">"Afegir estrella"</string>
+	<!---->
+	<string name="remove_star">"Treu. estrella"</string>
+	<!---->
+	<string name="remove_folder">"Eliminar de la carpeta <xliff:g id="folderName">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="archive">"Fitxer"</string>
+	<!---->
+	<string name="report_spam">"Denunciar com a correu brossa"</string>
+	<!---->
+	<string name="mark_not_spam">"Informe: No és correu brossa"</string>
+	<!---->
+	<string name="report_phishing">"Notificar suplantació de la identitat"</string>
+	<!---->
+	<string name="delete">"Suprimir"</string>
+	<!---->
+	<string name="discard_drafts">"Descartar esborranys"</string>
+	<!---->
+	<string name="discard_failed">"No s\'ha pogut descartar."</string>
+	<!---->
+	<string name="refresh">"Actualitzar"</string>
+	<!---->
+	<string name="reply">"Respondre"</string>
+	<!---->
+	<string name="reply_all">"Resp. a tots"</string>
+	<!---->
+	<string name="resume_draft">"Editar"</string>
+	<!---->
+	<string name="forward">"Reenviar"</string>
+	<!---->
+	<string name="menu_compose">"Escriure"</string>
+	<!---->
+	<string name="menu_sort">"Ordenar"</string>
+	<!---->
+	<string name="menu_change_folders">"Modificar carpetes"</string>
+	<!---->
+	<string name="menu_move_to">"Moure a"</string>
+	<!---->
+	<string name="menu_move_to_inbox">"Moure a Safata d\'entrada"</string>
+	<!---->
+	<string name="menu_manage_folders">"Paràmetres de la carpeta"</string>
+	<!---->
+	<string name="menu_show_original">"Anul·lar canvi de mida automàtic"</string>
+	<!---->
+	<string name="menu_settings">"Paràmetres"</string>
+	<!---->
+	<string name="menu_search">"Cercar"</string>
+	<!---->
+	<string name="drawer_title">"Navegació"</string>
+	<!---->
+	<string name="mark_important">"Marcar com a important"</string>
+	<!---->
+	<string name="mark_not_important">"Marcar com a no important"</string>
+	<!---->
+	<string name="select_all_conversations">"Seleccionar-ho tot"</string>
+	<!---->
+	<string name="unselect_all_conversations">"Deseleccionar-ho tot"</string>
+	<!---->
+	<string name="add_cc_label">"Afegir CC/CCO"</string>
+	<!---->
+	<string name="add_bcc_label">"Afegir CCO"</string>
+	<!---->
+	<string name="quoted_text">"Incloure text entre cometes"</string>
+	<!---->
+	<string name="quoted_text_label">"Missatge anterior"</string>
+	<!---->
+	<string name="respond_inline">"Respondre dins el missatge"</string>
+	<!---->
+	<string name="bytes">"<xliff:g id="count">%s</xliff:g> B"</string>
+	<!---->
+	<string name="kilobytes">"<xliff:g id="count">%s</xliff:g> kB"</string>
+	<!---->
+	<string name="megabytes">"<xliff:g id="count">%s</xliff:g> MB"</string>
+	<!---->
+	<string name="attachment_image">"Imatge"</string>
+	<!---->
+	<string name="attachment_video">"Vídeo"</string>
+	<!---->
+	<string name="attachment_audio">"Àudio"</string>
+	<!---->
+	<string name="attachment_text">"Text"</string>
+	<!---->
+	<string name="attachment_application_msword">"Document"</string>
+	<!---->
+	<string name="attachment_application_vnd_ms_powerpoint">"Presentació"</string>
+	<!---->
+	<string name="attachment_application_vnd_ms_excel">"Full de càlcul"</string>
+	<!-- no translation found for attachment_application_pdf -->
+	<skip />
+	<!---->
+	<string name="attachment_unknown">"Fitxer <xliff:g id="attachmentExtension">%s</xliff:g>"</string>
+	<!---->
+	<string name="preview_attachment">"Vista prèvia"</string>
+	<!---->
+	<string name="save_attachment">"Desar"</string>
+	<!---->
+	<string name="cancel_attachment">"Anul·lar"</string>
+	<!---->
+	<string name="open_attachment">"Obrir"</string>
+	<!---->
+	<string name="install_attachment">"Instal·lar"</string>
+	<!---->
+	<string name="download_again">"Tornar a baixar"</string>
+	<!---->
+	<string name="more_info_attachment">"Informació"</string>
+	<!---->
+	<string name="no_application_found">"Cap aplicació pot obrir aquest fitxer per visualitzar-lo."</string>
+	<!---->
+	<string name="fetching_attachment">"Obtenint el fitxer adjunt"</string>
+	<!---->
+	<string name="please_wait">"Espereu\u2026"</string>
+	<!---->
+	<string name="saved">"Desat"</string>
+	<!---->
+	<string name="download_failed">"No s\'ha pogut baixar. Toqueu per tornar-ho a provar."</string>
+	<!---->
+	<string name="menu_photo_save_all">"Desar tots"</string>
+	<!---->
+	<string name="menu_photo_share">"Compartir"</string>
+	<!---->
+	<string name="menu_photo_share_all">"Compartir tots"</string>
+	<!---->
+	<string name="menu_photo_print">"Imprimir"</string>
+	<!---->
+	<string name="saving">"Desant..."</string>
+	<!---->
+	<string name="choosertitle_sharevia">"Compartir per"</string>
+	<!---->
+	<string name="contextmenu_openlink">"Obrir al navegador"</string>
+	<!---->
+	<string name="contextmenu_copy">"Copiar"</string>
+	<!---->
+	<string name="contextmenu_copylink">"Copiar URL de l\'enllaç"</string>
+	<!---->
+	<string name="contextmenu_view_image">"Veure imatge"</string>
+	<!---->
+	<string name="contextmenu_dial_dot">"Trucar"</string>
+	<!---->
+	<string name="contextmenu_sms_dot">"SMS\u2026"</string>
+	<!---->
+	<string name="contextmenu_add_contact">"Afegir contacte"</string>
+	<!---->
+	<string name="contextmenu_send_mail">"Enviar correu"</string>
+	<!---->
+	<string name="contextmenu_map">"Mapa"</string>
+	<!---->
+	<string name="contextmenu_sharelink">"Compartir enllaç"</string>
+	<!---->
+	<string name="contextmenu_savelink">"Desar enllaç"</string>
+	<!---->
+	<string name="contextmenu_help">"Ajuda"</string>
+	<!---->
+	<string name="contextmenu_feedback">"Enviar comentaris"</string>
+	<!---->
+	<string name="sort_title">"Ordenar per"</string>
+	<!---->
+	<string name="sort_by_tip">"Ordenat per <xliff:g id="sor_type">%s</xliff:g>"</string>
+	<!-- no translation found for num_selected -->
+	<skip />
+	<plurals name="move_conversation">
+		<item quantity="one">"Moure la conversa"</item>
+		<item quantity="other">"Moure <xliff:g>%1$d</xliff:g> converses"</item>
+	</plurals>
+	<!---->
+	<string name="content_description">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> sobre <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> el <xliff:g id="date">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g>"</string>
+	<!---->
+	<string name="content_description_today">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> sobre <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> a les <xliff:g id="time">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g>"</string>
+	<!---->
+	<string name="read_string">"Conversa llegida"</string>
+	<!---->
+	<string name="unread_string">"Conversa no llegida"</string>
+	<!---->
+	<string name="filtered_tag">"[<xliff:g id="tag">%1$s</xliff:g>]<xliff:g id="subject">%2$s</xliff:g>"</string>
+	<!-- no translation found for badge_and_subject -->
+	<skip />
+	<plurals name="draft">
+		<item quantity="one">"Esborrany"</item>
+		<item quantity="other">"Esbor."</item>
+	</plurals>
+	<!---->
+	<string name="sending">"Enviant\u2026"</string>
+	<!---->
+	<string name="message_retrying">"S\'està tornant a provar\u2026"</string>
+	<!---->
+	<string name="message_failed">"Error"</string>
+	<!---->
+	<string name="send_failed">"No s\'ha pogut enviar el correu."</string>
+	<!---->
+	<string name="send_failed_wait_attchment_downloaded">"No es pot reenviar perquè els fitxers adjunts no s\'han baixat completament; baixeu abans els fitxers adjunts."</string>
+	<!---->
+	<string name="me_object_pronoun">"Jo"</string>
+	<!---->
+	<string name="me_subject_pronoun">"Jo"</string>
+	<plurals name="confirm_delete_conversation">
+		<item quantity="one">"Voleu eliminar aquesta conversa?"</item>
+		<item quantity="other">"Voleu eliminar aquestes <xliff:g id="count">%1$d</xliff:g> converses?"</item>
+	</plurals>
+	<plurals name="confirm_archive_conversation">
+		<item quantity="one">"Voleu arxivar aquesta conversa?"</item>
+		<item quantity="other">"Voleu arxivar aquestes <xliff:g id="count">%1$d</xliff:g> converses?"</item>
+	</plurals>
+	<plurals name="confirm_discard_drafts_conversation">
+		<item quantity="one">"Voleu descartar aquest missatge?"</item>
+		<item quantity="other">"Voleu descartar aquests <xliff:g id="count">%1$d</xliff:g> missatges?"</item>
+	</plurals>
+	<!---->
+	<string name="confirm_discard_text">"Voleu descartar aquest missatge?"</string>
+	<!---->
+	<string name="loading_conversations">"Carregant\u2026"</string>
+	<!---->
+	<string name="empty_inbox">"Ja heu acabat. Que tingueu un bon dia."</string>
+	<!---->
+	<string name="empty_search">"Vaja! No hem trobat res per a \"<xliff:g id="search_query">%1$s</xliff:g>\"."</string>
+	<!---->
+	<string name="empty_spam_folder">"Visca! No hi ha correu brossa!"</string>
+	<!---->
+	<string name="empty_trash_folder">"No hi ha brossa. Gràcies per reciclar."</string>
+	<!---->
+	<string name="empty_folder">"No hi ha cap correu."</string>
+	<!---->
+	<string name="getting_messages">"S\'estan obtenint els missatges"</string>
+	<!---->
+	<string name="undo">"Desfer"</string>
+	<plurals name="conversation_unstarred">
+		<item quantity="one">"Desmarcar <xliff:g id="count">%1$d</xliff:g> conversa."</item>
+		<item quantity="other">"Desmarcar <xliff:g id="count">%1$d</xliff:g> converses."</item>
+	</plurals>
+	<plurals name="conversation_muted">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> silenciat."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> silenciats."</item>
+	</plurals>
+	<plurals name="conversation_spammed">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> marcat com a correu brossa."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> marcats com a correu brossa."</item>
+	</plurals>
+	<plurals name="conversation_not_spam">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> marcat com a no correu brossa."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> marcats com a no correu brossa."</item>
+	</plurals>
+	<plurals name="conversation_not_important">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> marcat com a no important."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> marcats com a no importants."</item>
+	</plurals>
+	<plurals name="conversation_phished">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> notificat com a suplantació de la identitat."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> notificats com a suplantació de la identitat."</item>
+	</plurals>
+	<plurals name="conversation_archived">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> arxivat."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> arxivats."</item>
+	</plurals>
+	<plurals name="conversation_deleted">
+		<item quantity="one">"&lt;b&gt;%1$d&lt;/b&gt; eliminat."</item>
+		<item quantity="other">"&lt;b&gt;%1$d&lt;/b&gt; eliminat."</item>
+	</plurals>
+	<!---->
+	<string name="deleted">"Eliminat"</string>
+	<!---->
+	<string name="archived">"Arxivat"</string>
+	<!---->
+	<string name="starred">"Destacats"</string>
+	<!---->
+	<string name="unstarred">"Sense estrella"</string>
+	<!---->
+	<string name="folder_removed">"Eliminat de: <xliff:g id="folderName">%1$s</xliff:g>"</string>
+	<plurals name="conversation_folder_changed">
+		<item quantity="one">"Carpeta modificada."</item>
+		<item quantity="other">"Carpetes modificades."</item>
+	</plurals>
+	<!---->
+	<string name="conversation_folder_moved">"Mogut a <xliff:g id="folderName">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="search_results_header">"Resultats"</string>
+	<!---->
+	<string name="search_unsupported">"Aquest compte no admet la cerca."</string>
+	<!---->
+	<string name="add_label">"Afegir carpeta"</string>
+	<!---->
+	<string name="new_incoming_messages_one">"Mostrar el missatge nou de: <xliff:g id="sender">%s</xliff:g>."</string>
+	<plurals name="new_incoming_messages_many">
+		<item quantity="other">"Mostrar <xliff:g id="count">%1$d</xliff:g> missatges nous."</item>
+	</plurals>
+	<!---->
+	<string name="date_and_view_details">"<xliff:g id="date">%1$s</xliff:g> &lt;a href=\'http://www.example.com\'&gt;Veure detalls&lt;/a&gt;"</string>
+	<!---->
+	<string name="date_and_view_details_another">"<xliff:g id="date">%1$s</xliff:g> &lt;font color=\"<xliff:g id="color">%2$d</xliff:g>\"&gt;Veure detalls&lt;/font&gt;"</string>
+	<!---->
+	<string name="hide_details">"Ocultar la informació"</string>
+	<!---->
+	<string name="to_message_header">"a <xliff:g id="recipients">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="contact_info_string">"Mostrar la informació de contacte de <xliff:g id="name">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="contact_info_string_default">"Mostrar la informació de contacte"</string>
+	<plurals name="show_messages_read">
+		<item quantity="other">"<xliff:g example="4" id="count">%1$d</xliff:g> missatges antics"</item>
+	</plurals>
+	<!---->
+	<string name="from_heading">"De:"</string>
+	<!---->
+	<string name="replyto_heading">"Respondre a:"</string>
+	<!---->
+	<string name="to_heading">"A:"</string>
+	<!---->
+	<string name="to_heading_no_space">"A:"</string>
+	<!---->
+	<string name="cc_heading">"CC:"</string>
+	<!---->
+	<string name="bcc_heading">"CCO:"</string>
+	<!---->
+	<string name="date_heading">"Data:"</string>
+	<!---->
+	<string name="show_images">"Mostrar fotos"</string>
+	<!---->
+	<string name="always_show_images">"Mostrar sempre les imatges d\'aquest emissor"</string>
+	<!---->
+	<string name="always_show_images_toast">"Les imatges d\'aquest emissor s\'enviaran automàticament."</string>
+	<!---->
+	<string name="address_display_format">"<xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g>"</string>
+	<!---->
+	<string name="address_display_format_with_via_domain">"<xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g> mitjançant <xliff:g id="via_domain">%3$s</xliff:g>"</string>
+	<!---->
+	<string name="message_saved">"Missatge desat a Esborranys."</string>
+	<!---->
+	<string name="sending_message">"Enviant el missatge\u2026"</string>
+	<!---->
+	<string name="invalid_recipient">"L\'adreça %s no és vàlida."</string>
+	<!---->
+	<string name="show_elided">"Mostrar el text dels correus previs"</string>
+	<!---->
+	<string name="hide_elided">"\u25BC Amagar el text entre cometes"</string>
+	<!---->
+	<string name="message_invite_title">"Invitació de l\'agenda"</string>
+	<!---->
+	<string name="message_invite_available">"Esteu disponible."</string>
+	<!---->
+	<string name="message_invite_datetime">"Quan"</string>
+	<!---->
+	<string name="message_invite_location">"On"</string>
+	<!---->
+	<string name="message_invite_in_calendar_view">"Mostrar al calendari"</string>
+	<!---->
+	<string name="message_invite_calendar_view">"Mostrar al calendari"</string>
+	<!---->
+	<string name="message_invite_label_attending">"Hi anireu?"</string>
+	<!---->
+	<string name="message_invite_accept">"Sí"</string>
+	<!---->
+	<string name="message_invite_tentative">"Potser"</string>
+	<!---->
+	<string name="message_invite_decline">"No"</string>
+	<!-- no translation found for enumeration_comma -->
+	<skip />
+	<!---->
+	<string name="send_anyway">"Enviar igualment"</string>
+	<!---->
+	<string name="ok">"ACCEPTAR"</string>
+	<!---->
+	<string name="done">"Finalitzada"</string>
+	<!---->
+	<string name="cancel">"Cancel·lar"</string>
+	<!---->
+	<string name="clear">"Esbor."</string>
+	<!---->
+	<string name="next">"Següent"</string>
+	<!---->
+	<string name="previous">"Anterior"</string>
+	<string-array name="sync_status">
+		<item>"No teniu connexió Wi-Fi; voleu continuar amb la sincronització?"</item>
+		<item>"Sense connexió."</item>
+		<item>"No s\'ha pogut iniciar la sessió."</item>
+		<item>"Error de seguretat."</item>
+		<item>"No s\'ha pogut sincronitzar."</item>
+		<item>"Error intern"</item>
+		<item>"Error del servidor"</item>
+	</string-array>
+	<!---->
+	<string name="tap_to_configure">"Tocar per configurar"</string>
+	<!---->
+	<string name="non_synced_folder_description">"Sincronitzeu aquesta carpeta per veure les converses."</string>
+	<!---->
+	<string name="tap_to_configure_folder_sync">"Sincronitzar la carpeta"</string>
+	<!-- no translation found for widget_large_unread_count -->
+	<skip />
+	<!---->
+	<string name="large_unseen_count">"Més de <xliff:g example="99" id="count">%d</xliff:g> nous"</string>
+	<!---->
+	<string name="unseen_count">"<xliff:g example="4" id="count">%d</xliff:g> nous"</string>
+	<plurals name="actionbar_unread_messages">
+		<item quantity="other">"%1$d no llegit"</item>
+	</plurals>
+	<!---->
+	<string name="actionbar_large_unread_count">"<xliff:g id="count">%1$d</xliff:g>+ sense llegir"</string>
+	<!---->
+	<string name="view_more_conversations">"Veure més converses"</string>
+	<!---->
+	<string name="loading_conversation">"Carregant\u2026"</string>
+	<!---->
+	<string name="activity_mailbox_selection">"Tria un compte"</string>
+	<!---->
+	<string name="activity_folder_selection">"Seleccionar la carpeta"</string>
+	<!---->
+	<string name="folder_shortcut_widget_label">"Carpeta de correu electrònic"</string>
+	<!---->
+	<string name="change_folders_selection_dialog_title">"Modificar carpetes"</string>
+	<!---->
+	<string name="move_to_selection_dialog_title">"Moure a"</string>
+	<!-- no translation found for search_results_loaded -->
+	<skip />
+	<!---->
+	<string name="network_error">"Sense connexió"</string>
+	<!---->
+	<string name="retry">"Reintentar"</string>
+	<!---->
+	<string name="load_more">"Carregar-ne més"</string>
+	<!---->
+	<string name="shortcut_name_title">"Definir el nom de la drecera de la carpeta"</string>
+	<!---->
+	<string name="wait_for_sync_title">"Esperant per sincronitzar"</string>
+	<!---->
+	<string name="not_synced_title">"Compte no sincronitzat"</string>
+	<!---->
+	<string name="wait_for_manual_sync_body">"Aquest compte no està configurat per sincronitzar-se automàticament. \nToqueu <b>Sincronitzar ara</b> per sincronitzar el correu una vegada o <b>Canviar la configuració de sincronització</b> per configurar aquest compte perquè sincronitzi el correu automàticament."</string>
+	<!---->
+	<string name="manual_sync">"Sincronitzar ara"</string>
+	<!---->
+	<string name="change_sync_settings">"Canviar la configuració de sincronització"</string>
+	<!---->
+	<string name="photo_load_failed">"No s\'ha pogut carregar la imatge"</string>
+	<!---->
+	<string name="cant_move_or_change_labels">"No es pot moure perquè la selecció conté diversos comptes."</string>
+	<!-- no translation found for multiple_new_message_notification_item -->
+	<skip />
+	<!-- no translation found for single_new_message_notification_big_text -->
+	<skip />
+	<!---->
+	<string name="ignore_spam_warning">"Ignorar; confio en aquest missatge"</string>
+	<!---->
+	<string name="via_domain">"mitjançant <xliff:g id="viaDomain">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="signin">"Iniciar sessió"</string>
+	<!---->
+	<string name="info">"Informació"</string>
+	<!---->
+	<string name="report">"Informe"</string>
+	<!---->
+	<string name="sync_error">"No s\'ha pogut sincronitzar."</string>
+	<!---->
+	<string name="sync_error_message">"El dispositiu no té prou espai d\'emmagatzematge per fer la sincronització."</string>
+	<!---->
+	<string name="storage">"Emmagat."</string>
+	<!-- no translation found for senders_split_token -->
+	<skip />
+	<!-- no translation found for draft_count_format -->
+	<skip />
+	<!---->
+	<string name="all_folders_heading">"Totes les carpetes"</string>
+	<!---->
+	<string name="recent_folders_heading">"Carpetes recents"</string>
+	<!---->
+	<string name="message_details_title">"Informació de missatge"</string>
+	<!---->
+	<string name="preference_advance_to_title">"Avançament automàtic"</string>
+	<string-array name="prefEntries_autoAdvance">
+		<item>"Més nou"</item>
+		<item>"Anterior"</item>
+		<item>"Llista de converses"</item>
+	</string-array>
+	<string-array name="prefSummaries_autoAdvance">
+		<item>"Mostrar les converses més recents després d\'eliminar"</item>
+		<item>"Mostrar les converses més antigues després d\'eliminar"</item>
+		<item>"Mostrar la llista de converses després d\'eliminar"</item>
+	</string-array>
+	<!---->
+	<string name="prefDialogTitle_autoAdvance">"Avançar a"</string>
+	<!---->
+	<string name="clear_display_images_whitelist_title">"Esborrar permisos d\'imatges"</string>
+	<!---->
+	<string name="clear_display_images_whitelist_dialog_title">"Voleu esborrar els permisos d\'imatges?"</string>
+	<!---->
+	<string name="clear_display_images_whitelist_dialog_message">"Deixar de mostrar imatges entre línies de remitents autoritzats anteriorment."</string>
+	<!---->
+	<string name="sender_whitelist_cleared">"Les imatges no es mostraran automàticament."</string>
+	<!---->
+	<string name="preferences_signature_title">"Signatura"</string>
+	<!---->
+	<string name="preferences_signature_dialog_title">"Signatura"</string>
+	<!---->
+	<string name="preferences_signature_summary_not_set">"No definit"</string>
+	<!---->
+	<string name="mail_account_signature_prefix">"Enviat des de <xliff:g example="4" id="product">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="notification_action_reply">"Respondre"</string>
+	<!---->
+	<string name="notification_action_reply_all">"Resp. a tots"</string>
+	<!---->
+	<string name="notification_action_archive">"Fitxer"</string>
+	<!---->
+	<string name="notification_action_remove_label">"Eliminar l\'etiqueta"</string>
+	<!---->
+	<string name="notification_action_delete">"Esborrar"</string>
+	<!---->
+	<string name="notification_action_undo_archive">"Arxivat"</string>
+	<!---->
+	<string name="notification_action_undo_remove_label">"Etiqueta eliminada"</string>
+	<!---->
+	<string name="notification_action_undo_delete">"Eliminat"</string>
+	<!-- no translation found for veiled_address -->
+	<skip />
+	<!-- no translation found for veiled_alternate_text -->
+	<skip />
+	<!-- no translation found for veiled_alternate_text_unknown_person -->
+	<skip />
+	<!-- no translation found for veiled_summary_unknown_person -->
+	<skip />
+	<!-- no translation found for label_notification_ticker -->
+	<skip />
+	<plurals name="new_messages">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> nou missatge"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> missatges nous"</item>
+	</plurals>
+	<!-- no translation found for single_new_message_notification_title -->
+	<skip />
+	<!---->
+	<string name="silent_ringtone">"Silenci"</string>
+	<!---->
+	<string name="preference_removal_action_title">"Accions Arxivar i Eliminar"</string>
+	<string-array name="prefEntries_removal_action">
+		<item>"Mostrar només els arxivats"</item>
+		<item>"Mostrar només els eliminats"</item>
+		<item>"Mostrar els arxivats i els eliminats"</item>
+	</string-array>
+	<string-array name="prefSummaries_removal_action_summary">
+		<item>"Mostrar només els arxivats"</item>
+		<item>"Mostrar només els eliminats"</item>
+		<item>"Mostrar els arxivats i els eliminats"</item>
+	</string-array>
+	<!---->
+	<string name="prefDialogTitle_removal_action">"Accions Arxivar i Eliminar"</string>
+	<!---->
+	<string name="preferences_default_reply_all_title">"Resp. a tots"</string>
+	<!---->
+	<string name="preferences_default_reply_all_summary_impl">"Utilitzar per defecte en les respostes de missatges"</string>
+	<!---->
+	<string name="preference_swipe_title_archive">"Lliscar per arxivar"</string>
+	<!---->
+	<string name="preference_swipe_title_delete">"Lliscar per eliminar"</string>
+	<!---->
+	<string name="preference_swipe_description">"A la llista de converses"</string>
+	<!---->
+	<string name="preference_swipe_actions">"Fer lliscar les accions"</string>
+	<!---->
+	<string name="preference_sender_image_title">"Imatge del remitent"</string>
+	<!---->
+	<string name="preference_sender_image_description">"Mostrar al costat del nom a la llista de converses"</string>
+	<!---->
+	<string name="empty_trash">"Buidar paperera"</string>
+	<!---->
+	<string name="empty_spam">"Contingut brossa buit"</string>
+	<!---->
+	<string name="star_toggle">"Marca amb una estrella"</string>
+	<!---->
+	<string name="empty_trash_dialog_title">"Voleu buidar la paperera?"</string>
+	<!---->
+	<string name="empty_spam_dialog_title">"Voleu buidar el contingut brossa?"</string>
+	<plurals name="empty_folder_dialog_message">
+		<item quantity="one">"Se suprimirà %1$d missatge de manera permanent."</item>
+		<item quantity="other">"Se suprimiran %1$d missatges de manera permanent."</item>
+	</plurals>
+	<!---->
+	<string name="drawer_open">"Obrir la bústia de navegació"</string>
+	<!---->
+	<string name="drawer_close">"Informació de drets d\'autor"</string>
+	<!---->
+	<string name="conversation_photo_welcome_text">"Toqueu la imatge d\'un remitent per seleccionar la conversa en qüestió."</string>
+	<!---->
+	<string name="long_press_to_select_tip">"Manteniu premuda la conversa per seleccionar-la i, a continuació, toqueu per seleccionar-ne més."</string>
+	<!---->
+	<string name="folder_icon_desc">"Icona de carpeta"</string>
+	<!---->
+	<string name="add_account">"Afegir compte"</string>
+	<!---->
+	<string name="dismiss_tip_hover_text">"Ignora el consell"</string>
+	<!---->
+	<string name="auto_sync_off">"L\'opció de sincronització automàtica està desactivada."</string>
+	<!---->
+	<string name="tap_to_enable_sync">"Toqueu per activar-la."</string>
+	<!---->
+	<string name="account_sync_off">"La sincronització del compte està desactivada."</string>
+	<!---->
+	<string name="enable_sync_in_account_settings">"Activeu-la a <xliff:g id="account_settings">%1$s</xliff:g>."</string>
+	<!---->
+	<string name="account_settings_param">"Paràmetres compte"</string>
+	<!---->
+	<string name="unsent_messages_in_outbox">"<xliff:g id="number">%1$s</xliff:g> no enviat a <xliff:g id="outbox">%2$s</xliff:g>"</string>
+	<!---->
+	<string name="turn_auto_sync_on_dialog_title">"Voleu activar la sincronització automàtica?"</string>
+	<!---->
+	<string name="turn_auto_sync_on_dialog_body">"Els canvis que feu en tots els comptes i aplicacions, no només a Gmail, se sincronitzaran al web, als vostres altres dispositius i al vostre <xliff:g id="phone_or_tablet">%1$s</xliff:g>."</string>
+	<!---->
+	<string name="phone">"Telèfon"</string>
+	<!---->
+	<string name="tablet">"Telèfon"</string>
+	<!---->
+	<string name="turn_auto_sync_on_dialog_confirm_btn">"Activar"</string>
+	<!---->
+	<string name="show_n_more_folders">"Mostrar %1$s carpetes més"</string>
+	<!---->
+	<string name="hide_folders">"Amagar les carpetes"</string>
+	<!---->
+	<string name="print">"Imprimir"</string>
+	<!---->
+	<string name="print_all">"Imprimir-ho tot"</string>
+	<plurals name="num_messages">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> missatge"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> missatges"</item>
+	</plurals>
+	<!-- no translation found for date_message_received_print -->
+	<skip />
+	<!---->
+	<string name="draft_to_heading">"Crear esborrany a:"</string>
+	<!---->
+	<string name="draft_heading">"Esborrany"</string>
+	<!---->
+	<string name="quoted_text_hidden_print">"Text dels correus previs ocult"</string>
+	<plurals name="num_attachments">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> adjunt"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> adjunts"</item>
+	</plurals>
+	<!---->
+	<string name="no_subject">"(Sense assumpte)"</string>
+	<!---->
+	<string name="vacation_responder">"Resposta de vacances"</string>
+	<!---->
+	<string name="preferences_vacation_responder_title">"Resposta de vacances"</string>
+	<!---->
+	<string name="vacation_responder_body_hint_text">"missatge"</string>
+	<!---->
+	<string name="send_to_contacts_text">"Enviar només als meus contactes"</string>
+	<!---->
+	<string name="send_to_domain_text">"Enviar només a <xliff:g id="domain">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="pick_start_date_title">"Comença"</string>
+	<!---->
+	<string name="pick_end_date_title">"Acaba (opcional)"</string>
+	<!---->
+	<string name="date_not_set">"No definit"</string>
+	<!---->
+	<string name="set_end_date_dialog_title">"Data de finalització (opcional)"</string>
+	<!---->
+	<string name="custom_date">"Personalitzar"</string>
+	<!---->
+	<string name="date_none">"Cap"</string>
+	<!---->
+	<string name="discard_changes">"Voleu descartar els canvis?"</string>
+	<!---->
+	<string name="draft_saved">"Esborrany desat"</string>
+	<!---->
+	<string name="draft_discard">"Esborrany descartat"</string>
+	<!---->
+	<string name="vacation_responder_changes_saved">"Canvis de la resposta de vacances desats"</string>
+	<!---->
+	<string name="vacation_responder_changes_discarded">"Canvis de la resposta de vacances descartats"</string>
+	<!---->
+	<string name="vacation_responder_off">"DESACTIVAT"</string>
+	<!-- no translation found for vacation_responder_on -->
+	<skip />
+	<!-- no translation found for vacation_responder_on_with_end_date -->
+	<skip />
+	<!---->
+	<string name="vacation_responder_empty_subject_and_body_warning">"Afegir un assumpte o un missatge"</string>
+	<!---->
+	<string name="view_entire_message">"Veure tot el missatge"</string>
+	<!---->
+	<string name="eml_loader_error_toast">"No es pot obrir aquest fitxer."</string>
+	<!---->
+	<string name="help_and_info">"Ajuda"</string>
+	<!---->
+	<string name="help_and_feedback">"Ajuda i comentaris"</string>
+	<!---->
+	<string name="feedback">"Enviar comentaris"</string>
+	<!---->
+	<string name="copyright">"©<xliff:g example="2010" id="year">%1$d</xliff:g> Google Inc."</string>
+	<!---->
+	<string name="version">"Versió <xliff:g example="Email" id="app_name">%1$s</xliff:g> <xliff:g example="2.2.1" id="version">%2$s</xliff:g>"</string>
+	<!-- no translation found for view_app_page -->
+	<skip />
+	<!---->
+	<string name="print_dialog">"Imprimir\u2026"</string>
+	<!---->
+	<string name="copyright_information">"Informació de drets d\'autor"</string>
+	<!---->
+	<string name="privacy_policy">"Política de privadesa"</string>
+	<!---->
+	<string name="open_source_licenses">"Obrir llicències de fonts"</string>
+	<!---->
+	<string name="reply_choice_yes">"Sí"</string>
+	<!---->
+	<string name="reply_choice_no">"No"</string>
+	<!---->
+	<string name="reply_choice_ok">"ACCEPTAR"</string>
+	<!-- no translation found for reply_choice_hehe -->
+	<skip />
+	<!---->
+	<string name="reply_choice_thanks">"Gràcies"</string>
+	<!---->
+	<string name="reply_choice_i_agree">"Estic d\'acord"</string>
+	<!---->
+	<string name="reply_choice_nice">"Molt bé"</string>
+	<!---->
+	<string name="reply_on_my_way">"Estic de camí"</string>
+	<!---->
+	<string name="reply_choice_later">"D\'acord, et dic alguna cosa."</string>
+	<!-- no translation found for reply_choice_smiling_face -->
+	<skip />
+	<!-- no translation found for reply_choice_frowning_face -->
+	<skip />
+	<!---->
+	<string name="preference_header_action_confirmations">"Confirmacions d\'acció"</string>
+	<!---->
+	<string name="preference_confirm_before_delete_title">"Confirmar abans de suprimir"</string>
+	<!---->
+	<string name="preference_confirm_before_archive_title">"Confirmar abans d\'arxivar"</string>
+	<!---->
+	<string name="preference_confirm_before_send_title">"Confirmar abans d\'enviar"</string>
+	<!---->
+	<string name="preferences_conversation_mode_title">"Ajustar automàticament els missatges"</string>
+	<!---->
+	<string name="preferences_conversation_mode_summary">"Reduir els missatges perquè càpiguen a la pantalla"</string>
+	<!---->
+	<string name="preferences_disable_snap_headers_title">"Accions de missatges"</string>
+	<string-array name="prefSummaries_snapHeader">
+		<item>"Mostrar les accions dels missatges sempre a la part superior de la pantalla"</item>
+		<item>"Mostrar les accions dels missatges només a la part superior de la pantalla quan estigui en orientació vertical"</item>
+		<item>"No mostrar accions dels missatges fora de la capçalera"</item>
+	</string-array>
+	<string-array name="prefEntries_snapHeader">
+		<item>"Mostrar sempre"</item>
+		<item>"Mostrar només en vertical"</item>
+		<item>"No mostrar"</item>
+	</string-array>
+	<!---->
+	<string name="clear_history_title">"Esborrar historial de cerques"</string>
+	<!---->
+	<string name="search_history_cleared">"Historial de cerques esborrat."</string>
+	<!---->
+	<string name="clear_history_dialog_title">"Voleu esborrar l\'historial de cerca?"</string>
+	<!---->
+	<string name="clear_history_dialog_message">"S\'esborraran totes les cerques que hàgiu fet prèviament."</string>
+	<!---->
+	<string name="manage_accounts_menu_item">"Gestionar els comptes"</string>
+	<!---->
+	<string name="general_preferences_title">"Paràmetres generals"</string>
+	<!---->
+	<string name="activity_preferences">"Paràmetres"</string>
+	<!---->
+	<string name="always_bcc_myself">"Jo sempre a còpia oculta"</string>
+	<!---->
+	<string name="always_bcc_myself_summary">"Vull sempre c/o"</string>
+	<!---->
+	<string name="general_preference_auto_download_remaining_label">"Baixar automàticament restants"</string>
+	<!---->
+	<string name="general_preference_auto_download_remaining_summary">"Baixar automàticament la resta del cos en desplaçar-se cap avall"</string>
+	<!---->
+	<string name="download_remaining">"Baixar-ne els restants"</string>
+	<!---->
+	<string name="downloading_remaining">"S\'està carregant..."</string>
+	<!---->
+	<string name="unable_to_connect">"No es pot connectar"</string>
+	<!---->
+	<string name="need_connection_prompt">"Us cal una connexió de xarxa per utilitzar aquesta aplicació. Activeu la xarxa mòbil o Wi-Fi a Paràmetres."</string>
+	<!---->
+	<string name="connection_settings">"Paràmetres"</string>
+	<!---->
+	<string name="priority_action">"Prioritat"</string>
+	<!---->
+	<string name="set_priority_dialog_title">"Establiu la prioritat"</string>
+	<!---->
+	<string name="dialog_warning">"Avís\u2026"</string>
+	<!---->
+	<string name="dialog_warning_message">"La versió de l’aplicació Exchange no coincideix amb la del correu. Voleu continuar?"</string>
+	<!---->
+	<string name="toast_warning_text">"La versió de l’aplicació Exchange no coincideix amb la del correu."</string>
+	<!---->
+	<string name="tips_sync_alter_title">"Sincronització"</string>
+	<!---->
+	<string name="tips_sync_alter_content">"No teniu connexió Wi-Fi; voleu continuar amb la sincronització?"</string>
+	<!---->
+	<string name="tips_sync_alter_yes">"Sí"</string>
+	<!---->
+	<string name="tips_sync_alter_no">"No"</string>
+	<!---->
+	<string name="message_invite_tentative_title">"Provisional"</string>
+	<!---->
+	<string name="message_invite_decline_title">"Rebutja"</string>
+	<!---->
+	<string name="message_invite_accent_title">"Acceptar"</string>
+	<!---->
+	<string name="drm_file_remind">"Aquest fitxer no es pot penjar ni compartir perquè està protegit per DRM."</string>
+	<!---->
+	<string name="not_add_more_recipients">"No es poden afegir més de <xliff:g id="maxLimit">%1$d</xliff:g> destinataris alhora."</string>
+	<!---->
+	<string name="global_search_label">"C/e"</string>
+	<!---->
+	<string name="global_search_hint">"Cercar al correu electrònic"</string>
+	<!---->
+	<string name="global_search_description">"Remitents, assumptes i cossos de text"</string>
+	<!---->
+	<string name="remote_search_failed">"La cerca al servidor ha fallat."</string>
+	<!---->
+	<string name="searching_on_server">"Buscar al servidor"</string>
+	<!---->
+	<string name="searching_on_server_title">"Buscar \"<xliff:g id="account_name">%s</xliff:g>\" al servidor"</string>
+	<!---->
+	<string name="searching_all_fields_on_sever">"Buscar a tots els camps del servidor"</string>
+	<!---->
+	<string name="search_field_subject">"Assumpte"</string>
+	<!---->
+	<string name="search_field_receiver">"Destinatari"</string>
+	<!---->
+	<string name="search_field_sender">"Remitent"</string>
+	<!---->
+	<string name="search_field_body">"Cos"</string>
+	<!---->
+	<string name="search_field_all">"Tots"</string>
+	<!---->
+	<string name="search_field_attachment">"Fitxer adjunt"</string>
+	<!---->
+	<string name="select_all">"Seleccionar-ho tot"</string>
+	<!---->
+	<string name="deselect_all">"Anul·lar selecció de tot"</string>
+	<!---->
+	<string name="need_wifi_connection_prompt">"Us cal una connexió de xarxa per utilitzar aquesta aplicació. Activeu la xarxa mòbil o Wi-Fi a Paràmetres."</string>
+	<!---->
+	<string name="account_setup_names_account_name_des_label">"opcional"</string>
+	<!---->
+	<string name="account_setup_names_user_name_des_label">"en missatges enviats"</string>
+	<!---->
+	<string name="finish_action">"Finalitzar"</string>
+	<!---->
+	<string name="copy_email">"Copiar adreça electrònica"</string>
+	<!---->
+	<string name="out_of_office_syncing">"S\'estan sincronitzant els paràmetres de fora de l\'oficina."</string>
+	<!---->
+	<string name="out_of_office_fail">"Error de sincronització dels paràmetres de fora de l\'oficina."</string>
+	<!---->
+	<string name="out_of_office_success">"Sincronització correcta dels paràmetres de fora de l\'oficina."</string>
+	<!---->
+	<string name="manual_sync_when_roaming">"Sincronitza en itinerància"</string>
+	<!---->
+	<string name="manual_sync_when_roaming_summery">"Actualitza manualment només"</string>
+	<!---->
+	<string name="manual_sync_when_roaming_toast">"Feu lliscar el dit cap avall per actualitzar manualment en itinerància."</string>
+	<!---->
+	<string name="manual_sync_when_roaming_refresh">"Actualitzar"</string>
+	<!---->
+	<string name="server_rule_can_not_change">"Les regles del servidor no es poden canviar."</string>
+	<!---->
+	<string name="server_rules">"Regles del servidor"</string>
+	<!---->
+	<string name="confirm_forward_message">"No s\'han baixat tots els fitxers. Voleu reenviar sense baixar els fitxers?"</string>
+	<!---->
+	<string name="confirm_forward_cancel">"Cancel·lar"</string>
+	<!---->
+	<string name="confirm_forward_drop_unload_attachment">"Reenviar"</string>
+	<!---->
+	<string name="mail_not_download_completely">"Espereu fins que finalitzi la baixada."</string>
+	<!---->
+	<string name="account_settings_inline_images_lable">"Imatges"</string>
+	<!---->
+	<string name="account_settings_inline_always_show">"Mostrar sempre"</string>
+	<!---->
+	<string name="account_settings_inline_ask_before_show">"Pregunta abans de mostrar-ho"</string>
+	<!---->
+	<string name="conversation_time_after_today">"A partir d\'avui"</string>
+	<!---->
+	<string name="conversation_time_today">"Avui"</string>
+	<!---->
+	<string name="conversation_time_yesterday">"Ahir"</string>
+	<!---->
+	<string name="conversation_time_this_month">"Aquest mes"</string>
+	<!---->
+	<string name="conversation_time_elapse_just_now">"Ara mateix"</string>
+	<!---->
+	<string name="conversation_time_elapse_minute">"<xliff:g id="count">%d</xliff:g> min"</string>
+	<!---->
+	<string name="message_in_queued_status">"En cua"</string>
+	<plurals name="send_failed_messages">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> correu no enviat"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> correus no enviats"</item>
+	</plurals>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_label">"Sincronitza els calendaris de"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_2weeks">"Dues setmanes"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_1month">"Un mes"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_3months">"Tres mesos"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_6months">"Sis mesos"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_all">"Tots"</string>
+	<!---->
+	<string name="no_permission_to_open_file">"Cal el permís de l\'emmagatzematge per obrir aquest fitxer."</string>
+	<!---->
+	<string name="conversation_update_time_text">"Darrera actualització:"</string>
+	<!---->
+	<string name="conversation_update_unknown_time_stamp">"Desconegut"</string>
+	<!---->
+	<string name="conversation_time_elapse_today">"Avui"</string>
+	<!---->
+	<string name="save_to_attachment">"Desar a"</string>
+	<!---->
+	<string name="download_settings_title">"Desar fitxer adjunt"</string>
+	<!---->
+	<string name="download_edit_filename_label">"Nom"</string>
+	<!---->
+	<string name="download_filepath_label">"Camí"</string>
+	<!---->
+	<string name="download_file_size">"Mida"</string>
+	<!---->
+	<string name="download_time_needed">"Hora"</string>
+	<!---->
+	<string name="download_cancel">"Cancel·lar"</string>
+	<!---->
+	<string name="download_start">"Acceptar"</string>
+	<!---->
+	<string name="unknown_length">"Desconegut"</string>
+	<!---->
+	<string name="time_min">"min"</string>
+	<!---->
+	<string name="open_file_manager_failed">"No s\'ha pogut obrir el gestor de fitxers."</string>
+	<!---->
+	<string name="attachment_not_saved">"Adjunt no desat"</string>
+	<!---->
+	<string name="sync_calendar_title">"No s\'ha pogut sincronitzar el calendari."</string>
+	<!---->
+	<string name="sync_calendar_content">"Per sincronitzar el calendari, permeteu que els serveis d\'Exchange accedeixin al calendari."</string>
+	<!---->
+	<string name="sync_contacts_title">"No s\'han pogut sincronitzar els contactes."</string>
+	<!---->
+	<string name="sync_contacts_content">"Per sincronitzar els contactes, permeteu que els serveis d\'Exchange accedeixin als contactes."</string>
+	<!---->
+	<string name="notification_never_ask_again">"No m\'ho tornis a preguntar."</string>
+	<!---->
+	<string name="sync_storage_title">"Error en copiar fitxer adjunt a la targeta SD"</string>
+	<!---->
+	<string name="sync_storage_content">"Per desar, permeteu que els serveis d\'Exchange accedeixin a l’emmagatzematge."</string>
+	<!---->
+	<string name="oof_continue">"Continuar"</string>
+	<!---->
+	<string name="permission_needed_to_add_attachments">"Per afegir fitxers adjunts, permeteu que el correu electrònic accedeixi a l\'emmagatzematge."</string>
+	<!---->
+	<string name="permission_needed_to_check_ringtone">"Per comprovar el to de trucada, permeteu que el correu electrònic accedeixi a l\'emmagatzematge."</string>
+	<!---->
+	<string name="add_folder_as_attachment_fail_tips">"No es poden adjuntar carpetes."</string>
+	<!---->
+	<string name="choose_action_title">"Seleccioneu acció"</string>
+	<!---->
+	<string name="choose_action_contact">"Afegeix el contacte: <xliff:g example="4" id="email_address">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="choose_action_email">"Correu: <xliff:g example="4" id="email_address">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="choose_action_message">"Missatge: <xliff:g example="4" id="email_address">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="account_setup_basics_exit_action">"Sortir"</string>
+</resources>

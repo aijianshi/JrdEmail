@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="exchange_name">"ចូលរួមគ្នា"</string>
+	<!-- no translation found for exchange_name_alternate -->
+	<skip />
+	<!---->
+	<string name="meeting_accepted">"បានទទួលៈ <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_declined">"បានច្រានចោលៈ <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_tentative">"សាកមើលៈ <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_canceled">"បានចាកចេញៈ <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_updated">"បានបន្ទាន់សម័យៈ <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_when">"នៅពេលៈ <xliff:g id="when">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_where">"ទីកន្លែងៈ <xliff:g id="where">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_recurring">"នៅពេលៈ <xliff:g example="Tue,Mar10,2010at2:30pm" id="eventdate">%s</xliff:g> (កំពុងកើតឡើងវិញ)"</string>
+	<!---->
+	<string name="meeting_allday">"នៅពេលៈ <xliff:g example="Tue,Mar10,2010" id="eventdate">%s</xliff:g> (ពេញមួយថ្ងៃ)"</string>
+	<!---->
+	<string name="meeting_allday_recurring">"នៅពេលៈ <xliff:g example="Tue,Mar10,2010" id="eventdate">%s</xliff:g> (ពេញមួយថ្ងៃ កំពុងកើតឡើងវិញ)"</string>
+	<!-- no translation found for notification_exchange_calendar_added -->
+	<skip />
+	<!-- no translation found for app_name -->
+	<skip />
+	<!---->
+	<string name="exception_cancel">"ព្រឹត្តការណ៍នេះត្រូវបានលុបចោលសម្រាប់ៈ <xliff:g id="date">%s</xliff:g>"</string>
+	<!---->
+	<string name="exception_updated">"សេក្តីលម្អិតនៃព្រឹត្តការណ៍នេះត្រូវបានកែប្រែសម្រាប់ៈ <xliff:g id="date">%s</xliff:g>"</string>
+	<!-- no translation found for policy_dont_allow_storage_cards -->
+	<skip />
+	<!-- no translation found for policy_dont_allow_unsigned_apps -->
+	<skip />
+	<!-- no translation found for policy_dont_allow_unsigned_installers -->
+	<skip />
+	<!---->
+	<string name="policy_dont_allow_wifi">"មិន\អនុញ្ញាតឱ្យមាន វ៉ាយហ្វាយ"</string>
+	<!-- no translation found for policy_dont_allow_text_messaging -->
+	<skip />
+	<!-- no translation found for policy_dont_allow_pop_imap -->
+	<skip />
+	<!-- no translation found for policy_dont_allow_irda -->
+	<skip />
+	<!-- no translation found for policy_dont_allow_html -->
+	<skip />
+	<!-- no translation found for policy_dont_allow_browser -->
+	<skip />
+	<!-- no translation found for policy_dont_allow_consumer_email -->
+	<skip />
+	<!-- no translation found for policy_dont_allow_internet_sharing -->
+	<skip />
+	<!-- no translation found for policy_require_smime -->
+	<skip />
+	<!-- no translation found for policy_bluetooth_restricted -->
+	<skip />
+	<!-- no translation found for policy_app_blacklist -->
+	<skip />
+	<!-- no translation found for policy_app_whitelist -->
+	<skip />
+	<!-- no translation found for policy_text_truncation -->
+	<skip />
+	<!-- no translation found for policy_html_truncation -->
+	<skip />
+	<!-- no translation found for policy_require_sd_encryption -->
+	<skip />
+	<!-- no translation found for policy_dont_allow_attachments -->
+	<skip />
+	<!-- no translation found for policy_max_attachment_size -->
+	<skip />
+	<!-- no translation found for policy_require_manual_sync_roaming -->
+	<skip />
+	<!-- no translation found for policy_require_encryption -->
+	<skip />
+	<!-- no translation found for account_setup_options_mail_window_auto -->
+	<skip />
+	<!-- no translation found for account_setup_options_mail_window_1day -->
+	<skip />
+	<!-- no translation found for account_setup_options_mail_window_3days -->
+	<skip />
+	<!-- no translation found for account_setup_options_mail_window_1week -->
+	<skip />
+	<!-- no translation found for account_setup_options_mail_window_2weeks -->
+	<skip />
+	<!-- no translation found for account_setup_options_mail_window_1month -->
+	<skip />
+	<!-- no translation found for account_setup_options_mail_window_all -->
+	<skip />
+	<!-- no translation found for auth_error_notification_title -->
+	<skip />
+	<!-- no translation found for auth_error_notification_text -->
+	<skip />
+	<!-- no translation found for email_settings_not_available -->
+	<skip />
+</resources>

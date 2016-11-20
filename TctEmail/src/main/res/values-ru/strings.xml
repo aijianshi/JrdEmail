@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!-- no translation found for app_name -->
+	<skip />
+	<!-- no translation found for photo_view_count -->
+	<skip />
+	<!---->
+	<string name="retry">"Повторить"</string>
+	<!---->
+	<string name="failed">"Не удалось загрузить изображение"</string>
+	<!-- no translation found for more_string -->
+	<skip />
+	<!---->
+	<string name="copy_email">"Копировать адрес email"</string>
+	<!---->
+	<string name="copy_number">"Копировать номер телефона"</string>
+	<!---->
+	<string name="action_label">"Назад"</string>
+	<!---->
+	<string name="search_hint">"Поиск email"</string>
+	<!---->
+	<string name="compose">"Новое письмо"</string>
+	<!---->
+	<string name="activity_folder_selection">"Выберите папку"</string>
+	<!---->
+	<string name="activity_preferences">"Настройки"</string>
+	<!---->
+	<string name="tap_to_configure">"Нажмите для настройки"</string>
+	<!---->
+	<string name="loading_conversations">"Загрузка…"</string>
+	<!---->
+	<string name="non_synced_folder_description">"Чтобы просмотреть разговоры, синхронизируйте папку."</string>
+	<!---->
+	<string name="tap_to_configure_folder_sync">"Синхронизация папки"</string>
+	<!-- no translation found for def_email_accountGermanSignature -->
+	<skip />
+	<!---->
+	<string name="send_failed">"Сообщение не было отправлено."</string>
+	<!-- no translation found for permission_needed -->
+	<skip />
+	<!---->
+	<string name="permission_needed_label">"Необходимы разрешения"</string>
+	<!---->
+	<string name="permission_grant_access_label">"Требуется ваше разрешение"</string>
+	<!---->
+	<string name="permission_grant_access_descs">"Изменить разрешения в настройках приложения вашего устройства. Разрешите Email доступ к Контактам."</string>
+	<!---->
+	<string name="permission_grant_exit">"Выход"</string>
+	<!---->
+	<string name="permission_grant_go_setting">"Настройки"</string>
+	<!---->
+	<string name="permission_needed_to_save_attachment">"Чтобы сохранять вложения, разрешите приложению «Email» доступ к памяти"</string>
+	<!---->
+	<string name="permission_needed_to_add_attachment">"Чтобы добавлять вложения, разрешите приложению «Email» доступ к памяти"</string>
+	<!---->
+	<string name="permission_needed_to_see_calendar">"Чтобы просматривать календарь, разрешите приложению «Email» доступ к Календарю"</string>
+</resources>

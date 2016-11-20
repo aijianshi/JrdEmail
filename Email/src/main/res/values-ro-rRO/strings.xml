@@ -1,0 +1,1747 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Tue Sep 20 16:24:06 CST 2016
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="permission_read_attachment_label">"Citiţi ataşamentele e-mailurilor"</string>
+	<!---->
+	<string name="permission_read_attachment_desc">"Permite aplicaţiei citirea ataşamentelor de e-mail."</string>
+	<!---->
+	<string name="permission_access_provider_label">"Acces la datele furnizorului de e-mail"</string>
+	<!---->
+	<string name="permission_access_provider_desc">"Permite aplicației să acceseze baza de date e-mail, inclusiv mesajele primite, mesajele trimise, numele de utilizatori și parolele."</string>
+	<!---->
+	<string name="debug_title">"Depanare"</string>
+	<!---->
+	<string name="next_action">"Înainte"</string>
+	<!---->
+	<string name="okay_action">"OK"</string>
+	<!---->
+	<string name="cancel_action">"Anulare"</string>
+	<!---->
+	<string name="previous_action">"Înapoi"</string>
+	<!---->
+	<string name="done_action">"Realizat"</string>
+	<!---->
+	<string name="create_action">"Creaţi unul nou"</string>
+	<!---->
+	<string name="quick_responses_empty_view">"Nu există răspunsuri rapide."</string>
+	<!---->
+	<string name="account_settings_action">"Setări cont"</string>
+	<!---->
+	<string name="status_network_error">"Problemă de conexiune."</string>
+	<plurals name="move_messages">
+		<item quantity="one">"Mutaţi mesajul"</item>
+		<item quantity="other">"Mutaţi mesajele"</item>
+	</plurals>
+	<!---->
+	<string name="cannot_move_protocol_not_supported_toast">"Mutarea nu este acceptată pentru conturile de tip POP3."</string>
+	<!---->
+	<string name="cannot_move_multiple_accounts_toast">"Nu se poate muta, deoarece selecţia conţine mai multe conturi."</string>
+	<!---->
+	<string name="cannot_move_special_mailboxes_toast">"Mesajele din Schiţe, De trimis şi Trimise nu pot fi mutate."</string>
+	<!---->
+	<string name="mailbox_name_display_inbox">"Primite"</string>
+	<!---->
+	<string name="mailbox_name_display_outbox">"De trimis"</string>
+	<!---->
+	<string name="mailbox_name_display_drafts">"Ciorne"</string>
+	<!---->
+	<string name="mailbox_name_display_trash">"Coş de gunoi"</string>
+	<!---->
+	<string name="mailbox_name_display_sent">"Trimise"</string>
+	<!---->
+	<string name="mailbox_name_display_junk">"Mesaje nesolicitate"</string>
+	<!---->
+	<string name="mailbox_name_display_starred">"Marcate cu stea"</string>
+	<!---->
+	<string name="mailbox_name_display_unread">"Necitite"</string>
+	<!---->
+	<string name="account_folder_list_summary_inbox">"Primite"</string>
+	<!---->
+	<string name="account_folder_list_summary_starred">"Marcate cu stea"</string>
+	<!---->
+	<string name="account_folder_list_summary_drafts">"Ciorne"</string>
+	<!---->
+	<string name="account_folder_list_summary_outbox">"De trimis"</string>
+	<!---->
+	<string name="mailbox_list_account_selector_combined_view">"Afişare combinată"</string>
+	<!---->
+	<string name="message_compose_fwd_header_fmt">"\n\n"-------- Mesajul original --------"\n"Subiect: <xliff:g id="SUBJECT">%1$s</xliff:g>"\n"De la: <xliff:g id="SENDER">%2$s</xliff:g>"\n"Către: <xliff:g id="TO">%3$s</xliff:g>"\n"CC: <xliff:g id="CC_0">%4$s</xliff:g>"\n\n"</string>
+	<!---->
+	<string name="message_compose_insert_quick_response_list_title">"Introduceţi un răspuns rapid"</string>
+	<!---->
+	<string name="message_compose_insert_quick_response_menu_title">"Introduceţi un răspuns rapid"</string>
+	<!---->
+	<string name="message_view_attachment_background_load">"Unul sau mai multe ataşamente din mesajul dvs. redirecţionat vor fi descărcate înainte de a fi trimise."</string>
+	<!---->
+	<string name="attachment_not_found">"Ataşamentul nu s-a putut descărca."</string>
+	<!---->
+	<string name="message_decode_error">"A apărut o eroare la decodificarea mesajului."</string>
+	<!---->
+	<string name="forward_download_failed_ticker">"Nu se pot redirecţiona unul sau mai multe ataşamente."</string>
+	<!---->
+	<string name="forward_download_failed_title">"Ataşamentul nu a fost trimis"</string>
+	<!---->
+	<string name="login_failed_ticker">"Conectare nereușită la <xliff:g id="account_name">%s</xliff:g>."</string>
+	<!---->
+	<string name="login_failed_title">"Nu s-a putut conecta"</string>
+	<plurals name="message_view_attachment_bytes">
+		<item quantity="one">"<xliff:g id="SIZE_IN_BYTES">%d</xliff:g> O"</item>
+		<item quantity="other">"<xliff:g id="SIZE_IN_BYTES">%d</xliff:g> O"</item>
+	</plurals>
+	<plurals name="message_view_attachment_kilobytes">
+		<item quantity="one">"<xliff:g id="SIZE_IN_KILOBYTES">%d</xliff:g> KO"</item>
+		<item quantity="other">"<xliff:g id="SIZE_IN_KILOBYTES">%d</xliff:g> KO"</item>
+	</plurals>
+	<plurals name="message_view_attachment_megabytes">
+		<item quantity="one">"<xliff:g id="SIZE_IN_MEGABYTES">%d</xliff:g> MO"</item>
+		<item quantity="other">"<xliff:g id="SIZE_IN_MEGABYTES">%d</xliff:g> MO"</item>
+	</plurals>
+	<plurals name="message_view_attachment_gigabytes">
+		<item quantity="one">"<xliff:g id="SIZE_IN_GIGABYTES">%d</xliff:g> GO"</item>
+		<item quantity="other">"<xliff:g id="SIZE_IN_GIGABYTES">%d</xliff:g> GO"</item>
+	</plurals>
+	<!---->
+	<string name="account_setup_basics_title">"Configurare cont"</string>
+	<!---->
+	<string name="oauth_authentication_title">"Se solicită autentificare"</string>
+	<!---->
+	<string name="sign_in_title">"Autentificare"</string>
+	<!---->
+	<string name="oauth_error_description">"Autentificare imposibilă"</string>
+	<!---->
+	<string name="password_warning_label">"Adresa e-mail sau parola este incorectă"</string>
+	<!---->
+	<string name="email_confirmation_label">"Adresă e-mail"</string>
+	<!---->
+	<string name="account_setup_basics_headline">"Cont de e-mail"</string>
+	<!---->
+	<string name="accounts_welcome">"Puteți configura contul dvs. în doar câțiva pași."</string>
+	<!---->
+	<string name="account_setup_basics_email_label">"Adresă de e-mail"</string>
+	<!---->
+	<string name="account_setup_basics_email_flying_label">"E-mail"</string>
+	<!---->
+	<string name="or_label">"SAU"</string>
+	<!---->
+	<string name="sign_in_with_google">"Conectați-vă cu un cont Google"</string>
+	<!---->
+	<string name="account_setup_basics_password_label">"Parolă"</string>
+	<!---->
+	<string name="password_hint">"Parolă"</string>
+	<!---->
+	<string name="signed_in_with_service_label">"Conectat cu %s"</string>
+	<!---->
+	<string name="authentication_label">"AUTENTIFICARE"</string>
+	<!---->
+	<string name="add_authentication_label">"Adăugați autentificare"</string>
+	<!---->
+	<string name="clear_authentication_label">"Ștergeți autentificare"</string>
+	<!---->
+	<string name="account_setup_basics_manual_setup_action">"Configurare manuală"</string>
+	<!---->
+	<string name="account_setup_username_password_toast">"Introduceţi o adresă de e-mail şi o parolă valide."</string>
+	<!---->
+	<string name="account_duplicate_dlg_title">"Cont duplicat"</string>
+	<!---->
+	<string name="account_duplicate_dlg_message_fmt">"Utilizaţi deja acest nume de utilizator pentru contul \"<xliff:g id="duplicate">%s</xliff:g>\"."</string>
+	<!---->
+	<string name="account_password_spaces_error">"Această parolă începe sau se termină cu unul sau mai multe spaţii. Numeroase servere nu acceptă parole cu spaţii."</string>
+	<!---->
+	<string name="account_setup_check_settings_retr_info_msg">"Se recuperează informațiile despre cont..."</string>
+	<!---->
+	<string name="account_setup_check_settings_check_incoming_msg">"Se validează setările de server..."</string>
+	<!---->
+	<string name="account_setup_check_settings_check_outgoing_msg">"Se validează setările SMTP..."</string>
+	<!---->
+	<string name="account_setup_creating_account_msg">"Se creează contul..."</string>
+	<!---->
+	<string name="account_setup_ab_headline">"Confirmați tipul de cont"</string>
+	<!---->
+	<string name="account_setup_ab_instructions_format">"Ați menționat că <xliff:g id="email">%1$s</xliff:g> utilizează <xliff:g id="userProtocol">%2$s</xliff:g>, dar contul poate utiliza <xliff:g id="providerProtocol">%3$s</xliff:g>"</string>
+	<!---->
+	<string name="account_setup_names_title">"Configurare cont"</string>
+	<!---->
+	<string name="account_setup_names_headline">"Contul dvs. a fost configurat, iar în curând va funcționa și e-mailul!"</string>
+	<!---->
+	<string name="account_setup_names_account_name_label">"Daţi un nume contului"</string>
+	<!---->
+	<string name="account_setup_names_user_name_label">"Numele dvs."</string>
+	<!---->
+	<string name="account_setup_names_user_name_empty_error">"Acest câmp nu poate rămâne necompletat."</string>
+	<!---->
+	<string name="account_setup_account_type_title">"Configurare cont"</string>
+	<!---->
+	<string name="account_setup_account_type_headline">"Tipul contului"</string>
+	<!---->
+	<string name="account_setup_account_type_instructions">"Ce tip de cont este acesta?"</string>
+	<!---->
+	<string name="account_setup_incoming_title">"Configurare cont"</string>
+	<!---->
+	<string name="account_setup_incoming_headline">"Setări pentru serverul de mesaje de intrare"</string>
+	<!---->
+	<string name="account_setup_incoming_username_label">"Nume utilizator"</string>
+	<!---->
+	<string name="account_setup_incoming_password_label">"Parolă"</string>
+	<!---->
+	<string name="account_setup_password_subheading">"Parolă"</string>
+	<!---->
+	<string name="account_setup_incoming_server_label">"Server"</string>
+	<!---->
+	<string name="account_setup_incoming_port_label">"Port"</string>
+	<!---->
+	<string name="account_setup_incoming_security_label">"Tip securitate"</string>
+	<!---->
+	<string name="account_setup_incoming_domain_label">"Domeniu"</string>
+	<!---->
+	<string name="account_setup_incoming_add_domain_label">"Adăugați domeniul"</string>
+	<!---->
+	<string name="account_setup_incoming_security_none_label">"Niciuna"</string>
+	<!---->
+	<string name="account_setup_incoming_security_ssl_trust_certificates_label">"SSL/TLS (Acceptaţi toate certif.)"</string>
+	<!---->
+	<string name="account_setup_incoming_security_ssl_label">"SSL/TLS"</string>
+	<!---->
+	<string name="account_setup_incoming_security_tls_trust_certificates_label">"STARTTLS (Acceptaţi toate certificatele)"</string>
+	<!---->
+	<string name="account_setup_incoming_security_tls_label">"STARTTLS"</string>
+	<!---->
+	<string name="account_setup_incoming_delete_policy_label">"Ştergere e-mail pe server"</string>
+	<!---->
+	<string name="account_setup_incoming_delete_policy_never_label">"Niciodată"</string>
+	<!---->
+	<string name="account_setup_incoming_delete_policy_delete_label">"La şterg. din mes primite"</string>
+	<!---->
+	<string name="account_setup_incoming_imap_path_prefix_label">"Prefix cale IMAP"</string>
+	<!---->
+	<string name="account_setup_incoming_imap_path_prefix_hint">"Opţional"</string>
+	<!---->
+	<string name="account_setup_outgoing_title">"Configurare cont"</string>
+	<!---->
+	<string name="account_setup_outgoing_headline">"Setări pentru serverul de mesaje de ieşire"</string>
+	<!---->
+	<string name="account_setup_outgoing_smtp_server_label">"Server SMTP"</string>
+	<!---->
+	<string name="account_setup_outgoing_port_label">"Port"</string>
+	<!---->
+	<string name="account_setup_outgoing_security_label">"Tip securitate"</string>
+	<!---->
+	<string name="account_setup_outgoing_require_login_label">"Este necesară conectarea"</string>
+	<!---->
+	<string name="account_setup_outgoing_username_label">"Nume utilizator"</string>
+	<!---->
+	<string name="account_setup_outgoing_password_label">"Parolă"</string>
+	<!---->
+	<string name="account_setup_exchange_certificate_title">"Certificat client"</string>
+	<!---->
+	<string name="account_setup_exchange_select_certificate">"Selectaţi"</string>
+	<!---->
+	<string name="account_setup_exchange_use_certificate">"Utilizaţi certificatul de client"</string>
+	<!---->
+	<string name="account_setup_exchange_remove_certificate">"Eliminaţi"</string>
+	<!---->
+	<string name="account_setup_exchange_no_certificate">"Niciunul"</string>
+	<!---->
+	<string name="account_setup_exchange_device_id_label">"ID dispozitiv mobil"</string>
+	<!---->
+	<string name="account_setup_options_title">"Setări cont"</string>
+	<!---->
+	<string name="account_setup_options_headline">"Opţiunile contului"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_label">"Sincronizare frecvenţă"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_never">"Niciodată"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_push">"Automat (Push)"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_5min">"La fiecare 5 minute"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_10min">"La fiecare 10 minute"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_15min">"La fiecare 15 minute"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_30min">"La fiecare 30 minute"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_1hour">"La fiecare oră"</string>
+	<!---->
+	<string name="account_setup_options_notify_label">"Doresc să primesc notificare la primirea de e-mailuri"</string>
+	<!---->
+	<string name="account_setup_options_sync_contacts_label">"Sincronizarea contactelor din acest cont."</string>
+	<!---->
+	<string name="account_setup_options_sync_calendar_label">"Sincronizare calendar din acest cont."</string>
+	<!---->
+	<string name="account_setup_options_sync_email_label">"Sincronizare e-mail din acest cont."</string>
+	<!---->
+	<string name="account_setup_options_background_attachments_label">"Doresc să se descarce automat ataşamentele când sunt conectat(ă) la Wi-Fi"</string>
+	<!---->
+	<string name="account_setup_failed_dlg_title">"Nu s-a putut finaliza"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_label">"Sincronizați e-mailuri de la"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_auto">"Mod automat"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1day">"Ultima zi"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_3days">"Ultimele trei zile"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1week">"Ultima săptămână"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_2weeks">"Ultimele două săptămâni"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1month">"Ultima lună"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_all">"Toate"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_default">"Utilizați setarea prestabilită a contului"</string>
+	<!---->
+	<string name="account_setup_failed_dlg_auth_message">"Numele de utilizator sau parola sunt incorecte."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_auth_message_fmt">"Conectare nereușită.\n(<xliff:g id="error">%s</xliff:g>)"</string>
+	<!---->
+	<string name="account_setup_autodiscover_dlg_authfail_title">"Problemă cu configurarea contului"</string>
+	<!---->
+	<string name="account_setup_autodiscover_dlg_authfail_message">"Confirmați că numele de utilizator, parola și setările contului sunt corecte."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_certificate_message">"Conexiunea la server nu a fost posibilă din cauza unui certificat nevalid sau care nu este de încredere."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_certificate_message_fmt">"Nu se poate conecta în siguranţă la server.\n(<xliff:g id="ERROR">%s</xliff:g>)"</string>
+	<!---->
+	<string name="account_setup_failed_certificate_required">"Este necesar un certificat de client. Doriţi să vă conectaţi la server cu un certificat de client?"</string>
+	<!---->
+	<string name="account_setup_failed_certificate_inaccessible">"Certificat nevalid sau inaccesibil."</string>
+	<!---->
+	<string name="account_setup_failed_check_credentials_message">"Serverul a răspuns cu un mesaj de eroare. Verificați numele de utilizator și parola, după care încercați din nou."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_server_message">"Nu se poate conecta la server."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_server_message_fmt">"Nu se poate conecta la server.\n(<xliff:g id="ERROR">%s</xliff:g>)"</string>
+	<!---->
+	<string name="account_setup_failed_tls_required">"Protocol TLS necesar, dar care nu este acceptat de server."</string>
+	<!---->
+	<string name="account_setup_failed_auth_required">"Metodele de autentificare nu sunt acceptate de server."</string>
+	<!---->
+	<string name="account_setup_failed_security">"Nu s-a putut deschide conexiunea la server din cauza unei erori de securitate."</string>
+	<!---->
+	<string name="account_setup_failed_ioerror">"Nu s-a putut deschide conexiunea la server."</string>
+	<!---->
+	<string name="account_setup_failed_protocol_unsupported">"Aţi introdus o adresă de server incorectă sau serverul necesită o versiune de protocol pe care aplicaţia E-mail nu o acceptă."</string>
+	<!---->
+	<string name="account_setup_failed_access_denied">"Nu aveţi permisiunea să efectuaţi sincronizarea cu acest server. Pentru mai multe informaţii, contactaţi administratorul serverului."</string>
+	<!---->
+	<string name="account_setup_security_required_title">"Administrare siguranţă de la distanţă"</string>
+	<!---->
+	<string name="account_setup_security_policies_required_fmt">"Serverul <xliff:g id="SERVER">%s</xliff:g> vă solicită permisiunea de a controla de la distanţă unele funcţii de securitate ale dispozitivului Android. Doriţi să finalizaţi configurarea acestui cont?"</string>
+	<!---->
+	<string name="account_setup_failed_security_policies_unsupported">"Pentru acest server sunt necesare funcţii de securitate pe care dispozitivul dvs. Android nu le acceptă, inclusiv: <xliff:g id="ERROR">%s</xliff:g>"</string>
+	<!---->
+	<string name="account_setup_username_uneditable_error">"Nu puteţi schimba numele de utilizator al unui cont. Pentru a adăuga un cont cu alt nume de utilizator, atingeţi Adăugaţi un cont."</string>
+	<!---->
+	<string name="disable_admin_warning">"AVERTISMENT: dezactivarea dreptului aplicaţiei e-mail de admin. a dispozitivului dvs. va şterge toate conturile care au nevoie de ea, cu e-mailuri, contacte, evenimente calendar şi alte date"</string>
+	<!---->
+	<string name="account_security_dialog_title">"Actualizare de securitate"</string>
+	<!---->
+	<string name="account_security_dialog_content_fmt">"<xliff:g id="ACCOUNT">%s</xliff:g> vă solicită actualizarea setărilor dvs. de securitate."</string>
+	<!---->
+	<string name="security_unsupported_ticker_fmt">"Contul \"<xliff:g id="account">%s</xliff:g>\" nu poate fi sincronizat din cauza cerințelor de securitate."</string>
+	<!---->
+	<string name="security_needed_ticker_fmt">"Contul \"<xliff:g id="account">%s</xliff:g> necesită actualizarea setărilor de securitate."</string>
+	<!---->
+	<string name="security_changed_ticker_fmt">"Contul \"<xliff:g id="account">%s</xliff:g>\" şi-a modificat setările de securitate; nu este necesară nicio acţiune a utilizatorului."</string>
+	<!---->
+	<string name="security_notification_content_update_title">"Actualiz. securitate necesară"</string>
+	<!---->
+	<string name="security_notification_content_change_title">"Politicile de securitate s-au schimbat."</string>
+	<!---->
+	<string name="security_notification_content_unsupported_title">"Politicile de securitate nu pot fi respectate."</string>
+	<!---->
+	<string name="account_security_title">"Securitate dispozitiv"</string>
+	<!---->
+	<string name="account_security_policy_explanation_fmt">"Serverul <xliff:g id="SERVER">%s</xliff:g> vă solicită permisiunea de a controla de la distanţă unele caracteristici de securitate ale dispozitivului dvs. Android."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_edit_details_action">"Modificare detalii"</string>
+	<!---->
+	<string name="password_expire_warning_ticker_fmt">"„<xliff:g id="ACCOUNT">%s</xliff:g>” vă solicită să modificaţi codul PIN sau parola de blocare a ecranului."</string>
+	<!---->
+	<string name="password_expire_warning_content_title">"Parola blocare ecran expiră"</string>
+	<!---->
+	<string name="password_expired_ticker">"Codul PIN sau parola de blocare a ecranului a expirat."</string>
+	<!---->
+	<string name="password_expired_content_title">"Parolă bloc. ecran. expirată"</string>
+	<!---->
+	<string name="password_expire_warning_dialog_title">"Parola de blocare ecran expiră în curând"</string>
+	<!---->
+	<string name="password_expire_warning_dialog_content_fmt">"Trebuie să modificați în curând codul PIN sau parola de blocare a ecranului. În caz contrar, datele contului <xliff:g id="account">%s</xliff:g> vor fi șterse. Doriți să modificați acum?"</string>
+	<!---->
+	<string name="password_expired_dialog_title">"Parola de blocare ecran expirată"</string>
+	<!---->
+	<string name="password_expired_dialog_content_fmt">"Datele contului <xliff:g id="account">%s</xliff:g> se șterg de pe dispozitiv. Le puteți restabili prin modificarea codului PIN sau parolei de blocare a ecranului. Doriți să modificați acum?"</string>
+	<!---->
+	<string name="account_settings_exit_server_settings">"Renunţaţi la modificările nesalvate?"</string>
+	<!---->
+	<string name="account_settings_login_dialog_title">"Nu s-a putut conecta"</string>
+	<!---->
+	<string name="account_settings_login_dialog_content_fmt">"Numele de utilizator sau parola pentru <xliff:g id="ACCOUNT">%s</xliff:g> este incorectă. Le actualizaţi acum?"</string>
+	<!---->
+	<string name="account_settings_login_dialog_reason_fmt">"Conectarea la <xliff:g id="account">%s</xliff:g> nu a reușit; mesajul serverului: <xliff:g id="reason">%s</xliff:g> Doriți să actualizați numele de utilizator și/sau parola?"</string>
+	<!---->
+	<string name="account_settings_background_attachments_label">"Descărcaţi ataşamentele"</string>
+	<!---->
+	<string name="account_settings_background_attachments_summary">"Descărcaţi în mod automat prin Wi-Fi ataşam. mesaj. recente"</string>
+	<!---->
+	<string name="account_settings_notify_label">"Notificări e-mail"</string>
+	<!---->
+	<string name="account_settings_summary">"Frecvenţa sincronizării, notificări etc."</string>
+	<!---->
+	<string name="account_settings_notify_summary">"Trimite notificare la primirea unui e-mail"</string>
+	<!---->
+	<string name="account_settings_mail_check_frequency_label">"Sincronizare frecvenţă"</string>
+	<!---->
+	<string name="account_settings_incoming_label">"Setări de intrare"</string>
+	<!---->
+	<string name="account_settings_incoming_summary">"Nume utilizator, parolă şi alte setări pt. serverul de primire"</string>
+	<!---->
+	<string name="account_settings_outgoing_label">"Setări de ieşire"</string>
+	<!---->
+	<string name="account_settings_outgoing_summary">"Nume utilizator, parolă şi alte setări pt. server de trimitere"</string>
+	<!---->
+	<string name="account_settings_reply_to_category">"Setări de răspuns către"</string>
+	<!---->
+	<string name="account_settings_reply_to_label">"Trimiteți răspuns către"</string>
+	<!---->
+	<string name="account_settings_reply_to_invalid">"Adresa este incorectă"</string>
+	<!---->
+	<string name="account_settings_enforced_label">"Politici aplicate"</string>
+	<!---->
+	<string name="account_settings_enforced_summary">"Niciuna"</string>
+	<!---->
+	<string name="account_settings_unsupported_label">"Politici neacceptate"</string>
+	<!---->
+	<string name="account_settings_unsupported_summary">"Niciuna"</string>
+	<!---->
+	<string name="account_settings_retry_label">"Încercaţi sincronizarea"</string>
+	<!---->
+	<string name="account_settings_retry_summary">"Atingeţi aici pentru a sincroniza acest cont."</string>
+	<!---->
+	<string name="account_settings_description_label">"Nume cont"</string>
+	<!---->
+	<string name="account_settings_name_label">"Numele dvs."</string>
+	<!---->
+	<string name="account_settings_edit_quick_responses_label">"Răspunsuri rapide"</string>
+	<!---->
+	<string name="account_settings_edit_quick_responses_summary">"Editaţi textul introdus frecvent când scrieţi e-mailuri"</string>
+	<!---->
+	<string name="account_settings_notifications">"Setări de notificare"</string>
+	<!---->
+	<string name="account_settings_data_usage">"Utilizarea datelor"</string>
+	<!---->
+	<string name="account_settings_policies">"Politici de securitate"</string>
+	<!---->
+	<string name="system_folders_title">"Dosare sistem"</string>
+	<!---->
+	<string name="system_folders_trash_title">"Dosar mesaje șterse"</string>
+	<!---->
+	<string name="system_folders_trash_summary">"Selectați dosarul cu mesaje șterse de pe server"</string>
+	<!---->
+	<string name="system_folders_trash_dlg">"Selectați dosarul cu mesaje șterse de pe server"</string>
+	<!---->
+	<string name="system_folders_sent_title">"Dosarul cu elemente trimise"</string>
+	<!---->
+	<string name="system_folders_sent_summary">"Selectați de pe server dosarul cu mesaje trimise"</string>
+	<!---->
+	<string name="system_folders_sent_dlg">"Selectați de pe server dosarul cu mesaje trimise"</string>
+	<!---->
+	<string name="edit_quick_response_dialog">"Răspuns rapid"</string>
+	<!---->
+	<string name="save_action">"Salvaţi"</string>
+	<!---->
+	<string name="account_settings_sync_contacts_enable">"Sincronizare contacte"</string>
+	<!---->
+	<string name="account_settings_sync_contacts_summary">"Sincronizaţi contactele pentru acest cont"</string>
+	<!---->
+	<string name="account_settings_sync_calendar_enable">"Sincronizare calendar"</string>
+	<!---->
+	<string name="account_settings_sync_calendar_summary">"Sincronizați evenimentul din calendar pentru acest cont"</string>
+	<!---->
+	<string name="account_settings_sync_email_enable">"Sincronizarea e-mailul"</string>
+	<!---->
+	<string name="account_settings_sync_email_summary">"Sincronizare e-mail pt. acest cont"</string>
+	<!---->
+	<string name="account_settings_vibrate_when_label">"Vibraţie"</string>
+	<!---->
+	<string name="account_settings_ringtone">"Alegeţi soneria"</string>
+	<!---->
+	<string name="account_settings_servers">"Setări server"</string>
+	<!---->
+	<string name="default_ringtone">"Sonerie implicită"</string>
+	<!---->
+	<string name="default_ringtone_unkonwn">"Sonerie necunoscută"</string>
+	<!---->
+	<string name="mailbox_settings_activity_title">"Opţiuni de sincronizare"</string>
+	<!---->
+	<string name="mailbox_settings_activity_title_with_mailbox">"Opţiuni de sincronizare (<xliff:g id="MAILBOXX_NAME">%s</xliff:g>)"</string>
+	<!---->
+	<string name="mailbox_settings_sync_enabled_label">"Sincronizați acest dosar"</string>
+	<!---->
+	<string name="mailbox_settings_sync_enabled_summary">"Mesajele vor fi descărcate atunci când sunteți conectat."</string>
+	<!---->
+	<string name="mailbox_settings_mailbox_sync_window_label">"Zile de sincronizare e-mail"</string>
+	<!---->
+	<string name="prefDialogTitle_conversationListIcon">"Imagine expeditor"</string>
+	<!---->
+	<string name="provider_note_live">"Numai unele conturi de tip „Plus” includ accesul de tip POP, permiţând conectarea acestui program. Dacă nu reuşiţi să vă conectaţi cu adresa de e-mail şi parola corecte, este posibil să nu aveţi un cont de tip „Plus” plătit. Lansaţi browserul web pentru a obţine accesul la aceste conturi de e-mail."</string>
+	<!---->
+	<string name="provider_note_t_online">"Înainte de configurarea acestui cont de e-mail, accesaţi site-ul web T-Online şi creaţi o parolă pentru accesul la serviciile de e-mail POP3."</string>
+	<!---->
+	<string name="exchange_name">"Companie"</string>
+	<!---->
+	<string name="exchange_name_alternate">"Microsoft Exchange ActiveSync"</string>
+	<!---->
+	<string name="system_account_create_failed">"Contul nu a putut fi creat. Încercaţi din nou."</string>
+	<!---->
+	<string name="device_admin_label">"E-mail"</string>
+	<!---->
+	<string name="device_admin_description">"Activează politicile de securitate specificate de server."</string>
+	<!---->
+	<string name="settings_activity_title">"Setări"</string>
+	<!---->
+	<string name="header_label_general_preferences">"Setări generale"</string>
+	<!---->
+	<string name="general_preference_confirm_delete_label">"Confirmați înainte de ștergere"</string>
+	<!---->
+	<string name="general_preference_confirm_send_label">"Confirm. înaintea trimiterii"</string>
+	<!---->
+	<string name="more_than_999">"˃999"</string>
+	<!---->
+	<string name="search_hint">"Căutare"</string>
+	<!---->
+	<string name="policy_dont_allow_camera">"Respingeți utilizarea aparatului foto al dispozitivului"</string>
+	<!---->
+	<string name="policy_require_password">"Parola dispozitivului este obligatorie"</string>
+	<!---->
+	<string name="policy_password_history">"Restricţionaţi reutilizarea parolelor recente"</string>
+	<!---->
+	<string name="policy_password_expiration">"Expirarea parolelor este obligatorie"</string>
+	<!---->
+	<string name="policy_screen_timeout">"Blocarea ecranului dispozitivului inactiv este obligatorie"</string>
+	<!---->
+	<string name="policy_calendar_age">"Limitare număr evenimente de calendar sincronizate"</string>
+	<!---->
+	<string name="policy_email_age">"Limitare număr de e-mailuri sincronizate"</string>
+	<!---->
+	<string name="quick_1">"Mulțumesc!"</string>
+	<!---->
+	<string name="quick_2">"Sunt de acord!"</string>
+	<!---->
+	<string name="quick_3">"Voi citi acest mesaj mai târziu și vă voi răspunde."</string>
+	<!---->
+	<string name="quick_4">"Să stabilim o întâlnire pentru a discuta această problemă."</string>
+	<!---->
+	<string name="require_manual_sync_message">"Sincronizarea în fundal pentru acest cont este dezactivată în roaming."</string>
+	<!---->
+	<string name="confirm_response">"Se trimite răspuns..."</string>
+	<!---->
+	<string name="no_conversations">"Nu există mesaje."</string>
+	<!-- no translation found for imap_name -->
+	<skip />
+	<!-- no translation found for pop3_name -->
+	<skip />
+	<!---->
+	<string name="email_name">"E-mail"</string>
+	<!---->
+	<string name="folder_picker_title">"Selector folder"</string>
+	<!---->
+	<string name="trash_folder_selection_title">"Selectaţi dosarul de resturi al serverului pentru <xliff:g id="account">%s</xliff:g>"</string>
+	<!---->
+	<string name="sent_folder_selection_title">"Dosar articole trimise pentru <xliff:g id="ACCOUNT">%s</xliff:g>"</string>
+	<!---->
+	<string name="account_waiting_for_folders_msg">"Se încarcă lista de dosare..."</string>
+	<!---->
+	<string name="no_quick_responses">"Nicio opțiune disponibilă"</string>
+	<!---->
+	<string name="gmail_name">"Gmail"</string>
+	<!---->
+	<string name="folder_sync_settings_pref_title">"Setări de sincronizare a dosarelor"</string>
+	<!---->
+	<string name="select_your_account">"Selectare cont"</string>
+	<!---->
+	<string name="select_account_list_below">"Selectaţi contul din lista de mai jos:"</string>
+	<!---->
+	<string name="cancel_label">"Anulare"</string>
+	<!---->
+	<string name="next_label">"Înainte"</string>
+	<!---->
+	<string name="str_account_provider_other">"Altul"</string>
+	<!---->
+	<string name="account_settings_download_options_label">"Opţiuni de descărcare"</string>
+	<!---->
+	<string name="account_setting_download_opt_headonly">"Numai antet"</string>
+	<!---->
+	<string name="account_setting_download_opt_all">"Toate"</string>
+	<!---->
+	<string name="account_setting_download_opt_2k">"2 KB"</string>
+	<!---->
+	<string name="account_setting_download_opt_5k">"5 KB"</string>
+	<!---->
+	<string name="account_setting_download_opt_10k">"10 KB"</string>
+	<!---->
+	<string name="account_setting_download_opt_20k">"20 KB"</string>
+	<!---->
+	<string name="account_setting_download_opt_50k">"50 KB"</string>
+	<!---->
+	<string name="account_setting_download_opt_100k">"100 KB"</string>
+	<!---->
+	<string name="account_oof_error_tip_past">"Ora de încheiere nu poate fi în trecut. Modificați ora de încheiere la un moment din viitor."</string>
+	<!---->
+	<string name="account_oof_error_tip_earlier">"Ora de încheiere nu poate fi înaintea orei de începere. Modificați ora de încheiere din nou."</string>
+	<!---->
+	<string name="account_setting_oof_label">"Setări pentru absenţa de la birou"</string>
+	<!---->
+	<string name="oof_auto_repley">"Se trimite răspuns automat de absenţă de la birou"</string>
+	<!---->
+	<string name="oof_auto_replies_period">"Trimiteți răspunsuri automate în această perioadă"</string>
+	<!---->
+	<string name="start_time">"Oră de începere"</string>
+	<!---->
+	<string name="end_time">"Oră de încheiere"</string>
+	<!---->
+	<string name="internal_message">"Mesaj intern"</string>
+	<!---->
+	<string name="oof_auto_replies_external_senders">"Trimiteţi răspunsuri automate la expeditorii externi"</string>
+	<!---->
+	<string name="oof_choice_oof_in_contacts">"Trimite răspunsuri automate de absenţă de la birou către expeditorii din lista mea de contacte"</string>
+	<!---->
+	<string name="oof_choice_oof_outside_organisation">"Trimite răspunsuri automate de absenţă de la birou către oricine din afara organizaţiei mele"</string>
+	<!---->
+	<string name="external_message">"Mesaj extern"</string>
+	<!---->
+	<string name="oof_done_message_attention">"Nu ați specificat un mesaj de răspuns automat pentru persoanele din cadrul organizației dvs. Dacă nu introduceți un mesaj de răspuns când nu sunteți la birou, cei care vă scriu nu vor primi o notificare că nu sunteți la birou. Cu toate acestea, regulile specificate pentru situațiile când nu sunteți la birou vor funcționa în continuare. Doriți să continuați?"</string>
+	<!---->
+	<string name="oof_choice_in_contacts">"Trimite la expeditorii din agenda mea"</string>
+	<!---->
+	<string name="oof_choice_all_senders">"Trimiteți la toți expeditorii"</string>
+	<!---->
+	<string name="hint_text_of_internal_message">"Răspundeți la adresele din organizația dvs."</string>
+	<!---->
+	<string name="hint_text_of_external_message">"Răspundeți la adresele din afara organizației dvs."</string>
+	<!---->
+	<string name="account_delete_dlg_title">"Eliminaţi contul?"</string>
+	<!---->
+	<string name="account_delete_dlg_instructions_fmt">"Contul \"<xliff:g id="account">%s</xliff:g>\" va fi şters din aplicaţia e-mail."</string>
+	<!---->
+	<string name="account_delete_dlg_instructions_fmt_new">"Eliminarea acestui cont va şterge toate mesajele şi persoanele din agendă aferente contului, precum şi alte date de pe telefon."</string>
+	<!---->
+	<string name="account_delete_dlg_action_remove_label">"Eliminaţi"</string>
+	<!---->
+	<string name="account_delete_dlg_action_cancel_label">"Anulare"</string>
+	<!---->
+	<string name="account_settings_category_delete_account">"Eliminaţi contul"</string>
+	<!---->
+	<string name="account_settings_delete_account_label">"Eliminaţi contul"</string>
+	<!---->
+	<string name="account_settings_default_label">"Cont implicit"</string>
+	<!---->
+	<string name="account_settings_default_summary">"Trimitere e-mail de pe acest cont în mod implicit"</string>
+	<!---->
+	<string name="account_setup_options_default_label">"Trimitere e-mail de pe acest cont în mod implicit."</string>
+	<!---->
+	<string name="account_setup_basics_default_label">"Trimitere e-mail de pe acest cont în mod implicit."</string>
+	<!---->
+	<string name="local_search_action">"Căutare locală"</string>
+	<!---->
+	<string name="service_search_action">"Căutare pe server"</string>
+	<!---->
+	<string name="local_search_all">"Toate"</string>
+	<!---->
+	<string name="local_search_from">"De la"</string>
+	<!---->
+	<string name="local_search_to">"Către"</string>
+	<!---->
+	<string name="local_search_subject">"Subiect"</string>
+	<!---->
+	<string name="status_loading_attachments">"Se încarcă"</string>
+	<!---->
+	<string name="account_use_proxy_label">"Utilizare proxy"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_label">"IP proxy"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_port_label">"Port proxy"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_name">"Nume proxy"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_password">"Parolă proxy"</string>
+	<!---->
+	<string name="attachment_info_dialog_wifi_title">"Este necesară o conexiune Wi-Fi"</string>
+	<!---->
+	<string name="attachment_info_wifi_settings">"Setări Wi-Fi"</string>
+	<!---->
+	<string name="attachment_info_wifi_only">"Acest ataşament este prea mare pentru a fi descărcat prin reţeaua mobilă. Îl puteţi descărca cu proxima ocazie când vă conectaţi la o reţea Wi-Fi."</string>
+	<!---->
+	<string name="attachment_info_ok">"OK"</string>
+	<!---->
+	<string name="mailbox_name_display_draft">"Ciornă"</string>
+	<!---->
+	<string name="message_compose_display_name">"<xliff:g example="John" id="name">%1$s</xliff:g> şi <xliff:g example="27" id="number">%2$d</xliff:g> altele"</string>
+	<!---->
+	<string name="app_name">"E-mail"</string>
+	<!---->
+	<string name="from">"De la"</string>
+	<!---->
+	<string name="to">"Către"</string>
+	<!---->
+	<string name="cc">"Cc"</string>
+	<!---->
+	<string name="bcc">"Bcc"</string>
+	<!---->
+	<string name="subject_hint">"Subiect"</string>
+	<!---->
+	<string name="body_hint">"Scrieţi un e-mail"</string>
+	<!---->
+	<string name="add_file_attachment">"Ataşaţi un fişier"</string>
+	<!---->
+	<string name="add_photo_attachment">"Ataşare imagine"</string>
+	<!---->
+	<string name="save_draft">"Salvaţi schiţa"</string>
+	<!---->
+	<string name="discard">"Respingeți"</string>
+	<!---->
+	<string name="compose">"Creare mesaj"</string>
+	<!---->
+	<string name="select_contacts_field">"Selectați contacte din"</string>
+	<!---->
+	<string name="item_save_group">"Salvare grup"</string>
+	<!---->
+	<string name="confirm_select">"Selectați"</string>
+	<!---->
+	<string name="cancel_select">"Anulare"</string>
+	<string-array name="compose_modes">
+		<item>"Răspundeți"</item>
+		<item>"Răspuns la toţi"</item>
+		<item>"Redirecționați"</item>
+	</string-array>
+	<string-array name="compose_modes_without_reply_all">
+		<item>"Răspundeți"</item>
+		<item>"Redirecționați"</item>
+	</string-array>
+	<!---->
+	<string name="reply_subject_label">"Re:"</string>
+	<!---->
+	<string name="forward_subject_label">"Redirecţionare:"</string>
+	<!---->
+	<string name="reply_attribution">"în data de <xliff:g id="date">%s</xliff:g>, <xliff:g id="person">%s</xliff:g> a scris:"</string>
+	<!---->
+	<string name="forward_attribution">"---------- Mesaj redirecționat ----------；De la:；Data:；Subiect:；Către:"</string>
+	<!---->
+	<string name="forward_attribution_with_headers">"---------- Mesaj redirecționat ---------- <xliff:g id="a">%s</xliff:g> De la: <xliff:g id="from">%s</xliff:g> <xliff:g id="b">%s</xliff:g> Data: <xliff:g id="date">%s</xliff:g> <xliff:g id="c">%s</xliff:g> Subiect: <xliff:g id="subject">%s</xliff:g> <xliff:g id="d">%s</xliff:g> Destinatar: <xliff:g id="to">%s</xliff:g> <xliff:g id="e">%s</xliff:g> Cc: <xliff:g id="cc">%s</xliff:g> <br/>"</string>
+	<!---->
+	<string name="forward_attribution_no_headers">"---------- Mesaj redirecţionat ----------"</string>
+	<!---->
+	<string name="cc_attribution">"Cc:"</string>
+	<!---->
+	<string name="select_attachment_type">"Alegeţi tipul de fişier ataşat."</string>
+	<!---->
+	<string name="too_large_to_attach_single">"Nu se poate atașa un fișier mai mare de %1$s"</string>
+	<!---->
+	<string name="too_large_to_attach_multiple">"Unul sau mai multe fişiere nu au fost atașate. Există o limită de <xliff:g id="maxSize">%1$s</xliff:g>."</string>
+	<!---->
+	<string name="too_large_to_mid_attach_additional">"E-mailul depășește <xliff:g id="maxSize">%1$s</xliff:g>. Contul dvs. de e-mail ar putea să nu suporte acest lucru."</string>
+	<!---->
+	<string name="too_large_to_attach_additional">"Fișierul nu a putut fi adăugat. Dimensiunea e-mailului va depăşi limita de <xliff:g id="maxSize">%1$s</xliff:g>."</string>
+	<!---->
+	<string name="generic_attachment_problem">"Fișierul nu a putut fi atașat."</string>
+	<!---->
+	<string name="recipient_needed">"Adăugaţi cel puţin un destinatar."</string>
+	<!---->
+	<string name="recipient_error_dialog_title">"Eroare destinatar"</string>
+	<!---->
+	<string name="confirm_send_title">"Trimiteți mesajul?"</string>
+	<!---->
+	<string name="confirm_send_message_with_no_subject">"Nu există text în subiectul mesajului"</string>
+	<!---->
+	<string name="confirm_send_message_with_no_body">"Nu există conținut al mesajului."</string>
+	<!---->
+	<string name="confirm_send_message">"Trimiteţi acest mesaj?"</string>
+	<!---->
+	<string name="message_discarded">"Mesaj şters."</string>
+	<!-- no translation found for signature -->
+	<skip />
+	<!---->
+	<string name="custom_from_account_label">"Trimiteţi e-mail ca:"</string>
+	<!---->
+	<string name="send">"Trimitere"</string>
+	<!---->
+	<string name="mark_read">"Marcaţi ca citit"</string>
+	<!---->
+	<string name="mark_unread">"Marcaţi ca necitit"</string>
+	<!---->
+	<string name="mute">"Silenţios"</string>
+	<!---->
+	<string name="add_star">"Adăug. stea"</string>
+	<!---->
+	<string name="remove_star">"Eliminare stea"</string>
+	<!---->
+	<string name="remove_folder">"Eliminaţi din dosarul <xliff:g id="folderName">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="archive">"Arhivă"</string>
+	<!---->
+	<string name="report_spam">"Raportare ca spam"</string>
+	<!---->
+	<string name="mark_not_spam">"Raport: nu este spam"</string>
+	<!---->
+	<string name="report_phishing">"Raportare ca înșelătorie"</string>
+	<!---->
+	<string name="delete">"Ştergeţi"</string>
+	<!---->
+	<string name="discard_drafts">"Renunţare la schițe"</string>
+	<!---->
+	<string name="discard_failed">"Renunțare nereușită"</string>
+	<!---->
+	<string name="refresh">"Împrospătare"</string>
+	<!---->
+	<string name="reply">"Răspundeți"</string>
+	<!---->
+	<string name="reply_all">"Răspuns la toţi"</string>
+	<!---->
+	<string name="resume_draft">"Modificare"</string>
+	<!---->
+	<string name="forward">"Redirecționați"</string>
+	<!---->
+	<string name="menu_compose">"Creare mesaj"</string>
+	<!---->
+	<string name="menu_sort">"Sortaţi"</string>
+	<!---->
+	<string name="menu_change_folders">"Schimbaţi dosare"</string>
+	<!---->
+	<string name="menu_move_to">"Mutaţi în"</string>
+	<!---->
+	<string name="menu_move_to_inbox">"Mutare în Mesaje primite"</string>
+	<!---->
+	<string name="menu_manage_folders">"Setări dosar"</string>
+	<!---->
+	<string name="menu_show_original">"Revenire la auto-dimens."</string>
+	<!---->
+	<string name="menu_settings">"Setări"</string>
+	<!---->
+	<string name="menu_search">"Căutare"</string>
+	<!---->
+	<string name="drawer_title">"Navigare"</string>
+	<!---->
+	<string name="mark_important">"Marcaţi ca important"</string>
+	<!---->
+	<string name="mark_not_important">"Marcaţi ca neimportant"</string>
+	<!---->
+	<string name="select_all_conversations">"Selectare tot"</string>
+	<!---->
+	<string name="unselect_all_conversations">"Deselectaţi totul"</string>
+	<!---->
+	<string name="add_cc_label">"Adăugaţi Cc/Bcc"</string>
+	<!---->
+	<string name="add_bcc_label">"Adăugaţi Bcc"</string>
+	<!---->
+	<string name="quoted_text">"Includeţi textul citat"</string>
+	<!---->
+	<string name="quoted_text_label">"Text din mesajul precedent"</string>
+	<!---->
+	<string name="respond_inline">"Răspuns în linie"</string>
+	<!---->
+	<string name="bytes">"<xliff:g id="count">%s</xliff:g> baiți"</string>
+	<!---->
+	<string name="kilobytes">"<xliff:g id="count">%s</xliff:g> KB"</string>
+	<!---->
+	<string name="megabytes">"<xliff:g id="count">%s</xliff:g> MB"</string>
+	<!---->
+	<string name="attachment_image">"Imagine"</string>
+	<!---->
+	<string name="attachment_video">"Video"</string>
+	<!---->
+	<string name="attachment_audio">"Audio"</string>
+	<!---->
+	<string name="attachment_text">"Text"</string>
+	<!---->
+	<string name="attachment_application_msword">"Document"</string>
+	<!---->
+	<string name="attachment_application_vnd_ms_powerpoint">"Prezentare"</string>
+	<!---->
+	<string name="attachment_application_vnd_ms_excel">"Foaie de date"</string>
+	<!-- no translation found for attachment_application_pdf -->
+	<skip />
+	<!---->
+	<string name="attachment_unknown">"Fişier <xliff:g id="attachmentExtension">%s</xliff:g>"</string>
+	<!---->
+	<string name="preview_attachment">"Previzualizaţi"</string>
+	<!---->
+	<string name="save_attachment">"Salvați"</string>
+	<!---->
+	<string name="cancel_attachment">"Anulare"</string>
+	<!---->
+	<string name="open_attachment">"Deschidere"</string>
+	<!---->
+	<string name="install_attachment">"Instalare"</string>
+	<!---->
+	<string name="download_again">"Descărcaţi din nou"</string>
+	<!---->
+	<string name="more_info_attachment">"Informații"</string>
+	<!---->
+	<string name="no_application_found">"Nicio aplicaţie nu poate deschide acest fișier ataşat pentru afişare."</string>
+	<!---->
+	<string name="fetching_attachment">"Recuperare fișier ataşat"</string>
+	<!---->
+	<string name="please_wait">"Aşteptaţi\u2026"</string>
+	<!---->
+	<string name="saved">"Salvat,"</string>
+	<!---->
+	<string name="download_failed">"Descărcarea nu a putut fi realizată. Atingeţi pentru a încerca din nou."</string>
+	<!---->
+	<string name="menu_photo_save_all">"Salvare toate"</string>
+	<!---->
+	<string name="menu_photo_share">"Partajare"</string>
+	<!---->
+	<string name="menu_photo_share_all">"Partajare toate"</string>
+	<!---->
+	<string name="menu_photo_print">"Tipărire"</string>
+	<!---->
+	<string name="saving">"Se salvează..."</string>
+	<!---->
+	<string name="choosertitle_sharevia">"Partajare prin"</string>
+	<!---->
+	<string name="contextmenu_openlink">"Deschideţi în browser"</string>
+	<!---->
+	<string name="contextmenu_copy">"Copiere"</string>
+	<!---->
+	<string name="contextmenu_copylink">"Copiere adresă URL a link-ului"</string>
+	<!---->
+	<string name="contextmenu_view_image">"Afişare imagine"</string>
+	<!---->
+	<string name="contextmenu_dial_dot">"Apelare"</string>
+	<!---->
+	<string name="contextmenu_sms_dot">"SMS\u2026"</string>
+	<!---->
+	<string name="contextmenu_add_contact">"Adăugare contact"</string>
+	<!---->
+	<string name="contextmenu_send_mail">"Trimitere e-mail"</string>
+	<!---->
+	<string name="contextmenu_map">"Hartă"</string>
+	<!---->
+	<string name="contextmenu_sharelink">"Partajare link"</string>
+	<!---->
+	<string name="contextmenu_savelink">"Salvare link"</string>
+	<!---->
+	<string name="contextmenu_help">"Ajutor"</string>
+	<!---->
+	<string name="contextmenu_feedback">"Trimiteţi feedback"</string>
+	<!---->
+	<string name="sort_title">"Ord.după"</string>
+	<!---->
+	<string name="sort_by_tip">"Sortate după <xliff:g id="sor_type">%s</xliff:g>"</string>
+	<!-- no translation found for num_selected -->
+	<skip />
+	<plurals name="move_conversation">
+		<item quantity="one">"Mutare conversaţie"</item>
+		<item quantity="other">"Mutaţi <xliff:g>%1$d</xliff:g> conversaţii."</item>
+	</plurals>
+	<!---->
+	<string name="content_description">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> about <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> on <xliff:g id="date">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g>"</string>
+	<!---->
+	<string name="content_description_today">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> about <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> at <xliff:g id="time">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g>"</string>
+	<!---->
+	<string name="read_string">"Conversaţie citită"</string>
+	<!---->
+	<string name="unread_string">"Conversaţie necitită"</string>
+	<!---->
+	<string name="filtered_tag">"[<xliff:g id="tag">%1$s</xliff:g>]<xliff:g id="subject">%2$s</xliff:g>"</string>
+	<!-- no translation found for badge_and_subject -->
+	<skip />
+	<plurals name="draft">
+		<item quantity="one">"Ciornă"</item>
+		<item quantity="other">"Ciorne"</item>
+	</plurals>
+	<!---->
+	<string name="sending">"Se trimite\u2026"</string>
+	<!---->
+	<string name="message_retrying">"Se încearcă din nou\u2026"</string>
+	<!---->
+	<string name="message_failed">"Eroare"</string>
+	<!---->
+	<string name="send_failed">"E-mailul nu a putut fi trimis."</string>
+	<!---->
+	<string name="send_failed_wait_attchment_downloaded">"Redirecționarea nu este posibilă pentru că fișierele anexate nu sunt descărcate integral. Descărcați-le întâi."</string>
+	<!---->
+	<string name="me_object_pronoun">"Eu"</string>
+	<!---->
+	<string name="me_subject_pronoun">"Eu"</string>
+	<plurals name="confirm_delete_conversation">
+		<item quantity="one">"Ştergeţi această conversaţie?"</item>
+		<item quantity="other">"Ştergeţi aceste <xliff:g id="count">%1$d</xliff:g> conversaţii?"</item>
+	</plurals>
+	<plurals name="confirm_archive_conversation">
+		<item quantity="one">"Arhivaţi această conversaţie?"</item>
+		<item quantity="other">"Ştergeţi aceste <xliff:g id="count">%1$d</xliff:g> conversaţii?"</item>
+	</plurals>
+	<plurals name="confirm_discard_drafts_conversation">
+		<item quantity="one">"Renunţaţi la acest mesaj?"</item>
+		<item quantity="other">"Renunțați la aceste <xliff:g id="count">%1$d</xliff:g> mesaje?"</item>
+	</plurals>
+	<!---->
+	<string name="confirm_discard_text">"Renunţaţi la acest mesaj?"</string>
+	<!---->
+	<string name="loading_conversations">"Se încarcă\u2026"</string>
+	<!---->
+	<string name="empty_inbox">"Ați terminat! O zi bună!"</string>
+	<!---->
+	<string name="empty_search">"Hopa! Nu s-a găsit nimic pentru \"<xliff:g id="search_query">%1$s</xliff:g>\"."</string>
+	<!---->
+	<string name="empty_spam_folder">"Ura! Fără spam!"</string>
+	<!---->
+	<string name="empty_trash_folder">"Nu există mesaje șterse aici. Vă mulțumim pentru reciclare!"</string>
+	<!---->
+	<string name="empty_folder">"Nu există niciun e-mail aici."</string>
+	<!---->
+	<string name="getting_messages">"Se obțin mesajele..."</string>
+	<!---->
+	<string name="undo">"Anulare"</string>
+	<plurals name="conversation_unstarred">
+		<item quantity="one">"Se elimină steaua de la <xliff:g id="count">%1$d</xliff:g> conversaţie."</item>
+		<item quantity="other">"Se elimină steaua de la <xliff:g id="count">%1$d</xliff:g> conversaţii?"</item>
+	</plurals>
+	<plurals name="conversation_muted">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> cu sunetul dezactivat."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> cu sunetul dezactivat."</item>
+	</plurals>
+	<plurals name="conversation_spammed">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> raportate ca spam."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> raportate ca spam."</item>
+	</plurals>
+	<plurals name="conversation_not_spam">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> raportate ca nefiind spam."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> raportate ca nefiind spam."</item>
+	</plurals>
+	<plurals name="conversation_not_important">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> marcate ca neimportante."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> marcate ca neimportante."</item>
+	</plurals>
+	<plurals name="conversation_phished">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> raportate ca înșelătorie."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> raportate ca înșelătorie."</item>
+	</plurals>
+	<plurals name="conversation_archived">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> elemente arhivate."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> elemente arhivate."</item>
+	</plurals>
+	<plurals name="conversation_deleted">
+		<item quantity="one">"&lt;b&gt;%1$d&lt;/b&gt; şterse."</item>
+		<item quantity="other">"&lt;b&gt;%1$d&lt;/b&gt; şterse."</item>
+	</plurals>
+	<!---->
+	<string name="deleted">"Şters"</string>
+	<!---->
+	<string name="archived">"Arhivate"</string>
+	<!---->
+	<string name="starred">"Marcate cu stea"</string>
+	<!---->
+	<string name="unstarred">"Nemarcate cu stea"</string>
+	<!---->
+	<string name="folder_removed">"Eliminate din <xliff:g id="folderName">%1$s</xliff:g>"</string>
+	<plurals name="conversation_folder_changed">
+		<item quantity="one">"Dosar schimbat"</item>
+		<item quantity="other">"Dosare schimbate"</item>
+	</plurals>
+	<!---->
+	<string name="conversation_folder_moved">"Mutate în <xliff:g id="folderName">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="search_results_header">"Rezultate"</string>
+	<!---->
+	<string name="search_unsupported">"Căutarea nu este acceptată în acest cont."</string>
+	<!---->
+	<string name="add_label">"Adăugaţi dosar"</string>
+	<!---->
+	<string name="new_incoming_messages_one">"Afișați mesajul nou de la <xliff:g id="sender">%s</xliff:g>."</string>
+	<plurals name="new_incoming_messages_many">
+		<item quantity="other">"Afișați <xliff:g id="count">%1$d</xliff:g> mesaje noi."</item>
+	</plurals>
+	<!---->
+	<string name="date_and_view_details">"<xliff:g id="date">%1$s</xliff:g> &lt;a href=\'http://www.example.com\'&gt;Afişaţi detaliile&lt;/a&gt;"</string>
+	<!---->
+	<string name="date_and_view_details_another">"<xliff:g id="date">%1$s</xliff:g> &lt;font color=\"<xliff:g id="color">%2$d</xliff:g>\"&gt;Afişaţi detaliile&lt;/font&gt;"</string>
+	<!---->
+	<string name="hide_details">"Ascundeţi detaliile"</string>
+	<!---->
+	<string name="to_message_header">"către <xliff:g id="recipients">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="contact_info_string">"Afişaţi informaţiile de contact pentru <xliff:g id="name">%1$s</xliff:g>."</string>
+	<!---->
+	<string name="contact_info_string_default">"Afişaţi informaţiile de contact"</string>
+	<plurals name="show_messages_read">
+		<item quantity="other">"<xliff:g example="4" id="count">%1$d</xliff:g> (de) mesaje mai vechi"</item>
+	</plurals>
+	<!---->
+	<string name="from_heading">"De la:"</string>
+	<!---->
+	<string name="replyto_heading">"Răspundeți la:"</string>
+	<!---->
+	<string name="to_heading">"Către:"</string>
+	<!---->
+	<string name="to_heading_no_space">"Către:"</string>
+	<!---->
+	<string name="cc_heading">"Cc:"</string>
+	<!---->
+	<string name="bcc_heading">"Bcc:"</string>
+	<!---->
+	<string name="date_heading">"Data:"</string>
+	<!---->
+	<string name="show_images">"Afişare imagini"</string>
+	<!---->
+	<string name="always_show_images">"Afişaţi întotdeauna imagini de la acest expeditor"</string>
+	<!---->
+	<string name="always_show_images_toast">"Imaginile de la acest expeditor vor fi afişate în mod automat."</string>
+	<!---->
+	<string name="address_display_format">"<xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g>"</string>
+	<!---->
+	<string name="address_display_format_with_via_domain">"<xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g> via <xliff:g id="via_domain">%3$s</xliff:g>"</string>
+	<!---->
+	<string name="message_saved">"Mesaj salvat ca ciornă."</string>
+	<!---->
+	<string name="sending_message">"Se trimite mesajul\u2026"</string>
+	<!---->
+	<string name="invalid_recipient">"Adresa %s este incorectă."</string>
+	<!---->
+	<string name="show_elided">"Afișați textul citat"</string>
+	<!---->
+	<string name="hide_elided">"\u25BC Ascundeţi textul citat"</string>
+	<!---->
+	<string name="message_invite_title">"Invitație calendar"</string>
+	<!---->
+	<string name="message_invite_available">"Sunteți disponibil(ă)"</string>
+	<!---->
+	<string name="message_invite_datetime">"Când"</string>
+	<!---->
+	<string name="message_invite_location">"Unde"</string>
+	<!---->
+	<string name="message_invite_in_calendar_view">"Vedeți în calendar"</string>
+	<!---->
+	<string name="message_invite_calendar_view">"Afișați în calendar"</string>
+	<!---->
+	<string name="message_invite_label_attending">"Mergeţi?"</string>
+	<!---->
+	<string name="message_invite_accept">"Da"</string>
+	<!---->
+	<string name="message_invite_tentative">"Poate"</string>
+	<!---->
+	<string name="message_invite_decline">"Nu"</string>
+	<!-- no translation found for enumeration_comma -->
+	<skip />
+	<!---->
+	<string name="send_anyway">"Trimiteţi oricum"</string>
+	<!---->
+	<string name="ok">"OK"</string>
+	<!---->
+	<string name="done">"Termin."</string>
+	<!---->
+	<string name="cancel">"Anulați"</string>
+	<!---->
+	<string name="clear">"Golire"</string>
+	<!---->
+	<string name="next">"Înainte"</string>
+	<!---->
+	<string name="previous">"Înapoi"</string>
+	<string-array name="sync_status">
+		<item>"Dispozitivul dvs. nu este conectat la o rețea Wi-Fi. Continuați sincronizarea?"</item>
+		<item>"Nicio conexiune"</item>
+		<item>"Nu s-a putut conecta."</item>
+		<item>"Eroare de securitate"</item>
+		<item>"Nu s-a putut sincroniza."</item>
+		<item>"Eroare internă"</item>
+		<item>"Eroare de server"</item>
+	</string-array>
+	<!---->
+	<string name="tap_to_configure">"Atingeţi pentru a configura."</string>
+	<!---->
+	<string name="non_synced_folder_description">"Pentru a afişa conversaţiile, sincronizaţi acest dosar."</string>
+	<!---->
+	<string name="tap_to_configure_folder_sync">"Sincronizare dosar"</string>
+	<!-- no translation found for widget_large_unread_count -->
+	<skip />
+	<!---->
+	<string name="large_unseen_count">"peste <xliff:g example="99" id="count">%d</xliff:g> noi"</string>
+	<!---->
+	<string name="unseen_count">"<xliff:g example="4" id="count">%d</xliff:g> nou"</string>
+	<plurals name="actionbar_unread_messages">
+		<item quantity="other">"%1$d mesaje necitite"</item>
+	</plurals>
+	<!---->
+	<string name="actionbar_large_unread_count">"<xliff:g id="count">%1$d</xliff:g>+ necitite"</string>
+	<!---->
+	<string name="view_more_conversations">"Afişaţi mai multe conversaţii"</string>
+	<!---->
+	<string name="loading_conversation">"Se încarcă\u2026"</string>
+	<!---->
+	<string name="activity_mailbox_selection">"Alegeţi un cont"</string>
+	<!---->
+	<string name="activity_folder_selection">"Alegeţi dosar"</string>
+	<!---->
+	<string name="folder_shortcut_widget_label">"Dosar de e-mail"</string>
+	<!---->
+	<string name="change_folders_selection_dialog_title">"Schimbaţi dosare"</string>
+	<!---->
+	<string name="move_to_selection_dialog_title">"Mutaţi în"</string>
+	<!-- no translation found for search_results_loaded -->
+	<skip />
+	<!---->
+	<string name="network_error">"Nicio conexiune"</string>
+	<!---->
+	<string name="retry">"Încercaţi din nou"</string>
+	<!---->
+	<string name="load_more">"Încărcaţi mai multe"</string>
+	<!---->
+	<string name="shortcut_name_title">"Denumiţi comanda rapidă pentru dosar"</string>
+	<!---->
+	<string name="wait_for_sync_title">"Se aşteaptă sincronizarea"</string>
+	<!---->
+	<string name="not_synced_title">"Cont nesincronizat"</string>
+	<!---->
+	<string name="wait_for_manual_sync_body">"Acest cont nu este configurat pentru a se sincroniza automat. \nAtingeţi<b>Sincronizare acum</b> pentru a sincroniza e-mailul o dată, sau <b>Modificaţi setările de sincronizare</b> pentru a configura acest cont pentru sincronizarea automată a e-mailului."</string>
+	<!---->
+	<string name="manual_sync">"Sincronizaţi acum"</string>
+	<!---->
+	<string name="change_sync_settings">"Modificaţi setările de sincronizare"</string>
+	<!---->
+	<string name="photo_load_failed">"Nu s-a putut încărca imaginea"</string>
+	<!---->
+	<string name="cant_move_or_change_labels">"Nu se poate muta, deoarece selecţia conţine mai multe conturi."</string>
+	<!-- no translation found for multiple_new_message_notification_item -->
+	<skip />
+	<!-- no translation found for single_new_message_notification_big_text -->
+	<skip />
+	<!---->
+	<string name="ignore_spam_warning">"Ignoraţi. Am încredere în acest mesaj."</string>
+	<!---->
+	<string name="via_domain">"via <xliff:g id="viaDomain">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="signin">"Conectaţi-vă"</string>
+	<!---->
+	<string name="info">"Informaţii"</string>
+	<!---->
+	<string name="report">"Raport"</string>
+	<!---->
+	<string name="sync_error">"Nu s-a putut sincroniza."</string>
+	<!---->
+	<string name="sync_error_message">"Dispozitivul dvs. nu are suficientă memorie disponibilă pentru sincronizare."</string>
+	<!---->
+	<string name="storage">"Stocare"</string>
+	<!-- no translation found for senders_split_token -->
+	<skip />
+	<!-- no translation found for draft_count_format -->
+	<skip />
+	<!---->
+	<string name="all_folders_heading">"Toate dosarele"</string>
+	<!---->
+	<string name="recent_folders_heading">"Dosare recente"</string>
+	<!---->
+	<string name="message_details_title">"Detalii mesaj"</string>
+	<!---->
+	<string name="preference_advance_to_title">"Înaintare automată"</string>
+	<string-array name="prefEntries_autoAdvance">
+		<item>"Mai noi"</item>
+		<item>"Mai veche"</item>
+		<item>"Listă de conversaţii"</item>
+	</string-array>
+	<string-array name="prefSummaries_autoAdvance">
+		<item>"Afişaţi conversaţii mai noi după ce ştergeţi."</item>
+		<item>"Afişaţi conversaţii mai vechi după ce ştergeţi."</item>
+		<item>"Afişaţi lista de conversaţii după ce ştergeţi."</item>
+	</string-array>
+	<!---->
+	<string name="prefDialogTitle_autoAdvance">"Înaintaţi la"</string>
+	<!---->
+	<string name="clear_display_images_whitelist_title">"Ştergeţi aprobările pt. imagini"</string>
+	<!---->
+	<string name="clear_display_images_whitelist_dialog_title">"Ştergeţi aprobările pentru imagini?"</string>
+	<!---->
+	<string name="clear_display_images_whitelist_dialog_message">"Nu mai afişaţi imagini online de la expeditori pe care i-aţi acceptat anterior."</string>
+	<!---->
+	<string name="sender_whitelist_cleared">"Imaginile nu vor fi afişate automat."</string>
+	<!---->
+	<string name="preferences_signature_title">"Semnătură"</string>
+	<!---->
+	<string name="preferences_signature_dialog_title">"Semnătură"</string>
+	<!---->
+	<string name="preferences_signature_summary_not_set">"Nesetat"</string>
+	<!---->
+	<string name="mail_account_signature_prefix">"Trimis de pe <xliff:g example="4" id="product">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="notification_action_reply">"Răspundeți"</string>
+	<!---->
+	<string name="notification_action_reply_all">"Răspuns la toţi"</string>
+	<!---->
+	<string name="notification_action_archive">"Arhivă"</string>
+	<!---->
+	<string name="notification_action_remove_label">"Eliminaţi eticheta"</string>
+	<!---->
+	<string name="notification_action_delete">"Ștergeți"</string>
+	<!---->
+	<string name="notification_action_undo_archive">"Arhivate"</string>
+	<!---->
+	<string name="notification_action_undo_remove_label">"Etichetă eliminată"</string>
+	<!---->
+	<string name="notification_action_undo_delete">"Şters"</string>
+	<!-- no translation found for veiled_address -->
+	<skip />
+	<!-- no translation found for veiled_alternate_text -->
+	<skip />
+	<!-- no translation found for veiled_alternate_text_unknown_person -->
+	<skip />
+	<!-- no translation found for veiled_summary_unknown_person -->
+	<skip />
+	<!-- no translation found for label_notification_ticker -->
+	<skip />
+	<plurals name="new_messages">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> (de) mesaj nou"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> (de) mesaje noi"</item>
+	</plurals>
+	<!-- no translation found for single_new_message_notification_title -->
+	<skip />
+	<!---->
+	<string name="silent_ringtone">"Silenţios"</string>
+	<!---->
+	<string name="preference_removal_action_title">"Acţiuni de arhivare și ștergere"</string>
+	<string-array name="prefEntries_removal_action">
+		<item>"Afişaţi numai mesajele arhivate"</item>
+		<item>"Afişaţi numai mesajele șterse"</item>
+		<item>"Afișare arhivă și ștergere"</item>
+	</string-array>
+	<string-array name="prefSummaries_removal_action_summary">
+		<item>"Afişaţi numai mesajele arhivate"</item>
+		<item>"Afişaţi numai mesajele șterse"</item>
+		<item>"Afișare arhivă și ștergere"</item>
+	</string-array>
+	<!---->
+	<string name="prefDialogTitle_removal_action">"Acţiuni de arhivare și ștergere"</string>
+	<!---->
+	<string name="preferences_default_reply_all_title">"Răspuns la toţi"</string>
+	<!---->
+	<string name="preferences_default_reply_all_summary_impl">"Utilizaţi ca implicit pentru răspunsuri la mesaje"</string>
+	<!---->
+	<string name="preference_swipe_title_archive">"Glisaţi pentru a arhiva"</string>
+	<!---->
+	<string name="preference_swipe_title_delete">"Glisaţi pentru a şterge"</string>
+	<!---->
+	<string name="preference_swipe_description">"În lista de conversaţii"</string>
+	<!---->
+	<string name="preference_swipe_actions">"Acțiuni prin glisare"</string>
+	<!---->
+	<string name="preference_sender_image_title">"Imagine expeditor"</string>
+	<!---->
+	<string name="preference_sender_image_description">"Afişaţi lângă nume în lista de conversaţii"</string>
+	<!---->
+	<string name="empty_trash">"Eliminare mesaje șterse"</string>
+	<!---->
+	<string name="empty_spam">"Eliminare mesaje spam"</string>
+	<!---->
+	<string name="star_toggle">"Marcare/anulare marcare cu stea"</string>
+	<!---->
+	<string name="empty_trash_dialog_title">"Eliminați mesajele șterse?"</string>
+	<!---->
+	<string name="empty_spam_dialog_title">"Eliminați mesajele spam?"</string>
+	<plurals name="empty_folder_dialog_message">
+		<item quantity="one">"%1$d mesaj va fi șters definitiv."</item>
+		<item quantity="other">"%1$d mesaje vor fi șterse definitiv."</item>
+	</plurals>
+	<!---->
+	<string name="drawer_open">"Deschideţi sertarul de navigare"</string>
+	<!---->
+	<string name="drawer_close">"Informații privind drepturile de autor"</string>
+	<!---->
+	<string name="conversation_photo_welcome_text">"Atingeţi imaginea unei expeditor pentru a selecta respectiva conversaţie."</string>
+	<!---->
+	<string name="long_press_to_select_tip">"Atingeţi şi ţineţi apăsat pentru a selecta o conversaţie, apoi atingeţi pentru a selecta mai multe."</string>
+	<!---->
+	<string name="folder_icon_desc">"Pictogramă fișier"</string>
+	<!---->
+	<string name="add_account">"Adăugare cont"</string>
+	<!---->
+	<string name="dismiss_tip_hover_text">"Dezactivați sfatul"</string>
+	<!---->
+	<string name="auto_sync_off">"Sincronizarea automată este dezactivată."</string>
+	<!---->
+	<string name="tap_to_enable_sync">"Atingeţi pentru a activa."</string>
+	<!---->
+	<string name="account_sync_off">"Sincronizarea contului este dezactivată"</string>
+	<!---->
+	<string name="enable_sync_in_account_settings">"Activaţi în <xliff:g id="account_settings">%1$s</xliff:g>."</string>
+	<!---->
+	<string name="account_settings_param">"Setări cont"</string>
+	<!---->
+	<string name="unsent_messages_in_outbox">"<xliff:g id="number">%1$s</xliff:g> netrimise în <xliff:g id="outbox">%2$s</xliff:g>"</string>
+	<!---->
+	<string name="turn_auto_sync_on_dialog_title">"Activaţi sincronizarea automată?"</string>
+	<!---->
+	<string name="turn_auto_sync_on_dialog_body">"Modificările pe care le aduceţi aplicaţiilor şi conturilor, nu numai de Gmail, vor fi sincronizate la web, la celelalte dispozitive şi la <xliff:g id="phone_or_tablet">%1$s</xliff:g> dumneavoastră."</string>
+	<!---->
+	<string name="phone">"Telefon"</string>
+	<!---->
+	<string name="tablet">"Tabletă"</string>
+	<!---->
+	<string name="turn_auto_sync_on_dialog_confirm_btn">"Activare"</string>
+	<!---->
+	<string name="show_n_more_folders">"Afișați alte %1$s dosare"</string>
+	<!---->
+	<string name="hide_folders">"Ascundeţi dosare"</string>
+	<!---->
+	<string name="print">"Tipăriți"</string>
+	<!---->
+	<string name="print_all">"Tipărire toate"</string>
+	<plurals name="num_messages">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> mesaj"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> mesaje"</item>
+	</plurals>
+	<!---->
+	<string name="date_message_received_print">"<xliff:g id="day_and_date">%1$s</xliff:g> la <xliff:g id="time">%2$s</xliff:g>"</string>
+	<!---->
+	<string name="draft_to_heading">"Ciornă către:"</string>
+	<!---->
+	<string name="draft_heading">"Ciornă"</string>
+	<!---->
+	<string name="quoted_text_hidden_print">"Text citat ascuns"</string>
+	<plurals name="num_attachments">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> fișier anexat"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> fișiere anexate"</item>
+	</plurals>
+	<!---->
+	<string name="no_subject">"(Nu există subiect.)"</string>
+	<!---->
+	<string name="vacation_responder">"Răspuns automat în vacanță"</string>
+	<!---->
+	<string name="preferences_vacation_responder_title">"Răspuns automat în vacanță"</string>
+	<!---->
+	<string name="vacation_responder_body_hint_text">"Mesaj"</string>
+	<!---->
+	<string name="send_to_contacts_text">"Trimiteți numai către Contactele mele"</string>
+	<!---->
+	<string name="send_to_domain_text">"Trimiteți numai către <xliff:g id="domain">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="pick_start_date_title">"Începe cu"</string>
+	<!---->
+	<string name="pick_end_date_title">"Data de terminare (opțional)"</string>
+	<!---->
+	<string name="date_not_set">"Nesetat"</string>
+	<!---->
+	<string name="set_end_date_dialog_title">"Data de sfârșit (opțional)"</string>
+	<!---->
+	<string name="custom_date">"Personalizare"</string>
+	<!---->
+	<string name="date_none">"Niciuna"</string>
+	<!---->
+	<string name="discard_changes">"Anulați modificările?"</string>
+	<!---->
+	<string name="draft_saved">"Schiţa salvată"</string>
+	<!---->
+	<string name="draft_discard">"Schiţa nu a fost salvată"</string>
+	<!---->
+	<string name="vacation_responder_changes_saved">"Modificările răspunsului automat în vacanță au fost salvate"</string>
+	<!---->
+	<string name="vacation_responder_changes_discarded">"Modificările răspunsului automat în vacanță au fost anulate"</string>
+	<!---->
+	<string name="vacation_responder_off">"OPRIT"</string>
+	<!---->
+	<string name="vacation_responder_on">"Activat, din data de <xliff:g id="date">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="vacation_responder_on_with_end_date">"Activat, din data de <xliff:g id="start-date">%1$s</xliff:g> până în data de <xliff:g id="end-date">%2$s</xliff:g>"</string>
+	<!---->
+	<string name="vacation_responder_empty_subject_and_body_warning">"Adăugați un subiect sau un mesaj"</string>
+	<!---->
+	<string name="view_entire_message">"Afișați mesajul complet"</string>
+	<!---->
+	<string name="eml_loader_error_toast">"Fișierul nu poate fi deschis"</string>
+	<!---->
+	<string name="help_and_info">"Ajutor"</string>
+	<!---->
+	<string name="help_and_feedback">"Ajutor și feedback"</string>
+	<!---->
+	<string name="feedback">"Trimiteţi feedback"</string>
+	<!---->
+	<string name="copyright">"©<xliff:g example="2010" id="year">%1$d</xliff:g> Google Inc."</string>
+	<!---->
+	<string name="version">"versiunea <xliff:g example="Email" id="app_name">%1$s</xliff:g> <xliff:g example="2.2.1" id="version">%2$s</xliff:g>"</string>
+	<!-- no translation found for view_app_page -->
+	<skip />
+	<!---->
+	<string name="print_dialog">"Tipărire\u2026"</string>
+	<!---->
+	<string name="copyright_information">"Informații privind drepturile de autor"</string>
+	<!---->
+	<string name="privacy_policy">"Politica de confidențialitate"</string>
+	<!---->
+	<string name="open_source_licenses">"Licenţe open source"</string>
+	<!---->
+	<string name="reply_choice_yes">"Da"</string>
+	<!---->
+	<string name="reply_choice_no">"Nu"</string>
+	<!---->
+	<string name="reply_choice_ok">"OK"</string>
+	<!-- no translation found for reply_choice_hehe -->
+	<skip />
+	<!---->
+	<string name="reply_choice_thanks">"Mulțumesc!"</string>
+	<!---->
+	<string name="reply_choice_i_agree">"Sunt de acord"</string>
+	<!---->
+	<string name="reply_choice_nice">"Asta da!"</string>
+	<!---->
+	<string name="reply_on_my_way">"Sunt pe drum"</string>
+	<!---->
+	<string name="reply_choice_later">"OK, te caut eu"</string>
+	<!-- no translation found for reply_choice_smiling_face -->
+	<skip />
+	<!-- no translation found for reply_choice_frowning_face -->
+	<skip />
+	<!---->
+	<string name="preference_header_action_confirmations">"Confirmările acțiunilor"</string>
+	<!---->
+	<string name="preference_confirm_before_delete_title">"Confirmați înainte de ștergere"</string>
+	<!---->
+	<string name="preference_confirm_before_archive_title">"Confirmați înainte de arhivare"</string>
+	<!---->
+	<string name="preference_confirm_before_send_title">"Confirmați înainte de trimitere"</string>
+	<!---->
+	<string name="preferences_conversation_mode_title">"Ajustare automată mesaje"</string>
+	<!---->
+	<string name="preferences_conversation_mode_summary">"Micșorați mesajele pentru a încăpea în ecran"</string>
+	<!---->
+	<string name="preferences_disable_snap_headers_title">"Acțiuni privind mesajul"</string>
+	<string-array name="prefSummaries_snapHeader">
+		<item>"Afișați întotdeauna opțiunile privind mesajul în partea de sus a ecranului"</item>
+		<item>"Afișați opțiunile privind mesajul în partea de sus a ecranului numai la rotirea în poziția portret"</item>
+		<item>"Nu afișați alte opțiuni privind mesajul, decât antetul mesajului."</item>
+	</string-array>
+	<string-array name="prefEntries_snapHeader">
+		<item>"Afişaţi întotdeauna"</item>
+		<item>"Afișați numai în modul portret"</item>
+		<item>"Nu afișați"</item>
+	</string-array>
+	<!---->
+	<string name="clear_history_title">"Ştergere istoric de căutare"</string>
+	<!---->
+	<string name="search_history_cleared">"Istoricul căutărilor a fost şters."</string>
+	<!---->
+	<string name="clear_history_dialog_title">"Ștergeți istoricul de căutări?"</string>
+	<!---->
+	<string name="clear_history_dialog_message">"Toate căutările efectuate anterior vor fi șterse."</string>
+	<!---->
+	<string name="manage_accounts_menu_item">"Gestionare conturi"</string>
+	<!---->
+	<string name="general_preferences_title">"Setări generale"</string>
+	<!---->
+	<string name="activity_preferences">"Setări"</string>
+	<!---->
+	<string name="always_bcc_myself">"Bcc întotdeauna şi mie"</string>
+	<!---->
+	<string name="always_bcc_myself_summary">"Trimite întotdeauna în copie ascunsă şi mie când scriu mesaj nou, răspund sau trimit mai departe."</string>
+	<!---->
+	<string name="general_preference_auto_download_remaining_label">"Descărcare autom. rămasă"</string>
+	<!---->
+	<string name="general_preference_auto_download_remaining_summary">"Descărcaţi automat corpul mesajului când derulaţi în jos"</string>
+	<!---->
+	<string name="download_remaining">"Descărcare rămasă"</string>
+	<!---->
+	<string name="downloading_remaining">"Se încarcă"</string>
+	<!---->
+	<string name="unable_to_connect">"Conectare imposibilă"</string>
+	<!---->
+	<string name="need_connection_prompt">"Aveţi nevoie de o conexiune la reţea pentru a utiliza această aplicaţie. Activaţi reţeaua mobilă sau Wi-Fi în Setări."</string>
+	<!---->
+	<string name="connection_settings">"Setări"</string>
+	<!---->
+	<string name="priority_action">"Prioritate"</string>
+	<!---->
+	<string name="set_priority_dialog_title">"Setați prioritatea"</string>
+	<!---->
+	<string name="dialog_warning">"Avertisment\u2026"</string>
+	<!---->
+	<string name="dialog_warning_message">"Versiunea aplicației Exchange nu este aceeași cu cea din clientul e-mail. Continuați?"</string>
+	<!---->
+	<string name="toast_warning_text">"Versiunea aplicației Exchange nu este aceeași cu cea din clientul e-mail"</string>
+	<!---->
+	<string name="tips_sync_alter_title">"Sincronizare"</string>
+	<!---->
+	<string name="tips_sync_alter_content">"Dispozitivul dvs. nu este conectat la o rețea Wi-Fi. Continuați sincronizarea?"</string>
+	<!---->
+	<string name="tips_sync_alter_yes">"Da"</string>
+	<!---->
+	<string name="tips_sync_alter_no">"Nu"</string>
+	<!---->
+	<string name="message_invite_tentative_title">"Tentativă"</string>
+	<!---->
+	<string name="message_invite_decline_title">"Respinge"</string>
+	<!---->
+	<string name="message_invite_accent_title">"Acceptare"</string>
+	<!---->
+	<string name="drm_file_remind">"Acest fișier nu poate fi încărcat sau distribuit, deoarece este protejat prin DRM!"</string>
+	<!---->
+	<string name="not_add_more_recipients">"Nu se pot adăuga peste <xliff:g id="maxLimit">%1$d</xliff:g> destinatari deodată."</string>
+	<!---->
+	<string name="global_search_label">"E-mail"</string>
+	<!---->
+	<string name="global_search_hint">"Căutaţi în e-mail"</string>
+	<!---->
+	<string name="global_search_description">"Expeditori, subiecte şi corpurile mesajelor"</string>
+	<!---->
+	<string name="remote_search_failed">"Căutarea serverului nu a reuşit!"</string>
+	<!---->
+	<string name="searching_on_server">"Căutare pe server"</string>
+	<!---->
+	<string name="searching_on_server_title">"Căutaţi în \"<xliff:g id="account_name">%s</xliff:g>\" pe server"</string>
+	<!---->
+	<string name="searching_all_fields_on_sever">"Caută toate câmp. pe server"</string>
+	<!---->
+	<string name="search_field_subject">"Subiect"</string>
+	<!---->
+	<string name="search_field_receiver">"Destinatar"</string>
+	<!---->
+	<string name="search_field_sender">"Expeditor"</string>
+	<!---->
+	<string name="search_field_body">"Corp"</string>
+	<!---->
+	<string name="search_field_all">"Toate"</string>
+	<!---->
+	<string name="search_field_attachment">"Fișiere anexate"</string>
+	<!---->
+	<string name="select_all">"Selectare tot"</string>
+	<!---->
+	<string name="deselect_all">"Deselectaţi-le pe toate"</string>
+	<!---->
+	<string name="need_wifi_connection_prompt">"Aveţi nevoie de o conexiune la reţea pentru a utiliza această aplicaţie. Activaţi reţeaua mobilă sau Wi-Fi în Setări."</string>
+	<!---->
+	<string name="account_setup_names_account_name_des_label">"opţional"</string>
+	<!---->
+	<string name="account_setup_names_user_name_des_label">"pt. mes. expediate"</string>
+	<!---->
+	<string name="finish_action">"Finalizaţi"</string>
+	<!---->
+	<string name="copy_email">"Copiere adresă e-mail"</string>
+	<!---->
+	<string name="out_of_office_syncing">"Se sincronizează setările privind absența de la birou"</string>
+	<!---->
+	<string name="out_of_office_fail">"Sincronizare nereușită a setărilor privind absența de la birou!"</string>
+	<!---->
+	<string name="out_of_office_success">"Sincronizare reușită a setărilor privind absența de la birou!"</string>
+	<!---->
+	<string name="manual_sync_when_roaming">"Sincronizare în roaming"</string>
+	<!---->
+	<string name="manual_sync_when_roaming_summery">"Numai împrospătare manuală"</string>
+	<!---->
+	<string name="manual_sync_when_roaming_toast">"Glisați în jos pentru a împrospăta manual în roaming"</string>
+	<!---->
+	<string name="manual_sync_when_roaming_refresh">"Împrospătați"</string>
+	<!---->
+	<string name="server_rule_can_not_change">"Regulile de server nu pot fi schimbate"</string>
+	<!---->
+	<string name="server_rules">"Reguli de server"</string>
+	<!---->
+	<string name="confirm_forward_message">"Nu au fost descărcate toate fișierele. Redirecționați fără descărcarea fișierelor?"</string>
+	<!---->
+	<string name="confirm_forward_cancel">"Anulați"</string>
+	<!---->
+	<string name="confirm_forward_drop_unload_attachment">"Redirecționați"</string>
+	<!---->
+	<string name="mail_not_download_completely">"Așteptați până la finalizarea descărcării"</string>
+	<!---->
+	<string name="account_settings_inline_images_lable">"Imagini"</string>
+	<!---->
+	<string name="account_settings_inline_always_show">"Afişaţi întotdeauna"</string>
+	<!---->
+	<string name="account_settings_inline_ask_before_show">"Întreabă înainte de a afișa"</string>
+	<!---->
+	<string name="conversation_time_after_today">"De mâine"</string>
+	<!---->
+	<string name="conversation_time_today">"Astăzi"</string>
+	<!---->
+	<string name="conversation_time_yesterday">"Ieri"</string>
+	<!---->
+	<string name="conversation_time_this_month">"Această lună"</string>
+	<!---->
+	<string name="conversation_time_elapse_just_now">"În acest moment"</string>
+	<!---->
+	<string name="conversation_time_elapse_minute">"<xliff:g id="count">%d</xliff:g> min"</string>
+	<!---->
+	<string name="message_in_queued_status">"În așteptare"</string>
+	<plurals name="send_failed_messages">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> e-mail nu a fost trimis"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> e-mailuri nu au fost trimise"</item>
+	</plurals>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_label">"Sincronizați calendarele din"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_2weeks">"Două săptămâni"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_1month">"O lună"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_3months">"Trei luni"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_6months">"Șase luni"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_all">"Toate"</string>
+	<!---->
+	<string name="no_permission_to_open_file">"Pentru a deschide acest fișier este nevoie de permisiunea de acces la mediul de stocare"</string>
+	<!---->
+	<string name="conversation_update_time_text">"Ultima actualizare:"</string>
+	<!---->
+	<string name="conversation_update_unknown_time_stamp">"Necunoscut"</string>
+	<!---->
+	<string name="conversation_time_elapse_today">"Astăzi"</string>
+	<!---->
+	<string name="save_to_attachment">"Salvare în"</string>
+	<!---->
+	<string name="download_settings_title">"Salvaţi fişier anexat"</string>
+	<!---->
+	<string name="download_edit_filename_label">"Nume"</string>
+	<!---->
+	<string name="download_filepath_label">"Cale"</string>
+	<!---->
+	<string name="download_file_size">"Dimensiune"</string>
+	<!---->
+	<string name="download_time_needed">"Oră"</string>
+	<!---->
+	<string name="download_cancel">"Anulaţi"</string>
+	<!---->
+	<string name="download_start">"OK"</string>
+	<!---->
+	<string name="unknown_length">"Necunoscut"</string>
+	<!---->
+	<string name="time_min">"min."</string>
+	<!---->
+	<string name="open_file_manager_failed">"Managerul de fișiere nu a putut fi deschis"</string>
+	<!---->
+	<string name="attachment_not_saved">"Ataşamentul nu a fost salvat"</string>
+	<!---->
+	<string name="sync_calendar_title">"Imposibil de sincronizat calendarul"</string>
+	<!---->
+	<string name="sync_calendar_content">"Pentru sincronizare, oferiți acces serviciilor de transfer de date la calendar"</string>
+	<!---->
+	<string name="sync_contacts_title">"Imposibil de sincronizat agenda"</string>
+	<!---->
+	<string name="sync_contacts_content">"Pentru sincronizare, oferiți acces serviciilor de transfer de date la agendă"</string>
+	<!---->
+	<string name="notification_never_ask_again">"Nu mai întreba niciodată"</string>
+	<!---->
+	<string name="sync_storage_title">"Fişierul anexat nu poate fi salvat"</string>
+	<!---->
+	<string name="sync_storage_content">"Pentru a salva, oferiți acces serviciilor de transfer de date la mediul de stocare"</string>
+	<!---->
+	<string name="oof_continue">"Continuare"</string>
+	<!---->
+	<string name="permission_needed_to_add_attachments">"Pentru a anexa un fișier, permiteți aplicației e-mail să acceseze mediul de stocare"</string>
+	<!---->
+	<string name="permission_needed_to_check_ringtone">"Pentru a selecta soneria, permiteți aplicației e-mail să acceseze mediul de stocare."</string>
+	<!---->
+	<string name="add_folder_as_attachment_fail_tips">"Nu se poate adăuga un dosar ca atașament"</string>
+	<!---->
+	<string name="choose_action_title">"Selectare acţiune"</string>
+	<!---->
+	<string name="choose_action_contact">"Adăugați contact: <xliff:g example="4" id="email_address">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="choose_action_email">"E-mail: <xliff:g example="4" id="email_address">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="choose_action_message">"Mesaj: <xliff:g example="4" id="email_address">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="account_setup_basics_exit_action">"Ieş."</string>
+</resources>

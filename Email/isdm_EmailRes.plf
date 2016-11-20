@@ -1,0 +1,3727 @@
+<VAR_DEV>
+<TABLE_HISTORY>
+<HISTORY>This files contains Android Email customize variables</HISTORY>
+<HISTORY>2013-09-03: creation</HISTORY>
+<HISTORY>2013-10-23: Xu Danbin add feature_email_proxy_on FR-534054</HISTORY>
+<HISTORY>2013-12-05: yang.yang add feature_email_localizedDateTime_on CR-561809</HISTORY>
+<HISTORY>2014-01-07: gong.zhang add feature_email_TmoProvisionEmail_on PR-579086</HISTORY>
+<HISTORY>2014-05-14: chao.zhang add feature_email_sfrImap_on PR-645232</HISTORY>
+<HISTORY>2014-06-27: xianzhang add feature_email_spamQuarantaineIsJunkFolder_on FR-645229</HISTORY>
+<HISTORY>2014-07-22: zhonghua.tuo remove def_email_limitedLinesPR-726479</HISTORY>
+<HISTORY>2014-08-14: ronggang.wang add def_email_accountPR-756212</HISTORY>
+<HISTORY>2014-09-09, FR784826 chuan.ye add def_Email_settings_remove_account_display</HISTORY>
+<HISTORY>2014-09-26,  chuan.ye add def_email_account_tmo_* 715519 </HISTORY>
+<HISTORY>2014-10-13: zhangxian add def_email_accountGermanSignature,feature_email_accountGermanSignature_on PR-792471</HISTORY>
+<HISTORY>2014-10-24: zhujian.shao add feature_email_priority_on PR-736411</HISTORY>
+<HISTORY>2014-10-28: Qinglian.Zhang add feature_email_proxy_on FR-736417</HISTORY>
+<HISTORY>2014-10-29: zhujian.shao add feature_tctfw_SyncTip_on for bug PR-739308</HISTORY>
+<HISTORY>2015-2-6: junwei-xu add feature_exchange_download_attachment_wifi_on for bug PR-923792</HISTORY>
+<HISTORY>2015-4-2: ke.ma add def_email_account*DisplayValue for bug PR-951620</HISTORY>
+<HISTORY>2015-4-3: ke.ma add def_email_account*UsernameValue for bug PR-964332</HISTORY>
+<HISTORY>2015-4-17: gangjin.weng delete def_email_accountSignature, feature_email_accountGermanSignature_on and def_email_accountGermanSignature,add def_email_accountSignature_productName for bug PR-963376</HISTORY>
+<HISTORY>2015-4-29: tianyong.zhao mod default value of def_email_account*UsernameValue for bug PR-944442</HISTORY>
+<HISTORY>2015-4-30: zheng.zou add def_email_popAccountDefaultDeletePolicy for bug PR-985156</HISTORY>
+<HISTORY>2015-5-8: ke.ma add def_isp_topDomainValue for bug PR-996086</HISTORY>
+<HISTORY>2015-05-25: junwei-xu add def_email_syncWindow_default for bug PR-1010063</HISTORY>
+<HISTORY>2015-08-19: jian.xu add def_Email_download_option for bug PR-1071056</HISTORY>
+<HISTORY>2015-09-23: tao.gan remove some useless SDMID and add some SDMID for ssv requirement</HISTORY>
+<HISTORY>2015-10-09: jian.xu add feature_email_syncCalendarScope_on for bug PR-1096744</HISTORY>
+<HISTORY>2015-09-01: junwei-xu add feature_email_associate_prompt_on for bug PR-1072139</HISTORY>
+<HISTORY>2015-09-08: Gantao def_email_accountDomainValuePreset for bug PR-1072293</HISTORY>
+<HISTORY>2015-12-03: tao.gan remove ssv sdm, just use normal account sdm</HISTORY>
+<HISTORY>2015-10-29: Gantao add feature_email_save_group for bug FR-1104470</HISTORY>
+<HISTORY>2015-12-16: Gantao add feature_email_select_all for bug FR-1171140</HISTORY>
+<HISTORY>2015-12-17: jian.xu add feature_email_deleteFiveOrTenMinutes_on for bug FR-1190494</HISTORY>
+<HISTORY>2015-12-25: Gantao add feature_email_reply_to for FR-1239148</HISTORY>
+<HISTORY>2015-10-28: yanhua.chen add feature_email_lastUpdateTime_on for bug PR-1098700</HISTORY>
+<HISTORY>2016-01-20: jian.xu add feature_email_saveAttachmentLocationSelectable_on for bug PR-1477377</HISTORY>
+<HISTORY>2016-04-19: rong-tang add feature_email_provideActionOptionsForMailAddress_on for bug PR-1951808</HISTORY>
+<HISTORY>2016-09-06: add def_is_wakeup_when_receive_email by yafang.wei defect 2848903</HISTORY>
+
+</TABLE_HISTORY>
+<MOD>
+<NAME>ANDROID</NAME>
+<SDM_AREA>
+<DSA_TITLE>INIT DATA OF ANDROID Email</DSA_TITLE>
+<MACRO_NAME>CUSTOM_JRDC_PARAM</MACRO_NAME>
+<C_NAME>custom_jrdc_dsc</C_NAME>
+<C_TYPE>CUSTOM_JRDC_DSC</C_TYPE>
+<IDA>CUSTOM_JRDC_INIT_RDM</IDA>
+<IS_IN_DSA>Yes</IS_IN_DSA>
+<TABLE_VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>feature_tctfw_SyncTip_on</SDMID>
+<C_NAME>feature_tctfw_SyncTip_on</C_NAME>
+<C_TYPE>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>tct.frameworks-res</FEATURE>
+<DESC>Whether to show sync's tip  before starting the synchronization for the first time. 0x00:android default, 0x01:a warning message will be informed. default:0x00</DESC>
+<VALUE>0x00</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account1LabelValue</SDMID>
+<C_NAME>def_email_account1LabelValue</C_NAME>
+<C_TYPE>Ucs2StringWLen</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Ucs2StringWLen,66</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account provider name. first byte is the length, what in the bracket is the UCS2 code.</DESC>
+<VALUE>0x08,(0x00,0x4A,0x00,0x52,0x00,0x44,0x00,0x43)</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>feature_email_priority_on</SDMID>
+<C_NAME>feature_email_priority_on</C_NAME>
+<C_TYPE>Boolean</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>0x01:enable send message with priority. 0x00:disable send message with priority</DESC>
+<VALUE>0x01</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account1DomainValue</SDMID>
+<C_NAME>def_email_account1DomainValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,32</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Domain name for the email account, eg. "@hotmail.com"</DESC>
+<VALUE>"163.com"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account1IncomingServerValue</SDMID>
+<C_NAME>def_email_account1IncomingServerValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,60</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account incoming server addresss.
+      Valid incoming uri schemes are:
+            imap        IMAP with no transport security.
+            imap+tls    IMAP with optional TLS transport security.
+                            If TLS is not available the connection is made as "imap"
+            imap+tls+   IMAP with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            imap+ssl+   IMAP with required SSL transport security.
+                            If SSL is not available the connection fails.
+
+            pop3        POP3 with no transport security.
+            pop3+tls    POP3 with optional TLS transport security.
+                            If TLS is not available the connection is made as "pop3"
+            pop3+tls+   POP3 with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            pop3+ssl+   POP3 with required SSL transport security.
+                            If SSL is not available the connection fails.</DESC>
+<VALUE>"pop3://pop.163.com"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account1OutgoingServerValue</SDMID>
+<C_NAME>def_email_account1OutgoingServerValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,60</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account outgoing server addresss.
+        Valid outgoing uri schemes are:
+            smtp        SMTP with no transport security.
+            smtp+tls    SMTP with optional TLS transport security.
+                            If TLS is not available the connection is made as "smtp"
+            smtp+tls+   SMTP with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            smtp+ssl+   SMTP with required SSL transport security.
+                            If SSL is not available the connection fails.</DESC>
+<VALUE>"smtp://smtp.163.com:25"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account1ReloginValue</SDMID>
+<C_NAME>def_email_account1ReloginValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,1</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>whether disable this email account: 1: enable; 0:disable</DESC>
+<VALUE>"1"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account2LabelValue</SDMID>
+<C_NAME>def_email_account2LabelValue</C_NAME>
+<C_TYPE>Ucs2StringWLen</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Ucs2StringWLen,66</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account provider name. first byte is the length, what in the bracket is the UCS2 code.</DESC>
+<VALUE>0x10,(0x00,0x4A,0x00,0x52,0x00,0x44,0x00,0x5F,0x00,0x49,0x00,0x4D,0x00,0x41,0x00,0x50)</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account2DomainValue</SDMID>
+<C_NAME>def_email_account2DomainValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,32</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Domain name for a email account, eg. "@hotmail.com"</DESC>
+<VALUE>"jrdcom.com"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account2IncomingServerValue</SDMID>
+<C_NAME>def_email_account2IncomingServerValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,60</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account incoming server addresss.
+      Valid incoming uri schemes are:
+            imap        IMAP with no transport security.
+            imap+tls    IMAP with optional TLS transport security.
+                            If TLS is not available the connection is made as "imap"
+            imap+tls+   IMAP with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            imap+ssl+   IMAP with required SSL transport security.
+                            If SSL is not available the connection fails.
+
+            pop3        POP3 with no transport security.
+            pop3+tls    POP3 with optional TLS transport security.
+                            If TLS is not available the connection is made as "pop3"
+            pop3+tls+   POP3 with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            pop3+ssl+   POP3 with required SSL transport security.
+                            If SSL is not available the connection fails.</DESC>
+<VALUE>"pop3://mailsh.jrdcom.com"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account2OutgoingServerValue</SDMID>
+<C_NAME>def_email_account2OutgoingServerValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,60</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account outgoing server addresss.
+        Valid outgoing uri schemes are:
+            smtp        SMTP with no transport security.
+            smtp+tls    SMTP with optional TLS transport security.
+                            If TLS is not available the connection is made as "smtp"
+            smtp+tls+   SMTP with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            smtp+ssl+   SMTP with required SSL transport security.
+                            If SSL is not available the connection fails.</DESC>
+<VALUE>"smtp://mailsh.jrdcom.com"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account2ReloginValue</SDMID>
+<C_NAME>def_email_account2ReloginValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,1</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>whether disable this email account: 1: enable; 0:disable</DESC>
+<VALUE>"1"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account3LabelValue</SDMID>
+<C_NAME>def_email_account3LabelValue</C_NAME>
+<C_TYPE>Ucs2StringWLen</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Ucs2StringWLen,66</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account provider name. first byte is the length, what in the bracket is the UCS2 code.</DESC>
+<VALUE>0x06,(0x00,0x54,0x00,0x43,0x00,0x54)</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account3DomainValue</SDMID>
+<C_NAME>def_email_account3DomainValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,32</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Domain name for a email account, eg. "@hotmail.com"</DESC>
+<VALUE>"tcl-ta.com"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account3IncomingServerValue</SDMID>
+<C_NAME>def_email_account3IncomingServerValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,60</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account incoming server addresss.
+      Valid incoming uri schemes are:
+            imap        IMAP with no transport security.
+            imap+tls    IMAP with optional TLS transport security.
+                            If TLS is not available the connection is made as "imap"
+            imap+tls+   IMAP with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            imap+ssl+   IMAP with required SSL transport security.
+                            If SSL is not available the connection fails.
+
+            pop3        POP3 with no transport security.
+            pop3+tls    POP3 with optional TLS transport security.
+                            If TLS is not available the connection is made as "pop3"
+            pop3+tls+   POP3 with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            pop3+ssl+   POP3 with required SSL transport security.
+                            If SSL is not available the connection fails.</DESC>
+<VALUE>"pop3://Wapmail.tcl-ta.com"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account3OutgoingServerValue</SDMID>
+<C_NAME>def_email_account3OutgoingServerValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,60</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account outgoing server addresss.
+        Valid outgoing uri schemes are:
+            smtp        SMTP with no transport security.
+            smtp+tls    SMTP with optional TLS transport security.
+                            If TLS is not available the connection is made as "smtp"
+            smtp+tls+   SMTP with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            smtp+ssl+   SMTP with required SSL transport security.
+                            If SSL is not available the connection fails.</DESC>
+<VALUE>"smtp://Wapmail.tcl-ta.com"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account3ReloginValue</SDMID>
+<C_NAME>def_email_account3ReloginValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,1</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>whether disable this email account: 1: enable; 0:disable</DESC>
+<VALUE>"1"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account4LabelValue</SDMID>
+<C_NAME>def_email_account4LabelValue</C_NAME>
+<C_TYPE>Ucs2StringWLen</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Ucs2StringWLen,66</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account provider name. first byte is the length, what in the bracket is the UCS2 code.</DESC>
+<VALUE>0x10,(0x00,0x54,0x00,0x43,0x00,0x4C,0x00,0x5F,0x00,0x49,0x00,0x4D,0x00,0x41,0x00,0x50)</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account4DomainValue</SDMID>
+<C_NAME>def_email_account4DomainValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,32</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Domain name for a email account, eg. "@hotmail.com"</DESC>
+<VALUE>"tcl-ta.com"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account4IncomingServerValue</SDMID>
+<C_NAME>def_email_account4IncomingServerValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,60</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account incoming server addresss.
+      Valid incoming uri schemes are:
+            imap        IMAP with no transport security.
+            imap+tls    IMAP with optional TLS transport security.
+                            If TLS is not available the connection is made as "imap"
+            imap+tls+   IMAP with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            imap+ssl+   IMAP with required SSL transport security.
+                            If SSL is not available the connection fails.
+
+            pop3        POP3 with no transport security.
+            pop3+tls    POP3 with optional TLS transport security.
+                            If TLS is not available the connection is made as "pop3"
+            pop3+tls+   POP3 with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            pop3+ssl+   POP3 with required SSL transport security.
+                            If SSL is not available the connection fails.</DESC>
+<VALUE>"pop3://Wapmail.tcl-ta.com"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account4OutgoingServerValue</SDMID>
+<C_NAME>def_email_account4OutgoingServerValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,60</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account outgoing server addresss.
+        Valid outgoing uri schemes are:
+            smtp        SMTP with no transport security.
+            smtp+tls    SMTP with optional TLS transport security.
+                            If TLS is not available the connection is made as "smtp"
+            smtp+tls+   SMTP with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            smtp+ssl+   SMTP with required SSL transport security.
+                            If SSL is not available the connection fails.</DESC>
+<VALUE>"smtp://Wapmail.tcl-ta.com"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account4ReloginValue</SDMID>
+<C_NAME>def_email_account4ReloginValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,1</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>whether disable this email account: 1: enable; 0:disable</DESC>
+<VALUE>"1"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account5LabelValue</SDMID>
+<C_NAME>def_email_account5LabelValue</C_NAME>
+<C_TYPE>Ucs2StringWLen</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Ucs2StringWLen,66</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account provider name. first byte is the length, what in the bracket is the UCS2 code.</DESC>
+<VALUE>0x16,(0x00,0x47,0x00,0x6F,0x00,0x6F,0x00,0x67,0x00,0x6C,0x00,0x65,0x00,0x20,0x00,0x4D,0x00,0x61,0x00,0x69,0x00,0x6C)</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account5DomainValue</SDMID>
+<C_NAME>def_email_account5DomainValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,32</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Domain name for a email account, eg. "@hotmail.com"</DESC>
+<VALUE>"googlemail.com"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account5IncomingServerValue</SDMID>
+<C_NAME>def_email_account5IncomingServerValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,60</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account incoming server addresss.
+      Valid incoming uri schemes are:
+            imap        IMAP with no transport security.
+            imap+tls    IMAP with optional TLS transport security.
+                            If TLS is not available the connection is made as "imap"
+            imap+tls+   IMAP with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            imap+ssl+   IMAP with required SSL transport security.
+                            If SSL is not available the connection fails.
+
+            pop3        POP3 with no transport security.
+            pop3+tls    POP3 with optional TLS transport security.
+                            If TLS is not available the connection is made as "pop3"
+            pop3+tls+   POP3 with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            pop3+ssl+   POP3 with required SSL transport security.
+                            If SSL is not available the connection fails.</DESC>
+<VALUE>"imap+ssl+://imap.googlemail.com"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account5OutgoingServerValue</SDMID>
+<C_NAME>def_email_account5OutgoingServerValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,60</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account outgoing server addresss.
+        Valid outgoing uri schemes are:
+            smtp        SMTP with no transport security.
+            smtp+tls    SMTP with optional TLS transport security.
+                            If TLS is not available the connection is made as "smtp"
+            smtp+tls+   SMTP with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            smtp+ssl+   SMTP with required SSL transport security.
+                            If SSL is not available the connection fails.</DESC>
+<VALUE>"smtp+ssl+://smtp.googlemail.com"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account5ReloginValue</SDMID>
+<C_NAME>def_email_account5ReloginValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,1</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>whether disable this email account: 1: enable; 0:disable</DESC>
+<VALUE>"1"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account6LabelValue</SDMID>
+<C_NAME>def_email_account6LabelValue</C_NAME>
+<C_TYPE>Ucs2StringWLen</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Ucs2StringWLen,66</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account provider name. first byte is the length, what in the bracket is the UCS2 code.</DESC>
+<VALUE>0x32,(0x00,0x57,0x00,0x69,0x00,0x6E,0x00,0x64,0x00,0x6F,0x00,0x77,0x00,0x73,0x00,0x20,0x00,0x4C,0x00,0x69,0x00,0x76,0x00,0x65,0x00,0x20,0x00,0x48,0x00,0x6F,0x00,0x74,0x00,0x6D,0x00,0x61,0x00,0x69,0x00,0x6C,0x00,0x20,0x00,0x50,0x00,0x6C,0x00,0x75,0x00,0x73)</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account6DomainValue</SDMID>
+<C_NAME>def_email_account6DomainValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,32</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Domain name for a email account, eg. "@hotmail.com"</DESC>
+<VALUE>"hotmail.com"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account6IncomingServerValue</SDMID>
+<C_NAME>def_email_account6IncomingServerValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,60</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account incoming server addresss.
+      Valid incoming uri schemes are:
+            imap        IMAP with no transport security.
+            imap+tls    IMAP with optional TLS transport security.
+                            If TLS is not available the connection is made as "imap"
+            imap+tls+   IMAP with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            imap+ssl+   IMAP with required SSL transport security.
+                            If SSL is not available the connection fails.
+
+            pop3        POP3 with no transport security.
+            pop3+tls    POP3 with optional TLS transport security.
+                            If TLS is not available the connection is made as "pop3"
+            pop3+tls+   POP3 with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            pop3+ssl+   POP3 with required SSL transport security.
+                            If SSL is not available the connection fails.</DESC>
+<VALUE>"eas+ssl+://m.hotmail.com"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account6OutgoingServerValue</SDMID>
+<C_NAME>def_email_account6OutgoingServerValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,60</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account outgoing server addresss.
+        Valid outgoing uri schemes are:
+            smtp        SMTP with no transport security.
+            smtp+tls    SMTP with optional TLS transport security.
+                            If TLS is not available the connection is made as "smtp"
+            smtp+tls+   SMTP with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            smtp+ssl+   SMTP with required SSL transport security.
+                            If SSL is not available the connection fails.</DESC>
+<VALUE>"eas+ssl+://m.hotmail.com"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account6ReloginValue</SDMID>
+<C_NAME>def_email_account6ReloginValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,1</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>whether disable this email account: 1: enable; 0:disable</DESC>
+<VALUE>"1"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account7LabelValue</SDMID>
+<C_NAME>def_email_account7LabelValue</C_NAME>
+<C_TYPE>Ucs2StringWLen</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Ucs2StringWLen,66</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account provider name. first byte is the length, what in the bracket is the UCS2 code.</DESC>
+<VALUE>0x14,(0x00,0x59,0x00,0x61,0x00,0x68,0x00,0x6F,0x00,0x6F,0x00,0x20,0x00,0x50,0x00,0x6C,0x00,0x75,0x00,0x73)</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account7DomainValue</SDMID>
+<C_NAME>def_email_account7DomainValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,32</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Domain name for a email account, eg. "@hotmail.com"</DESC>
+<VALUE>"yahoo.com"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account7IncomingServerValue</SDMID>
+<C_NAME>def_email_account7IncomingServerValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,60</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account incoming server addresss.
+      Valid incoming uri schemes are:
+            imap        IMAP with no transport security.
+            imap+tls    IMAP with optional TLS transport security.
+                            If TLS is not available the connection is made as "imap"
+            imap+tls+   IMAP with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            imap+ssl+   IMAP with required SSL transport security.
+                            If SSL is not available the connection fails.
+
+            pop3        POP3 with no transport security.
+            pop3+tls    POP3 with optional TLS transport security.
+                            If TLS is not available the connection is made as "pop3"
+            pop3+tls+   POP3 with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            pop3+ssl+   POP3 with required SSL transport security.
+                            If SSL is not available the connection fails.</DESC>
+<VALUE>"imap+ssl+://android.imap.mail.yahoo.com"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account7OutgoingServerValue</SDMID>
+<C_NAME>def_email_account7OutgoingServerValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,60</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account outgoing server addresss.
+        Valid outgoing uri schemes are:
+            smtp        SMTP with no transport security.
+            smtp+tls    SMTP with optional TLS transport security.
+                            If TLS is not available the connection is made as "smtp"
+            smtp+tls+   SMTP with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            smtp+ssl+   SMTP with required SSL transport security.
+                            If SSL is not available the connection fails.</DESC>
+<VALUE>"smtp+ssl+://android.smtp.mail.yahoo.com"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account7ReloginValue</SDMID>
+<C_NAME>def_email_account7ReloginValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,1</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>whether disable this email account: 1: enable; 0:disable</DESC>
+<VALUE>"1"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account8LabelValue</SDMID>
+<C_NAME>def_email_account8LabelValue</C_NAME>
+<C_TYPE>Ucs2StringWLen</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Ucs2StringWLen,66</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account provider name. first byte is the length, what in the bracket is the UCS2 code.</DESC>
+<VALUE>0x10,(0x00,0x54,0x00,0x2D,0x00,0x4F,0x00,0x6E,0x00,0x6C,0x00,0x69,0x00,0x6E,0x00,0x65)</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account8DomainValue</SDMID>
+<C_NAME>def_email_account8DomainValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,32</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Domain name for a email account, eg. "@hotmail.com"</DESC>
+<VALUE>"t-online.de"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account8IncomingServerValue</SDMID>
+<C_NAME>def_email_account8IncomingServerValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,60</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account incoming server addresss.
+      Valid incoming uri schemes are:
+            imap        IMAP with no transport security.
+            imap+tls    IMAP with optional TLS transport security.
+                            If TLS is not available the connection is made as "imap"
+            imap+tls+   IMAP with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            imap+ssl+   IMAP with required SSL transport security.
+                            If SSL is not available the connection fails.
+
+            pop3        POP3 with no transport security.
+            pop3+tls    POP3 with optional TLS transport security.
+                            If TLS is not available the connection is made as "pop3"
+            pop3+tls+   POP3 with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            pop3+ssl+   POP3 with required SSL transport security.
+                            If SSL is not available the connection fails.</DESC>
+<VALUE>"pop3://popmail.t-online.de"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account8OutgoingServerValue</SDMID>
+<C_NAME>def_email_account8OutgoingServerValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,60</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account outgoing server addresss.
+        Valid outgoing uri schemes are:
+            smtp        SMTP with no transport security.
+            smtp+tls    SMTP with optional TLS transport security.
+                            If TLS is not available the connection is made as "smtp"
+            smtp+tls+   SMTP with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            smtp+ssl+   SMTP with required SSL transport security.
+                            If SSL is not available the connection fails.</DESC>
+<VALUE>"smtp://smtpmail.t-online.de"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account8ReloginValue</SDMID>
+<C_NAME>def_email_account8ReloginValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,1</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>whether disable this email account: 1: enable; 0:disable</DESC>
+<VALUE>"1"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account9LabelValue</SDMID>
+<C_NAME>def_email_account9LabelValue</C_NAME>
+<C_TYPE>Ucs2StringWLen</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Ucs2StringWLen,66</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account provider name. first byte is the length, what in the bracket is the UCS2 code.</DESC>
+<VALUE>0x10,(0x00,0x54,0x00,0x2D,0x00,0x4F,0x00,0x6E,0x00,0x6C,0x00,0x69,0x00,0x6E,0x00,0x65)</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account9DomainValue</SDMID>
+<C_NAME>def_email_account9DomainValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,32</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Domain name for a email account, eg. "@hotmail.com"</DESC>
+<VALUE>"t-online.de"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account9IncomingServerValue</SDMID>
+<C_NAME>def_email_account9IncomingServerValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,60</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account incoming server addresss.
+      Valid incoming uri schemes are:
+            imap        IMAP with no transport security.
+            imap+tls    IMAP with optional TLS transport security.
+                            If TLS is not available the connection is made as "imap"
+            imap+tls+   IMAP with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            imap+ssl+   IMAP with required SSL transport security.
+                            If SSL is not available the connection fails.
+
+            pop3        POP3 with no transport security.
+            pop3+tls    POP3 with optional TLS transport security.
+                            If TLS is not available the connection is made as "pop3"
+            pop3+tls+   POP3 with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            pop3+ssl+   POP3 with required SSL transport security.
+                            If SSL is not available the connection fails.</DESC>
+<VALUE>"pop3://popmail.t-online.de"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account9OutgoingServerValue</SDMID>
+<C_NAME>def_email_account9OutgoingServerValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,60</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account outgoing server addresss.
+        Valid outgoing uri schemes are:
+            smtp        SMTP with no transport security.
+            smtp+tls    SMTP with optional TLS transport security.
+                            If TLS is not available the connection is made as "smtp"
+            smtp+tls+   SMTP with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            smtp+ssl+   SMTP with required SSL transport security.
+                            If SSL is not available the connection fails.</DESC>
+<VALUE>"smtp://smtpmail.t-online.de"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account9ReloginValue</SDMID>
+<C_NAME>def_email_account9ReloginValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,1</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>whether disable this email account: 1: enable; 0:disable</DESC>
+<VALUE>"1"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account10LabelValue</SDMID>
+<C_NAME>def_email_account10LabelValue</C_NAME>
+<C_TYPE>Ucs2StringWLen</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Ucs2StringWLen,66</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account provider name. first byte is the length, what in the bracket is the UCS2 code.</DESC>
+<VALUE>0x0A,(0x00,0x47,0x00,0x6D,0x00,0x61,0x00,0x69,0x00,0x6C)</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account10DomainValue</SDMID>
+<C_NAME>def_email_account10DomainValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,32</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Domain name for a email account, eg. "@hotmail.com"</DESC>
+<VALUE>"gmail.com"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account10IncomingServerValue</SDMID>
+<C_NAME>def_email_account10IncomingServerValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,60</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account incoming server addresss.
+      Valid incoming uri schemes are:
+            imap        IMAP with no transport security.
+            imap+tls    IMAP with optional TLS transport security.
+                            If TLS is not available the connection is made as "imap"
+            imap+tls+   IMAP with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            imap+ssl+   IMAP with required SSL transport security.
+                            If SSL is not available the connection fails.
+
+            pop3        POP3 with no transport security.
+            pop3+tls    POP3 with optional TLS transport security.
+                            If TLS is not available the connection is made as "pop3"
+            pop3+tls+   POP3 with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            pop3+ssl+   POP3 with required SSL transport security.
+                            If SSL is not available the connection fails.</DESC>
+<VALUE>"imap+ssl+://imap.gmail.com"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account10OutgoingServerValue</SDMID>
+<C_NAME>def_email_account10OutgoingServerValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,60</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account outgoing server addresss.
+        Valid outgoing uri schemes are:
+            smtp        SMTP with no transport security.
+            smtp+tls    SMTP with optional TLS transport security.
+                            If TLS is not available the connection is made as "smtp"
+            smtp+tls+   SMTP with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            smtp+ssl+   SMTP with required SSL transport security.
+                            If SSL is not available the connection fails.</DESC>
+<VALUE>"smtp+tls+://smtp.gmail.com"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account10ReloginValue</SDMID>
+<C_NAME>def_email_account10ReloginValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,1</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>whether disable this email account: 1: enable; 0:disable</DESC>
+<VALUE>"1"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account11LabelValue</SDMID>
+<C_NAME>def_email_account11LabelValue</C_NAME>
+<C_TYPE>Ucs2StringWLen</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Ucs2StringWLen,66</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account provider name. first byte is the length, what in the bracket is the UCS2 code.</DESC>
+<VALUE>0x0A,(0x00,0x47,0x00,0x6D,0x00,0x61,0x00,0x69,0x00,0x6C)</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account11DomainValue</SDMID>
+<C_NAME>def_email_account11DomainValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,32</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Domain name for a email account, eg. "@hotmail.com"</DESC>
+<VALUE>"gmail.com"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account11IncomingServerValue</SDMID>
+<C_NAME>def_email_account11IncomingServerValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,60</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account incoming server addresss.
+      Valid incoming uri schemes are:
+            imap        IMAP with no transport security.
+            imap+tls    IMAP with optional TLS transport security.
+                            If TLS is not available the connection is made as "imap"
+            imap+tls+   IMAP with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            imap+ssl+   IMAP with required SSL transport security.
+                            If SSL is not available the connection fails.
+
+            pop3        POP3 with no transport security.
+            pop3+tls    POP3 with optional TLS transport security.
+                            If TLS is not available the connection is made as "pop3"
+            pop3+tls+   POP3 with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            pop3+ssl+   POP3 with required SSL transport security.
+                            If SSL is not available the connection fails.</DESC>
+<VALUE>"imap+ssl+://imap.gmail.com"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account11OutgoingServerValue</SDMID>
+<C_NAME>def_email_account11OutgoingServerValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,60</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account outgoing server addresss.
+        Valid outgoing uri schemes are:
+            smtp        SMTP with no transport security.
+            smtp+tls    SMTP with optional TLS transport security.
+                            If TLS is not available the connection is made as "smtp"
+            smtp+tls+   SMTP with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            smtp+ssl+   SMTP with required SSL transport security.
+                            If SSL is not available the connection fails.</DESC>
+<VALUE>"smtp+ssl+://smtp.gmail.com"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account11ReloginValue</SDMID>
+<C_NAME>def_email_account11ReloginValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,1</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>whether disable this email account: 1: enable; 0:disable</DESC>
+<VALUE>"1"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account12LabelValue</SDMID>
+<C_NAME>def_email_account12LabelValue</C_NAME>
+<C_TYPE>Ucs2StringWLen</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Ucs2StringWLen,66</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account provider name. first byte is the length, what in the bracket is the UCS2 code.</DESC>
+<VALUE>0x0A,(0x00,0x47,0x00,0x6D,0x00,0x61,0x00,0x69,0x00,0x6C)</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account12DomainValue</SDMID>
+<C_NAME>def_email_account12DomainValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,32</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Domain name for a email account, eg. "@hotmail.com"</DESC>
+<VALUE>"gmail.com"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account12IncomingServerValue</SDMID>
+<C_NAME>def_email_account12IncomingServerValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,60</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account incoming server addresss.
+      Valid incoming uri schemes are:
+            imap        IMAP with no transport security.
+            imap+tls    IMAP with optional TLS transport security.
+                            If TLS is not available the connection is made as "imap"
+            imap+tls+   IMAP with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            imap+ssl+   IMAP with required SSL transport security.
+                            If SSL is not available the connection fails.
+
+            pop3        POP3 with no transport security.
+            pop3+tls    POP3 with optional TLS transport security.
+                            If TLS is not available the connection is made as "pop3"
+            pop3+tls+   POP3 with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            pop3+ssl+   POP3 with required SSL transport security.
+                            If SSL is not available the connection fails.</DESC>
+<VALUE>"imap+ssl+://imap.gmail.com"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account12OutgoingServerValue</SDMID>
+<C_NAME>def_email_account12OutgoingServerValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,60</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account outgoing server addresss.
+        Valid outgoing uri schemes are:
+            smtp        SMTP with no transport security.
+            smtp+tls    SMTP with optional TLS transport security.
+                            If TLS is not available the connection is made as "smtp"
+            smtp+tls+   SMTP with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            smtp+ssl+   SMTP with required SSL transport security.
+                            If SSL is not available the connection fails.</DESC>
+<VALUE>"smtp+ssl+://smtp.gmail.com"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account12ReloginValue</SDMID>
+<C_NAME>def_email_account12ReloginValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,1</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>whether disable this email account: 1: enable; 0:disable</DESC>
+<VALUE>"1"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account13LabelValue</SDMID>
+<C_NAME>def_email_account13LabelValue</C_NAME>
+<C_TYPE>Ucs2StringWLen</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Ucs2StringWLen,66</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account provider name. first byte is the length, what in the bracket is the UCS2 code.</DESC>
+<VALUE>0x0A,(0x00,0x47,0x00,0x6D,0x00,0x61,0x00,0x69,0x00,0x6C)</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account13DomainValue</SDMID>
+<C_NAME>def_email_account13DomainValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,32</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Domain name for a email account, eg. "@hotmail.com"</DESC>
+<VALUE>"gmail.com"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account13IncomingServerValue</SDMID>
+<C_NAME>def_email_account13IncomingServerValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,60</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account incoming server addresss.
+      Valid incoming uri schemes are:
+            imap        IMAP with no transport security.
+            imap+tls    IMAP with optional TLS transport security.
+                            If TLS is not available the connection is made as "imap"
+            imap+tls+   IMAP with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            imap+ssl+   IMAP with required SSL transport security.
+                            If SSL is not available the connection fails.
+
+            pop3        POP3 with no transport security.
+            pop3+tls    POP3 with optional TLS transport security.
+                            If TLS is not available the connection is made as "pop3"
+            pop3+tls+   POP3 with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            pop3+ssl+   POP3 with required SSL transport security.
+                            If SSL is not available the connection fails.</DESC>
+<VALUE>"imap+ssl+://imap.gmail.com"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account13OutgoingServerValue</SDMID>
+<C_NAME>def_email_account13OutgoingServerValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,60</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account outgoing server addresss.
+        Valid outgoing uri schemes are:
+            smtp        SMTP with no transport security.
+            smtp+tls    SMTP with optional TLS transport security.
+                            If TLS is not available the connection is made as "smtp"
+            smtp+tls+   SMTP with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            smtp+ssl+   SMTP with required SSL transport security.
+                            If SSL is not available the connection fails.</DESC>
+<VALUE>"smtp+ssl+://smtp.gmail.com"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account13ReloginValue</SDMID>
+<C_NAME>def_email_account13ReloginValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,1</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>whether disable this email account: 1: enable; 0:disable</DESC>
+<VALUE>"1"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account14LabelValue</SDMID>
+<C_NAME>def_email_account14LabelValue</C_NAME>
+<C_TYPE>Ucs2StringWLen</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Ucs2StringWLen,66</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account provider name. first byte is the length, what in the bracket is the UCS2 code.</DESC>
+<VALUE>0x0A,(0x00,0x47,0x00,0x6D,0x00,0x61,0x00,0x69,0x00,0x6C)</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account14DomainValue</SDMID>
+<C_NAME>def_email_account14DomainValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,32</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Domain name for a email account, eg. "@hotmail.com"</DESC>
+<VALUE>"gmail.com"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account14IncomingServerValue</SDMID>
+<C_NAME>def_email_account14IncomingServerValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,60</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account incoming server addresss.
+      Valid incoming uri schemes are:
+            imap        IMAP with no transport security.
+            imap+tls    IMAP with optional TLS transport security.
+                            If TLS is not available the connection is made as "imap"
+            imap+tls+   IMAP with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            imap+ssl+   IMAP with required SSL transport security.
+                            If SSL is not available the connection fails.
+
+            pop3        POP3 with no transport security.
+            pop3+tls    POP3 with optional TLS transport security.
+                            If TLS is not available the connection is made as "pop3"
+            pop3+tls+   POP3 with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            pop3+ssl+   POP3 with required SSL transport security.
+                            If SSL is not available the connection fails.</DESC>
+<VALUE>"imap+ssl+://imap.gmail.com"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account14OutgoingServerValue</SDMID>
+<C_NAME>def_email_account14OutgoingServerValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,60</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account outgoing server addresss.
+        Valid outgoing uri schemes are:
+            smtp        SMTP with no transport security.
+            smtp+tls    SMTP with optional TLS transport security.
+                            If TLS is not available the connection is made as "smtp"
+            smtp+tls+   SMTP with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            smtp+ssl+   SMTP with required SSL transport security.
+                            If SSL is not available the connection fails.</DESC>
+<VALUE>"smtp+ssl+://smtp.gmail.com"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account14ReloginValue</SDMID>
+<C_NAME>def_email_account14ReloginValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,1</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>whether disable this email account: 1: enable; 0:disable</DESC>
+<VALUE>"1"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account15LabelValue</SDMID>
+<C_NAME>def_email_account15LabelValue</C_NAME>
+<C_TYPE>Ucs2StringWLen</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Ucs2StringWLen,66</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account provider name. first byte is the length, what in the bracket is the UCS2 code.</DESC>
+<VALUE>0x0A,(0x00,0x47,0x00,0x6D,0x00,0x61,0x00,0x69,0x00,0x6C)</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account15DomainValue</SDMID>
+<C_NAME>def_email_account15DomainValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,32</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Domain name for a email account, eg. "@hotmail.com"</DESC>
+<VALUE>"gmail.com"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account15IncomingServerValue</SDMID>
+<C_NAME>def_email_account15IncomingServerValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,60</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account incoming server addresss.
+      Valid incoming uri schemes are:
+            imap        IMAP with no transport security.
+            imap+tls    IMAP with optional TLS transport security.
+                            If TLS is not available the connection is made as "imap"
+            imap+tls+   IMAP with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            imap+ssl+   IMAP with required SSL transport security.
+                            If SSL is not available the connection fails.
+
+            pop3        POP3 with no transport security.
+            pop3+tls    POP3 with optional TLS transport security.
+                            If TLS is not available the connection is made as "pop3"
+            pop3+tls+   POP3 with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            pop3+ssl+   POP3 with required SSL transport security.
+                            If SSL is not available the connection fails.</DESC>
+<VALUE>"imap+ssl+://imap.gmail.com"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account15OutgoingServerValue</SDMID>
+<C_NAME>def_email_account15OutgoingServerValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,60</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account outgoing server addresss.
+        Valid outgoing uri schemes are:
+            smtp        SMTP with no transport security.
+            smtp+tls    SMTP with optional TLS transport security.
+                            If TLS is not available the connection is made as "smtp"
+            smtp+tls+   SMTP with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            smtp+ssl+   SMTP with required SSL transport security.
+                            If SSL is not available the connection fails.</DESC>
+<VALUE>"smtp+ssl+://smtp.gmail.com"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account15ReloginValue</SDMID>
+<C_NAME>def_email_account15ReloginValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,1</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>whether disable this email account: 1: enable; 0:disable</DESC>
+<VALUE>"1"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account16LabelValue</SDMID>
+<C_NAME>def_email_account16LabelValue</C_NAME>
+<C_TYPE>Ucs2StringWLen</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Ucs2StringWLen,66</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account provider name. first byte is the length, what in the bracket is the UCS2 code.</DESC>
+<VALUE>0x0A,(0x00,0x47,0x00,0x6D,0x00,0x61,0x00,0x69,0x00,0x6C)</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account16DomainValue</SDMID>
+<C_NAME>def_email_account16DomainValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,32</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Domain name for a email account, eg. "@hotmail.com"</DESC>
+<VALUE>"gmail.com"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account16IncomingServerValue</SDMID>
+<C_NAME>def_email_account16IncomingServerValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,60</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account incoming server addresss.
+      Valid incoming uri schemes are:
+            imap        IMAP with no transport security.
+            imap+tls    IMAP with optional TLS transport security.
+                            If TLS is not available the connection is made as "imap"
+            imap+tls+   IMAP with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            imap+ssl+   IMAP with required SSL transport security.
+                            If SSL is not available the connection fails.
+
+            pop3        POP3 with no transport security.
+            pop3+tls    POP3 with optional TLS transport security.
+                            If TLS is not available the connection is made as "pop3"
+            pop3+tls+   POP3 with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            pop3+ssl+   POP3 with required SSL transport security.
+                            If SSL is not available the connection fails.</DESC>
+<VALUE>"imap+ssl+://imap.gmail.com"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account16OutgoingServerValue</SDMID>
+<C_NAME>def_email_account16OutgoingServerValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,60</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account outgoing server addresss.
+        Valid outgoing uri schemes are:
+            smtp        SMTP with no transport security.
+            smtp+tls    SMTP with optional TLS transport security.
+                            If TLS is not available the connection is made as "smtp"
+            smtp+tls+   SMTP with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            smtp+ssl+   SMTP with required SSL transport security.
+                            If SSL is not available the connection fails.</DESC>
+<VALUE>"smtp+ssl+://smtp.gmail.com"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account16ReloginValue</SDMID>
+<C_NAME>def_email_account16ReloginValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,1</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>whether disable this email account: 1: enable; 0:disable</DESC>
+<VALUE>"1"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account17LabelValue</SDMID>
+<C_NAME>def_email_account17LabelValue</C_NAME>
+<C_TYPE>Ucs2StringWLen</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Ucs2StringWLen,66</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account provider name. first byte is the length, what in the bracket is the UCS2 code.</DESC>
+<VALUE>0x0A,(0x00,0x47,0x00,0x6D,0x00,0x61,0x00,0x69,0x00,0x6C)</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account17DomainValue</SDMID>
+<C_NAME>def_email_account17DomainValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,32</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Domain name for a email account, eg. "@hotmail.com"</DESC>
+<VALUE>"gmail.com"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account17IncomingServerValue</SDMID>
+<C_NAME>def_email_account17IncomingServerValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,60</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account incoming server addresss.
+      Valid incoming uri schemes are:
+            imap        IMAP with no transport security.
+            imap+tls    IMAP with optional TLS transport security.
+                            If TLS is not available the connection is made as "imap"
+            imap+tls+   IMAP with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            imap+ssl+   IMAP with required SSL transport security.
+                            If SSL is not available the connection fails.
+
+            pop3        POP3 with no transport security.
+            pop3+tls    POP3 with optional TLS transport security.
+                            If TLS is not available the connection is made as "pop3"
+            pop3+tls+   POP3 with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            pop3+ssl+   POP3 with required SSL transport security.
+                            If SSL is not available the connection fails.</DESC>
+<VALUE>"imap+ssl+://imap.gmail.com"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account17OutgoingServerValue</SDMID>
+<C_NAME>def_email_account17OutgoingServerValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,60</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account outgoing server addresss.
+        Valid outgoing uri schemes are:
+            smtp        SMTP with no transport security.
+            smtp+tls    SMTP with optional TLS transport security.
+                            If TLS is not available the connection is made as "smtp"
+            smtp+tls+   SMTP with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            smtp+ssl+   SMTP with required SSL transport security.
+                            If SSL is not available the connection fails.</DESC>
+<VALUE>"smtp+ssl+://smtp.gmail.com"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account17ReloginValue</SDMID>
+<C_NAME>def_email_account17ReloginValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,1</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>whether disable this email account: 1: enable; 0:disable</DESC>
+<VALUE>"1"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account18LabelValue</SDMID>
+<C_NAME>def_email_account18LabelValue</C_NAME>
+<C_TYPE>Ucs2StringWLen</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Ucs2StringWLen,66</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account provider name. first byte is the length, what in the bracket is the UCS2 code.</DESC>
+<VALUE>0x0A,(0x00,0x47,0x00,0x6D,0x00,0x61,0x00,0x69,0x00,0x6C)</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account18DomainValue</SDMID>
+<C_NAME>def_email_account18DomainValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,32</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Domain name for a email account, eg. "@hotmail.com"</DESC>
+<VALUE>"gmail.com"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account18IncomingServerValue</SDMID>
+<C_NAME>def_email_account18IncomingServerValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,60</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account incoming server addresss.
+      Valid incoming uri schemes are:
+            imap        IMAP with no transport security.
+            imap+tls    IMAP with optional TLS transport security.
+                            If TLS is not available the connection is made as "imap"
+            imap+tls+   IMAP with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            imap+ssl+   IMAP with required SSL transport security.
+                            If SSL is not available the connection fails.
+
+            pop3        POP3 with no transport security.
+            pop3+tls    POP3 with optional TLS transport security.
+                            If TLS is not available the connection is made as "pop3"
+            pop3+tls+   POP3 with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            pop3+ssl+   POP3 with required SSL transport security.
+                            If SSL is not available the connection fails.</DESC>
+<VALUE>"imap+ssl+://imap.gmail.com"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account18OutgoingServerValue</SDMID>
+<C_NAME>def_email_account18OutgoingServerValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,60</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account outgoing server addresss.
+        Valid outgoing uri schemes are:
+            smtp        SMTP with no transport security.
+            smtp+tls    SMTP with optional TLS transport security.
+                            If TLS is not available the connection is made as "smtp"
+            smtp+tls+   SMTP with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            smtp+ssl+   SMTP with required SSL transport security.
+                            If SSL is not available the connection fails.</DESC>
+<VALUE>"smtp+ssl+://smtp.gmail.com"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account18ReloginValue</SDMID>
+<C_NAME>def_email_account18ReloginValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,1</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>whether disable this email account: 1: enable; 0:disable</DESC>
+<VALUE>"1"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account19LabelValue</SDMID>
+<C_NAME>def_email_account19LabelValue</C_NAME>
+<C_TYPE>Ucs2StringWLen</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Ucs2StringWLen,66</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account provider name. first byte is the length, what in the bracket is the UCS2 code.</DESC>
+<VALUE>0x0A,(0x00,0x47,0x00,0x6D,0x00,0x61,0x00,0x69,0x00,0x6C)</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account19DomainValue</SDMID>
+<C_NAME>def_email_account19DomainValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,32</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Domain name for a email account, eg. "@hotmail.com"</DESC>
+<VALUE>"gmail.com"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account19IncomingServerValue</SDMID>
+<C_NAME>def_email_account19IncomingServerValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,60</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account incoming server addresss.
+      Valid incoming uri schemes are:
+            imap        IMAP with no transport security.
+            imap+tls    IMAP with optional TLS transport security.
+                            If TLS is not available the connection is made as "imap"
+            imap+tls+   IMAP with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            imap+ssl+   IMAP with required SSL transport security.
+                            If SSL is not available the connection fails.
+
+            pop3        POP3 with no transport security.
+            pop3+tls    POP3 with optional TLS transport security.
+                            If TLS is not available the connection is made as "pop3"
+            pop3+tls+   POP3 with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            pop3+ssl+   POP3 with required SSL transport security.
+                            If SSL is not available the connection fails.</DESC>
+<VALUE>"imap+ssl+://imap.gmail.com"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account19OutgoingServerValue</SDMID>
+<C_NAME>def_email_account19OutgoingServerValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,60</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account outgoing server addresss.
+        Valid outgoing uri schemes are:
+            smtp        SMTP with no transport security.
+            smtp+tls    SMTP with optional TLS transport security.
+                            If TLS is not available the connection is made as "smtp"
+            smtp+tls+   SMTP with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            smtp+ssl+   SMTP with required SSL transport security.
+                            If SSL is not available the connection fails.</DESC>
+<VALUE>"smtp+ssl+://smtp.gmail.com"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account19ReloginValue</SDMID>
+<C_NAME>def_email_account19ReloginValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,1</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>whether disable this email account: 1: enable; 0:disable</DESC>
+<VALUE>"1"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account20LabelValue</SDMID>
+<C_NAME>def_email_account20LabelValue</C_NAME>
+<C_TYPE>Ucs2StringWLen</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Ucs2StringWLen,66</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account provider name. first byte is the length, what in the bracket is the UCS2 code.</DESC>
+<VALUE>0x0A,(0x00,0x47,0x00,0x6D,0x00,0x61,0x00,0x69,0x00,0x6C)</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account20DomainValue</SDMID>
+<C_NAME>def_email_account20DomainValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,32</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Domain name for a email account, eg. "@hotmail.com"</DESC>
+<VALUE>"gmail.com"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account20IncomingServerValue</SDMID>
+<C_NAME>def_email_account20IncomingServerValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,60</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account incoming server addresss.
+      Valid incoming uri schemes are:
+            imap        IMAP with no transport security.
+            imap+tls    IMAP with optional TLS transport security.
+                            If TLS is not available the connection is made as "imap"
+            imap+tls+   IMAP with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            imap+ssl+   IMAP with required SSL transport security.
+                            If SSL is not available the connection fails.
+
+            pop3        POP3 with no transport security.
+            pop3+tls    POP3 with optional TLS transport security.
+                            If TLS is not available the connection is made as "pop3"
+            pop3+tls+   POP3 with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            pop3+ssl+   POP3 with required SSL transport security.
+                            If SSL is not available the connection fails.</DESC>
+<VALUE>"imap+ssl+://imap.gmail.com"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account20OutgoingServerValue</SDMID>
+<C_NAME>def_email_account20OutgoingServerValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,60</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account outgoing server addresss.
+        Valid outgoing uri schemes are:
+            smtp        SMTP with no transport security.
+            smtp+tls    SMTP with optional TLS transport security.
+                            If TLS is not available the connection is made as "smtp"
+            smtp+tls+   SMTP with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            smtp+ssl+   SMTP with required SSL transport security.
+                            If SSL is not available the connection fails.</DESC>
+<VALUE>"smtp+ssl+://smtp.gmail.com"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account20ReloginValue</SDMID>
+<C_NAME>def_email_account20ReloginValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,1</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>whether disable this email account: 1: enable; 0:disable</DESC>
+<VALUE>"1"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account21LabelValue</SDMID>
+<C_NAME>def_email_account21LabelValue</C_NAME>
+<C_TYPE>Ucs2StringWLen</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Ucs2StringWLen,66</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account provider name. first byte is the length, what in the bracket is the UCS2 code.</DESC>
+<VALUE>0x0A,(0x00,0x47,0x00,0x6D,0x00,0x61,0x00,0x69,0x00,0x6C)</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account21DomainValue</SDMID>
+<C_NAME>def_email_account21DomainValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,32</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Domain name for a email account, eg. "@hotmail.com"</DESC>
+<VALUE>"gmail.com"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account21IncomingServerValue</SDMID>
+<C_NAME>def_email_account21IncomingServerValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,60</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account incoming server addresss.
+      Valid incoming uri schemes are:
+            imap        IMAP with no transport security.
+            imap+tls    IMAP with optional TLS transport security.
+                            If TLS is not available the connection is made as "imap"
+            imap+tls+   IMAP with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            imap+ssl+   IMAP with required SSL transport security.
+                            If SSL is not available the connection fails.
+
+            pop3        POP3 with no transport security.
+            pop3+tls    POP3 with optional TLS transport security.
+                            If TLS is not available the connection is made as "pop3"
+            pop3+tls+   POP3 with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            pop3+ssl+   POP3 with required SSL transport security.
+                            If SSL is not available the connection fails.</DESC>
+<VALUE>"imap+ssl+://imap.gmail.com"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account21OutgoingServerValue</SDMID>
+<C_NAME>def_email_account21OutgoingServerValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,60</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account outgoing server addresss.
+        Valid outgoing uri schemes are:
+            smtp        SMTP with no transport security.
+            smtp+tls    SMTP with optional TLS transport security.
+                            If TLS is not available the connection is made as "smtp"
+            smtp+tls+   SMTP with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            smtp+ssl+   SMTP with required SSL transport security.
+                            If SSL is not available the connection fails.</DESC>
+<VALUE>"smtp+ssl+://smtp.gmail.com"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account21ReloginValue</SDMID>
+<C_NAME>def_email_account21ReloginValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,1</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>whether disable this email account: 1: enable; 0:disable</DESC>
+<VALUE>"1"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account22LabelValue</SDMID>
+<C_NAME>def_email_account22LabelValue</C_NAME>
+<C_TYPE>Ucs2StringWLen</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Ucs2StringWLen,66</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account provider name. first byte is the length, what in the bracket is the UCS2 code.</DESC>
+<VALUE>0x0A,(0x00,0x47,0x00,0x6D,0x00,0x61,0x00,0x69,0x00,0x6C)</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account22DomainValue</SDMID>
+<C_NAME>def_email_account22DomainValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,32</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Domain name for a email account, eg. "@hotmail.com"</DESC>
+<VALUE>"gmail.com"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account22IncomingServerValue</SDMID>
+<C_NAME>def_email_account22IncomingServerValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,60</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account incoming server addresss.
+      Valid incoming uri schemes are:
+            imap        IMAP with no transport security.
+            imap+tls    IMAP with optional TLS transport security.
+                            If TLS is not available the connection is made as "imap"
+            imap+tls+   IMAP with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            imap+ssl+   IMAP with required SSL transport security.
+                            If SSL is not available the connection fails.
+
+            pop3        POP3 with no transport security.
+            pop3+tls    POP3 with optional TLS transport security.
+                            If TLS is not available the connection is made as "pop3"
+            pop3+tls+   POP3 with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            pop3+ssl+   POP3 with required SSL transport security.
+                            If SSL is not available the connection fails.</DESC>
+<VALUE>"imap+ssl+://imap.gmail.com"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account22OutgoingServerValue</SDMID>
+<C_NAME>def_email_account22OutgoingServerValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,60</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account outgoing server addresss.
+        Valid outgoing uri schemes are:
+            smtp        SMTP with no transport security.
+            smtp+tls    SMTP with optional TLS transport security.
+                            If TLS is not available the connection is made as "smtp"
+            smtp+tls+   SMTP with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            smtp+ssl+   SMTP with required SSL transport security.
+                            If SSL is not available the connection fails.</DESC>
+<VALUE>"smtp+ssl+://smtp.gmail.com"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account22ReloginValue</SDMID>
+<C_NAME>def_email_account22ReloginValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,1</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>whether disable this email account: 1: enable; 0:disable</DESC>
+<VALUE>"1"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account23LabelValue</SDMID>
+<C_NAME>def_email_account23LabelValue</C_NAME>
+<C_TYPE>Ucs2StringWLen</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Ucs2StringWLen,66</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account provider name. first byte is the length, what in the bracket is the UCS2 code.</DESC>
+<VALUE>0x0A,(0x00,0x47,0x00,0x6D,0x00,0x61,0x00,0x69,0x00,0x6C)</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account23DomainValue</SDMID>
+<C_NAME>def_email_account23DomainValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,32</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Domain name for a email account, eg. "@hotmail.com"</DESC>
+<VALUE>"gmail.com"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account23IncomingServerValue</SDMID>
+<C_NAME>def_email_account23IncomingServerValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,60</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account incoming server addresss.
+      Valid incoming uri schemes are:
+            imap        IMAP with no transport security.
+            imap+tls    IMAP with optional TLS transport security.
+                            If TLS is not available the connection is made as "imap"
+            imap+tls+   IMAP with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            imap+ssl+   IMAP with required SSL transport security.
+                            If SSL is not available the connection fails.
+
+            pop3        POP3 with no transport security.
+            pop3+tls    POP3 with optional TLS transport security.
+                            If TLS is not available the connection is made as "pop3"
+            pop3+tls+   POP3 with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            pop3+ssl+   POP3 with required SSL transport security.
+                            If SSL is not available the connection fails.</DESC>
+<VALUE>"imap+ssl+://imap.gmail.com"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account23OutgoingServerValue</SDMID>
+<C_NAME>def_email_account23OutgoingServerValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,60</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account outgoing server addresss.
+        Valid outgoing uri schemes are:
+            smtp        SMTP with no transport security.
+            smtp+tls    SMTP with optional TLS transport security.
+                            If TLS is not available the connection is made as "smtp"
+            smtp+tls+   SMTP with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            smtp+ssl+   SMTP with required SSL transport security.
+                            If SSL is not available the connection fails.</DESC>
+<VALUE>"smtp+ssl+://smtp.gmail.com"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account23ReloginValue</SDMID>
+<C_NAME>def_email_account23ReloginValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,1</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>whether disable this email account: 1: enable; 0:disable</DESC>
+<VALUE>"1"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account24LabelValue</SDMID>
+<C_NAME>def_email_account24LabelValue</C_NAME>
+<C_TYPE>Ucs2StringWLen</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Ucs2StringWLen,66</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account provider name. first byte is the length, what in the bracket is the UCS2 code.</DESC>
+<VALUE>0x0A,(0x00,0x47,0x00,0x6D,0x00,0x61,0x00,0x69,0x00,0x6C)</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account24DomainValue</SDMID>
+<C_NAME>def_email_account24DomainValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,32</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Domain name for a email account, eg. "@hotmail.com"</DESC>
+<VALUE>"gmail.com"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account24IncomingServerValue</SDMID>
+<C_NAME>def_email_account24IncomingServerValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,60</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account incoming server addresss.
+      Valid incoming uri schemes are:
+            imap        IMAP with no transport security.
+            imap+tls    IMAP with optional TLS transport security.
+                            If TLS is not available the connection is made as "imap"
+            imap+tls+   IMAP with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            imap+ssl+   IMAP with required SSL transport security.
+                            If SSL is not available the connection fails.
+
+            pop3        POP3 with no transport security.
+            pop3+tls    POP3 with optional TLS transport security.
+                            If TLS is not available the connection is made as "pop3"
+            pop3+tls+   POP3 with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            pop3+ssl+   POP3 with required SSL transport security.
+                            If SSL is not available the connection fails.</DESC>
+<VALUE>"imap+ssl+://imap.gmail.com"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account24OutgoingServerValue</SDMID>
+<C_NAME>def_email_account24OutgoingServerValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,60</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account outgoing server addresss.
+        Valid outgoing uri schemes are:
+            smtp        SMTP with no transport security.
+            smtp+tls    SMTP with optional TLS transport security.
+                            If TLS is not available the connection is made as "smtp"
+            smtp+tls+   SMTP with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            smtp+ssl+   SMTP with required SSL transport security.
+                            If SSL is not available the connection fails.</DESC>
+<VALUE>"smtp+ssl+://smtp.gmail.com"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account24ReloginValue</SDMID>
+<C_NAME>def_email_account24ReloginValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,1</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>whether disable this email account: 1: enable; 0:disable</DESC>
+<VALUE>"1"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account25LabelValue</SDMID>
+<C_NAME>def_email_account25LabelValue</C_NAME>
+<C_TYPE>Ucs2StringWLen</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Ucs2StringWLen,66</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account provider name. first byte is the length, what in the bracket is the UCS2 code.</DESC>
+<VALUE>0x0A,(0x00,0x47,0x00,0x6D,0x00,0x61,0x00,0x69,0x00,0x6C)</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account25DomainValue</SDMID>
+<C_NAME>def_email_account25DomainValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,32</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Domain name for a email account, eg. "@hotmail.com"</DESC>
+<VALUE>"gmail.com"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account25IncomingServerValue</SDMID>
+<C_NAME>def_email_account25IncomingServerValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,60</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account incoming server addresss.
+      Valid incoming uri schemes are:
+            imap        IMAP with no transport security.
+            imap+tls    IMAP with optional TLS transport security.
+                            If TLS is not available the connection is made as "imap"
+            imap+tls+   IMAP with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            imap+ssl+   IMAP with required SSL transport security.
+                            If SSL is not available the connection fails.
+
+            pop3        POP3 with no transport security.
+            pop3+tls    POP3 with optional TLS transport security.
+                            If TLS is not available the connection is made as "pop3"
+            pop3+tls+   POP3 with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            pop3+ssl+   POP3 with required SSL transport security.
+                            If SSL is not available the connection fails.</DESC>
+<VALUE>"imap+ssl+://imap.gmail.com"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account25OutgoingServerValue</SDMID>
+<C_NAME>def_email_account25OutgoingServerValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,60</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email account outgoing server addresss.
+        Valid outgoing uri schemes are:
+            smtp        SMTP with no transport security.
+            smtp+tls    SMTP with optional TLS transport security.
+                            If TLS is not available the connection is made as "smtp"
+            smtp+tls+   SMTP with required TLS transport security.
+                            If TLS is not available the conneciton fails.
+            smtp+ssl+   SMTP with required SSL transport security.
+                            If SSL is not available the connection fails.</DESC>
+<VALUE>"smtp+ssl+://smtp.gmail.com"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account25ReloginValue</SDMID>
+<C_NAME>def_email_account25ReloginValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,1</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>whether disable this email account: 1: enable; 0:disable</DESC>
+<VALUE>"1"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>feature_email_ssv_account_number_each</SDMID>
+<C_NAME>feature_email_ssv_account_number_each</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,10</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>the number of accounts need to auto config for one mnnmnc sim card. eg:the 230999 card require to config 9 accounts,
+then the sdm should be cofiged "9"; the 216999 card require to config 2 accounts, then the sdm should be configed "2".
+and the most importantly, when config the SDM "def_email_ssv_accountXXX" ,must config from def_email_ssv_account1XX  to
+def_email_ssv_account9XXX,follow the numerical order. </DESC>
+<VALUE>"9"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_ssv_topRankDomainValue</SDMID>
+<C_NAME>def_email_ssv_topRankDomainValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,60</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Domain name list for the rank of email account list dispplayed in dropdown list,
+when user type email address in login page. The item will be sorted by the sequence of
+the values, separate by the character of '@'. If only one domain value is configured,
+it will displayed on top of the dropdown list.
+If only one domain. eg."gmail.com".If have more than one domain. eg."gamil.com@hotmail.com"
+Default:"@".</DESC>
+<VALUE>"@"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_accountSignature_productName</SDMID>
+<C_NAME>email acount signature productName</C_NAME>
+<C_TYPE>Ucs2StringWLen</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Ucs2StringWLen,200</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>the deafult email signature productName</DESC>
+<VALUE>0X2E,(0X00,0X41,0X00,0X6C,0X00,0X63,0X00,0X61,0X00,0X74,0X00,0X65,0X00,0X6C,0X00,0X20,0X00,0X4F,0X00,0X6E,0X00,0X65,0X00,0X74,0X00,0X6F,0X00,0X75,0X00,0X63,0X00,0X68,0X00,0X20,0X00,0X64,0X00,0X65,0X00,0X76,0X00,0X69,0X00,0X63,0X00,0X65)</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_checkFrequencyPush_default</SDMID>
+<C_NAME>def_email_checkFrequencyPush_default</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,10</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>This item defined the default value of email check frequency preference for exchange account.Default Value: Automatic (Push)("-2"). Option Value: Never("-   1"), Every 5 minutes("5"), Every 10 minutes("10"), Every 15 minutes("15"),Every 30minutes("30"), Every hour("60")</DESC>
+<VALUE>"-2"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_checkFrequency_default</SDMID>
+<C_NAME>def_email_checkFrequency_default</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,10</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>This item defined the default value of email check frequency preference for other email account.Default Value: Never("-1"). Option Value: Every 5 minutes("5"), Every 10 minutes("10"), Every 15 minutes("15"),Every 30minutes("30"), Every hour("60")</DESC>
+<VALUE>"15"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_syncWindow_default</SDMID>
+<C_NAME>def_email_syncWindow_default</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,10</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>This item defined the default value of email sync windows preference for eas email account.Default Value: 1week("3"). Option Value: 1day("1"), 3days("2"), 1week("3"),2weeks("4"), 1month("5"), all("6")</DESC>
+<VALUE>"3"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>feature_email_downloadOptions_on</SDMID>
+<C_NAME>feature_email_downloadOptions_on</C_NAME>
+<C_TYPE>Boolean</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>whether to add downlaod options for email: 0x01: enable; 0x00:disable</DESC>
+<VALUE>0x00</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>feature_email_proxy_on</SDMID>
+<C_TYPE>eBoolean</C_TYPE>
+<C_NAME>feature_email_proxy_on</C_NAME>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<VALUE>0x01</VALUE>
+<FEATURE>Email</FEATURE>
+<DESC>whether to enable Orange proxy setup for exchange account: 0x01: enable; 0x00:disable</DESC>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>feature_email_localizedDateTime_on</SDMID>
+<C_NAME>feature_email_localizedDateTime_on</C_NAME>
+<C_TYPE>Boolean</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>0x01:Out-of-office auto-reply parameters are localized in Russia. 0x00:Follow system(Default).</DESC>
+<VALUE>0x00</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>feature_email_oof_on</SDMID>
+<C_NAME>feature_email_oof_on</C_NAME>
+<C_TYPE>Boolean</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>0x01:Out-of-office is enable. 0x00:Out-of-office is disable.</DESC>
+<VALUE>0x00</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>feature_email_exchangeAutoSetup_on</SDMID>
+<C_NAME>feature_email_exchangeAutoSetup_on</C_NAME>
+<C_TYPE>Boolean</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>whether to auto setup when setup exchange account: 0x01: enable; 0x00:disable, default 0x01</DESC>
+<VALUE>0x01</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>feature_email_TmoProvisionEmail_on</SDMID>
+<C_NAME>feature_email_TmoProvisionEmail_on</C_NAME>
+<C_TYPE>Boolean</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Whether support tmobile email provision feature,when the username don't have dormain,we will not add the dormain name. 0x00: OFF, 0x01: ON;</DESC>
+<VALUE>0x00</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>feature_email_sfrImap_on</SDMID>
+<C_NAME>feature_email_sfrImap_on</C_NAME>
+<C_TYPE>Boolean</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>0x01:enable feature about SFR imap account. 0x00:disable feature about SFR imap account</DESC>
+<VALUE>0x00</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>feature_email_spamQuarantaineIsJunkFolder_on</SDMID>
+<C_NAME>feature_email_spamQuarantaineIsJunkFolder_on</C_NAME>
+<C_TYPE>Boolean</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>This item defines whether spam folder and Quarantaine folder are considered as junk folder. 0x00: android default behavior, only the folder with name "junk" is junk folder. 0x01: the folder that its name is "spam", "quarantaine" or "junk" is considered as junk folder. folder name is not case-sensitive. Default value is 0x01</DESC>
+<VALUE>0x01</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>feature_email_defaultAccount_on</SDMID>
+<C_NAME>feature_email_defaultAccount_on</C_NAME>
+<C_TYPE>Boolean</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>0x01:enable show default account setting . 0x00:disable show default account setting</DESC>
+<VALUE>0x00</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>feature_email_removeAccount_on</SDMID>
+<C_NAME>feature_email_removeAccount_on</C_NAME>
+<C_TYPE>Boolean</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>0x01:enable remove account in Email . 0x00:disable remove account in Email</DESC>
+<VALUE>0x00</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>feature_email_orangeImap_on</SDMID>
+<C_NAME>feature_email_orangeImap_on</C_NAME>
+<C_TYPE>Boolean</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>0x01:enable feature about orange imap account. 0x00:disable feature about orange imap account</DESC>
+<VALUE>0x00</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>feature_email_account_list_on</SDMID>
+<C_NAME>feature_email_account_list_on</C_NAME>
+<C_TYPE>Boolean</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>0x01:enable feature account list. 0x00:disable feature account list</DESC>
+<VALUE>0x00</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>feature_email_send_launcher_unread_on</SDMID>
+<C_NAME>feature_email_send_launcher_unread_on</C_NAME>
+<C_TYPE>Boolean</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>0x01:enable feature send unread number to launcher. 0x00:disable feature feature send unread number to launcher</DESC>
+<VALUE>0x01</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>feature_exchange_download_attachment_wifi_on</SDMID>
+<C_NAME>feature_exchange_download_attachment_wifi_on</C_NAME>
+<C_TYPE>Boolean</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Exchange</FEATURE>
+<DESC>The wifi automatically download attachment option for exchange account. 0x01:select. 0x00:Not select.</DESC>
+<VALUE>0x01</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account1DisplayValue</SDMID>
+<C_NAME>def_email_account1DisplayValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,1</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>whether display this email domain: 1: display; 0:no display</DESC>
+<VALUE>"0"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account2DisplayValue</SDMID>
+<C_NAME>def_email_account2DisplayValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,1</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>whether display this email domain: 1: display; 0:no display</DESC>
+<VALUE>"0"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account3DisplayValue</SDMID>
+<C_NAME>def_email_account3DisplayValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,1</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>whether display this email domain: 1: display; 0:no display</DESC>
+<VALUE>"0"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account4DisplayValue</SDMID>
+<C_NAME>def_email_account4DisplayValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,1</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>whether display this email domain: 1: display; 0:no display</DESC>
+<VALUE>"0"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account5DisplayValue</SDMID>
+<C_NAME>def_email_account5DisplayValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,1</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>whether display this email domain: 1: display; 0:no display</DESC>
+<VALUE>"0"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account6DisplayValue</SDMID>
+<C_NAME>def_email_account6DisplayValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,1</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>whether display this email domain: 1: display; 0:no display</DESC>
+<VALUE>"0"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account7DisplayValue</SDMID>
+<C_NAME>def_email_account7DisplayValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,1</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>whether display this email domain: 1: display; 0:no display</DESC>
+<VALUE>"0"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account8DisplayValue</SDMID>
+<C_NAME>def_email_account8DisplayValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,1</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>whether display this email domain: 1: display; 0:no display</DESC>
+<VALUE>"0"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account9DisplayValue</SDMID>
+<C_NAME>def_email_account9DisplayValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,1</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>whether display this email domain: 1: display; 0:no display</DESC>
+<VALUE>"0"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account10DisplayValue</SDMID>
+<C_NAME>def_email_account10DisplayValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,1</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>whether display this email domain: 1: display; 0:no display</DESC>
+<VALUE>"0"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account11DisplayValue</SDMID>
+<C_NAME>def_email_account11DisplayValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,1</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>whether display this email domain: 1: display; 0:no display</DESC>
+<VALUE>"0"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account12DisplayValue</SDMID>
+<C_NAME>def_email_account12DisplayValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,1</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>whether display this email domain: 1: display; 0:no display</DESC>
+<VALUE>"0"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account13DisplayValue</SDMID>
+<C_NAME>def_email_account13DisplayValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,1</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>whether display this email domain: 1: display; 0:no display</DESC>
+<VALUE>"0"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account14DisplayValue</SDMID>
+<C_NAME>def_email_account14DisplayValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,1</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>whether display this email domain: 1: display; 0:no display</DESC>
+<VALUE>"0"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account15DisplayValue</SDMID>
+<C_NAME>def_email_account15DisplayValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,1</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>whether display this email domain: 1: display; 0:no display</DESC>
+<VALUE>"0"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account16DisplayValue</SDMID>
+<C_NAME>def_email_account16DisplayValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,1</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>whether display this email domain: 1: display; 0:no display</DESC>
+<VALUE>"0"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account17DisplayValue</SDMID>
+<C_NAME>def_email_account17DisplayValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,1</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>whether display this email domain: 1: display; 0:no display</DESC>
+<VALUE>"0"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account18DisplayValue</SDMID>
+<C_NAME>def_email_account18DisplayValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,1</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>whether display this email domain: 1: display; 0:no display</DESC>
+<VALUE>"0"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account19DisplayValue</SDMID>
+<C_NAME>def_email_account19DisplayValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,1</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>whether display this email domain: 1: display; 0:no display</DESC>
+<VALUE>"0"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account20DisplayValue</SDMID>
+<C_NAME>def_email_account20DisplayValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,1</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>whether display this email domain: 1: display; 0:no display</DESC>
+<VALUE>"0"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account21DisplayValue</SDMID>
+<C_NAME>def_email_account21DisplayValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,1</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>whether display this email domain: 1: display; 0:no display</DESC>
+<VALUE>"0"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account22DisplayValue</SDMID>
+<C_NAME>def_email_account22DisplayValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,1</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>whether display this email domain: 1: display; 0:no display</DESC>
+<VALUE>"0"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account23DisplayValue</SDMID>
+<C_NAME>def_email_account23DisplayValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,1</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>whether display this email domain: 1: display; 0:no display</DESC>
+<VALUE>"0"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account24DisplayValue</SDMID>
+<C_NAME>def_email_account24DisplayValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,1</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>whether display this email domain: 1: display; 0:no display</DESC>
+<VALUE>"0"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account25DisplayValue</SDMID>
+<C_NAME>def_email_account25DisplayValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,1</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>whether display this email domain: 1: display; 0:no display</DESC>
+<VALUE>"0"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account1UsernameValue</SDMID>
+<C_NAME>def_email_account1UsernameValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,10</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email use name, user name only or full emaill. must be "$user":use user name only. or "$email": use email address</DESC>
+<VALUE>"$user"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account2UsernameValue</SDMID>
+<C_NAME>def_email_account2UsernameValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,10</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email use name, user name only or full emaill. must be "$user":use user name only. or "$email": use email address</DESC>
+<VALUE>"$email"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account3UsernameValue</SDMID>
+<C_NAME>def_email_account3UsernameValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,10</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email use name, user name only or full emaill. must be "$user":use user name only. or "$email": use email address</DESC>
+<VALUE>"$email"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account4UsernameValue</SDMID>
+<C_NAME>def_email_account4UsernameValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,10</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email use name, user name only or full emaill. must be "$user":use user name only. or "$email": use email address</DESC>
+<VALUE>"$email"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account5UsernameValue</SDMID>
+<C_NAME>def_email_account5UsernameValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,10</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email use name, user name only or full emaill. must be "$user":use user name only. or "$email": use email address</DESC>
+<VALUE>"$email"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account6UsernameValue</SDMID>
+<C_NAME>def_email_account6UsernameValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,10</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email use name, user name only or full emaill. must be "$user":use user name only. or "$email": use email address</DESC>
+<VALUE>"$email"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account7UsernameValue</SDMID>
+<C_NAME>def_email_account7UsernameValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,10</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email use name, user name only or full emaill. must be "$user":use user name only. or "$email": use email address</DESC>
+<VALUE>"$user"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account8UsernameValue</SDMID>
+<C_NAME>def_email_account8UsernameValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,10</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email use name, user name only or full emaill. must be "$user":use user name only. or "$email": use email address</DESC>
+<VALUE>"$email"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account9UsernameValue</SDMID>
+<C_NAME>def_email_account9UsernameValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,10</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email use name, user name only or full emaill. must be "$user":use user name only. or "$email": use email address</DESC>
+<VALUE>"$user"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account10UsernameValue</SDMID>
+<C_NAME>def_email_account10UsernameValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,10</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email use name, user name only or full emaill. must be "$user":use user name only. or "$email": use email address</DESC>
+<VALUE>"$email"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account11UsernameValue</SDMID>
+<C_NAME>def_email_account11UsernameValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,10</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email use name, user name only or full emaill. must be "$user":use user name only. or "$email": use email address</DESC>
+<VALUE>"$email"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account12UsernameValue</SDMID>
+<C_NAME>def_email_account12UsernameValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,10</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email use name, user name only or full emaill. must be "$user":use user name only. or "$email": use email address</DESC>
+<VALUE>"$email"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account13UsernameValue</SDMID>
+<C_NAME>def_email_account13UsernameValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,10</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email use name, user name only or full emaill. must be "$user":use user name only. or "$email": use email address</DESC>
+<VALUE>"$email"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account14UsernameValue</SDMID>
+<C_NAME>def_email_account14UsernameValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,10</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email use name, user name only or full emaill. must be "$user":use user name only. or "$email": use email address</DESC>
+<VALUE>"$email"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account15UsernameValue</SDMID>
+<C_NAME>def_email_account15UsernameValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,10</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email use name, user name only or full emaill. must be "$user":use user name only. or "$email": use email address</DESC>
+<VALUE>"$email"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account16UsernameValue</SDMID>
+<C_NAME>def_email_account16UsernameValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,10</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email use name, user name only or full emaill. must be "$user":use user name only. or "$email": use email address</DESC>
+<VALUE>"$email"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account17UsernameValue</SDMID>
+<C_NAME>def_email_account17UsernameValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,10</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email use name, user name only or full emaill. must be "$user":use user name only. or "$email": use email address</DESC>
+<VALUE>"$email"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account18UsernameValue</SDMID>
+<C_NAME>def_email_account18UsernameValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,10</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email use name, user name only or full emaill. must be "$user":use user name only. or "$email": use email address</DESC>
+<VALUE>"$email"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account19UsernameValue</SDMID>
+<C_NAME>def_email_account19UsernameValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,10</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email use name, user name only or full emaill. must be "$user":use user name only. or "$email": use email address</DESC>
+<VALUE>"$email"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account20UsernameValue</SDMID>
+<C_NAME>def_email_account20UsernameValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,10</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email use name, user name only or full emaill. must be "$user":use user name only. or "$email": use email address</DESC>
+<VALUE>"$email"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account21UsernameValue</SDMID>
+<C_NAME>def_email_account21UsernameValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,10</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email use name, user name only or full emaill. must be "$user":use user name only. or "$email": use email address</DESC>
+<VALUE>"$email"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account22UsernameValue</SDMID>
+<C_NAME>def_email_account22UsernameValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,10</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email use name, user name only or full emaill. must be "$user":use user name only. or "$email": use email address</DESC>
+<VALUE>"$email"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account23UsernameValue</SDMID>
+<C_NAME>def_email_account23UsernameValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,10</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email use name, user name only or full emaill. must be "$user":use user name only. or "$email": use email address</DESC>
+<VALUE>"$email"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account24UsernameValue</SDMID>
+<C_NAME>def_email_account24UsernameValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,10</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email use name, user name only or full emaill. must be "$user":use user name only. or "$email": use email address</DESC>
+<VALUE>"$email"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_account25UsernameValue</SDMID>
+<C_NAME>def_email_account25UsernameValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,10</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Email use name, user name only or full emaill. must be "$user":use user name only. or "$email": use email address</DESC>
+<VALUE>"$email"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_popAccountDefaultDeletePolicy</SDMID>
+<C_NAME>def_email_popAccountDeletePolicy</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,1</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>set pop3 account default delete policy option. 0: default,leave server decide; 1:DELETE_POLICY_NEVER; 2:DELETE_POLICY_ON_DELETE</DESC>
+<VALUE>"0"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_isp_topRankDomainValue</SDMID>
+<C_NAME>def_isp_topRankDomainValue</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,200</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Domain name list for the rank of email account list dispplayed in dropdown list,
+when user type email address in login page. The item will be sorted by the sequence of
+the values, separate by the character of '@'. If only one domain value is configured,
+it will displayed on top of the dropdown list.
+If only one domain. eg."gmail.com".If have more than one domain. eg."gamil.com@hotmail.com"
+Default:"@".</DESC>
+<VALUE>"@"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_predefine_not_show_domain_value</SDMID>
+<C_NAME>def_email_predefine_not_show_domain_value</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,60</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Domain name list for the predefine email account list which not dispplayed in dropdown list,
+each domain value separate by the character of '@'.
+If only one domain, eg."gmail.com". If have more than one domain, eg."gamil.com@hotmail.com"
+Default:"@".</DESC>
+<VALUE>"@"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_Email_download_option</SDMID>
+<C_NAME>def_Email_download_option</C_NAME>
+<C_TYPE>Boolean</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>set download option for message: 0x01: All; 0x00: Head only default: 0x01</DESC>
+<VALUE>0x01</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>feature_email_syncCalendarScope_on</SDMID>
+<C_NAME>feature_email_syncCalendarScope_on</C_NAME>
+<C_TYPE>Boolean</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>0x01:enable setting sync calendar scope in email. 0x00:disable setting sync calendar scope in email. default:0x01.</DESC>
+<VALUE>0x01</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>feature_email_associate_prompt_on</SDMID>
+<C_NAME>feature_email_associate_prompt_on</C_NAME>
+<C_TYPE>Boolean</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>0x01:enable email domain associate prompt. 0x00:disable email domain associate prompt. default:0x01.</DESC>
+<VALUE>0x01</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_accountDomainValuePreset</SDMID>
+<C_NAME>def_email_accountDomainValuePreset</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,32</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Domain name for a email account, eg. "@hotmail.com", it will filled in the email address when open email app if it is valid</DESC>
+<VALUE>""</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>feature_email_platform</SDMID>
+<C_NAME>feature_email_platform</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,32</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>chose platform ;To support more platform,we use String replace Boolean ; 0:qualcomm platform  1:mtk platform</DESC>
+<VALUE>"0"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_email_manualEditAfterPasswordFailed_on</SDMID>
+<C_NAME>def_email_manualEditAfterPasswordFailed_on</C_NAME>
+<C_TYPE>Boolean</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>
+0x01:enable manual edit server settings if it report password failed when auto setup with predefine config.
+0x00:disable manual edit server settings if it report password failed when auto setup with predefine config.
+default:0x00.
+</DESC>
+<VALUE>0x00</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>feature_email_save_group</SDMID>
+<C_NAME>feature_email_save_group</C_NAME>
+<C_TYPE>Boolean</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>0x01:enable save contacts group when compose,show the menu item. 0x00:save contacts group when compose, hide the menu item. default:0x00.</DESC>
+<VALUE>0x00</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>feature_email_select_all</SDMID>
+<C_NAME>feature_email_select_all</C_NAME>
+<C_TYPE>Boolean</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>0x01:enable select all in mail list. 0x00:disable select all in mail list. default:0x00.</DESC>
+<VALUE>0x01</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>feature_email_deleteFiveOrTenMinutes_on</SDMID>
+<C_NAME>feature_email_deleteFiveOrTenMinutes_on</C_NAME>
+<C_TYPE>Boolean</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>
+0x01:disable 5 and 10 minutes for sync frequency 0x00:enable 5 and 10 minutes for sync frequency.default:0x00.
+</DESC>
+<VALUE>0x00</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>feature_email_reply_to</SDMID>
+<C_NAME>feature_email_reply_to</C_NAME>
+<C_TYPE>Boolean</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>0x01:enable reply all function, "reply to" option is showed in account setting . 0x00:disable reply to function. default:0x00.</DESC>
+<VALUE>0x00</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>feature_email_lastUpdateTime_on</SDMID>
+<C_NAME>feature_email_lastUpdateTime_on</C_NAME>
+<C_TYPE>Boolean</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>0x01:enable setting last update time in email. 0x00:disable setting last update time in email. default:0x00.</DESC>
+<VALUE>0x00</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_enable_email_message_list_sorting</SDMID>
+<C_NAME>perso_def_enable_email_message_list_sorting</C_NAME>
+<C_TYPE>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>0x01:enable message list sorting. 0x00:disable message list sorting. default is 0x00</DESC>
+<VALUE>0x00</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>feature_email_saveAttachmentLocationSelectable_on</SDMID>
+<C_NAME>feature_email_saveAttachmentLocationSelectable_on</C_NAME>
+<C_TYPE>Boolean</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>
+0x01:enable selectable when save attachment, it will let user to select the location for save attachment.
+0x00:disable selectable when save attachment, it will not  let user to select the location for save attachment, the attachment will save to Download in phone storage automatic
+default:0x00.
+</DESC>
+<VALUE>0x00</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>feature_email_provideActionOptionsForMailAddress_on</SDMID>
+<C_NAME>feature_email_provideActionOptionsForMailAddress_on</C_NAME>
+<C_TYPE>Boolean</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>
+0x01:enable action options when user click a email address in mail detail activity, it will provide: save to contact, send email, send message.
+0x00:disable action options when user click a email address in mail detail activity, it will use send email as default.
+default:0x00.
+</DESC>
+<VALUE>0x00</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>feature_platform_464gCKT_on</SDMID>
+<C_NAME>feature_platform_464gCKT_on</C_NAME>
+<C_TYPE>Boolean</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>
+0x01:464gCKT project.
+0x00:other project.
+default:0x00.
+</DESC>
+<VALUE>0x00</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_is_wakeup_when_receive_email</SDMID>
+<C_TYPE>Boolean</C_TYPE>
+<C_NAME>def_is_wakeup_when_receive_email</C_NAME>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>Email</FEATURE>
+<DESC>Function:is light screen when receive Email [Value]:values 0x00 do not light screen ,0x01:light screen when receive Email(default).
+</DESC>
+<VALUE>0x01</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+</TABLE_VAR>
+</SDM_AREA>
+</MOD>
+</VAR_DEV>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!-- no translation found for app_name -->
+	<skip />
+	<!-- no translation found for photo_view_count -->
+	<skip />
+	<!---->
+	<string name="retry">"Försök igen"</string>
+	<!---->
+	<string name="failed">"Det gick inte att ladda bilden"</string>
+	<!-- no translation found for more_string -->
+	<skip />
+	<!---->
+	<string name="copy_email">"Kopiera e-postadress"</string>
+	<!---->
+	<string name="copy_number">"Kopiera telefonnummer"</string>
+	<!---->
+	<string name="action_label">"Återgå"</string>
+	<!---->
+	<string name="search_hint">"Sök e-post"</string>
+	<!---->
+	<string name="compose">"Skriv"</string>
+	<!---->
+	<string name="activity_folder_selection">"Välj mapp"</string>
+	<!---->
+	<string name="activity_preferences">"Inställningar"</string>
+	<!---->
+	<string name="tap_to_configure">"Tryck för att ställa in"</string>
+	<!---->
+	<string name="loading_conversations">"Hämtar…"</string>
+	<!---->
+	<string name="non_synced_folder_description">"Synkronisera den här mappen för att visa konversationer."</string>
+	<!---->
+	<string name="tap_to_configure_folder_sync">"Synkronisera mapp"</string>
+	<!-- no translation found for def_email_accountGermanSignature -->
+	<skip />
+	<!---->
+	<string name="send_failed">"Meddelandet skickades inte."</string>
+	<!-- no translation found for permission_needed -->
+	<skip />
+	<!---->
+	<string name="permission_needed_label">"Behörigheter krävs"</string>
+	<!---->
+	<string name="permission_grant_access_label">"Ge tillgång"</string>
+	<!---->
+	<string name="permission_grant_access_descs">"Ändra behörigheter i enhetens appinställningar. Ge E-post åtkomst till Kontakter."</string>
+	<!---->
+	<string name="permission_grant_exit">"Avsluta"</string>
+	<!---->
+	<string name="permission_grant_go_setting">"Inställningar"</string>
+	<!---->
+	<string name="permission_needed_to_save_attachment">"För att spara en bilaga, ge E-post behörighet att komma åt lagring"</string>
+	<!---->
+	<string name="permission_needed_to_add_attachment">"För att lägga till en bilaga, ge E-post behörighet att komma åt lagring"</string>
+	<!---->
+	<string name="permission_needed_to_see_calendar">"För att se i kalender, ge E-post behörighet att komma åt Kalender"</string>
+</resources>

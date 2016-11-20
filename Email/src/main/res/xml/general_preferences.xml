@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2014 Google Inc.
+     Licensed to The Android Open Source Project.
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+| ============================================================================ |
+|      Modifications on Features list / Changes Request / Problems Report      |
+| **************************************************************************** |
+|    date   |        author        |         Key          |      comment       |
+| **********|**********************|**********************|******************* |
+| 04/22/2014|     Chao Zhang       |      FR 631895       |bcc and auto downl- |
+|           |                      |porting from  FR487417|oad remaining       |
+| **********|**********************|**********************|******************* |
+| 09/17/2014|      zhangxian       |      PR-785661       |[Ergo][Email]Some   |
+|           |                      |                      |selection's default |
+|           |                      |                      | status is differe- |
+|           |                      |                      |nt from Ergo        |
+| **********|**********************|**********************|******************* |
+================================================================================
+-->
+<!--
+ ========================================================================================================
+ *HISTORY
+ *
+ *Tag            Date         Author          Description
+ *============== ============ =============== ===========================================================
+ *BUGFIX-855270  2014/12/02   zhaotianyong    [Android5.0][Email] No Always bcc myself option in settings
+ ========================================================================================================
+ -->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:gm="http://schemas.android.com/apk/res-auto" >
+
+    <com.tct.mail.ui.settings.FancySummaryListPreference
+            android:defaultValue="@string/prefDefault_removal_action"
+            android:dialogTitle="@string/prefDialogTitle_removal_action"
+            android:entries="@array/prefEntries_removal_action"
+            android:entryValues="@array/prefValues_removal_action"
+            android:key="removal-action"
+            android:persistent="true"
+            android:title="@string/preference_removal_action_title"
+            gm:entrySummaries="@array/prefSummaries_removal_action_summary" />
+
+    <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="conversation-list-swipe"
+            android:persistent="true"
+            android:summary="@string/preference_swipe_description"
+            android:title="@string/preference_swipe_title_archive" />
+
+    <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="conversation-list-sender-image"
+            android:persistent="true"
+            android:summary="@string/preference_sender_image_description"
+            android:title="@string/preference_sender_image_title" />
+
+    <CheckBoxPreference
+            android:defaultValue="@bool/prefDefault_actionStripActionReplyAll"
+            android:key="default-reply-all"
+            android:persistent="true"
+            android:summary="@string/preferences_default_reply_all_summary"
+            android:title="@string/preferences_default_reply_all_title" />
+
+<!-- // TS: lixiaolin 2014-11-25 EXCHANGE BUGFIX_851924 DEL_S -->
+<!--     <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="conversation-overview-mode"
+            android:persistent="true"
+            android:summary="@string/preferences_conversation_mode_summary"
+            android:title="@string/preferences_conversation_mode_title" />
+ -->
+ <!-- // TS: lixiaolin 2014-11-25 EXCHANGE BUGFIX_851924 DEL_S -->
+
+    <com.tct.mail.ui.settings.FancySummaryListPreference
+            android:defaultValue="@string/prefDefault_autoAdvance"
+            android:dialogTitle="@string/prefDialogTitle_autoAdvance"
+            android:entries="@array/prefEntries_autoAdvance"
+            android:entryValues="@array/prefValues_autoAdvance"
+            android:key="auto-advance-widget"
+            android:persistent="false"
+            android:title="@string/preference_advance_to_title"
+            gm:entrySummaries="@array/prefSummaries_autoAdvance" />
+
+    <PreferenceCategory
+            android:title="@string/preference_header_action_confirmations"
+            android:key="removal-actions-group">
+        <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="confirm-delete"
+                android:persistent="true"
+                android:title="@string/preference_confirm_before_delete_title" />
+        <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="confirm-archive"
+                android:persistent="true"
+                android:title="@string/preference_confirm_before_archive_title" />
+        <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="confirm-send"
+                android:persistent="true"
+                android:title="@string/preference_confirm_before_send_title" />
+    </PreferenceCategory>
+        <!--[FEATURE]-Add-BEGIN by TSCD.chao zhang,04/22/2014,FR 631895(porting from  FR487417)-->
+        <!-- TS: zhaotianyong 2014-12-02 EMAIL BUGFIX_855207 MOD_S -->
+        <CheckBoxPreference
+        android:key="bcc_myself"
+        android:persistent="true"
+        android:defaultValue="false"
+        android:title="@string/always_bcc_myself"
+        android:summary="@string/always_bcc_myself_summary"/>
+        <!-- TS: zhaotianyong 2014-12-02 EMAIL BUGFIX_855207 MOD_E -->
+
+    <!--[BUGFIX]-Mod-BEGIN by TSCD.zhangxian,09/17/2014,PR-785661-->
+    <!--<CheckBoxPreference
+        android:key="auto_download_remaining"
+        android:persistent="true"
+        android:defaultValue="false"
+        android:title="@string/general_preference_auto_download_remaining_label"
+        android:summary="@string/general_preference_auto_download_remaining_summary"
+        android:visibility="gone"/>-->
+    <!--[BUGFIX]-Mod-END by TSCD.zhangxian-->
+    <!--[FEATURE]-Add-END by TSCD.chao zhang-->
+
+</PreferenceScreen>

@@ -1,0 +1,1747 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Tue Sep 20 16:24:06 CST 2016
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="permission_read_attachment_label">"Lettura allegati email"</string>
+	<!---->
+	<string name="permission_read_attachment_desc">"Consente all\'applicazione di leggere gli allegati email."</string>
+	<!---->
+	<string name="permission_access_provider_label">"Accesso ai dati del provider di posta"</string>
+	<!---->
+	<string name="permission_access_provider_desc">"Consente all\'applicazione di accedere al database della tua posta, inclusi i messaggi ricevuti e inviati, i nomi utente e le password."</string>
+	<!---->
+	<string name="debug_title">"Debug"</string>
+	<!---->
+	<string name="next_action">"Avanti"</string>
+	<!---->
+	<string name="okay_action">"OK"</string>
+	<!---->
+	<string name="cancel_action">"Annulla"</string>
+	<!---->
+	<string name="previous_action">"Indietro"</string>
+	<!---->
+	<string name="done_action">"Fine"</string>
+	<!---->
+	<string name="create_action">"Crea nuova"</string>
+	<!---->
+	<string name="quick_responses_empty_view">"Nessuna risposta rapida."</string>
+	<!---->
+	<string name="account_settings_action">"Impostazioni account"</string>
+	<!---->
+	<string name="status_network_error">"Problema di connessione."</string>
+	<plurals name="move_messages">
+		<item quantity="one">"Sposta messaggio"</item>
+		<item quantity="other">"Sposta messaggi"</item>
+	</plurals>
+	<!---->
+	<string name="cannot_move_protocol_not_supported_toast">"Lo spostamento non è supportato negli account POP3."</string>
+	<!---->
+	<string name="cannot_move_multiple_accounts_toast">"Impossibile spostare i messaggi perché la selezione contiene più account."</string>
+	<!---->
+	<string name="cannot_move_special_mailboxes_toast">"Impossibile spostare i messaggi conservati nelle cartelle Bozze, Posta in uscita e Inviati."</string>
+	<!---->
+	<string name="mailbox_name_display_inbox">"Posta in arrivo"</string>
+	<!---->
+	<string name="mailbox_name_display_outbox">"Posta in uscita"</string>
+	<!---->
+	<string name="mailbox_name_display_drafts">"Bozze"</string>
+	<!---->
+	<string name="mailbox_name_display_trash">"Cestino"</string>
+	<!---->
+	<string name="mailbox_name_display_sent">"Inviati"</string>
+	<!---->
+	<string name="mailbox_name_display_junk">"Posta indesiderata"</string>
+	<!---->
+	<string name="mailbox_name_display_starred">"Speciali"</string>
+	<!---->
+	<string name="mailbox_name_display_unread">"Da leggere"</string>
+	<!---->
+	<string name="account_folder_list_summary_inbox">"Posta in arrivo"</string>
+	<!---->
+	<string name="account_folder_list_summary_starred">"Speciali"</string>
+	<!---->
+	<string name="account_folder_list_summary_drafts">"Bozze"</string>
+	<!---->
+	<string name="account_folder_list_summary_outbox">"Posta in uscita"</string>
+	<!---->
+	<string name="mailbox_list_account_selector_combined_view">"Visualizzazione combinata"</string>
+	<!---->
+	<string name="message_compose_fwd_header_fmt">"\n\n"-------- Messaggio originale --------"\n"Oggetto: <xliff:g id="SUBJECT">%1$s</xliff:g>"\n"Da: <xliff:g id="SENDER">%2$s</xliff:g>"\n"A: <xliff:g id="TO">%3$s</xliff:g>"\n"CC: <xliff:g id="CC_0">%4$s</xliff:g>"\n\n"</string>
+	<!---->
+	<string name="message_compose_insert_quick_response_list_title">"Inserisci risposta rapida"</string>
+	<!---->
+	<string name="message_compose_insert_quick_response_menu_title">"Inserisci risposta rapida"</string>
+	<!---->
+	<string name="message_view_attachment_background_load">"Prima dell\'invio verranno scaricati uno o più allegati del messaggio inoltrato."</string>
+	<!---->
+	<string name="attachment_not_found">"Impossibile scaricare l\'allegato."</string>
+	<!---->
+	<string name="message_decode_error">"Si è verificato un errore durante la decodifica del messaggio."</string>
+	<!---->
+	<string name="forward_download_failed_ticker">"Impossibile inoltrare uno o più allegati."</string>
+	<!---->
+	<string name="forward_download_failed_title">"Allegato non inoltrato"</string>
+	<!---->
+	<string name="login_failed_ticker">"Accesso a <xliff:g id="account_name">%s</xliff:g> non riuscito."</string>
+	<!---->
+	<string name="login_failed_title">"Accesso non riuscito"</string>
+	<plurals name="message_view_attachment_bytes">
+		<item quantity="one">"<xliff:g id="SIZE_IN_BYTES">%d</xliff:g> B"</item>
+		<item quantity="other">"<xliff:g id="SIZE_IN_BYTES">%d</xliff:g> B"</item>
+	</plurals>
+	<plurals name="message_view_attachment_kilobytes">
+		<item quantity="one">"<xliff:g id="SIZE_IN_KILOBYTES">%d</xliff:g> kB"</item>
+		<item quantity="other">"<xliff:g id="SIZE_IN_KILOBYTES">%d</xliff:g> kB"</item>
+	</plurals>
+	<plurals name="message_view_attachment_megabytes">
+		<item quantity="one">"<xliff:g id="SIZE_IN_MEGABYTES">%d</xliff:g> MB"</item>
+		<item quantity="other">"<xliff:g id="SIZE_IN_MEGABYTES">%d</xliff:g> MB"</item>
+	</plurals>
+	<plurals name="message_view_attachment_gigabytes">
+		<item quantity="one">"<xliff:g id="SIZE_IN_GIGABYTES">%d</xliff:g> GB"</item>
+		<item quantity="other">"<xliff:g id="SIZE_IN_GIGABYTES">%d</xliff:g> GB"</item>
+	</plurals>
+	<!---->
+	<string name="account_setup_basics_title">"Impostazione account"</string>
+	<!---->
+	<string name="oauth_authentication_title">"Richiesta autorizzazione"</string>
+	<!---->
+	<string name="sign_in_title">"Accesso"</string>
+	<!---->
+	<string name="oauth_error_description">"Impossibile eseguire l\'autenticazione"</string>
+	<!---->
+	<string name="password_warning_label">"Errore in indirizzo e-mail o password"</string>
+	<!---->
+	<string name="email_confirmation_label">"Indirizzo email"</string>
+	<!---->
+	<string name="account_setup_basics_headline">"Account email"</string>
+	<!---->
+	<string name="accounts_welcome">"Puoi configurare un account con pochi passaggi."</string>
+	<!---->
+	<string name="account_setup_basics_email_label">"Indirizzo email"</string>
+	<!---->
+	<string name="account_setup_basics_email_flying_label">"E-mail"</string>
+	<!---->
+	<string name="or_label">"OPPURE"</string>
+	<!---->
+	<string name="sign_in_with_google">"Accedi con Google"</string>
+	<!---->
+	<string name="account_setup_basics_password_label">"Password"</string>
+	<!---->
+	<string name="password_hint">"Password"</string>
+	<!---->
+	<string name="signed_in_with_service_label">"Accesso effettuato con %s"</string>
+	<!---->
+	<string name="authentication_label">"AUTENTICAZIONE"</string>
+	<!---->
+	<string name="add_authentication_label">"Aggiungi autenticazione"</string>
+	<!---->
+	<string name="clear_authentication_label">"Cancella autenticazione"</string>
+	<!---->
+	<string name="account_setup_basics_manual_setup_action">"Config. manual"</string>
+	<!---->
+	<string name="account_setup_username_password_toast">"Digita un indirizzo email e una password validi."</string>
+	<!---->
+	<string name="account_duplicate_dlg_title">"Duplica account"</string>
+	<!---->
+	<string name="account_duplicate_dlg_message_fmt">"Questo nome utente è già in uso per l\'account \"<xliff:g id="duplicate">%s</xliff:g>\"."</string>
+	<!---->
+	<string name="account_password_spaces_error">"Questa password inizia o termina con uno o più spazi. Molti server non supportano le password contenenti spazi."</string>
+	<!---->
+	<string name="account_setup_check_settings_retr_info_msg">"Recupero info sull\'account in corso…"</string>
+	<!---->
+	<string name="account_setup_check_settings_check_incoming_msg">"Convalida impostazioni server in corso..."</string>
+	<!---->
+	<string name="account_setup_check_settings_check_outgoing_msg">"Convalida impostazioni SMTP in corso..."</string>
+	<!---->
+	<string name="account_setup_creating_account_msg">"Creazione account in corso..."</string>
+	<!---->
+	<string name="account_setup_ab_headline">"Conferma tipo account"</string>
+	<!---->
+	<string name="account_setup_ab_instructions_format">"È stato indicato che <xliff:g id="email">%1$s</xliff:g> utilizza <xliff:g id="userProtocol">%2$s</xliff:g>, ma l\'account potrebbe utilizzare <xliff:g id="providerProtocol">%3$s</xliff:g>"</string>
+	<!---->
+	<string name="account_setup_names_title">"Impostazione account"</string>
+	<!---->
+	<string name="account_setup_names_headline">"L\'account è stato impostato e l\'e-mail sarà presto disponibile."</string>
+	<!---->
+	<string name="account_setup_names_account_name_label">"Assegna nome account"</string>
+	<!---->
+	<string name="account_setup_names_user_name_label">"Nome utente"</string>
+	<!---->
+	<string name="account_setup_names_user_name_empty_error">"Questo campo non può essere vuoto."</string>
+	<!---->
+	<string name="account_setup_account_type_title">"Impostazione account"</string>
+	<!---->
+	<string name="account_setup_account_type_headline">"Tipo di account"</string>
+	<!---->
+	<string name="account_setup_account_type_instructions">"Di quale tipo di account si tratta?"</string>
+	<!---->
+	<string name="account_setup_incoming_title">"Impostazione account"</string>
+	<!---->
+	<string name="account_setup_incoming_headline">"Impostazioni server Posta in arrivo"</string>
+	<!---->
+	<string name="account_setup_incoming_username_label">"Nome utente"</string>
+	<!---->
+	<string name="account_setup_incoming_password_label">"Password"</string>
+	<!---->
+	<string name="account_setup_password_subheading">"Password"</string>
+	<!---->
+	<string name="account_setup_incoming_server_label">"Server"</string>
+	<!---->
+	<string name="account_setup_incoming_port_label">"Porta"</string>
+	<!---->
+	<string name="account_setup_incoming_security_label">"Tipo di protezione"</string>
+	<!---->
+	<string name="account_setup_incoming_domain_label">"Dominio"</string>
+	<!---->
+	<string name="account_setup_incoming_add_domain_label">"Aggiungi dominio"</string>
+	<!---->
+	<string name="account_setup_incoming_security_none_label">"Nessuna"</string>
+	<!---->
+	<string name="account_setup_incoming_security_ssl_trust_certificates_label">"SSL/TLS (Accetta tutti i certificati)"</string>
+	<!---->
+	<string name="account_setup_incoming_security_ssl_label">"SSL/TLS"</string>
+	<!---->
+	<string name="account_setup_incoming_security_tls_trust_certificates_label">"STARTTLS (Accetta tutti i certificati)"</string>
+	<!---->
+	<string name="account_setup_incoming_security_tls_label">"STARTTLS"</string>
+	<!---->
+	<string name="account_setup_incoming_delete_policy_label">"Elimina email da server"</string>
+	<!---->
+	<string name="account_setup_incoming_delete_policy_never_label">"Mai"</string>
+	<!---->
+	<string name="account_setup_incoming_delete_policy_delete_label">"Elimina da Posta in arrivo"</string>
+	<!---->
+	<string name="account_setup_incoming_imap_path_prefix_label">"Prefisso percorso IMAP"</string>
+	<!---->
+	<string name="account_setup_incoming_imap_path_prefix_hint">"Facoltativo"</string>
+	<!---->
+	<string name="account_setup_outgoing_title">"Impostazione account"</string>
+	<!---->
+	<string name="account_setup_outgoing_headline">"Impostazioni server Posta in uscita"</string>
+	<!---->
+	<string name="account_setup_outgoing_smtp_server_label">"Server SMTP"</string>
+	<!---->
+	<string name="account_setup_outgoing_port_label">"Porta"</string>
+	<!---->
+	<string name="account_setup_outgoing_security_label">"Tipo di protezione"</string>
+	<!---->
+	<string name="account_setup_outgoing_require_login_label">"Richiede accesso"</string>
+	<!---->
+	<string name="account_setup_outgoing_username_label">"Nome utente"</string>
+	<!---->
+	<string name="account_setup_outgoing_password_label">"Password"</string>
+	<!---->
+	<string name="account_setup_exchange_certificate_title">"Certificato client"</string>
+	<!---->
+	<string name="account_setup_exchange_select_certificate">"Seleziona"</string>
+	<!---->
+	<string name="account_setup_exchange_use_certificate">"Usa certificato client"</string>
+	<!---->
+	<string name="account_setup_exchange_remove_certificate">"Rimuovi"</string>
+	<!---->
+	<string name="account_setup_exchange_no_certificate">"Nessuno"</string>
+	<!---->
+	<string name="account_setup_exchange_device_id_label">"ID dispositivo mobile"</string>
+	<!---->
+	<string name="account_setup_options_title">"Impostazioni account"</string>
+	<!---->
+	<string name="account_setup_options_headline">"Opzioni account"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_label">"Sincr. frequenza"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_never">"Mai"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_push">"Automatico (push)"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_5min">"Ogni 5 minuti"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_10min">"Ogni 10 minuti"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_15min">"Ogni 15 minuti"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_30min">"Ogni 30 minuti"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_1hour">"Ogni ora"</string>
+	<!---->
+	<string name="account_setup_options_notify_label">"Avvisami all\'arrivo di e-mail"</string>
+	<!---->
+	<string name="account_setup_options_sync_contacts_label">"Sincronizza contatti da questo account."</string>
+	<!---->
+	<string name="account_setup_options_sync_calendar_label">"Sincronizzare l\'agenda da questo account."</string>
+	<!---->
+	<string name="account_setup_options_sync_email_label">"Sincronizza le email da questo account."</string>
+	<!---->
+	<string name="account_setup_options_background_attachments_label">"Scarica allegati automaticamente quando connesso a Wi-Fi"</string>
+	<!---->
+	<string name="account_setup_failed_dlg_title">"Imposs terminare l\'operaz"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_label">"Sincronizza e-mail da"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_auto">"Automatiche"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1day">"Ultimo giorno"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_3days">"Ultimi tre giorni"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1week">"Ultima settimana"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_2weeks">"Ultime due settimane"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1month">"Ultimo mese"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_all">"Tutto"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_default">"Utilizza l\'account predefinito"</string>
+	<!---->
+	<string name="account_setup_failed_dlg_auth_message">"Password o nome utente errato."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_auth_message_fmt">"Accesso non riuscito.\n(<xliff:g id="error">%s</xliff:g>)"</string>
+	<!---->
+	<string name="account_setup_autodiscover_dlg_authfail_title">"Problema di configurazione account"</string>
+	<!---->
+	<string name="account_setup_autodiscover_dlg_authfail_message">"Verificare la correttezza di nome utente, password e impostazioni account."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_certificate_message">"Impossibile connettersi al server poiché il certificato non è sicuro o valido."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_certificate_message_fmt">"Impossibile connettersi in modo sicuro al server.\n(<xliff:g id="ERROR">%s</xliff:g>)"</string>
+	<!---->
+	<string name="account_setup_failed_certificate_required">"È necessario un certificato client. Vuoi connetterti al server con un certificato client?"</string>
+	<!---->
+	<string name="account_setup_failed_certificate_inaccessible">"Certificato non valido o non accessibile."</string>
+	<!---->
+	<string name="account_setup_failed_check_credentials_message">"Il server ha risposto con un errore. Verificare nome utente e password, quindi riprovare."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_server_message">"Impossibile connettersi al server."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_server_message_fmt">"Impossibile connettersi al server.\n(<xliff:g id="ERROR">%s</xliff:g>)"</string>
+	<!---->
+	<string name="account_setup_failed_tls_required">"TLS richiesto ma non supportato dal server."</string>
+	<!---->
+	<string name="account_setup_failed_auth_required">"I metodi di autenticazione non sono supportati dal server."</string>
+	<!---->
+	<string name="account_setup_failed_security">"Impossibile stabilire la connessione al server a causa di un errore di sicurezza."</string>
+	<!---->
+	<string name="account_setup_failed_ioerror">"Impossibile stabilire la connessione al server."</string>
+	<!---->
+	<string name="account_setup_failed_protocol_unsupported">"Hai digitato l\'indirizzo di un server sbagliato o il server richiede una versione di protocollo non supportata da Email."</string>
+	<!---->
+	<string name="account_setup_failed_access_denied">"Non sei autorizzato a effettuare la sincronizzazione con questo server. Contatta l\'amministratore del server per ulteriori informazioni."</string>
+	<!---->
+	<string name="account_setup_security_required_title">"Amministrazione sicurezza remota"</string>
+	<!---->
+	<string name="account_setup_security_policies_required_fmt">"Il server <xliff:g id="SERVER">%s</xliff:g> richiede che tu consenta il controllo remoto di alcune funzionalità di sicurezza del tuo dispositivo Android. Completare la configurazione dell\'account?"</string>
+	<!---->
+	<string name="account_setup_failed_security_policies_unsupported">"Il server richiede funzioni di sicurezza non supportate dal tuo dispositivo Android, fra cui: <xliff:g id="ERROR">%s</xliff:g>"</string>
+	<!---->
+	<string name="account_setup_username_uneditable_error">"Non è possibile modificare il nome utente di un account. Per aggiungere un account con un altro nome utente, tocca Aggiungi account."</string>
+	<!---->
+	<string name="disable_admin_warning">"AVVISO: la disattivazione dell\'autorità dell\'applicazione E-mail di amministrare il dispositivo dell\'utente, eliminerà tutti gli account di posta elettronica che necessitano tale autorità, oltre alle e-mail, i contatti, gli eventi del calendario e gli altri dati."</string>
+	<!---->
+	<string name="account_security_dialog_title">"Aggiornamento sicurezza"</string>
+	<!---->
+	<string name="account_security_dialog_content_fmt">"<xliff:g id="ACCOUNT">%s</xliff:g> richiede l\'aggiornamento delle impostazioni di sicurezza."</string>
+	<!---->
+	<string name="security_unsupported_ticker_fmt">"In base ai requisiti sulla sicurezza, non è possibile sincronizzare l\'account \"<xliff:g id="account">%s</xliff:g>\"."</string>
+	<!---->
+	<string name="security_needed_ticker_fmt">"L\'account \"<xliff:g id="account">%s</xliff:g>\" richiede l\'aggiornamento delle impostazioni di sicurezza."</string>
+	<!---->
+	<string name="security_changed_ticker_fmt">"Le impostazioni sulla sicurezza relative all\'account \"<xliff:g id="account">%s</xliff:g>\" sono state modificate; non è necessaria alcuna azione da parte dell\'utente."</string>
+	<!---->
+	<string name="security_notification_content_update_title">"Aggiornamento sicurezza richiesto"</string>
+	<!---->
+	<string name="security_notification_content_change_title">"I criteri sulla sicurezza sono stati modificati"</string>
+	<!---->
+	<string name="security_notification_content_unsupported_title">"Impossibile soddisfare i criteri sulla sicurezza"</string>
+	<!---->
+	<string name="account_security_title">"Sicurezza dispositivo"</string>
+	<!---->
+	<string name="account_security_policy_explanation_fmt">"Il server <xliff:g id="SERVER">%s</xliff:g> richiede che tu consenta il controllo remoto di alcune funzionalità di sicurezza del tuo dispositivo Android."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_edit_details_action">"Modifica dettagli"</string>
+	<!---->
+	<string name="password_expire_warning_ticker_fmt">"\"<xliff:g id="ACCOUNT">%s</xliff:g>\" richiede la modifica del PIN o della password di blocco dello schermo."</string>
+	<!---->
+	<string name="password_expire_warning_content_title">"Password blocco schermo in scadenza"</string>
+	<!---->
+	<string name="password_expired_ticker">"Il PIN o la password di blocco dello schermo sono scaduti."</string>
+	<!---->
+	<string name="password_expired_content_title">"Password blocco schermo scaduta"</string>
+	<!---->
+	<string name="password_expire_warning_dialog_title">"Password blocco schermo in scadenza"</string>
+	<!---->
+	<string name="password_expire_warning_dialog_content_fmt">"È necessario modificare il PIN o la password di blocco dello schermo a breve altrimenti i dati relativi a <xliff:g id="account">%s</xliff:g> verranno cancellati. Modificare adesso?"</string>
+	<!---->
+	<string name="password_expired_dialog_title">"Password blocco schermo scaduta"</string>
+	<!---->
+	<string name="password_expired_dialog_content_fmt">"È in corso la cancellazione dei dati per <xliff:g id="account">%s</xliff:g> dal dispositivo. È possibile ripristinare cambiando il PIN o la password di blocco schermo. Modificare adesso?"</string>
+	<!---->
+	<string name="account_settings_exit_server_settings">"Ignorare le modifiche non salvate?"</string>
+	<!---->
+	<string name="account_settings_login_dialog_title">"Impossibile accedere"</string>
+	<!---->
+	<string name="account_settings_login_dialog_content_fmt">"Il nome utente o la password per <xliff:g id="ACCOUNT">%s</xliff:g> non sono corretti. Aggiornarli ora?"</string>
+	<!---->
+	<string name="account_settings_login_dialog_reason_fmt">"Accesso a <xliff:g id="account">%s</xliff:g> non riuscito; il server ha riportato: <xliff:g id="reason">%s</xliff:g> Aggiornare nome utente e/o password?"</string>
+	<!---->
+	<string name="account_settings_background_attachments_label">"Scarica allegati"</string>
+	<!---->
+	<string name="account_settings_background_attachments_summary">"Scarica automaticamente allegati messaggi recenti tramite Wi-Fi"</string>
+	<!---->
+	<string name="account_settings_notify_label">"Notifiche email"</string>
+	<!---->
+	<string name="account_settings_summary">"Frequenza sincronizzazione, notifiche e altro."</string>
+	<!---->
+	<string name="account_settings_notify_summary">"Invia notifica all\'arrivo di e-mail"</string>
+	<!---->
+	<string name="account_settings_mail_check_frequency_label">"Sincr. frequenza"</string>
+	<!---->
+	<string name="account_settings_incoming_label">"Imposta posta in arrivo"</string>
+	<!---->
+	<string name="account_settings_incoming_summary">"Nome utente, password e altre impostazioni server in entrata"</string>
+	<!---->
+	<string name="account_settings_outgoing_label">"Impostazioni posta in uscita"</string>
+	<!---->
+	<string name="account_settings_outgoing_summary">"Nome utente, password e altre impostazioni server in uscita"</string>
+	<!---->
+	<string name="account_settings_reply_to_category">"Impostazioni di risposta"</string>
+	<!---->
+	<string name="account_settings_reply_to_label">"Rispondi a"</string>
+	<!---->
+	<string name="account_settings_reply_to_invalid">"Indirizzo non valido"</string>
+	<!---->
+	<string name="account_settings_enforced_label">"Criteri vigenti"</string>
+	<!---->
+	<string name="account_settings_enforced_summary">"Nessuna"</string>
+	<!---->
+	<string name="account_settings_unsupported_label">"Criteri non supportati"</string>
+	<!---->
+	<string name="account_settings_unsupported_summary">"Nessuna"</string>
+	<!---->
+	<string name="account_settings_retry_label">"Tentativo di sincronizzazione"</string>
+	<!---->
+	<string name="account_settings_retry_summary">"Toccare qui per sincronizzare questo account"</string>
+	<!---->
+	<string name="account_settings_description_label">"Nome account"</string>
+	<!---->
+	<string name="account_settings_name_label">"Nome"</string>
+	<!---->
+	<string name="account_settings_edit_quick_responses_label">"Risposte rapide"</string>
+	<!---->
+	<string name="account_settings_edit_quick_responses_summary">"Modifica il testo che inserisci spesso quando componi le email"</string>
+	<!---->
+	<string name="account_settings_notifications">"Impostazioni notifica"</string>
+	<!---->
+	<string name="account_settings_data_usage">"Utilizzo dati"</string>
+	<!---->
+	<string name="account_settings_policies">"Criteri sulla sicurezza"</string>
+	<!---->
+	<string name="system_folders_title">"Cartelle di sistema"</string>
+	<!---->
+	<string name="system_folders_trash_title">"Cartella cestino"</string>
+	<!---->
+	<string name="system_folders_trash_summary">"Selezionare la cartella cestino del server"</string>
+	<!---->
+	<string name="system_folders_trash_dlg">"Selezionare la cartella cestino del server"</string>
+	<!---->
+	<string name="system_folders_sent_title">"Cartella elementi inviati"</string>
+	<!---->
+	<string name="system_folders_sent_summary">"Selezionare la cartella elementi inviati del server"</string>
+	<!---->
+	<string name="system_folders_sent_dlg">"Selezionare la cartella elementi inviati del server"</string>
+	<!---->
+	<string name="edit_quick_response_dialog">"Risposta rapida"</string>
+	<!---->
+	<string name="save_action">"Salva"</string>
+	<!---->
+	<string name="account_settings_sync_contacts_enable">"Sincronizza contatti"</string>
+	<!---->
+	<string name="account_settings_sync_contacts_summary">"Sincronizza i contatti per questo account"</string>
+	<!---->
+	<string name="account_settings_sync_calendar_enable">"Sincronizza agenda"</string>
+	<!---->
+	<string name="account_settings_sync_calendar_summary">"Sincronizza eventi calendario per questo account"</string>
+	<!---->
+	<string name="account_settings_sync_email_enable">"Sincronizza email"</string>
+	<!---->
+	<string name="account_settings_sync_email_summary">"Sincronizza le email per questo account"</string>
+	<!---->
+	<string name="account_settings_vibrate_when_label">"Vibrazione"</string>
+	<!---->
+	<string name="account_settings_ringtone">"Seleziona suoneria"</string>
+	<!---->
+	<string name="account_settings_servers">"Impostazioni server"</string>
+	<!---->
+	<string name="default_ringtone">"Suoneria predefinita"</string>
+	<!---->
+	<string name="default_ringtone_unkonwn">"Suoneria sconosciuta"</string>
+	<!---->
+	<string name="mailbox_settings_activity_title">"Opzioni di sincronizzazione"</string>
+	<!---->
+	<string name="mailbox_settings_activity_title_with_mailbox">"Opzioni di sincronizzazione (<xliff:g id="MAILBOXX_NAME">%s</xliff:g>)"</string>
+	<!---->
+	<string name="mailbox_settings_sync_enabled_label">"Sincronizza cartella"</string>
+	<!---->
+	<string name="mailbox_settings_sync_enabled_summary">"I messaggi verranno scaricati alla connessione."</string>
+	<!---->
+	<string name="mailbox_settings_mailbox_sync_window_label">"Giorni delle e-mail da sincronizzare"</string>
+	<!---->
+	<string name="prefDialogTitle_conversationListIcon">"Immagine mittente"</string>
+	<!---->
+	<string name="provider_note_live">"Solo alcuni account \"Plus\" includono l\'accesso POP che consente la connessione del programma. Se non riesci ad accedere con l\'indirizzo email e la password corretti, potresti non disporre di un account \"Plus\" a pagamento. Avvia il browser web per avere accesso a questi account email."</string>
+	<!---->
+	<string name="provider_note_t_online">"Prima di configurare questo account email, visita il sito web T-Online e crea una password per l\'accesso email POP3."</string>
+	<!---->
+	<string name="exchange_name">"Aziendale"</string>
+	<!---->
+	<string name="exchange_name_alternate">"Microsoft Exchange ActiveSync"</string>
+	<!---->
+	<string name="system_account_create_failed">"Impossibile creare l\'account. Riprova."</string>
+	<!---->
+	<string name="device_admin_label">"E-mail"</string>
+	<!---->
+	<string name="device_admin_description">"Attiva criteri di sicurezza specifici del server"</string>
+	<!---->
+	<string name="settings_activity_title">"Impostazioni"</string>
+	<!---->
+	<string name="header_label_general_preferences">"Impostaz generali"</string>
+	<!---->
+	<string name="general_preference_confirm_delete_label">"Conf prima di eliminare"</string>
+	<!---->
+	<string name="general_preference_confirm_send_label">"Chiedi confer. prima di inviare"</string>
+	<!---->
+	<string name="more_than_999">"999+"</string>
+	<!---->
+	<string name="search_hint">"Cerca"</string>
+	<!---->
+	<string name="policy_dont_allow_camera">"Non consentire l\'uso della fotocamera del dispositivo"</string>
+	<!---->
+	<string name="policy_require_password">"Richiedere password del dispositivo"</string>
+	<!---->
+	<string name="policy_password_history">"Limitare l\'uso delle password recenti"</string>
+	<!---->
+	<string name="policy_password_expiration">"Richiedere una scadenza per le password"</string>
+	<!---->
+	<string name="policy_screen_timeout">"Richiedere il blocco dello schermo di un dispositivo che non è in uso"</string>
+	<!---->
+	<string name="policy_calendar_age">"Limita numero di eventi calendario sincronizzati"</string>
+	<!---->
+	<string name="policy_email_age">"Limita numero di email sincronizzate"</string>
+	<!---->
+	<string name="quick_1">"Grazie!"</string>
+	<!---->
+	<string name="quick_2">"Va bene per me!"</string>
+	<!---->
+	<string name="quick_3">"Lo leggerò più tardi e ti farò sapere."</string>
+	<!---->
+	<string name="quick_4">"Organizziamo una riunione per parlarne."</string>
+	<!---->
+	<string name="require_manual_sync_message">"Sincronizzazione dello sfondo per questo account disattivata durante il roaming."</string>
+	<!---->
+	<string name="confirm_response">"Invio risposta in corso..."</string>
+	<!---->
+	<string name="no_conversations">"Nessun messaggio."</string>
+	<!-- no translation found for imap_name -->
+	<skip />
+	<!-- no translation found for pop3_name -->
+	<skip />
+	<!---->
+	<string name="email_name">"Email"</string>
+	<!---->
+	<string name="folder_picker_title">"Finestra di selezione cartelle"</string>
+	<!---->
+	<string name="trash_folder_selection_title">"Selezionare la cartella del cestino del server per <xliff:g id="account">%s</xliff:g>"</string>
+	<!---->
+	<string name="sent_folder_selection_title">"Selez. cartella posta inviata server (<xliff:g id="ACCOUNT">%s</xliff:g>)"</string>
+	<!---->
+	<string name="account_waiting_for_folders_msg">"Caricamento elenco cartelle in corso..."</string>
+	<!---->
+	<string name="no_quick_responses">"Nessuno disponibile"</string>
+	<!---->
+	<string name="gmail_name">"Gmail"</string>
+	<!---->
+	<string name="folder_sync_settings_pref_title">"Impostazioni sincronizzazione cartella"</string>
+	<!---->
+	<string name="select_your_account">"Seleziona account"</string>
+	<!---->
+	<string name="select_account_list_below">"Selezionare l\'account dall\'elenco riportato di seguito:"</string>
+	<!---->
+	<string name="cancel_label">"Annulla"</string>
+	<!---->
+	<string name="next_label">"Avanti"</string>
+	<!---->
+	<string name="str_account_provider_other">"Altro"</string>
+	<!---->
+	<string name="account_settings_download_options_label">"Opzioni di download"</string>
+	<!---->
+	<string name="account_setting_download_opt_headonly">"Solo intestazione"</string>
+	<!---->
+	<string name="account_setting_download_opt_all">"Tutte"</string>
+	<!---->
+	<string name="account_setting_download_opt_2k">"2 K"</string>
+	<!---->
+	<string name="account_setting_download_opt_5k">"5 K"</string>
+	<!---->
+	<string name="account_setting_download_opt_10k">"10 K"</string>
+	<!---->
+	<string name="account_setting_download_opt_20k">"20 K"</string>
+	<!---->
+	<string name="account_setting_download_opt_50k">"50 K"</string>
+	<!---->
+	<string name="account_setting_download_opt_100k">"100 K"</string>
+	<!---->
+	<string name="account_oof_error_tip_past">"L\'ora di fine non può essere nel passato. Modificare l\'ora di fine su un\'ora futura."</string>
+	<!---->
+	<string name="account_oof_error_tip_earlier">"L\'ora di fine non può essere precedente a quella di inizio. Modificare nuovamente l\'ora di fine."</string>
+	<!---->
+	<string name="account_setting_oof_label">"Impostazioni se fuori sede"</string>
+	<!---->
+	<string name="oof_auto_repley">"Invia risposta automatica non in sede"</string>
+	<!---->
+	<string name="oof_auto_replies_period">"Invia risposte automatiche durante questo periodo"</string>
+	<!---->
+	<string name="start_time">"Ora di inizio"</string>
+	<!---->
+	<string name="end_time">"Ora di fine"</string>
+	<!---->
+	<string name="internal_message">"Messaggio interno"</string>
+	<!---->
+	<string name="oof_auto_replies_external_senders">"Invia risposte automatiche ai mittenti esterni"</string>
+	<!---->
+	<string name="oof_choice_oof_in_contacts">"Invia risposte automatiche se fuori sede a mittenti presenti nella lista dei contatti dell\'utente"</string>
+	<!---->
+	<string name="oof_choice_oof_outside_organisation">"Invia risposte automatiche se fuori sede a mittenti esterni all\'organizzazione"</string>
+	<!---->
+	<string name="external_message">"Messaggio esterno"</string>
+	<!---->
+	<string name="oof_done_message_attention">"Non è stato specificato un messaggio di risposta automatica per le persone dell\'azienda. Se non viene immesso un messaggio quando non in sede, le persone non riceveranno alcuna notifica di questo tipo. Tuttavia, le regole relative ai messaggi quando non in sede personali continueranno a funzionare. Continuare?"</string>
+	<!---->
+	<string name="oof_choice_in_contacts">"Invia ai mittenti compresi nell\'elenco dei miei contatti"</string>
+	<!---->
+	<string name="oof_choice_all_senders">"Invia a tutti i mittenti"</string>
+	<!---->
+	<string name="hint_text_of_internal_message">"Rispondi agli indirizzi interni all\'organizzazione"</string>
+	<!---->
+	<string name="hint_text_of_external_message">"Rispondere agli indirizzi esterni all\'organizzazione"</string>
+	<!---->
+	<string name="account_delete_dlg_title">"Rimuovere l\'account?"</string>
+	<!---->
+	<string name="account_delete_dlg_instructions_fmt">"L\'account \"<xliff:g id="ACCOUNT">%s</xliff:g>\" verrà rimosso da Email."</string>
+	<!---->
+	<string name="account_delete_dlg_instructions_fmt_new">"La rimozione di questo account comporterà l\'eliminazione di tutti i relativi messaggi, contatti e altri dati dal telefono."</string>
+	<!---->
+	<string name="account_delete_dlg_action_remove_label">"Rimuovi"</string>
+	<!---->
+	<string name="account_delete_dlg_action_cancel_label">"Annulla"</string>
+	<!---->
+	<string name="account_settings_category_delete_account">"Rimuovi account"</string>
+	<!---->
+	<string name="account_settings_delete_account_label">"Rimuovi account"</string>
+	<!---->
+	<string name="account_settings_default_label">"Account predefinito"</string>
+	<!---->
+	<string name="account_settings_default_summary">"Invia email da questo account per impostazione predefinita"</string>
+	<!---->
+	<string name="account_setup_options_default_label">"Invia email da questo account per impostazione predefinita."</string>
+	<!---->
+	<string name="account_setup_basics_default_label">"Invia email da questo account per impostazione predefinita."</string>
+	<!---->
+	<string name="local_search_action">"Cerca nella rete locale"</string>
+	<!---->
+	<string name="service_search_action">"Cerca nel server"</string>
+	<!---->
+	<string name="local_search_all">"Tutte"</string>
+	<!---->
+	<string name="local_search_from">"Da"</string>
+	<!---->
+	<string name="local_search_to">"A"</string>
+	<!---->
+	<string name="local_search_subject">"Oggetto"</string>
+	<!---->
+	<string name="status_loading_attachments">"Caricamento"</string>
+	<!---->
+	<string name="account_use_proxy_label">"Utilizza proxy"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_label">"IP Proxy"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_port_label">"Porta Proxy"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_name">"Nome proxy"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_password">"Password proxy"</string>
+	<!---->
+	<string name="attachment_info_dialog_wifi_title">"Connessione Wi-Fi richiesta"</string>
+	<!---->
+	<string name="attachment_info_wifi_settings">"Impostazioni Wi-Fi"</string>
+	<!---->
+	<string name="attachment_info_wifi_only">"Questo allegato è troppo grande per il download su una rete mobile. Puoi scaricarlo la prossima volta che ti connetti a una rete Wi-Fi."</string>
+	<!---->
+	<string name="attachment_info_ok">"OK"</string>
+	<!---->
+	<string name="mailbox_name_display_draft">"Bozza"</string>
+	<!---->
+	<string name="message_compose_display_name">"<xliff:g id="NAME">%1$s</xliff:g> e <xliff:g id="NUMBER">%2$d</xliff:g> altri"</string>
+	<!---->
+	<string name="app_name">"E-mail"</string>
+	<!---->
+	<string name="from">"Da"</string>
+	<!---->
+	<string name="to">"A"</string>
+	<!---->
+	<string name="cc">"Cc"</string>
+	<!---->
+	<string name="bcc">"Ccn"</string>
+	<!---->
+	<string name="subject_hint">"Oggetto"</string>
+	<!---->
+	<string name="body_hint">"Scrivi email"</string>
+	<!---->
+	<string name="add_file_attachment">"Allega file"</string>
+	<!---->
+	<string name="add_photo_attachment">"Allega immagine"</string>
+	<!---->
+	<string name="save_draft">"Salva bozza"</string>
+	<!---->
+	<string name="discard">"Ignora"</string>
+	<!---->
+	<string name="compose">"Scrivi"</string>
+	<!---->
+	<string name="select_contacts_field">"Selezionare i contatti da"</string>
+	<!---->
+	<string name="item_save_group">"Salvare il gruppo"</string>
+	<!---->
+	<string name="confirm_select">"Seleziona"</string>
+	<!---->
+	<string name="cancel_select">"Annulla"</string>
+	<string-array name="compose_modes">
+		<item>"Rispondi"</item>
+		<item>"Rispondi a tutti"</item>
+		<item>"Inoltra"</item>
+	</string-array>
+	<string-array name="compose_modes_without_reply_all">
+		<item>"Rispondi"</item>
+		<item>"Inoltra"</item>
+	</string-array>
+	<!---->
+	<string name="reply_subject_label">"Re:"</string>
+	<!---->
+	<string name="forward_subject_label">"I:"</string>
+	<!---->
+	<string name="reply_attribution">"il <xliff:g id="date">%s</xliff:g>, <xliff:g id="person">%s</xliff:g> ha scritto:"</string>
+	<!---->
+	<string name="forward_attribution">"---------- Messaggio inoltrato ----------；Da:；Data:；Oggetto:；A:"</string>
+	<!---->
+	<string name="forward_attribution_with_headers">"---------- Messaggio inoltrato ---------- <xliff:g id="a">%s</xliff:g> Da:  <xliff:g id="from">%s</xliff:g> <xliff:g id="b">%s</xliff:g> Data:  <xliff:g id="date">%s</xliff:g> <xliff:g id="c">%s</xliff:g> Oggetto:  <xliff:g id="subject">%s</xliff:g> <xliff:g id="d">%s</xliff:g> A:  <xliff:g id="to">%s</xliff:g> <xliff:g id="e">%s</xliff:g> Cc:  <xliff:g id="cc">%s</xliff:g> <br/>"</string>
+	<!---->
+	<string name="forward_attribution_no_headers">"---------- Messaggio inoltrato ----------"</string>
+	<!---->
+	<string name="cc_attribution">"Cc:"</string>
+	<!---->
+	<string name="select_attachment_type">"Scegli tipo di allegato"</string>
+	<!---->
+	<string name="too_large_to_attach_single">"Impossibile allegare un file con dimensioni superiori a %1$s"</string>
+	<!---->
+	<string name="too_large_to_attach_multiple">"Uno o più file non allegati. Limite <xliff:g id="maxSize">%1$s</xliff:g>."</string>
+	<!---->
+	<string name="too_large_to_mid_attach_additional">"Email maggiore di <xliff:g id="maxSize">%1$s</xliff:g>. Il vostro account email potrebbe non supportarlo."</string>
+	<!---->
+	<string name="too_large_to_attach_additional">"File non allegato. Limite di <xliff:g id="maxSize">%1$s</xliff:g> raggiunto."</string>
+	<!---->
+	<string name="generic_attachment_problem">"Impossibile allegare file."</string>
+	<!---->
+	<string name="recipient_needed">"Aggiungere almeno un destinatario."</string>
+	<!---->
+	<string name="recipient_error_dialog_title">"Errore destinatario"</string>
+	<!---->
+	<string name="confirm_send_title">"Inviare messaggio?"</string>
+	<!---->
+	<string name="confirm_send_message_with_no_subject">"Non è presente alcun testo nell\'oggetto del messaggio"</string>
+	<!---->
+	<string name="confirm_send_message_with_no_body">"Non è presente alcun testo nel corpo del messaggio."</string>
+	<!---->
+	<string name="confirm_send_message">"Inviare questo messaggio?"</string>
+	<!---->
+	<string name="message_discarded">"Messaggio eliminato."</string>
+	<!-- no translation found for signature -->
+	<skip />
+	<!---->
+	<string name="custom_from_account_label">"Invia messaggio come:"</string>
+	<!---->
+	<string name="send">"Invia"</string>
+	<!---->
+	<string name="mark_read">"Segna "letto""</string>
+	<!---->
+	<string name="mark_unread">"Da leggere"</string>
+	<!---->
+	<string name="mute">"No audio"</string>
+	<!---->
+	<string name="add_star">"Aggiungi a Speciali"</string>
+	<!---->
+	<string name="remove_star">"Cancella da Speciali"</string>
+	<!---->
+	<string name="remove_folder">"Rimuovi da <xliff:g id="folderName">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="archive">"Archivio"</string>
+	<!---->
+	<string name="report_spam">"Segnala posta indesiderata"</string>
+	<!---->
+	<string name="mark_not_spam">"Segnala: Non è posta indesiderata"</string>
+	<!---->
+	<string name="report_phishing">"Segnala phishing"</string>
+	<!---->
+	<string name="delete">"Elimina"</string>
+	<!---->
+	<string name="discard_drafts">"Ignora bozze"</string>
+	<!---->
+	<string name="discard_failed">"Rimozione non riuscita"</string>
+	<!---->
+	<string name="refresh">"Aggiorna"</string>
+	<!---->
+	<string name="reply">"Rispondi"</string>
+	<!---->
+	<string name="reply_all">"Rispondi a tutti"</string>
+	<!---->
+	<string name="resume_draft">"Modifica"</string>
+	<!---->
+	<string name="forward">"Inoltra"</string>
+	<!---->
+	<string name="menu_compose">"Scrivi"</string>
+	<!---->
+	<string name="menu_sort">"Ordina"</string>
+	<!---->
+	<string name="menu_change_folders">"Modifica cartelle"</string>
+	<!---->
+	<string name="menu_move_to">"Sposta in"</string>
+	<!---->
+	<string name="menu_move_to_inbox">"Sposta in Posta in arrivo"</string>
+	<!---->
+	<string name="menu_manage_folders">"Impostazioni cartella"</string>
+	<!---->
+	<string name="menu_show_original">"Inverti dimens. autom."</string>
+	<!---->
+	<string name="menu_settings">"Impostazioni"</string>
+	<!---->
+	<string name="menu_search">"Cerca"</string>
+	<!---->
+	<string name="drawer_title">"Navigazione"</string>
+	<!---->
+	<string name="mark_important">"Segnala come importante"</string>
+	<!---->
+	<string name="mark_not_important">"Segnala come non importante"</string>
+	<!---->
+	<string name="select_all_conversations">"Seleziona tutto"</string>
+	<!---->
+	<string name="unselect_all_conversations">"Deseleziona tutto"</string>
+	<!---->
+	<string name="add_cc_label">"Aggiungi Cc/Ccn"</string>
+	<!---->
+	<string name="add_bcc_label">"Aggiungi Ccn"</string>
+	<!---->
+	<string name="quoted_text">"Includi testo citato"</string>
+	<!---->
+	<string name="quoted_text_label">"Testo tra virgolette"</string>
+	<!---->
+	<string name="respond_inline">"Rispondi con testo incorporato"</string>
+	<!---->
+	<string name="bytes">"<xliff:g id="count">%s</xliff:g> B"</string>
+	<!---->
+	<string name="kilobytes">"<xliff:g id="count">%s</xliff:g> KB"</string>
+	<!---->
+	<string name="megabytes">"<xliff:g id="count">%s</xliff:g> MB"</string>
+	<!---->
+	<string name="attachment_image">"Immagine"</string>
+	<!---->
+	<string name="attachment_video">"Video"</string>
+	<!---->
+	<string name="attachment_audio">"Audio"</string>
+	<!---->
+	<string name="attachment_text">"Testo"</string>
+	<!---->
+	<string name="attachment_application_msword">"Documento"</string>
+	<!---->
+	<string name="attachment_application_vnd_ms_powerpoint">"Presentazione"</string>
+	<!---->
+	<string name="attachment_application_vnd_ms_excel">"Foglio di lavoro"</string>
+	<!-- no translation found for attachment_application_pdf -->
+	<skip />
+	<!---->
+	<string name="attachment_unknown">"File <xliff:g id="attachmentExtension">%s</xliff:g>"</string>
+	<!---->
+	<string name="preview_attachment">"Anteprima"</string>
+	<!---->
+	<string name="save_attachment">"Salva"</string>
+	<!---->
+	<string name="cancel_attachment">"Annulla"</string>
+	<!---->
+	<string name="open_attachment">"Apri"</string>
+	<!---->
+	<string name="install_attachment">"Installa"</string>
+	<!---->
+	<string name="download_again">"Scarica di nuovo"</string>
+	<!---->
+	<string name="more_info_attachment">"Info"</string>
+	<!---->
+	<string name="no_application_found">"Nessuna applicazione può aprire e visualizzare questo allegato."</string>
+	<!---->
+	<string name="fetching_attachment">"Recupero allegato in corso"</string>
+	<!---->
+	<string name="please_wait">"Attendere..."</string>
+	<!---->
+	<string name="saved">"Salvato,"</string>
+	<!---->
+	<string name="download_failed">"Download non riuscito. Tocca per riprovare."</string>
+	<!---->
+	<string name="menu_photo_save_all">"Salva tutti"</string>
+	<!---->
+	<string name="menu_photo_share">"Condividi"</string>
+	<!---->
+	<string name="menu_photo_share_all">"Condividi tutti"</string>
+	<!---->
+	<string name="menu_photo_print">"Stampa"</string>
+	<!---->
+	<string name="saving">"Salvataggio in corso..."</string>
+	<!---->
+	<string name="choosertitle_sharevia">"Condividi tramite"</string>
+	<!---->
+	<string name="contextmenu_openlink">"Apri nel browser"</string>
+	<!---->
+	<string name="contextmenu_copy">"Copia"</string>
+	<!---->
+	<string name="contextmenu_copylink">"Copia URL link"</string>
+	<!---->
+	<string name="contextmenu_view_image">"Visualizza immagine"</string>
+	<!---->
+	<string name="contextmenu_dial_dot">"Chiama"</string>
+	<!---->
+	<string name="contextmenu_sms_dot">"SMS\u2026"</string>
+	<!---->
+	<string name="contextmenu_add_contact">"Aggiungi contatto"</string>
+	<!---->
+	<string name="contextmenu_send_mail">"Invia email"</string>
+	<!---->
+	<string name="contextmenu_map">"Mappa"</string>
+	<!---->
+	<string name="contextmenu_sharelink">"Condividi link"</string>
+	<!---->
+	<string name="contextmenu_savelink">"Salva link"</string>
+	<!---->
+	<string name="contextmenu_help">"Guida"</string>
+	<!---->
+	<string name="contextmenu_feedback">"Invia commenti"</string>
+	<!---->
+	<string name="sort_title">"Ordina per"</string>
+	<!---->
+	<string name="sort_by_tip">"Ordinati per <xliff:g id="sor_type">%s</xliff:g>"</string>
+	<!-- no translation found for num_selected -->
+	<skip />
+	<plurals name="move_conversation">
+		<item quantity="one">"Sposta conversazione"</item>
+		<item quantity="other">"Sposta <xliff:g>%1$d</xliff:g> conversazioni"</item>
+	</plurals>
+	<!---->
+	<string name="content_description">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> circa<xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> il <xliff:g id="date">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g>"</string>
+	<!---->
+	<string name="content_description_today">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> circa <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> alle <xliff:g id="time">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g>"</string>
+	<!---->
+	<string name="read_string">"Conversazione letta"</string>
+	<!---->
+	<string name="unread_string">"Conversazione non letta"</string>
+	<!---->
+	<string name="filtered_tag">"[<xliff:g id="tag">%1$s</xliff:g>]<xliff:g id="subject">%2$s</xliff:g>"</string>
+	<!-- no translation found for badge_and_subject -->
+	<skip />
+	<plurals name="draft">
+		<item quantity="one">"Bozza"</item>
+		<item quantity="other">"Bozze"</item>
+	</plurals>
+	<!---->
+	<string name="sending">"Invio in corso\u2026"</string>
+	<!---->
+	<string name="message_retrying">"Nuovo tentativo in corso\u2026"</string>
+	<!---->
+	<string name="message_failed">"fallito"</string>
+	<!---->
+	<string name="send_failed">"Invio posta non riuscito."</string>
+	<!---->
+	<string name="send_failed_wait_attchment_downloaded">"Impossibile inoltrare poiché il download degli allegati non è completato, scaricare prima gli allegati."</string>
+	<!---->
+	<string name="me_object_pronoun">"Io"</string>
+	<!---->
+	<string name="me_subject_pronoun">"Io"</string>
+	<plurals name="confirm_delete_conversation">
+		<item quantity="one">"Eliminare questa conversazione?"</item>
+		<item quantity="other">"Eliminare queste <xliff:g id="count">%1$d</xliff:g> conversazioni?"</item>
+	</plurals>
+	<plurals name="confirm_archive_conversation">
+		<item quantity="one">"Archiviare questa conversazione?"</item>
+		<item quantity="other">"Archiviare queste <xliff:g id="count">%1$d</xliff:g> conversazioni?"</item>
+	</plurals>
+	<plurals name="confirm_discard_drafts_conversation">
+		<item quantity="one">"Ignorare questo messaggio?"</item>
+		<item quantity="other">"Rifiutare i <xliff:g id="count">%1$d</xliff:g> messaggi?"</item>
+	</plurals>
+	<!---->
+	<string name="confirm_discard_text">"Ignorare questo messaggio?"</string>
+	<!---->
+	<string name="loading_conversations">"Caricamento\u2026"</string>
+	<!---->
+	<string name="empty_inbox">"Operazione completata! Buona giornata."</string>
+	<!---->
+	<string name="empty_search">"Ops! Non è stato trovato nulla per \"<xliff:g id="search_query">%1$s</xliff:g>\"."</string>
+	<!---->
+	<string name="empty_spam_folder">"Evviva, spam non presente!"</string>
+	<!---->
+	<string name="empty_trash_folder">"Cestino vuoto. Grazie per il riciclo!"</string>
+	<!---->
+	<string name="empty_folder">"Nessun messaggio e-mail presente."</string>
+	<!---->
+	<string name="getting_messages">"Ricezione messaggi"</string>
+	<!---->
+	<string name="undo">"Annulla"</string>
+	<plurals name="conversation_unstarred">
+		<item quantity="one">"Eliminazione stella da <xliff:g id="count">%1$d</xliff:g> conversazione."</item>
+		<item quantity="other">"Eliminazione stella da <xliff:g id="count">%1$d</xliff:g> conversazioni."</item>
+	</plurals>
+	<plurals name="conversation_muted">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> con audio disattivato."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> con audio disattivato."</item>
+	</plurals>
+	<plurals name="conversation_spammed">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> segnalato come posta indesiderata."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> segnalato come posta indesiderata."</item>
+	</plurals>
+	<plurals name="conversation_not_spam">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> segnalato come posta non indesiderata."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> segnalato come posta non indesiderata."</item>
+	</plurals>
+	<plurals name="conversation_not_important">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> segnalato come non importante."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> segnalato come non importante."</item>
+	</plurals>
+	<plurals name="conversation_phished">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> segnalato come phishing."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> segnalato come phishing."</item>
+	</plurals>
+	<plurals name="conversation_archived">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> archiviato."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> archiviato."</item>
+	</plurals>
+	<plurals name="conversation_deleted">
+		<item quantity="one">"&lt;b&gt;%1$d&lt;/b&gt; eliminato."</item>
+		<item quantity="other">"&lt;b&gt;%1$d&lt;/b&gt; eliminato."</item>
+	</plurals>
+	<!---->
+	<string name="deleted">"Eliminato"</string>
+	<!---->
+	<string name="archived">"Archiviato"</string>
+	<!---->
+	<string name="starred">"Speciali"</string>
+	<!---->
+	<string name="unstarred">"Senza stella"</string>
+	<!---->
+	<string name="folder_removed">"Rimosso da <xliff:g id="folderName">%1$s</xliff:g>"</string>
+	<plurals name="conversation_folder_changed">
+		<item quantity="one">"Cartella modificata."</item>
+		<item quantity="other">"Cartelle modificate."</item>
+	</plurals>
+	<!---->
+	<string name="conversation_folder_moved">"Spostato in <xliff:g id="folderName">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="search_results_header">"Risultati"</string>
+	<!---->
+	<string name="search_unsupported">"La ricerca non è supportata da questo account."</string>
+	<!---->
+	<string name="add_label">"Aggiungi cartella"</string>
+	<!---->
+	<string name="new_incoming_messages_one">"Mostra nuovo messaggio da <xliff:g id="sender">%s</xliff:g>."</string>
+	<plurals name="new_incoming_messages_many">
+		<item quantity="other">"Mostra <xliff:g id="count">%1$d</xliff:g> nuovi messaggi."</item>
+	</plurals>
+	<!---->
+	<string name="date_and_view_details">"<xliff:g id="date">%1$s</xliff:g> &lt;a href=\'http://www.example.com\'&gt;Mostra dettagli&lt;/a&gt;"</string>
+	<!---->
+	<string name="date_and_view_details_another">"<xliff:g id="date">%1$s</xliff:g> &lt;font color=\"<xliff:g id="color">%2$d</xliff:g>\"&gt;Mostra dettagli&lt;/font&gt;"</string>
+	<!---->
+	<string name="hide_details">"Nascondi dettagli"</string>
+	<!---->
+	<string name="to_message_header">"A <xliff:g id="recipients">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="contact_info_string">"Mostra informazioni sul contatto per <xliff:g id="name">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="contact_info_string_default">"Mostra informazioni sul contatto"</string>
+	<plurals name="show_messages_read">
+		<item quantity="other">"<xliff:g example="4" id="count">%1$d</xliff:g> messaggi meno recenti"</item>
+	</plurals>
+	<!---->
+	<string name="from_heading">"Da:"</string>
+	<!---->
+	<string name="replyto_heading">"Rispondi a:"</string>
+	<!---->
+	<string name="to_heading">"A:"</string>
+	<!---->
+	<string name="to_heading_no_space">"A:"</string>
+	<!---->
+	<string name="cc_heading">"Cc:"</string>
+	<!---->
+	<string name="bcc_heading">"Ccn:"</string>
+	<!---->
+	<string name="date_heading">"Data:"</string>
+	<!---->
+	<string name="show_images">"Mostra immagini"</string>
+	<!---->
+	<string name="always_show_images">"Mostra sempre le immagini da questo mittente"</string>
+	<!---->
+	<string name="always_show_images_toast">"Le immagini da questo mittente verranno mostrate automaticamente."</string>
+	<!---->
+	<string name="address_display_format">"<xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g>"</string>
+	<!---->
+	<string name="address_display_format_with_via_domain">"<xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g> tramite <xliff:g id="via_domain">%3$s</xliff:g>"</string>
+	<!---->
+	<string name="message_saved">"Messaggio salvato come bozza."</string>
+	<!---->
+	<string name="sending_message">"Invio messaggio\u2026"</string>
+	<!---->
+	<string name="invalid_recipient">"L\'indirizzo %s non è valido."</string>
+	<!---->
+	<string name="show_elided">"Mostra testo tra virgolette"</string>
+	<!---->
+	<string name="hide_elided">"\u25BC Nascondi testo tra virgolette"</string>
+	<!---->
+	<string name="message_invite_title">"Invito agenda"</string>
+	<!---->
+	<string name="message_invite_available">"Sei disponibile"</string>
+	<!---->
+	<string name="message_invite_datetime">"Intervallo di tempo"</string>
+	<!---->
+	<string name="message_invite_location">"Dove"</string>
+	<!---->
+	<string name="message_invite_in_calendar_view">"Vedi in Calendario"</string>
+	<!---->
+	<string name="message_invite_calendar_view">"Visualizza in Calendario"</string>
+	<!---->
+	<string name="message_invite_label_attending">"Vieni?"</string>
+	<!---->
+	<string name="message_invite_accept">"Sì"</string>
+	<!---->
+	<string name="message_invite_tentative">"Forse"</string>
+	<!---->
+	<string name="message_invite_decline">"No"</string>
+	<!-- no translation found for enumeration_comma -->
+	<skip />
+	<!---->
+	<string name="send_anyway">"Invia comunque"</string>
+	<!---->
+	<string name="ok">"OK"</string>
+	<!---->
+	<string name="done">"Fine"</string>
+	<!---->
+	<string name="cancel">"Annulla"</string>
+	<!---->
+	<string name="clear">"Cancella"</string>
+	<!---->
+	<string name="next">"Avanti"</string>
+	<!---->
+	<string name="previous">"Indietro"</string>
+	<string-array name="sync_status">
+		<item>"Non si dispone di connettività Wi-Fi. Proseguire con la sincronizzazione?"</item>
+		<item>"Nessuna connessione."</item>
+		<item>"Accesso non riuscito."</item>
+		<item>"Errore di sicurezza."</item>
+		<item>"Sincronizzazione non riuscita."</item>
+		<item>"Errore interno"</item>
+		<item>"Errore del server"</item>
+	</string-array>
+	<!---->
+	<string name="tap_to_configure">"Tocca per configurare"</string>
+	<!---->
+	<string name="non_synced_folder_description">"Per visualizzare le conversazioni, sincronizzare questa cartella."</string>
+	<!---->
+	<string name="tap_to_configure_folder_sync">"Sincronizza cartella"</string>
+	<!-- no translation found for widget_large_unread_count -->
+	<skip />
+	<!---->
+	<string name="large_unseen_count">"<xliff:g example="99" id="count">%d</xliff:g>+ nuovo"</string>
+	<!---->
+	<string name="unseen_count">"<xliff:g example="4" id="count">%d</xliff:g> nuovo"</string>
+	<plurals name="actionbar_unread_messages">
+		<item quantity="other">"%1$d non letti"</item>
+	</plurals>
+	<!---->
+	<string name="actionbar_large_unread_count">"<xliff:g id="count">%1$d</xliff:g>+ non letti"</string>
+	<!---->
+	<string name="view_more_conversations">"Visualizza altre conversazioni"</string>
+	<!---->
+	<string name="loading_conversation">"Caricamento\u2026"</string>
+	<!---->
+	<string name="activity_mailbox_selection">"Scegli account"</string>
+	<!---->
+	<string name="activity_folder_selection">"Scegli cartella"</string>
+	<!---->
+	<string name="folder_shortcut_widget_label">"Cartella Email"</string>
+	<!---->
+	<string name="change_folders_selection_dialog_title">"Modifica cartelle"</string>
+	<!---->
+	<string name="move_to_selection_dialog_title">"Sposta in"</string>
+	<!-- no translation found for search_results_loaded -->
+	<skip />
+	<!---->
+	<string name="network_error">"Nessuna connessione"</string>
+	<!---->
+	<string name="retry">"Riprova"</string>
+	<!---->
+	<string name="load_more">"Carica di più"</string>
+	<!---->
+	<string name="shortcut_name_title">"Nome collegamento rapido cartella"</string>
+	<!---->
+	<string name="wait_for_sync_title">"In attesa di sincronizzazione"</string>
+	<!---->
+	<string name="not_synced_title">"Account non sincronizzato."</string>
+	<!---->
+	<string name="wait_for_manual_sync_body">"Questo account non è configurato per la sincronizzazione automatica.\nToccare <b>Sincr. ora</b> per sincronizzare la posta una volta oppure <b>Modifica impostazioni di sincr.</b> per configurare questo account in modo da sincronizzare la posta automaticamente."</string>
+	<!---->
+	<string name="manual_sync">"Sincronizza ora"</string>
+	<!---->
+	<string name="change_sync_settings">"Modifica impostazioni di sincr."</string>
+	<!---->
+	<string name="photo_load_failed">"Impossibile caricare l\'immagine"</string>
+	<!---->
+	<string name="cant_move_or_change_labels">"Impossibile spostare i messaggi perché la selezione contiene più account."</string>
+	<!-- no translation found for multiple_new_message_notification_item -->
+	<skip />
+	<!-- no translation found for single_new_message_notification_big_text -->
+	<skip />
+	<!---->
+	<string name="ignore_spam_warning">"Ignora, messaggio affidabile"</string>
+	<!---->
+	<string name="via_domain">"tramite <xliff:g id="viaDomain">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="signin">"Accedi"</string>
+	<!---->
+	<string name="info">"Info"</string>
+	<!---->
+	<string name="report">"Segnala"</string>
+	<!---->
+	<string name="sync_error">"Sincronizzazione non riuscita."</string>
+	<!---->
+	<string name="sync_error_message">"Il dispositivo non dispone di spazio di archiviazione sufficiente per la sincronizzazione."</string>
+	<!---->
+	<string name="storage">"Archiviazione"</string>
+	<!-- no translation found for senders_split_token -->
+	<skip />
+	<!-- no translation found for draft_count_format -->
+	<skip />
+	<!---->
+	<string name="all_folders_heading">"Tutte le cartelle"</string>
+	<!---->
+	<string name="recent_folders_heading">"Cartelle recenti"</string>
+	<!---->
+	<string name="message_details_title">"Dettagli messaggio"</string>
+	<!---->
+	<string name="preference_advance_to_title">"Avanzamento automatico"</string>
+	<string-array name="prefEntries_autoAdvance">
+		<item>"Più recenti"</item>
+		<item>"Meno recente"</item>
+		<item>"Elenco conversazioni"</item>
+	</string-array>
+	<string-array name="prefSummaries_autoAdvance">
+		<item>"Mostra conversazione più recente dopo eliminazione"</item>
+		<item>"Mostra conversazione meno recente dopo eliminazione"</item>
+		<item>"Mostra elenco conversazioni dopo eliminazione"</item>
+	</string-array>
+	<!---->
+	<string name="prefDialogTitle_autoAdvance">"Passa a"</string>
+	<!---->
+	<string name="clear_display_images_whitelist_title">"Cancella approvazioni immagine"</string>
+	<!---->
+	<string name="clear_display_images_whitelist_dialog_title">"Cancellare approvazioni immagine?"</string>
+	<!---->
+	<string name="clear_display_images_whitelist_dialog_message">"Interrompere la visualizzazione delle immagini in linea dai mittenti a cui è stato in precedenza consentito."</string>
+	<!---->
+	<string name="sender_whitelist_cleared">"Le immagini non verranno visualizzate automaticamente."</string>
+	<!---->
+	<string name="preferences_signature_title">"Firma"</string>
+	<!---->
+	<string name="preferences_signature_dialog_title">"Firma"</string>
+	<!---->
+	<string name="preferences_signature_summary_not_set">"Non impostato"</string>
+	<!---->
+	<string name="mail_account_signature_prefix">"Inviato da <xliff:g example="4" id="product">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="notification_action_reply">"Rispondi"</string>
+	<!---->
+	<string name="notification_action_reply_all">"Rispondi a tutti"</string>
+	<!---->
+	<string name="notification_action_archive">"Archivio"</string>
+	<!---->
+	<string name="notification_action_remove_label">"Rimuovi etichetta"</string>
+	<!---->
+	<string name="notification_action_delete">"Elimina"</string>
+	<!---->
+	<string name="notification_action_undo_archive">"Archiviato"</string>
+	<!---->
+	<string name="notification_action_undo_remove_label">"Etichetta rimossa"</string>
+	<!---->
+	<string name="notification_action_undo_delete">"Eliminato"</string>
+	<!-- no translation found for veiled_address -->
+	<skip />
+	<!-- no translation found for veiled_alternate_text -->
+	<skip />
+	<!-- no translation found for veiled_alternate_text_unknown_person -->
+	<skip />
+	<!-- no translation found for veiled_summary_unknown_person -->
+	<skip />
+	<!-- no translation found for label_notification_ticker -->
+	<skip />
+	<plurals name="new_messages">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> nuovo messaggio"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> nuovi messaggi"</item>
+	</plurals>
+	<!-- no translation found for single_new_message_notification_title -->
+	<skip />
+	<!---->
+	<string name="silent_ringtone">"Silenzioso"</string>
+	<!---->
+	<string name="preference_removal_action_title">"Operazioni di archiviazione ed eliminazione"</string>
+	<string-array name="prefEntries_removal_action">
+		<item>"Mostra solo archiviati"</item>
+		<item>"Mostra solo eliminati"</item>
+		<item>"Mostra archiv. ed eliminati"</item>
+	</string-array>
+	<string-array name="prefSummaries_removal_action_summary">
+		<item>"Mostra solo archiviati"</item>
+		<item>"Mostra solo eliminati"</item>
+		<item>"Mostra archiv. ed eliminati"</item>
+	</string-array>
+	<!---->
+	<string name="prefDialogTitle_removal_action">"Operazioni di archiviazione ed eliminazione"</string>
+	<!---->
+	<string name="preferences_default_reply_all_title">"Rispondi a tutti"</string>
+	<!---->
+	<string name="preferences_default_reply_all_summary_impl">"Usa come predefinito per risposte ai messaggi"</string>
+	<!---->
+	<string name="preference_swipe_title_archive">"Fai scorrere per archiviare"</string>
+	<!---->
+	<string name="preference_swipe_title_delete">"Fai scorrere per eliminare"</string>
+	<!---->
+	<string name="preference_swipe_description">"In elenco conversazioni"</string>
+	<!---->
+	<string name="preference_swipe_actions">"Operazioni di scorrimento"</string>
+	<!---->
+	<string name="preference_sender_image_title">"Immagine mittente"</string>
+	<!---->
+	<string name="preference_sender_image_description">"Mostra accanto a nome in elenco conversazioni"</string>
+	<!---->
+	<string name="empty_trash">"Svuota Cestino"</string>
+	<!---->
+	<string name="empty_spam">"Svuota Spam"</string>
+	<!---->
+	<string name="star_toggle">"Attivazione/disattivazione della stella"</string>
+	<!---->
+	<string name="empty_trash_dialog_title">"Svuotare Cestino?"</string>
+	<!---->
+	<string name="empty_spam_dialog_title">"Svuotare Spam?"</string>
+	<plurals name="empty_folder_dialog_message">
+		<item quantity="one">"%1$d messaggio verrà eliminato definitivamente."</item>
+		<item quantity="other">"%1$d messaggi verranno eliminati definitivamente."</item>
+	</plurals>
+	<!---->
+	<string name="drawer_open">"Apri cassetto di navigazione"</string>
+	<!---->
+	<string name="drawer_close">"Informazioni sul copyright"</string>
+	<!---->
+	<string name="conversation_photo_welcome_text">"Toccare il nome di un mittente per selezionare la relativa conversazione."</string>
+	<!---->
+	<string name="long_press_to_select_tip">"Toccare e tenere premuto per selezionare una conversazione, quindi toccare per selezionarne altre."</string>
+	<!---->
+	<string name="folder_icon_desc">"Icona cartella"</string>
+	<!---->
+	<string name="add_account">"Aggiungi account"</string>
+	<!---->
+	<string name="dismiss_tip_hover_text">"Chiudi suggerimento"</string>
+	<!---->
+	<string name="auto_sync_off">"Sincr. autom. disattivata."</string>
+	<!---->
+	<string name="tap_to_enable_sync">"Toccare per attivare."</string>
+	<!---->
+	<string name="account_sync_off">"Sincr. account disattivata."</string>
+	<!---->
+	<string name="enable_sync_in_account_settings">"Attivazione in <xliff:g id="account_settings">%1$s</xliff:g>."</string>
+	<!---->
+	<string name="account_settings_param">"Impostazioni account"</string>
+	<!---->
+	<string name="unsent_messages_in_outbox">"<xliff:g id="number">%1$s</xliff:g> non inviato in <xliff:g id="outbox">%2$s</xliff:g>"</string>
+	<!---->
+	<string name="turn_auto_sync_on_dialog_title">"Attivare sincr. autom.?"</string>
+	<!---->
+	<string name="turn_auto_sync_on_dialog_body">"Le modifiche apportate a tutte le applicazioni e gli account, non solo Gmail, verranno sincronizzate sul Web, sugli altri dispositivi e sul proprio <xliff:g id="phone_or_tablet">%1$s</xliff:g>."</string>
+	<!---->
+	<string name="phone">"Telefono"</string>
+	<!---->
+	<string name="tablet">"Tablet"</string>
+	<!---->
+	<string name="turn_auto_sync_on_dialog_confirm_btn">"Attiva"</string>
+	<!---->
+	<string name="show_n_more_folders">"Mostra altre %1$s cartelle"</string>
+	<!---->
+	<string name="hide_folders">"Nascondi cartelle"</string>
+	<!---->
+	<string name="print">"Stampa"</string>
+	<!---->
+	<string name="print_all">"Stampa tutti"</string>
+	<plurals name="num_messages">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> messaggio"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> messaggi"</item>
+	</plurals>
+	<!---->
+	<string name="date_message_received_print">"<xliff:g id="day_and_date">%1$s</xliff:g> alle <xliff:g id="time">%2$s</xliff:g>"</string>
+	<!---->
+	<string name="draft_to_heading">"Bozze a:"</string>
+	<!---->
+	<string name="draft_heading">"Bozza"</string>
+	<!---->
+	<string name="quoted_text_hidden_print">"Testo tra virgolette nascosto"</string>
+	<plurals name="num_attachments">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> allegato"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> allegati"</item>
+	</plurals>
+	<!---->
+	<string name="no_subject">"(Nessun oggetto)"</string>
+	<!---->
+	<string name="vacation_responder">"Vacation Responder"</string>
+	<!---->
+	<string name="preferences_vacation_responder_title">"Vacation Responder"</string>
+	<!---->
+	<string name="vacation_responder_body_hint_text">"Messaggio"</string>
+	<!---->
+	<string name="send_to_contacts_text">"Invia solo ai miei contatti"</string>
+	<!---->
+	<string name="send_to_domain_text">"Invia solo a <xliff:g id="domain">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="pick_start_date_title">"Inizio"</string>
+	<!---->
+	<string name="pick_end_date_title">"Fine (opzionale)"</string>
+	<!---->
+	<string name="date_not_set">"Non impostato"</string>
+	<!---->
+	<string name="set_end_date_dialog_title">"Data fine (opzionale)"</string>
+	<!---->
+	<string name="custom_date">"Personalizzato"</string>
+	<!---->
+	<string name="date_none">"Nessuna"</string>
+	<!---->
+	<string name="discard_changes">"Ignorare le modifiche?"</string>
+	<!---->
+	<string name="draft_saved">"Bozza salvata"</string>
+	<!---->
+	<string name="draft_discard">"Bozza eliminata"</string>
+	<!---->
+	<string name="vacation_responder_changes_saved">"Modifiche Vacation Responder salvate"</string>
+	<!---->
+	<string name="vacation_responder_changes_discarded">"Modifiche Vacation Responder rifiutate"</string>
+	<!---->
+	<string name="vacation_responder_off">"Disattivato"</string>
+	<!---->
+	<string name="vacation_responder_on">"Attivo, dal <xliff:g id="date">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="vacation_responder_on_with_end_date">"Attivo, dal <xliff:g id="start-date">%1$s</xliff:g> al <xliff:g id="end-date">%2$s</xliff:g>"</string>
+	<!---->
+	<string name="vacation_responder_empty_subject_and_body_warning">"Aggiungi oggetto o messaggio"</string>
+	<!---->
+	<string name="view_entire_message">"Visualizza messaggio intero"</string>
+	<!---->
+	<string name="eml_loader_error_toast">"Impossibile aprire questo file"</string>
+	<!---->
+	<string name="help_and_info">"Guida"</string>
+	<!---->
+	<string name="help_and_feedback">"Supporto e feedback"</string>
+	<!---->
+	<string name="feedback">"Invia commenti"</string>
+	<!---->
+	<string name="copyright">"©<xliff:g example="2010" id="year">%1$d</xliff:g> Google Inc."</string>
+	<!---->
+	<string name="version">"<xliff:g example="Email" id="app_name">%1$s</xliff:g> versione <xliff:g example="2.2.1" id="version">%2$s</xliff:g>"</string>
+	<!-- no translation found for view_app_page -->
+	<skip />
+	<!---->
+	<string name="print_dialog">"Stampa\u2026"</string>
+	<!---->
+	<string name="copyright_information">"Informazioni sul copyright"</string>
+	<!---->
+	<string name="privacy_policy">"Informativa sulla privacy"</string>
+	<!---->
+	<string name="open_source_licenses">"Licenze open source"</string>
+	<!---->
+	<string name="reply_choice_yes">"Sì"</string>
+	<!---->
+	<string name="reply_choice_no">"No"</string>
+	<!---->
+	<string name="reply_choice_ok">"OK"</string>
+	<!-- no translation found for reply_choice_hehe -->
+	<skip />
+	<!---->
+	<string name="reply_choice_thanks">"Grazie"</string>
+	<!---->
+	<string name="reply_choice_i_agree">"Accetto"</string>
+	<!---->
+	<string name="reply_choice_nice">"Bene"</string>
+	<!---->
+	<string name="reply_on_my_way">"Sto arrivando"</string>
+	<!---->
+	<string name="reply_choice_later">"OK, risponderò successivamente"</string>
+	<!-- no translation found for reply_choice_smiling_face -->
+	<skip />
+	<!-- no translation found for reply_choice_frowning_face -->
+	<skip />
+	<!---->
+	<string name="preference_header_action_confirmations">"Conferme azioni"</string>
+	<!---->
+	<string name="preference_confirm_before_delete_title">"Chiedi conf. prima di eliminare"</string>
+	<!---->
+	<string name="preference_confirm_before_archive_title">"Conferma prima di archiviare"</string>
+	<!---->
+	<string name="preference_confirm_before_send_title">"Chiedi conferma prima di inviare"</string>
+	<!---->
+	<string name="preferences_conversation_mode_title">"Adattamento automatico messaggi"</string>
+	<!---->
+	<string name="preferences_conversation_mode_summary">"Riduci messaggi per adattarli allo schermo"</string>
+	<!---->
+	<string name="preferences_disable_snap_headers_title">"Azioni del messaggio"</string>
+	<string-array name="prefSummaries_snapHeader">
+		<item>"Mostra sempre le azioni del messaggio nello schermo in alto"</item>
+		<item>"Mostra le azioni del messaggio solo nello schermo in alto e in formato verticale"</item>
+		<item>"Non mostrare le azioni del messaggio fuori dall\'intestazione del messaggio"</item>
+	</string-array>
+	<string-array name="prefEntries_snapHeader">
+		<item>"Mostra sempre"</item>
+		<item>"Mostra solo in formato verticale"</item>
+		<item>"Non mostrare"</item>
+	</string-array>
+	<!---->
+	<string name="clear_history_title">"Cancella cronologia ricerche"</string>
+	<!---->
+	<string name="search_history_cleared">"Cronologia delle ricerche cancellata."</string>
+	<!---->
+	<string name="clear_history_dialog_title">"Cancellare cronologia ricerche?"</string>
+	<!---->
+	<string name="clear_history_dialog_message">"Tutte le ricerche finora eseguite saranno rimosse."</string>
+	<!---->
+	<string name="manage_accounts_menu_item">"Gestisci account"</string>
+	<!---->
+	<string name="general_preferences_title">"Impostazioni generali"</string>
+	<!---->
+	<string name="activity_preferences">"Impostazioni"</string>
+	<!---->
+	<string name="always_bcc_myself">"Includimi sempre in Ccn"</string>
+	<!---->
+	<string name="always_bcc_myself_summary">"Includimi sempre in Ccn: compos., risp. e inoltro"</string>
+	<!---->
+	<string name="general_preference_auto_download_remaining_label">"Download auto rimanente"</string>
+	<!---->
+	<string name="general_preference_auto_download_remaining_summary">"Corpo del download automatico rimanente durante lo scorrimento verso il basso"</string>
+	<!---->
+	<string name="download_remaining">"Download rimanente"</string>
+	<!---->
+	<string name="downloading_remaining">"Caricamento in corso..."</string>
+	<!---->
+	<string name="unable_to_connect">"Impossibile stabilire la connessione"</string>
+	<!---->
+	<string name="need_connection_prompt">"Per utilizzare questa applicazione è necessaria una connessione di rete. Attivare la rete mobile o la rete Wi-Fi nelle Impostazioni."</string>
+	<!---->
+	<string name="connection_settings">"Impostazioni"</string>
+	<!---->
+	<string name="priority_action">"Priorità"</string>
+	<!---->
+	<string name="set_priority_dialog_title">"Imposta priorità"</string>
+	<!---->
+	<string name="dialog_warning">"Avviso\u2026"</string>
+	<!---->
+	<string name="dialog_warning_message">"La versione dell\'applicazione Exchange è diversa da quella dell\'Email. Continuare?"</string>
+	<!---->
+	<string name="toast_warning_text">"La versione dell\'applicazione Exchange è diversa da quella dell\'Email"</string>
+	<!---->
+	<string name="tips_sync_alter_title">"Sicnronizzazione"</string>
+	<!---->
+	<string name="tips_sync_alter_content">"Non si dispone di connettività Wi-Fi. Proseguire con la sincronizzazione?"</string>
+	<!---->
+	<string name="tips_sync_alter_yes">"Sì"</string>
+	<!---->
+	<string name="tips_sync_alter_no">"No"</string>
+	<!---->
+	<string name="message_invite_tentative_title">"Tentativo"</string>
+	<!---->
+	<string name="message_invite_decline_title">"Rifiuta"</string>
+	<!---->
+	<string name="message_invite_accent_title">"Accetta"</string>
+	<!---->
+	<string name="drm_file_remind">"Impossibile caricare o condividere il file. Il file è protetto da DRM!"</string>
+	<!---->
+	<string name="not_add_more_recipients">"Impossibile aggiungere contemporaneamente oltre <xliff:g id="maxLimit">%1$d</xliff:g> destinatari."</string>
+	<!---->
+	<string name="global_search_label">"Email"</string>
+	<!---->
+	<string name="global_search_hint">"Cerca email"</string>
+	<!---->
+	<string name="global_search_description">"Mittenti, oggetti e testi"</string>
+	<!---->
+	<string name="remote_search_failed">"Ricerca del server fallita!"</string>
+	<!---->
+	<string name="searching_on_server">"Cerca nel server"</string>
+	<!---->
+	<string name="searching_on_server_title">"Cerca \"<xliff:g id="account_name">%s</xliff:g>\" nel server"</string>
+	<!---->
+	<string name="searching_all_fields_on_sever">"Cerca tutti i campi nel server"</string>
+	<!---->
+	<string name="search_field_subject">"Oggetto"</string>
+	<!---->
+	<string name="search_field_receiver">"Destinatario"</string>
+	<!---->
+	<string name="search_field_sender">"Mittente"</string>
+	<!---->
+	<string name="search_field_body">"Corpo del messaggio"</string>
+	<!---->
+	<string name="search_field_all">"Tutto"</string>
+	<!---->
+	<string name="search_field_attachment">"Allegati"</string>
+	<!---->
+	<string name="select_all">"Seleziona tutto"</string>
+	<!---->
+	<string name="deselect_all">"Deseleziona tutto"</string>
+	<!---->
+	<string name="need_wifi_connection_prompt">"Per utilizzare questa applicazione è necessaria una connessione di rete. Attivare la rete mobile o la rete Wi-Fi nelle Impostazioni."</string>
+	<!---->
+	<string name="account_setup_names_account_name_des_label">"opz."</string>
+	<!---->
+	<string name="account_setup_names_user_name_des_label">"visualizza in Messaggi in uscita"</string>
+	<!---->
+	<string name="finish_action">"Fine"</string>
+	<!---->
+	<string name="copy_email">"Copia indirizzo e-mail"</string>
+	<!---->
+	<string name="out_of_office_syncing">"Sincronizzazione delle impostazioni Out of Office in corso"</string>
+	<!---->
+	<string name="out_of_office_fail">"Sincronizzazione delle impostazioni Out of Office non riuscita."</string>
+	<!---->
+	<string name="out_of_office_success">"Sincronizzazione delle impostazioni Out of Office riuscita."</string>
+	<!---->
+	<string name="manual_sync_when_roaming">"Sincronizzare durante il roaming"</string>
+	<!---->
+	<string name="manual_sync_when_roaming_summery">"Aggiornare solo manualmente"</string>
+	<!---->
+	<string name="manual_sync_when_roaming_toast">"Scorrere verso il basso per aggiornare manualmente durante il roaming"</string>
+	<!---->
+	<string name="manual_sync_when_roaming_refresh">"Aggiorna"</string>
+	<!---->
+	<string name="server_rule_can_not_change">"Impossibile modificare le regole del server"</string>
+	<!---->
+	<string name="server_rules">"Regole del server"</string>
+	<!---->
+	<string name="confirm_forward_message">"Non tutti i file sono stati scaricati. Inoltrare senza scaricarli?"</string>
+	<!---->
+	<string name="confirm_forward_cancel">"Annulla"</string>
+	<!---->
+	<string name="confirm_forward_drop_unload_attachment">"Inoltra"</string>
+	<!---->
+	<string name="mail_not_download_completely">"Attendi finchè il download è completo"</string>
+	<!---->
+	<string name="account_settings_inline_images_lable">"Immagini"</string>
+	<!---->
+	<string name="account_settings_inline_always_show">"Mostra sempre"</string>
+	<!---->
+	<string name="account_settings_inline_ask_before_show">"Chiedere prima di mostrare"</string>
+	<!---->
+	<string name="conversation_time_after_today">"Dopo oggi"</string>
+	<!---->
+	<string name="conversation_time_today">"Oggi"</string>
+	<!---->
+	<string name="conversation_time_yesterday">"Ieri"</string>
+	<!---->
+	<string name="conversation_time_this_month">"Questo mese"</string>
+	<!---->
+	<string name="conversation_time_elapse_just_now">"Proprio adesso"</string>
+	<!---->
+	<string name="conversation_time_elapse_minute">"<xliff:g id="COUNT">%d</xliff:g> min"</string>
+	<!---->
+	<string name="message_in_queued_status">"In coda"</string>
+	<plurals name="send_failed_messages">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> messaggio e-mail non inviato"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> messaggi e-mail non inviati"</item>
+	</plurals>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_label">"Sincronizza calendari da"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_2weeks">"Due settimane"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_1month">"Un mese"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_3months">"Tre al mese"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_6months">"Sei mesi"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_all">"Tutti"</string>
+	<!---->
+	<string name="no_permission_to_open_file">"È necessaria l\'autorizzazione per l\'archivio per aprire questo file"</string>
+	<!---->
+	<string name="conversation_update_time_text">"Ultimo aggiornamento:"</string>
+	<!---->
+	<string name="conversation_update_unknown_time_stamp">"Sconosciuta"</string>
+	<!---->
+	<string name="conversation_time_elapse_today">"Oggi"</string>
+	<!---->
+	<string name="save_to_attachment">"Salva in"</string>
+	<!---->
+	<string name="download_settings_title">"Salva allegato"</string>
+	<!---->
+	<string name="download_edit_filename_label">"Nome"</string>
+	<!---->
+	<string name="download_filepath_label">"Percorso"</string>
+	<!---->
+	<string name="download_file_size">"Dimensione"</string>
+	<!---->
+	<string name="download_time_needed">"Ora"</string>
+	<!---->
+	<string name="download_cancel">"Annulla"</string>
+	<!---->
+	<string name="download_start">"ok"</string>
+	<!---->
+	<string name="unknown_length">"Sconosciuta"</string>
+	<!---->
+	<string name="time_min">"min"</string>
+	<!---->
+	<string name="open_file_manager_failed">"Impossibile aprire File Manager"</string>
+	<!---->
+	<string name="attachment_not_saved">"Allegato non salvato"</string>
+	<!---->
+	<string name="sync_calendar_title">"Impossibile sincronizzare Calendario"</string>
+	<!---->
+	<string name="sync_calendar_content">"Per sincronizzare, consentire ai servizi Exchange di accedere a Calendario"</string>
+	<!---->
+	<string name="sync_contacts_title">"Impossibile sincronizzare Contatti"</string>
+	<!---->
+	<string name="sync_contacts_content">"Per sincronizzare, consentire ai servizi Exchange di accedere a Contatti"</string>
+	<!---->
+	<string name="notification_never_ask_again">"Non chiedere più"</string>
+	<!---->
+	<string name="sync_storage_title">"Impossibile salvare l\'allegato"</string>
+	<!---->
+	<string name="sync_storage_content">"Per salvare, consentire ai servizi Exchange di accedere alla memoria"</string>
+	<!---->
+	<string name="oof_continue">"Continua"</string>
+	<!---->
+	<string name="permission_needed_to_add_attachments">"Per aggiungere allegati, consentire a E-mail l\'accesso alla memoria"</string>
+	<!---->
+	<string name="permission_needed_to_check_ringtone">"Per verificare la suoneria, consentire a Email l\'accesso alla memoria"</string>
+	<!---->
+	<string name="add_folder_as_attachment_fail_tips">"Impossibile aggiungere una cartella come allegato"</string>
+	<!---->
+	<string name="choose_action_title">"Seleziona azione"</string>
+	<!---->
+	<string name="choose_action_contact">"Aggiungere il contatto: <xliff:g example="4" id="email_address">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="choose_action_email">"E-mail: <xliff:g example="4" id="email_address">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="choose_action_message">"Messaggio: <xliff:g example="4" id="email_address">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="account_setup_basics_exit_action">"Esci"</string>
+</resources>

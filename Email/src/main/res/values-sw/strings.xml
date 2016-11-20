@@ -1,0 +1,1747 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Tue Sep 20 16:24:06 CST 2016
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="permission_read_attachment_label">"Soma viambatisho vya barua pepe"</string>
+	<!---->
+	<string name="permission_read_attachment_desc">"Huruhusu programu kusoma viambatisho vya barua pepe yako."</string>
+	<!---->
+	<string name="permission_access_provider_label">"Fikia data ya mtoa huduma wa barua pepe"</string>
+	<!---->
+	<string name="permission_access_provider_desc">"Ruhusu programu kufikia hifadhidata yako ya barua pepe, ikiwa ni pmaoja na ujumbe uliopokewa, ujumbe uliotumwa, majina ya watumiaji, na manenosiri."</string>
+	<!---->
+	<string name="debug_title">"Peleleza"</string>
+	<!---->
+	<string name="next_action">"Ifuatayo"</string>
+	<!---->
+	<string name="okay_action">"SAWA"</string>
+	<!---->
+	<string name="cancel_action">"Ghairi"</string>
+	<!---->
+	<string name="previous_action">"Awali"</string>
+	<!---->
+	<string name="done_action">"Kamilika"</string>
+	<!---->
+	<string name="create_action">"Unda mpya"</string>
+	<!---->
+	<string name="quick_responses_empty_view">"Hakuna majibu ya haraka."</string>
+	<!---->
+	<string name="account_settings_action">"Mipangilio ya akaunti"</string>
+	<!---->
+	<string name="status_network_error">"Tatizo la muunganisho."</string>
+	<plurals name="move_messages">
+		<item quantity="one">"Hamisha ujumbe"</item>
+		<item quantity="other">"Hamisha ujumbe"</item>
+	</plurals>
+	<!---->
+	<string name="cannot_move_protocol_not_supported_toast">"Uhamishaji haukubaliwi kwenye akaunti za POP3."</string>
+	<!---->
+	<string name="cannot_move_multiple_accounts_toast">"Haiwezi kuhamisha kwa sababu uteuzi una akaunti nyingi."</string>
+	<!---->
+	<string name="cannot_move_special_mailboxes_toast">"Ujumbe katika Miswada, Kisanduku toa, na Uliotumwa hauwezi kuhamishwa."</string>
+	<!---->
+	<string name="mailbox_name_display_inbox">"Kisanduku pokezi"</string>
+	<!---->
+	<string name="mailbox_name_display_outbox">"Kisanduku toa"</string>
+	<!---->
+	<string name="mailbox_name_display_drafts">"Miswada"</string>
+	<!---->
+	<string name="mailbox_name_display_trash">"Taka"</string>
+	<!---->
+	<string name="mailbox_name_display_sent">"Tuma"</string>
+	<!---->
+	<string name="mailbox_name_display_junk">"Taka"</string>
+	<!---->
+	<string name="mailbox_name_display_starred">"VIP"</string>
+	<!---->
+	<string name="mailbox_name_display_unread">"Haujasomwa"</string>
+	<!---->
+	<string name="account_folder_list_summary_inbox">"Kisanduku pokezi"</string>
+	<!---->
+	<string name="account_folder_list_summary_starred">"VIP"</string>
+	<!---->
+	<string name="account_folder_list_summary_drafts">"Miswada"</string>
+	<!---->
+	<string name="account_folder_list_summary_outbox">"Kisanduku toa"</string>
+	<!---->
+	<string name="mailbox_list_account_selector_combined_view">"Mtazamo uliounganishwa"</string>
+	<!---->
+	<string name="message_compose_fwd_header_fmt">"\n\n-------- Ujumbe Asili-------\nMada: <xliff:g id="subject">%1$s</xliff:g>\nKutoka: <xliff:g id="sender">%2$s</xliff:g>\nKwa: <xliff:g id="to">%3$s</xliff:g>\nNakala: <xliff:g id="cc">%4$s</xliff:g>\n\n"</string>
+	<!---->
+	<string name="message_compose_insert_quick_response_list_title">"Ingiza jibu la haraka"</string>
+	<!---->
+	<string name="message_compose_insert_quick_response_menu_title">"Ingiza jibu la haraka"</string>
+	<!---->
+	<string name="message_view_attachment_background_load">"Kiambatisho kimoja au zaidi katika ujumbe wako uliosambazwa kitapakuliwa kamba ya kutumwa."</string>
+	<!---->
+	<string name="attachment_not_found">"Haikuweza kupakua kiambatisho."</string>
+	<!---->
+	<string name="message_decode_error">"Hitilafu imetokea wakati wa usimbuaji wa ujumbe."</string>
+	<!---->
+	<string name="forward_download_failed_ticker">"Haikuweza kusambaza kuambatisho kimoja au zaidi."</string>
+	<!---->
+	<string name="forward_download_failed_title">"Kiambatisho hakijasambazwa"</string>
+	<!---->
+	<string name="login_failed_ticker">"Kuingia kwenye <xliff:g id="account_name">%s</xliff:g> hakujafaulu."</string>
+	<!---->
+	<string name="login_failed_title">"Haikuweza kuingia"</string>
+	<plurals name="message_view_attachment_bytes">
+		<item quantity="one">"B<xliff:g example="1" id="size_in_bytes">%d</xliff:g>"</item>
+		<item quantity="other">"B<xliff:g example="279" id="size_in_bytes">%d</xliff:g>"</item>
+	</plurals>
+	<plurals name="message_view_attachment_kilobytes">
+		<item quantity="one">"KB<xliff:g example="1" id="size_in_kilobytes">%d</xliff:g>"</item>
+		<item quantity="other">"KB<xliff:g example="279" id="size_in_kilobytes">%d</xliff:g>"</item>
+	</plurals>
+	<plurals name="message_view_attachment_megabytes">
+		<item quantity="one">"MB<xliff:g example="1" id="size_in_megabytes">%d</xliff:g>"</item>
+		<item quantity="other">"MB<xliff:g example="279" id="size_in_megabytes">%d</xliff:g>"</item>
+	</plurals>
+	<plurals name="message_view_attachment_gigabytes">
+		<item quantity="one">"GB<xliff:g example="1" id="size_in_gigabytes">%d</xliff:g>"</item>
+		<item quantity="other">"GB<xliff:g example="279" id="size_in_gigabytes">%d</xliff:g>"</item>
+	</plurals>
+	<!---->
+	<string name="account_setup_basics_title">"Usanidi wa akaunti"</string>
+	<!---->
+	<string name="oauth_authentication_title">"Kuomba idhini"</string>
+	<!---->
+	<string name="sign_in_title">"Ingia"</string>
+	<!---->
+	<string name="oauth_error_description">"Haiwezi kuhalalisha"</string>
+	<!---->
+	<string name="password_warning_label">"Anwani ya barua pepe na nenosiri sio sahihi"</string>
+	<!---->
+	<string name="email_confirmation_label">"Anwani ya barua pepe"</string>
+	<!---->
+	<string name="account_setup_basics_headline">"Akaunti za Barua pepe"</string>
+	<!---->
+	<string name="accounts_welcome">"Unaweza kuweka akaunti yako kwa hatua chache tu."</string>
+	<!---->
+	<string name="account_setup_basics_email_label">"Anwani ya barua pepe"</string>
+	<!---->
+	<string name="account_setup_basics_email_flying_label">"Barua pepe"</string>
+	<!---->
+	<string name="or_label">"AU"</string>
+	<!---->
+	<string name="sign_in_with_google">"Ingia na Google"</string>
+	<!---->
+	<string name="account_setup_basics_password_label">"Nenosiri"</string>
+	<!---->
+	<string name="password_hint">"Nenosiri"</string>
+	<!---->
+	<string name="signed_in_with_service_label">"Ingia na %s"</string>
+	<!---->
+	<string name="authentication_label">"UHALISISHAJI"</string>
+	<!---->
+	<string name="add_authentication_label">"Ongeza uhalisishaji"</string>
+	<!---->
+	<string name="clear_authentication_label">"Futa uhalisishaji"</string>
+	<!---->
+	<string name="account_setup_basics_manual_setup_action">"Sanidi mwenyewe"</string>
+	<!---->
+	<string name="account_setup_username_password_toast">"Charaza anwani halali ya barua pepe na nenosiri halali."</string>
+	<!---->
+	<string name="account_duplicate_dlg_title">"Nakili Akaunti"</string>
+	<!---->
+	<string name="account_duplicate_dlg_message_fmt">"Tayari unatumia jina hili la mtumiaji kwa akaunti ya \"<xliff:g id="duplicate">%s</xliff:g>\"."</string>
+	<!---->
+	<string name="account_password_spaces_error">"Nenosiri hili huanza na kuisha na kibambo kimoja au zaidi cha nafasi. Seva nyingi hazikubalia manenosiri yenye nafasi."</string>
+	<!---->
+	<string name="account_setup_check_settings_retr_info_msg">"Inaepua taarifa ya akaunti..."</string>
+	<!---->
+	<string name="account_setup_check_settings_check_incoming_msg">"Inahalalisha mipangilio ya seva..."</string>
+	<!---->
+	<string name="account_setup_check_settings_check_outgoing_msg">"Inahalalisha mipangilio ya SMTP..."</string>
+	<!---->
+	<string name="account_setup_creating_account_msg">"Inaunda akaunti..."</string>
+	<!---->
+	<string name="account_setup_ab_headline">"Thibitisha aina ya akaunti"</string>
+	<!---->
+	<string name="account_setup_ab_instructions_format">"Umeashiria <xliff:g id="email">%1$s</xliff:g> hutumia <xliff:g id="userProtocol">%2$s</xliff:g>, lakini akaunti hiyo huenda ikatumia <xliff:g id="providerProtocol">%3$s</xliff:g>"</string>
+	<!---->
+	<string name="account_setup_names_title">"Usanidi wa akaunti"</string>
+	<!---->
+	<string name="account_setup_names_headline">"Akaunti yako imeweka na barua pepe ziko njiani!"</string>
+	<!---->
+	<string name="account_setup_names_account_name_label">"Ipatie akaunti hii jina"</string>
+	<!---->
+	<string name="account_setup_names_user_name_label">"Jina lako"</string>
+	<!---->
+	<string name="account_setup_names_user_name_empty_error">"Uga huu hauwezi kuwa tupu."</string>
+	<!---->
+	<string name="account_setup_account_type_title">"Usanidi wa akaunti"</string>
+	<!---->
+	<string name="account_setup_account_type_headline">"Aina ya akaunti"</string>
+	<!---->
+	<string name="account_setup_account_type_instructions">"Hii ni aina gani ya akaunti?"</string>
+	<!---->
+	<string name="account_setup_incoming_title">"Usanidi wa akaunti"</string>
+	<!---->
+	<string name="account_setup_incoming_headline">"Mipangilio ya seva inayoingia"</string>
+	<!---->
+	<string name="account_setup_incoming_username_label">"Jina la mtumiaji"</string>
+	<!---->
+	<string name="account_setup_incoming_password_label">"Nenosiri"</string>
+	<!---->
+	<string name="account_setup_password_subheading">"Nenosiri"</string>
+	<!---->
+	<string name="account_setup_incoming_server_label">"Seva"</string>
+	<!---->
+	<string name="account_setup_incoming_port_label">"Lango"</string>
+	<!---->
+	<string name="account_setup_incoming_security_label">"Aina ya usalama"</string>
+	<!---->
+	<string name="account_setup_incoming_domain_label">"Kikoa"</string>
+	<!---->
+	<string name="account_setup_incoming_add_domain_label">"Ongeza kikoa"</string>
+	<!---->
+	<string name="account_setup_incoming_security_none_label">"Hakuna"</string>
+	<!---->
+	<string name="account_setup_incoming_security_ssl_trust_certificates_label">"SSL/TLS (Kubali vyeti vyote)"</string>
+	<!---->
+	<string name="account_setup_incoming_security_ssl_label">"SSL/TLS"</string>
+	<!---->
+	<string name="account_setup_incoming_security_tls_trust_certificates_label">"STARTTLS (Kubali vyeti vyote)"</string>
+	<!---->
+	<string name="account_setup_incoming_security_tls_label">"STARTTLS"</string>
+	<!---->
+	<string name="account_setup_incoming_delete_policy_label">"Futa barua pepe kutoka kwenye seva"</string>
+	<!---->
+	<string name="account_setup_incoming_delete_policy_never_label">"Kamwe"</string>
+	<!---->
+	<string name="account_setup_incoming_delete_policy_delete_label">"Ninapofuta kutoka kwenye Kisanduku pokezi"</string>
+	<!---->
+	<string name="account_setup_incoming_imap_path_prefix_label">"Kiambishi awali cha njia ya IMAP"</string>
+	<!---->
+	<string name="account_setup_incoming_imap_path_prefix_hint">"Ya hiari"</string>
+	<!---->
+	<string name="account_setup_outgoing_title">"Usanidi wa akaunti"</string>
+	<!---->
+	<string name="account_setup_outgoing_headline">"Mipangilio ya seva inayotoka"</string>
+	<!---->
+	<string name="account_setup_outgoing_smtp_server_label">"Seva ya SMTP"</string>
+	<!---->
+	<string name="account_setup_outgoing_port_label">"Lango"</string>
+	<!---->
+	<string name="account_setup_outgoing_security_label">"Aina ya usalama"</string>
+	<!---->
+	<string name="account_setup_outgoing_require_login_label">"Unahitaji kuingia"</string>
+	<!---->
+	<string name="account_setup_outgoing_username_label">"Jina la mtumiaji"</string>
+	<!---->
+	<string name="account_setup_outgoing_password_label">"Nenosiri"</string>
+	<!---->
+	<string name="account_setup_exchange_certificate_title">"Cheti cha mteja"</string>
+	<!---->
+	<string name="account_setup_exchange_select_certificate">"Chagua"</string>
+	<!---->
+	<string name="account_setup_exchange_use_certificate">"Tumia cheti cha mteja"</string>
+	<!---->
+	<string name="account_setup_exchange_remove_certificate">"Ondoa"</string>
+	<!---->
+	<string name="account_setup_exchange_no_certificate">"Hakuna"</string>
+	<!---->
+	<string name="account_setup_exchange_device_id_label">"Utambulisho wa Kifaa Rununu"</string>
+	<!---->
+	<string name="account_setup_options_title">"Mipangilio ya akaunti"</string>
+	<!---->
+	<string name="account_setup_options_headline">"Chaguo za akaunti"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_label">"Marudio ya ulandanishaji"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_never">"Kamwe"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_push">"Otomatiki (Sukuma)"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_5min">"Kila dakika 5"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_10min">"Kila dakika 10"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_15min">"Kila baada ya dakika 15"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_30min">"Kila dakika 30"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_1hour">"Kila saa"</string>
+	<!---->
+	<string name="account_setup_options_notify_label">"Niarifu wakati barua pepe inawasili"</string>
+	<!---->
+	<string name="account_setup_options_sync_contacts_label">"Landanisha waasiliani kutoka kwenye akaunti hii."</string>
+	<!---->
+	<string name="account_setup_options_sync_calendar_label">"Landanisha kalenda kutoka kwenye akaunti hii."</string>
+	<!---->
+	<string name="account_setup_options_sync_email_label">"Landanisha barua pepe kutoka akaunti hii"</string>
+	<!---->
+	<string name="account_setup_options_background_attachments_label">"Pakua viambatisho kiotomatiki wakati umeunganishwa kwenye Wi-Fi"</string>
+	<!---->
+	<string name="account_setup_failed_dlg_title">"Haikuweza kumaliza"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_label">"Landanisha barua pepe kutoka"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_auto">"Otomatiki"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1day">"Siku ya mwisho"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_3days">"Siku tatu za mwisho"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1week">"Wiki ya mwisho"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_2weeks">"Wiki mbili za mwisho"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1month">"Mwezi uliopita"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_all">"Zote"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_default">"Tumia akaunti ya chaguo-msingi"</string>
+	<!---->
+	<string name="account_setup_failed_dlg_auth_message">"Jina la mtumiaji au nenosiri sio sahihi."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_auth_message_fmt">"Uingiaji haujafaulu.\n(<xliff:g id="error">%s</xliff:g>)"</string>
+	<!---->
+	<string name="account_setup_autodiscover_dlg_authfail_title">"Matatizo ya usanidi wa akaunti"</string>
+	<!---->
+	<string name="account_setup_autodiscover_dlg_authfail_message">"Thibitisha kwamba jina la mtumiaji, nenosiri, na mipangilio ya akaunti ni sahihi."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_certificate_message">"Haikuweza kuanzisha muunganisho kwenye seva kwa sababu ya cheti kisicho aminika au kisicho halali."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_certificate_message_fmt">"Haiwezi kuunganisha kwenye seva kwa usalama.\n(<xliff:g id="error">%s</xliff:g>)"</string>
+	<!---->
+	<string name="account_setup_failed_certificate_required">"Cheti cha mteja kinahitajika. Je, unataka kuunganisha kwenye seva ukitumia cheti cha mteja?"</string>
+	<!---->
+	<string name="account_setup_failed_certificate_inaccessible">"Cheti ni sio halali au hakifikiki."</string>
+	<!---->
+	<string name="account_setup_failed_check_credentials_message">"Seva ilijibu na hitilafu. Kagua jina lako la mtumiaji na nenosiri lako, kisha ujaribu tena."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_server_message">"Haiwezi kuunganisha kwenye seva."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_server_message_fmt">"Haiwezi kuunganisha kwenye seva.\n(<xliff:g id="error">%s</xliff:g>)"</string>
+	<!---->
+	<string name="account_setup_failed_tls_required">"TLS inahitajika lakini haikubaliwi na seva."</string>
+	<!---->
+	<string name="account_setup_failed_auth_required">"Mbinu za uhalalishaji hazikubaliwi na seva."</string>
+	<!---->
+	<string name="account_setup_failed_security">"Haikuweza kufungua muunganisho kwenye seva kwa sababu ya hitilafu ya mtandao au usalama."</string>
+	<!---->
+	<string name="account_setup_failed_ioerror">"Haikuweza kufungua muunganisho kwenye seva."</string>
+	<!---->
+	<string name="account_setup_failed_protocol_unsupported">"Ulicharaza anwnai isiyo sahihi ya seva au seva inahitaji toleo la itifaki ambalo Barua pepe haikubali."</string>
+	<!---->
+	<string name="account_setup_failed_access_denied">"Huna ruhusa ya kulandanisha na seva hii. Wasiliana na msimamizi wa seva yako kwa maelezo zaidi."</string>
+	<!---->
+	<string name="account_setup_security_required_title">"Usimamizi wa usalama wa mbali"</string>
+	<!---->
+	<string name="account_setup_security_policies_required_fmt">"Seva <xliff:g id="server">%s</xliff:g> inahitaji kwamba uiruhusu kudhibiti baadhi ya vipengele vya usalama vya kifaa chako cha Androdi kutoka mbali. Unataka kumaliza kusanidi akaunti hii?"</string>
+	<!---->
+	<string name="account_setup_failed_security_policies_unsupported">"Seva hii inahitaji vipengele vya usalama ambavyo kifaa chako cha Android hakikubali, ikiwa ni pamoja na: <xliff:g id="error">%s</xliff:g>"</string>
+	<!---->
+	<string name="account_setup_username_uneditable_error">"Huwezi kubadilisha jina la mtumiaji la akaunti. Ili uongeze akaunti yenye jina tofauti la mtumiaji, gusa Ongeza Akaunti."</string>
+	<!---->
+	<string name="disable_admin_warning">"ONYO: Kuamilishua mamlaka ya programu ya Barua pepe kusimamia kifaa chako kutafuta akaunti zote za barua pepe zinazoihitaji, pamoja na barua pepe, waasiliani, matukio ya kalenda, na data nyingine."</string>
+	<!---->
+	<string name="account_security_dialog_title">"Usasisho wa usalama"</string>
+	<!---->
+	<string name="account_security_dialog_content_fmt">"<xliff:g id="account">%s</xliff:g> Inahitaji kwamba usasishe mipangilio yako ya usalama."</string>
+	<!---->
+	<string name="security_unsupported_ticker_fmt">"Akaunti ya \"<xliff:g id="account">%s</xliff:g>\" haiwezi kulandanishwa kwa sababu ya mahitaji ya usalama."</string>
+	<!---->
+	<string name="security_needed_ticker_fmt">"Akaunti ya \"<xliff:g id="account">%s</xliff:g>\" inahitaji usasisho wa mipangilio ya usalama."</string>
+	<!---->
+	<string name="security_changed_ticker_fmt">"Akaunti ya \"<xliff:g id="account">%s</xliff:g>\" ilibadilisha mipangilio yake ya usalama; hakuna hatua ya mtumiaji inahitajika."</string>
+	<!---->
+	<string name="security_notification_content_update_title">"Usasisho wa usalama unahitajika"</string>
+	<!---->
+	<string name="security_notification_content_change_title">"Sera za usalama zimebadilika"</string>
+	<!---->
+	<string name="security_notification_content_unsupported_title">"Sera za usalama haziwezi kutimizwa"</string>
+	<!---->
+	<string name="account_security_title">"Usalama wa kifaa"</string>
+	<!---->
+	<string name="account_security_policy_explanation_fmt">"Seva <xliff:g id="server">%s</xliff:g> inahitaji kwamba uiruhusu kudhibiti baadhi ya vipengele vya usalama vya kifaa chako cha Androdi kutoka mbali."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_edit_details_action">"Maelezo ya uhariri"</string>
+	<!---->
+	<string name="password_expire_warning_ticker_fmt">"\"<xliff:g id="account">%s</xliff:g>\" inahitaji kwamba ubadilishe PIN au nenosiri lako la kufunga skrini."</string>
+	<!---->
+	<string name="password_expire_warning_content_title">"Muda wa kutumika kwa nenosiri la kufunga skrini unakwisha"</string>
+	<!---->
+	<string name="password_expired_ticker">"Muda wa kutumika kwa PIN au nenosiri la kufunga skrini umekwisha."</string>
+	<!---->
+	<string name="password_expired_content_title">"Muda wa kutumika kwa nenosiri la kufunga skrini umekwisha"</string>
+	<!---->
+	<string name="password_expire_warning_dialog_title">"Muda wa kutumika kwa nenosiri la kufunga skrini unakwisha"</string>
+	<!---->
+	<string name="password_expire_warning_dialog_content_fmt">"Unahitaji kubadilisha PIN au nenosiri lako la kufunga skrini hivi karibuni, au data ya <xliff:g id="account">%s</xliff:g> itafutwa. Unataka kuibadilisha sasa hivi?"</string>
+	<!---->
+	<string name="password_expired_dialog_title">"Muda wa kutumika kwa nenosiri la kufunga skrini umekwisha"</string>
+	<!---->
+	<string name="password_expired_dialog_content_fmt">"Data ya <xliff:g id="account">%s</xliff:g> inafutwa kutoka kwenye kifaa chako. Unaweza kurejeza kwa kubadilisha PIN au nenosiri lako la kufunga skrini. Unataka kuibadilisha sasa hivi?"</string>
+	<!---->
+	<string name="account_settings_exit_server_settings">"Ungependa kutupa mabadiliko ambayo hayajahifadhiwa?"</string>
+	<!---->
+	<string name="account_settings_login_dialog_title">"Haikuweza kuingia"</string>
+	<!---->
+	<string name="account_settings_login_dialog_content_fmt">"Jina la mtumiaji au nenosiri la <xliff:g id="account">%s</xliff:g> sio sahihi. Unataka kuyasasisha sasa hivi?"</string>
+	<!---->
+	<string name="account_settings_login_dialog_reason_fmt">"Uingiaji wako kwenye <xliff:g id="account">%s</xliff:g> haukufaulu; seva ilisema: <xliff:g id="reason">%s</xliff:g> Unataka kusasisha jina lako la mtumiaji na/au nenosiri?"</string>
+	<!---->
+	<string name="account_settings_background_attachments_label">"Pakua viambatanisho"</string>
+	<!---->
+	<string name="account_settings_background_attachments_summary">"Pakua viambatisho vya ujumbe mpya kiotomatiki kupitia Wi-Fi"</string>
+	<!---->
+	<string name="account_settings_notify_label">"Mafahamisho ya baruapepe"</string>
+	<!---->
+	<string name="account_settings_summary">"Marudio ya ulandanishaji, taarifa, nk."</string>
+	<!---->
+	<string name="account_settings_notify_summary">"Tuma taarifa wakati barua pepe inawasili"</string>
+	<!---->
+	<string name="account_settings_mail_check_frequency_label">"Marudio ya ulandanishaji"</string>
+	<!---->
+	<string name="account_settings_incoming_label">"Mipangilio inayoingia"</string>
+	<!---->
+	<string name="account_settings_incoming_summary">"Jina la mtumiaji, nenosiri, na mipangilio ingine ya seva inayoingia"</string>
+	<!---->
+	<string name="account_settings_outgoing_label">"Mipangilio inayotoka"</string>
+	<!---->
+	<string name="account_settings_outgoing_summary">"Jina la mtumiaji, nenosiri, na mipangilio ingine ya seva inayotoka"</string>
+	<!---->
+	<string name="account_settings_reply_to_category">"Jibu kwa mipangilio"</string>
+	<!---->
+	<string name="account_settings_reply_to_label">"Jibu kwa"</string>
+	<!---->
+	<string name="account_settings_reply_to_invalid">"Anwani sio halali"</string>
+	<!---->
+	<string name="account_settings_enforced_label">"Sera zilizotekelzwa"</string>
+	<!---->
+	<string name="account_settings_enforced_summary">"Hakuna"</string>
+	<!---->
+	<string name="account_settings_unsupported_label">"Sera zisizokubaliwa"</string>
+	<!---->
+	<string name="account_settings_unsupported_summary">"Hakuna"</string>
+	<!---->
+	<string name="account_settings_retry_label">"Jaribu mlandanisho"</string>
+	<!---->
+	<string name="account_settings_retry_summary">"Gusa hapa ili ulandnaishe akaunti hii"</string>
+	<!---->
+	<string name="account_settings_description_label">"Jina la akaunti"</string>
+	<!---->
+	<string name="account_settings_name_label">"Jina lako"</string>
+	<!---->
+	<string name="account_settings_edit_quick_responses_label">"Majibu ya haraka"</string>
+	<!---->
+	<string name="account_settings_edit_quick_responses_summary">"Hariri maandishi unayoingiza mara kwa mara wakati unatunga barua pepe"</string>
+	<!---->
+	<string name="account_settings_notifications">"Mipangilio ya arifa"</string>
+	<!---->
+	<string name="account_settings_data_usage">"Matumizi ya data"</string>
+	<!---->
+	<string name="account_settings_policies">"Sera za usalama"</string>
+	<!---->
+	<string name="system_folders_title">"Folda za usalama"</string>
+	<!---->
+	<string name="system_folders_trash_title">"Folda ya taka"</string>
+	<!---->
+	<string name="system_folders_trash_summary">"Chagua folda ya taka ya seva yako"</string>
+	<!---->
+	<string name="system_folders_trash_dlg">"Chagua folda ya taka ya seva yako"</string>
+	<!---->
+	<string name="system_folders_sent_title">"Folda ya vipengele vilivyotumwa"</string>
+	<!---->
+	<string name="system_folders_sent_summary">"Chagua folda ya vipengele iliyotumwa na seva yako"</string>
+	<!---->
+	<string name="system_folders_sent_dlg">"Chagua folda ya vipengele iliyotumwa na seva yako"</string>
+	<!---->
+	<string name="edit_quick_response_dialog">"Majibu ya haraka"</string>
+	<!---->
+	<string name="save_action">"Hifadhi"</string>
+	<!---->
+	<string name="account_settings_sync_contacts_enable">"Landanisha waasiliani"</string>
+	<!---->
+	<string name="account_settings_sync_contacts_summary">"Landanisha waasiliani wa akaunti hii"</string>
+	<!---->
+	<string name="account_settings_sync_calendar_enable">"Landanisha kalenda"</string>
+	<!---->
+	<string name="account_settings_sync_calendar_summary">"Landanisha tukio la kalenda la akaunti hii"</string>
+	<!---->
+	<string name="account_settings_sync_email_enable">"Landanisha barua pepe"</string>
+	<!---->
+	<string name="account_settings_sync_email_summary">"Landanisha barua pepe za akaunti hii"</string>
+	<!---->
+	<string name="account_settings_vibrate_when_label">"Tetemeka"</string>
+	<!---->
+	<string name="account_settings_ringtone">"Chagua mlio"</string>
+	<!---->
+	<string name="account_settings_servers">"Mipangilio ya seva"</string>
+	<!---->
+	<string name="default_ringtone">"Mlio chaguo-msingi"</string>
+	<!---->
+	<string name="default_ringtone_unkonwn">"Mlio amabo haujulikani"</string>
+	<!---->
+	<string name="mailbox_settings_activity_title">"Chaguo za mlandanisho"</string>
+	<!---->
+	<string name="mailbox_settings_activity_title_with_mailbox">"Chaguo za mlandanisho (<xliff:g example="Family" id="mailboxx_name">%s</xliff:g>)"</string>
+	<!---->
+	<string name="mailbox_settings_sync_enabled_label">"Landanisha folda hii"</string>
+	<!---->
+	<string name="mailbox_settings_sync_enabled_summary">"Ujumbe utapakuliwa wakati umeunganishwa."</string>
+	<!---->
+	<string name="mailbox_settings_mailbox_sync_window_label">"Siku za barua ya kulandanisha"</string>
+	<!---->
+	<string name="prefDialogTitle_conversationListIcon">"Picha ya mtumaji"</string>
+	<!---->
+	<string name="provider_note_live">"Ni baadhi ya akaunti za \"Plus\" ikiwa ni pamoja na ufikiaji wa POP zinafuatilia programu hii kuunganisha. Ikiwa huwezi kuingia na anwani yako sahihi ya barua pepe na nenosiri sahihi, huenda usiwe na akaunri ya kulipiwa ya \"Plus\". Zindua kivinjari wavuti ili ufikie akaunti hizi za barua pepe."</string>
+	<!---->
+	<string name="provider_note_t_online">"Kabla ya kusanidi akaunti hii ya barua pepe, tembelea tovuti ya T-Online na uunde nenisoro la ufikiaji wa barua pepe ya POP3."</string>
+	<!---->
+	<string name="exchange_name">"Shirika"</string>
+	<!---->
+	<string name="exchange_name_alternate">"Mlandanisho Amilifu wa Ugeuzaji wa Microsoft"</string>
+	<!---->
+	<string name="system_account_create_failed">"Haikuweza kuunda akaunti. Jaribu tena."</string>
+	<!---->
+	<string name="device_admin_label">"Barua pepe"</string>
+	<!---->
+	<string name="device_admin_description">"Huwezesha sera za usalama za seva mahsusi"</string>
+	<!---->
+	<string name="settings_activity_title">"Mipangilio"</string>
+	<!---->
+	<string name="header_label_general_preferences">"Mipangilio ya Kawaida"</string>
+	<!---->
+	<string name="general_preference_confirm_delete_label">"Thibitisha kabla ya kufuta"</string>
+	<!---->
+	<string name="general_preference_confirm_send_label">"Thibitisha kabla ya kutuma"</string>
+	<!---->
+	<string name="more_than_999">"999+"</string>
+	<!---->
+	<string name="search_hint">"Tafuta"</string>
+	<!---->
+	<string name="policy_dont_allow_camera">"Kataa kamera ya kifaa kutumiwa"</string>
+	<!---->
+	<string name="policy_require_password">"Itisha nenosiri la kifaa"</string>
+	<!---->
+	<string name="policy_password_history">"Zuia matumizi ya manenosiri ya sasa"</string>
+	<!---->
+	<string name="policy_password_expiration">"Hitaji manenosiri kufikisha mwisho wa matumizi"</string>
+	<!---->
+	<string name="policy_screen_timeout">"Hitaji kifaa kisichotumika kufunga skrini yake"</string>
+	<!---->
+	<string name="policy_calendar_age">"Weka kikomo cha idadi ya matukio ya kalenda yanayolandanishwa"</string>
+	<!---->
+	<string name="policy_email_age">"Weka kikomo cha idadi ya barua pepe zinazolandanishwa"</string>
+	<!---->
+	<string name="quick_1">"Asante!"</string>
+	<!---->
+	<string name="quick_2">"Ni sawa na mimi!"</string>
+	<!---->
+	<string name="quick_3">"Nitaisoma baadaye na nikujibu."</string>
+	<!---->
+	<string name="quick_4">"Wacha tupange mkutano tujadili jambo hili."</string>
+	<!---->
+	<string name="require_manual_sync_message">"Mlandanisho wa akaunti hii wa chini chini unalemazwa wakati wa utambizi."</string>
+	<!---->
+	<string name="confirm_response">"Inatuma jibu..."</string>
+	<!---->
+	<string name="no_conversations">"Hakuna ujumbe."</string>
+	<!-- no translation found for imap_name -->
+	<skip />
+	<!-- no translation found for pop3_name -->
+	<skip />
+	<!---->
+	<string name="email_name">"Barua pepe"</string>
+	<!---->
+	<string name="folder_picker_title">"Kichagua folda"</string>
+	<!---->
+	<string name="trash_folder_selection_title">"Chagua folda ya taka ya seva ya <xliff:g id="account">%s</xliff:g>"</string>
+	<!---->
+	<string name="sent_folder_selection_title">"Chagua folda ya vipengele vilivyotumwa vya <xliff:g id="account">%s</xliff:g>"</string>
+	<!---->
+	<string name="account_waiting_for_folders_msg">"Inapakia orodha ya folda..."</string>
+	<!---->
+	<string name="no_quick_responses">"Hakuna inayopatikana"</string>
+	<!---->
+	<string name="gmail_name">"Gmail"</string>
+	<!---->
+	<string name="folder_sync_settings_pref_title">"Mipangilio ya mlandanisho wa folda"</string>
+	<!---->
+	<string name="select_your_account">"Chagua Akaunti"</string>
+	<!---->
+	<string name="select_account_list_below">"Chagua akaunti yako kutoka kwenye orodha iliyo hapa chini:"</string>
+	<!---->
+	<string name="cancel_label">"Ghairi"</string>
+	<!---->
+	<string name="next_label">"Ifuatayo"</string>
+	<!---->
+	<string name="str_account_provider_other">"Nyingine"</string>
+	<!---->
+	<string name="account_settings_download_options_label">"Machaguo ya kupakua"</string>
+	<!---->
+	<string name="account_setting_download_opt_headonly">"Kijajuu pekee"</string>
+	<!---->
+	<string name="account_setting_download_opt_all">"Zote"</string>
+	<!-- no translation found for account_setting_download_opt_2k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_5k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_10k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_20k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_50k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_100k -->
+	<skip />
+	<!---->
+	<string name="account_oof_error_tip_past">"Muda wa Kumaliza hauwezi kuwa hapo awali. Tafadhali badilisha Muda wa Kumaliza uwe muda wa siku zijazo."</string>
+	<!---->
+	<string name="account_oof_error_tip_earlier">"Muda wa Kumaliza hauwezi kua mapema kuliko Muda wa Kuanza. Badilisha Muda wa Kumaliza tena."</string>
+	<!---->
+	<string name="account_setting_oof_label">"Mipangilio ya Nje ya Ofisi"</string>
+	<!---->
+	<string name="oof_auto_repley">"Tuma jibu otomatiki kwamba siko ofisini"</string>
+	<!---->
+	<string name="oof_auto_replies_period">"Tuma majibu otomatiki wakati wa kipindi hiki"</string>
+	<!---->
+	<string name="start_time">"Wakati wa Kuanza"</string>
+	<!---->
+	<string name="end_time">"Wakati wa kuisha"</string>
+	<!---->
+	<string name="internal_message">"Ujumbe wa ndani"</string>
+	<!---->
+	<string name="oof_auto_replies_external_senders">"Tuma majibu otomatiki kwa watuma barua hawa"</string>
+	<!---->
+	<string name="oof_choice_oof_in_contacts">"Tuma majibu otomatiki kwamba Siko Ofisini kwa watuma barua walio katika orodha yangu ya waasiliani"</string>
+	<!---->
+	<string name="oof_choice_oof_outside_organisation">"Tuma majibu otomatiki kwa Siko Ofisini kwa mtu yoyote nje ya shirika langu"</string>
+	<!---->
+	<string name="external_message">"Ujumbe wa nje"</string>
+	<!---->
+	<string name="oof_done_message_attention">"“Usibainishe ujumbe wa jibu otomatiki kwa watu walio ndani ya shirika langu. Ikiwa ujumbe wa Hauko Ofisini hautaingizwa, wata hawatapokea taarifa ya kwa Hauko Ofisini. Sheria zako za Hauko Ofisini, hata hivyo bado zitafanya kazi. Unataka kuendelea?"</string>
+	<!---->
+	<string name="oof_choice_in_contacts">"Tuma kwa mtumaji katika orodha ya waasiliani wangu"</string>
+	<!---->
+	<string name="oof_choice_all_senders">"Tuma kwa watumaji wote"</string>
+	<!---->
+	<string name="hint_text_of_internal_message">"Jibu kwa anwani kutoka shirika lako"</string>
+	<!-- no translation found for hint_text_of_external_message -->
+	<skip />
+	<!---->
+	<string name="account_delete_dlg_title">"Ondoa akaunti?"</string>
+	<!---->
+	<string name="account_delete_dlg_instructions_fmt">"Akaunti ya \"<xliff:g id="account">%s</xliff:g>\" itaondolewa kutoka kwenye Barua pepe."</string>
+	<!---->
+	<string name="account_delete_dlg_instructions_fmt_new">"Kuondoa akaunti hii kutafuta ujumbe wake wote, waasiliani, na data nyingine kutoka kwenye simu yako."</string>
+	<!---->
+	<string name="account_delete_dlg_action_remove_label">"Ondoa"</string>
+	<!---->
+	<string name="account_delete_dlg_action_cancel_label">"Ghairi"</string>
+	<!---->
+	<string name="account_settings_category_delete_account">"Ondoa akaunti"</string>
+	<!---->
+	<string name="account_settings_delete_account_label">"Ondoa akaunti"</string>
+	<!---->
+	<string name="account_settings_default_label">"Akaunti ya chaguo-msingi"</string>
+	<!---->
+	<string name="account_settings_default_summary">"Tuma barua pepe kutoka kwenye akaunti hii kwa chaguo-msingi"</string>
+	<!---->
+	<string name="account_setup_options_default_label">"Tuma barua pepe kutoka kwenye akaunti hii kwa chaguo-msingi."</string>
+	<!---->
+	<string name="account_setup_basics_default_label">"Tuma barua pepe kutoka kwenye akaunti hii kwa chaguo-msingi."</string>
+	<!---->
+	<string name="local_search_action">"Tafuta ndani"</string>
+	<!---->
+	<string name="service_search_action">"Tafuta kwenye seva"</string>
+	<!---->
+	<string name="local_search_all">"Zote"</string>
+	<!---->
+	<string name="local_search_from">"Kutoka"</string>
+	<!---->
+	<string name="local_search_to">"Kwa"</string>
+	<!---->
+	<string name="local_search_subject">"Mada"</string>
+	<!---->
+	<string name="status_loading_attachments">"Kupakia"</string>
+	<!---->
+	<string name="account_use_proxy_label">"Tumia mbadala"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_label">"IP mbadala"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_port_label">"Poti ya proksi"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_name">"Jina la proksi"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_password">"Nenosiri badala"</string>
+	<!---->
+	<string name="attachment_info_dialog_wifi_title">"Unahitaji kuunganisha kwenye Wi-Fi"</string>
+	<!---->
+	<string name="attachment_info_wifi_settings">"Mipangilio ya Wi-Fi"</string>
+	<!---->
+	<string name="attachment_info_wifi_only">"Kiambatisho hiki ni kikubwa sana kupakuliwa kupitia mtandao rununu. Unaweza kukipakua wakati ujao unapounganisha kwenye mtandao wa Wi-Fi."</string>
+	<!---->
+	<string name="attachment_info_ok">"SAWA"</string>
+	<!---->
+	<string name="mailbox_name_display_draft">"Mswada"</string>
+	<!---->
+	<string name="message_compose_display_name">"<xliff:g example="John" id="name">%1$s</xliff:g> Na wengine <xliff:g example="27" id="number">%2$d</xliff:g>"</string>
+	<!---->
+	<string name="app_name">"Barua pepe"</string>
+	<!---->
+	<string name="from">"Kutoka"</string>
+	<!---->
+	<string name="to">"Kwa"</string>
+	<!---->
+	<string name="cc">"Cc"</string>
+	<!---->
+	<string name="bcc">"Bcc"</string>
+	<!---->
+	<string name="subject_hint">"Mada"</string>
+	<!---->
+	<string name="body_hint">"Tunga barua pepe"</string>
+	<!---->
+	<string name="add_file_attachment">"Ambatisha faili"</string>
+	<!---->
+	<string name="add_photo_attachment">"Ambatisha picha"</string>
+	<!---->
+	<string name="save_draft">"Hifadhi mswada"</string>
+	<!---->
+	<string name="discard">"Tupa"</string>
+	<!---->
+	<string name="compose">"Tunga"</string>
+	<!---->
+	<string name="select_contacts_field">"Chagua waasiliani kutoka"</string>
+	<!---->
+	<string name="item_save_group">"Hifadhi kundi"</string>
+	<!---->
+	<string name="confirm_select">"Chagua"</string>
+	<!---->
+	<string name="cancel_select">"Ghairi"</string>
+	<string-array name="compose_modes">
+		<item>"Jibu"</item>
+		<item>"Jibu yote"</item>
+		<item>"Sambaza"</item>
+	</string-array>
+	<string-array name="compose_modes_without_reply_all">
+		<item>"Jibu"</item>
+		<item>"Sambaza"</item>
+	</string-array>
+	<!---->
+	<string name="reply_subject_label">"Kuhusu:"</string>
+	<!---->
+	<string name="forward_subject_label">"Sambaza:"</string>
+	<!---->
+	<string name="reply_attribution">"Tarehe <xliff:g id="date">%s</xliff:g>, <xliff:g id="person">%s</xliff:g> aliandika:"</string>
+	<!---->
+	<string name="forward_attribution">"---------- Ujumbe uliosambazwa ----------；Kutoka kwa:；Tarehe:；Mada:；Kwa:"</string>
+	<!---->
+	<string name="forward_attribution_with_headers">"---------- Ujumbe umesambazwa ---------- <xliff:g id="a">%s</xliff:g> Kutoka: <xliff:g id="from">%s</xliff:g> <xliff:g id="b">%s</xliff:g> Tarehe: <xliff:g id="date">%s</xliff:g> <xliff:g id="c">%s</xliff:g> Mada: <xliff:g id="subject">%s</xliff:g> <xliff:g id="d">%s</xliff:g> Kwa: <xliff:g id="to">%s</xliff:g> <xliff:g id="e">%s</xliff:g> Nakala: <xliff:g id="cc">%s</xliff:g> <br/>"</string>
+	<!---->
+	<string name="forward_attribution_no_headers">"---------- Ujumbe uliosambazwa ----------"</string>
+	<!---->
+	<string name="cc_attribution">"Nakala:"</string>
+	<!---->
+	<string name="select_attachment_type">"Chagua aina ya kiambatisho"</string>
+	<!---->
+	<string name="too_large_to_attach_single">"Haiwezi kuambatisha faili zaidi ya %1$s"</string>
+	<!---->
+	<string name="too_large_to_attach_multiple">"Faili moja au zaidi hazijaambatishwa. Kikomo <xliff:g id="maxSize">%1$s</xliff:g>."</string>
+	<!---->
+	<string name="too_large_to_mid_attach_additional">"Barua pepe yako imezidisha <xliff:g id="maxSize">%1$s</xliff:g>. Huenda akaunti ya barua pepe isikubali jambo hili."</string>
+	<!---->
+	<string name="too_large_to_attach_additional">"Haiwezi kuongeza faili. Ukubwa wa barua pepe utazidi kikomo cha <xliff:g id="maxSize">%1$s</xliff:g>."</string>
+	<!---->
+	<string name="generic_attachment_problem">"Haikuweza kuambatisha faili."</string>
+	<!---->
+	<string name="recipient_needed">"Ongeza angalau mpokeaji mmoja."</string>
+	<!---->
+	<string name="recipient_error_dialog_title">"Hitilafu ya mpokezi"</string>
+	<!---->
+	<string name="confirm_send_title">"Tuma ujumbe?"</string>
+	<!---->
+	<string name="confirm_send_message_with_no_subject">"Hakuna ujumbe katika mada ya ujumbe"</string>
+	<!---->
+	<string name="confirm_send_message_with_no_body">"Hakuna maandishi katika mwili wa ujumbe."</string>
+	<!---->
+	<string name="confirm_send_message">"Unataka kutuma ujumbe huu?"</string>
+	<!---->
+	<string name="message_discarded">"Ujumbe umetupwa."</string>
+	<!-- no translation found for signature -->
+	<skip />
+	<!---->
+	<string name="custom_from_account_label">"Tuma barua pepe kama:"</string>
+	<!---->
+	<string name="send">"Tuma"</string>
+	<!---->
+	<string name="mark_read">"Weka alama kama umesomwa"</string>
+	<!---->
+	<string name="mark_unread">"Weka alama ya haujasomwa"</string>
+	<!---->
+	<string name="mute">"Nyamazisha"</string>
+	<!---->
+	<string name="add_star">"Ongeza nyota"</string>
+	<!---->
+	<string name="remove_star">"Ondoa nyota"</string>
+	<!---->
+	<string name="remove_folder">"Ondoa kutoka <xliff:g id="folderName">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="archive">"Maakaba"</string>
+	<!---->
+	<string name="report_spam">"Ripoti barua taka"</string>
+	<!---->
+	<string name="mark_not_spam">"Ripoti: Sio barua taka"</string>
+	<!---->
+	<string name="report_phishing">"Ripoti uhadaaji"</string>
+	<!---->
+	<string name="delete">"Futa"</string>
+	<!---->
+	<string name="discard_drafts">"Tupa miswada"</string>
+	<!---->
+	<string name="discard_failed">"Utupaji haujafaulu"</string>
+	<!---->
+	<string name="refresh">"Pakia upya"</string>
+	<!---->
+	<string name="reply">"Jibu"</string>
+	<!---->
+	<string name="reply_all">"Jibu yote"</string>
+	<!---->
+	<string name="resume_draft">"Hariri"</string>
+	<!---->
+	<string name="forward">"Sambaza"</string>
+	<!---->
+	<string name="menu_compose">"Tunga"</string>
+	<!---->
+	<string name="menu_sort">"Panga"</string>
+	<!---->
+	<string name="menu_change_folders">"Badilisha folda"</string>
+	<!---->
+	<string name="menu_move_to">"Hamisha katika"</string>
+	<!---->
+	<string name="menu_move_to_inbox">"Hamisha kwenye Kisanduku Pokezi"</string>
+	<!---->
+	<string name="menu_manage_folders">"Mipangilio ya folda"</string>
+	<!---->
+	<string name="menu_show_original">"Rejesha ukubwa oto"</string>
+	<!---->
+	<string name="menu_settings">"Mipangilio"</string>
+	<!---->
+	<string name="menu_search">"Tafuta"</string>
+	<!---->
+	<string name="drawer_title">"Urambazaji"</string>
+	<!---->
+	<string name="mark_important">"Weka alama kama muhimu"</string>
+	<!---->
+	<string name="mark_not_important">"Weka alama kama isiyo muhimu"</string>
+	<!---->
+	<string name="select_all_conversations">"Chagua zote"</string>
+	<!---->
+	<string name="unselect_all_conversations">"Usichague zozote"</string>
+	<!---->
+	<string name="add_cc_label">"Ongeza Nakala/Nakala Fiche"</string>
+	<!---->
+	<string name="add_bcc_label">"Ongeza Nakala Fiche"</string>
+	<!---->
+	<string name="quoted_text">"Jumuisha maandishi yaliyo dondolewa"</string>
+	<!---->
+	<string name="quoted_text_label">"Dondoa maandishi"</string>
+	<!---->
+	<string name="respond_inline">"Mstari wa kujibu"</string>
+	<!---->
+	<string name="bytes">"B <xliff:g id="count">%s</xliff:g>"</string>
+	<!---->
+	<string name="kilobytes">"KB <xliff:g id="count">%s</xliff:g>"</string>
+	<!---->
+	<string name="megabytes">"MB <xliff:g id="count">%s</xliff:g>"</string>
+	<!---->
+	<string name="attachment_image">"Taswira"</string>
+	<!---->
+	<string name="attachment_video">"Video"</string>
+	<!---->
+	<string name="attachment_audio">"Sauti"</string>
+	<!---->
+	<string name="attachment_text">"Matini"</string>
+	<!---->
+	<string name="attachment_application_msword">"Waraka"</string>
+	<!---->
+	<string name="attachment_application_vnd_ms_powerpoint">"Maonyesho"</string>
+	<!---->
+	<string name="attachment_application_vnd_ms_excel">"Lahajedwali"</string>
+	<!-- no translation found for attachment_application_pdf -->
+	<skip />
+	<!---->
+	<string name="attachment_unknown">"Faili ya <xliff:g id="attachmentExtension">%s</xliff:g>"</string>
+	<!---->
+	<string name="preview_attachment">"Hakiki"</string>
+	<!---->
+	<string name="save_attachment">"Hifadhi"</string>
+	<!---->
+	<string name="cancel_attachment">"Ghairi"</string>
+	<!---->
+	<string name="open_attachment">"Fungua"</string>
+	<!---->
+	<string name="install_attachment">"Sakinisha"</string>
+	<!---->
+	<string name="download_again">"Pakua tena"</string>
+	<!---->
+	<string name="more_info_attachment">"Maelezo"</string>
+	<!---->
+	<string name="no_application_found">"Hakuna programu inaweza kufngua kiambatisho hiki kitazamwe."</string>
+	<!---->
+	<string name="fetching_attachment">"Inaleta kiambatisho"</string>
+	<!---->
+	<string name="please_wait">"Tafadhali subiri\u2026"</string>
+	<!---->
+	<string name="saved">"Imehifadhiwa,"</string>
+	<!---->
+	<string name="download_failed">"Haikuweza kupakua. Gusa ili ujaribu tena."</string>
+	<!---->
+	<string name="menu_photo_save_all">"Hifadhi zote"</string>
+	<!---->
+	<string name="menu_photo_share">"Shiriki"</string>
+	<!---->
+	<string name="menu_photo_share_all">"Shiriki zote"</string>
+	<!---->
+	<string name="menu_photo_print">"Chapisha"</string>
+	<!---->
+	<string name="saving">"Inahifadhi..."</string>
+	<!---->
+	<string name="choosertitle_sharevia">"Shiriki kupitia"</string>
+	<!---->
+	<string name="contextmenu_openlink">"Fungua katika Kivinjari"</string>
+	<!---->
+	<string name="contextmenu_copy">"Nakili"</string>
+	<!---->
+	<string name="contextmenu_copylink">"Nakili URL ya kiungo"</string>
+	<!---->
+	<string name="contextmenu_view_image">"Tazama picha"</string>
+	<!-- no translation found for contextmenu_dial_dot -->
+	<skip />
+	<!---->
+	<string name="contextmenu_sms_dot">"SMS\u2026"</string>
+	<!---->
+	<string name="contextmenu_add_contact">"Ongeza Anwani"</string>
+	<!---->
+	<string name="contextmenu_send_mail">"Tuma barua pepe"</string>
+	<!---->
+	<string name="contextmenu_map">"Ramani"</string>
+	<!---->
+	<string name="contextmenu_sharelink">"Shiriki kiungo"</string>
+	<!---->
+	<string name="contextmenu_savelink">"Hifadhi kiungo"</string>
+	<!---->
+	<string name="contextmenu_help">"Msaada"</string>
+	<!---->
+	<string name="contextmenu_feedback">"Tuma maoni"</string>
+	<!---->
+	<string name="sort_title">"Panga kulingana na"</string>
+	<!---->
+	<string name="sort_by_tip">"Imepangwa kwa <xliff:g id="sor_type">%s</xliff:g>"</string>
+	<!-- no translation found for num_selected -->
+	<skip />
+	<plurals name="move_conversation">
+		<item quantity="one">"Hamisha mazungumzo"</item>
+		<item quantity="other">"Hamisha mazungumzo <xliff:g>%1$d</xliff:g>"</item>
+	</plurals>
+	<!---->
+	<string name="content_description">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> kuhusu <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> kwenye <xliff:g id="date">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g>"</string>
+	<!---->
+	<string name="content_description_today">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> kuhusu <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> kwenye <xliff:g id="time">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g>"</string>
+	<!---->
+	<string name="read_string">"Mazungumzo yamesomwa"</string>
+	<!---->
+	<string name="unread_string">"Mazungumzo hayajasomwa"</string>
+	<!---->
+	<string name="filtered_tag">"[<xliff:g id="tag">%1$s</xliff:g>]<xliff:g id="subject">%2$s</xliff:g>"</string>
+	<!-- no translation found for badge_and_subject -->
+	<skip />
+	<plurals name="draft">
+		<item quantity="one">"Mswada"</item>
+		<item quantity="other">"Miswada"</item>
+	</plurals>
+	<!---->
+	<string name="sending">"Inatuma\u2026"</string>
+	<!---->
+	<string name="message_retrying">"Inajaribu tena\u2026"</string>
+	<!---->
+	<string name="message_failed">"Haijafaulu"</string>
+	<!---->
+	<string name="send_failed">"Haijafaulu kutuma barua."</string>
+	<!---->
+	<string name="send_failed_wait_attchment_downloaded">"Haiwezi kusambaza kwa sababu viambatisho havijapakuliwa kabisa, tafadhali pakua viambatisho kwanza."</string>
+	<!---->
+	<string name="me_object_pronoun">"Mimi"</string>
+	<!---->
+	<string name="me_subject_pronoun">"Mimi"</string>
+	<plurals name="confirm_delete_conversation">
+		<item quantity="one">"Ungependa kufuta mazungumzo haya?"</item>
+		<item quantity="other">"Unataka kufuta mazungumzo haya <xliff:g id="count">%1$d</xliff:g>?"</item>
+	</plurals>
+	<plurals name="confirm_archive_conversation">
+		<item quantity="one">"Unataka kuhifadhi mazungumzo?"</item>
+		<item quantity="other">"Unataka kuhifadhi mazungumzo haya <xliff:g id="count">%1$d</xliff:g>?"</item>
+	</plurals>
+	<plurals name="confirm_discard_drafts_conversation">
+		<item quantity="one">"Unataka kutupa ujumbe huu?"</item>
+		<item quantity="other">"Unataka kutupa ujumbe huu <xliff:g id="count">%1$d</xliff:g>?"</item>
+	</plurals>
+	<!---->
+	<string name="confirm_discard_text">"Unataka kutupa ujumbe huu?"</string>
+	<!---->
+	<string name="loading_conversations">"Kupakia\u2026"</string>
+	<!---->
+	<string name="empty_inbox">"Ushamaliza! Tafadhali furahia siku yako."</string>
+	<!---->
+	<string name="empty_search">"Lahaula! Hatukuweza kupata kitu chochote cha \"<xliff:g id="search_query">%1$s</xliff:g>\"."</string>
+	<!---->
+	<string name="empty_spam_folder">"Hoyaa, hakuna barua taka hapa!"</string>
+	<!---->
+	<string name="empty_trash_folder">"Hakuna taka hapa. Asante kwa kurejeleza!"</string>
+	<!---->
+	<string name="empty_folder">"Hakuna barua hapa."</string>
+	<!---->
+	<string name="getting_messages">"Kutafuta ujumbe wako"</string>
+	<!---->
+	<string name="undo">"Funyua"</string>
+	<plurals name="conversation_unstarred">
+		<item quantity="one">"Kutoa nyota ya mazungumzo <xliff:g id="count">%1$d</xliff:g>."</item>
+		<item quantity="other">"Kutoa nyota ya mazungumzo <xliff:g id="count">%1$d</xliff:g>."</item>
+	</plurals>
+	<plurals name="conversation_muted">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> umenyamazishwa."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> umenyamazishwa."</item>
+	</plurals>
+	<plurals name="conversation_spammed">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> imeripotiwa kama barua taka."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> imeripotiwa kama barua taka."</item>
+	</plurals>
+	<plurals name="conversation_not_spam">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> imeripotiwa kama sio barua taka."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> imeripotiwa kama sio barua taka."</item>
+	</plurals>
+	<plurals name="conversation_not_important">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> imewekwa alama kama sio muhimu."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> imewekwa alama kama sio muhimu."</item>
+	</plurals>
+	<plurals name="conversation_phished">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> imeripotiwa kama uhadaaji."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> imeripotiwa kama uhadaaji."</item>
+	</plurals>
+	<plurals name="conversation_archived">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> imeakibishwa."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> imeakibishwa."</item>
+	</plurals>
+	<plurals name="conversation_deleted">
+		<item quantity="one">"&lt;b&gt;%1$d&lt;/b&gt; umefutwa."</item>
+		<item quantity="other">"&lt;b&gt;%1$d&lt;/b&gt; umefutwa."</item>
+	</plurals>
+	<!---->
+	<string name="deleted">"Imefutwa"</string>
+	<!---->
+	<string name="archived">"Imeakibishwa"</string>
+	<!---->
+	<string name="starred">"VIP"</string>
+	<!---->
+	<string name="unstarred">"Toa nyota"</string>
+	<!---->
+	<string name="folder_removed">"Imeondolwa kutoka kwenye <xliff:g id="folderName">%1$s</xliff:g>"</string>
+	<plurals name="conversation_folder_changed">
+		<item quantity="one">"Folda imebadilishwa."</item>
+		<item quantity="other">"Folda zimebadilishwa."</item>
+	</plurals>
+	<!---->
+	<string name="conversation_folder_moved">"Imehamishwa kwenye <xliff:g id="folderName">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="search_results_header">"Matokeo"</string>
+	<!---->
+	<string name="search_unsupported">"Utafutaji haukubaliwi kwenye akaunti hii."</string>
+	<!---->
+	<string name="add_label">"Ongeza folda"</string>
+	<!---->
+	<string name="new_incoming_messages_one">"Onyesha ujumbe mpya kutoka <xliff:g id="sender">%s</xliff:g>."</string>
+	<plurals name="new_incoming_messages_many">
+		<item quantity="other">"Onyesha ujumbe <xliff:g id="count">%1$d</xliff:g> mipya."</item>
+	</plurals>
+	<!---->
+	<string name="date_and_view_details">"<xliff:g id="date">%1$s</xliff:g> &lt;a href=\'http://www.example.com\'&gt;View details&lt;/a&gt;"</string>
+	<!---->
+	<string name="date_and_view_details_another">"<xliff:g id="date">%1$s</xliff:g> &lt;font color=\"<xliff:g id="color">%2$d</xliff:g>\"&gt;Tazama maelezo&lt;/font&gt;"</string>
+	<!---->
+	<string name="hide_details">"Ficha maelezo"</string>
+	<!---->
+	<string name="to_message_header">"kwa <xliff:g id="recipients">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="contact_info_string">"Onyesha maelezo ya waasiliani wa <xliff:g id="name">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="contact_info_string_default">"Onyesha maelezo ya waasiliani"</string>
+	<plurals name="show_messages_read">
+		<item quantity="other">"Ujumbe <xliff:g example="4" id="count">%1$d</xliff:g> wa zamani"</item>
+	</plurals>
+	<!---->
+	<string name="from_heading">"Kutoka:"</string>
+	<!---->
+	<string name="replyto_heading">"Jibu kwa:"</string>
+	<!---->
+	<string name="to_heading">"Kwa:"</string>
+	<!---->
+	<string name="to_heading_no_space">"Kwa:"</string>
+	<!---->
+	<string name="cc_heading">"Nakala:"</string>
+	<!---->
+	<string name="bcc_heading">"Nakala Fiche:"</string>
+	<!---->
+	<string name="date_heading">"Tarehe:"</string>
+	<!---->
+	<string name="show_images">"Onyesha picha"</string>
+	<!---->
+	<string name="always_show_images">"Onyesha picha ya mtumaji wakati wote"</string>
+	<!---->
+	<string name="always_show_images_toast">"Picha kutoka kwa mtumaji huyu zitoanyeshwa kiotomatiki."</string>
+	<!---->
+	<string name="address_display_format">"<xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g>"</string>
+	<!---->
+	<string name="address_display_format_with_via_domain">"<xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g> kupitia <xliff:g id="via_domain">%3$s</xliff:g>"</string>
+	<!---->
+	<string name="message_saved">"Ujumbe umehifadhiwa kama mswada."</string>
+	<!---->
+	<string name="sending_message">"Inatuma ujumbe\u2026"</string>
+	<!---->
+	<string name="invalid_recipient">"Anwani ya %s sio halali."</string>
+	<!---->
+	<string name="show_elided">"Onyesha maandishi yaliyodondolewa"</string>
+	<!---->
+	<string name="hide_elided">"\u25BC Ficha maandishi yaliyodondolewa"</string>
+	<!---->
+	<string name="message_invite_title">"Mwaliko wa Kalenda"</string>
+	<!---->
+	<string name="message_invite_available">"Unapatikana"</string>
+	<!---->
+	<string name="message_invite_datetime">"Lini"</string>
+	<!---->
+	<string name="message_invite_location">"Wapi"</string>
+	<!---->
+	<string name="message_invite_in_calendar_view">"Angalia katika Kalenda"</string>
+	<!---->
+	<string name="message_invite_calendar_view">"Tazama katika Kalenda"</string>
+	<!---->
+	<string name="message_invite_label_attending">"Unaenda?"</string>
+	<!---->
+	<string name="message_invite_accept">"Ndiyo"</string>
+	<!---->
+	<string name="message_invite_tentative">"Labda"</string>
+	<!---->
+	<string name="message_invite_decline">"Hapana"</string>
+	<!-- no translation found for enumeration_comma -->
+	<skip />
+	<!---->
+	<string name="send_anyway">"Tuma tu"</string>
+	<!---->
+	<string name="ok">"SAWA"</string>
+	<!---->
+	<string name="done">"Kamilika"</string>
+	<!---->
+	<string name="cancel">"Ghairi"</string>
+	<!---->
+	<string name="clear">"Ondoa"</string>
+	<!---->
+	<string name="next">"Ifuatayo"</string>
+	<!---->
+	<string name="previous">"Awali"</string>
+	<string-array name="sync_status">
+		<item>"Hujaunganishwa kwenye Wi-Fi, unataka kuendelea na mlandanisho?"</item>
+		<item>"Hakuna muunganisho."</item>
+		<item>"Haikuweza kuingia."</item>
+		<item>"Hitilafu ya usalama."</item>
+		<item>"Haikuweza kulandanisha."</item>
+		<item>"Hitilafu ya ndani"</item>
+		<item>"Hitilafu ya seva"</item>
+	</string-array>
+	<!---->
+	<string name="tap_to_configure">"Gusa ili kusanidi"</string>
+	<!---->
+	<string name="non_synced_folder_description">"Ili utazame mazungumzo, landanisha folda hii."</string>
+	<!---->
+	<string name="tap_to_configure_folder_sync">"Landanisha folda"</string>
+	<!-- no translation found for widget_large_unread_count -->
+	<skip />
+	<!---->
+	<string name="large_unseen_count">"<xliff:g example="99" id="count">%d</xliff:g>+ mpya"</string>
+	<!---->
+	<string name="unseen_count">"<xliff:g example="4" id="count">%d</xliff:g> mpya"</string>
+	<plurals name="actionbar_unread_messages">
+		<item quantity="other">"%1$d haujasomwa"</item>
+	</plurals>
+	<!---->
+	<string name="actionbar_large_unread_count">"<xliff:g id="count">%1$d</xliff:g>+ haujasomwa"</string>
+	<!---->
+	<string name="view_more_conversations">"Tazama mazungumzo zaidi"</string>
+	<!---->
+	<string name="loading_conversation">"Kupakia\u2026"</string>
+	<!---->
+	<string name="activity_mailbox_selection">"Chagua akaunti"</string>
+	<!---->
+	<string name="activity_folder_selection">"Chagua folda"</string>
+	<!---->
+	<string name="folder_shortcut_widget_label">"Folda ya barua pepe"</string>
+	<!---->
+	<string name="change_folders_selection_dialog_title">"Badilisha folda"</string>
+	<!---->
+	<string name="move_to_selection_dialog_title">"Hamisha katika"</string>
+	<!-- no translation found for search_results_loaded -->
+	<skip />
+	<!---->
+	<string name="network_error">"Hakuna muunganisho"</string>
+	<!---->
+	<string name="retry">"Jaribu tena"</string>
+	<!---->
+	<string name="load_more">"Pakia zaidi"</string>
+	<!---->
+	<string name="shortcut_name_title">"Patia mkato wa folda jina"</string>
+	<!---->
+	<string name="wait_for_sync_title">"Inasubiri mlandanisho"</string>
+	<!---->
+	<string name="not_synced_title">"Akaunti haijalandanishwa"</string>
+	<!---->
+	<string name="wait_for_manual_sync_body">"Akaunti hiajawekwa kulandanisha kiotomatiki.\nGusa <b>Landanisha sasa hivi</b> ili ulandanishe barua mara moja, au <b>Badilisha mipangilio ya mlandanisho</b> ili usanidi akaunti hii kulandanisha barua kiotomatiki."</string>
+	<!---->
+	<string name="manual_sync">"Sawazisha sasa"</string>
+	<!---->
+	<string name="change_sync_settings">"Badilisha mpangilio ya ulandanishi"</string>
+	<!---->
+	<string name="photo_load_failed">"Haikuweza kupakia picha"</string>
+	<!---->
+	<string name="cant_move_or_change_labels">"Haiwezi kuhamisha kwa sababu uteuzi una akaunti nyingi."</string>
+	<!-- no translation found for multiple_new_message_notification_item -->
+	<skip />
+	<!-- no translation found for single_new_message_notification_big_text -->
+	<skip />
+	<!---->
+	<string name="ignore_spam_warning">"Puuza, ninauamini ujumbe huu"</string>
+	<!---->
+	<string name="via_domain">"kupitia <xliff:g id="viaDomain">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="signin">"Ingia"</string>
+	<!---->
+	<string name="info">"Maelezo"</string>
+	<!---->
+	<string name="report">"Ripoti"</string>
+	<!---->
+	<string name="sync_error">"Haikuweza kulandanisha."</string>
+	<!---->
+	<string name="sync_error_message">"Kifaa chako hakina nafasi ya kutosha ya hifadhi kulandanisha."</string>
+	<!---->
+	<string name="storage">"Hifadhi"</string>
+	<!-- no translation found for senders_split_token -->
+	<skip />
+	<!-- no translation found for draft_count_format -->
+	<skip />
+	<!---->
+	<string name="all_folders_heading">"Folda zote"</string>
+	<!---->
+	<string name="recent_folders_heading">"Folda za hivi karibuni"</string>
+	<!---->
+	<string name="message_details_title">"Maelezo ya ujumbe"</string>
+	<!---->
+	<string name="preference_advance_to_title">"Mahiri otomatiki"</string>
+	<string-array name="prefEntries_autoAdvance">
+		<item>"Mpya"</item>
+		<item>"Za zamani"</item>
+		<item>"Orodha ya mazungumzo"</item>
+	</string-array>
+	<string-array name="prefSummaries_autoAdvance">
+		<item>"Onyesha mazungumzo mapya baada ya kufuta"</item>
+		<item>"Onyesha mazungumzo ya zamani baada ya kufuta"</item>
+		<item>"Onyesha orodha ya mazungumzo baada ya kufuta"</item>
+	</string-array>
+	<!---->
+	<string name="prefDialogTitle_autoAdvance">"Endelea kwa"</string>
+	<!---->
+	<string name="clear_display_images_whitelist_title">"Futa ruhusa za picha"</string>
+	<!---->
+	<string name="clear_display_images_whitelist_dialog_title">"Unataka kufuta ruhusa za picha?"</string>
+	<!---->
+	<string name="clear_display_images_whitelist_dialog_message">"Simamisha uonyeshaji wa picha za katika mstari kutoka kwa watumaji uliowaruhusu hapo awali."</string>
+	<!---->
+	<string name="sender_whitelist_cleared">"Picha hazitaonyeshwa kiotomatiki."</string>
+	<!---->
+	<string name="preferences_signature_title">"Saini"</string>
+	<!---->
+	<string name="preferences_signature_dialog_title">"Saini"</string>
+	<!---->
+	<string name="preferences_signature_summary_not_set">"Haijawekwa"</string>
+	<!---->
+	<string name="mail_account_signature_prefix">"Imetumwa kutoka kwa <xliff:g example="4" id="product">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="notification_action_reply">"Jibu"</string>
+	<!---->
+	<string name="notification_action_reply_all">"Jibu yote"</string>
+	<!---->
+	<string name="notification_action_archive">"Maakaba"</string>
+	<!---->
+	<string name="notification_action_remove_label">"Ondoa lebo"</string>
+	<!---->
+	<string name="notification_action_delete">"Futa"</string>
+	<!---->
+	<string name="notification_action_undo_archive">"Imeakibishwa"</string>
+	<!---->
+	<string name="notification_action_undo_remove_label">"Lebo imeondolewa"</string>
+	<!---->
+	<string name="notification_action_undo_delete">"Imefutwa"</string>
+	<!-- no translation found for veiled_address -->
+	<skip />
+	<!-- no translation found for veiled_alternate_text -->
+	<skip />
+	<!-- no translation found for veiled_alternate_text_unknown_person -->
+	<skip />
+	<!-- no translation found for veiled_summary_unknown_person -->
+	<skip />
+	<!-- no translation found for label_notification_ticker -->
+	<skip />
+	<plurals name="new_messages">
+		<item quantity="one">"Ujumbe <xliff:g id="count">%1$d</xliff:g> mpya"</item>
+		<item quantity="other">"Ujumbe <xliff:g id="count">%1$d</xliff:g> mpya"</item>
+	</plurals>
+	<!-- no translation found for single_new_message_notification_title -->
+	<skip />
+	<!---->
+	<string name="silent_ringtone">"Kimya"</string>
+	<!---->
+	<string name="preference_removal_action_title">"Hifadhi na ufute hatua"</string>
+	<string-array name="prefEntries_removal_action">
+		<item>"Onyesha zilizohifadhiwa peke yake"</item>
+		<item>"Onyesha zilizofutwa peke yake"</item>
+		<item>"Onyesha zilizohifadhiwa na zilizofutwa"</item>
+	</string-array>
+	<string-array name="prefSummaries_removal_action_summary">
+		<item>"Onyesha zilizohifadhiwa peke yake"</item>
+		<item>"Onyesha zilizofutwa peke yake"</item>
+		<item>"Onyesha zilizohifadhiwa na zilizofutwa"</item>
+	</string-array>
+	<!---->
+	<string name="prefDialogTitle_removal_action">"Hifadhi na ufute hatua"</string>
+	<!---->
+	<string name="preferences_default_reply_all_title">"Jibu yote"</string>
+	<!---->
+	<string name="preferences_default_reply_all_summary_impl">"Tumia kama chaguo-msingi kwa majibu ya ujumbe"</string>
+	<!---->
+	<string name="preference_swipe_title_archive">"Telezesha ili uhifadhi"</string>
+	<!---->
+	<string name="preference_swipe_title_delete">"Telezesha ili ufute"</string>
+	<!---->
+	<string name="preference_swipe_description">"Katika orodha ya mazungumzo"</string>
+	<!---->
+	<string name="preference_swipe_actions">"Hatua za utelezeshaji"</string>
+	<!---->
+	<string name="preference_sender_image_title">"Picha ya mtumaji"</string>
+	<!---->
+	<string name="preference_sender_image_description">"Onyesha kando ya jina katika orodha ya mazungumzo"</string>
+	<!---->
+	<string name="empty_trash">"Futa Kisanduku cha Taka"</string>
+	<!---->
+	<string name="empty_spam">"Futa Kisanduku cha Barua Taka"</string>
+	<!---->
+	<string name="star_toggle">"Weka nyota kwenye tuglu"</string>
+	<!---->
+	<string name="empty_trash_dialog_title">"Unataka Kufuta Kisanduku cha Taka?"</string>
+	<!---->
+	<string name="empty_spam_dialog_title">"Unataka Kufuta Kisanduku cha Barua Taka?"</string>
+	<plurals name="empty_folder_dialog_message">
+		<item quantity="one">"Ujumbe %1$d utafutwa kabisa."</item>
+		<item quantity="other">"Ujumbe %1$d utafutwa kabisa."</item>
+	</plurals>
+	<!---->
+	<string name="drawer_open">"Fungua droo ya urambazaji"</string>
+	<!---->
+	<string name="drawer_close">"Maelezo ya hakimiliki"</string>
+	<!---->
+	<string name="conversation_photo_welcome_text">"Gusa picha ya mtumaji ili uchague mazungumzo hayo."</string>
+	<!---->
+	<string name="long_press_to_select_tip">"Gusa na ushikilie ili uchague mazungumuzo moja, kisha uguse ili uchague zaidi."</string>
+	<!---->
+	<string name="folder_icon_desc">"Ikoni ya folda"</string>
+	<!---->
+	<string name="add_account">"Ongeza akaunti"</string>
+	<!---->
+	<string name="dismiss_tip_hover_text">"Puuza kidokezo"</string>
+	<!---->
+	<string name="auto_sync_off">"Mlandanisho otomatiki umezimwa."</string>
+	<!---->
+	<string name="tap_to_enable_sync">"Gusa ili uwashe."</string>
+	<!---->
+	<string name="account_sync_off">"Mlandanisho wa akaunti umezimwa."</string>
+	<!---->
+	<string name="enable_sync_in_account_settings">"Washa katika <xliff:g id="account_settings">%1$s</xliff:g>."</string>
+	<!---->
+	<string name="account_settings_param">"Mipangilio ya akaunti"</string>
+	<!---->
+	<string name="unsent_messages_in_outbox">"<xliff:g id="number">%1$s</xliff:g> Haujatumwa katika <xliff:g id="outbox">%2$s</xliff:g>"</string>
+	<!---->
+	<string name="turn_auto_sync_on_dialog_title">"Unataka kuwasha mlandanisho otomatiki?"</string>
+	<!---->
+	<string name="turn_auto_sync_on_dialog_body">"Mabadiliko unayofanya kwenye programu na akaunti zote, sio tu Gmail, yatalandanishwa kwenye wavuti, vifaa vyako vingine, na <xliff:g id="phone_or_tablet">%1$s</xliff:g> yako."</string>
+	<!---->
+	<string name="phone">"Simu"</string>
+	<!---->
+	<string name="tablet">"Kijilaptopu"</string>
+	<!---->
+	<string name="turn_auto_sync_on_dialog_confirm_btn">"Washa"</string>
+	<!---->
+	<string name="show_n_more_folders">"Onyesha folda %1$s zaidi"</string>
+	<!---->
+	<string name="hide_folders">"Ficha folda"</string>
+	<!---->
+	<string name="print">"Chapisha"</string>
+	<!---->
+	<string name="print_all">"Chapisha zote"</string>
+	<plurals name="num_messages">
+		<item quantity="one">"Ujumbe <xliff:g id="count">%1$d</xliff:g>"</item>
+		<item quantity="other">"Ujumbe <xliff:g id="count">%1$d</xliff:g>"</item>
+	</plurals>
+	<!-- no translation found for date_message_received_print -->
+	<skip />
+	<!---->
+	<string name="draft_to_heading">"Mswada Kwa:"</string>
+	<!---->
+	<string name="draft_heading">"Mswada"</string>
+	<!---->
+	<string name="quoted_text_hidden_print">"Maandishi yaiyodondolewa yaliyofichwa"</string>
+	<plurals name="num_attachments">
+		<item quantity="one">"Kiambatisho <xliff:g id="count">%1$d</xliff:g>"</item>
+		<item quantity="other">"Viambatisho <xliff:g id="count">%1$d</xliff:g>"</item>
+	</plurals>
+	<!---->
+	<string name="no_subject">"(Hakuna kichwa)"</string>
+	<!---->
+	<string name="vacation_responder">"Mjibu wa likizo"</string>
+	<!---->
+	<string name="preferences_vacation_responder_title">"Mjibu wa likizo"</string>
+	<!---->
+	<string name="vacation_responder_body_hint_text">"Ujumbe"</string>
+	<!---->
+	<string name="send_to_contacts_text">"Tuma tu kwa Waasiliani wangu"</string>
+	<!---->
+	<string name="send_to_domain_text">"Tuma tu kwa <xliff:g id="domain">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="pick_start_date_title">"Huanza"</string>
+	<!---->
+	<string name="pick_end_date_title">"Humalizika (Ya hiari)"</string>
+	<!---->
+	<string name="date_not_set">"Haijawekwa"</string>
+	<!---->
+	<string name="set_end_date_dialog_title">"Tarehe ya mwisho (ya hiari)"</string>
+	<!---->
+	<string name="custom_date">"Maalum"</string>
+	<!---->
+	<string name="date_none">"Hakuna"</string>
+	<!---->
+	<string name="discard_changes">"Ungependa kutupa mabadiliko?"</string>
+	<!---->
+	<string name="draft_saved">"Mswada umehifadhiwa"</string>
+	<!---->
+	<string name="draft_discard">"Mswada umetupwa"</string>
+	<!---->
+	<string name="vacation_responder_changes_saved">"Mabadiliko ya mjibu wa likizo yamehifadhiwa"</string>
+	<!---->
+	<string name="vacation_responder_changes_discarded">"Mabadiliko ya mjibu wa likizo yametupwa"</string>
+	<!---->
+	<string name="vacation_responder_off">"ZIMA"</string>
+	<!-- no translation found for vacation_responder_on -->
+	<skip />
+	<!-- no translation found for vacation_responder_on_with_end_date -->
+	<skip />
+	<!---->
+	<string name="vacation_responder_empty_subject_and_body_warning">"Ongeza mada au ujumbe"</string>
+	<!---->
+	<string name="view_entire_message">"Tazama ujumbe mzima"</string>
+	<!---->
+	<string name="eml_loader_error_toast">"Haiwezi kufungua faili hii"</string>
+	<!---->
+	<string name="help_and_info">"Msaada"</string>
+	<!---->
+	<string name="help_and_feedback">"Usaidizi na maoni"</string>
+	<!---->
+	<string name="feedback">"Tuma maoni"</string>
+	<!---->
+	<string name="copyright">"©<xliff:g example="2010" id="year">%1$d</xliff:g> Google Inc."</string>
+	<!---->
+	<string name="version">"Toleo la <xliff:g example="Email" id="app_name">%1$s</xliff:g> <xliff:g example="2.2.1" id="version">%2$s</xliff:g>"</string>
+	<!-- no translation found for view_app_page -->
+	<skip />
+	<!---->
+	<string name="print_dialog">"Chapisha\u2026"</string>
+	<!---->
+	<string name="copyright_information">"Maelezo ya hakimiliki"</string>
+	<!---->
+	<string name="privacy_policy">"sera yetu ya faragha"</string>
+	<!---->
+	<string name="open_source_licenses">"Leseni za programu huria"</string>
+	<!---->
+	<string name="reply_choice_yes">"Ndiyo"</string>
+	<!---->
+	<string name="reply_choice_no">"La"</string>
+	<!---->
+	<string name="reply_choice_ok">"SAWA"</string>
+	<!-- no translation found for reply_choice_hehe -->
+	<skip />
+	<!---->
+	<string name="reply_choice_thanks">"Asante"</string>
+	<!---->
+	<string name="reply_choice_i_agree">"Nakubali"</string>
+	<!---->
+	<string name="reply_choice_nice">"Vizuri"</string>
+	<!---->
+	<string name="reply_on_my_way">"Niko njiani"</string>
+	<!---->
+	<string name="reply_choice_later">"Sawa, wacha nitakujibu"</string>
+	<!-- no translation found for reply_choice_smiling_face -->
+	<skip />
+	<!-- no translation found for reply_choice_frowning_face -->
+	<skip />
+	<!---->
+	<string name="preference_header_action_confirmations">"Uthibitisho wa hatua"</string>
+	<!---->
+	<string name="preference_confirm_before_delete_title">"Thibitisha kabla ya kufuta"</string>
+	<!---->
+	<string name="preference_confirm_before_archive_title">"Thibitisha kabla ya kuhifadhi"</string>
+	<!---->
+	<string name="preference_confirm_before_send_title">"Thibitisha kabla ya kutuma"</string>
+	<!---->
+	<string name="preferences_conversation_mode_title">"Ujumbe wa kutoshanisha kioto"</string>
+	<!---->
+	<string name="preferences_conversation_mode_summary">"Punguza ujumbe ili utoshee kwenye skrini"</string>
+	<!---->
+	<string name="preferences_disable_snap_headers_title">"Hatua za ujumbe"</string>
+	<string-array name="prefSummaries_snapHeader">
+		<item>"Onyesha hatua za ujumbe juu mwa skrini wakati wote"</item>
+		<item>"Onyesha hatua za ujumbe juu mwa skrini tu wakati inageuzwa kwa taswira wima."</item>
+		<item>"Usionyeshe hatua za ujumbe nje ya kichwa cha ujumbe"</item>
+	</string-array>
+	<string-array name="prefEntries_snapHeader">
+		<item>"Onyesha kila wakati"</item>
+		<item>"Onyesha katika taswira wima tu"</item>
+		<item>"Usionyeshe"</item>
+	</string-array>
+	<!---->
+	<string name="clear_history_title">"Ondoa historia ya kutafutiza"</string>
+	<!---->
+	<string name="search_history_cleared">"Historia ya utafutaji imefutwa."</string>
+	<!---->
+	<string name="clear_history_dialog_title">"Unataka kufuta historia ya utafutaji?"</string>
+	<!---->
+	<string name="clear_history_dialog_message">"Utafutaji wote uliotekeleza hapo awali utaondolewa."</string>
+	<!---->
+	<string name="manage_accounts_menu_item">"Simamia Akaunti"</string>
+	<!---->
+	<string name="general_preferences_title">"Mipangilio ya Kawaida"</string>
+	<!---->
+	<string name="activity_preferences">"Mipangilio"</string>
+	<!---->
+	<string name="always_bcc_myself">"Ninakili fiche wakati wote"</string>
+	<!---->
+	<string name="always_bcc_myself_summary">"Ninakili fiche wakati wote ninatunga, kujibu na kusambaza"</string>
+	<!---->
+	<string name="general_preference_auto_download_remaining_label">"Pakua unaosalia kiotomatiki"</string>
+	<!---->
+	<string name="general_preference_auto_download_remaining_summary">"Pakua mwili unaosalia kiotomatiki wakati unabiringiza chini"</string>
+	<!---->
+	<string name="download_remaining">"Pakua unaosalia"</string>
+	<!---->
+	<string name="downloading_remaining">"Inapakia ..."</string>
+	<!---->
+	<string name="unable_to_connect">"Haiwezi kuunganisha"</string>
+	<!---->
+	<string name="need_connection_prompt">"Unahitaji muunganisho wa mtandao ili utumie programu hii. Tafadhali washa mtandao rununu au Wi-Fi katika Mipangilio."</string>
+	<!---->
+	<string name="connection_settings">"Mipangilio"</string>
+	<!---->
+	<string name="priority_action">"Zingatio"</string>
+	<!---->
+	<string name="set_priority_dialog_title">"Weka kipaumbele"</string>
+	<!-- no translation found for dialog_warning -->
+	<skip />
+	<!-- no translation found for dialog_warning_message -->
+	<skip />
+	<!-- no translation found for toast_warning_text -->
+	<skip />
+	<!---->
+	<string name="tips_sync_alter_title">"Ulandanishaji"</string>
+	<!---->
+	<string name="tips_sync_alter_content">"Hujaunganishwa kwenye Wi-Fi, unataka kuendelea na mlandanisho?"</string>
+	<!---->
+	<string name="tips_sync_alter_yes">"Ndiyo"</string>
+	<!---->
+	<string name="tips_sync_alter_no">"La"</string>
+	<!---->
+	<string name="message_invite_tentative_title">"Ya kujaribia"</string>
+	<!---->
+	<string name="message_invite_decline_title">"Kataa"</string>
+	<!---->
+	<string name="message_invite_accent_title">"Kubali"</string>
+	<!---->
+	<string name="drm_file_remind">"Faili hii hairuhusiwi kupakiwa au kushirikishwa kwa sababu faili imelindwa na DRM!"</string>
+	<!---->
+	<string name="not_add_more_recipients">"Haiwezi kuongeza wapokezi zaidi ya <xliff:g id="maxLimit">%1$d</xliff:g> kwa wakati mmoja."</string>
+	<!---->
+	<string name="global_search_label">"Barua pepe"</string>
+	<!---->
+	<string name="global_search_hint">"Tafuta barua pepe"</string>
+	<!---->
+	<string name="global_search_description">"Watumaji, mada, na miili"</string>
+	<!---->
+	<string name="remote_search_failed">"Utafutaji wa seva haujafaulu!"</string>
+	<!---->
+	<string name="searching_on_server">"Tafuta kwenye seva"</string>
+	<!---->
+	<string name="searching_on_server_title">"Tafuta \"<xliff:g id="account_name">%s</xliff:g>\" kwenye seva"</string>
+	<!---->
+	<string name="searching_all_fields_on_sever">"Tafuta nyuga zote kwenye seva"</string>
+	<!---->
+	<string name="search_field_subject">"Mada"</string>
+	<!---->
+	<string name="search_field_receiver">"Kipokeaji"</string>
+	<!---->
+	<string name="search_field_sender">"Mtumaji"</string>
+	<!---->
+	<string name="search_field_body">"Umbo"</string>
+	<!---->
+	<string name="search_field_all">"Zote"</string>
+	<!---->
+	<string name="search_field_attachment">"Viambatisho"</string>
+	<!---->
+	<string name="select_all">"Chagua zote"</string>
+	<!---->
+	<string name="deselect_all">"Tengua uteuzi wa zote"</string>
+	<!---->
+	<string name="need_wifi_connection_prompt">"Unahitaji muunganisho wa mtandao ili utumie programu hii. Tafadhali washa WiFi katika Mipangilio."</string>
+	<!---->
+	<string name="account_setup_names_account_name_des_label">"ya hiari"</string>
+	<!---->
+	<string name="account_setup_names_user_name_des_label">"imeonyeshwa kwenye ujumbe unaotoka"</string>
+	<!---->
+	<string name="finish_action">"Maliza"</string>
+	<!---->
+	<string name="copy_email">"Nakili anwani ya barua pepe"</string>
+	<!---->
+	<string name="out_of_office_syncing">"Mlandanisho wa Mipangilio ya Nje ya Ofisi"</string>
+	<!---->
+	<string name="out_of_office_fail">"Mlandanisho wa Mipangilio ya Nje ya Ofisi haujafaulu!"</string>
+	<!---->
+	<string name="out_of_office_success">"Mlandanisho wa Mipangilio ya Nje ya Ofisi umefaulu!"</string>
+	<!---->
+	<string name="manual_sync_when_roaming">"Landanisha ukitambizi"</string>
+	<!---->
+	<string name="manual_sync_when_roaming_summery">"Pakia upya mwenyewe peke yake"</string>
+	<!---->
+	<string name="manual_sync_when_roaming_toast">"Telezesha chini ili uonyeshe upya wakati wa utambizi"</string>
+	<!---->
+	<string name="manual_sync_when_roaming_refresh">"Pakia upya"</string>
+	<!---->
+	<string name="server_rule_can_not_change">"Sheria za seva haziwezi kubadilishwa"</string>
+	<!---->
+	<string name="server_rules">"Sheria za seva"</string>
+	<!---->
+	<string name="confirm_forward_message">"Sio faili zote zimepakuliwa. Unataka kusambaza bila kupakua faili?"</string>
+	<!---->
+	<string name="confirm_forward_cancel">"GHAIRI"</string>
+	<!---->
+	<string name="confirm_forward_drop_unload_attachment">"SAMBAZA"</string>
+	<!---->
+	<string name="mail_not_download_completely">"Subiri hadi upakuzi ukamilike"</string>
+	<!---->
+	<string name="account_settings_inline_images_lable">"Picha"</string>
+	<!---->
+	<string name="account_settings_inline_always_show">"Onyesha kila wakati"</string>
+	<!---->
+	<string name="account_settings_inline_ask_before_show">"Ulizaji kabla ya kuonyesha"</string>
+	<!---->
+	<string name="conversation_time_after_today">"Baada ya leo"</string>
+	<!---->
+	<string name="conversation_time_today">"Leo"</string>
+	<!---->
+	<string name="conversation_time_yesterday">"Jana"</string>
+	<!---->
+	<string name="conversation_time_this_month">"Mwezi huu"</string>
+	<!---->
+	<string name="conversation_time_elapse_just_now">"Sasa hivi tu"</string>
+	<!---->
+	<string name="conversation_time_elapse_minute">"Dakika <xliff:g id="count">%d</xliff:g>"</string>
+	<!---->
+	<string name="message_in_queued_status">"Iliyoweka kwenye foleni"</string>
+	<plurals name="send_failed_messages">
+		<item quantity="one">"Barua pepe <xliff:g id="count">%1$d</xliff:g> haijatumwa"</item>
+		<item quantity="other">"Barua pepe <xliff:g id="count">%1$d</xliff:g> hazijatumwa"</item>
+	</plurals>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_label">"Landanisha kalenda kutoka"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_2weeks">"Wiki mbili"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_1month">"Mwezi mmoja"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_3months">"Miezi 3"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_6months">"Miezi sita"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_all">"Zote"</string>
+	<!---->
+	<string name="no_permission_to_open_file">"Ruhusa ya hifadhi inahitajika kufungua faili hii"</string>
+	<!---->
+	<string name="conversation_update_time_text">"Ilisasishwa mwisho:"</string>
+	<!---->
+	<string name="conversation_update_unknown_time_stamp">"Isiyojulikana"</string>
+	<!---->
+	<string name="conversation_time_elapse_today">"Leo"</string>
+	<!---->
+	<string name="save_to_attachment">"Hifadhi kwenye"</string>
+	<!---->
+	<string name="download_settings_title">"Hifadhi kiambatisho"</string>
+	<!---->
+	<string name="download_edit_filename_label">"Jina"</string>
+	<!---->
+	<string name="download_filepath_label">"Njia"</string>
+	<!---->
+	<string name="download_file_size">"Ukubwa"</string>
+	<!---->
+	<string name="download_time_needed">"Muda"</string>
+	<!---->
+	<string name="download_cancel">"Ghairi"</string>
+	<!---->
+	<string name="download_start">"SAWA"</string>
+	<!---->
+	<string name="unknown_length">"Isiyojulikana"</string>
+	<!---->
+	<string name="time_min">"dakika"</string>
+	<!---->
+	<string name="open_file_manager_failed">"Haikuweza kufungua Kidhibiti Faili"</string>
+	<!---->
+	<string name="attachment_not_saved">"Kiambatisho hakijahifadhiwa"</string>
+	<!---->
+	<string name="sync_calendar_title">"Haikuweza kulandanisha Kalenda"</string>
+	<!---->
+	<string name="sync_calendar_content">"Ili ulandanishe, ruhusu Huduma za Mbadilishano kufikia Kalenda"</string>
+	<!---->
+	<string name="sync_contacts_title">"Haikuweza kulandanisha Waasiliani"</string>
+	<!---->
+	<string name="sync_contacts_content">"Ili ulandanishe, ruhusu Huduma za Mbadilishano kufikia Waasiliani"</string>
+	<!---->
+	<string name="notification_never_ask_again">"Usiulize tena"</string>
+	<!---->
+	<string name="sync_storage_title">"Haiwezi kuhifadhi kiambatisho"</string>
+	<!---->
+	<string name="sync_storage_content">"Ili uhifadhi, ruhusu Huduma za Mbadilishano kufikia hifadhi"</string>
+	<!---->
+	<string name="oof_continue">"Endelea"</string>
+	<!---->
+	<string name="permission_needed_to_add_attachments">"Ili uongeze viambatisho, ruhusu Ruhusa za Barua pepe kufikia hifadhi"</string>
+	<!-- no translation found for permission_needed_to_check_ringtone -->
+	<skip />
+	<!-- no translation found for add_folder_as_attachment_fail_tips -->
+	<skip />
+	<!---->
+	<string name="choose_action_title">"Chagua hatua"</string>
+	<!---->
+	<string name="choose_action_contact">"Ongeza mwasiliani: <xliff:g example="4" id="email_address">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="choose_action_email">"Barua pepe: <xliff:g example="4" id="email_address">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="choose_action_message">"Ujumbe: <xliff:g example="4" id="email_address">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="account_setup_basics_exit_action">"Toka"</string>
+</resources>

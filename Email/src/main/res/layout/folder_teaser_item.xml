@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<!--
+==========================================================================
+ *HISTORY
+ *
+ *Tag            Date              Author        Description
+ *============== ============ =============== ==============================
+ *BUGFIX-922163  2015/2/12    junwei-xu       [5.0][Email][UI] sub-folder tag not aligned with icon
+ *BUGFIX-948086  2015/3/15    ke.ma           [5.0][Email][GD] folder number CR
+ *===========================================================================
+-->
+<!-- TS: junwei-xu 2015-1-12 EMAIL BUGFIX_922163 MOD_S -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/folder_teaser_item_background" >
+
+        <ImageView
+            android:id="@+id/folder_imageView"
+            style="@style/FolderTeaserMarginStartStyle"
+            android:layout_width="24dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:duplicateParentState="true" />
+
+        <LinearLayout
+            android:id="@+id/text_layout"
+            style="@style/FolderTeaserLabelMarginStyle"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:duplicateParentState="true"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/folder_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:duplicateParentState="true"
+                android:ellipsize="end"
+                android:includeFontPadding="false"
+                android:singleLine="true"
+                android:textColor="@color/folder_teaser_main_text"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!-- TS: ke.ma 2015-3-15 EMAIL BUGFIX_948086 MOD_S -->
+        <TextView
+            android:id="@+id/count_textView"
+            style="@style/FolderTeaserMarginEndStyle"
+            android:layout_width="57sp"
+            android:layout_height="20sp"
+            android:gravity="center_vertical|right"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/folder_teaser_count_text"
+            android:textSize="14sp" />
+        <!-- TS: ke.ma 2015-3-15 EMAIL BUGFIX_948086 MOD_E -->
+    </LinearLayout>
+
+</LinearLayout>
+<!-- TS: junwei-xu 2015-1-12 EMAIL BUGFIX_922163 MOD_E -->

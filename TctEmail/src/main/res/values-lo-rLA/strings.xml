@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!-- no translation found for app_name -->
+	<skip />
+	<!-- no translation found for photo_view_count -->
+	<skip />
+	<!-- no translation found for retry -->
+	<skip />
+	<!-- no translation found for failed -->
+	<skip />
+	<!-- no translation found for more_string -->
+	<skip />
+	<!-- no translation found for copy_email -->
+	<skip />
+	<!-- no translation found for copy_number -->
+	<skip />
+	<!-- no translation found for action_label -->
+	<skip />
+	<!-- no translation found for search_hint -->
+	<skip />
+	<!---->
+	<string name="compose">"ຂຽນ"</string>
+	<!-- no translation found for activity_folder_selection -->
+	<skip />
+	<!-- no translation found for activity_preferences -->
+	<skip />
+	<!-- no translation found for tap_to_configure -->
+	<skip />
+	<!---->
+	<string name="loading_conversations">"ກໍາລັງໂຫລດ\u2026"</string>
+	<!-- no translation found for non_synced_folder_description -->
+	<skip />
+	<!-- no translation found for tap_to_configure_folder_sync -->
+	<skip />
+	<!-- no translation found for def_email_accountGermanSignature -->
+	<skip />
+	<!-- no translation found for send_failed -->
+	<skip />
+	<!-- no translation found for permission_needed -->
+	<skip />
+	<!-- no translation found for permission_needed_label -->
+	<skip />
+	<!-- no translation found for permission_grant_access_label -->
+	<skip />
+	<!-- no translation found for permission_grant_access_descs -->
+	<skip />
+	<!---->
+	<string name="permission_grant_exit">"ອອກ"</string>
+	<!-- no translation found for permission_grant_go_setting -->
+	<skip />
+	<!-- no translation found for permission_needed_to_save_attachment -->
+	<skip />
+	<!-- no translation found for permission_needed_to_add_attachment -->
+	<skip />
+	<!-- no translation found for permission_needed_to_see_calendar -->
+	<skip />
+</resources>

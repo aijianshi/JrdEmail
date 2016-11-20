@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="exchange_name">"ေပါင္းစည္းထားေသာ"</string>
+	<!-- no translation found for exchange_name_alternate -->
+	<skip />
+	<!---->
+	<string name="meeting_accepted">"လက်ခံရရှိခဲ့သည် - <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_declined">"ျငင္းပယ္သည္။
+ <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_tentative">"အစမ်း - <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_canceled">"ဖျက်သိမ်းခဲ့သည် - <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_updated">"အသစ်ပြင်ဆင်ခဲ့သည် - <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_when">"မည်သည့်အချိန် - <xliff:g id="when">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_where">"မည်သည့်နေရာ - <xliff:g id="where">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_recurring">"မည်သည့်အချိန် - <xliff:g example="Tue,Mar10,2010at2:30pm" id="eventdate">%s</xliff:g> (ထပ်တလည်းလည်းပြန်ဖြစ်သည်)"</string>
+	<!---->
+	<string name="meeting_allday">"အချိန် - <xliff:g example="Tue,Mar10,2010" id="eventdate">%s</xliff:g> (တစ်နေ့လုံး)"</string>
+	<!---->
+	<string name="meeting_allday_recurring">"မည်သည့်အချိန် - <xliff:g example="Tue,Mar10,2010" id="eventdate">%s</xliff:g> (တစ်နေ့လုံး၊ထပ်တလည်းလည်းပြန်ဖြစ်သည်)"</string>
+	<!---->
+	<string name="notification_exchange_calendar_added">"ေျပာင္းလဲထားေသာျပကၡဒိန္ကုိထပ္ေပါင္းထည့္သည္။"</string>
+	<!---->
+	<string name="app_name">"လဲလွယ္ျခင္း၀န္ေဆာင္မႈ"</string>
+	<!---->
+	<string name="exception_cancel">"<xliff:g id="date">%s</xliff:g> အတွက် ဤဖြစ်ရပ် ဖျက်သိမ်းခဲ့ပြီးပြီ"</string>
+	<!---->
+	<string name="exception_updated">"<xliff:g id="date">%s</xliff:g> အတွက် ဤဖြစ်ရပ်၏ အသေးစိတ်များကို ပြောင်းခဲ့ပြီးပြီ"</string>
+	<!---->
+	<string name="policy_dont_allow_storage_cards">"Don\'t allow storage cards"</string>
+	<!---->
+	<string name="policy_dont_allow_unsigned_apps">"Don\'t allow unsigned apps"</string>
+	<!---->
+	<string name="policy_dont_allow_unsigned_installers">"Don\'t allow unsigned app installers"</string>
+	<!---->
+	<string name="policy_dont_allow_wifi">"ဝိုင်-ဖိုင် ကို ခွင့်မပြုပါနှင့်"</string>
+	<!---->
+	<string name="policy_dont_allow_text_messaging">"Don\'t allow text messaging"</string>
+	<!---->
+	<string name="policy_dont_allow_pop_imap">"Don\'t allow POP3 or IMAP accounts"</string>
+	<!---->
+	<string name="policy_dont_allow_irda">"Don\'t allow infrared communications"</string>
+	<!---->
+	<string name="policy_dont_allow_html">"Don\'t allow HTML email"</string>
+	<!---->
+	<string name="policy_dont_allow_browser">"Don\'t allow browsers"</string>
+	<!---->
+	<string name="policy_dont_allow_consumer_email">"Don\'t allow consumer email"</string>
+	<!---->
+	<string name="policy_dont_allow_internet_sharing">"Don\'t allow Internet sharing"</string>
+	<!-- no translation found for policy_require_smime -->
+	<skip />
+	<!-- no translation found for policy_bluetooth_restricted -->
+	<skip />
+	<!-- no translation found for policy_app_blacklist -->
+	<skip />
+	<!-- no translation found for policy_app_whitelist -->
+	<skip />
+	<!-- no translation found for policy_text_truncation -->
+	<skip />
+	<!-- no translation found for policy_html_truncation -->
+	<skip />
+	<!-- no translation found for policy_require_sd_encryption -->
+	<skip />
+	<!---->
+	<string name="policy_dont_allow_attachments">"Don\'t allow attachments"</string>
+	<!-- no translation found for policy_max_attachment_size -->
+	<skip />
+	<!-- no translation found for policy_require_manual_sync_roaming -->
+	<skip />
+	<!-- no translation found for policy_require_encryption -->
+	<skip />
+	<!-- no translation found for account_setup_options_mail_window_auto -->
+	<skip />
+	<!-- no translation found for account_setup_options_mail_window_1day -->
+	<skip />
+	<!-- no translation found for account_setup_options_mail_window_3days -->
+	<skip />
+	<!-- no translation found for account_setup_options_mail_window_1week -->
+	<skip />
+	<!-- no translation found for account_setup_options_mail_window_2weeks -->
+	<skip />
+	<!---->
+	<string name="account_setup_options_mail_window_1month">"တစ္လ"</string>
+	<!-- no translation found for account_setup_options_mail_window_all -->
+	<skip />
+	<!-- no translation found for auth_error_notification_title -->
+	<skip />
+	<!-- no translation found for auth_error_notification_text -->
+	<skip />
+	<!-- no translation found for email_settings_not_available -->
+	<skip />
+</resources>

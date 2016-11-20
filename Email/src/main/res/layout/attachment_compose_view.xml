@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- /*
+ ==========================================================================
+ *HISTORY
+ *
+ *Tag            Date         Author          Description
+ *============== ============ =============== ==============================
+ *FEATURE-ID     2015/08/27   Gantao         Horizontal attachment
+ ===========================================================================
+ */ -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="110dp"
+    android:layout_height="110dp"
+    android:minHeight="110dip" > 
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="8dp"
+        android:orientation="vertical"
+        android:background="@drawable/attachment_bg_holo">
+
+        <RelativeLayout
+            android:id="@+id/attachment_thunmbnail_title"
+            android:layout_width="match_parent"
+            android:layout_height="70dp" >
+
+            <ImageView
+                android:id="@+id/attachment_thunmbnail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_array" />
+
+            <TextView
+                android:id="@+id/attachment_title"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_margin="8dp"
+                android:ellipsize="end"
+                android:fadingEdge="horizontal"
+                android:fadingEdgeLength="3dip"
+                android:includeFontPadding="false"
+                android:maxLines="2"
+                android:textColor="#ffffff"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:paddingTop="8dp" >
+
+            <LinearLayout
+                android:id="@+id/attachment_type_size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/attachment_type"
+                    android:layout_width="62dp"
+                    android:layout_height="12dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:textAlignment="viewStart"
+                    android:textColor="#000"
+                    android:textSize="9sp" />
+
+                <TextView
+                    android:id="@+id/attachment_size"
+                    android:layout_width="62dp"
+                    android:layout_height="11dp"
+                    android:layout_marginTop="4dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:textAlignment="viewStart"
+                    android:textColor="#000000"
+                    android:textSize="8sp" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/cancel_attachment"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginRight="8dp"
+                android:layout_alignParentEnd="true"
+                android:background="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:scaleType="center"
+                android:src="@drawable/ic_cancel_holo_light" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/attachment_push_state"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?android:attr/selectableItemBackground"
+        android:focusable="true" />
+
+</FrameLayout>

@@ -1,0 +1,1747 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Tue Sep 20 16:24:06 CST 2016
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="permission_read_attachment_label">"خواندن پیوستهای ایمیل"</string>
+	<!---->
+	<string name="permission_read_attachment_desc">"به برنامه اجازه می‌دهد پیوست‌های ایمیل شما را بخواند."</string>
+	<!---->
+	<string name="permission_access_provider_label">"دستیابی به داده های ارائه دهنده ایمیل"</string>
+	<!---->
+	<string name="permission_access_provider_desc">"به این برنامه اجازه می‌دهد به پایگاه داده ایمیل شما، شامل پیام‌های دریافتی، پیام‌های ارسالی، نام‌های کاربری و رمزهای عبور دسترسی داشته باشد."</string>
+	<!---->
+	<string name="debug_title">"اشکال زدایی"</string>
+	<!---->
+	<string name="next_action">"بعدی"</string>
+	<!---->
+	<string name="okay_action">"تایید"</string>
+	<!---->
+	<string name="cancel_action">"لغو"</string>
+	<!---->
+	<string name="previous_action">"قبلی"</string>
+	<!---->
+	<string name="done_action">"انجام شد"</string>
+	<!---->
+	<string name="create_action">"ایجاد مورد جدید"</string>
+	<!---->
+	<string name="quick_responses_empty_view">"پاسخ سریعی وجود ندارد."</string>
+	<!---->
+	<string name="account_settings_action">"تنظیمات حساب"</string>
+	<!---->
+	<string name="status_network_error">"مشکل اتصال."</string>
+	<plurals name="move_messages">
+		<item quantity="one">"انتقال پیام"</item>
+		<item quantity="other">"انتقال پیام ها"</item>
+	</plurals>
+	<!---->
+	<string name="cannot_move_protocol_not_supported_toast">"انتقال در حساب‌های POP3 پشتیبانی نمی‌شود."</string>
+	<!---->
+	<string name="cannot_move_multiple_accounts_toast">"انتقال امکان‌پذیر نیست. مورد انتخابی شامل چندین حساب است."</string>
+	<!---->
+	<string name="cannot_move_special_mailboxes_toast">"پيام هاي پيش نويس ها، صندوق ارسال و ارسال شده ها قابل انتقال نيستند."</string>
+	<!---->
+	<string name="mailbox_name_display_inbox">"صندوق دریافت"</string>
+	<!---->
+	<string name="mailbox_name_display_outbox">"صندوق ارسال"</string>
+	<!---->
+	<string name="mailbox_name_display_drafts">"پیش نویس ها"</string>
+	<!---->
+	<string name="mailbox_name_display_trash">"سطل زباله"</string>
+	<!---->
+	<string name="mailbox_name_display_sent">"ارسال شده"</string>
+	<!---->
+	<string name="mailbox_name_display_junk">"هرزنامه"</string>
+	<!---->
+	<string name="mailbox_name_display_starred">"ستاره دار"</string>
+	<!---->
+	<string name="mailbox_name_display_unread">"خوانده نشده"</string>
+	<!---->
+	<string name="account_folder_list_summary_inbox">"صندوق دریافت"</string>
+	<!---->
+	<string name="account_folder_list_summary_starred">"ستاره دار"</string>
+	<!---->
+	<string name="account_folder_list_summary_drafts">"پیش نویس ها"</string>
+	<!---->
+	<string name="account_folder_list_summary_outbox">"صندوق ارسال"</string>
+	<!---->
+	<string name="mailbox_list_account_selector_combined_view">"نمای مرکب"</string>
+	<!---->
+	<string name="message_compose_fwd_header_fmt">"\n\n"-------- پیام اصلی --------"\n"موضوع: <xliff:g id="SUBJECT">%1$s</xliff:g>"\n"فرستنده: <xliff:g id="SENDER">%2$s</xliff:g>"\n"گیرنده: <xliff:g id="TO">%3$s</xliff:g>"\n"گیرنده کپی: <xliff:g id="CC_0">%4$s</xliff:g>"\n\n"</string>
+	<!---->
+	<string name="message_compose_insert_quick_response_list_title">"درج پاسخ سریع"</string>
+	<!---->
+	<string name="message_compose_insert_quick_response_menu_title">"درج پاسخ سریع"</string>
+	<!---->
+	<string name="message_view_attachment_background_load">"یک یا چند پیوست در پیام هدایت شده شما قبل از ارسال دانلود خواهد شد."</string>
+	<!---->
+	<string name="attachment_not_found">"نمی‌توان پیوست را دانلود کرد."</string>
+	<!---->
+	<string name="message_decode_error">"هنگام رمزگشایی پیام، خطایی روی داد."</string>
+	<!---->
+	<string name="forward_download_failed_ticker">"یک یا چند پیوست باز ارسال نشد."</string>
+	<!---->
+	<string name="forward_download_failed_title">"پیوست هدایت نشد"</string>
+	<!---->
+	<string name="login_failed_ticker">"ورود به سیستم <xliff:g id="account_name">%s</xliff:g> ناموفق بود."</string>
+	<!---->
+	<string name="login_failed_title">"ورود به سیستم ممکن نیست"</string>
+	<plurals name="message_view_attachment_bytes">
+		<item quantity="one">"<xliff:g id="SIZE_IN_BYTES">%d</xliff:g> بایت"</item>
+		<item quantity="other">"<xliff:g id="SIZE_IN_BYTES">%d</xliff:g> بایت"</item>
+	</plurals>
+	<plurals name="message_view_attachment_kilobytes">
+		<item quantity="one">"<xliff:g id="SIZE_IN_KILOBYTES">%d</xliff:g> کیلوبایت"</item>
+		<item quantity="other">"<xliff:g id="SIZE_IN_KILOBYTES">%d</xliff:g> کیلوبایت"</item>
+	</plurals>
+	<plurals name="message_view_attachment_megabytes">
+		<item quantity="one">"<xliff:g id="SIZE_IN_MEGABYTES">%d</xliff:g> مگابایت"</item>
+		<item quantity="other">"<xliff:g id="SIZE_IN_MEGABYTES">%d</xliff:g> مگابایت"</item>
+	</plurals>
+	<plurals name="message_view_attachment_gigabytes">
+		<item quantity="one">"<xliff:g id="SIZE_IN_GIGABYTES">%d</xliff:g> گیگابایت"</item>
+		<item quantity="other">"<xliff:g id="SIZE_IN_GIGABYTES">%d</xliff:g> گیگابایت"</item>
+	</plurals>
+	<!---->
+	<string name="account_setup_basics_title">"تنظیم حساب"</string>
+	<!---->
+	<string name="oauth_authentication_title">"در حال درخواست مجوز"</string>
+	<!---->
+	<string name="sign_in_title">"ورود به سیستم"</string>
+	<!---->
+	<string name="oauth_error_description">"تأیید اعتبار ممکن نيست"</string>
+	<!---->
+	<string name="password_warning_label">"آدرس ایمیل یا رمز عبور اشتباه است"</string>
+	<!---->
+	<string name="email_confirmation_label">"آدرس ایمیل"</string>
+	<!---->
+	<string name="account_setup_basics_headline">"حساب ایمیل"</string>
+	<!---->
+	<string name="accounts_welcome">"شما می‌توانید فقط با انجام چند مرحله حساب خود را تنظیم کنید."</string>
+	<!---->
+	<string name="account_setup_basics_email_label">"آدرس ایمیل"</string>
+	<!---->
+	<string name="account_setup_basics_email_flying_label">"ایمیل"</string>
+	<!---->
+	<string name="or_label">"يا"</string>
+	<!---->
+	<string name="sign_in_with_google">"از طریق Google وارد شوید"</string>
+	<!---->
+	<string name="account_setup_basics_password_label">"رمز عبور"</string>
+	<!---->
+	<string name="password_hint">"رمز عبور"</string>
+	<!---->
+	<string name="signed_in_with_service_label">"از طریق %s وارد شوید"</string>
+	<!---->
+	<string name="authentication_label">"تأیید اعتبار"</string>
+	<!---->
+	<string name="add_authentication_label">"تأیید اعتبار را اضافه کنید"</string>
+	<!---->
+	<string name="clear_authentication_label">"تأیید اعتبار را پاک کنید"</string>
+	<!---->
+	<string name="account_setup_basics_manual_setup_action">"تنظیم دستی"</string>
+	<!---->
+	<string name="account_setup_username_password_toast">"یک آدرس ایمیل و رمز عبور معتبر تايپ کنيد."</string>
+	<!---->
+	<string name="account_duplicate_dlg_title">"حساب تکراری"</string>
+	<!---->
+	<string name="account_duplicate_dlg_message_fmt">"از قبل در حال استفاده از اين نام کاربري براي حساب \"<xliff:g id="duplicate">%s</xliff:g>\" هستيد."</string>
+	<!---->
+	<string name="account_password_spaces_error">"این رمزعبور دارای یک یا چند نویسه فاصله در ابتدا یا انتهای خود است. بسیاری از سرورها از رمز عبورهاي دارای فاصله پشتیبانی نمی کنند."</string>
+	<!---->
+	<string name="account_setup_check_settings_retr_info_msg">"در حال بازیابی اطلاعات حساب..."</string>
+	<!---->
+	<string name="account_setup_check_settings_check_incoming_msg">"در حال تأیید اعتبار تنظیمات سرور..."</string>
+	<!---->
+	<string name="account_setup_check_settings_check_outgoing_msg">"در حال تأیید اعتبار تنظیمات SMTP..."</string>
+	<!---->
+	<string name="account_setup_creating_account_msg">"در حال ایجاد حساب..."</string>
+	<!---->
+	<string name="account_setup_ab_headline">"نوع حساب را تأیید کنید"</string>
+	<!---->
+	<string name="account_setup_ab_instructions_format">"نشان دادید <xliff:g id="email">%1$s</xliff:g> از <xliff:g id="userProtocol">%2$s</xliff:g> استفاده می کند ولی ممکن است حساب از <xliff:g id="providerProtocol">%3$s</xliff:g> استفاده کند"</string>
+	<!---->
+	<string name="account_setup_names_title">"تنظیم حساب"</string>
+	<!---->
+	<string name="account_setup_names_headline">"حساب شما تنظیم شد و ایمیل در راه است!"</string>
+	<!---->
+	<string name="account_setup_names_account_name_label">"به این حساب یک نام بدهید"</string>
+	<!---->
+	<string name="account_setup_names_user_name_label">"نام شما"</string>
+	<!---->
+	<string name="account_setup_names_user_name_empty_error">"این قسمت نمی‌تواند خالی باشد."</string>
+	<!---->
+	<string name="account_setup_account_type_title">"تنظیم حساب"</string>
+	<!---->
+	<string name="account_setup_account_type_headline">"نوع حساب"</string>
+	<!---->
+	<string name="account_setup_account_type_instructions">"این چه نوع حسابی است؟"</string>
+	<!---->
+	<string name="account_setup_incoming_title">"تنظیم حساب"</string>
+	<!---->
+	<string name="account_setup_incoming_headline">"تنظیمات سرور ورودی"</string>
+	<!---->
+	<string name="account_setup_incoming_username_label">"نام کاربری"</string>
+	<!---->
+	<string name="account_setup_incoming_password_label">"رمز عبور"</string>
+	<!---->
+	<string name="account_setup_password_subheading">"رمز عبور"</string>
+	<!---->
+	<string name="account_setup_incoming_server_label">"سرور"</string>
+	<!---->
+	<string name="account_setup_incoming_port_label">"درگاه"</string>
+	<!---->
+	<string name="account_setup_incoming_security_label">"نوع امنیت"</string>
+	<!---->
+	<string name="account_setup_incoming_domain_label">"دامنه"</string>
+	<!---->
+	<string name="account_setup_incoming_add_domain_label">"افزودن دامنه"</string>
+	<!---->
+	<string name="account_setup_incoming_security_none_label">"هیچکدام"</string>
+	<!---->
+	<string name="account_setup_incoming_security_ssl_trust_certificates_label">"SSL/TLS (پذیرش همه گواهی‌ها)"</string>
+	<!---->
+	<string name="account_setup_incoming_security_ssl_label">"SSL/TLS"</string>
+	<!---->
+	<string name="account_setup_incoming_security_tls_trust_certificates_label">"STARTTLS (پذیرش همه گواهی‌ ها)"</string>
+	<!---->
+	<string name="account_setup_incoming_security_tls_label">"STARTTLS"</string>
+	<!---->
+	<string name="account_setup_incoming_delete_policy_label">"حذف ایمیل از سرور"</string>
+	<!---->
+	<string name="account_setup_incoming_delete_policy_never_label">"هرگز"</string>
+	<!---->
+	<string name="account_setup_incoming_delete_policy_delete_label">"هنگامی که از صندوق دريافت حذف مي کنم"</string>
+	<!---->
+	<string name="account_setup_incoming_imap_path_prefix_label">"پیشوند مسیر IMAP"</string>
+	<!---->
+	<string name="account_setup_incoming_imap_path_prefix_hint">"اختیاری"</string>
+	<!---->
+	<string name="account_setup_outgoing_title">"تنظیم حساب"</string>
+	<!---->
+	<string name="account_setup_outgoing_headline">"تنظیمات سرور خروجی"</string>
+	<!---->
+	<string name="account_setup_outgoing_smtp_server_label">"سرور SMTP"</string>
+	<!---->
+	<string name="account_setup_outgoing_port_label">"درگاه"</string>
+	<!---->
+	<string name="account_setup_outgoing_security_label">"نوع امنیت"</string>
+	<!---->
+	<string name="account_setup_outgoing_require_login_label">"نیاز به ورود به سیستم دارد"</string>
+	<!---->
+	<string name="account_setup_outgoing_username_label">"نام کاربری"</string>
+	<!---->
+	<string name="account_setup_outgoing_password_label">"رمز عبور"</string>
+	<!---->
+	<string name="account_setup_exchange_certificate_title">"گواهی سرویس گیرنده"</string>
+	<!---->
+	<string name="account_setup_exchange_select_certificate">"انتخاب"</string>
+	<!---->
+	<string name="account_setup_exchange_use_certificate">"استفاده از گواهی مشتری"</string>
+	<!---->
+	<string name="account_setup_exchange_remove_certificate">"حذف"</string>
+	<!---->
+	<string name="account_setup_exchange_no_certificate">"هیچکدام"</string>
+	<!---->
+	<string name="account_setup_exchange_device_id_label">"شناسه nsj\'hi ilvhi"</string>
+	<!---->
+	<string name="account_setup_options_title">"تنظیمات حساب"</string>
+	<!---->
+	<string name="account_setup_options_headline">"گزینه های حساب"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_label">"همگام سازی فرکانس"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_never">"هرگز"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_push">"خودکار (فوری)"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_5min">"هر 5 دقیقه"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_10min">"هر 10 دقیقه"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_15min">"هر 15 دقیقه"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_30min">"هر 30 دقیقه"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_1hour">"هر ساعت"</string>
+	<!---->
+	<string name="account_setup_options_notify_label">"هنگام رسیدن ایمیل به من اطلاع داده شود"</string>
+	<!---->
+	<string name="account_setup_options_sync_contacts_label">"مخاطبین این حساب همگام شوند."</string>
+	<!---->
+	<string name="account_setup_options_sync_calendar_label">"همگام سازي تقويم از اين حساب."</string>
+	<!---->
+	<string name="account_setup_options_sync_email_label">"ایمیل را از این حساب همگام سازی کنید."</string>
+	<!---->
+	<string name="account_setup_options_background_attachments_label">"دانلود خودکار پیوست‌ها هنگام اتصال به Wi-Fi"</string>
+	<!---->
+	<string name="account_setup_failed_dlg_title">"نمي تواند تمام شود"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_label">"همگام سازی ایمیل ها از"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_auto">"خودکار"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1day">"آخرین روز"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_3days">"سه روز آخر"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1week">"آخرین هفته"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_2weeks">"دو هفته آخر"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1month">"ماه گذشته"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_all">"همه"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_default">"از پیش فرض حساب استفاده کنید"</string>
+	<!---->
+	<string name="account_setup_failed_dlg_auth_message">"نام کاربری یا رمز عبور شما اشتباه است"</string>
+	<!---->
+	<string name="account_setup_failed_dlg_auth_message_fmt">"بارگیری انجام نشد.\n(<xliff:g id="error">%s</xliff:g>)"</string>
+	<!---->
+	<string name="account_setup_autodiscover_dlg_authfail_title">"مشکل در تنظیم حساب"</string>
+	<!---->
+	<string name="account_setup_autodiscover_dlg_authfail_message">"تایید کنید نام کاربر، رمز عبور و تنظیمات حساب درست باشند."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_certificate_message">"نمی توانید به دلیل گواهی نامعتبر یا غیرقابل اعتماد با سرور اتصال برقرار کنید."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_certificate_message_fmt">"اتصال امن به سرور امکان‌پذیر نیست.\n(<xliff:g id="ERROR">%s</xliff:g>)"</string>
+	<!---->
+	<string name="account_setup_failed_certificate_required">"به گواهی‌نامه کلاینت نیاز دارد. آیا می‌خواهید با گواهی‌نامه کلاینت به سرور متصل شوید؟"</string>
+	<!---->
+	<string name="account_setup_failed_certificate_inaccessible">"گواهی‌نامه نامعتبر است و یا غیرقابل دسترس است."</string>
+	<!---->
+	<string name="account_setup_failed_check_credentials_message">"پاسخ سرور با خطایی همراه است. نام کاربر و رمز عبور خود را بررسی کنید، سپس دوباره امتحان نمایید."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_server_message">"اتصال به سرور امکان‌پذیر نیست."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_server_message_fmt">"اتصال به سرور امکان‌پذیر نیست.\n(<xliff:g id="ERROR">%s</xliff:g>)"</string>
+	<!---->
+	<string name="account_setup_failed_tls_required">"TLS لازم است اما توسط سرور پشتیبانی نمی شود."</string>
+	<!---->
+	<string name="account_setup_failed_auth_required">"روش‌های تأیید اعتبار توسط سرور پشتیبانی نمی‌شوند."</string>
+	<!---->
+	<string name="account_setup_failed_security">"به دلیل خطای امنیتی، اتصال به سرور باز نمی‌شود."</string>
+	<!---->
+	<string name="account_setup_failed_ioerror">"اتصال به سرور برقرار نمی‌شود."</string>
+	<!---->
+	<string name="account_setup_failed_protocol_unsupported">"آدرس سرور را اشتباه وارد کرده‌اید یا سرور به نسخه پروتکلی احتیاج دارد که ایمیل پشتیبانی نمی‌کند."</string>
+	<!---->
+	<string name="account_setup_failed_access_denied">"شما اجازه همگام‌سازی با این سرور را ندارید. برای کسب اطلاعات بیشتر با سرپرست سرور خود تماس بگیرید."</string>
+	<!---->
+	<string name="account_setup_security_required_title">"مديريت امنيت از راه دور"</string>
+	<!---->
+	<string name="account_setup_security_policies_required_fmt">"سرور <xliff:g id="SERVER">%s</xliff:g> از شما می‌خواهد که به آن اجازه دهید برخی از ویژگی‌های امنیتی دستگاه Android شما را از راه دور کنترل کند. آیا می‌خواهید تنظیم این حساب را به پایان برسانید؟"</string>
+	<!---->
+	<string name="account_setup_failed_security_policies_unsupported">"این سرور نیاز به ویژگی‌های امنیتی دارد که دستگاه Android شما پشتیبانی‌ نمی‌کند، از جمله:<xliff:g id="ERROR">%s</xliff:g>"</string>
+	<!---->
+	<string name="account_setup_username_uneditable_error">"شما نمی‎توانید نام کاربری یک حساب را تغییر دهید. برای افزودن یک حساب با یک نام کاربری دیگر، \"افزودن حساب\" را لمس کنید."</string>
+	<!---->
+	<string name="disable_admin_warning">"هشدار: غيرفعال کردن مجوز برنامه ايميل براي اداره دستگاه خود همه حساب هاي ايميلي را که به آن نياز دارد، همراه با ايميل، مخاطبين، رويدادهاي تقويم و ساير داده ها حذف مي کند."</string>
+	<!---->
+	<string name="account_security_dialog_title">"به‌روزرسانی امنیتی"</string>
+	<!---->
+	<string name="account_security_dialog_content_fmt">"<xliff:g id="ACCOUNT">%s</xliff:g> از شما می‌خواهد تنظیمات امنیتی خود را به‌روزرسانی کنید."</string>
+	<!---->
+	<string name="security_unsupported_ticker_fmt">"حساب \"<xliff:g id="account">%s</xliff:g>\" به دلیل شرایط امنیتی نمی تواند همگام سازی شود."</string>
+	<!---->
+	<string name="security_needed_ticker_fmt">"حساب \"<xliff:g id="account">%s</xliff:g>\" به به روزرساني تنظيمات امنيتي نياز دارد."</string>
+	<!---->
+	<string name="security_changed_ticker_fmt">"حساب \"<xliff:g id="account">%s</xliff:g>\" تنظیمات امنیتی خود را تغییر داد، نیازی به اقدام کاربر نیست."</string>
+	<!---->
+	<string name="security_notification_content_update_title">"به روزرسانی امنیتی لازم است"</string>
+	<!---->
+	<string name="security_notification_content_change_title">"سیاست های امنیتی تغییر کرد"</string>
+	<!---->
+	<string name="security_notification_content_unsupported_title">"سیاست های امنیتی انجام نمی شود"</string>
+	<!---->
+	<string name="account_security_title">"امنيت دستگاه"</string>
+	<!---->
+	<string name="account_security_policy_explanation_fmt">"سرور <xliff:g id="SERVER">%s</xliff:g> از شما می خواهد که به آن اجازه دهید برخی از ویژگی های امنیتی دستگاه Android شما را از راه دور کنترل کند."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_edit_details_action">"ویرایش جزئیات"</string>
+	<!---->
+	<string name="password_expire_warning_ticker_fmt">"\"<xliff:g id="account">%s</xliff:g>\" از شما می‌خواهد کد پین یا رمز عبور قفل صفحه را تغيير دهيد."</string>
+	<!---->
+	<string name="password_expire_warning_content_title">"رمز عبور قفل صفحه در حال انقضا"</string>
+	<!---->
+	<string name="password_expired_ticker">"کد پین یا رمز عبور قفل صفحه منقضی شده است."</string>
+	<!---->
+	<string name="password_expired_content_title">"رمز عبور قفل صفحه منقضی شده است"</string>
+	<!---->
+	<string name="password_expire_warning_dialog_title">"رمز عبور قفل صفحه در حال انقضا"</string>
+	<!---->
+	<string name="password_expire_warning_dialog_content_fmt">"شما باید به زودی پین یا رمز عبور صفحه قفل خود را تغییر دهید، در غیر این صورت داده های <xliff:g id="account">%s</xliff:g> پاک می شود. می خواهید اکنون آن را تغییر دهید؟"</string>
+	<!---->
+	<string name="password_expired_dialog_title">"رمز عبور قفل صفحه منقضی شده است"</string>
+	<!---->
+	<string name="password_expired_dialog_content_fmt">"داده مربوط به <xliff:g id="account">%s</xliff:g> از دستگاه شما پاک می شود. می توانید با تغییر پین یا رمز عبور صفحه قفل خود آن را بازیابی کنید. می خواهید اکنون آن را تغییر دهید؟"</string>
+	<!---->
+	<string name="account_settings_exit_server_settings">"از تغییرات ذخیره نشده صرفنظر شود؟"</string>
+	<!---->
+	<string name="account_settings_login_dialog_title">"ورود به سیستم ممکن نیست"</string>
+	<!---->
+	<string name="account_settings_login_dialog_content_fmt">"نام کاربری یا رمز ورود <xliff:g id="ACCOUNT">%s</xliff:g> نادرست است. اکنون آنها را به روزرسانی می کنید؟"</string>
+	<!---->
+	<string name="account_settings_login_dialog_reason_fmt">"ورود شما به <xliff:g id="account">%s</xliff:g> انجام نشد؛ سرور پیام می دهد: <xliff:g id="reason">%s</xliff:g> می خواهید نام کاربری و یا رمز عبور خود را به روز کنید؟"</string>
+	<!---->
+	<string name="account_settings_background_attachments_label">"دانلود پیوست‌ها"</string>
+	<!---->
+	<string name="account_settings_background_attachments_summary">"دانلود خودکار پیوست‌ها به پیامهای اخیر از طریق Wi-Fi"</string>
+	<!---->
+	<string name="account_settings_notify_label">"اعلان های ایمیل"</string>
+	<!---->
+	<string name="account_settings_summary">"تکرار همگام سازی، اعلان ها، موارد دیگر"</string>
+	<!---->
+	<string name="account_settings_notify_summary">"هنگام ورود ايميل، اعلان را ارسال کنید"</string>
+	<!---->
+	<string name="account_settings_mail_check_frequency_label">"همگام سازی فرکانس"</string>
+	<!---->
+	<string name="account_settings_incoming_label">"تنظیمات ورودی"</string>
+	<!---->
+	<string name="account_settings_incoming_summary">"نام کاربری، رمز عبور و سایر تنظیمات سرور ورودی"</string>
+	<!---->
+	<string name="account_settings_outgoing_label">"تنظیمات خروجی"</string>
+	<!---->
+	<string name="account_settings_outgoing_summary">"نام کاربری، رمز عبور و سایر تنظیمات سرور خروجی"</string>
+	<!---->
+	<string name="account_settings_reply_to_category">"پاسخ به تنظیمات"</string>
+	<!---->
+	<string name="account_settings_reply_to_label">"پاسخ به"</string>
+	<!---->
+	<string name="account_settings_reply_to_invalid">"آدرس نامعتبر است"</string>
+	<!---->
+	<string name="account_settings_enforced_label">"سیاست ها اجرا شدند"</string>
+	<!---->
+	<string name="account_settings_enforced_summary">"هیچکدام"</string>
+	<!---->
+	<string name="account_settings_unsupported_label">"سیاست های پشتیبانی نشده"</string>
+	<!---->
+	<string name="account_settings_unsupported_summary">"هیچکدام"</string>
+	<!---->
+	<string name="account_settings_retry_label">"تلاش برای همگام‌سازی"</string>
+	<!---->
+	<string name="account_settings_retry_summary">"برای همگام سازی این حساب اینجا را لمس کنید"</string>
+	<!---->
+	<string name="account_settings_description_label">"نام حساب"</string>
+	<!---->
+	<string name="account_settings_name_label">"نام شما"</string>
+	<!---->
+	<string name="account_settings_edit_quick_responses_label">"پاسخ‌های سریع"</string>
+	<!---->
+	<string name="account_settings_edit_quick_responses_summary">"متنی را که غالباً هنگام نوشتن ایمیل ها درج می کنید، ویرایش کنید"</string>
+	<!---->
+	<string name="account_settings_notifications">"تنظیمات اعلان"</string>
+	<!---->
+	<string name="account_settings_data_usage">"مصرف داده"</string>
+	<!---->
+	<string name="account_settings_policies">"سیاست های امنیتی"</string>
+	<!---->
+	<string name="system_folders_title">"پوشه های سیستم"</string>
+	<!---->
+	<string name="system_folders_trash_title">"پوشه سطل زباله"</string>
+	<!---->
+	<string name="system_folders_trash_summary">"پوشه سطل زباله سرور خود را انتخاب کنید"</string>
+	<!---->
+	<string name="system_folders_trash_dlg">"پوشه سطل زباله سرور خود را انتخاب کنید"</string>
+	<!---->
+	<string name="system_folders_sent_title">"پوشه موارد ارسال شده"</string>
+	<!---->
+	<string name="system_folders_sent_summary">"پوشه موارد ارسال شده سرور خود را انتخاب کنید"</string>
+	<!---->
+	<string name="system_folders_sent_dlg">"پوشه موارد ارسال شده سرور خود را انتخاب کنید"</string>
+	<!---->
+	<string name="edit_quick_response_dialog">"پاسخ سریع"</string>
+	<!---->
+	<string name="save_action">"ذخیره"</string>
+	<!---->
+	<string name="account_settings_sync_contacts_enable">"همگام سازی مخاطبین"</string>
+	<!---->
+	<string name="account_settings_sync_contacts_summary">"همگام سازي مخاطبين براي اين حساب"</string>
+	<!---->
+	<string name="account_settings_sync_calendar_enable">"همگام سازي تقويم"</string>
+	<!---->
+	<string name="account_settings_sync_calendar_summary">"برای این حساب، رویداد تقویم را همگام سازی کنید"</string>
+	<!---->
+	<string name="account_settings_sync_email_enable">"همگام‌سازی ایمیل"</string>
+	<!---->
+	<string name="account_settings_sync_email_summary">"همگام سازی ایمیل برای این حساب"</string>
+	<!---->
+	<string name="account_settings_vibrate_when_label">"لرزش"</string>
+	<!---->
+	<string name="account_settings_ringtone">"انتخاب آهنگ زنگ"</string>
+	<!---->
+	<string name="account_settings_servers">"تنظیمات سرور"</string>
+	<!---->
+	<string name="default_ringtone">"زنگ پیش فرض"</string>
+	<!---->
+	<string name="default_ringtone_unkonwn">"زنگ ناشناس"</string>
+	<!---->
+	<string name="mailbox_settings_activity_title">"گزینه‌های همگام‌سازی"</string>
+	<!---->
+	<string name="mailbox_settings_activity_title_with_mailbox">"گزینه‌های همگام‌سازی (<xliff:g id="MAILBOXX_NAME">%s</xliff:g>)"</string>
+	<!---->
+	<string name="mailbox_settings_sync_enabled_label">"همگام سازی این پوشه"</string>
+	<!---->
+	<string name="mailbox_settings_sync_enabled_summary">"پیام ها زمان اتصال دانلود می شوند."</string>
+	<!---->
+	<string name="mailbox_settings_mailbox_sync_window_label">"روزهای ایمیل برای همگام سازی"</string>
+	<!---->
+	<string name="prefDialogTitle_conversationListIcon">"تصویر ارسال کننده"</string>
+	<!---->
+	<string name="provider_note_live">"فقط برخی از حساب‌های \"Plus\" از جمله دسترسی POP به این برنامه اجازه می‌دهند متصل شود. اگر نمی‌توانيد با رمز عبور و آدرس ایمیل درست خود به سیستم وارد شوید، ممکن است فاقد یک حساب \"Plus\" غیر رایگان باشید. لطفاً مرورگر وب را برای دسترسی به این حساب‌های ایمیل راه‌اندازی کنید."</string>
+	<!---->
+	<string name="provider_note_t_online">"قبل از تنظیم این حساب ایمیل، از وبسایت T-Online بازدید کرده و يک رمز عبور برای دسترسی ایمیل POP3 ایجاد کنید."</string>
+	<!---->
+	<string name="exchange_name">"شرکت"</string>
+	<!---->
+	<string name="exchange_name_alternate">"Microsoft Exchange ActiveSync"</string>
+	<!---->
+	<string name="system_account_create_failed">"حساب ایجاد نشد. دوباره امتحان کنید."</string>
+	<!---->
+	<string name="device_admin_label">"ايميل"</string>
+	<!---->
+	<string name="device_admin_description">"خط مشي هاي امنيتي مختص سرور را فعال مي كند"</string>
+	<!---->
+	<string name="settings_activity_title">"تنظیمات"</string>
+	<!---->
+	<string name="header_label_general_preferences">"تنظیمات عمومی"</string>
+	<!---->
+	<string name="general_preference_confirm_delete_label">"تایید قبل از حذف"</string>
+	<!---->
+	<string name="general_preference_confirm_send_label">"تایید قبل از ارسال"</string>
+	<!---->
+	<string name="more_than_999">"بیشتر از 999"</string>
+	<!---->
+	<string name="search_hint">"جستجو"</string>
+	<!---->
+	<string name="policy_dont_allow_camera">"عدم پذیرش استفاده از دوربین دستگاه"</string>
+	<!---->
+	<string name="policy_require_password">"رمز ورود دستگاه لازم است"</string>
+	<!---->
+	<string name="policy_password_history">"محدودیت استفاده مجدد از رمزهای ورود اخیر"</string>
+	<!---->
+	<string name="policy_password_expiration">"برای انقضا به رمزهای ورود نیاز است"</string>
+	<!---->
+	<string name="policy_screen_timeout">"برای قفل کردن صفحه آن به دستگاه غیرفعال نیاز است"</string>
+	<!---->
+	<string name="policy_calendar_age">"محدود کردن تعداد رویدادهای همگام‌سازی شده تقویم"</string>
+	<!---->
+	<string name="policy_email_age">"محدود کردن تعداد ایمیل‌های همگام‌سازی شده"</string>
+	<!---->
+	<string name="quick_1">"متشکریم!"</string>
+	<!---->
+	<string name="quick_2">"برای من خوب است!"</string>
+	<!---->
+	<string name="quick_3">"بعداً آن را می خوانم و به شما پاسخ می دهم."</string>
+	<!---->
+	<string name="quick_4">"اجازه دهید برای بحث در این مورد جلسه ای تعیین کنیم."</string>
+	<!---->
+	<string name="require_manual_sync_message">"هنگام رومینگ، همگام‌سازی پس‌زمینه برای این حساب غیرفعال است."</string>
+	<!---->
+	<string name="confirm_response">"در حال ارسال پاسخ..."</string>
+	<!---->
+	<string name="no_conversations">"بدون پيام!"</string>
+	<!-- no translation found for imap_name -->
+	<skip />
+	<!-- no translation found for pop3_name -->
+	<skip />
+	<!---->
+	<string name="email_name">"ایمیل"</string>
+	<!---->
+	<string name="folder_picker_title">"انتخابگر پوشه"</string>
+	<!---->
+	<string name="trash_folder_selection_title">"انتخاب پوشه سطل آشغال سرور برای <xliff:g id="account">%s</xliff:g>"</string>
+	<!---->
+	<string name="sent_folder_selection_title">"سرور پوشه موارد ارسال‌ شده برای <xliff:g id="ACCOUNT">%s</xliff:g> را انتخاب کنید"</string>
+	<!---->
+	<string name="account_waiting_for_folders_msg">"در حال بارگیری لیست پوشه..."</string>
+	<!---->
+	<string name="no_quick_responses">"هیچ کدام موجود نیست"</string>
+	<!---->
+	<string name="gmail_name">"Gmail"</string>
+	<!---->
+	<string name="folder_sync_settings_pref_title">"تنظیمات همگام سازی پوشه"</string>
+	<!---->
+	<string name="select_your_account">"انتخاب حساب"</string>
+	<!---->
+	<string name="select_account_list_below">"حساب خود را از لیست زیر انتخاب کنید:"</string>
+	<!---->
+	<string name="cancel_label">"لغو"</string>
+	<!---->
+	<string name="next_label">"بعدی"</string>
+	<!---->
+	<string name="str_account_provider_other">"ساير موارد"</string>
+	<!---->
+	<string name="account_settings_download_options_label">"گزینه های دانلود"</string>
+	<!---->
+	<string name="account_setting_download_opt_headonly">"تنها عنوان"</string>
+	<!---->
+	<string name="account_setting_download_opt_all">"همه"</string>
+	<!---->
+	<string name="account_setting_download_opt_2k">"‎2K‎"</string>
+	<!---->
+	<string name="account_setting_download_opt_5k">"‎5K‎"</string>
+	<!---->
+	<string name="account_setting_download_opt_10k">"‎10K‎"</string>
+	<!---->
+	<string name="account_setting_download_opt_20k">"‎20K"</string>
+	<!---->
+	<string name="account_setting_download_opt_50k">"‎50K"</string>
+	<!---->
+	<string name="account_setting_download_opt_100k">"‎100K"</string>
+	<!---->
+	<string name="account_oof_error_tip_past">"زمان پایان نمی تواند در گذشته باشد. لطفا زمان پایان را به زمانی در آینده تغییر دهید."</string>
+	<!---->
+	<string name="account_oof_error_tip_earlier">"زمان پایان نمی تواند زودتر از زمان شروع باشد. لطفاً دوباره زمان پایان را تغییر دهید."</string>
+	<!---->
+	<string name="account_setting_oof_label">"تنظيمات خارج از دفتر"</string>
+	<!---->
+	<string name="oof_auto_repley">"ارسال پاسخ خودکار خارج از دفتر"</string>
+	<!---->
+	<string name="oof_auto_replies_period">"ارسال پاسخ های خودکار در این مدت"</string>
+	<!---->
+	<string name="start_time">"زمان شروع"</string>
+	<!---->
+	<string name="end_time">"ساعت پایان"</string>
+	<!---->
+	<string name="internal_message">"پيام داخلی"</string>
+	<!---->
+	<string name="oof_auto_replies_external_senders">"ارسال پاسخ های خودکار به فرستندگان خارجی"</string>
+	<!---->
+	<string name="oof_choice_oof_in_contacts">"ارسال پاسخ های خودکار خارج از دفتر به فرستندگان در ليست مخاطبين من"</string>
+	<!---->
+	<string name="oof_choice_oof_outside_organisation">"ارسال پاسخ های خودکار خارج از دفتر به افراد خارج از سازمان من"</string>
+	<!---->
+	<string name="external_message">"پيام خارجی"</string>
+	<!---->
+	<string name="oof_done_message_attention">""شما یک پیام پاسخ خودکار برای افرادی که داخل سازمان شما هستند تعیین نکردید. اگر یک پیام خارج از دفتر وارد نشود افراد اعلان خارج از دفتر دریافت نمی کنند. با این حال هنوز هم قوانین خارج از دفتر استفاده می شوند. می خواهید ادامه دهید؟"</string>
+	<!---->
+	<string name="oof_choice_in_contacts">"ارسال به فرستندگان در ليست مخاطبين من"</string>
+	<!---->
+	<string name="oof_choice_all_senders">"ارسال به همه فرستندگان"</string>
+	<!---->
+	<string name="hint_text_of_internal_message">"پاسخ به آدرس ها از سازمان خود"</string>
+	<!---->
+	<string name="hint_text_of_external_message">"پاسخ به آدرس های خارج از سازمان"</string>
+	<!---->
+	<string name="account_delete_dlg_title">"حساب حذف شود؟"</string>
+	<!---->
+	<string name="account_delete_dlg_instructions_fmt">"حساب \"<xliff:g id="account">%s</xliff:g>\" از ایمیل حذف خواهد شد."</string>
+	<!---->
+	<string name="account_delete_dlg_instructions_fmt_new">"با حذف این حساب تمام پیام‌ها، مخاطبین و دیگر داده‌ها ازتلفن حذف می شوند."</string>
+	<!---->
+	<string name="account_delete_dlg_action_remove_label">"حذف"</string>
+	<!---->
+	<string name="account_delete_dlg_action_cancel_label">"لغو"</string>
+	<!---->
+	<string name="account_settings_category_delete_account">"حذف حساب"</string>
+	<!---->
+	<string name="account_settings_delete_account_label">"حذف حساب"</string>
+	<!---->
+	<string name="account_settings_default_label">"حساب پیش فرض"</string>
+	<!---->
+	<string name="account_settings_default_summary">"ارسال ایمیل از این حسال بصورت پیش فرض"</string>
+	<!---->
+	<string name="account_setup_options_default_label">"بصورت پیش فرض ایمیل از این حساب ارسال شود."</string>
+	<!---->
+	<string name="account_setup_basics_default_label">"بصورت پیش فرض ایمیل از این حساب ارسال شود."</string>
+	<!---->
+	<string name="local_search_action">"جستجو در محلی"</string>
+	<!---->
+	<string name="service_search_action">"جستجو در سرور"</string>
+	<!---->
+	<string name="local_search_all">"همه"</string>
+	<!---->
+	<string name="local_search_from">"از"</string>
+	<!---->
+	<string name="local_search_to">"گیرنده"</string>
+	<!---->
+	<string name="local_search_subject">"موضوع"</string>
+	<!---->
+	<string name="status_loading_attachments">"بارگیری"</string>
+	<!---->
+	<string name="account_use_proxy_label">"استفاده از پراکسی"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_label">"IP پراکسي"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_port_label">"درگاه پراکسي"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_name">"نام پراکسی"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_password">"رمز عبور پراکسي"</string>
+	<!---->
+	<string name="attachment_info_dialog_wifi_title">"اتصال Wi-Fi مورد نیاز است"</string>
+	<!---->
+	<string name="attachment_info_wifi_settings">"تنظیمات Wi-Fi"</string>
+	<!---->
+	<string name="attachment_info_wifi_only">"این پیوست برای دانلود از طریق شبکه تلفن همراه خیلی بزرگ است. می توانید دفعه دیگر که به یک شبکه Wi-Fi متصل می شوید، آنرا دانلود کنید."</string>
+	<!---->
+	<string name="attachment_info_ok">"تایید"</string>
+	<!---->
+	<string name="mailbox_name_display_draft">"پیش نویس"</string>
+	<!---->
+	<string name="message_compose_display_name">"<xliff:g example="John" id="name">%1$s</xliff:g> و <xliff:g example="27" id="number">%2$d</xliff:g> نفر دیگر"</string>
+	<!---->
+	<string name="app_name">"ایمیل"</string>
+	<!---->
+	<string name="from">"از"</string>
+	<!---->
+	<string name="to">"به"</string>
+	<!---->
+	<string name="cc">"گیرنده کپی"</string>
+	<!---->
+	<string name="bcc">"گیرنده کپی مخفی"</string>
+	<!---->
+	<string name="subject_hint">"موضوع"</string>
+	<!---->
+	<string name="body_hint">"نوشتن ایمیل"</string>
+	<!---->
+	<string name="add_file_attachment">"پیوست کردن فایل"</string>
+	<!---->
+	<string name="add_photo_attachment">"پیوست کردن تصویر"</string>
+	<!---->
+	<string name="save_draft">"ذخيره پيش نويس"</string>
+	<!---->
+	<string name="discard">"رد کردن"</string>
+	<!---->
+	<string name="compose">"نوشتن"</string>
+	<!---->
+	<string name="select_contacts_field">"انتخاب مخاطبین از"</string>
+	<!---->
+	<string name="item_save_group">"ذخیره گروه"</string>
+	<!---->
+	<string name="confirm_select">"انتخاب"</string>
+	<!---->
+	<string name="cancel_select">"لغو"</string>
+	<string-array name="compose_modes">
+		<item>"پاسخ"</item>
+		<item>"پاسخ به همه"</item>
+		<item>"هدایت"</item>
+	</string-array>
+	<string-array name="compose_modes_without_reply_all">
+		<item>"پاسخ"</item>
+		<item>"هدایت"</item>
+	</string-array>
+	<!---->
+	<string name="reply_subject_label">"دریافت:"</string>
+	<!---->
+	<string name="forward_subject_label">"هدایت به:"</string>
+	<!---->
+	<string name="reply_attribution">"در <xliff:g id="date">%s</xliff:g>, <xliff:g id="person">%s</xliff:g> نوشت:"</string>
+	<!---->
+	<string name="forward_attribution">"---------- پیام ارسال شده ----------；از: ؛ تاریخ: ؛ موضوع: ؛ به:"</string>
+	<!---->
+	<string name="forward_attribution_with_headers">"---------- پیام ارسال شده ---------- <xliff:g id="a">%s</xliff:g> از: <xliff:g id="from">%s</xliff:g> <xliff:g id="b">%s</xliff:g> تاریخ: <xliff:g id="date">%s</xliff:g> <xliff:g id="c">%s</xliff:g> موضوع: <xliff:g id="subject">%s</xliff:g> <xliff:g id="d">%s</xliff:g> به: <xliff:g id="to">%s</xliff:g> <xliff:g id="e">%s</xliff:g> گیرنده کپی: <xliff:g id="cc">%s</xliff:g> <br/>"</string>
+	<!---->
+	<string name="forward_attribution_no_headers">"---------- پیام ارسال شده ----------"</string>
+	<!---->
+	<string name="cc_attribution">"گیرنده کپی:"</string>
+	<!---->
+	<string name="select_attachment_type">"نوع پیوست را انتخاب کنید"</string>
+	<!---->
+	<string name="too_large_to_attach_single">"نمی توانید فایل بیشتر از %1$s را پیوست کنید"</string>
+	<!---->
+	<string name="too_large_to_attach_multiple">"یک یا چند فایل پیوست نشد. به <xliff:g id="maxSize">%1$s</xliff:g> محدود کنید."</string>
+	<!---->
+	<string name="too_large_to_mid_attach_additional">"ايميل شما از <xliff:g id="maxSize">%1$s</xliff:g> بيشتر است. ممکن است حساب ايميل شما از اين پشتيباني نکند."</string>
+	<!---->
+	<string name="too_large_to_attach_additional">"نمي توانيد فايل را اضافه کنيد. اندازه ايميل از محدوده <xliff:g id="maxSize">%1$s</xliff:g> بيشتر است."</string>
+	<!---->
+	<string name="generic_attachment_problem">"نمی توانيد فایل را پیوست کنید."</string>
+	<!---->
+	<string name="recipient_needed">"باید حداقل یک گیرنده اضافه کنید."</string>
+	<!---->
+	<string name="recipient_error_dialog_title">"خطای گیرنده"</string>
+	<!---->
+	<string name="confirm_send_title">"ارسال پيام؟"</string>
+	<!---->
+	<string name="confirm_send_message_with_no_subject">"متنی در قسمت موضوع پیام نیست"</string>
+	<!---->
+	<string name="confirm_send_message_with_no_body">"متنی در قسمت متن پیام نیست."</string>
+	<!---->
+	<string name="confirm_send_message">"ارسال اين پيام؟"</string>
+	<!---->
+	<string name="message_discarded">"پیام رد شد."</string>
+	<!-- no translation found for signature -->
+	<skip />
+	<!---->
+	<string name="custom_from_account_label">"ارسال ایمیل بعنوان:"</string>
+	<!---->
+	<string name="send">"ارسال"</string>
+	<!---->
+	<string name="mark_read">"علامت بعنوان خوانده شده"</string>
+	<!---->
+	<string name="mark_unread">"علامت بعنوان خوانده نشده"</string>
+	<!---->
+	<string name="mute">"قطع صدا"</string>
+	<!---->
+	<string name="add_star">"افزودن ستاره"</string>
+	<!---->
+	<string name="remove_star">"حذف ستاره"</string>
+	<!---->
+	<string name="remove_folder">"حذف از <xliff:g id="folderName">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="archive">"بایگانی"</string>
+	<!---->
+	<string name="report_spam">"گزارش اسپم"</string>
+	<!---->
+	<string name="mark_not_spam">"گزارش: بدون اسپم"</string>
+	<!---->
+	<string name="report_phishing">"گزارش فیشینگ"</string>
+	<!---->
+	<string name="delete">"حذف"</string>
+	<!---->
+	<string name="discard_drafts">"نادیده گرفتن پیش نویس ها"</string>
+	<!---->
+	<string name="discard_failed">"صرفنظر نشد"</string>
+	<!---->
+	<string name="refresh">"تازه کردن"</string>
+	<!---->
+	<string name="reply">"پاسخ"</string>
+	<!---->
+	<string name="reply_all">"پاسخ به همه"</string>
+	<!---->
+	<string name="resume_draft">"ویرایش"</string>
+	<!---->
+	<string name="forward">"هدایت"</string>
+	<!---->
+	<string name="menu_compose">"نوشتن"</string>
+	<!---->
+	<string name="menu_sort">"نوع"</string>
+	<!---->
+	<string name="menu_change_folders">"تغییر پوشه ها"</string>
+	<!---->
+	<string name="menu_move_to">"انتقال به"</string>
+	<!---->
+	<string name="menu_move_to_inbox">"انتقال به صندوق دریافت"</string>
+	<!---->
+	<string name="menu_manage_folders">"تنظیمات پوشه"</string>
+	<!---->
+	<string name="menu_show_original">"بازگرداندن اندازه گذاری خودکار"</string>
+	<!---->
+	<string name="menu_settings">"تنظیمات"</string>
+	<!---->
+	<string name="menu_search">"جستجو"</string>
+	<!---->
+	<string name="drawer_title">"پیمایش"</string>
+	<!---->
+	<string name="mark_important">"علامتگذاری بعنوان مهم"</string>
+	<!---->
+	<string name="mark_not_important">"علامتگذاری بعنوان غیرمهم"</string>
+	<!---->
+	<string name="select_all_conversations">"انتخاب همه"</string>
+	<!---->
+	<string name="unselect_all_conversations">"لغو انتخاب همه موارد"</string>
+	<!---->
+	<string name="add_cc_label">"افزودن گیرنده کپی/گیرنده کپی مخفی"</string>
+	<!---->
+	<string name="add_bcc_label">"افزودن گیرنده مخفی کپی"</string>
+	<!---->
+	<string name="quoted_text">"شامل متن نقل قول شده مي شود"</string>
+	<!---->
+	<string name="quoted_text_label">"نقل قول متن"</string>
+	<!---->
+	<string name="respond_inline">"پاسخ درون خطي"</string>
+	<!---->
+	<string name="bytes">"<xliff:g id="count">%s</xliff:g> بایت"</string>
+	<!---->
+	<string name="kilobytes">"<xliff:g id="count">%s</xliff:g> کیلوبایت"</string>
+	<!---->
+	<string name="megabytes">"<xliff:g id="count">%s</xliff:g> مگابایت"</string>
+	<!---->
+	<string name="attachment_image">"تصوير"</string>
+	<!---->
+	<string name="attachment_video">"ویدئو"</string>
+	<!---->
+	<string name="attachment_audio">"صداها"</string>
+	<!---->
+	<string name="attachment_text">"ارسال متن"</string>
+	<!---->
+	<string name="attachment_application_msword">"سند"</string>
+	<!---->
+	<string name="attachment_application_vnd_ms_powerpoint">"ارائه"</string>
+	<!---->
+	<string name="attachment_application_vnd_ms_excel">"صفحه گسترده"</string>
+	<!-- no translation found for attachment_application_pdf -->
+	<skip />
+	<!---->
+	<string name="attachment_unknown">"<xliff:g id="attachmentExtension">%s</xliff:g> فایل"</string>
+	<!---->
+	<string name="preview_attachment">"پیش نمایش"</string>
+	<!---->
+	<string name="save_attachment">"ذخيره"</string>
+	<!---->
+	<string name="cancel_attachment">"لغو"</string>
+	<!---->
+	<string name="open_attachment">"بازکردن"</string>
+	<!---->
+	<string name="install_attachment">"نصب"</string>
+	<!---->
+	<string name="download_again">"دانلود دوباره"</string>
+	<!---->
+	<string name="more_info_attachment">"اطلاعات"</string>
+	<!---->
+	<string name="no_application_found">"هیچ برنامه ای نمی تواند این پیوست را برای مشاهده باز کند."</string>
+	<!---->
+	<string name="fetching_attachment">"واکشی پیوست"</string>
+	<!---->
+	<string name="please_wait">"لطفا صبر کنید\u2026"</string>
+	<!---->
+	<string name="saved">"ذخیره شد،"</string>
+	<!---->
+	<string name="download_failed">"دانلود نمی شود. برای امتحان دوباره لمس کنید."</string>
+	<!---->
+	<string name="menu_photo_save_all">"ذخیره همه"</string>
+	<!---->
+	<string name="menu_photo_share">"اشتراك گذاري"</string>
+	<!---->
+	<string name="menu_photo_share_all">"اشتراک همه"</string>
+	<!---->
+	<string name="menu_photo_print">"چاپ"</string>
+	<!---->
+	<string name="saving">"در حال ذخیره..."</string>
+	<!---->
+	<string name="choosertitle_sharevia">"به اشتراک گذاری از طریق"</string>
+	<!---->
+	<string name="contextmenu_openlink">"باز کردن در مرورگر"</string>
+	<!---->
+	<string name="contextmenu_copy">"کپی"</string>
+	<!---->
+	<string name="contextmenu_copylink">"کپی URL پيوند"</string>
+	<!---->
+	<string name="contextmenu_view_image">"مشاهده تصویر"</string>
+	<!---->
+	<string name="contextmenu_dial_dot">"تماس"</string>
+	<!---->
+	<string name="contextmenu_sms_dot">"SMS\u2026"</string>
+	<!---->
+	<string name="contextmenu_add_contact">"افزودن مخاطب"</string>
+	<!---->
+	<string name="contextmenu_send_mail">"فرستادن ایمیل"</string>
+	<!---->
+	<string name="contextmenu_map">"نقشه"</string>
+	<!---->
+	<string name="contextmenu_sharelink">"به اشتراک گذاری پیوند"</string>
+	<!---->
+	<string name="contextmenu_savelink">"ذخیره پیوند"</string>
+	<!---->
+	<string name="contextmenu_help">"راهنمايي"</string>
+	<!---->
+	<string name="contextmenu_feedback">"ارسال بازخورد"</string>
+	<!---->
+	<string name="sort_title">"مرتبسازي"</string>
+	<!---->
+	<string name="sort_by_tip">"ترتیب بر اساس <xliff:g id="sor_type">%s</xliff:g>"</string>
+	<!-- no translation found for num_selected -->
+	<skip />
+	<plurals name="move_conversation">
+		<item quantity="one">"انتقال مکالمه"</item>
+		<item quantity="other">"انتقال <xliff:g>%1$d</xliff:g> مکالمه"</item>
+	</plurals>
+	<!---->
+	<string name="content_description">"فرستنده: <xliff:g id="sender">%1$s</xliff:g>، موضوع: <xliff:g id="subject">%2$s</xliff:g>، کد کوچک: <xliff:g id="snippet">%3$s</xliff:g>، تاریخ: <xliff:g id="date">%4$s</xliff:g>، خواندن حالت: <xliff:g id="readstate">%5$s</xliff:g>"</string>
+	<!---->
+	<string name="content_description_today">"فرستنده: <xliff:g id="sender">%1$s</xliff:g>، موضوع: <xliff:g id="subject">%2$s</xliff:g>، کد کوچک: <xliff:g id="snippet">%3$s</xliff:g>، زمان: <xliff:g id="time">%4$s</xliff:g>، خواندن حالت: <xliff:g id="readstate">%5$s</xliff:g>"</string>
+	<!---->
+	<string name="read_string">"مکالمه خوانده شده"</string>
+	<!---->
+	<string name="unread_string">"مکالمه خوانده نشده"</string>
+	<!---->
+	<string name="filtered_tag">"[<xliff:g id="tag">%1$s</xliff:g>]<xliff:g id="subject">%2$s</xliff:g>"</string>
+	<!-- no translation found for badge_and_subject -->
+	<skip />
+	<plurals name="draft">
+		<item quantity="one">"پیش نویس"</item>
+		<item quantity="other">"پیش نویس ها"</item>
+	</plurals>
+	<!---->
+	<string name="sending">"در حال ارسال\u2026"</string>
+	<!---->
+	<string name="message_retrying">"در حال تلاش دوباره\u2026"</string>
+	<!---->
+	<string name="message_failed">"انجام نشد"</string>
+	<!---->
+	<string name="send_failed">"ايميل ارسال نشد."</string>
+	<!---->
+	<string name="send_failed_wait_attchment_downloaded">"نمی توانید ارسال کنید زیرا پیوست ها بطور کامل دانلود نشدند، لطفاً ابتدا پیوست ها را دانلود کنید."</string>
+	<!---->
+	<string name="me_object_pronoun">"من"</string>
+	<!---->
+	<string name="me_subject_pronoun">"من"</string>
+	<plurals name="confirm_delete_conversation">
+		<item quantity="one">"این مکالمه حذف شود؟"</item>
+		<item quantity="other">"این <xliff:g id="count">%1$d</xliff:g> مکالمه حذف شوند؟"</item>
+	</plurals>
+	<plurals name="confirm_archive_conversation">
+		<item quantity="one">"این مکالمه بایگانی شود؟"</item>
+		<item quantity="other">"این <xliff:g id="count">%1$d</xliff:g> مکالمه بایگانی شود؟"</item>
+	</plurals>
+	<plurals name="confirm_discard_drafts_conversation">
+		<item quantity="one">"اين پيام نادیده گرفته شود؟"</item>
+		<item quantity="other">"از این <xliff:g id="count">%1$d</xliff:g> پیام صرفنظر شود؟"</item>
+	</plurals>
+	<!---->
+	<string name="confirm_discard_text">"اين پيام نادیده گرفته شود؟"</string>
+	<!---->
+	<string name="loading_conversations">"درحال بارگیری\u2026"</string>
+	<!---->
+	<string name="empty_inbox">"همه را انجام داده اید! از روزتان لذت ببرید."</string>
+	<!---->
+	<string name="empty_search">"وای! ما چیزی برای \"<xliff:g id="search_query">%1$s</xliff:g>\" پیدا نکردیم."</string>
+	<!---->
+	<string name="empty_spam_folder">"آفرین، هیچ اسپمی در اینجا وجود ندارد!"</string>
+	<!---->
+	<string name="empty_trash_folder">"سطل آشغالی اینجا نیست. از توجه به بازیافت متشکریم!"</string>
+	<!---->
+	<string name="empty_folder">"هیچ نامه ای در اینجا وجود ندارد."</string>
+	<!---->
+	<string name="getting_messages">"دریافت پیام های خود"</string>
+	<!---->
+	<string name="undo">"لغو عمل"</string>
+	<plurals name="conversation_unstarred">
+		<item quantity="one">"حذف ستاره از <xliff:g id="count">%1$d</xliff:g> مکالمه."</item>
+		<item quantity="other">"حذف ستاره از <xliff:g id="count">%1$d</xliff:g> مکالمه."</item>
+	</plurals>
+	<plurals name="conversation_muted">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> بیصدا شد."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> بیصدا شد."</item>
+	</plurals>
+	<plurals name="conversation_spammed">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> بعنوان اسپم گزارش شد."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> بعنوان اسپم گزارش شد."</item>
+	</plurals>
+	<plurals name="conversation_not_spam">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> بعنوان غیراسپم گزارش شد."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> بعنوان غیراسپم گزارش شد."</item>
+	</plurals>
+	<plurals name="conversation_not_important">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> بعنوان غیرمهم علامتگذاری شد."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> بعنوان غیرمهم علامتگذاری شد."</item>
+	</plurals>
+	<plurals name="conversation_phished">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> بعنوان فیشینگ گزارش شد."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> بعنوان فیشینگ گزارش شد."</item>
+	</plurals>
+	<plurals name="conversation_archived">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> بایگانی شد."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> بایگانی شد."</item>
+	</plurals>
+	<plurals name="conversation_deleted">
+		<item quantity="one">"&lt;b&gt;%1$d&lt;/b&gt; حذف شد."</item>
+		<item quantity="other">"&lt;b&gt;%1$d&lt;/b&gt; حذف شد."</item>
+	</plurals>
+	<!---->
+	<string name="deleted">"حذف شد"</string>
+	<!---->
+	<string name="archived">"بایگانی شد"</string>
+	<!---->
+	<string name="starred">"ستاره دار"</string>
+	<!---->
+	<string name="unstarred">"بدون ستاره"</string>
+	<!---->
+	<string name="folder_removed">"از <xliff:g id="folderName">%1$s</xliff:g> حذف شد"</string>
+	<plurals name="conversation_folder_changed">
+		<item quantity="one">"پوشه تغییر کرد."</item>
+		<item quantity="other">"پوشه ها تغییر کردند."</item>
+	</plurals>
+	<!---->
+	<string name="conversation_folder_moved">"به <xliff:g id="folderName">%1$s</xliff:g> منتقل شد"</string>
+	<!---->
+	<string name="search_results_header">"نتايج"</string>
+	<!---->
+	<string name="search_unsupported">"در این حساب جستجو پشتیبانی نمی شود."</string>
+	<!---->
+	<string name="add_label">"افزودن پوشه"</string>
+	<!---->
+	<string name="new_incoming_messages_one">"پیام جدید را از <xliff:g id="sender">%s</xliff:g> نشان دهید."</string>
+	<plurals name="new_incoming_messages_many">
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> پیام جدید را نشان دهید."</item>
+	</plurals>
+	<!---->
+	<string name="date_and_view_details">"<xliff:g id="date">%1$s</xliff:g> &lt;a href=\'http://www.example.com\'&gt;مشاهده جزئیات&lt;/a&gt;"</string>
+	<!---->
+	<string name="date_and_view_details_another">"<xliff:g id="date">%1$s</xliff:g> &lt;font color=\"<xliff:g id="color">%2$d</xliff:g>\"&gt;مشاهده جزئیات&lt;/font&gt;"</string>
+	<!---->
+	<string name="hide_details">"پنهان کردن جزئیات"</string>
+	<!---->
+	<string name="to_message_header">"به <xliff:g id="recipients">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="contact_info_string">"نمایش اطلاعات مخاطب برای <xliff:g id="name">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="contact_info_string_default">"نمایش اطلاعات مخاطب"</string>
+	<plurals name="show_messages_read">
+		<item quantity="other">"<xliff:g example="4" id="count">%1$d</xliff:g> پیام قدیمی تر"</item>
+	</plurals>
+	<!---->
+	<string name="from_heading">"از:"</string>
+	<!---->
+	<string name="replyto_heading">"پاسخ به:"</string>
+	<!---->
+	<string name="to_heading">"به:"</string>
+	<!---->
+	<string name="to_heading_no_space">"گیرنده:"</string>
+	<!---->
+	<string name="cc_heading">"گیرنده کپی:"</string>
+	<!---->
+	<string name="bcc_heading">"گیرنده مخفی کپي:"</string>
+	<!---->
+	<string name="date_heading">"تاريخ:"</string>
+	<!---->
+	<string name="show_images">"نمایش تصاویر"</string>
+	<!---->
+	<string name="always_show_images">"همیشه عکس‌های این فرستنده نمایش داده شود"</string>
+	<!---->
+	<string name="always_show_images_toast">"تصاویری از این فرستنده به طور خودکار نشان داده خواهد شد."</string>
+	<!---->
+	<string name="address_display_format">"<xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g>"</string>
+	<!---->
+	<string name="address_display_format_with_via_domain">"<xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g> via <xliff:g id="via_domain">%3$s</xliff:g>"</string>
+	<!---->
+	<string name="message_saved">"پیام بعنوان پیش نویس ذخیره شد."</string>
+	<!---->
+	<string name="sending_message">"ارسال پیام\u2026"</string>
+	<!---->
+	<string name="invalid_recipient">"آدرس %s نامعتبر است."</string>
+	<!---->
+	<string name="show_elided">"نمایش متن نقل شده"</string>
+	<!---->
+	<string name="hide_elided">"\u25BC پنهان کردن متن نقل شده"</string>
+	<!---->
+	<string name="message_invite_title">"دعوت نامه تقويم"</string>
+	<!---->
+	<string name="message_invite_available">"در دسترس هستید"</string>
+	<!---->
+	<string name="message_invite_datetime">"زمان"</string>
+	<!---->
+	<string name="message_invite_location">"کجا"</string>
+	<!---->
+	<string name="message_invite_in_calendar_view">"مشاهده در تقويم"</string>
+	<!---->
+	<string name="message_invite_calendar_view">"مشاهده در تقويم"</string>
+	<!---->
+	<string name="message_invite_label_attending">"رفتن؟"</string>
+	<!---->
+	<string name="message_invite_accept">"بله"</string>
+	<!---->
+	<string name="message_invite_tentative">"شايد"</string>
+	<!---->
+	<string name="message_invite_decline">"خير"</string>
+	<!-- no translation found for enumeration_comma -->
+	<skip />
+	<!---->
+	<string name="send_anyway">"به هر صورت ارسال کنید"</string>
+	<!---->
+	<string name="ok">"تایید"</string>
+	<!---->
+	<string name="done">"انجام شد"</string>
+	<!---->
+	<string name="cancel">"لغو کردن"</string>
+	<!---->
+	<string name="clear">"پاک کردن"</string>
+	<!---->
+	<string name="next">"بعدی"</string>
+	<!---->
+	<string name="previous">"قبلی"</string>
+	<string-array name="sync_status">
+		<item>"شما اتصال Wi-Fi ندارید، می خواهید همگام سازی را ادامه دهید؟"</item>
+		<item>"اتصالی موجود نیست."</item>
+		<item>"ورود به سیستم ممکن نیست."</item>
+		<item>"خطای ایمنی."</item>
+		<item>"نمی توانيد همگام سازی کنید."</item>
+		<item>"خطای داخلی"</item>
+		<item>"خطای سرور"</item>
+	</string-array>
+	<!---->
+	<string name="tap_to_configure">"برای تنظيم لمس کنيد"</string>
+	<!---->
+	<string name="non_synced_folder_description">"برای مشاهده مکالمات، این پوشه را همگام سازی کنید."</string>
+	<!---->
+	<string name="tap_to_configure_folder_sync">"همگام سازی پوشه"</string>
+	<!-- no translation found for widget_large_unread_count -->
+	<skip />
+	<!---->
+	<string name="large_unseen_count">"<xliff:g example="99" id="count">%d</xliff:g>+ جدید"</string>
+	<!---->
+	<string name="unseen_count">"<xliff:g example="4" id="count">%d</xliff:g> جدید"</string>
+	<plurals name="actionbar_unread_messages">
+		<item quantity="other">"%1$d خوانده نشده"</item>
+	</plurals>
+	<!---->
+	<string name="actionbar_large_unread_count">"<xliff:g id="count">%1$d</xliff:g>+ خوانده نشده"</string>
+	<!---->
+	<string name="view_more_conversations">"مشاهده مکالمات ديگر"</string>
+	<!---->
+	<string name="loading_conversation">"درحال بارگیری\u2026"</string>
+	<!---->
+	<string name="activity_mailbox_selection">"انتخاب حساب"</string>
+	<!---->
+	<string name="activity_folder_selection">"انتخاب پوشه"</string>
+	<!---->
+	<string name="folder_shortcut_widget_label">"ایمیل کردن پوشه"</string>
+	<!---->
+	<string name="change_folders_selection_dialog_title">"تغییر پوشه ها"</string>
+	<!---->
+	<string name="move_to_selection_dialog_title">"انتقال به"</string>
+	<!-- no translation found for search_results_loaded -->
+	<skip />
+	<!---->
+	<string name="network_error">"اتصالی موجود نیست"</string>
+	<!---->
+	<string name="retry">"تلاش دوباره"</string>
+	<!---->
+	<string name="load_more">"بارگیری بیشتر"</string>
+	<!---->
+	<string name="shortcut_name_title">"نامگذاری میانبر پوشه"</string>
+	<!---->
+	<string name="wait_for_sync_title">"در انتظار همگام سازی"</string>
+	<!---->
+	<string name="not_synced_title">"حساب همگام سازی نشد"</string>
+	<!---->
+	<string name="wait_for_manual_sync_body">"این حساب برای همگام سازی خودکار تنظیم نشده است.\nبرای همگام سازی ایمیل <b>هم اکنون همگام سازی کنید</b> را لمس کنید یا <b>تغییر تنظیمات همگام سازی</b> را برای تنظیم این حساب جهت همگام سازی خودکار ایمیل لمس کنید."</string>
+	<!---->
+	<string name="manual_sync">"هم اکنون همگام سازی کنید"</string>
+	<!---->
+	<string name="change_sync_settings">"تغيير تنظيمات همگام سازی"</string>
+	<!---->
+	<string name="photo_load_failed">"نمی توانید تصویر را بارگیری کنید"</string>
+	<!---->
+	<string name="cant_move_or_change_labels">"انتقال امکان‌پذیر نیست. مورد انتخابی شامل چندین حساب است."</string>
+	<!-- no translation found for multiple_new_message_notification_item -->
+	<skip />
+	<!-- no translation found for single_new_message_notification_big_text -->
+	<skip />
+	<!---->
+	<string name="ignore_spam_warning">"نادیده بگیرید، من به این پیام اطمینان دارم"</string>
+	<!---->
+	<string name="via_domain">"via <xliff:g id="viaDomain">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="signin">"ورود"</string>
+	<!---->
+	<string name="info">"اطلاعات"</string>
+	<!---->
+	<string name="report">"گزارش"</string>
+	<!---->
+	<string name="sync_error">"نمی توانيد همگام سازی کنید."</string>
+	<!---->
+	<string name="sync_error_message">"دستگاه شما فضای ذخیره کافی برای همگام سازی ندارد."</string>
+	<!---->
+	<string name="storage">"حافظه"</string>
+	<!-- no translation found for senders_split_token -->
+	<skip />
+	<!-- no translation found for draft_count_format -->
+	<skip />
+	<!---->
+	<string name="all_folders_heading">"همه پوشه ها"</string>
+	<!---->
+	<string name="recent_folders_heading">"پوشه های اخیر"</string>
+	<!---->
+	<string name="message_details_title">"جزئیات پیام"</string>
+	<!---->
+	<string name="preference_advance_to_title">"پیشرفته خودکار"</string>
+	<string-array name="prefEntries_autoAdvance">
+		<item>"جدیدتر"</item>
+		<item>"قديمي"</item>
+		<item>"لیست مکالمه"</item>
+	</string-array>
+	<string-array name="prefSummaries_autoAdvance">
+		<item>"نمایش مکالمه جدید بعد از حذف"</item>
+		<item>"نمایش مکالمه قدیمی تر بعد از حذف"</item>
+		<item>"نمایش لیست مکالمه بعد از حذف"</item>
+	</string-array>
+	<!---->
+	<string name="prefDialogTitle_autoAdvance">"پیشروی به"</string>
+	<!---->
+	<string name="clear_display_images_whitelist_title">"پاک کردن تاییدیه های تصویر"</string>
+	<!---->
+	<string name="clear_display_images_whitelist_dialog_title">"پاک کردن تاییدیه های تصویر؟"</string>
+	<!---->
+	<string name="clear_display_images_whitelist_dialog_message">"توقف نمایش تصاویر درون خطی از ارسال کنندگانی که قبلا به آنها اجازه داده اید."</string>
+	<!---->
+	<string name="sender_whitelist_cleared">"تصاوير بطور خودکار نشان داده نمی شوند."</string>
+	<!---->
+	<string name="preferences_signature_title">"امضا"</string>
+	<!---->
+	<string name="preferences_signature_dialog_title">"امضا"</string>
+	<!---->
+	<string name="preferences_signature_summary_not_set">"تنظيم نيست"</string>
+	<!---->
+	<string name="mail_account_signature_prefix">"ارسال شد از <xliff:g example="4" id="product">%1$s</xliff:g> من"</string>
+	<!---->
+	<string name="notification_action_reply">"پاسخ"</string>
+	<!---->
+	<string name="notification_action_reply_all">"پاسخ به همه"</string>
+	<!---->
+	<string name="notification_action_archive">"بایگانی"</string>
+	<!---->
+	<string name="notification_action_remove_label">"حذف تگ"</string>
+	<!---->
+	<string name="notification_action_delete">"حذف"</string>
+	<!---->
+	<string name="notification_action_undo_archive">"بایگانی شد"</string>
+	<!---->
+	<string name="notification_action_undo_remove_label">"تگ حذف شد"</string>
+	<!---->
+	<string name="notification_action_undo_delete">"حذف شد"</string>
+	<!-- no translation found for veiled_address -->
+	<skip />
+	<!-- no translation found for veiled_alternate_text -->
+	<skip />
+	<!-- no translation found for veiled_alternate_text_unknown_person -->
+	<skip />
+	<!-- no translation found for veiled_summary_unknown_person -->
+	<skip />
+	<!-- no translation found for label_notification_ticker -->
+	<skip />
+	<plurals name="new_messages">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> پیام جدید"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> پیام جدید"</item>
+	</plurals>
+	<!-- no translation found for single_new_message_notification_title -->
+	<skip />
+	<!---->
+	<string name="silent_ringtone">"بی صدا"</string>
+	<!---->
+	<string name="preference_removal_action_title">"عملیات بایگانی و حذف"</string>
+	<string-array name="prefEntries_removal_action">
+		<item>"فقط نمايش موارد بایگانی شده"</item>
+		<item>"فقط نمايش موارد حذف شده"</item>
+		<item>"نمايش موارد بایگانی شده و حذف شده"</item>
+	</string-array>
+	<string-array name="prefSummaries_removal_action_summary">
+		<item>"فقط نمايش موارد بایگانی شده"</item>
+		<item>"فقط نمايش موارد حذف شده"</item>
+		<item>"نمايش موارد بایگانی شده و حذف شده"</item>
+	</string-array>
+	<!---->
+	<string name="prefDialogTitle_removal_action">"عملیات بایگانی و حذف"</string>
+	<!---->
+	<string name="preferences_default_reply_all_title">"پاسخ به همه"</string>
+	<!---->
+	<string name="preferences_default_reply_all_summary_impl">"استفاده بعنوان پیش فرض برای پاسخ های پیام"</string>
+	<!---->
+	<string name="preference_swipe_title_archive">"کشیدن برای بایگانی"</string>
+	<!---->
+	<string name="preference_swipe_title_delete">"کشیدن برای حذف"</string>
+	<!---->
+	<string name="preference_swipe_description">"در لیست مکالمه"</string>
+	<!---->
+	<string name="preference_swipe_actions">"عملکردهای جابجا شدن"</string>
+	<!---->
+	<string name="preference_sender_image_title">"تصویر ارسال کننده"</string>
+	<!---->
+	<string name="preference_sender_image_description">"نمایش در کنار نام در لیست مکالمه"</string>
+	<!---->
+	<string name="empty_trash">"خالی کردن سطل زباله"</string>
+	<!---->
+	<string name="empty_spam">"خالی کردن اسپم"</string>
+	<!---->
+	<string name="star_toggle">"تغییر وضعیت ستاره"</string>
+	<!---->
+	<string name="empty_trash_dialog_title">"سطل زباله خالی شود؟"</string>
+	<!---->
+	<string name="empty_spam_dialog_title">"اسپم خالی شود؟"</string>
+	<plurals name="empty_folder_dialog_message">
+		<item quantity="one">"%1$d پیام برای همیشه حذف می شود."</item>
+		<item quantity="other">"%1$d پیام برای همیشه حذف می شود."</item>
+	</plurals>
+	<!---->
+	<string name="drawer_open">"باز کردن کشوی پیمایش"</string>
+	<!---->
+	<string name="drawer_close">"اطلاعات حق چاپ"</string>
+	<!---->
+	<string name="conversation_photo_welcome_text">"تصویر ارسال کننده را برای انتخاب این مکالمه لمس کنید."</string>
+	<!---->
+	<string name="long_press_to_select_tip">"برای انتخاب مکالمه لمس کنید و نگه دارید، سپس برای انتخاب بیشتر لمس کنید."</string>
+	<!---->
+	<string name="folder_icon_desc">"نماد پوشه"</string>
+	<!---->
+	<string name="add_account">"افزودن حساب"</string>
+	<!---->
+	<string name="dismiss_tip_hover_text">"نکات رد کردن"</string>
+	<!---->
+	<string name="auto_sync_off">"همگام سازی خودکار خاموش است."</string>
+	<!---->
+	<string name="tap_to_enable_sync">"برای روشن کردن لمس کنید."</string>
+	<!---->
+	<string name="account_sync_off">"همگام سازی حساب خاموش است."</string>
+	<!---->
+	<string name="enable_sync_in_account_settings">"در <xliff:g id="account_settings">%1$s</xliff:g> روشن کنید."</string>
+	<!---->
+	<string name="account_settings_param">"تنظیمات حساب"</string>
+	<!---->
+	<string name="unsent_messages_in_outbox">"<xliff:g id="number">%1$s</xliff:g> ارسال نشده در <xliff:g id="outbox">%2$s</xliff:g>"</string>
+	<!---->
+	<string name="turn_auto_sync_on_dialog_title">"همگام‌سازی خودکار روشن شود؟"</string>
+	<!---->
+	<string name="turn_auto_sync_on_dialog_body">"تغییرات ایجاد شده در همه برنامه ها و حساب ها، و نه فقط Gmail، با وب، سایر دستگاه ها و <xliff:g id="phone_or_tablet">%1$s</xliff:g> همگام سازی خواهد شد."</string>
+	<!---->
+	<string name="phone">"تلفن"</string>
+	<!---->
+	<string name="tablet">"تبلت"</string>
+	<!---->
+	<string name="turn_auto_sync_on_dialog_confirm_btn">"روشن شود"</string>
+	<!---->
+	<string name="show_n_more_folders">"نمایش %1$s پوشه دیگر"</string>
+	<!---->
+	<string name="hide_folders">"پنهان کردن پوشه ها"</string>
+	<!---->
+	<string name="print">"چاپ"</string>
+	<!---->
+	<string name="print_all">"چاپ همه"</string>
+	<plurals name="num_messages">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> پیام"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> پیام"</item>
+	</plurals>
+	<!---->
+	<string name="date_message_received_print">"<xliff:g id="day_and_date">%1$s</xliff:g> در <xliff:g id="time">%2$s</xliff:g>"</string>
+	<!---->
+	<string name="draft_to_heading">"پیش نویس به:"</string>
+	<!---->
+	<string name="draft_heading">"پیش نویس"</string>
+	<!---->
+	<string name="quoted_text_hidden_print">"متن نقل قول شده مخفی است"</string>
+	<plurals name="num_attachments">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> پیوست"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> پیوست"</item>
+	</plurals>
+	<!---->
+	<string name="no_subject">"(بدون موضوع)"</string>
+	<!---->
+	<string name="vacation_responder">"پاسخگوی تعطیلات"</string>
+	<!---->
+	<string name="preferences_vacation_responder_title">"پاسخگوی تعطیلات"</string>
+	<!---->
+	<string name="vacation_responder_body_hint_text">"پیام"</string>
+	<!---->
+	<string name="send_to_contacts_text">"فقط به مخاطبین من ارسال شود"</string>
+	<!---->
+	<string name="send_to_domain_text">"ارسال فقط به <xliff:g id="domain">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="pick_start_date_title">"شروع"</string>
+	<!---->
+	<string name="pick_end_date_title">"پایان (اختیاری)"</string>
+	<!---->
+	<string name="date_not_set">"تنظيم نيست"</string>
+	<!---->
+	<string name="set_end_date_dialog_title">"تاریخ پایانی (اختیاری)"</string>
+	<!---->
+	<string name="custom_date">"دلخواه"</string>
+	<!---->
+	<string name="date_none">"هیچکدام"</string>
+	<!---->
+	<string name="discard_changes">"از تغییرات صرفنظر شود؟"</string>
+	<!---->
+	<string name="draft_saved">"پيش نويس ذخيره شد"</string>
+	<!---->
+	<string name="draft_discard">"از پيش نويس صرفنظر شد"</string>
+	<!---->
+	<string name="vacation_responder_changes_saved">"تغییرات پاسخگوی تعطیلات ذخیره شد"</string>
+	<!---->
+	<string name="vacation_responder_changes_discarded">"از تغییرات پاسخگوی تعطیلات صرفنظر شود"</string>
+	<!---->
+	<string name="vacation_responder_off">"خاموش"</string>
+	<!---->
+	<string name="vacation_responder_on">"در، از <xliff:g id="date">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="vacation_responder_on_with_end_date">"در، از <xliff:g id="start-date">%1$s</xliff:g> به <xliff:g id="end-date">%2$s</xliff:g>"</string>
+	<!---->
+	<string name="vacation_responder_empty_subject_and_body_warning">"افزودن یک موضوع یا پیام"</string>
+	<!---->
+	<string name="view_entire_message">"مشاهده کل پیام"</string>
+	<!---->
+	<string name="eml_loader_error_toast">"نمی توانید این فایل را باز کنید"</string>
+	<!---->
+	<string name="help_and_info">"راهنمايي"</string>
+	<!---->
+	<string name="help_and_feedback">"راهنمایی و بازخورد"</string>
+	<!---->
+	<string name="feedback">"ارسال بازخورد"</string>
+	<!---->
+	<string name="copyright">"©<xliff:g example="2010" id="year">%1$d</xliff:g> Google Inc."</string>
+	<!---->
+	<string name="version">"<xliff:g example="Email" id="app_name">%1$s</xliff:g> نسخه <xliff:g example="2.2.1" id="version">%2$s</xliff:g>"</string>
+	<!-- no translation found for view_app_page -->
+	<skip />
+	<!---->
+	<string name="print_dialog">"چاپ\u2026"</string>
+	<!---->
+	<string name="copyright_information">"اطلاعات حق چاپ"</string>
+	<!---->
+	<string name="privacy_policy">"سیاست حفظ حریم خصوصی"</string>
+	<!---->
+	<string name="open_source_licenses">"مجوز های متن باز (Open Source)"</string>
+	<!---->
+	<string name="reply_choice_yes">"بله"</string>
+	<!---->
+	<string name="reply_choice_no">"خير"</string>
+	<!---->
+	<string name="reply_choice_ok">"تایید"</string>
+	<!-- no translation found for reply_choice_hehe -->
+	<skip />
+	<!---->
+	<string name="reply_choice_thanks">"متشکرم"</string>
+	<!---->
+	<string name="reply_choice_i_agree">"موافقم"</string>
+	<!---->
+	<string name="reply_choice_nice">"خوب"</string>
+	<!---->
+	<string name="reply_on_my_way">"در مسیر من"</string>
+	<!---->
+	<string name="reply_choice_later">"تأیید، به شما پاسخ می دهم"</string>
+	<!-- no translation found for reply_choice_smiling_face -->
+	<skip />
+	<!-- no translation found for reply_choice_frowning_face -->
+	<skip />
+	<!---->
+	<string name="preference_header_action_confirmations">"تأییدهای عمل"</string>
+	<!---->
+	<string name="preference_confirm_before_delete_title">"تایید قبل از حذف"</string>
+	<!---->
+	<string name="preference_confirm_before_archive_title">"تأیید قبل از بایگانی کردن"</string>
+	<!---->
+	<string name="preference_confirm_before_send_title">"تایید قبل از ارسال"</string>
+	<!---->
+	<string name="preferences_conversation_mode_title">"پیام های تناسب خودکار"</string>
+	<!---->
+	<string name="preferences_conversation_mode_summary">"کوچک کردن پیام ها برای تناسب با صفحه"</string>
+	<!---->
+	<string name="preferences_disable_snap_headers_title">"عملکردهای پیام"</string>
+	<string-array name="prefSummaries_snapHeader">
+		<item>"عملکردهای پیام را همیشه در بالای صفحه نشان دهید"</item>
+		<item>"عملکردهای پیام را فقط در بالای صفحه نشان دهید زمانی که به حالت پورتره چرخانده می شود"</item>
+		<item>"عملکردهای پیام را در خارج از عنوان پیام نشان ندهید"</item>
+	</string-array>
+	<string-array name="prefEntries_snapHeader">
+		<item>"همیشه نشان داده شود"</item>
+		<item>"فقط در پورتره نشان داده شود"</item>
+		<item>"نشان داده نشود"</item>
+	</string-array>
+	<!---->
+	<string name="clear_history_title">"پاك كردن سابقه جستجو"</string>
+	<!---->
+	<string name="search_history_cleared">"تاريخچه جستجو پاک شد."</string>
+	<!---->
+	<string name="clear_history_dialog_title">"سابقه جستجو پاک شود؟"</string>
+	<!---->
+	<string name="clear_history_dialog_message">"همه جستجوهایی که قبلاً انجام داده اید حذف خواهد شد."</string>
+	<!---->
+	<string name="manage_accounts_menu_item">"مديريت حساب ها"</string>
+	<!---->
+	<string name="general_preferences_title">"تنظیمات عمومی"</string>
+	<!---->
+	<string name="activity_preferences">"تنظیمات"</string>
+	<!---->
+	<string name="always_bcc_myself">"هميشه من را در bcc قرار دهيد"</string>
+	<!---->
+	<string name="always_bcc_myself_summary">"bcc زمان ايجاد،پاسخ و ارسال"</string>
+	<!---->
+	<string name="general_preference_auto_download_remaining_label">"دانلود خودکار باقيمانده"</string>
+	<!---->
+	<string name="general_preference_auto_download_remaining_summary">"دانلود خودکار متن باقيمانده زمان رفتن به پايين"</string>
+	<!---->
+	<string name="download_remaining">"دانلود باقيمانده"</string>
+	<!---->
+	<string name="downloading_remaining">"درحال بارگيري..."</string>
+	<!---->
+	<string name="unable_to_connect">"اتصال ممکن نيست"</string>
+	<!---->
+	<string name="need_connection_prompt">"براي استفاده از اين برنامه به اتصال شبکه نياز داريد. لطفا شبکه تلفن همراه يا Wi-Fi در تنظيمات را روشن کنيد."</string>
+	<!---->
+	<string name="connection_settings">"تنظیمات"</string>
+	<!---->
+	<string name="priority_action">"اولويت"</string>
+	<!---->
+	<string name="set_priority_dialog_title">"تنظیم اولویت"</string>
+	<!---->
+	<string name="dialog_warning">"اخطار\u2026"</string>
+	<!---->
+	<string name="dialog_warning_message">"نسخه برنامه Exchange مشابه Email نیست، ادامه می دهید؟"</string>
+	<!---->
+	<string name="toast_warning_text">"نسخه برنامه Exchange مشابه Email نیست"</string>
+	<!---->
+	<string name="tips_sync_alter_title">"همگام سازی"</string>
+	<!---->
+	<string name="tips_sync_alter_content">"شما اتصال Wi-Fi ندارید، می خواهید همگام سازی را ادامه دهید؟"</string>
+	<!---->
+	<string name="tips_sync_alter_yes">"بله"</string>
+	<!---->
+	<string name="tips_sync_alter_no">"خير"</string>
+	<!---->
+	<string name="message_invite_tentative_title">"احتمالی"</string>
+	<!---->
+	<string name="message_invite_decline_title">"نپذيرفتن"</string>
+	<!---->
+	<string name="message_invite_accent_title">"تایید"</string>
+	<!---->
+	<string name="drm_file_remind">"این فایل اجازه آپلود شدن یا به اشتراک گذاری را ندارد زیرا با DRM محافظت می شود!"</string>
+	<!---->
+	<string name="not_add_more_recipients">"نمی توانيد در يک زمان بيش از <xliff:g id="maxLimit">%1$d</xliff:g> گيرنده اضافه کنيد."</string>
+	<!---->
+	<string name="global_search_label">"ایمیل"</string>
+	<!---->
+	<string name="global_search_hint">"جستجوی ایمیل"</string>
+	<!---->
+	<string name="global_search_description">"فرستندگان، موضوعات، و دوستان"</string>
+	<!---->
+	<string name="remote_search_failed">"جستجوي سرور انجام نشد!"</string>
+	<!---->
+	<string name="searching_on_server">"جستجو در سرور"</string>
+	<!---->
+	<string name="searching_on_server_title">"جستجوي \"<xliff:g id="account_name">%s</xliff:g>\" در سرور"</string>
+	<!---->
+	<string name="searching_all_fields_on_sever">"جستجوي همه فايل ها در سرور"</string>
+	<!---->
+	<string name="search_field_subject">"موضوع"</string>
+	<!---->
+	<string name="search_field_receiver">"گيرنده"</string>
+	<!---->
+	<string name="search_field_sender">"فرستنده"</string>
+	<!---->
+	<string name="search_field_body">"متن"</string>
+	<!---->
+	<string name="search_field_all">"همه"</string>
+	<!---->
+	<string name="search_field_attachment">"پیوست"</string>
+	<!---->
+	<string name="select_all">"انتخاب همه"</string>
+	<!---->
+	<string name="deselect_all">"لغو انتخاب همه"</string>
+	<!---->
+	<string name="need_wifi_connection_prompt">"براي استفاده از اين برنامه به اتصال شبکه نياز داريد. لطفا شبکه تلفن همراه يا Wi-Fi در تنظيمات را روشن کنيد."</string>
+	<!---->
+	<string name="account_setup_names_account_name_des_label">"اختیاری"</string>
+	<!---->
+	<string name="account_setup_names_user_name_des_label">"در پیام خروجی"</string>
+	<!---->
+	<string name="finish_action">"پایان"</string>
+	<!---->
+	<string name="copy_email">"کپي آدرس ايميل"</string>
+	<!---->
+	<string name="out_of_office_syncing">"تنظیمات همگام سازی خارج از دفتر"</string>
+	<!---->
+	<string name="out_of_office_fail">"تنظیمات همگام سازی خارج از دفتر انجام نشد!"</string>
+	<!---->
+	<string name="out_of_office_success">"تنظیمات همگام سازی خارج از دفتر انجام شد!"</string>
+	<!---->
+	<string name="manual_sync_when_roaming">"همگام سازی هنگام رومینگ"</string>
+	<!---->
+	<string name="manual_sync_when_roaming_summery">"فقط نوسازی دستی"</string>
+	<!---->
+	<string name="manual_sync_when_roaming_toast">"برای نوسازی دستی زمان رومینگ به پایین حرکت کنید"</string>
+	<!---->
+	<string name="manual_sync_when_roaming_refresh">"نوسازی"</string>
+	<!---->
+	<string name="server_rule_can_not_change">"قوانین سرور قابل تغییر نیست"</string>
+	<!---->
+	<string name="server_rules">"قوانین سرور"</string>
+	<!---->
+	<string name="confirm_forward_message">"همه فایل ها دانلود نشدند. ارسال بدون دانلود فایل ها؟"</string>
+	<!---->
+	<string name="confirm_forward_cancel">"لغو کردن"</string>
+	<!---->
+	<string name="confirm_forward_drop_unload_attachment">"هدایت"</string>
+	<!---->
+	<string name="mail_not_download_completely">"صبر کنید تا دانلود تمام شود"</string>
+	<!---->
+	<string name="account_settings_inline_images_lable">"تصاویر"</string>
+	<!---->
+	<string name="account_settings_inline_always_show">"همیشه نشان داده شود"</string>
+	<!---->
+	<string name="account_settings_inline_ask_before_show">"سؤال قبل از نشان دادن"</string>
+	<!---->
+	<string name="conversation_time_after_today">"بعد از امروز"</string>
+	<!---->
+	<string name="conversation_time_today">"\"امروز\""</string>
+	<!---->
+	<string name="conversation_time_yesterday">"ديروز"</string>
+	<!---->
+	<string name="conversation_time_this_month">"این ماه"</string>
+	<!---->
+	<string name="conversation_time_elapse_just_now">"درست اکنون"</string>
+	<!---->
+	<string name="conversation_time_elapse_minute">"<xliff:g id="count">%d</xliff:g> دقیقه"</string>
+	<!---->
+	<string name="message_in_queued_status">"در صف"</string>
+	<plurals name="send_failed_messages">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> ایمیل ارسال نشد"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> ایمیل ارسال نشد"</item>
+	</plurals>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_label">"همگام سازی تقویم ها از"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_2weeks">"دو هفته"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_1month">"یک ماه"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_3months">"سه بار در ماه"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_6months">"شش ماه"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_all">"همه"</string>
+	<!---->
+	<string name="no_permission_to_open_file">"برای باز کردن این فایل به مجوز حافظه نیاز است"</string>
+	<!---->
+	<string name="conversation_update_time_text">"آخرین مورد به روز شده:"</string>
+	<!---->
+	<string name="conversation_update_unknown_time_stamp">"ناشناس"</string>
+	<!---->
+	<string name="conversation_time_elapse_today">"\"امروز\""</string>
+	<!---->
+	<string name="save_to_attachment">"ذخيره در"</string>
+	<!---->
+	<string name="download_settings_title">"ذخيره پيوست"</string>
+	<!---->
+	<string name="download_edit_filename_label">"نام"</string>
+	<!---->
+	<string name="download_filepath_label">"مسیر"</string>
+	<!---->
+	<string name="download_file_size">"اندازه"</string>
+	<!---->
+	<string name="download_time_needed">"زمان"</string>
+	<!---->
+	<string name="download_cancel">"لغو"</string>
+	<!---->
+	<string name="download_start">"تأييد"</string>
+	<!---->
+	<string name="unknown_length">"ناشناس"</string>
+	<!---->
+	<string name="time_min">"دقیقه"</string>
+	<!---->
+	<string name="open_file_manager_failed">"نمی توانید مدیر فایل را باز کنید"</string>
+	<!---->
+	<string name="attachment_not_saved">"پیوست ذخیره نشد"</string>
+	<!---->
+	<string name="sync_calendar_title">"نمی توانید تقویم را همگام سازی کنید"</string>
+	<!---->
+	<string name="sync_calendar_content">"برای همگام سازی، به سرویس های Exchange اجازه دهید به تقویم دسترسی داشته باشند"</string>
+	<!---->
+	<string name="sync_contacts_title">"نمی توانید مخاطبین را همگام سازی کنید"</string>
+	<!---->
+	<string name="sync_contacts_content">"برای همگام سازی، به سرویس های Exchange اجازه دهید به مخاطبین دسترسی داشته باشند"</string>
+	<!---->
+	<string name="notification_never_ask_again">"هرگز دوباره سؤال نشود"</string>
+	<!---->
+	<string name="sync_storage_title">"نمي توانيد پيوست را ذخيره کنيد"</string>
+	<!---->
+	<string name="sync_storage_content">"برای ذخیره، به سرویس های Exchange اجازه دهید به حافظه دسترسی داشته باشند"</string>
+	<!---->
+	<string name="oof_continue">"ادامه"</string>
+	<!---->
+	<string name="permission_needed_to_add_attachments">"برای افزودن پیوست ها، به مجوزهای ایمیل اجازه دسترسی به حافظه را بدهید"</string>
+	<!---->
+	<string name="permission_needed_to_check_ringtone">"برای بررسی آهنگ زنگ، به مجوزهای ایمیل اجازه دسترسی به حافظه را بدهید"</string>
+	<!---->
+	<string name="add_folder_as_attachment_fail_tips">"نمی توانید یک پوشه را به عنوان پیوست اضافه کنید"</string>
+	<!---->
+	<string name="choose_action_title">"انتخاب عمل"</string>
+	<!---->
+	<string name="choose_action_contact">"افزودن مخاطب: <xliff:g example="4" id="email_address">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="choose_action_email">"ایمیل: <xliff:g example="4" id="email_address">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="choose_action_message">"پيام: <xliff:g example="4" id="email_address">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="account_setup_basics_exit_action">"خروج"</string>
+</resources>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+/*
+ ==========================================================================
+ *HISTORY
+ *
+ *Tag            Date         Author        Description
+ *============== ============ =============== ==============================
+ *BUGFIX-946597  2015/03/19   ke.ma           [UI][Android5.0][Email]The colour in incoming and outgoing screen is different from other screen.
+ *BUGFIX-956919  2015-12-03  yanhua.chen     [Android L][Email][UE]The font of "Email account" string change to black after rorating screen and the check box style is not consistent after rotating screen..
+ ===========================================================================
+ */
+-->
+
+<resources>
+    <style name="AccountSetupDialogActivityTheme"
+        parent="@android:style/Theme.Material.Light.Dialog.NoActionBar">
+        <!-- ActionBar color -->
+        <item name="android:colorPrimary">@color/actionbar_color</item>
+        <!-- Used by the StatusBar and NavBar (currently broken?) -->
+        <item name="android:colorPrimaryDark">@color/statusbar_color</item>
+        <!-- TS: yanhua.chen 2015-11-25 EMAIL BUGFIX-956919  MOD_S -->
+        <item name="android:colorAccent">@color/statusbar_color</item>
+        <item name="android:dialogTheme">@style/DialogStyle1</item>
+        <item name="android:alertDialogTheme">@style/DialogStyle1</item>
+        <!-- TS: yanhua.chen 2015-11-25 EMAIL BUGFIX-956919  MOD_E -->
+    </style>
+
+    <!-- TS: ke.ma 2015-03-19 EMAIL BUGFIX-946597 ADD_S -->
+    <style name="AccountSetupDialogActivityTheme1"
+        parent="@android:style/Theme.Material.Light.Dialog.NoActionBar">
+        <!-- ActionBar color -->
+        <item name="android:colorPrimary">@color/actionbar_color</item>
+        <!-- Used by the StatusBar and NavBar (currently broken?) -->
+        <item name="android:colorPrimaryDark">@color/statusbar_color</item>
+        <!-- TS: yanhua.chen 2015-11-25 EMAIL BUGFIX-956919  MOD_S -->
+        <item name="android:colorAccent">@color/statusbar_color</item>
+        <item name="android:dialogTheme">@style/DialogStyle1</item>
+        <item name="android:alertDialogTheme">@style/DialogStyle1</item>
+        <!-- TS: yanhua.chen 2015-11-25 EMAIL BUGFIX-956919  MOD_E -->
+    </style>
+    <!-- TS: yanhua.chen 2015-11-25 EMAIL BUGFIX-956919  ADD_S -->
+    <style name="DialogStyle1" parent="android:Theme.Material.Light.Dialog">
+        <item name="android:colorAccent">@color/statusbar_color  </item>
+    </style>
+    <!-- TS: yanhua.chen 2015-11-25 EMAIL BUGFIX-956919  ADD_E -->
+    <!-- TS: ke.ma 2015-03-19 EMAIL BUGFIX-946597 ADD_E -->
+
+<style name="WaitFragmentTitleBase" parent="android:Widget.Material.TextView" />
+
+    <style name="AbstractNewMessageButtonStyleBase"
+        parent="@android:style/Widget.Material.Light.Button">
+    </style>
+
+    <style name="ConversationListFadeBase" parent="android:Widget.Material.Light.ListView" />
+
+    <style name="MinTimeProgressViewStyle" parent="android:Widget.Material.Light.ProgressBar" />
+
+    <style name="MinTimeProgressDialogStyleBase" parent="@android:style/Theme.Material.Light.Dialog" />
+
+    <style name="MessageButtonStyleBase" parent="android:Widget.Material.Button.Borderless" />
+
+    <style name="AbstractVacationResponderDateSpinnerBase"
+           parent="android:Widget.Material.Light.Spinner" />
+
+    <style name="RecipientEditTextViewStyle" parent="@style/RecipientEditTextViewStyleBase">
+        <item name="android:popupElevation">0dp</item>
+    </style>
+</resources>

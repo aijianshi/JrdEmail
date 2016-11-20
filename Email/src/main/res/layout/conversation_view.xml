@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2011 Google Inc.
+     Licensed to The Android Open Source Project.
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+     /*
+==========================================================================
+*HISTORY
+*
+*Tag            Date         Author          Description
+*============== ============ =============== ==============================
+*FEATURE-559891 2015/09/10   tao.gan         [Email] Auto hiding aciont bar in mail content UI
+===========================================================================
+*/
+-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/conversation_view_framelayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- TS: tao.gan 2015-09-10 EMAIL FEATURE-559891 ADD_S -->
+    <com.tct.mail.browse.ConversationReplyFabView
+            android:id="@+id/conversation_view_fab"
+            android:background="@drawable/ic_reply_all"
+            android:contentDescription="@string/compose"
+            style="@style/FloatingActionButtonStyle"/>
+    <!-- TS: tao.gan 2015-09-10 EMAIL FEATURE-559891 ADD_E -->
+
+    <com.tct.mail.browse.ConversationContainer
+        android:id="@+id/conversation_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- base WebView layer -->
+        <com.tct.mail.browse.ConversationWebView
+            android:id="@+id/conversation_webview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:scrollbars="none"
+            style="@style/ConversationViewPaddingStyle" />
+
+        <!-- scrolling overlay views go here -->
+
+        <!-- topmost layer for floating views (e.g. snap header, New Message bar) -->
+        <!-- ConversationContainer draws this child on the very top, above all scrolling views -->
+        <!-- This is also used to highlight the entire conversation on focus -->
+        <FrameLayout
+            android:id="@+id/conversation_topmost_overlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="?android:attr/selectableItemBackground"
+            android:focusable="true" />
+
+    </com.tct.mail.browse.ConversationContainer>
+
+    <com.tct.mail.browse.ScrollIndicatorsView
+        android:id="@+id/scroll_indicators"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarStyle="outsideOverlay"
+        android:scrollbars="vertical|horizontal" />
+
+    <include layout="@layout/conversation_load_spinner"/>
+
+</FrameLayout>

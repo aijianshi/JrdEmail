@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!-- no translation found for app_name -->
+	<skip />
+	<!-- no translation found for photo_view_count -->
+	<skip />
+	<!---->
+	<string name="retry">"Thử lại"</string>
+	<!---->
+	<string name="failed">"Không thể tải hình ảnh"</string>
+	<!-- no translation found for more_string -->
+	<skip />
+	<!---->
+	<string name="copy_email">"Sao chép địa chỉ email"</string>
+	<!---->
+	<string name="copy_number">"Sao chép số điện thoại"</string>
+	<!---->
+	<string name="action_label">"Quay lại"</string>
+	<!---->
+	<string name="search_hint">"Tìm kiếm email"</string>
+	<!---->
+	<string name="compose">"Soạn"</string>
+	<!---->
+	<string name="activity_folder_selection">"Chọn thư mục"</string>
+	<!---->
+	<string name="activity_preferences">"Cài đặt"</string>
+	<!---->
+	<string name="tap_to_configure">"Chạm để thiết lập"</string>
+	<!---->
+	<string name="loading_conversations">"Đang tải\u2026"</string>
+	<!---->
+	<string name="non_synced_folder_description">"Để xem các cuộc trò chuyện, hãy đồng bộ hóa thư mục này."</string>
+	<!---->
+	<string name="tap_to_configure_folder_sync">"Đồng bộ hóa thư mục"</string>
+	<!-- no translation found for def_email_accountGermanSignature -->
+	<skip />
+	<!---->
+	<string name="send_failed">"Không\ gửi được tin nhắn."</string>
+	<!-- no translation found for permission_needed -->
+	<skip />
+	<!---->
+	<string name="permission_needed_label">"Cần có các quyền hạn"</string>
+	<!---->
+	<string name="permission_grant_access_label">"Cấp quyền truy cập"</string>
+	<!---->
+	<string name="permission_grant_access_descs">"Thay đổi quyền hạn trong cài đặt ứng dụng trên thiết bị của bạn. Cho phép Email truy cập Danh bạ."</string>
+	<!---->
+	<string name="permission_grant_exit">"Thoát"</string>
+	<!---->
+	<string name="permission_grant_go_setting">"Cài đặt"</string>
+	<!---->
+	<string name="permission_needed_to_save_attachment">"Để lưu tập tin đính kèm, cho phép Email các quyền hạn truy cập bộ nhớ"</string>
+	<!---->
+	<string name="permission_needed_to_add_attachment">"Để thêm tập tin đính kèm, cho phép Email truy cập bộ nhớ"</string>
+	<!---->
+	<string name="permission_needed_to_see_calendar">"Để xem trong lịch, hãy cho phép Email các quyền hạn truy cập Lịch"</string>
+</resources>

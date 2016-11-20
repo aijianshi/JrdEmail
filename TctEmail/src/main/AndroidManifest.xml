@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2012 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<!--
+*======================================================================================================
+*HISTORY
+*
+*Tag             Date        Author    Description
+*============== ============ =============== ==========================================================
+*BUGFIX-923708 2014/02/04 xiaolin.li  [CTS]: android.permission.cts.DebuggableTest failed
+*TASK-869664    2015/11/25   zheng.zou       [Email]Android M Permission Upgrade
+*======================================================================================================
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tct.fw">
+
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <!-- Allows mail to access the user's contacts, for email address auto-completion -->
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <!-- Allows access to EmailProvider (EAS/IMAP/POP3) -->
+    <!--  <uses-permission android:name="com.tct.email.permission.ACCESS_PROVIDER"/>-->
+    <!--  <uses-permission android:name="com.tct.email.permission.READ_ATTACHMENT"/>-->
+    <uses-permission android:name="android.permission.NFC" />
+
+    <!-- This needs to be present when we are doing unbundled releases. -->
+    <uses-sdk android:targetSdkVersion="21" android:minSdkVersion="17" />
+
+    <application
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:debuggable="false"><!--TS: xiaolin.li 2015-02-04 Email BUGFIX_923708 ADD-->
+        <!-- Enable search in all activities -->
+        <meta-data android:name="android.app.default_searchable"
+            android:value="com.tct.mail.ui.MailActivity" />
+        <!--TS: zheng.zou 2015-11-25 EMAIL TASK-996919 ADD_S-->
+        <activity android:name="com.tct.permission.PermissionBlockActivity"
+            android:theme="@style/MailActivityTheme"/>
+        <activity android:name="com.tct.permission.PermissionExplainActivity"
+            android:theme="@style/MailActivityTheme"/>
+        <!--TS: zheng.zou 2015-11-25 EMAIL TASK-996919 ADD_E-->
+
+        <!-- TODO: add a permission on this -->
+        <!--<activity-->
+            <!--android:label="@string/app_name"-->
+            <!--android:name="com.tct.mail.ui.MailActivity"-->
+            <!--android:launchMode="singleTop"-->
+            <!--android:theme="@style/MailActivityTheme" >-->
+            <!--<intent-filter >-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.VIEW" />-->
+                <!--<category android:name="android.intent.category.DEFAULT" />-->
+                <!--<data android:scheme="content"/>-->
+                <!--<data android:mimeType="application/mail-ls" />-->
+            <!--</intent-filter>-->
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.SEARCH" />-->
+                <!--<category android:name="android.intent.category.DEFAULT" />-->
+            <!--</intent-filter>-->
+            <!--<meta-data android:name="android.app.searchable" android:resource="@xml/searchable" />-->
+        <!--</activity>-->
+        <!--<activity android:name="com.tct.mail.compose.ComposeActivity"-->
+            <!--android:theme="@style/ComposeTheme">-->
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.VIEW" />-->
+                <!--<action android:name="android.intent.action.SENDTO" />-->
+                <!--<category android:name="android.intent.category.DEFAULT" />-->
+                <!--<category android:name="android.intent.category.BROWSABLE" />-->
+                <!--<data android:scheme="mailto" />-->
+            <!--</intent-filter>-->
+
+            <!--<intent-filter>-->
+                <!--<action android:name="android.nfc.action.NDEF_DISCOVERED" />-->
+                <!--<category android:name="android.intent.category.DEFAULT" />-->
+                <!--<data android:scheme="mailto" />-->
+           <!--</intent-filter>-->
+
+            <!--<intent-filter android:label="@string/compose">-->
+                <!--<action android:name="android.intent.action.SEND" />-->
+                <!--<category android:name="android.intent.category.DEFAULT" />-->
+                <!--<data android:mimeType="*/*" />-->
+            <!--</intent-filter>-->
+
+            <!--<intent-filter android:label="@string/compose">-->
+                <!--<action android:name="android.intent.action.SEND_MULTIPLE" />-->
+                <!--<category android:name="android.intent.category.DEFAULT" />-->
+                <!--<data android:mimeType="*/*" />-->
+            <!--</intent-filter>-->
+        <!--</activity>-->
+
+        <!--<activity android:name="com.tct.mail.ui.CreateShortcutActivity"-->
+            <!--android:theme="@style/ShortcutWidgetTheme"-->
+            <!--android:label="@string/activity_folder_selection" />-->
+
+        <!--<activity android:name="com.tct.mail.ui.FolderSelectionActivity"-->
+            <!--android:theme="@style/ShortcutWidgetTheme"-->
+            <!--android:label="@string/activity_folder_selection" />-->
+
+        <!--<activity android:name="com.tct.mail.ui.MailboxSelectionActivity"-->
+            <!--android:theme="@style/InvisibleShortcutWidgetTheme"-->
+            <!--android:label="@string/app_name" >-->
+            <!--<intent-filter>-->
+                <!--<action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />-->
+            <!--</intent-filter>-->
+        <!--</activity>-->
+
+        <!--<activity-->
+            <!--android:name="com.tct.mail.photo.MailPhotoViewActivity"-->
+            <!--android:label="@string/app_name"-->
+            <!--android:theme="@style/PhotoViewTheme" >-->
+        <!--</activity>-->
+        <!--<activity-->
+                <!--android:name="com.tct.mail.browse.EmlViewerActivity"-->
+                <!--android:label="@string/app_name"-->
+                <!--android:theme="@style/UnifiedEmailTheme" >-->
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.VIEW" />-->
+                <!--<category android:name="android.intent.category.DEFAULT" />-->
+                <!--<data android:mimeType="message/rfc822" />-->
+                <!--<data android:mimeType="application/eml" />-->
+            <!--</intent-filter>-->
+        <!--</activity>-->
+
+        <!--<activity android:name="com.tct.mail.ui.settings.MailPreferenceActivity"-->
+                  <!--android:label="@string/activity_preferences"-->
+                  <!--android:exported="false">-->
+        <!--</activity>-->
+
+        <!--<provider-->
+                <!--android:authorities="com.tct.mail.accountcache"-->
+                <!--android:label="@string/account_cache_provider"-->
+                <!--android:multiprocess="false"-->
+                <!--android:name="com.tct.mail.providers.UnifiedAccountCacheProvider" >-->
+            <!--<grant-uri-permission android:pathPattern=".*" />-->
+        <!--</provider>-->
+
+        <!--<provider-->
+            <!--android:authorities="com.tct.mail.mockprovider"-->
+            <!--android:label="@string/mock_content_provider"-->
+            <!--android:multiprocess="false"-->
+            <!--android:name="com.tct.mail.providers.protos.mock.MockUiProvider" >-->
+            <!--<grant-uri-permission android:pathPattern=".*" />-->
+        <!--</provider>-->
+
+        <!--<provider-->
+            <!--android:authorities="com.tct.mail.conversation.provider"-->
+            <!--android:label="@string/conversation_content_provider"-->
+            <!--android:multiprocess="false"-->
+            <!--android:name="com.tct.mail.browse.UnifiedConversationProvider" >-->
+            <!--<grant-uri-permission android:pathPattern=".*" />-->
+        <!--</provider>-->
+
+        <!--<provider-->
+                <!--android:authorities="@string/eml_attachment_provider"-->
+                <!--android:multiprocess="false"-->
+                <!--android:exported="false"-->
+                <!--android:name="com.tct.mail.providers.EmlAttachmentProvider" >-->
+            <!--<grant-uri-permission android:pathPattern=".*" />-->
+        <!--</provider>-->
+
+        <!-- The android:name is the name of the Provider class which is stored in
+          UnifiedEmail, and has package name com.tct.mail.providers and the class is
+          called SuggestionsProvider. The authority name is specified in the MailAppProvider
+          which is specific to the two apps separately. -->
+        <!--<provider android:name="com.tct.mail.providers.SuggestionsProvider"-->
+            <!--android:authorities="com.tct.mail.suggestionsprovider" />-->
+
+        <!--<service android:name="com.tct.mail.compose.EmptyService"/>-->
+
+        <!--<service android:name="com.tct.mail.widget.WidgetService"-->
+                 <!--android:permission="android.permission.BIND_REMOTEVIEWS"-->
+                 <!--android:exported="false" />-->
+        <!--<service android:name="com.tct.mail.MailLogService"/>-->
+        <!--<service android:name="com.tct.mail.browse.EmlTempFileDeletionService" />-->
+
+    </application>
+
+</manifest>

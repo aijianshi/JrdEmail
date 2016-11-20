@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Tue Sep 20 16:24:06 CST 2016
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="exchange_name">"Cuenta del trabajo"</string>
+	<!---->
+	<string name="exchange_name_alternate">"ActiveSync de Microsoft Exchange"</string>
+	<!---->
+	<string name="meeting_accepted">"Aceptado: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_declined">"Declinado: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_tentative">"Provisional: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_canceled">"Cancelada: <xliff:g id="SUBJECT">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_updated">"Actualizado: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_when">"Cuándo: <xliff:g id="when">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_where">"Dónde: <xliff:g id="where">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_recurring">"Cuándo: <xliff:g example="Tue, Mar 10, 2010 at 2:30 pm" id="eventdate">%s</xliff:g> (recurrente)"</string>
+	<!---->
+	<string name="meeting_allday">"Cuándo: <xliff:g example="Tue, Mar 10, 2010 " id="eventdate">%s</xliff:g> (todo el día)"</string>
+	<!---->
+	<string name="meeting_allday_recurring">"Cuándo: <xliff:g example="Tue, Mar 10, 2010 " id="eventdate">%s</xliff:g> (todo el día, repetido)"</string>
+	<!---->
+	<string name="notification_exchange_calendar_added">"Calendario de Exchange añadido"</string>
+	<!---->
+	<string name="app_name">"Servicios de Exchange"</string>
+	<!---->
+	<string name="exception_cancel">"Este evento se ha cancelado el día: <xliff:g id="DATE">%s</xliff:g>"</string>
+	<!---->
+	<string name="exception_updated">"Este evento se pasó al día <xliff:g id="date">%s</xliff:g>"</string>
+	<!---->
+	<string name="policy_dont_allow_storage_cards">"No permitir tarjetas de memoria"</string>
+	<!---->
+	<string name="policy_dont_allow_unsigned_apps">"No instalar aplicaciones sin firmar"</string>
+	<!---->
+	<string name="policy_dont_allow_unsigned_installers">"No permitir instaladores sin firmar"</string>
+	<!---->
+	<string name="policy_dont_allow_wifi">"No permitir Wi-Fi"</string>
+	<!---->
+	<string name="policy_dont_allow_text_messaging">"No permitir envío de mensajes de texto"</string>
+	<!---->
+	<string name="policy_dont_allow_pop_imap">"No permitir cuentas POP3 ni IMAP"</string>
+	<!---->
+	<string name="policy_dont_allow_irda">"No permitir comunicación por infrarrojos"</string>
+	<!---->
+	<string name="policy_dont_allow_html">"No recibir correos electrónicos HTML"</string>
+	<!---->
+	<string name="policy_dont_allow_browser">"No permitir el uso de navegadores"</string>
+	<!---->
+	<string name="policy_dont_allow_consumer_email">"No recibir correos comerciales"</string>
+	<!---->
+	<string name="policy_dont_allow_internet_sharing">"No permitir uso compartido de Internet"</string>
+	<!---->
+	<string name="policy_require_smime">"Recibir sólo mensajes SMIME"</string>
+	<!---->
+	<string name="policy_bluetooth_restricted">"Restringir el uso de Bluetooth"</string>
+	<!---->
+	<string name="policy_app_blacklist">"Bloquear determinadas aplicaciones"</string>
+	<!---->
+	<string name="policy_app_whitelist">"Permitir determinadas aplicaciones"</string>
+	<!---->
+	<string name="policy_text_truncation">"Restringir el tamaño de correos de texto"</string>
+	<!---->
+	<string name="policy_html_truncation">"Restringir el tamaño de los correos HTML"</string>
+	<!---->
+	<string name="policy_require_sd_encryption">"Requerir la encriptación de tarjetas SD"</string>
+	<!---->
+	<string name="policy_dont_allow_attachments">"No descargar archivos adjuntos"</string>
+	<!---->
+	<string name="policy_max_attachment_size">"Restringir tamaño de archivos adjuntos"</string>
+	<!---->
+	<string name="policy_require_manual_sync_roaming">"Sincronización manual sólo en roaming"</string>
+	<!---->
+	<string name="policy_require_encryption">"Requerir la encriptación del dispositivo"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_auto">"Automático"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1day">"Un día"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_3days">"Tres días"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1week">"Una semana"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_2weeks">"Dos semanas"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1month">"Un mes"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_all">"Todo"</string>
+	<!---->
+	<string name="auth_error_notification_title">"Error de autenticación"</string>
+	<!---->
+	<string name="auth_error_notification_text">"Toque para editar la configuración de la cuenta para <xliff:g id="account">%s</xliff:g>"</string>
+	<!---->
+	<string name="email_settings_not_available">"Vuelva a activar la aplicación de correo electrónico para ver la configuración."</string>
+</resources>

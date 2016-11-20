@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Tue Sep 20 16:24:06 CST 2016
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string-array name="set_priority_dialog_options">
+		<item>"Hoog"</item>
+		<item>"Normaal"</item>
+		<item>"Laag"</item>
+	</string-array>
+	<string-array name="mail_sort_types">
+		<item>"Datum (oudste)"</item>
+		<item>"Van (A-Z)"</item>
+		<item>"Van (Z-A)"</item>
+		<item>"Bijlagen"</item>
+		<item>"Belang"</item>
+		<item>"Grootte"</item>
+		<item>"Ongel."</item>
+	</string-array>
+</resources>

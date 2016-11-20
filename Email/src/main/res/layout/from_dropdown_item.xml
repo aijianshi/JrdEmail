@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2011 Google Inc.
+     Licensed to The Android Open Source Project.
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<!--
+/**
+*===================================================================================================================
+*HISTORY
+*
+*Tag            Date         Author          Description
+*============== ============ =============== =======================================================================
+*BUGFIX-862261  2014/12/11   zhaotianyong       [Android5.0][Email] No dividing line when selecting sender
+*BUGFIX-943609  2015/03/24   junwei-xu       [Android5.0][Email][UI]The color when touch a& hold a sender does not follow Email style.
+====================================================================================================================
+*/
+ -->
+<!--TS: junwei-xu 2015-03-24 EMAIL BUGFIX-943609 ADD_S-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/floating_down_item"
+    android:clickable="true">
+<!--TS: junwei-xu 2015-03-24 EMAIL BUGFIX-943609 ADD_E-->
+    <TextView
+        android:id="@+id/spinner_account_address"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/listPreferredItemHeight"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:paddingLeft="8dip"
+        android:paddingRight="8dip"
+        android:textAlignment="viewStart"
+        style="@style/ComposeFromTextViewStyle" />
+    <!--TS: zhaotianyong 2014-12-12 EMAIL BUGFIX_862261 ADD_S -->
+    <View style="@style/RecipientComposeFieldSpacer" />
+    <!--TS: zhaotianyong 2014-12-12 EMAIL BUGFIX_862261 ADD_S -->
+
+</LinearLayout>

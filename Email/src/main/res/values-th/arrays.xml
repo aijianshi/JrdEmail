@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Tue Sep 20 16:24:06 CST 2016
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string-array name="set_priority_dialog_options">
+		<item>"สูง"</item>
+		<item>"ปกติ"</item>
+		<item>"ต่ำ"</item>
+	</string-array>
+	<string-array name="mail_sort_types">
+		<item>"วันที่ (เก่าที่สุด)"</item>
+		<item>"จาก (A-Z)"</item>
+		<item>"จาก (Z-A)"</item>
+		<item>"ข้อมูลแนบ"</item>
+		<item>"การนำเข้า"</item>
+		<item>"ขนาด"</item>
+		<item>"ยังไม่ได้อ่าน"</item>
+	</string-array>
+</resources>

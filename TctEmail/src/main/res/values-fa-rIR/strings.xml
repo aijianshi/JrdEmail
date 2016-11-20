@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!-- no translation found for app_name -->
+	<skip />
+	<!-- no translation found for photo_view_count -->
+	<skip />
+	<!---->
+	<string name="retry">"امتحان مجدد"</string>
+	<!---->
+	<string name="failed">"نمی توانید تصویر را بارگیری کنید"</string>
+	<!-- no translation found for more_string -->
+	<skip />
+	<!---->
+	<string name="copy_email">"کپي آدرس ايميل"</string>
+	<!---->
+	<string name="copy_number">"کپي کردن شماره تلفن"</string>
+	<!---->
+	<string name="action_label">"برگشت"</string>
+	<!---->
+	<string name="search_hint">"جستجوی ایمیل"</string>
+	<!---->
+	<string name="compose">"نوشتن"</string>
+	<!---->
+	<string name="activity_folder_selection">"انتخاب پوشه"</string>
+	<!---->
+	<string name="activity_preferences">"تنظیمات"</string>
+	<!---->
+	<string name="tap_to_configure">"برای تنظيم لمس کنيد"</string>
+	<!---->
+	<string name="loading_conversations">"در حال بارگیری\u2026"</string>
+	<!---->
+	<string name="non_synced_folder_description">"برای مشاهده مکالمات، این پوشه را همگام سازی کنید."</string>
+	<!---->
+	<string name="tap_to_configure_folder_sync">"همگام سازی پوشه"</string>
+	<!-- no translation found for def_email_accountGermanSignature -->
+	<skip />
+	<!---->
+	<string name="send_failed">"پیام ارسال نشد."</string>
+	<!-- no translation found for permission_needed -->
+	<skip />
+	<!---->
+	<string name="permission_needed_label">"نیاز به مجوز است"</string>
+	<!---->
+	<string name="permission_grant_access_label">"اجازه دسترسی"</string>
+	<!---->
+	<string name="permission_grant_access_descs">"از قسمت تنظیمات برنامه دستگاه، مجوزها را تغییر دهید. به ایمیل اجازه دسترسی به مخاطبین را بدهید."</string>
+	<!---->
+	<string name="permission_grant_exit">"خروج"</string>
+	<!---->
+	<string name="permission_grant_go_setting">"تنظیمات"</string>
+	<!---->
+	<string name="permission_needed_to_save_attachment">"برای ذخیره پیوست، به مجوزهای ایمیل اجازه دسترسی به حافظه را بدهید"</string>
+	<!---->
+	<string name="permission_needed_to_add_attachment">"برای افزودن پیوست، به مجوزهای ایمیل اجازه دسترسی به حافظه را بدهید"</string>
+	<!---->
+	<string name="permission_needed_to_see_calendar">"برای دیدن در تقویم، به مجوزهای ایمیل اجازه دسترسی به تقویم را بدهید"</string>
+</resources>

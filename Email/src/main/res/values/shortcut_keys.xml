@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Character, that when combined with CTRL, should cause a save action -->
+    <string name="trigger_save_char" translatable="false">s</string>
+    <!-- Character, that when combined with CTRL, should open compose -->
+    <string name="trigger_compose_char" translatable="false">c</string>
+    <!-- Character, that when combined with CTRL, should trigger a refresh -->
+    <string name="trigger_refresh_char" translatable="false">u</string>
+    <!-- Character, that when combined with CTRL, should trigger the Y button action (sometimes archive, sometimes delete, etc) -->
+    <string name="trigger_y_char" translatable="false">y</string>
+
+</resources>

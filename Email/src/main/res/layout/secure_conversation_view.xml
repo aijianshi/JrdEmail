@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2012 Google Inc.
+     Licensed to The Android Open Source Project.
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+      /*
+==========================================================================
+*HISTORY
+*
+*Tag            Date         Author          Description
+*============== ============ =============== ==============================
+*FEATURE-559891 2015/09/10   tao.gan         [Email] Auto hiding aciont bar in mail content UI
+===========================================================================
+*/
+-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/conversation_view_background_color" >
+
+    <com.tct.mail.browse.MessageScrollView android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:id="@+id/conversation_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- TS: tao.gan 2015-09-10 EMAIL FEATURE-559891 ADD_S -->
+            <!--Add a blank LinearLayout to fill the action bar area-->
+            <LinearLayout
+            android:id="@+id/tool_blank_view"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"/>
+            <!-- TS: tao.gan 2015-09-10 EMAIL FEATURE-559891 ADD_E -->
+
+            <include layout="@layout/conversation_view_header"
+                android:id="@+id/conv_header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <include layout="@layout/conversation_message_header"
+                android:id="@+id/message_header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <!--[BUGFIX]-Mod-BEGIN by TSCD.zheng.zou,02/02/2015,917703,-->
+            <!--[Email]The characters display too small in IMAP mail which body has 200 characters -->
+            <!-- base WebView layer -->
+            <com.tct.mail.browse.MessageWebView
+                android:id="@+id/webview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none"/>
+            <!--[BUGFIX]-Mod-END by TSCD.zheng.zou-->
+
+            <include
+                layout="@layout/conversation_message_footer"
+                android:id="@+id/message_footer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+
+            <!-- TS: tao.gan 2015-11-11 EMAIL FEATURE-854285 ADD_S -->
+            <!-- Let's show footer buttons now! -->
+             <include
+                layout="@layout/conversation_footer"
+                android:id="@+id/conv_footer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+             <!-- TS: tao.gan 2015-11-11 EMAIL FEATURE-854285 ADD_E -->
+        </LinearLayout>
+
+    </com.tct.mail.browse.MessageScrollView>
+
+    <include layout="@layout/conversation_message_header"
+         android:id="@+id/snap_header"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         style="@style/ConversationViewPaddingStyle"
+         android:layout_gravity="top"
+         android:visibility="gone"/>
+
+    <include layout="@layout/conversation_load_spinner"/>
+
+    <!-- TS: tao.gan 2015-09-10 EMAIL FEATURE-559891 ADD_S -->
+    <com.tct.mail.browse.ConversationReplyFabView 
+            android:id="@+id/secure_conversation_view_fab"
+            android:background="@drawable/ic_reply_all"
+            android:contentDescription="@string/compose"
+            style="@style/FloatingActionButtonStyle"/>
+    <!-- TS: tao.gan 2015-09-10 EMAIL FEATURE-559891 ADD_E -->
+
+</FrameLayout>

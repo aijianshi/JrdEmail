@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2014 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+/*
+ ==========================================================================
+ *HISTORY
+ *
+ *Tag            Date         Author        Description
+ *============== ============ =============== ==============================
+ *CR-932701      2015/02/13   ke.ma           [Android5.0][Email][GD] Achieve 'Account setup' according to GD_v5.1.5.4
+ ===========================================================================
+ */
+-->
+<!-- TS: ke.ma 2015-02-13 EMAIL CR932701 MOD_S -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="bottom">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.0"
+        android:orientation="vertical">
+        <!-- Account Setup Layout - standard -->
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/account_setup_content"
+            android:fillViewport="true" >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+            <!-- Headline -->
+            <!-- Set headline for first fragment, change in code as we progress through screens -->
+            <TextView
+                android:id="@+id/headline"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/account_setup_options_headline"
+                style="@style/account_setup_headline" />
+
+            <!-- Primary Content -->
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/setup_fragment_content"
+                style="@style/account_setup_fragment_container"
+            />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <!-- Buttons below that -->
+    <include layout="@layout/account_setup_button"/>
+</LinearLayout>
+<!-- TS: ke.ma 2015-02-13 EMAIL CR932701 MOD_E -->

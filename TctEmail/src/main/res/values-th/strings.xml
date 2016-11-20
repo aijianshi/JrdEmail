@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!-- no translation found for app_name -->
+	<skip />
+	<!-- no translation found for photo_view_count -->
+	<skip />
+	<!---->
+	<string name="retry">"ลองอีกครั้ง"</string>
+	<!---->
+	<string name="failed">"ไม่สามารถโหลดภาพ"</string>
+	<!-- no translation found for more_string -->
+	<skip />
+	<!---->
+	<string name="copy_email">"คัดลอกที่อยู่อีเมล"</string>
+	<!---->
+	<string name="copy_number">"คัดลอกหมายเลขโทรศัพท์"</string>
+	<!---->
+	<string name="action_label">"กลับ"</string>
+	<!---->
+	<string name="search_hint">"ค้นหาอีเมล"</string>
+	<!---->
+	<string name="compose">"เขียน"</string>
+	<!---->
+	<string name="activity_folder_selection">"เลือกโฟลเดอร์"</string>
+	<!---->
+	<string name="activity_preferences">"การตั้งค่า"</string>
+	<!---->
+	<string name="tap_to_configure">"แตะเพื่อตั้งค่า"</string>
+	<!---->
+	<string name="loading_conversations">"กำลังโหลด\u2026"</string>
+	<!---->
+	<string name="non_synced_folder_description">"หากต้องการดูการสนทนา โปรดซิงค์โฟลเดอร์นี้"</string>
+	<!---->
+	<string name="tap_to_configure_folder_sync">"ซิงค์โฟลเดอร์"</string>
+	<!-- no translation found for def_email_accountGermanSignature -->
+	<skip />
+	<!---->
+	<string name="send_failed">"ข้อความไม่ได้ถูกส่ง"</string>
+	<!-- no translation found for permission_needed -->
+	<skip />
+	<!---->
+	<string name="permission_needed_label">"ต้องได้รับอนุญาต"</string>
+	<!---->
+	<string name="permission_grant_access_label">"อนุญาตการเข้าถึง"</string>
+	<!---->
+	<string name="permission_grant_access_descs">"เปลี่ยนการอนุญาตในการตั้งค่าแอปของอุปกรณ์ของคุณ อนุญาตให้อีเมลเข้าถึงรายชื่อติดต่อ"</string>
+	<!---->
+	<string name="permission_grant_exit">"ออก"</string>
+	<!---->
+	<string name="permission_grant_go_setting">"การตั้งค่า"</string>
+	<!---->
+	<string name="permission_needed_to_save_attachment">"หากต้องการบันทึกไฟล์แนบ ให้อนุญาตสิทธิ์อีเมลเข้าถึงพื้นที่จัดเก็บ"</string>
+	<!---->
+	<string name="permission_needed_to_add_attachment">"หากต้องการเพิ่มไฟล์แนบ ให้อนุญาตสิทธิ์อีเมลเข้าถึงพื้นที่จัดเก็บ"</string>
+	<!---->
+	<string name="permission_needed_to_see_calendar">"หากต้องการดูในปฏิทิน ให้อนุญาตสิทธิ์อีเมลเข้าถึงปฏิทิน"</string>
+</resources>

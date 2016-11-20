@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+     Copyright (C) 2012 Google Inc.
+     Licensed to The Android Open Source Project.
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+<!-- 
+ ==========================================================================
+ *HISTORY
+ *
+ *Tag              Date          Author          Description
+ *============== ============ =============== ==============================
+ *CONFLICT-50001 2014/10/08   zhaotianyong      Modify the resource conflict
+ ============================================================================ 
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!--TS: ADD by zhaotianyong for CONFLICT_50001 START -->
+    <string name="photo_view_count" msgid="3466690572899800275">"<xliff:g id="COUNT">%d</xliff:g>లో <xliff:g id="CURRENT_POS">%d</xliff:g>"</string>
+    <string name="retry" msgid="3319517143224679074">"మళ్లీ ప్రయత్నించండి"</string>
+    <string name="failed" msgid="1458877219699376279">"చిత్రాన్ని లోడ్ చేయడం కుదరలేదు"</string>
+    <!--TS: ADD by zhaotianyong for CONFLICT_50001 END -->
+    
+    <string name="compose" msgid="2602861958391035523">"కంపోజ్ చేయండి"</string>
+    <string name="loading_conversations" msgid="7255732786298655246">"లోడ్ చేస్తోంది…"</string>
+    <string name="tap_to_configure" msgid="137172348280050643">"సెటప్ చేయడానికి తాకండి"</string>
+    <string name="non_synced_folder_description" msgid="3044618511909304701">"సంభాషణలను వీక్షించడానికి, ఈ ఫోల్డర్‌ను సమకాలీకరించండి."</string>
+    <string name="tap_to_configure_folder_sync" msgid="3280434399275638071">"ఫోల్డర్‌ను సమకాలీకరించు"</string>
+    <string name="activity_folder_selection" msgid="8375243281001234750">"ఫోల్డర్‌ను ఎంచుకోండి"</string>
+    <string name="activity_preferences" msgid="8966077432517613292">"సెట్టింగ్‌లు"</string>
+    <string name="send_failed" msgid="2186285547449865010">"సందేశం పంపబడలేదు."</string>
+</resources>

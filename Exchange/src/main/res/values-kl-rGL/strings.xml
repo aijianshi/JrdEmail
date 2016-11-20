@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!-- no translation found for exchange_name -->
+	<skip />
+	<!---->
+	<string name="exchange_name_alternate">"Microsoftimi Paarlaasseqatigiinnissamut AtaavartumikAtaqatigiilersitsineq"</string>
+	<!---->
+	<string name="meeting_accepted">"Akuerivaa: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_declined">"Itigartippaa: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_tentative">"Misiliutaasumik: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_canceled">"Taamaatippaa: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_updated">"Nutarerpaa: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_when">"Imaannerani: <xliff:g id="when">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_where">"Sumi: <xliff:g id="where">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_recurring">"Imaannerani: <xliff:g example="Tue, Mar 10, 2010 at 2:30 pm" id="eventdate">%s</xliff:g> (uteqqiasumik)"</string>
+	<!---->
+	<string name="meeting_allday">"Imaannerani: <xliff:g example="Tue, Mar 10, 2010 " id="eventdate">%s</xliff:g> (ulloq tamaat, uteqqiasumik)"</string>
+	<!---->
+	<string name="meeting_allday_recurring">"Imaannerani: <xliff:g example="Tue, Mar 10, 2010 " id="eventdate">%s</xliff:g> (ulloq tamaat, uteqqiasumik)"</string>
+	<!---->
+	<string name="notification_exchange_calendar_added">"Paarlaasseqatigiinnissamut ullorsiutit ilanngunneqarput"</string>
+	<!---->
+	<string name="app_name">"Paarlaasseqatigiinnissamut sullissiviit"</string>
+	<!---->
+	<string name="exception_cancel">"Pisussaq una taamaatinneqarpoq uani: <xliff:g id="date">%s</xliff:g>"</string>
+	<!---->
+	<string name="exception_updated">"Pisussap uuma paasissutissartai allanngortinneqarput uani: <xliff:g id="date">%s</xliff:g>"</string>
+	<!-- no translation found for policy_dont_allow_storage_cards -->
+	<skip />
+	<!-- no translation found for policy_dont_allow_unsigned_apps -->
+	<skip />
+	<!-- no translation found for policy_dont_allow_unsigned_installers -->
+	<skip />
+	<!---->
+	<string name="policy_dont_allow_wifi">"Wi-Fi akuerissanngilat"</string>
+	<!-- no translation found for policy_dont_allow_text_messaging -->
+	<skip />
+	<!-- no translation found for policy_dont_allow_pop_imap -->
+	<skip />
+	<!-- no translation found for policy_dont_allow_irda -->
+	<skip />
+	<!-- no translation found for policy_dont_allow_html -->
+	<skip />
+	<!-- no translation found for policy_dont_allow_browser -->
+	<skip />
+	<!-- no translation found for policy_dont_allow_consumer_email -->
+	<skip />
+	<!-- no translation found for policy_dont_allow_internet_sharing -->
+	<skip />
+	<!---->
+	<string name="policy_require_smime">"SMIME-inik nalunaarutinik piumasaqaateqarpoq"</string>
+	<!---->
+	<string name="policy_bluetooth_restricted">"Bluetooth-imik atuineq killileruk"</string>
+	<!---->
+	<string name="policy_app_blacklist">"App-it naleqqussakkat akuerissanngilatit"</string>
+	<!---->
+	<string name="policy_app_whitelist">"App-it naleqqussakkat kisiisa akuerikkit"</string>
+	<!---->
+	<string name="policy_text_truncation">"E-mail-imi naqinnerit angissusaat killileruk"</string>
+	<!---->
+	<string name="policy_html_truncation">"HTML e-mail-ip angissusaa killileruk"</string>
+	<!---->
+	<string name="policy_require_sd_encryption">"SD kort-ip isumannaallisarnissaa piumasaqaatigiuk"</string>
+	<!-- no translation found for policy_dont_allow_attachments -->
+	<skip />
+	<!---->
+	<string name="policy_max_attachment_size">"Ilanngussassiap angissusaa killileruk"</string>
+	<!---->
+	<string name="policy_require_manual_sync_roaming">"Nammineerluni aqutamik ataqatigiilersitsineq taamaallaat roaming-ernermi akueriuk"</string>
+	<!---->
+	<string name="policy_require_encryption">"Pigisap isumannaallisarneqarnissaa piumasaqaatigiuk"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_auto">"Nammineerluni"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1day">"Ulloq ataaseq"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_3days">"Ullut pingasut"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1week">"Sapaatip akunnera ataaseq"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_2weeks">"Sapaatip akunneri marluk"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1month">"Qaammat"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_all">"Tamarmik"</string>
+	<!-- no translation found for auth_error_notification_title -->
+	<skip />
+	<!-- no translation found for auth_error_notification_text -->
+	<skip />
+	<!-- no translation found for email_settings_not_available -->
+	<skip />
+</resources>

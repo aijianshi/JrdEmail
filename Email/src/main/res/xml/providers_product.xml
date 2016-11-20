@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!--
+        Email providers that are considered "universal" and are appropriate for *all* android 
+        platform devices should be defined in providers.xml.
+        
+        Entries that are device, product or carrier-specific should be added as overlays 
+        in the appropriate providers_product.xml file.
+
+        Because overlays must correspond to an existing platform resource, this empty placeholder
+        is included in the platform build.
+     -->
+<!--
+ ================================================================================
+|                                                                 Date:09/2013 |
+|                                 PRESENTATION                                 |
+|                                                                              |
+|        Copyright 2013 TCL Communication Technology Holdings Limited.         |
+|                                                                              |
+| This material is company confidential, cannot be reproduced in any form      |
+| without the written permission of TCL Communication Technology Holdings      |
+| Limited.                                                                     |
+|                                                                              |
+| **************************************************************************** |
+|  Author :  chen caixia                                                       |
+|  Email  :  caixia.chen@tcl-mobile.com                                        |
+|  Role   :                                                                    |
+|  Reference documents :                                                       |
+| **************************************************************************** |
+|  Comments :                                                                  |
+|  File     : Email/res/xml/providers_product.xml                              |
+|  Labels   :                                                                  |
+| **************************************************************************** |
+| ============================================================================ |
+|      Modifications on Features list / Changes Request / Problems Report      |
+| **************************************************************************** |
+|    date   |        author        |         Key          |      comment       |
+| **********|**********************|**********************|******************* |
+| 11/21/2014|       li.yu          |        835333        |[SDM][Email]The     |
+|           |                      |                      |SDM ID for email    |
+|           |                      |                      |account12-20 is     |
+|           |                      |                      |invalid.            |
+| **********|**********************|**********************|******************* |
+================================================================================
+-->
+<providers_product>
+
+    <!-- THIS SECTION MUST REMAIN EMPTY -->
+    <!--[FEATURE]-Add-BEGIN by TSNJ,wei.huang,10/22/2014 -->
+    <provider id="@string/def_email_account1Id" label="@string/def_email_account1LabelValue" domain="@string/def_email_account1DomainValue" relogin_in="@string/def_email_account1ReloginValue">
+        <incoming uri="@string/def_email_account1IncomingServerValue" username="@string/def_email_account1UsernameValue"/>
+        <outgoing uri="@string/def_email_account1OutgoingServerValue" username="@string/def_email_account1UsernameValue"/>
+    </provider>
+
+    <provider id="@string/def_email_account2Id" label="@string/def_email_account2LabelValue" domain="@string/def_email_account2DomainValue" relogin_in="@string/def_email_account2ReloginValue">
+        <incoming uri="@string/def_email_account2IncomingServerValue" username="@string/def_email_account2UsernameValue"/>
+        <outgoing uri="@string/def_email_account2OutgoingServerValue" username="@string/def_email_account2UsernameValue"/>
+    </provider>
+
+    <provider id="@string/def_email_account3Id" label="@string/def_email_account3LabelValue" domain="@string/def_email_account3DomainValue" relogin_in="@string/def_email_account3ReloginValue">
+        <incoming uri="@string/def_email_account3IncomingServerValue" username="@string/def_email_account3UsernameValue"/>
+        <outgoing uri="@string/def_email_account3OutgoingServerValue" username="@string/def_email_account3UsernameValue"/>
+    </provider>
+
+    <provider id="@string/def_email_account4Id" label="@string/def_email_account4LabelValue" domain="@string/def_email_account4DomainValue" relogin_in="@string/def_email_account4ReloginValue">
+        <incoming uri="@string/def_email_account4IncomingServerValue" username="@string/def_email_account4UsernameValue"/>
+        <outgoing uri="@string/def_email_account4OutgoingServerValue" username="@string/def_email_account4UsernameValue"/>
+    </provider>
+
+    <provider id="@string/def_email_account5Id" label="@string/def_email_account5LabelValue" domain="@string/def_email_account5DomainValue" relogin_in="@string/def_email_account5ReloginValue">
+        <incoming uri="@string/def_email_account5IncomingServerValue" username="@string/def_email_account5UsernameValue"/>
+        <outgoing uri="@string/def_email_account5OutgoingServerValue" username="@string/def_email_account5UsernameValue"/>
+    </provider>
+
+    <provider id="@string/def_email_account6Id" label="@string/def_email_account6LabelValue" domain="@string/def_email_account6DomainValue" relogin_in="@string/def_email_account6ReloginValue">
+        <incoming uri="@string/def_email_account6IncomingServerValue" username="@string/def_email_account6UsernameValue"/>
+        <outgoing uri="@string/def_email_account6OutgoingServerValue" username="@string/def_email_account6UsernameValue"/>
+    </provider>
+
+    <provider id="@string/def_email_account7Id" label="@string/def_email_account7LabelValue" domain="@string/def_email_account7DomainValue" relogin_in="@string/def_email_account7ReloginValue">
+        <incoming uri="@string/def_email_account7IncomingServerValue" username="@string/def_email_account7UsernameValue"/>
+        <outgoing uri="@string/def_email_account7OutgoingServerValue" username="@string/def_email_account7UsernameValue"/>
+    </provider>
+
+    <provider id="@string/def_email_account8Id" label="@string/def_email_account8LabelValue" domain="@string/def_email_account8DomainValue" relogin_in="@string/def_email_account8ReloginValue">
+        <incoming uri="@string/def_email_account8IncomingServerValue" username="@string/def_email_account8UsernameValue"/>
+        <outgoing uri="@string/def_email_account8OutgoingServerValue" username="@string/def_email_account8UsernameValue"/>
+    </provider>
+
+    <provider id="@string/def_email_account9Id" label="@string/def_email_account9LabelValue" domain="@string/def_email_account9DomainValue" relogin_in="@string/def_email_account9ReloginValue">
+        <incoming uri="@string/def_email_account9IncomingServerValue" username="@string/def_email_account9UsernameValue"/>
+        <outgoing uri="@string/def_email_account9OutgoingServerValue" username="@string/def_email_account9UsernameValue"/>
+    </provider>
+
+    <provider id="@string/def_email_account10Id" label="@string/def_email_account10LabelValue" domain="@string/def_email_account10DomainValue" relogin_in="@string/def_email_account10ReloginValue">
+        <incoming uri="@string/def_email_account10IncomingServerValue" username="@string/def_email_account10UsernameValue"/>
+        <outgoing uri="@string/def_email_account10OutgoingServerValue" username="@string/def_email_account10UsernameValue"/>
+    </provider>
+
+    <provider id="@string/def_email_account11Id" label="@string/def_email_account11LabelValue" domain="@string/def_email_account11DomainValue" relogin_in="@string/def_email_account11ReloginValue">
+        <incoming uri="@string/def_email_account11IncomingServerValue" username="@string/def_email_account11UsernameValue"/>
+        <outgoing uri="@string/def_email_account11OutgoingServerValue" username="@string/def_email_account11UsernameValue"/>
+    </provider>
+
+    <provider id="@string/def_email_account12Id" label="@string/def_email_account12LabelValue" domain="@string/def_email_account12DomainValue" relogin_in="@string/def_email_account12ReloginValue">
+        <incoming uri="@string/def_email_account12IncomingServerValue" username="@string/def_email_account12UsernameValue"/>
+        <outgoing uri="@string/def_email_account12OutgoingServerValue" username="@string/def_email_account12UsernameValue"/>
+    </provider>
+
+    <provider id="@string/def_email_account13Id" label="@string/def_email_account13LabelValue" domain="@string/def_email_account13DomainValue" relogin_in="@string/def_email_account13ReloginValue">
+        <incoming uri="@string/def_email_account13IncomingServerValue" username="@string/def_email_account13UsernameValue"/>
+        <outgoing uri="@string/def_email_account13OutgoingServerValue" username="@string/def_email_account13UsernameValue"/>
+    </provider>
+
+    <provider id="@string/def_email_account14Id" label="@string/def_email_account14LabelValue" domain="@string/def_email_account14DomainValue" relogin_in="@string/def_email_account14ReloginValue">
+        <incoming uri="@string/def_email_account14IncomingServerValue" username="@string/def_email_account14UsernameValue"/>
+        <outgoing uri="@string/def_email_account14OutgoingServerValue" username="@string/def_email_account14UsernameValue"/>
+    </provider>
+
+    <provider id="@string/def_email_account15Id" label="@string/def_email_account15LabelValue" domain="@string/def_email_account15DomainValue" relogin_in="@string/def_email_account15ReloginValue">
+        <incoming uri="@string/def_email_account15IncomingServerValue" username="@string/def_email_account15UsernameValue"/>
+        <outgoing uri="@string/def_email_account15OutgoingServerValue" username="@string/def_email_account15UsernameValue"/>
+    </provider>
+
+    <provider id="@string/def_email_account16Id" label="@string/def_email_account16LabelValue" domain="@string/def_email_account16DomainValue" relogin_in="@string/def_email_account16ReloginValue">
+        <incoming uri="@string/def_email_account16IncomingServerValue" username="@string/def_email_account16UsernameValue"/>
+        <outgoing uri="@string/def_email_account16OutgoingServerValue" username="@string/def_email_account16UsernameValue"/>
+    </provider>
+
+    <provider id="@string/def_email_account17Id" label="@string/def_email_account17LabelValue" domain="@string/def_email_account17DomainValue" relogin_in="@string/def_email_account17ReloginValue">
+        <incoming uri="@string/def_email_account17IncomingServerValue" username="@string/def_email_account17UsernameValue"/>
+        <outgoing uri="@string/def_email_account17OutgoingServerValue" username="@string/def_email_account17UsernameValue"/>
+    </provider>
+
+    <provider id="@string/def_email_account18Id" label="@string/def_email_account18LabelValue" domain="@string/def_email_account18DomainValue" relogin_in="@string/def_email_account18ReloginValue">
+        <incoming uri="@string/def_email_account18IncomingServerValue" username="@string/def_email_account18UsernameValue"/>
+        <outgoing uri="@string/def_email_account18OutgoingServerValue" username="@string/def_email_account18UsernameValue"/>
+    </provider>
+
+    <provider id="@string/def_email_account19Id" label="@string/def_email_account19LabelValue" domain="@string/def_email_account19DomainValue" relogin_in="@string/def_email_account19ReloginValue">
+        <incoming uri="@string/def_email_account19IncomingServerValue" username="@string/def_email_account19UsernameValue"/>
+        <outgoing uri="@string/def_email_account19OutgoingServerValue" username="@string/def_email_account19UsernameValue"/>
+    </provider>
+
+    <provider id="@string/def_email_account20Id" label="@string/def_email_account20LabelValue" domain="@string/def_email_account20DomainValue" relogin_in="@string/def_email_account20ReloginValue">
+        <incoming uri="@string/def_email_account20IncomingServerValue" username="@string/def_email_account20UsernameValue"/>
+        <outgoing uri="@string/def_email_account20OutgoingServerValue" username="@string/def_email_account20UsernameValue"/>
+    </provider>
+
+    <provider id="@string/def_email_account21Id" label="@string/def_email_account21LabelValue" domain="@string/def_email_account21DomainValue" relogin_in="@string/def_email_account21ReloginValue">
+        <incoming uri="@string/def_email_account21IncomingServerValue" username="@string/def_email_account21UsernameValue"/>
+        <outgoing uri="@string/def_email_account21OutgoingServerValue" username="@string/def_email_account21UsernameValue"/>
+    </provider>
+
+    <provider id="@string/def_email_account22Id" label="@string/def_email_account22LabelValue" domain="@string/def_email_account22DomainValue" relogin_in="@string/def_email_account22ReloginValue">
+        <incoming uri="@string/def_email_account22IncomingServerValue" username="@string/def_email_account22UsernameValue"/>
+        <outgoing uri="@string/def_email_account22OutgoingServerValue" username="@string/def_email_account22UsernameValue"/>
+    </provider>
+
+    <provider id="@string/def_email_account23Id" label="@string/def_email_account23LabelValue" domain="@string/def_email_account23DomainValue" relogin_in="@string/def_email_account23ReloginValue">
+        <incoming uri="@string/def_email_account23IncomingServerValue" username="@string/def_email_account23UsernameValue"/>
+        <outgoing uri="@string/def_email_account23OutgoingServerValue" username="@string/def_email_account23UsernameValue"/>
+    </provider>
+
+    <provider id="@string/def_email_account24Id" label="@string/def_email_account24LabelValue" domain="@string/def_email_account24DomainValue" relogin_in="@string/def_email_account24ReloginValue">
+        <incoming uri="@string/def_email_account24IncomingServerValue" username="@string/def_email_account24UsernameValue"/>
+        <outgoing uri="@string/def_email_account24OutgoingServerValue" username="@string/def_email_account24UsernameValue"/>
+    </provider>
+
+    <provider id="@string/def_email_account25Id" label="@string/def_email_account25LabelValue" domain="@string/def_email_account25DomainValue" relogin_in="@string/def_email_account25ReloginValue">
+        <incoming uri="@string/def_email_account25IncomingServerValue" username="@string/def_email_account25UsernameValue"/>
+        <outgoing uri="@string/def_email_account25OutgoingServerValue" username="@string/def_email_account25UsernameValue"/>
+    </provider>
+<!--
+    <provider id="@string/def_email_account26Id" label="@string/def_email_account26LabelValue" domain="@string/def_email_account26DomainValue" relogin_in="@string/def_email_account26ReloginValue">
+        <incoming uri="@string/def_email_account26IncomingServerValue" username="@string/def_email_account26UsernameValue"/>
+        <outgoing uri="@string/def_email_account26OutgoingServerValue" username="@string/def_email_account26UsernameValue"/>
+    </provider>
+
+    <provider id="@string/def_email_account27Id" label="@string/def_email_account27LabelValue" domain="@string/def_email_account27DomainValue" relogin_in="@string/def_email_account27ReloginValue">
+        <incoming uri="@string/def_email_account27IncomingServerValue" username="@string/def_email_account27UsernameValue"/>
+        <outgoing uri="@string/def_email_account27OutgoingServerValue" username="@string/def_email_account27UsernameValue"/>
+    </provider>
+
+    <provider id="@string/def_email_account28Id" label="@string/def_email_account28LabelValue" domain="@string/def_email_account28DomainValue" relogin_in="@string/def_email_account28ReloginValue">
+        <incoming uri="@string/def_email_account28IncomingServerValue" username="@string/def_email_account28UsernameValue"/>
+        <outgoing uri="@string/def_email_account28OutgoingServerValue" username="@string/def_email_account28UsernameValue"/>
+    </provider>
+
+    <provider id="@string/def_email_account29Id" label="@string/def_email_account29LabelValue" domain="@string/def_email_account29DomainValue" relogin_in="@string/def_email_account29ReloginValue">
+        <incoming uri="@string/def_email_account29IncomingServerValue" username="@string/def_email_account29UsernameValue"/>
+        <outgoing uri="@string/def_email_account29OutgoingServerValue" username="@string/def_email_account29UsernameValue"/>
+    </provider>
+
+    <provider id="@string/def_email_account30Id" label="@string/def_email_account30LabelValue" domain="@string/def_email_account30DomainValue" relogin_in="@string/def_email_account30ReloginValue">
+        <incoming uri="@string/def_email_account30IncomingServerValue" username="@string/def_email_account30UsernameValue"/>
+        <outgoing uri="@string/def_email_account30OutgoingServerValue" username="@string/def_email_account30UsernameValue"/>
+    </provider>
+    -->
+    <!--[FEATURE]-Add-END by TSNJ,wei.huang-->
+</providers_product>

@@ -1,0 +1,1748 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Tue Sep 20 16:24:06 CST 2016
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="permission_read_attachment_label">"קרא קבצים מצורפים לדוא\"ל"</string>
+	<!---->
+	<string name="permission_read_attachment_desc">"מאפשר ליישום לקרוא את הקבצים המצורפים לדוא\"ל."</string>
+	<!---->
+	<string name="permission_access_provider_label">"גש לנתוני ספק הדוא\"ל"</string>
+	<!---->
+	<string name="permission_access_provider_desc">"מאפשר לאפליקציה לגשת למסד הנתונים של הדוא"ל שלך, כולל להודעות שהתקבלו, להודעות שנשלחו, לשמות משתמש ולסיסמאות."</string>
+	<!---->
+	<string name="debug_title">"ניקוי באגים"</string>
+	<!---->
+	<string name="next_action">"הבא"</string>
+	<!---->
+	<string name="okay_action">"אישור"</string>
+	<!---->
+	<string name="cancel_action">"ביטול"</string>
+	<!---->
+	<string name="previous_action">"הקודם"</string>
+	<!---->
+	<string name="done_action">"בוצע"</string>
+	<!---->
+	<string name="create_action">"צור חדש"</string>
+	<!---->
+	<string name="quick_responses_empty_view">"אין תגובות מהירות."</string>
+	<!---->
+	<string name="account_settings_action">"הגדרות חשבון"</string>
+	<!---->
+	<string name="status_network_error">"בעיית חיבור."</string>
+	<plurals name="move_messages">
+		<item quantity="one">"העבר הודעה"</item>
+		<item quantity="other">"העבר הודעות"</item>
+	</plurals>
+	<!---->
+	<string name="cannot_move_protocol_not_supported_toast">"העברה אינה נתמכת בחשבונות POP3."</string>
+	<!---->
+	<string name="cannot_move_multiple_accounts_toast">"לא ניתן לבצע העברה מכיוון שהבחירה כוללת מספר חשבונות."</string>
+	<!---->
+	<string name="cannot_move_special_mailboxes_toast">"לא ניתן להעביר הודעות הנמצאות בתיקיות טיוטות, דואר יוצא ונשלחו."</string>
+	<!---->
+	<string name="mailbox_name_display_inbox">"דואר נכנס"</string>
+	<!---->
+	<string name="mailbox_name_display_outbox">"תיבת דואר יוצא"</string>
+	<!---->
+	<string name="mailbox_name_display_drafts">"טיוטות"</string>
+	<!---->
+	<string name="mailbox_name_display_trash">"פח אשפה"</string>
+	<!---->
+	<string name="mailbox_name_display_sent">"נשלח"</string>
+	<!---->
+	<string name="mailbox_name_display_junk">"דואר זבל"</string>
+	<!---->
+	<string name="mailbox_name_display_starred">"מסומן בכוכב"</string>
+	<!---->
+	<string name="mailbox_name_display_unread">"לא נקראו"</string>
+	<!---->
+	<string name="account_folder_list_summary_inbox">"דואר נכנס"</string>
+	<!---->
+	<string name="account_folder_list_summary_starred">"מסומן בכוכב"</string>
+	<!---->
+	<string name="account_folder_list_summary_drafts">"טיוטות"</string>
+	<!---->
+	<string name="account_folder_list_summary_outbox">"תיבת דואר יוצא"</string>
+	<!---->
+	<string name="mailbox_list_account_selector_combined_view">"תצוגה משולבת"</string>
+	<!---->
+	<string name="message_compose_fwd_header_fmt">"\n\n"-------- הודעה מקורית --------"\n"נושא: <xliff:g id="SUBJECT">%1$s</xliff:g>"\n"מאת: <xliff:g id="SENDER">%2$s</xliff:g>"\n"אל: <xliff:g id="TO">%3$s</xliff:g>"\n"עותק: <xliff:g id="CC_0">%4$s</xliff:g>"\n\n"</string>
+	<!---->
+	<string name="message_compose_insert_quick_response_list_title">"הוסף תגובה מהירה"</string>
+	<!---->
+	<string name="message_compose_insert_quick_response_menu_title">"הוסף תגובה מהירה"</string>
+	<!---->
+	<string name="message_view_attachment_background_load">"המערכת תוריד קובץ מצורף אחד או יותר בהודעה שהעברת לפני השליחה."</string>
+	<!---->
+	<string name="attachment_not_found">"לא ניתן להוריד את הקובץ המצורף."</string>
+	<!---->
+	<string name="message_decode_error">"אירעה שגיאה בעת פענוח ההודעה."</string>
+	<!---->
+	<string name="forward_download_failed_ticker">"לא ניתן להעביר קובץ מצורף אחד או יותר."</string>
+	<!---->
+	<string name="forward_download_failed_title">"הקובץ המצורף לא הועבר"</string>
+	<!---->
+	<string name="login_failed_ticker">"התחברות <xliff:g id="account_name">%s</xliff:g> נכשלה."</string>
+	<!---->
+	<string name="login_failed_title">"לא ניתן היה להיכנס"</string>
+	<plurals name="message_view_attachment_bytes">
+		<item quantity="one">"‎<xliff:g id="SIZE_IN_BYTES">%d</xliff:g>B"</item>
+		<item quantity="other">"‎<xliff:g id="SIZE_IN_BYTES">%d</xliff:g>B"</item>
+	</plurals>
+	<plurals name="message_view_attachment_kilobytes">
+		<item quantity="one">"‎<xliff:g id="SIZE_IN_KILOBYTES">%d</xliff:g>KB"</item>
+		<item quantity="other">"‎<xliff:g id="SIZE_IN_KILOBYTES">%d</xliff:g>KB"</item>
+	</plurals>
+	<plurals name="message_view_attachment_megabytes">
+		<item quantity="one">"‎<xliff:g id="SIZE_IN_MEGABYTES">%d</xliff:g>MB"</item>
+		<item quantity="other">"‎<xliff:g id="SIZE_IN_MEGABYTES">%d</xliff:g>MB"</item>
+	</plurals>
+	<plurals name="message_view_attachment_gigabytes">
+		<item quantity="one">"‎<xliff:g id="SIZE_IN_GIGABYTES">%d</xliff:g>GB"</item>
+		<item quantity="other">"‎<xliff:g id="SIZE_IN_GIGABYTES">%d</xliff:g>GB"</item>
+	</plurals>
+	<!---->
+	<string name="account_setup_basics_title">"הגדרת חשבון"</string>
+	<!---->
+	<string name="oauth_authentication_title">"מבקש הרשאה"</string>
+	<!---->
+	<string name="sign_in_title">"כניסה"</string>
+	<!---->
+	<string name="oauth_error_description">"לא ניתן לאמת"</string>
+	<!---->
+	<string name="password_warning_label">"כתובת דוא"ל או סיסמה שגויות"</string>
+	<!---->
+	<string name="email_confirmation_label">"כתובת דוא\"ל"</string>
+	<!---->
+	<string name="account_setup_basics_headline">"חשבון דוא\"ל"</string>
+	<!---->
+	<string name="accounts_welcome">"תוכל להגדיר את חשבונך במספר פעולות פשוטות."</string>
+	<!---->
+	<string name="account_setup_basics_email_label">"כתובת דוא\"ל"</string>
+	<!---->
+	<string name="account_setup_basics_email_flying_label">"דוא\"ל"</string>
+	<!---->
+	<string name="or_label">"או"</string>
+	<!---->
+	<string name="sign_in_with_google">"התחבר באמצעות Google"</string>
+	<!---->
+	<string name="account_setup_basics_password_label">"סיסמה"</string>
+	<!---->
+	<string name="password_hint">"סיסמה"</string>
+	<!---->
+	<string name="signed_in_with_service_label">"התחברת באמצעות %s"</string>
+	<!---->
+	<string name="authentication_label">"אימות"</string>
+	<!---->
+	<string name="add_authentication_label">"הוסף אימות"</string>
+	<!---->
+	<string name="clear_authentication_label">"נקה אימות"</string>
+	<!---->
+	<string name="account_setup_basics_manual_setup_action">"הגדרה ידנית"</string>
+	<!---->
+	<string name="account_setup_username_password_toast">"הקלד כתובת דוא\"ל וסיסמה חוקיות."</string>
+	<!---->
+	<string name="account_duplicate_dlg_title">"שכפל חשבון"</string>
+	<!---->
+	<string name="account_duplicate_dlg_message_fmt">"התחברות זו כבר נמצאת בשימוש בחשבון \"<xliff:g id="DUPLICATE">%s</xliff:g>\"."</string>
+	<!---->
+	<string name="account_password_spaces_error">"סיסמה זו מתחילה או מסתיימת בתו רווח אחד או יותר. שרתים רבים אינם תומכים בסיסמאות המכילות רווחים."</string>
+	<!---->
+	<string name="account_setup_check_settings_retr_info_msg">"מאחזר פרטי חשבון..."</string>
+	<!---->
+	<string name="account_setup_check_settings_check_incoming_msg">"מאמת הגדרות שרת"</string>
+	<!---->
+	<string name="account_setup_check_settings_check_outgoing_msg">"מאמת הגדרות SMTP"</string>
+	<!---->
+	<string name="account_setup_creating_account_msg">"יוצר חשבון..."</string>
+	<!---->
+	<string name="account_setup_ab_headline">"אשר סוג חשבון"</string>
+	<!---->
+	<string name="account_setup_ab_instructions_format">"ציינת <xliff:g id="email">%1$s</xliff:g> שימושים <xliff:g id="userProtocol">%2$s</xliff:g>, אבל החשבון עשוי להשתמש ב: <xliff:g id="providerProtocol">%3$s</xliff:g>"</string>
+	<!---->
+	<string name="account_setup_names_title">"הגדרת חשבון"</string>
+	<!---->
+	<string name="account_setup_names_headline">"החשבון שלך הוגדר והודעות הדוא"ל בדרך אליך!"</string>
+	<!---->
+	<string name="account_setup_names_account_name_label">"תן שם לחשבון זה (אופציונלי)"</string>
+	<!---->
+	<string name="account_setup_names_user_name_label">"שמך"</string>
+	<!---->
+	<string name="account_setup_names_user_name_empty_error">"שדה זה לא יכול להיות ריק."</string>
+	<!---->
+	<string name="account_setup_account_type_title">"הגדרת חשבון"</string>
+	<!---->
+	<string name="account_setup_account_type_headline">"סוג חשבון"</string>
+	<!---->
+	<string name="account_setup_account_type_instructions">"איזה סוג חשבון זה?"</string>
+	<!---->
+	<string name="account_setup_incoming_title">"הגדרת חשבון"</string>
+	<!---->
+	<string name="account_setup_incoming_headline">"הגדרות שרת דואר נכנס"</string>
+	<!---->
+	<string name="account_setup_incoming_username_label">"שם משתמש"</string>
+	<!---->
+	<string name="account_setup_incoming_password_label">"סיסמה"</string>
+	<!---->
+	<string name="account_setup_password_subheading">"סיסמה"</string>
+	<!---->
+	<string name="account_setup_incoming_server_label">"שרת"</string>
+	<!---->
+	<string name="account_setup_incoming_port_label">"יציאה"</string>
+	<!---->
+	<string name="account_setup_incoming_security_label">"סוג אבטחה"</string>
+	<!---->
+	<string name="account_setup_incoming_domain_label">"תחום"</string>
+	<!---->
+	<string name="account_setup_incoming_add_domain_label">"הוסף תחום"</string>
+	<!---->
+	<string name="account_setup_incoming_security_none_label">"ללא"</string>
+	<!---->
+	<string name="account_setup_incoming_security_ssl_trust_certificates_label">"SSL/TLS (קבל את כל האישורים)"</string>
+	<!---->
+	<string name="account_setup_incoming_security_ssl_label">"SSL/TLS"</string>
+	<!---->
+	<string name="account_setup_incoming_security_tls_trust_certificates_label">"STARTTLS (קבל את כל האישורים)"</string>
+	<!---->
+	<string name="account_setup_incoming_security_tls_label">"STARTTLS"</string>
+	<!---->
+	<string name="account_setup_incoming_delete_policy_label">"מחיקת דוא\"ל מהשרת"</string>
+	<!---->
+	<string name="account_setup_incoming_delete_policy_never_label">"אף פעם"</string>
+	<!---->
+	<string name="account_setup_incoming_delete_policy_delete_label">"בעת מחיקה מדואר נכנס"</string>
+	<!---->
+	<string name="account_setup_incoming_imap_path_prefix_label">"קידומת נתיב IMAP"</string>
+	<!---->
+	<string name="account_setup_incoming_imap_path_prefix_hint">"אופציונלי"</string>
+	<!---->
+	<string name="account_setup_outgoing_title">"הגדרת חשבון"</string>
+	<!---->
+	<string name="account_setup_outgoing_headline">"הגדרות של שרת דואר יוצא"</string>
+	<!---->
+	<string name="account_setup_outgoing_smtp_server_label">"שרת SMTP"</string>
+	<!---->
+	<string name="account_setup_outgoing_port_label">"יציאה"</string>
+	<!---->
+	<string name="account_setup_outgoing_security_label">"סוג אבטחה"</string>
+	<!---->
+	<string name="account_setup_outgoing_require_login_label">"דרושה כניסה"</string>
+	<!---->
+	<string name="account_setup_outgoing_username_label">"שם משתמש"</string>
+	<!---->
+	<string name="account_setup_outgoing_password_label">"סיסמה"</string>
+	<!---->
+	<string name="account_setup_exchange_certificate_title">"אישור לקוח"</string>
+	<!---->
+	<string name="account_setup_exchange_select_certificate">"בחר"</string>
+	<!---->
+	<string name="account_setup_exchange_use_certificate">"השתמש באישור לקוח"</string>
+	<!---->
+	<string name="account_setup_exchange_remove_certificate">"הסר"</string>
+	<!---->
+	<string name="account_setup_exchange_no_certificate">"ללא"</string>
+	<!---->
+	<string name="account_setup_exchange_device_id_label">"מזהה מכשיר נייד"</string>
+	<!---->
+	<string name="account_setup_options_title">"הגדרות חשבון"</string>
+	<!---->
+	<string name="account_setup_options_headline">"אפשרויות חשבון"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_label">"תדירות בדיקה של דואר נכנס"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_never">"אף פעם"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_push">"אוטומטית (דחיפה)"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_5min">"כל 5 דקות"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_10min">"כל 10 דקות"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_15min">"כל 15 דקות"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_30min">"כל 30 דקות"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_1hour">"כל שעה"</string>
+	<!---->
+	<string name="account_setup_options_notify_label">"הודע לי כשמגיע דוא\"ל."</string>
+	<!---->
+	<string name="account_setup_options_sync_contacts_label">"סנכרן אנשי קשר מחשבון זה."</string>
+	<!---->
+	<string name="account_setup_options_sync_calendar_label">"סנכרן את לוח השנה מחשבון זה."</string>
+	<!---->
+	<string name="account_setup_options_sync_email_label">"סנכרן דוא\"ל מחשבון זה."</string>
+	<!---->
+	<string name="account_setup_options_background_attachments_label">"הורד קבצים מצורפים באופן אוטומטי כאשר יש חיבור ל-Wi-Fi"</string>
+	<!---->
+	<string name="account_setup_failed_dlg_title">"לא ניתן לסיים"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_label">"סנכרן הודעות דוא"ל מ:"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_auto">"אוטומטי"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1day">"יום"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_3days">"שלושה ימים"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1week">"שבוע"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_2weeks">"שבועיים"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1month">"בחודש הקודם"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_all">"הכל"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_default">"השתמש בברירת המחדל של החשבון"</string>
+	<!---->
+	<string name="account_setup_failed_dlg_auth_message">"שם המשתמש או הסיסמה שגויים."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_auth_message_fmt">"הכניסה נכשלה.\n(<xliff:g id="error">%s</xliff:g>)"</string>
+	<!---->
+	<string name="account_setup_autodiscover_dlg_authfail_title">"בעיה בהגדרת חשבון"</string>
+	<!---->
+	<string name="account_setup_autodiscover_dlg_authfail_message">"אשר ששם המשתמש, הסיסמה והגדרות החשבון נכונים."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_certificate_message">"לא ניתן להתחבר לשרת באופן בטוח."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_certificate_message_fmt">"לא ניתן להתחבר לשרת באופן בטוח.\n(<xliff:g id="ERROR">%s</xliff:g>)"</string>
+	<!---->
+	<string name="account_setup_failed_certificate_required">"דרוש אישרו לקוח. האם אתה רוצה להתחבר לשרת עם אישור לקוח?"</string>
+	<!---->
+	<string name="account_setup_failed_certificate_inaccessible">"האישור אינו חוקי או שלא ניתן לגשת אליו."</string>
+	<!---->
+	<string name="account_setup_failed_check_credentials_message">"השרת הגיב בשגיאה. בדוק את שם המשתמש והסיסמה שלך, ואז נסה שוב."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_server_message">"לא ניתן להתחבר לשרת."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_server_message_fmt">"לא ניתן להתחבר לשרת.\n(<xliff:g id="ERROR">%s</xliff:g>)"</string>
+	<!---->
+	<string name="account_setup_failed_tls_required">"TLS נדרש אך אין לו תמיכה בשרת."</string>
+	<!---->
+	<string name="account_setup_failed_auth_required">"השרת אינו תומך בשיטות האימות."</string>
+	<!---->
+	<string name="account_setup_failed_security">"לא ניתן לפתוח חיבור לשרת בשל שגיאת אבטחה."</string>
+	<!---->
+	<string name="account_setup_failed_ioerror">"לא ניתן לפתוח חיבור לשרת."</string>
+	<!---->
+	<string name="account_setup_failed_protocol_unsupported">"הקלדת כתובת שרת שגויה, או שהשרת דורש גירסת פרוטוקול שאינה נתמכת על ידי הדוא\"ל."</string>
+	<!---->
+	<string name="account_setup_failed_access_denied">"אין לך אישור לסנכרן באמצעות שרת זה. צור קשר עם מנהל המערכת של השרת לקבלת מידע נוסף."</string>
+	<!---->
+	<string name="account_setup_security_required_title">"ניהול אבטחה מרחוק"</string>
+	<!---->
+	<string name="account_setup_security_policies_required_fmt">"השרת <xliff:g id="SERVER">%s</xliff:g> דורש שתאפשר לו שליטה מרחוק על תכונות אבטחה מסוימות במכשיר Android שלך. האם ברצונך לסיים הגדרת חשבון זה?"</string>
+	<!---->
+	<string name="account_setup_failed_security_policies_unsupported">"שרת זה מחייב תכונות אבטחה שמכשיר ה-Android שלך אינו תומך בהן, כולל: <xliff:g id="ERROR">%s</xliff:g>"</string>
+	<!---->
+	<string name="account_setup_username_uneditable_error">"לא ניתן לשנות את שם המשתמש של חשבון. כדי להוסיף חשבון עם שם משתמש אחר, גע באפשרות \'הוסף חשבון\'."</string>
+	<!---->
+	<string name="disable_admin_warning">"אזהרה: ביטול הרשות שניתנה ליישום דוא"ל לנהל את ההתקן ימחק את כל חשבונות הדוא"ל הדורשים אותו, וכן את הדוא"ל, את אנשי הקשר, את אירועי לוח-השנה ונתונים אחרים שלהם."</string>
+	<!---->
+	<string name="account_security_dialog_title">"עדכון אבטחה"</string>
+	<!---->
+	<string name="account_security_dialog_content_fmt">"<xliff:g id="ACCOUNT">%s</xliff:g> מחייב עדכון של הגדרות האבטחה שלך."</string>
+	<!---->
+	<string name="security_unsupported_ticker_fmt">"לא ניתן לסנכרן את החשבון \"<xliff:g id="account">%s</xliff:g>\" עקב דרישות אבטחה."</string>
+	<!---->
+	<string name="security_needed_ticker_fmt">"החשבון \"<xliff:g id="ACCOUNT">%s</xliff:g>\" דורש עדכון של הגדרות אבטחה."</string>
+	<!---->
+	<string name="security_changed_ticker_fmt">"החשבון \"<xliff:g id="account">%s</xliff:g>\" שינה את הגדרות האבטחה שלו; לא נדרשת פעולת משתמש."</string>
+	<!---->
+	<string name="security_notification_content_update_title">"נדרש עדכון אבטחה"</string>
+	<!---->
+	<string name="security_notification_content_change_title">"מדיניות האבטחה השתנתה"</string>
+	<!---->
+	<string name="security_notification_content_unsupported_title">"לא ניתן לעמוד במדיניות האבטחה"</string>
+	<!---->
+	<string name="account_security_title">"אבטחת המכשיר"</string>
+	<!---->
+	<string name="account_security_policy_explanation_fmt">"השרת <xliff:g id="SERVER">%s</xliff:g> דורש שתאפשר לו שליטה מרחוק על תכונות אבטחה מסוימות במכשיר ה-Android שלך."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_edit_details_action">"ערוך פרטים"</string>
+	<!---->
+	<string name="password_expire_warning_ticker_fmt">"\"<xliff:g id="ACCOUNT">%s</xliff:g>\" מחייב שתשנה את קוד ה-PIN או הסיסמה שלך לנעילת המסך."</string>
+	<!---->
+	<string name="password_expire_warning_content_title">"תוקף הסיסמה של נעילת המסך עומד לפוג"</string>
+	<!---->
+	<string name="password_expired_ticker">"פג תוקף ה-PIN או הסיסמה של נעילת המסך שלך."</string>
+	<!---->
+	<string name="password_expired_content_title">"פג תוקף הסיסמה של נעילת המסך"</string>
+	<!---->
+	<string name="password_expire_warning_dialog_title">"תוקף הסיסמה של נעילת המסך עומד לפוג"</string>
+	<!---->
+	<string name="password_expire_warning_dialog_content_fmt">"עליך לשנות את PIN נעילת המסך או הסיסמה שלך בקרוב, אחרת הנתונים עבור <xliff:g id="account">%s</xliff:g> יימחקו. האם ברצונך לשנות זאת כעת?"</string>
+	<!---->
+	<string name="password_expired_dialog_title">"פג תוקף הסיסמה של נעילת המסך"</string>
+	<!---->
+	<string name="password_expired_dialog_content_fmt">"הנתונים עבור <xliff:g id="account">%s</xliff:g> נמחקים כעת מההתקן שלך. תוכל לשחזר אותם באמצעות שינוי PIN נעילת המסך שלך או הסיסמה. האם ברצונך לשנות זאת כעת?"</string>
+	<!---->
+	<string name="account_settings_exit_server_settings">"למחוק שינויים שלא נשמרו?"</string>
+	<!---->
+	<string name="account_settings_login_dialog_title">"לא ניתן להיכנס"</string>
+	<!---->
+	<string name="account_settings_login_dialog_content_fmt">"שם המשתמש או הסיסמה עבור <xliff:g id="ACCOUNT">%s</xliff:g> שגויים. לעדכן אותם כעת?"</string>
+	<!---->
+	<string name="account_settings_login_dialog_reason_fmt">"ההתחברות שלך ל-<xliff:g id="account">%s</xliff:g> נכשלה; הודעה מהשרת: <xliff:g id="reason">%s</xliff:g> האם ברצונך לעדכן כעת את שם המשתמש ו/או הסיסמה שלך?"</string>
+	<!---->
+	<string name="account_settings_background_attachments_label">"הורד קבצים מצורפים"</string>
+	<!---->
+	<string name="account_settings_background_attachments_summary">"הורד באופן אוטומטי קבצים מצורפים להודעות שהתקבלו לאחרונה באמצעות WiFi"</string>
+	<!---->
+	<string name="account_settings_notify_label">"התראות דוא\"ל"</string>
+	<!---->
+	<string name="account_settings_summary">"תדירות סינכרון, התראות וכדומה"</string>
+	<!---->
+	<string name="account_settings_notify_summary">"שלח הודעה כאשר דוא"ל מגיע"</string>
+	<!---->
+	<string name="account_settings_mail_check_frequency_label">"תדירות בדיקה של דואר נכנס"</string>
+	<!---->
+	<string name="account_settings_incoming_label">"הגדרות דואר נכנס"</string>
+	<!---->
+	<string name="account_settings_incoming_summary">"שם משתמש, סיסמה והגדרות אחרות של שרת דואר נכנס"</string>
+	<!---->
+	<string name="account_settings_outgoing_label">"הגדרות דואר יוצא"</string>
+	<!---->
+	<string name="account_settings_outgoing_summary">"שם משתמש, סיסמה והגדרות אחרות של שרת דואר יוצא"</string>
+	<!---->
+	<string name="account_settings_reply_to_category">"הגדרות מענה"</string>
+	<!---->
+	<string name="account_settings_reply_to_label">"מענה ל"</string>
+	<!---->
+	<string name="account_settings_reply_to_invalid">"הכתובת לא חוקית"</string>
+	<!---->
+	<string name="account_settings_enforced_label">"אכיפת מדיניות"</string>
+	<!---->
+	<string name="account_settings_enforced_summary">"ללא"</string>
+	<!---->
+	<string name="account_settings_unsupported_label">"מדיניות שאינה נתמכת"</string>
+	<!---->
+	<string name="account_settings_unsupported_summary">"ללא"</string>
+	<!---->
+	<string name="account_settings_retry_label">"נסה לסנכרן"</string>
+	<!---->
+	<string name="account_settings_retry_summary">"לחץ כאן לסנכרון חשבון זה"</string>
+	<!---->
+	<string name="account_settings_description_label">"שם חשבון"</string>
+	<!---->
+	<string name="account_settings_name_label">"השם שלך"</string>
+	<!---->
+	<string name="account_settings_edit_quick_responses_label">"תגובות מהירות"</string>
+	<!---->
+	<string name="account_settings_edit_quick_responses_summary">"ערוך טקסט שאתה מוסיף לעתים קרובות בזמן כתיבת הודעות דוא\"ל"</string>
+	<!---->
+	<string name="account_settings_notifications">"הגדרות התראה"</string>
+	<!---->
+	<string name="account_settings_data_usage">"שימוש בנתונים"</string>
+	<!---->
+	<string name="account_settings_policies">"מדיניות אבטחה"</string>
+	<!---->
+	<string name="system_folders_title">"תיקיות מערכת"</string>
+	<!---->
+	<string name="system_folders_trash_title">"תיקיית אשפה"</string>
+	<!---->
+	<string name="system_folders_trash_summary">"בחר את תיקיית האשפה של השרת שלך"</string>
+	<!---->
+	<string name="system_folders_trash_dlg">"בחר את תיקיית האשפה של השרת שלך"</string>
+	<!---->
+	<string name="system_folders_sent_title">"תיקיית פריטים שנשלחו"</string>
+	<!---->
+	<string name="system_folders_sent_summary">"בחר את תיקיית הפריטים שנשלחו של השרת שלך"</string>
+	<!---->
+	<string name="system_folders_sent_dlg">"בחר את תיקיית הפריטים שנשלחו של השרת שלך"</string>
+	<!---->
+	<string name="edit_quick_response_dialog">"תגובה מהירה"</string>
+	<!---->
+	<string name="save_action">"שמור"</string>
+	<!---->
+	<string name="account_settings_sync_contacts_enable">"סנכרן אנשי קשר"</string>
+	<!---->
+	<string name="account_settings_sync_contacts_summary">"סנכרן גם אנשי קשר מחשבון זה"</string>
+	<!---->
+	<string name="account_settings_sync_calendar_enable">"סנכרן לוח שנה"</string>
+	<!---->
+	<string name="account_settings_sync_calendar_summary">"סנכרן אירוע מלוח השנה לחשבון זה"</string>
+	<!---->
+	<string name="account_settings_sync_email_enable">"סנכרן דוא\"ל"</string>
+	<!---->
+	<string name="account_settings_sync_email_summary">"סנכרן דוא\"ל בחשבון זה"</string>
+	<!---->
+	<string name="account_settings_vibrate_when_label">"רטט"</string>
+	<!---->
+	<string name="account_settings_ringtone">"בחר צלצול"</string>
+	<!---->
+	<string name="account_settings_servers">"הגדרות שרת"</string>
+	<!---->
+	<string name="default_ringtone">"צלצול ברירת מחדל"</string>
+	<!---->
+	<string name="default_ringtone_unkonwn">"צלצול לא ידוע"</string>
+	<!---->
+	<string name="mailbox_settings_activity_title">"אפשרויות סינכרון"</string>
+	<!---->
+	<string name="mailbox_settings_activity_title_with_mailbox">"אפשרויות סנכרון ( <xliff:g id="MAILBOXX_NAME">%s</xliff:g> )"</string>
+	<!---->
+	<string name="mailbox_settings_sync_enabled_label">"סנכרן תיקייה זו"</string>
+	<!---->
+	<string name="mailbox_settings_sync_enabled_summary">"ההודעות יורדו לאחר החיבור."</string>
+	<!---->
+	<string name="mailbox_settings_mailbox_sync_window_label">"ימי דואר לסנכרון"</string>
+	<!---->
+	<string name="prefDialogTitle_conversationListIcon">"תמונת שולח"</string>
+	<!---->
+	<string name="provider_note_live">"רק חשבונות \"Plus\" מסוימים כוללים גישה ל-POP, שמאפשרת לתוכנית זו להתחבר. אם אינך מצליח להיכנס עם כתובת הדוא\"ל והסיסמה הנכונות שלך, ייתכן שאין לך חשבון \"Plus\" בתשלום. הפעל את דפדפן האינטרנט כדי לקבל גישה לחשבונות דוא\"ל אלה."</string>
+	<!---->
+	<string name="provider_note_t_online">"לפני הגדרת חשבון דוא\"ל זה, בקר באתר T-Online וצור סיסמה לגישה לדוא\"ל מסוג POP3."</string>
+	<!---->
+	<string name="exchange_name">"תאגיד"</string>
+	<!---->
+	<string name="exchange_name_alternate">"Microsoft Exchange ActiveSync"</string>
+	<!---->
+	<string name="system_account_create_failed">"לא ניתן ליצור את החשבון. נסה שוב."</string>
+	<!---->
+	<string name="device_admin_label">"דוא\"ל"</string>
+	<!---->
+	<string name="device_admin_description">"אפשר מדיניות אבטחה המצוינת על ידי שרת"</string>
+	<!---->
+	<string name="settings_activity_title">"הגדרות"</string>
+	<!---->
+	<string name="header_label_general_preferences">"הגדרות כלליות"</string>
+	<!---->
+	<string name="general_preference_confirm_delete_label">"אשר לפני המחיקה"</string>
+	<!---->
+	<string name="general_preference_confirm_send_label">"אשר לפני השליחה"</string>
+	<!---->
+	<string name="more_than_999">"999+"</string>
+	<!---->
+	<string name="search_hint">"חפש"</string>
+	<!---->
+	<string name="policy_dont_allow_camera">"אל תאפשר שימוש במצלמת ההתקן"</string>
+	<!---->
+	<string name="policy_require_password">"דרוש סיסמת התקן"</string>
+	<!---->
+	<string name="policy_password_history">"הגבל שימוש חוזר בסיסמאות אחרונות"</string>
+	<!---->
+	<string name="policy_password_expiration">"דרוש תפוגת סיסמאות"</string>
+	<!---->
+	<string name="policy_screen_timeout">"דרוש נעילת מסך של התקן בהמתנה"</string>
+	<!---->
+	<string name="policy_calendar_age">"הגבל את מספר אירועי לוח השנה המסונכרנים"</string>
+	<!---->
+	<string name="policy_email_age">"הגבל את מספר פריטי הדוא\"ל המסונכרנים"</string>
+	<!---->
+	<string name="quick_1">"תודה!"</string>
+	<!---->
+	<string name="quick_2">"נשמע טוב!"</string>
+	<!---->
+	<string name="quick_3">"אקרא זאת בהמשך ואחזור אליך."</string>
+	<!---->
+	<string name="quick_4">"הבה נקבע פגישה כדי לשוחח על כך."</string>
+	<!---->
+	<string name="require_manual_sync_message">"סינכרון ברקע של חשבון זה מושבת בזמן נדידה."</string>
+	<!---->
+	<string name="confirm_response">"שולח תגובה..."</string>
+	<!---->
+	<string name="no_conversations">"אין הודעות."</string>
+	<!-- no translation found for imap_name -->
+	<skip />
+	<!-- no translation found for pop3_name -->
+	<skip />
+	<!---->
+	<string name="email_name">"דוא\"ל"</string>
+	<!---->
+	<string name="folder_picker_title">"בוחר תיקיות"</string>
+	<!---->
+	<string name="trash_folder_selection_title">"בחר את תיקיית האשפה של השרת עבור <xliff:g id="account">%s</xliff:g>"</string>
+	<!---->
+	<string name="sent_folder_selection_title">"בחר את תיקיית הפריטים שנשלחו של השרת עבור <xliff:g id="ACCOUNT">%s</xliff:g>"</string>
+	<!---->
+	<string name="account_waiting_for_folders_msg">"טוען רשימת תיקיות..."</string>
+	<!---->
+	<string name="no_quick_responses">"אין זמינים"</string>
+	<!---->
+	<string name="gmail_name">"Gmail"</string>
+	<!---->
+	<string name="folder_sync_settings_pref_title">"הגדרות סינכרון תיקייה"</string>
+	<!---->
+	<string name="select_your_account">"בחר חשבון"</string>
+	<!---->
+	<string name="select_account_list_below">"בחר את החשבון שלך מהרשימה הבאה:"</string>
+	<!---->
+	<string name="cancel_label">"בטל"</string>
+	<!---->
+	<string name="next_label">"הבא"</string>
+	<!---->
+	<string name="str_account_provider_other">"אחר"</string>
+	<!---->
+	<string name="account_settings_download_options_label">"אפשרויות הורדה"</string>
+	<!---->
+	<string name="account_setting_download_opt_headonly">"כותרת בלבד"</string>
+	<!---->
+	<string name="account_setting_download_opt_all">"הכל"</string>
+	<!-- no translation found for account_setting_download_opt_2k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_5k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_10k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_20k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_50k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_100k -->
+	<skip />
+	<!---->
+	<string name="account_oof_error_tip_past">"שעת הסיום לא יכולה להיות בעבר. יש לשנות את שעת הסיום לשעה בעתיד."</string>
+	<!---->
+	<string name="account_oof_error_tip_earlier">"שעת הסיום לא יכולה להיות לפני שעת ההתחלה. שנה שוב את שעת הסיום."</string>
+	<!---->
+	<string name="account_setting_oof_label">"הגדרות מחוץ-למשרד"</string>
+	<!---->
+	<string name="oof_auto_repley">"שלח מענה אוטומטי מחוץ למשרד"</string>
+	<!---->
+	<string name="oof_auto_replies_period">"שליחת הודעות \'אינני במשרד\' כמענה אוטומטי במהלך תקופה זו"</string>
+	<!---->
+	<string name="start_time">"שעת התחלה"</string>
+	<!---->
+	<string name="end_time">"שעת סיום"</string>
+	<!---->
+	<string name="internal_message">"הודעה פנימית"</string>
+	<!---->
+	<string name="oof_auto_replies_external_senders">"שליחת הודעות \'אינני במשרד\' כמענה אוטומטי לשולחים חיצוניים"</string>
+	<!---->
+	<string name="oof_choice_oof_in_contacts">"שליחת הודעות \'אינני במשרד\' כמענה אוטומטי לשולחים ברשימת אנשי הקשר שלי"</string>
+	<!---->
+	<string name="oof_choice_oof_outside_organisation">"שליחת הודעות \'אינני במשרד\' כמענה אוטומטי לכל מי שלא נמצא בארגון שלי"</string>
+	<!---->
+	<string name="external_message">"הודעה חיצונית"</string>
+	<!---->
+	<string name="oof_done_message_attention">"לא הגדרת הודעת מענה אוטומטי לאנשים בארגון שלך. אם לא תזין הודעה על כך שאינך במשרד, אנשים לא יקבלו הודעה על כך שאינך במשרד. החוקים התקפים לגבי הודעה על כך שאינך במשרד ימשיכו לעבוד. האם ברצונך להמשיך?"</string>
+	<!---->
+	<string name="oof_choice_in_contacts">"שלח אל שולחים מרשימת אנשי הקשר שלי"</string>
+	<!---->
+	<string name="oof_choice_all_senders">"שלח אל כל השולחים"</string>
+	<!---->
+	<string name="hint_text_of_internal_message">"השב לכתובות מהארגון שלך"</string>
+	<!---->
+	<string name="hint_text_of_external_message">"השב לכתובות שמחוץ לארגון שלך"</string>
+	<!---->
+	<string name="account_delete_dlg_title">"הסרת חשבון"</string>
+	<!---->
+	<string name="account_delete_dlg_instructions_fmt">"החשבון \"<xliff:g id="ACCOUNT">%s</xliff:g>\" יוסר מ\'דוא\"ל\'."</string>
+	<!---->
+	<string name="account_delete_dlg_instructions_fmt_new">"הסרת חשבון זה תמחק את כל ההודעות, אנשי הקשר ונתונים אחרים מהטלפון שלך."</string>
+	<!---->
+	<string name="account_delete_dlg_action_remove_label">"הסר"</string>
+	<!---->
+	<string name="account_delete_dlg_action_cancel_label">"בטל"</string>
+	<!---->
+	<string name="account_settings_category_delete_account">"הסר חשבון"</string>
+	<!---->
+	<string name="account_settings_delete_account_label">"הסר חשבון"</string>
+	<!---->
+	<string name="account_settings_default_label">"חשבון ברירת מחדל"</string>
+	<!---->
+	<string name="account_settings_default_summary">"שלח דוא\"ל מחשבון זה כברירת מחדל"</string>
+	<!---->
+	<string name="account_setup_options_default_label">"שלח דוא\"ל מחשבון זה כברירת מחדל."</string>
+	<!---->
+	<string name="account_setup_basics_default_label">"שלח דוא"ל מחשבון זה כברירת מחדל"</string>
+	<!---->
+	<string name="local_search_action">"חיפוש מקומי"</string>
+	<!---->
+	<string name="service_search_action">"חפש בשרת"</string>
+	<!---->
+	<string name="local_search_all">"הכל"</string>
+	<!---->
+	<string name="local_search_from">"מ-"</string>
+	<!---->
+	<string name="local_search_to">"אל"</string>
+	<!---->
+	<string name="local_search_subject">"נושא"</string>
+	<!---->
+	<string name="status_loading_attachments">"טוען"</string>
+	<!---->
+	<string name="account_use_proxy_label">"השתמש בפרוקסי"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_label">"IP של פרוקסי"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_port_label">"יציאת פרוקסי"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_name">"שם Proxy"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_password">"סיסמת פרוקסי"</string>
+	<!---->
+	<string name="attachment_info_dialog_wifi_title">"נדרש חיבור Wi-Fi"</string>
+	<!---->
+	<string name="attachment_info_wifi_settings">"הגדרות Wi-Fi"</string>
+	<!---->
+	<string name="attachment_info_wifi_only">"קובץ מצורף זה גדול מדי להורדה דרך רשת לנייד. תוכל להוריד אותו בפעם הבאה שתתחבר לרשת Wi-Fi."</string>
+	<!---->
+	<string name="attachment_info_ok">"אישור"</string>
+	<!---->
+	<string name="mailbox_name_display_draft">"טיוטה"</string>
+	<!---->
+	<string name="message_compose_display_name">"<xliff:g id="NAME">%1$s</xliff:g> ו-<xliff:g id="NUMBER">%2$d</xliff:g> אחרים"</string>
+	<!---->
+	<string name="app_name">"דוא\"ל"</string>
+	<!---->
+	<string name="from">"מ-"</string>
+	<!---->
+	<string name="to">"אל"</string>
+	<!---->
+	<string name="cc">"עותק"</string>
+	<!---->
+	<string name="bcc">"עותק מוסתר"</string>
+	<!---->
+	<string name="subject_hint">"נושא"</string>
+	<!---->
+	<string name="body_hint">"כתוב דוא\"ל"</string>
+	<!---->
+	<string name="add_file_attachment">"צרף קובץ"</string>
+	<!---->
+	<string name="add_photo_attachment">"צרף תמונה"</string>
+	<!---->
+	<string name="save_draft">"שמור טיוטה"</string>
+	<!---->
+	<string name="discard">"מחק"</string>
+	<!---->
+	<string name="compose">"חבר"</string>
+	<!---->
+	<string name="select_contacts_field">"בחר אנשי קשר מ:"</string>
+	<!---->
+	<string name="item_save_group">"שמור קבוצה"</string>
+	<!---->
+	<string name="confirm_select">"בחר"</string>
+	<!---->
+	<string name="cancel_select">"ביטול"</string>
+	<string-array name="compose_modes">
+		<item>"השב"</item>
+		<item>"השב לכולם"</item>
+		<item>"העבר"</item>
+	</string-array>
+	<string-array name="compose_modes_without_reply_all">
+		<item>"השב"</item>
+		<item>"העבר"</item>
+	</string-array>
+	<!---->
+	<string name="reply_subject_label">"השב:"</string>
+	<!---->
+	<string name="forward_subject_label">"העבר:"</string>
+	<!---->
+	<string name="reply_attribution">"ב-<xliff:g id="date">%s</xliff:g>, <xliff:g id="person">%s</xliff:g> כתב:"</string>
+	<!---->
+	<string name="forward_attribution">"------------הודעה הועברה
+--------------; מאת: ;תאריך: ; נושא: ; אל:"</string>
+	<!-- no translation found for forward_attribution_with_headers -->
+	<skip />
+	<!---->
+	<string name="forward_attribution_no_headers">"---------- הודעה מועברת ----------"</string>
+	<!---->
+	<string name="cc_attribution">"עותק:"</string>
+	<!---->
+	<string name="select_attachment_type">"בחר סוג קובץ מצורף"</string>
+	<!---->
+	<string name="too_large_to_attach_single">"לא ניתן לצרף קובץ מעל %1$s"</string>
+	<!---->
+	<string name="too_large_to_attach_multiple">"קובץ אחד או יותר לא צורף. הגבל את <xliff:g id="maxSize">%1$s</xliff:g>."</string>
+	<!---->
+	<string name="too_large_to_mid_attach_additional">"הדוא"ל שלך חורג מ-<xliff:g id="maxSize">%1$s</xliff:g>. ייתכן שחשבון הדוא"ל שלך לא יתמוך בזה."</string>
+	<!---->
+	<string name="too_large_to_attach_additional">"לא ניתן להוסיף קובץ. גודל הדוא"ל יעלה על המגבלה <xliff:g id="maxSize">%1$s</xliff:g>."</string>
+	<!---->
+	<string name="generic_attachment_problem">"לא ניתן לצרף קובץ"</string>
+	<!---->
+	<string name="recipient_needed">"הוסף לפחות נמען אחד."</string>
+	<!---->
+	<string name="recipient_error_dialog_title">"שגיאת נמען"</string>
+	<!---->
+	<string name="confirm_send_title">"האם לשלוח את ההודעה?"</string>
+	<!---->
+	<string name="confirm_send_message_with_no_subject">"אין טקסט בנושא ההודעה"</string>
+	<!---->
+	<string name="confirm_send_message_with_no_body">"אין טקסט בגוף ההודעה"</string>
+	<!---->
+	<string name="confirm_send_message">"האם לשלוח ‏הודעה זו?"</string>
+	<!---->
+	<string name="message_discarded">"ההודעה נמחקה."</string>
+	<!-- no translation found for signature -->
+	<skip />
+	<!---->
+	<string name="custom_from_account_label">"שלח דואר כ:"</string>
+	<!---->
+	<string name="send">"שלח"</string>
+	<!---->
+	<string name="mark_read">"סמן כנקרא"</string>
+	<!---->
+	<string name="mark_unread">"סמן כלא נקרא"</string>
+	<!---->
+	<string name="mute">"השתק"</string>
+	<!---->
+	<string name="add_star">"הוסף כוכב"</string>
+	<!---->
+	<string name="remove_star">"הסר כוכב"</string>
+	<!---->
+	<string name="remove_folder">"הסר מ-<xliff:g id="folderName">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="archive">"העבר ל‏ארכיון"</string>
+	<!---->
+	<string name="report_spam">"דווח על ספאם"</string>
+	<!---->
+	<string name="mark_not_spam">"דוח: לא ספאם"</string>
+	<!---->
+	<string name="report_phishing">"דווח על דיוג"</string>
+	<!---->
+	<string name="delete">"מחק"</string>
+	<!---->
+	<string name="discard_drafts">"בטל טיוטות"</string>
+	<!---->
+	<string name="discard_failed">"ביטול נכשל"</string>
+	<!---->
+	<string name="refresh">"רענן"</string>
+	<!---->
+	<string name="reply">"השב"</string>
+	<!---->
+	<string name="reply_all">"השב לכולם"</string>
+	<!---->
+	<string name="resume_draft">"ערוך"</string>
+	<!---->
+	<string name="forward">"העבר"</string>
+	<!---->
+	<string name="menu_compose">"חבר"</string>
+	<!---->
+	<string name="menu_sort">"מיין"</string>
+	<!---->
+	<string name="menu_change_folders">"שנה תיקיות"</string>
+	<!---->
+	<string name="menu_move_to">"העבר אל"</string>
+	<!---->
+	<string name="menu_move_to_inbox">"העבר לדואר נכנס"</string>
+	<!---->
+	<string name="menu_manage_folders">"הגדרות תיקיות"</string>
+	<!---->
+	<string name="menu_show_original">"החזר שינוי גודל אוטומטי"</string>
+	<!---->
+	<string name="menu_settings">"הגדרות"</string>
+	<!---->
+	<string name="menu_search">"חיפוש"</string>
+	<!---->
+	<string name="drawer_title">"ניווט"</string>
+	<!---->
+	<string name="mark_important">"סמן כחשוב"</string>
+	<!---->
+	<string name="mark_not_important">"סמן כלא חשוב"</string>
+	<!---->
+	<string name="select_all_conversations">"בחר הכל"</string>
+	<!---->
+	<string name="unselect_all_conversations">"בטל בחירה של הכל"</string>
+	<!---->
+	<string name="add_cc_label">"הוסף עותק/עותק מוסתר"</string>
+	<!---->
+	<string name="add_bcc_label">"הוסף עותק נסתר"</string>
+	<!---->
+	<string name="quoted_text">"טקסט מצוטט"</string>
+	<!---->
+	<string name="quoted_text_label">"צטט טקסט"</string>
+	<!---->
+	<string name="respond_inline">"הגב באופן מוטמע"</string>
+	<!---->
+	<string name="bytes">"<xliff:g id="count">%s</xliff:g> B"</string>
+	<!---->
+	<string name="kilobytes">"<xliff:g id="count">%s</xliff:g> KB"</string>
+	<!---->
+	<string name="megabytes">"<xliff:g id="count">%s</xliff:g> MB"</string>
+	<!---->
+	<string name="attachment_image">"תמונה"</string>
+	<!---->
+	<string name="attachment_video">"וידיאו"</string>
+	<!---->
+	<string name="attachment_audio">"אודיו"</string>
+	<!---->
+	<string name="attachment_text">"טקסט"</string>
+	<!---->
+	<string name="attachment_application_msword">"מסמך"</string>
+	<!---->
+	<string name="attachment_application_vnd_ms_powerpoint">"מצגת"</string>
+	<!---->
+	<string name="attachment_application_vnd_ms_excel">"גיליון עבודה"</string>
+	<!-- no translation found for attachment_application_pdf -->
+	<skip />
+	<!---->
+	<string name="attachment_unknown">"קובץ <xliff:g id="attachmentExtension">%s</xliff:g>"</string>
+	<!---->
+	<string name="preview_attachment">"תצוגה מקדימה"</string>
+	<!---->
+	<string name="save_attachment">"שמור"</string>
+	<!---->
+	<string name="cancel_attachment">"ביטול"</string>
+	<!---->
+	<string name="open_attachment">"פתח"</string>
+	<!---->
+	<string name="install_attachment">"התקן"</string>
+	<!---->
+	<string name="download_again">"הורד שוב"</string>
+	<!---->
+	<string name="more_info_attachment">"מידע"</string>
+	<!---->
+	<string name="no_application_found">"אף יישום אינו יכול לפתוח קובץ מצורף זה להצגה."</string>
+	<!---->
+	<string name="fetching_attachment">"אוסף קובץ מצורף"</string>
+	<!---->
+	<string name="please_wait">"נא המתן\u2026"</string>
+	<!---->
+	<string name="saved">"נשמר,"</string>
+	<!---->
+	<string name="download_failed">"לא ניתן להוריד גע כדי לנסות שוב."</string>
+	<!---->
+	<string name="menu_photo_save_all">"‏שמור הכול"</string>
+	<!---->
+	<string name="menu_photo_share">"שיתוף"</string>
+	<!---->
+	<string name="menu_photo_share_all">"שתף הכול"</string>
+	<!---->
+	<string name="menu_photo_print">"הדפס"</string>
+	<!---->
+	<string name="saving">"שומר..."</string>
+	<!---->
+	<string name="choosertitle_sharevia">"שתף באמצעות"</string>
+	<!---->
+	<string name="contextmenu_openlink">"פתח בדפדפן"</string>
+	<!---->
+	<string name="contextmenu_copy">"העתק"</string>
+	<!---->
+	<string name="contextmenu_copylink">"העתק את כתובת האתר של הקישור"</string>
+	<!---->
+	<string name="contextmenu_view_image">"הצג תמונה"</string>
+	<!---->
+	<string name="contextmenu_dial_dot">"התקשר"</string>
+	<!---->
+	<string name="contextmenu_sms_dot">"SMS\u2026"</string>
+	<!---->
+	<string name="contextmenu_add_contact">"הוסף איש קשר"</string>
+	<!---->
+	<string name="contextmenu_send_mail">"שלח דוא\"ל"</string>
+	<!---->
+	<string name="contextmenu_map">"מפה"</string>
+	<!---->
+	<string name="contextmenu_sharelink">"שתף קישור"</string>
+	<!---->
+	<string name="contextmenu_savelink">"שמור קישור"</string>
+	<!---->
+	<string name="contextmenu_help">"עזרה"</string>
+	<!---->
+	<string name="contextmenu_feedback">"שלח משוב"</string>
+	<!---->
+	<string name="sort_title">"מיין לפי"</string>
+	<!---->
+	<string name="sort_by_tip">"ממוין לפי <xliff:g id="sor_type">%s</xliff:g>"</string>
+	<!-- no translation found for num_selected -->
+	<skip />
+	<plurals name="move_conversation">
+		<item quantity="one">"העבר שיחה"</item>
+		<item quantity="other">"העבר <xliff:g>%1$d</xliff:g> שיחות"</item>
+	</plurals>
+	<!---->
+	<string name="content_description">"שולח: <xliff:g id="sender">%1$s</xliff:g>, נושא: <xliff:g id="subject">%2$s</xliff:g>, מקטע: <xliff:g id="snippet">%3$s</xliff:g>, תאריך: <xliff:g id="date">%4$s</xliff:g>, מצב קריאה: <xliff:g id="readstate">%5$s</xliff:g>"</string>
+	<!---->
+	<string name="content_description_today">"שולח: <xliff:g id="sender">%1$s</xliff:g>, נושא: <xliff:g id="subject">%2$s</xliff:g>, מקטע: <xliff:g id="snippet">%3$s</xliff:g>, שעה: <xliff:g id="time">%4$s</xliff:g>, מצב קריאה: <xliff:g id="readstate">%5$s</xliff:g>"</string>
+	<!---->
+	<string name="read_string">"קריאת שיחה"</string>
+	<!---->
+	<string name="unread_string">"שיחה שלא נקראה"</string>
+	<!---->
+	<string name="filtered_tag">"[<xliff:g id="tag">%1$s</xliff:g>]<xliff:g id="subject">%2$s</xliff:g>"</string>
+	<!-- no translation found for badge_and_subject -->
+	<skip />
+	<plurals name="draft">
+		<item quantity="one">"טיוטה"</item>
+		<item quantity="other">"טיוטות"</item>
+	</plurals>
+	<!---->
+	<string name="sending">"שולח…"</string>
+	<!---->
+	<string name="message_retrying">"מנסה מחדש\u2026"</string>
+	<!---->
+	<string name="message_failed">"נכשל"</string>
+	<!---->
+	<string name="send_failed">"שליחת דוא"ל נכשלה."</string>
+	<!---->
+	<string name="send_failed_wait_attchment_downloaded">"לא ניתן להעביר הלאה כי הקבצים המצורפים לא ירדו במלואם, אנא הורד תחילה את הקובץ המצורף."</string>
+	<!---->
+	<string name="me_object_pronoun">"אני"</string>
+	<!---->
+	<string name="me_subject_pronoun">"אני"</string>
+	<plurals name="confirm_delete_conversation">
+		<item quantity="one">"האם למחוק שיחה זו?"</item>
+		<item quantity="other">"האם למחוק <xliff:g id="count">%1$d</xliff:g> שיחות אלו?"</item>
+	</plurals>
+	<plurals name="confirm_archive_conversation">
+		<item quantity="one">"האם להעביר שיחה זו לארכיון?"</item>
+		<item quantity="other">"האם להעביר <xliff:g id="count">%1$d</xliff:g> שיחות אלו לארכיון?"</item>
+	</plurals>
+	<plurals name="confirm_discard_drafts_conversation">
+		<item quantity="one">"האם לבטל ‏הודעה זו?"</item>
+		<item quantity="other">"האם למחוק <xliff:g id="count">%1$d</xliff:g> הודעות אלה?"</item>
+	</plurals>
+	<!---->
+	<string name="confirm_discard_text">"האם לבטל ‏הודעה זו?"</string>
+	<!---->
+	<string name="loading_conversations">"טוען…"</string>
+	<!---->
+	<string name="empty_inbox">"סיימת! תיהנה מהיום."</string>
+	<!---->
+	<string name="empty_search">"אופס! לא מצאנו כלום עבור \"<xliff:g id="search_query">%1$s</xliff:g>\"."</string>
+	<!---->
+	<string name="empty_spam_folder">"הידד, אין פה דואר זבל!"</string>
+	<!---->
+	<string name="empty_trash_folder">"אין פה אשפה תודה שמיחזרת!"</string>
+	<!---->
+	<string name="empty_folder">"אין פה דואר"</string>
+	<!---->
+	<string name="getting_messages">"מקבל את ההודעות שלך"</string>
+	<!---->
+	<string name="undo">"בטל פעולה"</string>
+	<plurals name="conversation_unstarred">
+		<item quantity="one">"מבטל כוכב עבור <xliff:g id="count">%1$d</xliff:g> שיחה."</item>
+		<item quantity="other">"מבטל כוכב עבור <xliff:g id="count">%1$d</xliff:g> שיחות."</item>
+	</plurals>
+	<plurals name="conversation_muted">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> הושתק."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> הושתק."</item>
+	</plurals>
+	<plurals name="conversation_spammed">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> דווח כספאם."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> דווח כספאם."</item>
+	</plurals>
+	<plurals name="conversation_not_spam">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> דווח כלא ספאם."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> דווח כלא ספאם."</item>
+	</plurals>
+	<plurals name="conversation_not_important">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> סומן כלא חשוב."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> סומן כלא חשוב."</item>
+	</plurals>
+	<plurals name="conversation_phished">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> דווח כדיוג."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> דווח כדיוג."</item>
+	</plurals>
+	<plurals name="conversation_archived">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> הועבר לארכיון."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> הועבר לארכיון."</item>
+	</plurals>
+	<plurals name="conversation_deleted">
+		<item quantity="one">"&lt;b&gt;%1$d&lt;/b&gt; נמחק."</item>
+		<item quantity="other">"&lt;b&gt;%1$d&lt;/b&gt; נמחק."</item>
+	</plurals>
+	<!---->
+	<string name="deleted">"נמחק"</string>
+	<!---->
+	<string name="archived">"הועבר לארכיון"</string>
+	<!---->
+	<string name="starred">"מועדפים"</string>
+	<!---->
+	<string name="unstarred">"לא מסומנים בכוכב"</string>
+	<!---->
+	<string name="folder_removed">"הוסר מ-<xliff:g id="folderName">%1$s</xliff:g>"</string>
+	<plurals name="conversation_folder_changed">
+		<item quantity="one">"התיקייה שונתה."</item>
+		<item quantity="other">"התיקיות שונו."</item>
+	</plurals>
+	<!---->
+	<string name="conversation_folder_moved">"הועבר אל <xliff:g id="folderName">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="search_results_header">"תוצאות"</string>
+	<!---->
+	<string name="search_unsupported">"החיפוש אינו נתמך ב‏חשבון זה."</string>
+	<!---->
+	<string name="add_label">"‏הוסף תיקייה"</string>
+	<!---->
+	<string name="new_incoming_messages_one">"הצג הודעה חדשה מאת <xliff:g id="sender">%s</xliff:g>."</string>
+	<plurals name="new_incoming_messages_many">
+		<item quantity="other">"הצג <xliff:g id="count">%1$d</xliff:g> הודעות חדשות."</item>
+	</plurals>
+	<!---->
+	<string name="date_and_view_details">"<xliff:g id="date">%1$s</xliff:g> &lt;a href=\'http://www.example.com\'&gt;הצג פרטים&lt;/a&gt;"</string>
+	<!---->
+	<string name="date_and_view_details_another">"<xliff:g id="date">%1$s</xliff:g> &lt;font color=\"<xliff:g id="color">%2$d</xliff:g>\"&gt;הצג פרטים&lt;/font&gt;"</string>
+	<!---->
+	<string name="hide_details">"הסתר פרטים"</string>
+	<!---->
+	<string name="to_message_header">"ל: <xliff:g id="recipients">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="contact_info_string">"הצג מידע קשר עבור <xliff:g id="name">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="contact_info_string_default">"הצג מידע קשר"</string>
+	<plurals name="show_messages_read">
+		<item quantity="other">"<xliff:g example="4" id="count">%1$d</xliff:g> ‏הודעות ישנות יותר"</item>
+	</plurals>
+	<!---->
+	<string name="from_heading">"מאת:"</string>
+	<!---->
+	<string name="replyto_heading">"השב ל:"</string>
+	<!---->
+	<string name="to_heading">"אל:"</string>
+	<!---->
+	<string name="to_heading_no_space">"אל:"</string>
+	<!---->
+	<string name="cc_heading">"עותק:"</string>
+	<!---->
+	<string name="bcc_heading">"עותק מוסתר:"</string>
+	<!---->
+	<string name="date_heading">"תאריך:"</string>
+	<!---->
+	<string name="show_images">"הצג תמונות"</string>
+	<!---->
+	<string name="always_show_images">"הצג תמיד תמונות משולח זה"</string>
+	<!---->
+	<string name="always_show_images_toast">"תמונות משולח זה יוצגו באופן אוטומטי."</string>
+	<!---->
+	<string name="address_display_format">"<xliff:g id="name">%1$s</xliff:g><xliff:g id="email">%2$s</xliff:g>"</string>
+	<!---->
+	<string name="address_display_format_with_via_domain">"<xliff:g id="name">%1$s</xliff:g><xliff:g id="email">%2$s</xliff:g> דרך <xliff:g id="via_domain">%3$s</xliff:g>"</string>
+	<!---->
+	<string name="message_saved">"ההודעה נשמרה כטיוטה."</string>
+	<!---->
+	<string name="sending_message">"שולח הודעה\u2026"</string>
+	<!---->
+	<string name="invalid_recipient">"הכתובת %s לא חוקית."</string>
+	<!---->
+	<string name="show_elided">"הצג טקסט מצוטט"</string>
+	<!---->
+	<string name="hide_elided">"\u25BC הסתר טקסט מצוטט"</string>
+	<!---->
+	<string name="message_invite_title">"הזמנה של לוח שנה"</string>
+	<!---->
+	<string name="message_invite_available">"אתה זמין"</string>
+	<!---->
+	<string name="message_invite_datetime">"מתי"</string>
+	<!---->
+	<string name="message_invite_location">"היכן"</string>
+	<!---->
+	<string name="message_invite_in_calendar_view">"הצג בלוח שנה"</string>
+	<!---->
+	<string name="message_invite_calendar_view">"הצג בלוח השנה »"</string>
+	<!---->
+	<string name="message_invite_label_attending">"משתתף?"</string>
+	<!---->
+	<string name="message_invite_accept">"כן"</string>
+	<!---->
+	<string name="message_invite_tentative">"אולי"</string>
+	<!---->
+	<string name="message_invite_decline">"לא"</string>
+	<!-- no translation found for enumeration_comma -->
+	<skip />
+	<!---->
+	<string name="send_anyway">"שלח בכל מקרה"</string>
+	<!---->
+	<string name="ok">"אישור"</string>
+	<!---->
+	<string name="done">"סיום"</string>
+	<!---->
+	<string name="cancel">"ביטול"</string>
+	<!---->
+	<string name="clear">"נקה"</string>
+	<!---->
+	<string name="next">"הבא"</string>
+	<!---->
+	<string name="previous">"הקודם"</string>
+	<string-array name="sync_status">
+		<item>"You don\'t have Wi-Fi connectivity, whether to continue the synchronisation?"</item>
+		<item>"אין חיבור."</item>
+		<item>"לא ניתן להיכנס"</item>
+		<item>"שגיאת אבטחה."</item>
+		<item>"לא ניתן לסנכרן."</item>
+		<item>"‏שגיאה פנימית"</item>
+		<item>"Server error"</item>
+	</string-array>
+	<!---->
+	<string name="tap_to_configure">"גע להגדרה."</string>
+	<!---->
+	<string name="non_synced_folder_description">"להצגת שיחות, סנכרן תיקייה זו."</string>
+	<!---->
+	<string name="tap_to_configure_folder_sync">"סנכרן תיקייה"</string>
+	<!-- no translation found for widget_large_unread_count -->
+	<skip />
+	<!---->
+	<string name="large_unseen_count">"<xliff:g example="99" id="count">%d</xliff:g>+ חדש"</string>
+	<!-- no translation found for unseen_count -->
+	<skip />
+	<plurals name="actionbar_unread_messages">
+		<item quantity="other">"%1$d לא נקראו"</item>
+	</plurals>
+	<!---->
+	<string name="actionbar_large_unread_count">"<xliff:g id="count">%1$d</xliff:g>+ שלא נקראו"</string>
+	<!---->
+	<string name="view_more_conversations">"הצג שיחות נוספות"</string>
+	<!---->
+	<string name="loading_conversation">"טוען…"</string>
+	<!---->
+	<string name="activity_mailbox_selection">"בחר חשבון"</string>
+	<!---->
+	<string name="activity_folder_selection">"בחר תיקייה"</string>
+	<!---->
+	<string name="folder_shortcut_widget_label">"תיקיית דוא"ל"</string>
+	<!---->
+	<string name="change_folders_selection_dialog_title">"שנה תיקיות"</string>
+	<!---->
+	<string name="move_to_selection_dialog_title">"העבר אל"</string>
+	<!-- no translation found for search_results_loaded -->
+	<skip />
+	<!---->
+	<string name="network_error">"אין חיבור"</string>
+	<!---->
+	<string name="retry">"נסה שנית"</string>
+	<!---->
+	<string name="load_more">"למד עוד"</string>
+	<!---->
+	<string name="shortcut_name_title">"הענק שם לקיצור דרך לתיקייה"</string>
+	<!---->
+	<string name="wait_for_sync_title">"ממתין לסינכרון"</string>
+	<!---->
+	<string name="not_synced_title">"החשבון לא סונכרן"</string>
+	<!---->
+	<string name="wait_for_manual_sync_body">"חשבון זה אינו מוגדר לסנכרון אוטומטי.\nגע ב<b>סנכרן כעת</b> כדי לסנכרן דואר פעם אחת, או גע ב<b>שנה הגדרות סנכרון</b> להגדרת חשבון זה לסנכרון אוטומטי של דואר."</string>
+	<!---->
+	<string name="manual_sync">"סנכרן כעת"</string>
+	<!---->
+	<string name="change_sync_settings">"שנה הגדרות סנכרון"</string>
+	<!---->
+	<string name="photo_load_failed">"לא ניתן לטעון תמונה"</string>
+	<!---->
+	<string name="cant_move_or_change_labels">"לא ניתן לבצע העברה מכיוון שהבחירה כוללת מספר חשבונות."</string>
+	<!-- no translation found for multiple_new_message_notification_item -->
+	<skip />
+	<!-- no translation found for single_new_message_notification_big_text -->
+	<skip />
+	<!---->
+	<string name="ignore_spam_warning">"התעלם, אני סומך על הודעה זו"</string>
+	<!---->
+	<string name="via_domain">"דרך <xliff:g id="viaDomain">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="signin">"כניסה"</string>
+	<!---->
+	<string name="info">"מידע"</string>
+	<!---->
+	<string name="report">"דווח"</string>
+	<!---->
+	<string name="sync_error">"לא ניתן לסנכרן."</string>
+	<!---->
+	<string name="sync_error_message">"בהתקן שברשותך אין מספיק מקום לסנכרון."</string>
+	<!---->
+	<string name="storage">"שטח אחסון"</string>
+	<!-- no translation found for senders_split_token -->
+	<skip />
+	<!-- no translation found for draft_count_format -->
+	<skip />
+	<!---->
+	<string name="all_folders_heading">"כל התיקיות"</string>
+	<!---->
+	<string name="recent_folders_heading">"תיקיות אחרונות"</string>
+	<!---->
+	<string name="message_details_title">"פרטי הודעה"</string>
+	<!---->
+	<string name="preference_advance_to_title">"התקדמות אוטומטית"</string>
+	<string-array name="prefEntries_autoAdvance">
+		<item>"חדש יותר"</item>
+		<item>"ישן יותר"</item>
+		<item>"רשימת שיחות"</item>
+	</string-array>
+	<string-array name="prefSummaries_autoAdvance">
+		<item>"הצג שיחה חדשה יותר לאחר המחיקה"</item>
+		<item>"הצג שיחה ישנה יותר לאחר המחיקה"</item>
+		<item>"הצג רשימת שיחות לאחר המחיקה"</item>
+	</string-array>
+	<!---->
+	<string name="prefDialogTitle_autoAdvance">"התקדם אל"</string>
+	<!---->
+	<string name="clear_display_images_whitelist_title">"מחק אישורי תמונות"</string>
+	<!---->
+	<string name="clear_display_images_whitelist_dialog_title">"האם למחוק אישורי תמונות?"</string>
+	<!---->
+	<string name="clear_display_images_whitelist_dialog_message">"הפסק להציג תמונות מוטבעות משולחים שהרשית בעבר."</string>
+	<!---->
+	<string name="sender_whitelist_cleared">"תמונות לא יוצגו באופן אוטומטי."</string>
+	<!---->
+	<string name="preferences_signature_title">"חתימה"</string>
+	<!---->
+	<string name="preferences_signature_dialog_title">"חתימה"</string>
+	<!---->
+	<string name="preferences_signature_summary_not_set">"לא הוגדר"</string>
+	<!-- no translation found for mail_account_signature_prefix -->
+	<skip />
+	<!---->
+	<string name="notification_action_reply">"השב"</string>
+	<!---->
+	<string name="notification_action_reply_all">"השב לכולם"</string>
+	<!---->
+	<string name="notification_action_archive">"העבר ל‏ארכיון"</string>
+	<!---->
+	<string name="notification_action_remove_label">"הסר תווית"</string>
+	<!---->
+	<string name="notification_action_delete">"מחק"</string>
+	<!---->
+	<string name="notification_action_undo_archive">"הועבר לארכיון"</string>
+	<!---->
+	<string name="notification_action_undo_remove_label">"התווית הוסרה"</string>
+	<!---->
+	<string name="notification_action_undo_delete">"נמחק"</string>
+	<!-- no translation found for veiled_address -->
+	<skip />
+	<!-- no translation found for veiled_alternate_text -->
+	<skip />
+	<!-- no translation found for veiled_alternate_text_unknown_person -->
+	<skip />
+	<!-- no translation found for veiled_summary_unknown_person -->
+	<skip />
+	<!-- no translation found for label_notification_ticker -->
+	<skip />
+	<plurals name="new_messages">
+		<item quantity="one">"הודעה חדשה <xliff:g id="count">%1$d</xliff:g>"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> הודעות חדשות"</item>
+	</plurals>
+	<!-- no translation found for single_new_message_notification_title -->
+	<skip />
+	<!---->
+	<string name="silent_ringtone">"שקט"</string>
+	<!---->
+	<string name="preference_removal_action_title">"פעולות העברה ל‏ארכיון ומחיקה"</string>
+	<string-array name="prefEntries_removal_action">
+		<item>"הצג פריטים בארכיון בלבד"</item>
+		<item>"הצג פריטים שנמחקו בלבד"</item>
+		<item>"Show archive &amp; delete"</item>
+	</string-array>
+	<string-array name="prefSummaries_removal_action_summary">
+		<item>"הצג פריטים בארכיון בלבד"</item>
+		<item>"הצג פריטים שנמחקו בלבד"</item>
+		<item>"Show archive &amp; delete"</item>
+	</string-array>
+	<!---->
+	<string name="prefDialogTitle_removal_action">"פעולות העברה ל‏ארכיון ומחיקה"</string>
+	<!---->
+	<string name="preferences_default_reply_all_title">"השב לכולם"</string>
+	<!---->
+	<string name="preferences_default_reply_all_summary_impl">"השתמש כברירת מחדל לכל התשובות להודעות"</string>
+	<!---->
+	<string name="preference_swipe_title_archive">"‏החלק להעברה ל‏ארכיון"</string>
+	<!---->
+	<string name="preference_swipe_title_delete">"‏החלק למחיקה"</string>
+	<!---->
+	<string name="preference_swipe_description">"ברשימת השיחות"</string>
+	<!---->
+	<string name="preference_swipe_actions">"פעולות החלקה"</string>
+	<!---->
+	<string name="preference_sender_image_title">"תמונת שולח"</string>
+	<!---->
+	<string name="preference_sender_image_description">"הצג ליד השם ברשימת השיחות"</string>
+	<!---->
+	<string name="empty_trash">"‏רוקן פח אשפה"</string>
+	<!---->
+	<string name="empty_spam">"רוקן ספאם"</string>
+	<!---->
+	<string name="star_toggle">"הפעל/כבה כוכב"</string>
+	<!---->
+	<string name="empty_trash_dialog_title">"האם ל‏רוקן את פח האשפה?"</string>
+	<!---->
+	<string name="empty_spam_dialog_title">"האם לרוקן ספאם?"</string>
+	<plurals name="empty_folder_dialog_message">
+		<item quantity="one">"%1$d הודעה תימחק לצמיתות."</item>
+		<item quantity="other">"%1$d הודעות יימחקו לצמיתות."</item>
+	</plurals>
+	<!---->
+	<string name="drawer_open">"פתח מגירת ניווט"</string>
+	<!---->
+	<string name="drawer_close">"מידע מוגן בזכויות יוצרים"</string>
+	<!---->
+	<string name="conversation_photo_welcome_text">"גע בתמונת שולח כדי לבחור שיחה זו."</string>
+	<!---->
+	<string name="long_press_to_select_tip">"גע והחזק כדי לבחור שיחה אחת, ואחר כך גע לבחירת שיחות נוספות."</string>
+	<!---->
+	<string name="folder_icon_desc">"סמל תיקייה"</string>
+	<!---->
+	<string name="add_account">"הוסף חשבון"</string>
+	<!---->
+	<string name="dismiss_tip_hover_text">"סגור טיפ"</string>
+	<!---->
+	<string name="auto_sync_off">"הסנכרון האוטומטי כבוי."</string>
+	<!---->
+	<string name="tap_to_enable_sync">"גע להפעלה."</string>
+	<!---->
+	<string name="account_sync_off">"סנכרון החשבון כבוי."</string>
+	<!---->
+	<string name="enable_sync_in_account_settings">"הפעל בעוד <xliff:g id="account_settings">%1$s</xliff:g>."</string>
+	<!---->
+	<string name="account_settings_param">"הגדרות חשבון"</string>
+	<!---->
+	<string name="unsent_messages_in_outbox">"<xliff:g id="number">%1$s</xliff:g> לא נשלחה ב-<xliff:g id="outbox">%2$s</xliff:g>"</string>
+	<!---->
+	<string name="turn_auto_sync_on_dialog_title">"האם להפעיל סנכרון אוטומטי?"</string>
+	<!---->
+	<string name="turn_auto_sync_on_dialog_body">"שינויים שתבצע בכל היישומים והחשבונות (לא רק ב-Gmail), יסונכרנו לאינטרנט, להתקנים האחרים שברשותך ול-<xliff:g id="phone_or_tablet">%1$s</xliff:g> שלך."</string>
+	<!---->
+	<string name="phone">"טלפון"</string>
+	<!---->
+	<string name="tablet">"טלפון"</string>
+	<!---->
+	<string name="turn_auto_sync_on_dialog_confirm_btn">"הפעל"</string>
+	<!-- no translation found for show_n_more_folders -->
+	<skip />
+	<!---->
+	<string name="hide_folders">"הסתר תיקיות"</string>
+	<!---->
+	<string name="print">"הדפס"</string>
+	<!---->
+	<string name="print_all">"הדפס הכול"</string>
+	<plurals name="num_messages">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> הודעה"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> הודעות"</item>
+	</plurals>
+	<!-- no translation found for date_message_received_print -->
+	<skip />
+	<!---->
+	<string name="draft_to_heading">"טיוטה אל:"</string>
+	<!---->
+	<string name="draft_heading">"טיוטה"</string>
+	<!---->
+	<string name="quoted_text_hidden_print">"טקטס מצוטט מוסתר"</string>
+	<plurals name="num_attachments">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> קובץ מצורף"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> קבצים מצורפים"</item>
+	</plurals>
+	<!---->
+	<string name="no_subject">"(ללא נושא)"</string>
+	<!---->
+	<string name="vacation_responder">"מענה בעת חופשה"</string>
+	<!---->
+	<string name="preferences_vacation_responder_title">"מענה בעת חופשה"</string>
+	<!---->
+	<string name="vacation_responder_body_hint_text">"הודעה"</string>
+	<!---->
+	<string name="send_to_contacts_text">"שלח רק אל אנשי הקשר שלי"</string>
+	<!---->
+	<string name="send_to_domain_text">"שלח רק אל <xliff:g id="domain">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="pick_start_date_title">"מתחיל"</string>
+	<!---->
+	<string name="pick_end_date_title">"מסתיים (אופציונלי)"</string>
+	<!---->
+	<string name="date_not_set">"לא הוגדר"</string>
+	<!---->
+	<string name="set_end_date_dialog_title">"תאריך סיום (אופציונלי)"</string>
+	<!---->
+	<string name="custom_date">"מותאם אישית"</string>
+	<!---->
+	<string name="date_none">"ללא"</string>
+	<!---->
+	<string name="discard_changes">"בטל שינויים?"</string>
+	<!---->
+	<string name="draft_saved">"טיוטה נשמרה"</string>
+	<!---->
+	<string name="draft_discard">"טיוטה לא נשמרה"</string>
+	<!---->
+	<string name="vacation_responder_changes_saved">"שינויים במענה בעת חופשה נשמרו"</string>
+	<!---->
+	<string name="vacation_responder_changes_discarded">"שינויים במענה בעת חופשה לא נשמרו"</string>
+	<!---->
+	<string name="vacation_responder_off">"אשר PIN חדש"</string>
+	<!-- no translation found for vacation_responder_on -->
+	<skip />
+	<!-- no translation found for vacation_responder_on_with_end_date -->
+	<skip />
+	<!---->
+	<string name="vacation_responder_empty_subject_and_body_warning">"הוסף נושא או הודעה"</string>
+	<!---->
+	<string name="view_entire_message">"צפה בהודעה כולה"</string>
+	<!---->
+	<string name="eml_loader_error_toast">"לא ניתן לפתוח קובץ זה"</string>
+	<!---->
+	<string name="help_and_info">"עזרה"</string>
+	<!---->
+	<string name="help_and_feedback">"עזרה"</string>
+	<!---->
+	<string name="feedback">"שלח משוב"</string>
+	<!---->
+	<string name="copyright">"©<xliff:g example="2010" id="year">%1$d</xliff:g> Google Inc."</string>
+	<!-- no translation found for version -->
+	<skip />
+	<!-- no translation found for view_app_page -->
+	<skip />
+	<!---->
+	<string name="print_dialog">"הדפסה\u2026"</string>
+	<!---->
+	<string name="copyright_information">"מידע מוגן בזכויות יוצרים"</string>
+	<!---->
+	<string name="privacy_policy">"מדיניות פרטיות"</string>
+	<!---->
+	<string name="open_source_licenses">"רשיונות קוד פתוח"</string>
+	<!---->
+	<string name="reply_choice_yes">"כן"</string>
+	<!---->
+	<string name="reply_choice_no">"לא"</string>
+	<!---->
+	<string name="reply_choice_ok">"אישור"</string>
+	<!-- no translation found for reply_choice_hehe -->
+	<skip />
+	<!---->
+	<string name="reply_choice_thanks">"תודה"</string>
+	<!---->
+	<string name="reply_choice_i_agree">"נכון"</string>
+	<!---->
+	<string name="reply_choice_nice">"נחמד"</string>
+	<!---->
+	<string name="reply_on_my_way">"אני בדרך"</string>
+	<!---->
+	<string name="reply_choice_later">"טוב, אחזור אליך"</string>
+	<!-- no translation found for reply_choice_smiling_face -->
+	<skip />
+	<!-- no translation found for reply_choice_frowning_face -->
+	<skip />
+	<!---->
+	<string name="preference_header_action_confirmations">"אישור פעולה"</string>
+	<!---->
+	<string name="preference_confirm_before_delete_title">"אשר לפני המחיקה"</string>
+	<!---->
+	<string name="preference_confirm_before_archive_title">"אשר לפני השמירה בארכיון"</string>
+	<!---->
+	<string name="preference_confirm_before_send_title">"אשר לפני השליחה"</string>
+	<!---->
+	<string name="preferences_conversation_mode_title">"התאמה אוטומטית של ההודעות"</string>
+	<!---->
+	<string name="preferences_conversation_mode_summary">"כווץ את ההודעות כך שהן יתאימו לגודל המסך"</string>
+	<!---->
+	<string name="preferences_disable_snap_headers_title">"פעולות הודעה"</string>
+	<string-array name="prefSummaries_snapHeader">
+		<item>"Always show message actions at the top of the screen"</item>
+		<item>"Only show message actions at the top of the screen when rotated to portrait"</item>
+		<item>"Don\'t show message actions outside the message header"</item>
+	</string-array>
+	<string-array name="prefEntries_snapHeader">
+		<item>"הצג תמיד"</item>
+		<item>"Only show in portrait"</item>
+		<item>"Don\'t show"</item>
+	</string-array>
+	<!---->
+	<string name="clear_history_title">"נקה את היסטוריית החיפושים"</string>
+	<!---->
+	<string name="search_history_cleared">"היסטוריית החיפושים נוקתה."</string>
+	<!---->
+	<string name="clear_history_dialog_title">"האם לנקות את היסטוריית החיפושים?"</string>
+	<!---->
+	<string name="clear_history_dialog_message">"כל החיפושים שביצעת קודם לכן יוסרו."</string>
+	<!---->
+	<string name="manage_accounts_menu_item">"נהל חשבונות"</string>
+	<!---->
+	<string name="general_preferences_title">"הגדרות כלליות"</string>
+	<!---->
+	<string name="activity_preferences">"הגדרות"</string>
+	<!---->
+	<string name="always_bcc_myself">"שלח לי תמיד עותק נסתר"</string>
+	<!---->
+	<string name="always_bcc_myself_summary">"שלח לי תמיד עותק נסתר בכתיבה, מענה והעברה"</string>
+	<!---->
+	<string name="general_preference_auto_download_remaining_label">"הורדה אוטומטית נשארה"</string>
+	<!---->
+	<string name="general_preference_auto_download_remaining_summary">"הורד באופן אוטומטי את יתרת הגוף בגלילה למטה"</string>
+	<!---->
+	<string name="download_remaining">"הורד נותרים"</string>
+	<!---->
+	<string name="downloading_remaining">"טוען..."</string>
+	<!---->
+	<string name="unable_to_connect">"לא ניתן להתחבר"</string>
+	<!---->
+	<string name="need_connection_prompt">"דרוש חיבור לרשת כדי להשתמש ביישום זה. הפעל רשת סלולארית או Wi-Fi בהגדרות."</string>
+	<!---->
+	<string name="connection_settings">"הגדרות"</string>
+	<!---->
+	<string name="priority_action">"עדיפות"</string>
+	<!---->
+	<string name="set_priority_dialog_title">"עדיפות"</string>
+	<!---->
+	<string name="dialog_warning">"אזהרה\u2026"</string>
+	<!---->
+	<string name="dialog_warning_message">"גרסת האפליקציה של Exchange אינה זהה לזו של הדוא"ל, להמשיך?"</string>
+	<!---->
+	<string name="toast_warning_text">"גרסת האפליקציה של Exchange אינה זהה לזו של הדוא"ל"</string>
+	<!---->
+	<string name="tips_sync_alter_title">"סנכרון"</string>
+	<!---->
+	<string name="tips_sync_alter_content">"אין לך חיבור ל-Wi-Fi, האם להמשיך בסנכרון?"</string>
+	<!---->
+	<string name="tips_sync_alter_yes">"כן"</string>
+	<!---->
+	<string name="tips_sync_alter_no">"לא"</string>
+	<!---->
+	<string name="message_invite_tentative_title">"לא סופי"</string>
+	<!---->
+	<string name="message_invite_decline_title">"דחה"</string>
+	<!---->
+	<string name="message_invite_accent_title">"מסכים"</string>
+	<!---->
+	<string name="drm_file_remind">"קובץ זה אינו מורשה שיתוף או טעינה כי הוא מוגן DRM!"</string>
+	<!---->
+	<string name="not_add_more_recipients">"לא ניתן להוסיף נמענים מעבר ל-<xliff:g id="maxLimit">%1$d</xliff:g> בפעם אחת."</string>
+	<!---->
+	<string name="global_search_label">"דוא\"ל"</string>
+	<!---->
+	<string name="global_search_hint">"חפש דוא\"ל"</string>
+	<!---->
+	<string name="global_search_description">"שולחים, נושאים, וגוף הודעות"</string>
+	<!---->
+	<string name="remote_search_failed">"חיפוש השרת נכשל!"</string>
+	<!---->
+	<string name="searching_on_server">"חפש בשרת"</string>
+	<!---->
+	<string name="searching_on_server_title">"חפש את \"<xliff:g id="account_name">%s</xliff:g>\" בשרת"</string>
+	<!---->
+	<string name="searching_all_fields_on_sever">"חפש את כל השדות בשרת"</string>
+	<!---->
+	<string name="search_field_subject">"נושא"</string>
+	<!---->
+	<string name="search_field_receiver">"מקבל"</string>
+	<!---->
+	<string name="search_field_sender">"שולח"</string>
+	<!---->
+	<string name="search_field_body">"גוף"</string>
+	<!---->
+	<string name="search_field_all">"הכול"</string>
+	<!---->
+	<string name="search_field_attachment">"קבצים מצורפים"</string>
+	<!---->
+	<string name="select_all">"בחר הכל"</string>
+	<!---->
+	<string name="deselect_all">"בטל בחירה של הכל"</string>
+	<!---->
+	<string name="need_wifi_connection_prompt">"דרוש חיבור לרשת כדי להשתמש ביישום זה. הפעל רשת סלולארית או Wi-Fi בהגדרות."</string>
+	<!---->
+	<string name="account_setup_names_account_name_des_label">"אופציונלי"</string>
+	<!---->
+	<string name="account_setup_names_user_name_des_label">"מוצג בהודעות יוצאות"</string>
+	<!---->
+	<string name="finish_action">"סיום"</string>
+	<!---->
+	<string name="copy_email">"העתק כתובת דואר"</string>
+	<!---->
+	<string name="out_of_office_syncing">"מסנכרן הגדרות "מחוץ למשרד""</string>
+	<!---->
+	<string name="out_of_office_fail">"סנכרון הגדרות "מחוץ למשרד" נכשל!"</string>
+	<!---->
+	<string name="out_of_office_success">"הגדרות "מחוץ למשרד" סונכרנו בהצלחה!"</string>
+	<!---->
+	<string name="manual_sync_when_roaming">"סנכרן בעת נדידה"</string>
+	<!---->
+	<string name="manual_sync_when_roaming_summery">"רענן רק באופן ידני"</string>
+	<!---->
+	<string name="manual_sync_when_roaming_toast">"דפדף מטה כדי לרענן באופן ידני בעת נדידה"</string>
+	<!---->
+	<string name="manual_sync_when_roaming_refresh">"רענן"</string>
+	<!---->
+	<string name="server_rule_can_not_change">"לא ניתן לשנות חוקי שרת"</string>
+	<!---->
+	<string name="server_rules">"חוקי שרת"</string>
+	<!---->
+	<string name="confirm_forward_message">"לא כל הקבצים ירדו. האם להעביר הלאה מבלי להוריד קבצים?"</string>
+	<!---->
+	<string name="confirm_forward_cancel">"ביטול"</string>
+	<!---->
+	<string name="confirm_forward_drop_unload_attachment">"העבר"</string>
+	<!---->
+	<string name="mail_not_download_completely">"המתן עד אשר ההורדה תסתיים"</string>
+	<!---->
+	<string name="account_settings_inline_images_lable">"תמונות"</string>
+	<!---->
+	<string name="account_settings_inline_always_show">"הצג תמיד"</string>
+	<!---->
+	<string name="account_settings_inline_ask_before_show">"שאל לפני תצוגה"</string>
+	<!---->
+	<string name="conversation_time_after_today">"אחרי היום"</string>
+	<!---->
+	<string name="conversation_time_today">"היום"</string>
+	<!---->
+	<string name="conversation_time_yesterday">"אתמול"</string>
+	<!---->
+	<string name="conversation_time_this_month">"בחודש הזה"</string>
+	<!---->
+	<string name="conversation_time_elapse_just_now">"ממש עכשיו"</string>
+	<!---->
+	<string name="conversation_time_elapse_minute">"<xliff:g id="COUNT">%d</xliff:g> דקות"</string>
+	<!---->
+	<string name="message_in_queued_status">"הועבר לתור"</string>
+	<plurals name="send_failed_messages">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> הודעת דוא"ל לא נשלחה"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> הודעות דוא"ל לא נשלחו"</item>
+	</plurals>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_label">"סנכרן לוחות שנה מ:"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_2weeks">"שבועיים"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_1month">"חודש אחד"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_3months">"שלושה חודשים"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_6months">"שישה חודשים"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_all">"הכל"</string>
+	<!---->
+	<string name="no_permission_to_open_file">"הרשאת אחסון נחוצה כדי לפתוח קובץ זה"</string>
+	<!---->
+	<string name="conversation_update_time_text">"‏עודכן לאחרונה:"</string>
+	<!---->
+	<string name="conversation_update_unknown_time_stamp">"לא ידוע"</string>
+	<!---->
+	<string name="conversation_time_elapse_today">"היום"</string>
+	<!---->
+	<string name="save_to_attachment">"‏שמור ב-"</string>
+	<!---->
+	<string name="download_settings_title">"שמור את הקובץ המצורף"</string>
+	<!---->
+	<string name="download_edit_filename_label">"שם"</string>
+	<!---->
+	<string name="download_filepath_label">"נתיב"</string>
+	<!---->
+	<string name="download_file_size">"גודל"</string>
+	<!---->
+	<string name="download_time_needed">"שעה"</string>
+	<!---->
+	<string name="download_cancel">"ביטול"</string>
+	<!---->
+	<string name="download_start">"אישור"</string>
+	<!---->
+	<string name="unknown_length">"לא ידוע"</string>
+	<!---->
+	<string name="time_min">"מינימום"</string>
+	<!---->
+	<string name="open_file_manager_failed">"לא ניתן לפתוח את מנהל הקבצים"</string>
+	<!---->
+	<string name="attachment_not_saved">"קובץ מצורף לא נשמר"</string>
+	<!---->
+	<string name="sync_calendar_title">"לא ניתן לסנכרן את לוח השנה"</string>
+	<!---->
+	<string name="sync_calendar_content">"כדי לסנכרן, הרשה לשירותי Exchange לגשת אל לוח השנה"</string>
+	<!---->
+	<string name="sync_contacts_title">"לא ניתן לסנכרן אנשי קשר"</string>
+	<!---->
+	<string name="sync_contacts_content">"כדי לסנכרן, הרשה לשירותי Exchange לגשת אל אנשי הקשר"</string>
+	<!---->
+	<string name="notification_never_ask_again">"לעולם אל תשאל שוב"</string>
+	<!---->
+	<string name="sync_storage_title">"אין אפשרות לשמור את הקובץ המצורף"</string>
+	<!---->
+	<string name="sync_storage_content">"כדי לשמור, הרשה לשירותי Exchange לגשת לאחסון"</string>
+	<!---->
+	<string name="oof_continue">"המשך"</string>
+	<!---->
+	<string name="permission_needed_to_add_attachments">"כדי להוסיף קבצים מצורפים, הרשה לדוא"ל לגשת לאחסון"</string>
+	<!---->
+	<string name="permission_needed_to_check_ringtone">"כדי לבדוק צלצול, הרשה לדוא"ל לגשת לאחסון"</string>
+	<!---->
+	<string name="add_folder_as_attachment_fail_tips">"לא ניתן להוסיף תיקייה בתור קובץ מצורף"</string>
+	<!---->
+	<string name="choose_action_title">"בחר פעולה"</string>
+	<!---->
+	<string name="choose_action_contact">"הוסף איש קשר: <xliff:g example="4" id="email_address">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="choose_action_email">"דוא"ל: <xliff:g example="4" id="email_address">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="choose_action_message">"הודעה: <xliff:g example="4" id="email_address">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="account_setup_basics_exit_action">"צא"</string>
+</resources>

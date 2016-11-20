@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!--TS: ADD by zhaotianyong for CONFLICT_50001 START -->
+    <integer name="reenter_fullscreen_delay_time_in_millis">5000</integer>
+    <!--TS: ADD by zhaotianyong for CONFLICT_50001 END -->
+</resources>

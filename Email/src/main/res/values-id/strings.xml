@@ -1,0 +1,2484 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+    <!--
+        this file is built by arct v:froyo_2011-03-23, Fri May 22 11:44:00 GMT+08:00 2015
+    -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!--Permissions label for reading attachments-->
+    <string name="permission_read_attachment_label">"Baca lampiran email"</string>
+    <!--Permissions description for reading attachments-->
+    <string name="permission_read_attachment_desc">"Memungkinkan apl membaca lampiran email Anda."</string>
+    <!--Permissions label for accessing the main provider-->
+    <string name="permission_access_provider_label">"Akses data penyedia email"</string>
+    <!--Type:String Purpose: Permissions description for accessing the main provider 
+ ScreenPath:Launcher Menu -> Email-->
+    <string name="permission_access_provider_desc">"Membolehkan aplikasi untuk mengakses database email, termaduk menerima pesan, mengirim pesan, nama pengguna, dan sandi."</string>
+    <!--Title of debug screen-->
+    <string name="debug_title">"Debug"</string>
+    <!--Button name used as part of a multi-step process-->
+    <string name="next_action">"Brkty"</string>
+    <!--Button name used to confirm acceptance of dialog boxes, warnings, errors, etc.-->
+    <string name="okay_action">"OK"</string>
+    <!--Button name used to cancel out of dialog boxes-->
+    <string name="cancel_action">"Batal"</string>
+    <!--Button name used to move to previous step during setup sequence [CHAR_LIMIT=16]-->
+    <string name="previous_action">"Sebelumnya"</string>
+    <!--Button name used to complete a multi-step process-->
+    <string name="done_action">"Selesai"</string>
+    <!--Menu item used to create a new quick response [CHAR_LIMIT=16]-->
+    <string name="create_action">"Buat baru"</string>
+    <!--Message informing user when a list that would contain quick responses is empty [CHAR_LIMIT=80]-->
+    <string name="quick_responses_empty_view">"Tidak ada tanggapan cepat."</string>
+    <!--Menu item-->
+    <string name="account_settings_action">"Pengaturan akun"</string>
+    <!--Appears in message list view when there's a network error.   Also appears in a toast, in the message viewer, when there's a network error.-->
+    <string name="status_network_error">"Masalah sambungan."</string>
+    <plurals name="move_messages">
+        <!--Text shown with dragged messages to indicate how many are being dragged [CHAR LIMIT=40]-->
+        <item quantity="one">"Pindahkan pesan"</item>
+        <!--Text shown with dragged messages to indicate how many are being dragged [CHAR LIMIT=40]-->
+        <item quantity="other">"Pindahkan pesan"</item>
+    </plurals>
+    <!--Type:String Purpose: Toast shown when a message(s) can't be moved because it's not supported by the POP3 protocol. [CHAR LIMIT=none]
+ ScreenPath:Launcher Menu -> Email-->
+    <string name="cannot_move_protocol_not_supported_toast">"Pemindahan tidak didukung pada akun POP3."</string>
+    <!--Toast shown when messages can't be moved because the selection contains multiple accounts' messages. [CHAR LIMIT=none]-->
+    <string name="cannot_move_multiple_accounts_toast">"Tidak dapat memindah karena pilihan berisi beberapa akun."</string>
+    <!--Toast shown when messages can't be moved because they're in a special mailbox. "Drafts", "Outbox" and "Sent". [CHAR LIMIT=none]-->
+    <string name="cannot_move_special_mailboxes_toast">"Pesan di Konsep, Kotak Keluar, dan Terkirim tidak dapat dipindahkan."</string>
+    <!--The next set of strings are used in local display and may be localized.   In the UI, the inbox will be displayed with this name-->
+    <string name="mailbox_name_display_inbox">"Kotak masuk"</string>
+    <!--In the UI, the outbox will be displayed with this name-->
+    <string name="mailbox_name_display_outbox">"Kotak keluar"</string>
+    <!--In the UI, the drafts will be displayed with this name-->
+    <string name="mailbox_name_display_drafts">"Konsep"</string>
+    <!--In the UI, the trash will be displayed with this name-->
+    <string name="mailbox_name_display_trash">"Sampah"</string>
+    <!--In the UI, the sent will be displayed with this name-->
+    <string name="mailbox_name_display_sent">"Terkirim"</string>
+    <!--In the UI, the junk will be displayed with this name-->
+    <string name="mailbox_name_display_junk">"Rongsokan"</string>
+    <!--In the UI, the starred will be displayed with this name-->
+    <string name="mailbox_name_display_starred">"Berbintang"</string>
+    <!--In the UI, the unread will be displayed with this name [CHAR LIMIT=15]-->
+    <string name="mailbox_name_display_unread">"Blm dbc"</string>
+    <!--The summary section entry in the AccountFolder list to display all inboxes-->
+    <string name="account_folder_list_summary_inbox">"Kotak masuk"</string>
+    <!--The summary section entry in the AccountFolder list to display all starred [CHAR LIMIT=200dip]-->
+    <string name="account_folder_list_summary_starred">"Berbintang"</string>
+    <!--The summary section entry in the AccountFolder list to display all drafts [CHAR LIMIT=200dip]-->
+    <string name="account_folder_list_summary_drafts">"Konsep"</string>
+    <!--The summary section entry in the AccountFolder list to display all outboxes [CHAR LIMIT=200dip]-->
+    <string name="account_folder_list_summary_outbox">"Kotak keluar"</string>
+    <!--Label shown in the account selector to select "Combined view", which contains Combined Inbox, Combined Outbox, etc. [CHAR LIMIT=30]-->
+    <string name="mailbox_list_account_selector_combined_view">"Tampilan kombinasi"</string>
+    <!--Header for forwarded original messages-->
+    <string name="message_compose_fwd_header_fmt">"\n\n-------- Pesan Asli --------\nSubjek: <xliff:g id="subject">%1$s</xliff:g>\nDari: <xliff:g id="sender">%2$s</xliff:g>\nKe: <xliff:g id="to">%3$s</xliff:g>\nCC: <xliff:g id="cc">%4$s</xliff:g>\n\n"</string>
+    <!--Title for dialog containing list of quick responses that user may insert into message body. [CHAR_LIMIT=30]-->
+    <string name="message_compose_insert_quick_response_list_title">"Masukkan tanggapan cepat"</string>
+    <!--Menu item for inserting quick responses into email compose activity. [CHAR_LIMIT=30]-->
+    <string name="message_compose_insert_quick_response_menu_title">"Masukkan tanggapan cepat"</string>
+    <!--Toast upon using "send" when one or more attachments will need to be background loaded [CHAR LIMIT=none]-->
+    <string name="message_view_attachment_background_load">"Satu atau beberapa lampiran dalam pesan yang diteruskan akan diunduh sebelum dikirim."</string>
+    <!--Error banner when an attachment could not be downloaded due to a problem at the server [CHAR LIMIT=100]-->
+    <string name="attachment_not_found">"Tidak dapat mengunduh lampiran."</string>
+    <!--String used in place of a message that could not be properly decoded (e.g. bad base64 data was received.) [CHAR LIMIT=none]-->
+    <string name="message_decode_error">"Terjadi galat saat mengawasandikan pesan."</string>
+    <!--Notification ticker when a forwarded attachment couldn't be sent [CHAR LIMIT=none]-->
+    <string name="forward_download_failed_ticker">"Tidak dapat meneruskan satu lampiran atau lebih."</string>
+    <!--Notification title when a forwarded attachment couldn't be sent [CHAR LIMIT=30]-->
+    <string name="forward_download_failed_title">"Lampiran tidak diteruskan"</string>
+    <!--Type:String Purpose: Notification ticker when email account authentication fails [CHAR LIMIT=none] 
+ ScreenPath:Launcher Menu -> Email-->
+    <string name="login_failed_ticker">"Login <xliff:g id="account_name">%s</xliff:g> tidak berhasil."</string>
+    <!--Notification title when email account authentication fails [CHAR LIMIT=30]-->
+    <string name="login_failed_title">"Tidak dapat masuk"</string>
+    <plurals name="message_view_attachment_bytes">
+        <!--Size unit for bytes for attachments [CHAR LIMIT=10]-->
+        <item quantity="one">"<xliff:g id="SIZE_IN_BYTES">%d</xliff:g>B"</item>
+        <!--Size unit for bytes for attachments [CHAR LIMIT=10]-->
+        <item quantity="other">"<xliff:g id="SIZE_IN_BYTES">%d</xliff:g>B"</item>
+    </plurals>
+    <plurals name="message_view_attachment_kilobytes">
+        <!--Size unit for kilo bytes for attachments [CHAR LIMIT=10]-->
+        <item quantity="one">"<xliff:g id="SIZE_IN_KILOBYTES">%d</xliff:g>KB"</item>
+        <!--Size unit for kilo bytes for attachments [CHAR LIMIT=10]-->
+        <item quantity="other">"<xliff:g id="SIZE_IN_KILOBYTES">%d</xliff:g>KB"</item>
+    </plurals>
+    <plurals name="message_view_attachment_megabytes">
+        <!--Size unit for mega bytes for attachments [CHAR LIMIT=10]-->
+        <item quantity="one">"<xliff:g id="SIZE_IN_MEGABYTES">%d</xliff:g>MB"</item>
+        <!--Size unit for mega bytes for attachments [CHAR LIMIT=10]-->
+        <item quantity="other">"<xliff:g id="SIZE_IN_MEGABYTES">%d</xliff:g>MB"</item>
+    </plurals>
+    <plurals name="message_view_attachment_gigabytes">
+        <!--Size unit for giga bytes for attachments [CHAR LIMIT=10]-->
+        <item quantity="one">"<xliff:g id="SIZE_IN_GIGABYTES">%d</xliff:g>GB"</item>
+        <!--Size unit for giga bytes for attachments [CHAR LIMIT=10]-->
+        <item quantity="other">"<xliff:g id="SIZE_IN_GIGABYTES">%d</xliff:g>GB"</item>
+    </plurals>
+    <!--Title of screen when setting up new email account [CHAR LIMIT=45]-->
+    <string name="account_setup_basics_title">"Penyiapan akun"</string>
+    <!--Type:String Purpose: Title of screen when trying to get oauth authentication 
+ ScreenPath:Launcher Menu -> settings-->
+    <string name="oauth_authentication_title">"Meminta autorisasi"</string>
+    <!--Type:String Purpose: Title of screen to choose with authentication to use 
+ ScreenPath:Launcher Menu -> Email-->
+    <string name="sign_in_title">"Masuk"</string>
+    <!--Type:String Purpose: Warning if there is a problem authenticating with oauth 
+ ScreenPath:Launcher Menu -> Email-->
+    <string name="oauth_error_description">"Tidak dapat mengautentikasi"</string>
+    <!--Type:String Purpose:Update password_warning_label English.
+Update password_warning_label English.
+Update password_warning_label English. ScreenPath:TctEmail-->
+    <string name="password_warning_label">"Alamat email atau sandi salah"</string>
+    <!--Type:String Purpose: Label displayed to confirm what email address we are trying to validate 
+ ScreenPath:Launcher Menu ->Email-->
+    <string name="email_confirmation_label">"Alamat email"</string>
+    <!--Headline of screen when setting up new email account (large text over divider) [CHAR LIMIT=none]-->
+    <string name="account_setup_basics_headline">"Akun email"</string>
+    <!--Type:String Purpose: On "Set up email" screen, enthusiastic welcome message. 
+ ScreenPath:Launcher Menu -> Email-->
+    <string name="accounts_welcome">"Anda bisa menyiapkan akun hanya dalam beberapa langkah."</string>
+    <!--On "Set up email" screen, hint for account email address text field-->
+    <string name="account_setup_basics_email_label">"Alamat email"</string>
+    <!--Type:String Purpose: Label between OAuth and password authentication, indicating the user must do one or the other [CHAR LIMIT=40] 
+ ScreenPath:Launcher Menu -> Email-->
+    <string name="or_label">"ATAU"</string>
+    <!--Type:String Purpose: Label for signing in with Google using OAuth 
+submit the chinese translation to make the application international; ScreenPath:Launcher Menu -> Email-->
+    <string name="sign_in_with_google">"Login dengan Google"</string>
+    <!--Type:String Purpose: On "Set up email" screen, hint for account email password text field, should be uppercase where applicable 
+ ScreenPath:Launcher Menu -> Email-->
+    <string name="account_setup_basics_password_label">"Sandi"</string>
+    <!--Type:String Purpose: hint for account email password text field 
+submit the chinese translation to make the application international; ScreenPath:Launcher Menu -> Email-->
+    <string name="password_hint">"Sandi"</string>
+    <!--Type:String Purpose: On the "Setup up email" screen, label indicating what service we are signed in with [CHAR LIMIT=40] 
+ ScreenPath:Launcher Menu -> Email-->
+    <string name="signed_in_with_service_label">"Login dengan %s"</string>
+    <!---->
+    <string name="authentication_label">"OTENTIKASI"</string>
+    <!--Type:String Purpose: Label for the add authentication icon [CHAR LIMIT=40] 
+ ScreenPath:Launcher Menu -> Email-->
+    <string name="add_authentication_label">"Tambahkan autentikasi"</string>
+    <!--Type:String Purpose: Label for the add authentication icon [CHAR LIMIT=40] 
+ ScreenPath:Launcher Menu ->Email-->
+    <string name="clear_authentication_label">"Hapus autentikasi"</string>
+    <!--Button name on "Set up email" screen, with action underlined using html [CHAR LIMIT=20]-->
+    <string name="account_setup_basics_manual_setup_action">"Pnyiapn mnual"</string>
+    <!--Type:String Purpose: Toast when we can't build a URI from the given email & password Note, the error message in the toast is purposefully vague, because I *don't* know exactly what's wrong. 
+ ScreenPath:Launcher Menu -> Email-->
+    <string name="account_setup_username_password_toast">"Ketik alamat email dan sandi yang valid."</string>
+    <!--Title of dialog shown when a duplicate account is created-->
+    <string name="account_duplicate_dlg_title">"Akun rangkap"</string>
+    <!--Type:String Purpose: Message of dialog shown when a duplicate account is created. The display name of the duplicate account is displayed. 
+ ScreenPath:Launcher Menu -> Email-->
+    <string name="account_duplicate_dlg_message_fmt">"Anda telah menggunakan nama pengguna ini untuk akun \"<xliff:g id="duplicate">%s</xliff:g>\"."</string>
+    <!--String that is displayed as error text for passwords with leading or trailing spaces. [CHAR LIMIT=none]-->
+    <string name="account_password_spaces_error">"Sandi ini diawali atau diakhiri dengan satu karakter spasi atau lebih. Banyak server tidak mendukung sandi dengan spasi."</string>
+    <!--Type:String Purpose: On check-settings screen, this is the initially-displayed message. 
+ ScreenPath:Launcher Menu -> Email-->
+    <string name="account_setup_check_settings_retr_info_msg">"Membuka informasi akun..."</string>
+    <!--Type:String Purpose: Appears on screen while system is checking incoming server settings 
+ ScreenPath:Launcher Menu -> Email-->
+    <string name="account_setup_check_settings_check_incoming_msg">"Memvalidasi pengaturan server..."</string>
+    <!--Type:String Purpose: Appears on screen while system is checking outgoing server settings 
+ ScreenPath:Launcher Menu -> Email-->
+    <string name="account_setup_check_settings_check_outgoing_msg">"Memvalidasi pengaturan SMTP..."</string>
+    <!--Type:String Purpose: Appears on screen while system is creating the account 
+ ScreenPath:Launcher Menu -> Email-->
+    <string name="account_setup_creating_account_msg">"Membuat akun..."</string>
+    <!--Type:String Purpose: Headline text that appears on "Confirm account type" screen [CHAR LIMIT=none] 
+ ScreenPath:Launcher Menu -> Email-->
+    <string name="account_setup_ab_headline">"Konfirmasikan jenis akun"</string>
+    <!--Type:String Purpose: Explanatory text that appears on the "Confirm account type" screen [CHAR LIMIT=none] 
+ ScreenPath:Launcher Menu -> Email-->
+    <string name="account_setup_ab_instructions_format">"Anda menunjukkan  <xliff:g id="email">%1$s</xliff:g> penggunaan <xliff:g id="userProtocol">%2$s</xliff:g>, namun jenis akun mungkin menggunakan <xliff:g id="providerProtocol">%3$s</xliff:g>"</string>
+    <!--Title of "Set up email" screen after success [CHAR LIMIT=45]-->
+    <string name="account_setup_names_title">"Penyiapan akun"</string>
+    <!--MesType:stringPurpose:account_setup_names_headline for emailScreenPath:TctEmail-->
+    <string name="account_setup_names_headline">"Akun Anda telah disiapkan dan email sedang menuju ke sana!"</string>
+    <!--MesType:stringPurpose:account_setup_names_account_name_label for emailScreenPath:TctEmail-->
+    <string name="account_setup_names_account_name_label">"Namai akun ini"</string>
+    <!--MesType:stringPurpose:account_setup_names_user_name_label for emailScreenPath:TctEmail-->
+    <string name="account_setup_names_user_name_label">"Nama Anda"</string>
+    <!--On "Set up email" screen, error pop-up when user_name field is empty [CHAR LIMIT=none]-->
+    <string name="account_setup_names_user_name_empty_error">"Bidang ini wajib diisi."</string>
+    <!--Activity Title for the account type selector (IMAP or POP3 or EAS) [CHAR LIMIT=45]-->
+    <string name="account_setup_account_type_title">"Penyiapan akun"</string>
+    <!--Headline for the the account type selector (IMAP or POP3 or EAS) [CHAR LIMIT=none]-->
+    <string name="account_setup_account_type_headline">"Jenis akun"</string>
+    <!--"Add new email account" screen, text that appears on screen-->
+    <string name="account_setup_account_type_instructions">"Apa jenis akun ini?"</string>
+    <!--"Incoming server settings" screen, title [CHAR LIMIT=45]-->
+    <string name="account_setup_incoming_title">"Penyiapan akun"</string>
+    <!--"Incoming server settings" screen, headline (text over divider) [CHAR LIMIT=none]-->
+    <string name="account_setup_incoming_headline">"Pengaturan server masuk"</string>
+    <!--Type:String Purpose: "Incoming server settings" screen, label for text field, should be uppercase where applicable 
+ ScreenPath:Launcher Menu -> Email-->
+    <string name="account_setup_incoming_username_label">"Nama pengguna"</string>
+    <!--Type:String Purpose: "Incoming server settings" screen, label for text field, should be uppercase where applicable 
+ ScreenPath:Launcher Menu -> Email-->
+    <string name="account_setup_incoming_password_label">"Sandi"</string>
+    <!--Type:String Purpose: "Incoming server settings" screen, label for text field 
+ ScreenPath:Launcher Menu -> Email-->
+    <string name="account_setup_password_subheading">"Sandi"</string>
+    <!--Type:String Purpose: "Incoming server settings" screen, label for text field, should be uppercase where applicable 
+ ScreenPath:Launcher Menu -> Email-->
+    <string name="account_setup_incoming_server_label">"Server"</string>
+    <!--Type:String Purpose: "Incoming server settings" screen, label for text field, should be uppercase where applicable 
+ ScreenPath:Launcher Menu -> Email-->
+    <string name="account_setup_incoming_port_label">"Port"</string>
+    <!--Type:String Purpose: "Incoming server settings" screen, label for pop-up menu, should be uppercase where applicable 
+ ScreenPath:Launcher Menu -> Email-->
+    <string name="account_setup_incoming_security_label">"Jenis keamanan"</string>
+    <!--MesType:StringPurpose:account_setup_incoming_domain_label for Email;ScreenPath:TctEmail-->
+    <string name="account_setup_incoming_domain_label">"Domain"</string>
+    <!--MesType:StringPurpose:account_setup_incoming_add_domain_label for Email;ScreenPath:TctEmail-->
+    <string name="account_setup_incoming_add_domain_label">"Tambah domain"</string>
+    <!--"Incoming server settings" screen, option for "Security type" pop-up menu indicating the desire for an unencrypted session-->
+    <string name="account_setup_incoming_security_none_label">"Tidak ada"</string>
+    <!--Type:String Purpose: "Incoming server settings" screen, option for "Security type" pop-up menu indicating the desire for an encrypted session on the selected port, accepting all SSL certificates 
+ ScreenPath:Launcher Menu -> Email-->
+    <string name="account_setup_incoming_security_ssl_trust_certificates_label">"SSL/TLS (Terima semua sertifikat)"</string>
+    <!--"Incoming server settings" screen, option for "Security type" pop-up menu indicating the desire for an encrypted session on the selected port, including SSL certificate checks-->
+    <string name="account_setup_incoming_security_ssl_label">"SSL/TLS"</string>
+    <!--Type:String Purpose: "Incoming server settings" screen, option for "Security type" pop-up menu indicating the desire for an encrypted session overlaid on a plain text session using the selected port, accepting all SSL certificates 
+ ScreenPath:Launcher M-->
+    <string name="account_setup_incoming_security_tls_trust_certificates_label">"STARTTLS (menerima semua sertifikat)"</string>
+    <!--"Incoming server settings" screen, option for "Security type" pop-up menu indicating the desire for an encrypted session overlaid on a plain text session on the selected port, including SSL certificate checks-->
+    <string name="account_setup_incoming_security_tls_label">"STARTTLS"</string>
+    <!--"Incoming server settings" screen, label for pop-up menu-->
+    <string name="account_setup_incoming_delete_policy_label">"Hapus email dari server"</string>
+    <!--"Incoming server settings" screen, options in pop-up menu for Delete email from server:   "Incoming server settings" screen, options in pop-up menu for Delete email from server:-->
+    <string name="account_setup_incoming_delete_policy_never_label">"Tidak pernah"</string>
+    <!--Type:String Purpose: "Incoming server settings" screen, options in pop-up menu for Delete email from server: 
+ ScreenPath:Launcher Menu -> Email-->
+    <string name="account_setup_incoming_delete_policy_delete_label">"Saat m\'hapus dr Ktk Msk"</string>
+    <!--"Incoming server settings" screen, label for setting IMAP path prefix:-->
+    <string name="account_setup_incoming_imap_path_prefix_label">"Awalan jalur IMAP"</string>
+    <!--"Incoming server settings" screen, hint for setting IMAP path prefix:-->
+    <string name="account_setup_incoming_imap_path_prefix_hint">"Opsional"</string>
+    <!--"Outgoing server settings" screen, title [CHAR LIMIT=45]-->
+    <string name="account_setup_outgoing_title">"Penyiapan akun"</string>
+    <!--"Outgoing server settings" screen, headline (text over divider) [CHAR LIMIT=none]-->
+    <string name="account_setup_outgoing_headline">"Pengaturan server keluar"</string>
+    <!--Type:String Purpose: On "Outgoing server settings" screen, label for text field, should be uppercase where applicable 
+ ScreenPath:Launcher Menu -> Email-->
+    <string name="account_setup_outgoing_smtp_server_label">"Server SMTP"</string>
+    <!--Type:String Purpose: On "Outgoing server settings" screen, label for text field, should be uppercase where applicable 
+ ScreenPath:Launcher Menu -> Email-->
+    <string name="account_setup_outgoing_port_label">"Port"</string>
+    <!--Type:String Purpose: On "Outgoing server settings" screen, label for pop-up menu, should be uppercase where applicable 
+ ScreenPath:Launcher Menu -> Email-->
+    <string name="account_setup_outgoing_security_label">"Jenis keamanan"</string>
+    <!--On "Outgoing server settings" screen, label for check box, should be uppercase where applicable-->
+    <string name="account_setup_outgoing_require_login_label">"Harus masuk"</string>
+    <!--Type:String Purpose: On "Outgoing server settings" screen, label for text field, should be uppercase where applicable
+ ScreenPath:Launcher Menu -> Email-->
+    <string name="account_setup_outgoing_username_label">"Nama pengguna"</string>
+    <!--Type:String Purpose: On "Outgoing server settings" screen, label for text field, should be uppercase where applicable 
+ ScreenPath:Launcher Menu -> Email-->
+    <string name="account_setup_outgoing_password_label">"Sandi"</string>
+    <!--Type:String Purpose: On "Exchange" setup screen, a heading title for the current client certificate, should be uppercase where applicable [CHAR LIMIT=50] 
+ ScreenPath:Launcher Menu -> Email-->
+    <string name="account_setup_exchange_certificate_title">"Sertifikat klien"</string>
+    <!--On "Exchange" setup screen, a button label to include a client certificate [CHAR LIMIT=35]-->
+    <string name="account_setup_exchange_select_certificate">"Pilih"</string>
+    <!--On "Exchange" setup screen, a button label to include a client certificate [CHAR LIMIT=35]-->
+    <string name="account_setup_exchange_use_certificate">"Gunakan sertifikat klien"</string>
+    <!--On "Exchange" setup screen, a button label to remove the currently used client certificate [CHAR LIMIT=35]-->
+    <string name="account_setup_exchange_remove_certificate">"Hapus"</string>
+    <!--On "Exchange" setup screen, placeholder text to indicate no client certificate is used [CHAR LIMIT=50]-->
+    <string name="account_setup_exchange_no_certificate">"Tidak ada"</string>
+    <!--Type:String Purpose: On "Exchange" setup screen, the exchange device-id label, should be uppercase where applicable [CHAR LIMIT=30] 
+ ScreenPath:Launcher Menu -> Email-->
+    <string name="account_setup_exchange_device_id_label">"ID Perangkat Seluler"</string>
+    <!--In Account setup options screen, Activity title [CHAR LIMIT=45]-->
+    <string name="account_setup_options_title">"Pengaturan akun"</string>
+    <!--In Account setup options screen, Activity headline [CHAR LIMIT=none]-->
+    <string name="account_setup_options_headline">"Opsi akun"</string>
+    <!--Type:String Purpose: In Account setup options screen, label for email check frequency selector 
+ ScreenPath:Launcher Menu -> Email-->
+    <string name="account_setup_options_mail_check_frequency_label">"Frekuensi sinkronisasi:"</string>
+    <!--In Account setup options & Account Settings screens, label for email check frequency option-->
+    <string name="account_setup_options_mail_check_frequency_never">"Tidak pernah"</string>
+    <!--In Account setup options & Account Settings screens, label for email check frequency option-->
+    <string name="account_setup_options_mail_check_frequency_push">"Otomatis (Dorong)"</string>
+    <!--In Account setup options & Account Settings screens, email check frequency option-->
+    <string name="account_setup_options_mail_check_frequency_5min">"Setiap 5 menit"</string>
+    <!--In Account setup options & Account Settings screens, email check frequency option-->
+    <string name="account_setup_options_mail_check_frequency_10min">"Setiap 10 menit"</string>
+    <!--In Account setup options & Account Settings screens, email check frequency option-->
+    <string name="account_setup_options_mail_check_frequency_15min">"Setiap 15 menit"</string>
+    <!--In Account setup options & Account Settings screens, email check frequency option-->
+    <string name="account_setup_options_mail_check_frequency_30min">"Setiap 30 menit"</string>
+    <!--In Account setup options & Account Settings screens, email check frequency option-->
+    <string name="account_setup_options_mail_check_frequency_1hour">"Setiap jam"</string>
+    <!--Type:String Purpose: In Account setup options & Account Settings screens, check box for new-mail notification 
+ ScreenPath:Launcher Menu -> Email-->
+    <string name="account_setup_options_notify_label">"Beri tahu saya ketika email tiba"</string>
+    <!--Type:String Purpose: In Account setup options screen, optional check box to also sync contacts 
+ ScreenPath:Launcher Menu -> Email-->
+    <string name="account_setup_options_sync_contacts_label">"Sinkronisasi kenalan dari akun ini."</string>
+    <!--Type:String Purpose: In Account setup options screen, optional check box to also sync contacts 
+ ScreenPath:Launcher Menu -> Email-->
+    <string name="account_setup_options_sync_calendar_label">"Sinkronkan kalender dari akun ini."</string>
+    <!--Type:String Purpose: In Account setup options screen, check box to sync email 
+ ScreenPath:Launcher Menu -> Email-->
+    <string name="account_setup_options_sync_email_label">"Sinkronkan email dari akun ini."</string>
+    <!--Type:String Purpose: In Account setup options screen, check box to auto-download attachments [CHAR LIMIT=none] 
+ ScreenPath:Launcher Menu -> Email-->
+    <string name="account_setup_options_background_attachments_label">"Unduh lampiran secara otomatis ketika tersambung dengan Wi-Fi"</string>
+    <!--Dialog title when "setup" could not finish-->
+    <string name="account_setup_failed_dlg_title">"Tdk bs slesaikn"</string>
+    <!--Type:String Purpose: In Account setup options screen, label for email lookback selector 
+ ScreenPath:Launcher Menu -> Email-->
+    <string name="account_setup_options_mail_window_label">"Menyinkronkan email dari:"</string>
+    <!--In account setup options & account settings screens (exchange), sync window length; this implies loading a 'reasonable' number of messages [CHAR LIMIT=25]-->
+    <string name="account_setup_options_mail_window_auto">"Otomatis"</string>
+    <!--A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]-->
+    <string name="account_setup_options_mail_window_1day">"Kemarin"</string>
+    <!--A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]-->
+    <string name="account_setup_options_mail_window_3days">"Tiga hari yang lalu"</string>
+    <!--A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]-->
+    <string name="account_setup_options_mail_window_1week">"Minggu lalu"</string>
+    <!--A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]-->
+    <string name="account_setup_options_mail_window_2weeks">"Dua minggu yang lalu"</string>
+    <!--A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]-->
+    <string name="account_setup_options_mail_window_1month">"Bulan lalu"</string>
+    <!--A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]-->
+    <string name="account_setup_options_mail_window_all">"Semua"</string>
+    <!--Type:String Purpose: Per-mailbox sync window setting. This means "use the account's sync window setting" [CHAR LIMIT=40] 
+ ScreenPath:Launcher Menu -> Email-->
+    <string name="account_setup_options_mail_window_default">"Menggunakan akun default"</string>
+    <!--"Setup could not finish" dialog text; e.g., Username or password incorrect-->
+    <string name="account_setup_failed_dlg_auth_message">"Nama pengguna atau sandi salah."</string>
+    <!--"Setup could not finish" dialog text; e.g., Username or password incorrect\n(ERR01 Account does not exist)-->
+    <string name="account_setup_failed_dlg_auth_message_fmt">"Login gagal.\n(<xliff:g id="error">%s</xliff:g>)"</string>
+    <!--Account setup autodiscover auth failure dialog title. This is shown when autodiscover hits an "access denied" server error, which could imply incorrect username/password or that no autodiscover service has been configured for the domain [CHAR LIMIT=40]-->
+    <string name="account_setup_autodiscover_dlg_authfail_title">"Masalah dengan persiapan akun"</string>
+    <!--Type:String Purpose: Account setup autodiscover auth failure dialog message. This is shown when autodiscover hits an "access denied" server error, which could imply incorrect username/password or that no autodiscover service has been configured for the do-->
+    <string name="account_setup_autodiscover_dlg_authfail_message">"Konfirmasikan bahwa pengaturan nama pengguna, sandi, dan akun sudah benar."</string>
+    <!--MesType:StringPurpose:An error message presented to the user when the server's identity cannot be established or trustedScreenPath:TctEmail-->
+    <string name="account_setup_failed_dlg_certificate_message">"Tidak dapat membuat koneksi dengan server karena sertifikat tidak dipercaya atau tidak valid."</string>
+    <!--[BUGFIX]-Add-END by TCTNJ,chuang.wang  An error message presented to the user when the server's identity cannot be established or trusted [CHAR LIMIT=NONE]-->
+    <string name="account_setup_failed_dlg_certificate_message_fmt">"Tidak dapat tersambung ke server dengan aman.\n(<xliff:g id="ERROR">%s</xliff:g>)"</string>
+    <!--An error message presented to the user when the server requires a client certificate to connect [CHAR LIMIT=NONE]-->
+    <string name="account_setup_failed_certificate_required">"Diperlukan sertifikat klien. Apakah Anda ingin menyambung ke server dengan sertifikat klien?"</string>
+    <!--An error message presented to the user when the certificate they specified for connecting to a server is inaccessible [CHAR LIMIT=NONE]-->
+    <string name="account_setup_failed_certificate_inaccessible">"Sertifikat tidak valid atau tidak dapat diakses."</string>
+    <!--Type:String Purpose: Dialog text for ambiguous setup failure; server error/bad credentials [CHAR LIMIT=none] 
+ ScreenPath:Launcher Menu -> Email-->
+    <string name="account_setup_failed_check_credentials_message">"Server merespons dengan kesalahan. Silakan periksa nama pengguna dan sandi dan coba lagi."</string>
+    <!--"Setup could not finish" dialog text; e.g., Cannot connect to server-->
+    <string name="account_setup_failed_dlg_server_message">"Tidak dapat tersambung ke server."</string>
+    <!--"Setup could not finish" dialog text; e.g., Cannot connect to server\n(Connection timed out)-->
+    <string name="account_setup_failed_dlg_server_message_fmt">"Tidak dapat menyambung ke server.\n(<xliff:g id="ERROR">%s</xliff:g>)"</string>
+    <!--Additional diagnostic text when TLS was required but the server doesn't support it-->
+    <string name="account_setup_failed_tls_required">"TLS diperlukan tetapi tidak didukung oleh server."</string>
+    <!--Additional diagnostic text when server does not support any of our authentication methods-->
+    <string name="account_setup_failed_auth_required">"Metode autentikasi tidak didukung oleh server."</string>
+    <!--Type:String Purpose:update account_setup_failed_security English and Chinese
+update account_setup_failed_security English and Chinese
+update account_setup_failed_security English and Chinese ScreenPath:TctEmail-->
+    <string name="account_setup_failed_security">"Tidak dapat membuka sambungan ke server karena kesalahan keamanan."</string>
+    <!--Additional diagnostic text when server connection failed due to io error (connection)-->
+    <string name="account_setup_failed_ioerror">"Tidak dapat membuka koneksi ke server."</string>
+    <!--Type:String Purpose: Additional diagnostic text when server connection failed due to our inability to support a required EAS protocol version [CHAR LIMIT=none] 
+ ScreenPath:Launcher Menu -> Email-->
+    <string name="account_setup_failed_protocol_unsupported">"Anda mengetikkan alamat server yang salah atau server memerlukan versi protokol yang tidak didukung Email."</string>
+    <!--Type:String Purpose: Additional diagnostic text when server access was denied; the user should contact the administrator of the server for more information [CHAR LIMIT=none] 
+ ScreenPath:Launcher Menu -> Email-->
+    <string name="account_setup_failed_access_denied">"Anda tidak memiliki izin untuk menyinkronkan dengan server ini. Hubungi administrator server untuk informasi lebih lanjut."</string>
+    <!--Dialog title when validation requires security provisioning (e.g. support for device lock PIN, or remote wipe.) and we ask the user permission before continuing-->
+    <string name="account_setup_security_required_title">"Administrasi keamanan jarak jauh"</string>
+    <!--Type:String Purpose: Additional diagnostic text when validation requires security provisioning (e.g. support for device lock PIN, or remote wipe.) and we ask the user permission before continuing. [CHAR LIMIT=none] 
+ ScreenPath:Launcher Menu -> Email-->
+    <string name="account_setup_security_policies_required_fmt">"Server <xliff:g id="SERVER">%s</xliff:g> meminta Anda mengizinkannya mengontrol beberapa fitur keamanan perangkat Android dari jarak jauh. Apakah Anda ingin menyelesaikan penyiapan akun ini?"</string>
+    <!--Type:String Purpose: Additional diagnostic text when validation failed due to required provisioning not being supported [CHAR LIMIT=none] 
+ ScreenPath:Launcher Menu -> Email-->
+    <string name="account_setup_failed_security_policies_unsupported">"Server ini memerlukan fitur keamanan yang tidak didukung perangkat Android Anda, termasuk: <xliff:g id="ERROR">%s</xliff:g>"</string>
+    <!--The user name can only be changed during initial account setup. [CHAR LIMIT=none]-->
+    <string name="account_setup_username_uneditable_error">"Anda tidak dapat mengubah nama pengguna akun. Untuk menambahkan akun dengan nama pengguna lain, sentuh Tambahkan Akun."</string>
+    <!--Warning given to users when they request disabling device administration (i.e. that their administered accounts will be deleted) [CHAR LIMIT=none]-->
+    <string name="disable_admin_warning">"PERINGATAN: Menonaktifkan otoritas apl email untuk mengelola perangkat Anda akan menghapus semua akun email yang memerlukannya, disertai email, kenalan, kalender, acara, dan data lainnya."</string>
+    <!--Dialog shown when the account requires some amount of device security provisioning, just before jumping into system settings such as Device Policy grant, PIN/password, or encryption setup. [CHAR_LIMIT=40]-->
+    <string name="account_security_dialog_title">"Pembaruan keamanan"</string>
+    <!--Type:String Purpose: Additional diagnostic text when the account requires some amount of device security provisioning, just before jumping into system settings such as Device Policy grant, PIN/password, or encryption setup. [CHAR LIMIT=none] 
+ ScreenPath-->
+    <string name="account_security_dialog_content_fmt">"<xliff:g id="account">%s</xliff:g> mengharuskan Anda memperbarui pengaturan keamanan."</string>
+    <!--Type:String Purpose: Notification ticker when device security required (note: unused in Holo XL) 
+ ScreenPath:Launcher Menu -> Email-->
+    <string name="security_unsupported_ticker_fmt">"Akun \"<xliff:g id="account">%s</xliff:g>\" tidak bisa disinkronkan karena ada persyaratan keamanan."</string>
+    <!--Type:String Purpose: Notification ticker when device security required (note: unused in Holo XL) 
+ ScreenPath:Launcher Menu -> Email-->
+    <string name="security_needed_ticker_fmt">"Akun \"<xliff:g id="account">%s</xliff:g>\" memerlukan pembaruan setelan keamanan."</string>
+    <!--Type:String Purpose: Notification ticker when device security required (note: unused in Holo XL) 
+ ScreenPath:Launcher Menu -> Email-->
+    <string name="security_changed_ticker_fmt">"Akun \"<xliff:g id="account">%s</xliff:g>\" mengubah pengaturan keamanannya, tidak ada tindakan pengguna yang diperlukan."</string>
+    <!--Notification content title when device security required [CHAR_LIMIT=30]-->
+    <string name="security_notification_content_update_title">"Perlu pemutakhiran keamanan"</string>
+    <!--Notification content title when device security policies have changed [CHAR_LIMIT=36]-->
+    <string name="security_notification_content_change_title">"Kebijakan keamanan telah diubah"</string>
+    <!--Notification content title when device security policies cannot be met [CHAR_LIMIT=30]-->
+    <string name="security_notification_content_unsupported_title">"Kebijakan keamanan tidak terpenuhi"</string>
+    <!--Title of the activity that dispatches changes to device security. Not normally seen.-->
+    <string name="account_security_title">"Keamanan Perangkat"</string>
+    <!--Type:String Purpose: Additional diagnostic text when the email app asserts control of the phone. [CHAR LIMIT=none] 
+ ScreenPath:Launcher Menu -> Email-->
+    <string name="account_security_policy_explanation_fmt">"Server <xliff:g id="SERVER">%s</xliff:g> meminta Anda mengizinkannya mengontrol beberapa fitur keamanan perangkat Android dari jarak jauh."</string>
+    <!--"Setup could not finish" dialog action button-->
+    <string name="account_setup_failed_dlg_edit_details_action">"Edit detail"</string>
+    <!--Type:String Purpose: Notification ticker when device password is getting ready to expire [CHAR_LIMIT=80] 
+ ScreenPath:Launcher Menu -> Email-->
+    <string name="password_expire_warning_ticker_fmt">"\"<xliff:g id="ACCOUNT">%s</xliff:g>\" mengharuskan Anda mengubah PIN atau sandi pengunci layar."</string>
+    <!--Notification content title when device password is getting ready to expire [CHAR_LIMIT=30]-->
+    <string name="password_expire_warning_content_title">"Sandi pengunci layar akan kedaluwarsa"</string>
+    <!--Notification ticker when device password has expired [CHAR_LIMIT=80]-->
+    <string name="password_expired_ticker">"PIN atau sandi pengunci layar Anda kedaluwarsa."</string>
+    <!--Notification content title when device password has expired [CHAR_LIMIT=28]-->
+    <string name="password_expired_content_title">"Sandi pengunci layar kedaluwarsa"</string>
+    <!--Dialog title if device pin/password is going to expire soon. [CHAR_LIMIT=40]-->
+    <string name="password_expire_warning_dialog_title">"Sandi pengunci layar akan kedaluwarsa"</string>
+    <!--Type:String Purpose: Dialog content device pin/password is going to expire soon. [CHAR_LIMIT=none] 
+ ScreenPath:Launcher Menu -> Email-->
+    <string name="password_expire_warning_dialog_content_fmt">"Anda perlu mengubah PIN atau sandi layar penguncian, atau data untuk <xliff:g id="account">%s</xliff:g> akan dihapus. Anda ingin mengubahnya sekarang?"</string>
+    <!--Dialog title if device pin/password has already expired. [CHAR_LIMIT=40]-->
+    <string name="password_expired_dialog_title">"Sandi pengunci layar kedaluwarsa"</string>
+    <!--Type:String Purpose: Dialog content device pin/password has already expired. [CHAR_LIMIT=none] 
+ ScreenPath:Launcher Menu -> Email-->
+    <string name="password_expired_dialog_content_fmt">"Data <xliff:g id="account">%s</xliff:g> sedang dihapus dari perangkat Anda. Anda dapat memulihkannya dengan mengubah PIN atau sandi layar penguncian. Anda ingin mengubahnya sekarang?"</string>
+    <!--On AccountSettingsXL, dialog text if you try to exit in/out/eas fragment (server settings) without checking/saving [CHAR LIMIT=none]-->
+    <string name="account_settings_exit_server_settings">"Buang perubahan yang tidak tersimpan?"</string>
+    <!--On AccountSettingsXL, dialog title if you were brought here due to a login failure. [CHAR_LIMIT=40]-->
+    <string name="account_settings_login_dialog_title">"Tidak dapat masuk"</string>
+    <!--Type:String Purpose: Dialog content if you were brought here due to a login failure. [CHAR_LIMIT=none] 
+ ScreenPath:Launcher Menu -> Email-->
+    <string name="account_settings_login_dialog_content_fmt">"Nama pengguna atau sandi untuk <xliff:g id="ACCOUNT">%s</xliff:g> salah. Mutakhirkan keduanya sekarang?"</string>
+    <!--Type:String Purpose: Dialog content if you were brought here due to a login failure, and the server provided a reason [CHAR_LIMIT=none] 
+ ScreenPath:Launcher Menu -> Email-->
+    <string name="account_settings_login_dialog_reason_fmt">"Gagal log in ke <xliff:g id="account">%s</xliff:g>; menurut server: <xliff:g id="reason">%s</xliff:g> Anda ingin memperbarui nama pengguna atau sandi?"</string>
+    <!--Type:String Purpose: On Settings screen, setting option name Title of account preference for downloading attachments in background [CHAR LIMIT=32] 
+ ScreenPath:Launcher Menu -> Email-->
+    <string name="account_settings_background_attachments_label">"Unduh lampiran"</string>
+    <!--Type:String Purpose: Summary of account preference for downloading attachments in background [CHAR LIMIT=64] 
+ ScreenPath:Launcher Menu -> Email-->
+    <string name="account_settings_background_attachments_summary">"Unduh-otomatis lampiran pada pesan terbaru melalui WiFi"</string>
+    <!---->
+    <string name="account_settings_notify_label">"Email pemberitahuan"</string>
+    <!--On Settings screen, summary line when called via AccountManager for Exchange accounts [CHAR LIMIT=50]-->
+    <string name="account_settings_summary">"Sinkronkan frekuensi, pemberitahuan, dll."</string>
+    <!--Type:String Purpose: On Settings screen, setting summary text;submit the chinese translation to make the application international; ScreenPath:Launcher Menu -> Email-->
+    <string name="account_settings_notify_summary">"Mengirim pemberitahuan ketika email masuk"</string>
+    <!--On Settings screen, setting option name and title of dialog box that opens-->
+    <string name="account_settings_mail_check_frequency_label">"Frekuensi sinkronisasi"</string>
+    <!--On Settings screen, setting option name-->
+    <string name="account_settings_incoming_label">"Pengaturan masuk"</string>
+    <!--Type:String Purpose: On Settings screen, setting option summary [CHAR LIMIT=64] 
+ ScreenPath:Launcher Menu -> Email-->
+    <string name="account_settings_incoming_summary">"Nama pengguna, sandi, dan pengaturan server masuk lainnya"</string>
+    <!--On Settings screen, setting option name-->
+    <string name="account_settings_outgoing_label">"Pengaturan keluar"</string>
+    <!--Type:String Purpose: On Settings screen, setting option summary [CHAR LIMIT=64] 
+ ScreenPath:Launcher Menu -> Email-->
+    <string name="account_settings_outgoing_summary">"Nama pengguna, sandi, dan pengaturan server keluar lainnya"</string>
+    <!--On Settings screen, setting option name-->
+    <string name="account_settings_enforced_label">"Kebijakan ditegakkan"</string>
+    <!--On Settings screen, setting option summary [CHAR LIMIT=64]-->
+    <string name="account_settings_enforced_summary">"Tidak ada"</string>
+    <!--On Settings screen, setting option name-->
+    <string name="account_settings_unsupported_label">"Kebijakan tidak didukung"</string>
+    <!--On Settings screen, setting option summary [CHAR LIMIT=64]-->
+    <string name="account_settings_unsupported_summary">"Tidak ada"</string>
+    <!--On Settings screen, label for button that attempts to sync the account-->
+    <string name="account_settings_retry_label">"Percobaan sinkronisasi"</string>
+    <!--On Settings screen, summmary for button that attempts to sync an account [CHAR LIMIT=64]-->
+    <string name="account_settings_retry_summary">"Sentuh untuk sinkronisasi akun ini"</string>
+    <!--On Settings screen, setting option name-->
+    <string name="account_settings_description_label">"Nama akun"</string>
+    <!--On Settings screen, setting option name-->
+    <string name="account_settings_name_label">"Nama Anda"</string>
+    <!--On Settings screen, setting option name. Allows user to modify saved quick responses for insertion in message body. [CHAR_LIMIT=24]-->
+    <string name="account_settings_edit_quick_responses_label">"Tanggapan cepat"</string>
+    <!--Type:String Purpose: On Settings screen, setting option summary [CHAR LIMIT=64] 
+ ScreenPath:Launcher Menu -> Email-->
+    <string name="account_settings_edit_quick_responses_summary">"Edit teks yang sering Anda masukkan ketika membuat email"</string>
+    <!--On Settings screen, section heading-->
+    <string name="account_settings_notifications">"Pengaturan pemberitahuan"</string>
+    <!--On Settings screen, section heading for data usage [CHAR LIMIT=70]-->
+    <string name="account_settings_data_usage">"Penggunaan data"</string>
+    <!--On Settings screen, section heading-->
+    <string name="account_settings_policies">"Kebijakan keamanan"</string>
+    <!---->
+    <string name="system_folders_title">"Folder sistem"</string>
+    <!---->
+    <string name="system_folders_trash_title">"Folder sampah"</string>
+    <!---->
+    <string name="system_folders_trash_summary">"Pilih folder sampah di server"</string>
+    <!---->
+    <string name="system_folders_trash_dlg">"Pilih folder sampah di server"</string>
+    <!---->
+    <string name="system_folders_sent_title">"Folder item terkirim"</string>
+    <!---->
+    <string name="system_folders_sent_summary">"Pilih folder item terkirim di server"</string>
+    <!---->
+    <string name="system_folders_sent_dlg">"Pilih folder item terkirim di server"</string>
+    <!--Type:String Purpose: On settings screen, dialog heading informing user to create or edit a quick response 
+ ScreenPath:Launcher Menu -> Email-->
+    <string name="edit_quick_response_dialog">"Tanggapan cepat"</string>
+    <!--On settings screen, edit quick response dialog's "save" button-->
+    <string name="save_action">"Simpan"</string>
+    <!--On settings screen, sync contacts check box label [CHAR LIMIT=20]-->
+    <string name="account_settings_sync_contacts_enable">"Sinkronkan kontak"</string>
+    <!--On settings screen, sync contacts summary text [CHAR LIMIT=35]-->
+    <string name="account_settings_sync_contacts_summary">"Sinkronkan kenalan untuk akun ini"</string>
+    <!--Type:String Purpose: On settings screen, sync calendar check box label [CHAR LIMIT=20]
+ ScreenPath:Launcher Menu -> Email-->
+    <string name="account_settings_sync_calendar_enable">"Sinkronkan Kalender"</string>
+    <!--Type:String Purpose: On settings screen, sync calendar summary text [CHAR LIMIT=50] 
+ ScreenPath:Launcher Menu -> Email-->
+    <string name="account_settings_sync_calendar_summary">"Sinkronkan peristiwa kalender untuk akun ini"</string>
+    <!--On settings screen, sync email check box label [CHAR LIMIT=20]-->
+    <string name="account_settings_sync_email_enable">"Sinkronkan email"</string>
+    <!--On settings screen, sync email summary text [CHAR LIMIT=35]-->
+    <string name="account_settings_sync_email_summary">"Sinkronkan email untuk akun ini"</string>
+    <!--On Settings screen, vibrate pop-up menu label-->
+    <string name="account_settings_vibrate_when_label">"Getar"</string>
+    <!--On Settings screen, setting option name-->
+    <string name="account_settings_ringtone">"Pilih nada dering"</string>
+    <!--On Settings screen, section heading-->
+    <string name="account_settings_servers">"Pengaturan server"</string>
+    <!--MesType:StringPurpose:default_ringtone for Email;ScreenPath:TctEmail-->
+    <string name="default_ringtone">"Nada dering asali"</string>
+    <!--Mailbox settings activity title [CHAR LIMIT=none]-->
+    <string name="mailbox_settings_activity_title">"Opsi sinkronisasi"</string>
+    <!--Mailbox settings activity title, with the target folder name [CHAR LIMIT=none]-->
+    <string name="mailbox_settings_activity_title_with_mailbox">"Opsi sinkronisasi (<xliff:g id="MAILBOXX_NAME">%s</xliff:g>)"</string>
+    <!--On mailbox settings screen: Whether to sync this mailbox when the account syncs.-->
+    <string name="mailbox_settings_sync_enabled_label">"Sinkronkan folder ini"</string>
+    <!--Type:String Purpose: On mailbox settings screen: Explanatory text for what it means to "sync this folder". 
+ ScreenPath:Launcher Menu -> Email-->
+    <string name="mailbox_settings_sync_enabled_summary">"Pesan akan diunduh saat dihubungkan."</string>
+    <!--Type:String Purpose: On mailbox settings screen: Mailbox sync window (the number of days to synchronize email for) setting label [CHAR LIMIT=none] 
+ ScreenPath:Launcher Menu -> Email-->
+    <string name="mailbox_settings_mailbox_sync_window_label">"Banyaknya hari untuk mensinkronkan"</string>
+    <!--Dialog title for the choosing whether to show checkboxes or sender image [CHAR LIMIT=200]-->
+    <string name="prefDialogTitle_conversationListIcon">"Gambar pengirim"</string>
+    <!--Message that appears when adding a Windows Live Hotmail Plus account-->
+    <string name="provider_note_live">"Hanya beberapa akun \"Plus\" termasuk akses POP yang mengizinkan program ini tersambung. Jika tidak dapat masuk dengan sandi dan alamat email yang benar, Anda mungkin tidak memiliki akun \"Plus\" berbayar. Luncurkan browser web untuk mendapat akses ke akun email ini."</string>
+    <!--Message that appears when adding a T-Online account-->
+    <string name="provider_note_t_online">"Sebelum menyiapkan akun email ini, kunjungi situs web T-Online dan buat sandi untuk akses email POP3."</string>
+    <!--Name of Microsoft Exchange account type; used by AccountManager-->
+    <string name="exchange_name">"Perusahaan"</string>
+    <!--Name of Microsoft Exchange account type; used by AccountManager-->
+    <string name="exchange_name_alternate">"Microsoft Exchange ActiveSync"</string>
+    <!--Message that appears if the AccountManager cannot create the system Account-->
+    <string name="system_account_create_failed">"Tidak dapat membuat akun. Coba lagi."</string>
+    <!--Strings that support the DeviceAdmin / DevicePolicyManager API   Name of the DeviceAdmin (seen in settings & in user confirmation screen)-->
+    <string name="device_admin_label">"Email"</string>
+    <!--Long-form description of the DeviceAdmin (2nd line in settings & in user conf. screen)-->
+    <string name="device_admin_description">"Mengaktifkan kebijakan keamanan yang ditentukan oleh server"</string>
+    <!--Settings activity title [CHAR LIMIT=40]-->
+    <string name="settings_activity_title">"Pengaturan"</string>
+    <!--General Preferences Screen   Label in preferences header to describe general preferences [CHAR LIMIT=32]-->
+    <string name="header_label_general_preferences">"Setelan umum"</string>
+    <!--General preference: Label of the setting for requiring confirmation before message deletion [CHAR LIMIT=32]-->
+    <string name="general_preference_confirm_delete_label">"Konfirm sblm m\'hapus"</string>
+    <!--General preference: Description of the setting for requiring confirmation before message deletion [CHAR LIMIT=64]   General preference: Label of the setting for requiring confirmation before message sending [CHAR LIMIT=32]-->
+    <string name="general_preference_confirm_send_label">"Konfirm sblm mengirim"</string>
+    <!--General preference: Description of the setting for requiring confirmation before message sending [CHAR LIMIT=32]   Generic string shown instead of regular numbers, when a number is larger than 999. This should not be altered if the original string ("999+"-->
+    <string name="more_than_999">"999+"</string>
+    <!--The hint used in the search box when searching all mailboxes [CHAR LIMIT=35]-->
+    <string name="search_hint">"Telusuri email"</string>
+    <!--A policy disallowing the user of the device's camera [CHAR LIMIT=50]-->
+    <string name="policy_dont_allow_camera">"Dilarang menggunakan kamera pada perangkat"</string>
+    <!--A policy requiring a device lock screen password [CHAR LIMIT=50]-->
+    <string name="policy_require_password">"Perlu kata sandi untuk perangkat"</string>
+    <!--A policy disallowing the reuse of recent passwords [CHAR LIMIT=50]-->
+    <string name="policy_password_history">"Perketat penggunaan dari kata sandi baru-baru ini"</string>
+    <!--A policy that forces a password to expire after a set period of time [CHAR LIMIT=50]-->
+    <string name="policy_password_expiration">"Perlu kata sandi untuk mengakhiri"</string>
+    <!--A policy requiring a maximum amount of time the device can sit idle before the lock screen is activated [CHAR LIMIT=50]-->
+    <string name="policy_screen_timeout">"Perlu perangkat yang sedang diam untuk dikunci layarnya"</string>
+    <!--A policy limiting the number of old calendar events synced [CHAR LIMIT=50]-->
+    <string name="policy_calendar_age">"Batasi jumlah acara di kalender yang disinkronkan"</string>
+    <!--A policy limiting the number of emails synced [CHAR LIMIT=50]-->
+    <string name="policy_email_age">"Batasi jumlah email yang disinkronkan"</string>
+    <!--The four strings below represent "quick responses" which the user can insert into a message being composed with just a couple of taps. These four responses MUST be defined, but need not include a string (i.e. they are optional). Further, the responses can-->
+    <string name="quick_1">"Terima kasih!"</string>
+    <!--A "quick response", i.e. a quick reply to a received mail [CHAR LIMIT=NONE]-->
+    <string name="quick_2">"Boleh juga!"</string>
+    <!--A "quick response", i.e. a quick reply to a received mail [CHAR LIMIT=NONE]-->
+    <string name="quick_3">"Nanti saya baca dan saya kabari Anda."</string>
+    <!--Type:String Purpose: A "quick response", i.e. a quick reply to a received mail [CHAR LIMIT=NONE] 
+ ScreenPath:Launcher Menu -> Email-->
+    <string name="quick_4">"Ayo ketemuan untuk membahas ini."</string>
+    <!--This is the message warning the user that they must sync manually when roaming. [CHAR LIMIT=none]-->
+    <string name="require_manual_sync_message">"Sinkronisasi latar belakang untuk akun ini dinonaktifkan saat roaming."</string>
+    <!--This is shown when a user responds to a meeting invitation [CHAR LIMIT=none]-->
+    <string name="confirm_response">"Mengirim jawaban..."</string>
+    <!--Displayed in the middle of the screen when the inbox is empty [CHAR LIMIT 100]-->
+    <string name="no_conversations">"Tidak ada pesan."</string>
+    <!-- no translation found for imap_name -->
+    <skip />
+    <!-- no translation found for pop3_name -->
+    <skip />
+    <!--Name of application on Home screen-->
+    <string name="email_name">"Email"</string>
+    <!---->
+    <string name="folder_picker_title">"Pengambil folder"</string>
+    <!--Displayed when the user must pick his server's trash folder from a list [CHAR LIMIT 30]-->
+    <string name="trash_folder_selection_title">"Pilih server folder sampah untuk <xliff:g id="account">%s</xliff:g>"</string>
+    <!--Displayed when the user must pick his server's sent items folder from a list [CHAR LIMIT 30]-->
+    <string name="sent_folder_selection_title">"Pilih server folder terkirim untuk <xliff:g id="account">%s</xliff:g>"</string>
+    <!---->
+    <string name="account_waiting_for_folders_msg">"Memuat daftar folder..."</string>
+    <!--Type:String Purpose: This message indicates no quick responses exist to choose from 
+ ScreenPath:Launcher Menu -> Email-->
+    <string name="no_quick_responses">"Tidak satu pun tersedia"</string>
+    <!--Type:String Purpose: Gmail name for redirecting during account setup 
+submit the chinese translation to make the application international; ScreenPath:Launcher Menu -> Email-->
+    <string name="gmail_name">"Gmail"</string>
+    <!--Type:String Purpose: Name for preference entry which leads to the per-folder sync settings activity 
+ ScreenPath:Launcher Menu -> Email-->
+    <string name="folder_sync_settings_pref_title">"Pengaturan sinkronisasi folder"</string>
+    <!--Type:String Purpose: [FEATURE]-Add-BEGIN by TSNJ,wei.Huang,10/18/2014,PR-515368, 
+ ScreenPath:Launcher Menu -> Email-->
+    <string name="select_your_account">"Pilih Akun"</string>
+    <!--Type:String Purpose:submit the chinese translation to make the application international; ScreenPath:Launcher Menu -> Email-->
+    <string name="select_account_list_below">"Pilih akun Anda dari daftar di bawah ini"</string>
+    <!---->
+    <string name="cancel_label">"Batal"</string>
+    <!---->
+    <string name="next_label">"Brkty"</string>
+    <!---->
+    <string name="str_account_provider_other">"Lainnya"</string>
+    <!--[FEATURE]-Add-END by TSNJ,wei.huang,  [FEATURE]-Add-BEGIN by TSCD.Chao Zhang,04/14/2014,FR 631895(porting from FR 472914)-->
+    <string name="account_settings_download_options_label">"Opsi unduhan"</string>
+    <!---->
+    <string name="account_setting_download_opt_headonly">"Kepala saja"</string>
+    <!---->
+    <string name="account_setting_download_opt_all">"Semua"</string>
+    <!-- no translation found for account_setting_download_opt_2k -->
+    <skip />
+    <!-- no translation found for account_setting_download_opt_5k -->
+    <skip />
+    <!-- no translation found for account_setting_download_opt_10k -->
+    <skip />
+    <!-- no translation found for account_setting_download_opt_20k -->
+    <skip />
+    <!-- no translation found for account_setting_download_opt_50k -->
+    <skip />
+    <!-- no translation found for account_setting_download_opt_100k -->
+    <skip />
+    <!--[FEATURE]-Add-END by TSCD.Chao Zhang [FEATURE]-ADD-BEGIN by TSNJ,wenlu.wu,10/20/2014,FR-719110-->
+    <string name="account_oof_error_tip_past">"Waktu Berakhir tidak boleh waktu yang sudah terlewat. Ubah waktu Berakhir ke waktu yang akan datang."</string>
+    <!---->
+    <string name="account_oof_error_tip_earlier">"Waktu berakhir tidak boleh melebihi waktu mulai. Ubah waktu berakhir lagi."</string>
+    <!---->
+    <string name="account_setting_oof_label">"Pengaturan ke luar kantor"</string>
+    <!--Type:String Purpose:submit the chinese translation to make the application international; ScreenPath:Launcher Menu -> Email-->
+    <string name="oof_auto_repley">"Kirimkan balasan otomatis ke luar kantor"</string>
+    <!--Type:String Purpose:submit the chinese translation to make the application international; ScreenPath:Launcher Menu -> Email-->
+    <string name="oof_auto_replies_period">"Kirimkan balasan otomatis ke luar kantor selama periode ini"</string>
+    <!---->
+    <string name="start_time">"Waktu mulai"</string>
+    <!---->
+    <string name="end_time">"Waktu akhir"</string>
+    <!---->
+    <string name="internal_message">"Pesan internal"</string>
+    <!--Type:String Purpose:submit the chinese translation to make the application international; ScreenPath:Launcher Menu -> Email-->
+    <string name="oof_auto_replies_external_senders">"Kirimkan balasan otomatis keluar kantor ke pengirim eksternal"</string>
+    <!--Type:String Purpose:submit the chinese translaiotn to make the application international; ScreenPath:Launcher Menu -> Email-->
+    <string name="oof_choice_oof_in_contacts">"Kirimkan balas otomatis ke luar kantor ke pengirim di daftar kontak saya"</string>
+    <!--Type:String Purpose:submit the chinese translation to make the application international; ScreenPath:Launcher Menu -> Email-->
+    <string name="oof_choice_oof_outside_organisation">"Kirimkan balasan otomatis \'Di Luar Kantor\' kepada siapa saja di luar organisasi saya"</string>
+    <!---->
+    <string name="external_message">"Pesan eksternal"</string>
+    <!--Type:String Purpose:submit the chinese translation to make the application international; ScreenPath:Launcher Menu -> Email-->
+    <string name="oof_done_message_attention">""Anda tidak memilih pesan balasan otomatis bagi orang-orang di dalam organisasi Anda. Jika pesan \'Di Luar Kantor\' tidak dimasukkan, orang-orang tidak akan menerima pemberitahuan tersebut. Namun peraturan \'Di Luar Kantor\' akan tetap berlaku. Anda ingin melanjutkan?"</string>
+    <!--[FEATURE]-ADD-END by TSNJ,wenlu.wu,10/20/2014,FR-719110  Title of Remove account confirmation dialog box-->
+    <string name="account_delete_dlg_title">"Hapus akun"</string>
+    <!--Type:String Purpose: Message of Remove account confirmation dialog box;submit the chinese translation to make the application international; 
+ ScreenPath:Launcher Menu -> Email-->
+    <string name="account_delete_dlg_instructions_fmt">"Akun \"<xliff:g id="account">%s</xliff:g>\" akan dihapus dari Email."</string>
+    <!--On Settings screen, section heading for delete account [CHAR LIMIT=none]-->
+    <string name="account_settings_category_delete_account">"Hapus akun"</string>
+    <!--On Settings screen, settings option for delete account [CHAR LIMIT=none]-->
+    <string name="account_settings_delete_account_label">"Hapus akun"</string>
+    <!--On Settings screen, setting option name-->
+    <string name="account_settings_default_label">"Akun asali"</string>
+    <!--Check box "summary" label on "Account options" screen to make this the default account   Note, this should usually match the default account account setup checkbox string-->
+    <string name="account_settings_default_summary">"Kirim email dari akun ini secara asali"</string>
+    <!--Check box label on "Set up email" screen to make this the default account   Note, this should usually match the default account summary preference string-->
+    <string name="account_setup_options_default_label">"Kirim email dari akun ini secara asali."</string>
+    <!--On "Set up email" screen, checkbox label for making the new account the default account-->
+    <string name="account_setup_basics_default_label">"Kirim email dari akun ini secara asali."</string>
+    <!--Type:String Purpose:submit the chinese translation to make the application international;
+ ScreenPath:Launcher Menu -> Email-->
+    <string name="local_search_action">"Pencarian lokal"</string>
+    <!--Type:String Purpose:submit the chinese translation to make the application international; ScreenPath:Launcher Menu -> Email-->
+    <string name="service_search_action">"Cari di server"</string>
+    <!--Type:String Purpose:submit the chinese translation to make the application international; ScreenPath:Launcher Menu -> Email-->
+    <string name="local_search_all">"Semua"</string>
+    <!--Type:String Purpose:submit the chinese translation to make the application international; ScreenPath:Launcher Menu -> Email-->
+    <string name="local_search_from">"Dari"</string>
+    <!--Type:String Purpose:submit the chinese translation to make the application international; ScreenPath:Launcher Menu -> Email-->
+    <string name="local_search_to">"Ke"</string>
+    <!--Type:String Purpose:submit the chinese translation to make the application international; ScreenPath:Launcher Menu -> Email-->
+    <string name="local_search_subject">"Subjek"</string>
+    <!---->
+    <string name="status_loading_attachments">"Memuat"</string>
+    <!--Type:String Purpose:[FEATURE]-Add-END by TSCD.zhonghua.tuo [FEATURE]-Add-BEGIN by TSNJ.qinglian.zhang,10/28/2014,FR 736417
+ ScreenPath:Launcher Menu -> Email-->
+    <string name="account_use_proxy_label">"Gunakan proksi"</string>
+    <!---->
+    <string name="account_setup_exchange_proxy_label">"Proksi Pendukung"</string>
+    <!---->
+    <string name="account_setup_exchange_proxy_port_label">"Proksi Pendukung"</string>
+    <!--Type:String Purpose:submit the chinese translation to amke the application international; ScreenPath:Launcher Menu -> Email-->
+    <string name="account_setup_exchange_proxy_name">"Nama proksi"</string>
+    <!---->
+    <string name="account_setup_exchange_proxy_password">"Proksi Pendukung"</string>
+    <!--MesType:StringPurpose:attachment_info_dialog_wifi_title for Email;ScreenPath:TctEmail-->
+    <string name="attachment_info_dialog_wifi_title">"Diperlukan koneksi Wi-Fi"</string>
+    <!--MesType:StringPurpose:attachment_info_wifi_settings for Email;ScreenPath:TctEmail-->
+    <string name="attachment_info_wifi_settings">"Pengaturan Wi-Fi"</string>
+    <!--MesType:StringPurpose:attachment_info_wifi_only for Email;ScreenPath:TctEmail-->
+    <string name="attachment_info_wifi_only">"Lampiran ini terlalu besar untuk diunduh melalui jaringan seluler. Anda dapat mengunduhnya saat tersambung lagi ke jaringan Wi-Fi."</string>
+    <!--MesType:StringPurpose:attachment_info_ok for Email;ScreenPath:TctEmail-->
+    <string name="attachment_info_ok">"OK"</string>
+    <!--Type:text string Purpose: Displayed in browse list item when the list item is a draft message instead of showing the subject [CHAR LIMIT=100]  Title of the screen when there is exactly one draft  ScreenPath:Main Menu -> Unified Email -> Inbox -> Side bar-->
+    <string name="mailbox_name_display_draft">"Konsep"</string>
+    <!---->
+    <string name="message_compose_display_name">"<xliff:g example="John" id="name">%1$s</xliff:g> and <xliff:g example="27" id="number">%2$d</xliff:g> lainnya"</string>
+    <!--Name of application on Home screen-->
+    <string name="app_name">"Email"</string>
+    <!--MesType:StringPurpose:from for Email;ScreenPath:TctEmail-->
+    <string name="from">"Dari"</string>
+    <!--MesType:StringPurpose:to for Email;ScreenPath:TctEmail-->
+    <string name="to">"Ke"</string>
+    <!--MesType:StringPurpose:cc for Email;ScreenPath:TctEmail-->
+    <string name="cc">"Cc"</string>
+    <!--MesType:StringPurpose:bcc for Email;ScreenPath:TctEmail-->
+    <string name="bcc">"Bcc"</string>
+    <!--MesType:StringPurpose:subject_hint for Email;ScreenPath:TctEmail-->
+    <string name="subject_hint">"Subjek"</string>
+    <!--Type:text string Purpose: Shown in Compose; the subject of the message [CHAR LIMIT=100]  ScreenPath:Main Menu -> Unified Email -> Compose Message-->
+    <string name="body_hint">"Tulis email"</string>
+    <!--MesType:StringPurpose:add_file_attachment for Email;ScreenPath:TctEmail-->
+    <string name="add_file_attachment">"Lampirkan berkas"</string>
+    <!--Type:text string Purpose: Compose screen button. Add a photo attachment to this message [CHAR LIMIT=20]  ScreenPath:Main Menu -> Unified Email -> Compose Message-->
+    <string name="add_photo_attachment">"Lampirkan gambar"</string>
+    <!--MesType:StringPurpose:save_draft for Email;ScreenPath:TctEmail-->
+    <string name="save_draft">"Simpan konsep"</string>
+    <!--MesType:StringPurpose:discard for Email;ScreenPath:TctEmail-->
+    <string name="discard">"Buang"</string>
+    <!--Type:text string Purpose: The possible ways to reply to a message [CHAR LIMIT=15]  ScreenPath:Main Menu -> Unified Email -> Inbox-->
+    <string name="compose">"Tulis"</string>
+    <string-array name="compose_modes">
+        <!--MesType:ArrayPurpose:compose_modes 0 for Email;ScreenPath:TctEmail-->
+        <item>"Balas"</item>
+        <!--MesType:ArrayPurpose:compose_modes 1 for Email;ScreenPath:TctEmail-->
+        <item>"Balas ke semua"</item>
+        <!--MesType:ArrayPurpose:compose_modes 2 for Email;ScreenPath:TctEmail-->
+        <item>"Teruskan"</item>
+    </string-array>
+    <!--MesType:StringPurpose:reply_subject_label for Email;ScreenPath:TctEmail-->
+    <string name="reply_subject_label">"Bls:"</string>
+    <!--MesType:StringPurpose:forward_subject_label for Email;ScreenPath:TctEmail-->
+    <string name="forward_subject_label">"Trs:"</string>
+    <!--MesType:StringPurpose:reply_attribution for Email;ScreenPath:TctEmail-->
+    <string name="reply_attribution">"dalam <xliff:g id="date">%s</xliff:g>, <xliff:g id="person">%s</xliff:g> menulis:"</string>
+    <!--MesType:StringPurpose:forward_attribution for mail;ScreenPath:TctEmail-->
+    <string name="forward_attribution">"---------- Pesan diteruskan ----------；Dari:；Tanggal:；Subjek:；Ke:"</string>
+    <!--Type:String Purpose:Compose screen, displayed at the top of a message being forwarded. ScreenPath:UnifiedEmail -> Compose-->
+    <string name="forward_attribution_no_headers">"---------- Pesan yang diteruskan ----------"</string>
+    <!--MesType:StringPurpose:cc_attribution for Emial;ScreenPath:TctEmail-->
+    <string name="cc_attribution">"Cc:"</string>
+    <!--Type:String Purpose:Dialog text: select the type of an attachment while composing [CHAR LIMIT=100] ScreenPath:UnifiedEmail - > Select the type of attachment dialog-->
+    <string name="select_attachment_type">"Pilih tipe lampiran"</string>
+    <!--MesType:StringPurpose:too_large_to_attach_single for Email;ScreenPath:TctEmail-->
+    <string name="too_large_to_attach_single">"Tidak dapat melampirkan file lebih dari %1$s"</string>
+    <!--Type:strings Purpose:open filemanager select multiple files, share to email, if these files so big, this string will toast. ScreenPath:Email -> create a new mail -> attach multiple big attachment-->
+    <string name="too_large_to_attach_multiple">"Satu file atau lebih belum dilampirkan. Batas <xliff:g id="maxSize">%1$s</xliff:g>."</string>
+    <!--Type:strings Purpose:enter email app, create a new, attach a big attachment, this string will toast ScreenPath:Email -> create a new mail -> attach a big attachment-->
+    <string name="too_large_to_attach_additional">"File belum dilampirkan. <xliff:g id="maxSize">%1$s</xliff:g> batas tercapai."</string>
+    <!--Type:String Purpose:In order to show toast when attaching file has some problem ScreenPath:UnifiedEmail -> Toast-->
+    <string name="generic_attachment_problem">"Tidak dapat melampirkan file."</string>
+    <!--MesType:StringPurpose:recipient_needed for Email;ScreenPath:TctEmail-->
+    <string name="recipient_needed">"Tambahkan setidaknya satu penerima."</string>
+    <!--Type:String Purpose:Title for recipient error dialog [CHAR LIMIT=200] ScreenPath:UnifiedEmail - > recipient error dialog-->
+    <string name="recipient_error_dialog_title">"Kesalahan penerima"</string>
+    <!--Type:text string Purpose: Title for send confirmation dialog [CHAR LIMIT=200] ScreenPath:Main Menu -> Unified Email -> Compose Message-->
+    <string name="confirm_send_title">"Kirim pesan?"</string>
+    <!--MesType:StringPurpose:confirm_send_message_with_no_subject for Email;ScreenPath:TctEmail-->
+    <string name="confirm_send_message_with_no_subject">"Tidak ada teks pada subjek pesan"</string>
+    <!--Type:text string Purpose: The move message / change labels action can't be taken because the selected messages come from different accounts  ScreenPath:Main Menu -> Unified Email -> Compose Message-->
+    <string name="confirm_send_message_with_no_body">"Tidak ada teks dalam isi pesan."</string>
+    <!--MesType:StringPurpose:confirm_send_message for Email;ScreenPath:TctEmail-->
+    <string name="confirm_send_message">"Kirim pesan ini?"</string>
+    <!--Type:String Purpose:Displayed for one second after discarding draft message [CHAR LIMIT=50] ScreenPath:UnifiedEmail - > Compose-->
+    <string name="message_discarded">"Pesan dibuang."</string>
+    <!-- no translation found for signature -->
+    <skip />
+    <!--Type:text string Purpose: Shown in the from dropdown in front of custom from addresses. [CHAR LIMIT=15]  ScreenPath:Main Menu -> Unified Email -> Compose Message-->
+    <string name="custom_from_account_label">"Kirim email sebagai:"</string>
+    <!--MesType:StringPurpose:send for Email;ScreenPath:TctEmail-->
+    <string name="send">"Kirim"</string>
+    <!--MesType:StringPurpose:mark_read for Email;ScreenPath:TctEmail-->
+    <string name="mark_read">"Tnd dbc"</string>
+    <!--MesType:StringPurpose:mark_unread for Email;ScreenPath:TctEmail-->
+    <string name="mark_unread">"Tnd blm bc"</string>
+    <!---->
+    <string name="mute">"Senyapkan"</string>
+    <!--MesType:StringPurpose:add_star for Email;ScreenPath:TctEmail-->
+    <string name="add_star">"Tmbh bntg"</string>
+    <!--Type:String Purpose:Menu item: remove the star from this conversation  ScreenPath:UnifiedEmail - > conversation menu-->
+    <string name="remove_star">"Hps bntg"</string>
+    <!--Type:String Purpose:Remove the folder from this conversation [CHAR LIMIT = 30] ScreenPath:UnifiedEmail - > conversation menu-->
+    <string name="remove_folder">"Hapus dari <xliff:g id="folderName">%1$s</xliff:g>"</string>
+    <!--Type:Menu item Purpose:archive this conversation  ScreenPath:Main Menu -> Email -> Inbox -> Message -> Menu Item-->
+    <string name="archive">"Arsipkan"</string>
+    <!--Type:String Purpose:Menu item: report this conversation as spam [CHAR LIMIT = 30]  ScreenPath:UnifiedEmail - > conversation menu-->
+    <string name="report_spam">"Laporkan spam"</string>
+    <!--Type:String Purpose:Menu item: report this conversation not as spam ScreenPath:UnifiedEmail - > conversation menu-->
+    <string name="mark_not_spam">"Laporkan: Bukan spam"</string>
+    <!--Type:String Purpose: Menu item: report this conversation as phishing [CHAR LIMIT = 30]  ScreenPath:UnifiedEmail - > conversation menu-->
+    <string name="report_phishing">"Laporkan phising"</string>
+    <!--MesType:StringPurpose:delete for Email;ScreenPath:TctEmail-->
+    <string name="delete">"Hapus"</string>
+    <!--Type:text string Purpose: Menu item: discard the drafts in this conversation [CHAR LIMIT = 30]  ScreenPath:Main Menu -> Unified Email -> Compose Message-->
+    <string name="discard_drafts">"Hapus draft"</string>
+    <!---->
+    <string name="discard_failed">"Gagal membuang"</string>
+    <!--Type:String Purpose:Menu item: refresh the inbox for unifiedEmail conversation menu ScreenPath:UnifiedEmail - > conversation menu-->
+    <string name="refresh">"Segarkan"</string>
+    <!--MesType:StringPurpose:reply for Email;ScreenPath:TctEmail-->
+    <string name="reply">"Balas"</string>
+    <!--MesType:StringPurpose:reply_all for Email;ScreenPath:TctEmail-->
+    <string name="reply_all">"Balas ke semua"</string>
+    <!--Type:String Purpose: Menu item: resume a draft message [CHAR LIMIT=12]  ScreenPath:UnifiedEmail - > conversation message-->
+    <string name="resume_draft">"Edit"</string>
+    <!--MesType:StringPurpose:forward for Email;ScreenPath:TctEmail-->
+    <string name="forward">"Teruskan"</string>
+    <!--Type:String Purpose:Menu item: compose a new email for UnifiedEmail ScreenPath:UnifiedEmail - > conversation menu-->
+    <string name="menu_compose">"Tulis"</string>
+    <!--Type:String Purpose:Menu item: change the folders for this conversation. ScreenPath:UnifiedEmail - > conversation menu-->
+    <string name="menu_change_folders">"Ganti folder"</string>
+    <!--MesType:StringPurpose:menu_move_to for Email;ScreenPath:TctEmail-->
+    <string name="menu_move_to">"Pindahkan ke"</string>
+    <!--Type:String Purpose:Menu item: moves current or selected conversation(s) to Inbox. [CHAR LIMIT = 30]  ScreenPath:UnifiedEmail - > conversation menu-->
+    <string name="menu_move_to_inbox">"Pindahkan ke kotak masuk"</string>
+    <!--Type:String Purpose:Menu item: manages the folders for this account. ScreenPath:UnifiedEmail - > conversation menu-->
+    <string name="menu_manage_folders">"Pengaturan folder"</string>
+    <!--MesType:StringPurpose:menu_show_original for Email;ScreenPath:TctEmail-->
+    <string name="menu_show_original">"Mengembalikan perubahan ukuran otomatis"</string>
+    <!--MesType:StringPurpose:menu_settings for Email
+menu_settings for Email
+menu_settings for EmailScreenPath:TctEmail-->
+    <string name="menu_settings">"Pengaturan"</string>
+    <!--Type:String Purpose:Menu item: search through the Gmail inbox for UnifiedEmail ScreenPath:UnifiedEmail - > conversation menu-->
+    <string name="menu_search">"Cari"</string>
+    <!--Type:text string Purpose:the summary for item of Gestrue settings list  ScreenPath:enter Settings -> enter Gesture  -> you will see it-->
+    <string name="drawer_title">"Navigasi"</string>
+    <!--Type:String Purpose:Menu item: shown in conversation menu. Tap this to move to mark conversation as important ScreenPath:UnifiedEmail - > conversation menu-->
+    <string name="mark_important">"Tandai sebagai penting"</string>
+    <!--Type:String Purpose:Menu item: shown in conversation menu. Tap this to move to mark conversation as not important ScreenPath:UnifiedEmail - > conversation menu-->
+    <string name="mark_not_important">"Tandai sebagai tidak penting"</string>
+    <!--Type:text string Purpose: Compose screen, menu item: add Cc/Bcc fields  ScreenPath:Main Menu -> Unified Email -> Compose Message-->
+    <string name="add_cc_label">"Tambahkan Cc/Bcc"</string>
+    <!--Type:Menu item Purpose: Compose screen, menu item: add Bcc field [CHAR_LIMIT=20] ScreenPath:Main Menu -> Unified Email -> Compose Message-->
+    <string name="add_bcc_label">"Tambahkan Bcc"</string>
+    <!--Type:String Purpose:Compose screen, Prefix to quoted text in forwarded/replied message [CHAR LIMIT=50] ScreenPath:UnifiedEmail - > Compose-->
+    <string name="quoted_text">"Sertakan kutipan teks"</string>
+    <!--MesType:StringPurpose:quoted_text_label for Email;ScreenPath:TctEmail-->
+    <string name="quoted_text_label">"Teks kutipan"</string>
+    <!--MesType:StringPurpose:respond_inline for Email;ScreenPath:TctEmail-->
+    <string name="respond_inline">"Menjawab inline"</string>
+    <!-- no translation found for bytes -->
+    <skip />
+    <!-- no translation found for kilobytes -->
+    <skip />
+    <!-- no translation found for megabytes -->
+    <skip />
+    <!--Type:text string Purpose: Attachment description for image files [CHAR LIMIT=30]  ScreenPath:Main Menu -> Unified Email -> Compose Message-->
+    <string name="attachment_image">"Gambar"</string>
+    <!--Type:text string Purpose: Attachment description for video files [CHAR LIMIT=30]  ScreenPath:Main Menu -> Unified Email -> Compose Message-->
+    <string name="attachment_video">"Video"</string>
+    <!--Type:text string Purpose: Attachment description for audio files [CHAR LIMIT=30]  ScreenPath:Main Menu -> Unified Email -> Compose Message-->
+    <string name="attachment_audio">"Audio"</string>
+    <!--Type:text string Purpose: Attachment description for text files [CHAR LIMIT=30]  ScreenPath:Main Menu -> Unified Email -> Compose Message-->
+    <string name="attachment_text">"SMS"</string>
+    <!--Type:text string Purpose: Attachment description for .doc files [CHAR LIMIT=30]  ScreenPath:Main Menu -> Unified Email -> Compose Message-->
+    <string name="attachment_application_msword">"Dokumen"</string>
+    <!--Type:text string Purpose: Attachment description for .ppt files [CHAR LIMIT=30]  ScreenPath:Main Menu -> Unified Email -> Compose Message-->
+    <string name="attachment_application_vnd_ms_powerpoint">"Presentasi"</string>
+    <!--Type:text string Purpose: Attachment description for .pdf files [CHAR LIMIT=30]  ScreenPath:Main Menu -> Unified Email -> Compose Message-->
+    <string name="attachment_application_vnd_ms_excel">"Spreadsheet"</string>
+    <!-- no translation found for attachment_application_pdf -->
+    <skip />
+    <!--Type:text string Purpose: Attachment description for unknown files [CHAR LIMIT=30] ScreenPath:Main Menu -> Unified Email -> Compose Message-->
+    <string name="attachment_unknown">"File <xliff:g id="attachmentExtension">%s</xliff:g>"</string>
+    <!--Type:String Purpose:Read email screen, button name. Preview an attachment by Gview. [CHAR LIMIT=18]  ScreenPath:UnifiedEmail - > Message -> Menu-->
+    <string name="preview_attachment">"Pratinjau"</string>
+    <!--MesType:StringPurpose:save_attachment for Email;ScreenPath:TctEmail-->
+    <string name="save_attachment">"Simpan"</string>
+    <!--Type:text string Purpose: Read email screen, button name. Cancel a downloading attachment. [CHAR LIMIT=10]  ScreenPath:Main Menu -> Email -> Inbox -> Message-->
+    <string name="cancel_attachment">"Batal"</string>
+    <!---->
+    <string name="open_attachment">"Buka"</string>
+    <!--Button text. Clicking the button will perform installation.-->
+    <string name="install_attachment">"Instal"</string>
+    <!--MesType:StringPurpose:download_again for Email;ScreenPath:TctEmail-->
+    <string name="download_again">"Unduh lagi"</string>
+    <!--MesType:StringPurpose:more_info_attachment for Email;ScreenPath:TctEmail-->
+    <string name="more_info_attachment">"Info"</string>
+    <!--MesType:StringPurpose:no_application_found for Email;ScreenPath:TctEmail-->
+    <string name="no_application_found">"Tidak ada aplikasi yang dapat membuka lampiran untuk dilihat."</string>
+    <!--MesType:StringPurpose:fetching_attachment for Email;ScreenPath:TctEmail-->
+    <string name="fetching_attachment">"Mengambil lampiran"</string>
+    <!--Type:String Purpose:Dialog box message for the waiting dialog of UnifiedEmail. [CHAR LIMIT=80]  ScreenPath:UnifiedEmail - > Dialog -> Message-->
+    <string name="please_wait">"Mohon tunggu\u2026"</string>
+    <!--Type:String Purpose:Displayed in the conversation view, next to a file's size and type. Status of a saved attachment. [CHAR LIMIT=20] ScreenPath:UnifiedEmail - > conversation-->
+    <string name="saved">"Disimpan,"</string>
+    <!--Type:a line string Purpose:enter email app, open a mail with attachment, download it, if download failed, this string will shown. ScreenPath:Email -> open a mail with attachment -> download it-->
+    <string name="download_failed">"Tidak dapat mengunduh Ketuk untuk mencoba lagi."</string>
+    <!--Type:String Purpose:Photo view screen, button name. Save all attachments to sd card. [CHAR LIMIT=17]  ScreenPath:UnifiedEmail - > Photo view screen menu-->
+    <string name="menu_photo_save_all">"Simpan semua"</string>
+    <!--Type:String Purpose:Photo view screen, button name. Share attachment. [CHAR LIMIT=10]  ScreenPath:UnifiedEmail - > Photo view screen menu-->
+    <string name="menu_photo_share">"Berbagi"</string>
+    <!--Type:String Purpose:Photo view screen, button name. Share all attachments. [CHAR LIMIT=20]  ScreenPath:UnifiedEmail - > Photo view screen menu-->
+    <string name="menu_photo_share_all">"Bagikan semua"</string>
+    <!--Type:text string type Purpose:to indicate print feature in gallery.to indicate print feature in gallery ScreenPath:Home->JrdGallery-->
+    <string name="menu_photo_print">"Cetak"</string>
+    <!--Type:String Purpose:Displayed in the action bar as a subtitle. save in progress ScreenPath:UnifiedEmail - > saving-->
+    <string name="saving">"Menyimpan..."</string>
+    <!--Type:text string Purpose: Webview Context Menu Strings. Title of dialog for choosing which activity to share a link with. [CHAR LIMIT=50] ScreenPath:Main Menu -> Unified Email -> Inbox -> Message Content-->
+    <string name="choosertitle_sharevia">"Bagi melalui"</string>
+    <!--MesType:StringPurpose:contextmenu_openlink for Email;ScreenPath:TctEmail-->
+    <string name="contextmenu_openlink">"Buka di Browser"</string>
+    <!--Type:text string Purpose: Menu item to copy the selection [CHAR LIMIT=50] ScreenPath:Main Menu -> Unified Email -> Compose Message-->
+    <string name="contextmenu_copy">"Salin"</string>
+    <!--MesType:StringPurpose:contextmenu_copylink for Email;ScreenPath:TctEmail-->
+    <string name="contextmenu_copylink">"Salin tautan URL"</string>
+    <!--Type:text string Purpose:To ask the user whether to view the inline image or not ScreenPath:Launch Email -> Open an email with inline images -> Long press an inline image-->
+    <string name="contextmenu_view_image">"Lihat gambar"</string>
+    <!--Type:text string Purpose: Menu item to dial a number [CHAR LIMIT=50] ScreenPath:Main Menu -> Unified Email -> Inbox -> Message Content-->
+    <string name="contextmenu_dial_dot">"Tekan\u2026"</string>
+    <!--Type:text string Purpose: Menu item to send an SMS [CHAR LIMIT=50] ScreenPath:Main Menu -> Unified Email -> Inbox -> Message Content-->
+    <string name="contextmenu_sms_dot">"SMS\u2026"</string>
+    <!--Type:text string Purpose: Menu item to add a contact [CHAR LIMIT=50] ScreenPath:Main Menu -> Unified Email -> Compose Message-->
+    <string name="contextmenu_add_contact">"Tambah kontak"</string>
+    <!--Type:text string Purpose: Menu item to send an email [CHAR LIMIT=50]  ScreenPath:Main Menu -> Unified Email -> Inbox -> Message Content-->
+    <string name="contextmenu_send_mail">"Kirim email"</string>
+    <!--Type:text string Purpose: Menu item to show a map [CHAR LIMIT=50] ScreenPath:Main Menu -> Unified Email -> Inbox -> Message Content-->
+    <string name="contextmenu_map">"Peta"</string>
+    <!--MesType:StringPurpose:contextmenu_sharelink for Email;ScreenPath:TctEmail-->
+    <string name="contextmenu_sharelink">"Bagi tautan"</string>
+    <!--Type:text string Purpose: Menu item that displays the help page for Gmail. [CHAR LIMIT=50] ScreenPath:Main Menu -> Unified Email -> Inbox -> Message Content-->
+    <string name="contextmenu_help">"Bantuan"</string>
+    <!--Type:text string Purpose: Solicit feedback string in about screen [CHAR LIMIT=50] ScreenPath:Main Menu -> Unified Email -> Settings-->
+    <string name="contextmenu_feedback">"Kirim umpan balik"</string>
+    <!-- no translation found for num_selected -->
+    <skip />
+    <plurals name="move_conversation">
+        <!--Type:text string Purpose: Displayed when drag and drop conversations "Move ? conversations" [CHAR LIMIT=50]  Move 1 conversation  ScreenPath:Main Menu -> Unified Email -> Conversation List-->
+        <item quantity="one">"Pindah percakapan"</item>
+        <!--Type:text string Purpose: Displayed when drag and drop conversations "Move ? conversations" [CHAR LIMIT=50]  Move several conversations  ScreenPath:Main Menu -> Unified Email -> Conversation List-->
+        <item quantity="other">"Pindah <xliff:g>%1$d</xliff:g> percakapan"</item>
+    </plurals>
+    <!-- no translation found for content_description -->
+    <skip />
+    <!-- no translation found for content_description_today -->
+    <skip />
+    <!--Type:String Purpose:String used in content description field of a conversation list item when device is in accessibility mode and the conversation was read [CHAR LIMIT=250]  ScreenPath:UnifiedEmail - > conversation list-->
+    <string name="read_string">"Percakapan dibaca"</string>
+    <!--Type:strings Purpose:this string is a des info, no limit, is unread sting des ScreenPath:Email -> Conversation list-->
+    <string name="unread_string">"Percakapan belum dibaca"</string>
+    <!--Type:a line string Purpose:enter email, to search mail, this string is the search result info. ScreenPath:Email -> Search-->
+    <string name="filtered_tag">"[<xliff:g id="tag">%1$s</xliff:g>]<xliff:g id="subject">%2$s</xliff:g>"</string>
+    <!-- no translation found for badge_and_subject -->
+    <skip />
+    <plurals name="draft">
+        <!--MesType:PluralPurpose:draft for Email;ScreenPath:TctEmail-->
+        <item quantity="one">"Konsep"</item>
+        <!--MesType:PluralPurpose:draft for Email;ScreenPath:TctEmail-->
+        <item quantity="other">"Konsep"</item>
+    </plurals>
+    <!--Type:String Purpose:Message displayed in a browse list item for one second when message is being sent [CHAR LIMIT=20] ScreenPath:UnifiedEmail - > Sending Message-->
+    <string name="sending">"MENGIRIM\u2026"</string>
+    <!---->
+    <string name="message_retrying">"Mencoba lagi\u2026"</string>
+    <!--Type:text string Purpose:to display the message status of chat & ft ScreenPath:long press message -> message delivery status-->
+    <string name="message_failed">"Gagal"</string>
+    <!--Type:toast string  Purpose:popup toast when sending message failed with disable require sign-in ScreenPath:disable require sign-in in outgoing UI,  sending a message-->
+    <string name="send_failed">"Gagal mengirim email."</string>
+    <!--Type:String Purpose:Can't forward because attachments are not fully download, please download attachments first  ScreenPath:TctEmail-->
+    <string name="send_failed_wait_attchment_downloaded">"Tidak dapat meneruskan karena lampiran tidak diunduh sepenuhnya, unduh lampiran terlebih dahulu."</string>
+    <!--Type:String Purpose:String used to represent "me" when used as an object pronoun. This string is used when showing the list of recipients of a message ScreenPath:UnifiedEmail - > the list of recipients-->
+    <string name="me_object_pronoun">"Saya"</string>
+    <!--Type:String Purpose:String used to represent "me" when used as an object pronoun. This string is used when showing the list of recipients of a message ScreenPath:UnifiedEmail - > the list of recipients-->
+    <string name="me_subject_pronoun">"Saya"</string>
+    <plurals name="confirm_delete_conversation">
+        <!--Type:text string Purpose: Dialog message to confirm archival of several conversations  ScreenPath:Main Menu -> Unified Email -> Inbox-->
+        <item quantity="one">"Hapus percakapan?"</item>
+        <!--Type:text string Purpose: Dialog message to confirm deletion of several conversations  ScreenPath:Main Menu -> Unified Email -> Inbox-->
+        <item quantity="other">"Hapus <xliff:g id="count">%1$d</xliff:g> percakapan?"</item>
+    </plurals>
+    <plurals name="confirm_archive_conversation">
+        <!--Type:text string Purpose: Dialog message to confirm archival of one conversation  ScreenPath:Main Menu -> Unified Email -> Inbox -> Message Content-->
+        <item quantity="one">"Arsipkan percakapan?"</item>
+        <!--Type:text string Purpose: Dialog message to confirm archival of several conversations  ScreenPath:Main Menu -> Unified Email -> Compose Message-->
+        <item quantity="other">"Arsipkan <xliff:g id="count">%1$d</xliff:g> percakapan?"</item>
+    </plurals>
+    <plurals name="confirm_discard_drafts_conversation">
+        <!--Type:text string Purpose: Dialog text: confirm discard  ScreenPath:Main Menu -> Unified Email -> Compose Message-->
+        <item quantity="one">"Buang pesan ini?"</item>
+        <item quantity="other">"Buang <xliff:g id="count">%1$d</xliff:g> pesan?"</item>
+    </plurals>
+    <!--MesType:StringPurpose:confirm_discard_text for Email;ScreenPath:TctEmail-->
+    <string name="confirm_discard_text">"Buang pesan ini?"</string>
+    <!--Type:String Purpose:Conversation list shared between the Activity and Widget Displayed in the middle of the screen when conversations are being loaded ScreenPath:UnifiedEmail - > conversation list-->
+    <string name="loading_conversations">"Memuat\u2026"</string>
+    <!---->
+    <string name="empty_inbox">"Anda sudah selesai! Nikmati hari Anda."</string>
+    <!---->
+    <string name="empty_search">"Ups! Kami tidak dapat menemukan apa-apa untuk \"<xliff:g id="search_query">%1$s</xliff:g>\"."</string>
+    <!---->
+    <string name="empty_spam_folder">"Hore, tidak ada spam di sini!"</string>
+    <!--MesType:StringPurpose:empty_trash_folder for Email;ScreenPath:TctEmail-->
+    <string name="empty_trash_folder">"Tidak boleh membuang sampah di sini. Terima kasih untuk mendaur ulang!"</string>
+    <!--MesType:StringPurpose:empty_folder for Email;ScreenPath:TctEmail-->
+    <string name="empty_folder">"Tidak ada surat di sini."</string>
+    <!---->
+    <string name="getting_messages">"Mendapatkan pesan Anda"</string>
+    <!--MesType:StringPurpose:undo for Email;ScreenPath:TctEmail-->
+    <string name="undo">"Urungkan"</string>
+    <plurals name="conversation_unstarred">
+        <!--Type:text string Purpose: Displayed while deleting one conversation  ScreenPath:Main Menu -> Unified Email -> Conversation List-->
+        <item quantity="one">"Hilangkan bintang <xliff:g id="count">%1$d</xliff:g> percakapan."</item>
+        <!--Type:text string Purpose: Displayed while deleting multiple conversations  ScreenPath:Main Menu -> Unified Email -> Conversation List-->
+        <item quantity="other">"Hilangkan bintang <xliff:g id="count">%1$d</xliff:g> percakapan."</item>
+    </plurals>
+    <plurals name="conversation_muted">
+        <!--Type:text string Purpose: Displayed while muting one conversation  ScreenPath:Main Menu -> Unified Email -> Conversation List-->
+        <item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> dibungkam."</item>
+        <!--Type:text string Purpose: Displayed while muting several conversations  ScreenPath:Main Menu -> Unified Email -> Conversation List-->
+        <item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> dibungkam."</item>
+    </plurals>
+    <plurals name="conversation_spammed">
+        <!--Type:text string Purpose: Displayed while reporting one conversation as spam  ScreenPath:Main Menu -> Unified Email -> Conversation List-->
+        <item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> dilaporkan sebagai spam."</item>
+        <!--Type:text string Purpose: Displayed while reporting several conversations as spam  ScreenPath:Main Menu -> Unified Email -> Conversation List-->
+        <item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> dilaporkan sebagai spam."</item>
+    </plurals>
+    <plurals name="conversation_not_spam">
+        <!--Type:text string Purpose: Displayed while reporting one conversation as not spam  ScreenPath:Main Menu -> Unified Email -> Conversation List-->
+        <item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> dilaporkan sebagai bukan spam."</item>
+        <!--Type:text string Purpose: Displayed while reporting several conversations as not spam  ScreenPath:Main Menu -> Unified Email -> Conversation List-->
+        <item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> dilaporkan sebagai bukan spam."</item>
+    </plurals>
+    <plurals name="conversation_not_important">
+        <!--Type:text string Purpose: Displayed while reporting one conversation as not important in the important folder  ScreenPath:Main Menu -> Unified Email -> Conversation List-->
+        <item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> ditandai sebagai tidak penting."</item>
+        <!--Type:text string Purpose: Displayed while reporting several conversations as not important in the important folder  ScreenPath:Main Menu -> Unified Email -> Conversation List-->
+        <item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> ditandai sebagai tidak penting."</item>
+    </plurals>
+    <plurals name="conversation_phished">
+        <!--Type:text string Purpose: Displayed while reporting one conversation as phishing  ScreenPath:Main Menu -> Unified Email -> Conversation List-->
+        <item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> dilaporkan sebagai phishing."</item>
+        <!--Type:text string Purpose: Displayed while reporting several conversations as phishing  ScreenPath:Main Menu -> Unified Email -> Conversation List-->
+        <item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> dilaporkan sebagai phishing."</item>
+    </plurals>
+    <plurals name="conversation_archived">
+        <!--Type:text string Purpose: Displayed while archiving one conversation  ScreenPath:Main Menu -> Unified Email -> Conversation List-->
+        <item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> diarsipkan."</item>
+        <!--Type:text string Purpose: Displayed while archiving multiple conversations  ScreenPath:Main Menu -> Unified Email -> Conversation List-->
+        <item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> diarsipkan."</item>
+    </plurals>
+    <plurals name="conversation_deleted">
+        <!--MesType:PluralPurpose:conversation_deleted for Email;ScreenPath:TctEmail-->
+        <item quantity="one">"&lt;b&gt;%1$d&lt;/b&gt; dihapus."</item>
+        <!--MesType:PluralPurpose:conversation_deleted for Email;ScreenPath:TctEmail-->
+        <item quantity="other">"&lt;b&gt;%1$d&lt;/b&gt; dihapus."</item>
+    </plurals>
+    <!--MesType:StringPurpose:deleted for Email;ScreenPath:TctEmail-->
+    <string name="deleted">"Terhapus"</string>
+    <!--Type:text string Purpose: Displayed when swiping away a single conversation to archive it [CHAR LIMIT=80]  ScreenPath:Main Menu -> Unified Email -> Compose Message-->
+    <string name="archived">"Diarsipkan"</string>
+    <!--Type:strings Purpose:enter email app, delete a folder which can be deleted, this string will toast. ScreenPath:Email -> delete a folder-->
+    <string name="folder_removed">"Hapus dari <xliff:g id="folderName">%1$s</xliff:g>"</string>
+    <plurals name="conversation_folder_changed">
+        <!--Type:text string Purpose: Displayed while adding and removing folders to a single conversation. [CHAR LIMIT=100]  ScreenPath:Main Menu -> Unified Email -> Conversation List-->
+        <item quantity="one">"Folder diubah."</item>
+        <!--Type:text string Purpose: Displayed while adding and removing folders to multiple conversations. [CHAR LIMIT=100]  ScreenPath:Main Menu -> Unified Email -> Conversation List-->
+        <item quantity="other">"Folder diubah."</item>
+    </plurals>
+    <!--Type:text string Purpose: Displayed after moving a conversation to a different folder. [CHAR LIMIT=100]  ScreenPath:Main Menu -> Unified Email -> Inbox -> Message Content-->
+    <string name="conversation_folder_moved">"Pindahkan ke <xliff:g id="folderName">%1$s</xliff:g>"</string>
+    <!--MesType:StringPurpose:search_results_header for Email;ScreenPath:TctEmail-->
+    <string name="search_results_header">"Hasil"</string>
+    <!--Type:String Purpose:Toast shown when the user taps the search hard key when viewing an account that does not support search [CHAR LIMIT=100]  ScreenPath:UnifiedEmail - > Search Not Support Toast-->
+    <string name="search_unsupported">"Pencarian tidak didukung dalam akun ini."</string>
+    <!--Type:text string Purpose: Conversation view. Text anchor for control to add / change labels on a conversation when viewing it. [CHAR LIMIT=40] ScreenPath:Main Menu -> Unified Email -> Settings-->
+    <string name="add_label">"Tambahkan folder"</string>
+    <!---->
+    <string name="new_incoming_messages_one">"Tampilkan pesan baru dari <xliff:g id="sender">%s</xliff:g>."</string>
+    <plurals name="new_incoming_messages_many">
+        <item quantity="other">"Tampilkan <xliff:g id="count">%1$d</xliff:g> pesan baru."</item>
+    </plurals>
+    <!--MesType:StringPurpose:date_and_view_details for Email;ScreenPath:TctEmail-->
+    <string name="date_and_view_details">"<xliff:g id="date">%1$s</xliff:g> &lt;a href=\'http://www.example.com\'&gt;Lihat detail&lt;/a&gt;"</string>
+    <!--MesType:StringPurpose:date_and_view_details_another for Email;ScreenPath:TctEmail-->
+    <string name="date_and_view_details_another">"<xliff:g id="date">%1$s</xliff:g> &lt;font color=\"<xliff:g id="color">%2$d</xliff:g>\"&gt;Lihat detail&lt;/font&gt;"</string>
+    <!--MesType:StringPurpose:hide_details for Email;ScreenPath:TctEmail-->
+    <string name="hide_details">"Sembunyikan Perincian"</string>
+    <!--MesType:StringPurpose:to_message_header for Email;ScreenPath:TctEmail-->
+    <string name="to_message_header">"untuk <xliff:g id="recipients">%1$s</xliff:g>"</string>
+    <!--Type:text string Purpose: Icon name for showing sender contact information when we cannot get sender info. [CHAR LIMIT=100]  ScreenPath:Main Menu -> Unified Email -> Compose Message-->
+    <string name="contact_info_string">"Tampilkan informasi kontak untuk <xliff:g id="name">%1$s</xliff:g>"</string>
+    <!--Type:text string Purpose: Icon name for showing sender contact information. [CHAR LIMIT=100]  ScreenPath:Main Menu -> Unified Email -> Settings-->
+    <string name="contact_info_string_default">"Tampilkan informasi kontak"</string>
+    <plurals name="show_messages_read">
+        <!--Type:text string Purpose: Shown in collapsed mode when a conversation has more than one read message. The message count is shown to the right of this text. [CHAR LIMIT=70]  ScreenPath:Main Menu -> Unified Email -> Conversation List-->
+        <item quantity="other">"<xliff:g example="4" id="count">%1$d</xliff:g> pesan lama"</item>
+    </plurals>
+    <!--MesType:StringPurpose:from_heading for Email;ScreenPath:TctEmail-->
+    <string name="from_heading">"Dari:"</string>
+    <!--MesType:StringPurpose:replyto_heading for Email;ScreenPath:TctEmail-->
+    <string name="replyto_heading">"Balas-ke:"</string>
+    <!--MesType:StringPurpose:to_heading for Email;ScreenPath:TctEmail-->
+    <string name="to_heading">"Ke:"</string>
+    <!--MesType:StringPurpose:to_heading_no_space for Email;ScreenPath:TctEmail-->
+    <string name="to_heading_no_space">"Kepada:"</string>
+    <!--Label for CC field in read message view-->
+    <string name="cc_heading">"Cc:"</string>
+    <!---->
+    <string name="bcc_heading">"Bcc:"</string>
+    <!--MesType:StringPurpose:date_heading for Email;ScreenPath:TctEmail-->
+    <string name="date_heading">"Tanggal:"</string>
+    <!--MesType:StringPurpose:show_images for Email;ScreenPath:TctEmail-->
+    <string name="show_images">"Prlihtkn gb"</string>
+    <!--MesType:StringPurpose:always_show_images for Email;ScreenPath:TctEmail-->
+    <string name="always_show_images">"Selalu tampilkan gambar dari pengirim ini"</string>
+    <!--Type:text string Purpose: Shown in a toast to acknowledge always showing images for a sender [CHAR LIMIT=100]  ScreenPath:Main Menu -> Unified Email -> Settings-->
+    <string name="always_show_images_toast">"Gambar dari pengirim ini akan ditampilkan secara otomatis."</string>
+    <!--Type:text string Purpose: Display format of an email recipient, displayed in expanded message details [CHAR LIMIT=10]  ScreenPath:Main Menu -> Unified Email -> Sent-->
+    <string name="address_display_format">"<xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g>"</string>
+    <!--Type:text string Purpose: Display format of an email sender if the message has a via domain set, displayed in expanded message details [CHAR LIMIT=15]  ScreenPath:Main Menu -> Unified Email -> Sent-->
+    <string name="address_display_format_with_via_domain">"<xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g> melalui <xliff:g id="via_domain">%3$s</xliff:g>"</string>
+    <!--MesType:StringPurpose:message_saved for Email;ScreenPath:TctEmail-->
+    <string name="message_saved">"Pesan disimpan sebagai konsep."</string>
+    <!--MesType:StringPurpose:sending_message for Email;ScreenPath:TctEmail-->
+    <string name="sending_message">"Mengirim pesan\u2026"</string>
+    <!--MesType:StringPurpose:invalid_recipient for Email;ScreenPath:TctEmail-->
+    <string name="invalid_recipient">"Alamat %s tidak berlaku."</string>
+    <!---->
+    <string name="show_elided">"Tampilkan teks kutipan"</string>
+    <!--Type:String Purpose:Shown in HTML to allow the user to hide quoted text; should match Gmail web ScreenPath:UnifiedEmail-->
+    <string name="hide_elided">"\u25BC sembunyikan teks kutipan"</string>
+    <!--Type:String Purpose:insert message_invite_title
+insert message_invite_title
+insert message_invite_title
+insert message_invite_title ScreenPath:TctEmail-->
+    <string name="message_invite_title">"Undangan kalender"</string>
+    <!--MesType:StringPurpose:insert message_invite_calendar_view
+insert message_invite_calendar_view
+insert message_invite_calendar_viewScreenPath:TctEmail-->
+    <string name="message_invite_calendar_view">"Lihat di Kalender"</string>
+    <!--Type:String Purpose:Shown as a text label in message view describing the choices of whether to attend an invite [CHAR LIMIT=20] ScreenPath:UnifiedEmail - > conversation message invite view-->
+    <string name="message_invite_label_attending">"Datang?"</string>
+    <!--Type:String Purpose:Shown as a button label in message view to accept a calendar invite [CHAR LIMIT=20] ScreenPath:UnifiedEmail - > conversation message invite view-->
+    <string name="message_invite_accept">"Ya"</string>
+    <!--Type:String Purpose:Shown as a button label in message view to give a tentative response to a calendar invite [CHAR LIMIT=20] ScreenPath:UnifiedEmail - > conversation message invite view-->
+    <string name="message_invite_tentative">"Mungkin"</string>
+    <!--Type:String Purpose:Shown as a button label in message view to decline a calendar invite [CHAR LIMIT=20] ScreenPath:UnifiedEmail - > conversation message invite view-->
+    <string name="message_invite_decline">"Tidak"</string>
+    <!-- no translation found for enumeration_comma -->
+    <skip />
+    <!---->
+    <string name="send_anyway">"Tetap kirim"</string>
+    <!--MesType:StringPurpose:ok for Email;ScreenPath:TctEmail-->
+    <string name="ok">"OK"</string>
+    <!--MesType:StringPurpose:done for Email;ScreenPath:TctEmail-->
+    <string name="done">"Selesai"</string>
+    <!--MesType:StringPurpose:cancel for Email;ScreenPath:TctEmail-->
+    <string name="cancel">"Batalkan"</string>
+    <!--Type:text string Purpose: Button name, displayed in dialogs [CHAR LIMIT=10]  ScreenPath:Main Menu -> Unified Email -> Settings-->
+    <string name="clear">"Jelas"</string>
+    <!--Button name used as part of a multi-step process-->
+    <string name="next">"Brkty"</string>
+    <!--Button name used to move to previous step during setup sequence [CHAR_LIMIT=16]-->
+    <string name="previous">"Sebelumnya"</string>
+    <string-array name="sync_status">
+        <!--Type:text string Purpose: Sync status errors. Please do not change the order [CHAR LIMIT=100]  ScreenPath:Main Menu -> Unified Email -> Inbox-->
+        <item>"Anda tidak tersambung ke Wi-Fi, tetap lanjutkan sinkronisasi?"</item>
+        <!--MesType:ArrayPurpose:sync_status for Email;ScreenPath:TctEmail-->
+        <item>"Tidak ada koneksi."</item>
+        <!--Type:text string Purpose: Sync status errors. Please do not change the order [CHAR LIMIT=100]  ScreenPath:Main Menu -> Unified Email -> Login-->
+        <item>"Tidak dapat masuk."</item>
+        <!--Type:Menu item Purpose: Sync status errors. Please do not change the order [CHAR LIMIT=100]  ScreenPath:Main Menu -> Unified Email -> Inbox-->
+        <item>"Kesalahan keamanan."</item>
+        <!--Type:text string Purpose: Sync status errors. Please do not change the order [CHAR LIMIT=100]  ScreenPath:Main Menu -> Unified Email -> Inbox-->
+        <item>"Tidak dapat menyinkronkan."</item>
+        <!--Type:text string Purpose: Sync status errors. Please do not change the order [CHAR LIMIT=100]  ScreenPath:Main Menu -> Unified Email -> Inbox-->
+        <item>"Kesalahan internal"</item>
+        <!--Short message shown for an error with the voice server.-->
+        <item>"Kesalahan server"</item>
+    </string-array>
+    <!--Type:String Purpose:Widget strings Displayed when user adds a new widget. Tapping on the widget in this mode will bring user to the account selection screen [CHAR LIMIT=35]  ScreenPath:UnifiedEmail - > conversation Widget-->
+    <string name="tap_to_configure">"Sentuh untuk mengatur"</string>
+    <!--Type:String Purpose:Displayed within a widget that was setup for a non-synced folder [CHAR LIMIT=60]  ScreenPath:UnifiedEmail - > non-synced folder-->
+    <string name="non_synced_folder_description">"Untuk melihat percakapan, sinkronkan folder ini."</string>
+    <!--Type:String Purpose:Displayed within a widget that was setup for a non-synced folder. This is the text of the button that will allow the user to configure sync for the folder [CHAR LIMIT=35]  ScreenPath:UnifiedEmail - > widget-->
+    <string name="tap_to_configure_folder_sync">"Sinkronkan folder"</string>
+    <!-- no translation found for widget_large_unread_count -->
+    <skip />
+    <!-- no translation found for large_unseen_count -->
+    <skip />
+    <!-- no translation found for unseen_count -->
+    <skip />
+    <plurals name="actionbar_unread_messages">
+        <!--MesType:PluralPurpose:actionbar_unread_messages for Email;ScreenPath:TctEmail-->
+        <item quantity="other">"%1$d belum dibaca"</item>
+    </plurals>
+    <!--MesType:StringPurpose:actionbar_large_unread_count for Email;ScreenPath:TctEmail-->
+    <string name="actionbar_large_unread_count">"<xliff:g id="count">%1$d</xliff:g>+ belum terbaca"</string>
+    <!--MesType:StringPurpose:view_more_conversations for Email;ScreenPath:TctEmail-->
+    <string name="view_more_conversations">"Lihat percakapan lain"</string>
+    <!--Type:String Purpose:Conversation list shared between the Activity and Widget Displayed in the middle of the screen when conversations are being loaded ScreenPath:UnifiedEmail - > conversation list-->
+    <string name="loading_conversation">"Memuat\u2026"</string>
+    <!--MesType:StringPurpose:activity_mailbox_selection for Email;ScreenPath:TctEmail-->
+    <string name="activity_mailbox_selection">"Pilih akun"</string>
+    <!--Type:text string Purpose: Name of the Folders activity [CHAR LIMIT=30]  ScreenPath:Main Menu -> Unified Email -> Folders-->
+    <string name="activity_folder_selection">"Pilih folder"</string>
+    <!--MesType:StringPurpose:folder_shortcut_widget_label for Email;ScreenPath:TctEmail-->
+    <string name="folder_shortcut_widget_label">"Folder email"</string>
+    <!--Type:text string Purpose: Folder selection dialog. Title for change folders dialog [CHAR LIMIT=30]  ScreenPath:Main Menu -> Unified Email -> Settings-->
+    <string name="change_folders_selection_dialog_title">"Ganti folder"</string>
+    <!--Type:String Purpose:Title for move to dialog [CHAR LIMIT=30]  ScreenPath:UnifiedEmail - > conversation dialog folder selection dialog-->
+    <string name="move_to_selection_dialog_title">"Pindahkan ke"</string>
+    <!-- no translation found for search_results_loaded -->
+    <skip />
+    <!--MesType:StringPurpose:network_error for EmailScreenPath:TctEmail-->
+    <string name="network_error">"Tidak ada sambungan"</string>
+    <!--Type:String Purpose:Button at bottom of conversation list screen if last attempt to load conversations failed [CHAR LIMIT=20] ScreenPath:UnifiedEmail - > conversation list screen-->
+    <string name="retry">"Coba lagi"</string>
+    <!--MesType:StringPurpose:load_more for Email;ScreenPath:TctEmail-->
+    <string name="load_more">"Muat lainnya"</string>
+    <!-- no translation found for load_attachment -->
+    <skip />
+    <!--Type:String Purpose:Text for dummy attachments to load the actual attachment. This is not an ideal string, but it's too late to add a new string and get it translated Shortcut strings Title for shortcut naming dialog [CHAR LIMIT=100] ScreenPath:UnifiedEma-->
+    <string name="shortcut_name_title">"Beri nama shortcut folder"</string>
+    <!--Type:a line string Purpose:this string is used for sync mail dialog, and this string is dialog title ScreenPath:Email -> sync mail-->
+    <string name="wait_for_sync_title">"Menunggu sinkronisasi"</string>
+    <!--Type:String Purpose:Title for the screen displayed during the initial sync [CHAR LIMIT=100]  ScreenPath:UnifiedEmail - > initial sync-->
+    <string name="not_synced_title">"Akun tidak tersinkron"</string>
+    <!--Type:strings Purpose:this string length no limited, used in a toast, notice user sync info ScreenPath:Email -> Settings-->
+    <string name="wait_for_manual_sync_body">"Akun ini tidak disiapkan untuk menyinkronkan secara otomatis.\nKetuk <b>Sinkronkan sekarang</b> untuk menyinkronkan pesan sekali saja, atau <b>Ubah pengaturan sinkronisasi</b> untuk menyiapkan akun ini untuk menyinkronkan pesan secara otomatis."</string>
+    <!--Type:String Purpose:Displayed at the bottom of the screen during the initial sync. If pressed will sync users mail for the selected account. ScreenPath:UnifiedEmail - > sync users mail-->
+    <string name="manual_sync">"Sinkronkan sekarang"</string>
+    <!--Type:text string Purpose: Displayed at the bottom of the screen during the initial sync. If pressed will open sync setting screen for accounts. [CHAR LIMIT=30]  ScreenPath:Main Menu -> Unified Email -> Settings-->
+    <string name="change_sync_settings">"Ganti pengaturan sinkronisasi"</string>
+    <!--Type:String Purpose:Displayed when we could not load a photo in the photo viewer. [CHAR LIMIT=30]  ScreenPath:UnifiedEmail - > photo viewer-->
+    <string name="photo_load_failed">"Tidak dapat memuat gambar"</string>
+    <!--Type:text string Purpose: The move message / change labels action can't be taken because the selected messages come from different accounts  ScreenPath:Main Menu -> Unified Email -> Compose Message-->
+    <string name="cant_move_or_change_labels">"Tidak dapat memindah karena pilihan berisi beberapa akun."</string>
+    <!-- no translation found for multiple_new_message_notification_item -->
+    <skip />
+    <!-- no translation found for single_new_message_notification_big_text -->
+    <skip />
+    <!--Type:String Purpose:Displayed in a message subheading. Ignore the current spam warning. ScreenPath:UnifiedEmail -> message subheading-->
+    <string name="ignore_spam_warning">"Abaikan, saya percaya pesan ini"</string>
+    <!--Type:a line string Purpose:this string is used at mail is from who, display in mail content header part. ScreenPath:Email -> open a mail-->
+    <string name="via_domain">"melalui <xliff:g id="viaDomain">%1$s</xliff:g>"</string>
+    <!--Type:String Purpose:Button text for the button to click to have the user sign in again. [CHAR LIMIT=20] ScreenPath:UnifiedEmail - > signin button-->
+    <string name="signin">"Masuk"</string>
+    <!--Type:String Purpose:Button text for the button to click for more information. ScreenPath:UnifiedEmail -> More Information Button-->
+    <string name="info">"Info"</string>
+    <!--Type:String Purpose:Button text for the button to click to report feedback. [CHAR LIMIT=20] ScreenPath:UnifiedEmail - > feedback button-->
+    <string name="report">"Laporan"</string>
+    <!--Type:String Purpose:Dialog title when a sync error occurs. [CHAR LIMIT=50] ScreenPath:UnifiedEmail - > sync error dialog-->
+    <string name="sync_error">"Tidak dapat menyinkronkan."</string>
+    <!--Type:String Purpose:Dialog title when a sync error occurs. [CHAR LIMIT=100] ScreenPath:UnifiedEmail - > sync error dialog-->
+    <string name="sync_error_message">"Memori perangkat Anda tidak cukup untuk sinkronisasi."</string>
+    <!--Type:String Purpose:Button text for the button to click to go to the manage storage settings screen. [CHAR LIMIT=20] ScreenPath:UnifiedEmail - > Storage Button-->
+    <string name="storage">"Penyimpanan"</string>
+    <!-- no translation found for senders_split_token -->
+    <skip />
+    <!-- no translation found for draft_count_format -->
+    <skip />
+    <!--MesType:StringPurpose:all_folders_heading for EmailScreenPath:TctEmail-->
+    <string name="all_folders_heading">"Semua map"</string>
+    <!--Type:String Purpose:String used in the FolderListFragment to mark the start of recent folders  ScreenPath:UnifiedEmail - > FolderList-->
+    <string name="recent_folders_heading">"Map terkini"</string>
+    <!--Type:String Purpose:Dialog title when showing message header details in a popup window. [CHAR LIMIT=100] ScreenPath:UnifiedEmail - > message header details dialog-->
+    <string name="message_details_title">"Detail pesan"</string>
+    <!--MesType:StringPurpose:preference_advance_to_title for Email;ScreenPath:TctEmail-->
+    <string name="preference_advance_to_title">"Maju otomatis"</string>
+    <string-array name="prefEntries_autoAdvance">
+        <!--Type:text string Purpose: The auto-advance modes Newer conversation  ScreenPath:Main Menu -> Unified Email -> Conversation List-->
+        <item>"Anyar"</item>
+        <!--Type:text string Purpose: The auto-advance modes Older conversation  ScreenPath:Main Menu -> Unified Email -> Conversation List-->
+        <item>"Lebih lama"</item>
+        <!--Type:text string Purpose: The auto-advance modes Conversation list  ScreenPath:Main Menu -> Unified Email -> Conversation List-->
+        <item>"Daftar percakapan"</item>
+    </string-array>
+    <string-array name="prefSummaries_autoAdvance">
+        <!--MesType:ArrayPurpose:prefSummaries_autoAdvance for Email;ScreenPath:TctEmail-->
+        <item>"Tampilkan percakapan yang lebih baru setelah dihapus"</item>
+        <!--MesType:ArrayPurpose:prefSummaries_autoAdvance for Email;ScreenPath:TctEmail-->
+        <item>"Tampilkan percakapan yang lebih lama setelah dihapus"</item>
+        <!--MesType:ArrayPurpose:prefSummaries_autoAdvance for Email;ScreenPath:TctEmail-->
+        <item>"Tampilkan daftar percakapan setelah dihapus"</item>
+    </string-array>
+    <!---->
+    <string name="prefDialogTitle_autoAdvance">"Majukan ke"</string>
+    <!--Type:text string Purpose: Settings screen, title of "Restore default for "Show pictures"" [CHAR LIMIT=1000] ScreenPath:Main Menu -> Unified Email -> Settings-->
+    <string name="clear_display_images_whitelist_title">"Hapus persetujuan gambar"</string>
+    <!--Type:text string Purpose:Settings screen, title of dialog shown to confirm action when user taps "Clear picture approvals" in preferences [CHAR LIMIT=200] ScreenPath:Main Menu -> Unified Email -> Settings-->
+    <string name="clear_display_images_whitelist_dialog_title">"Hapus persetujuan gambar?"</string>
+    <!--Type:text string Purpose: Settings screen, message of dialog shown to confirm action when tapping "Clear picture approvals" [CHAR LIMIT=1000] ScreenPath:Main Menu -> Unified Email -> Settings-->
+    <string name="clear_display_images_whitelist_dialog_message">"Hentikan tampilan gambar inline dari pengirim yang sebelumnya telah Anda izinkan."</string>
+    <!--Type:String Purpose:Message shown in toast when the user taps "Restore default for "Show pictures"" in Gmail general preferences. [CHAR LIMIT=50]  ScreenPath:UnifiedEmail - > Toast-->
+    <string name="sender_whitelist_cleared">"Gambar tidak akan ditampilkan secara otomatis."</string>
+    <!--MesType:StringPurpose:preferences_signature_title for Email;ScreenPath:TctEmail-->
+    <string name="preferences_signature_title">"Tanda tangan"</string>
+    <!--Type:String Purpose:Settings screen, title of the dialog that lets the user configure their signature [CHAR LIMIT=50]  ScreenPath:UnifiedEmail - > Settings screen -> signature dialog-->
+    <string name="preferences_signature_dialog_title">"Tanda tangan"</string>
+    <!--Type:String Purpose:Settings screen, setting summary text when no signature set [CHAR LIMIT=100]  ScreenPath:UnifiedEmail - > Settings screen-->
+    <string name="preferences_signature_summary_not_set">"Belum diatur"</string>
+    <!--MesType:StringPurpose:mail_account_signature_prefix for EmailScreenPath:TctEmail-->
+    <string name="mail_account_signature_prefix">"Dikirim dari <xliff:g id="product" example="4">%1$s</xliff:g>"</string>
+    <!--MesType:StringPurpose:notification_action_reply for Email;ScreenPath:TctEmail-->
+    <string name="notification_action_reply">"Balas"</string>
+    <!--MesType:StringPurpose:notification_action_reply_all for Email;ScreenPath:TctEmail-->
+    <string name="notification_action_reply_all">"Balas ke semua"</string>
+    <!--Type:String Purpose:Notification action for archiving a message. [CHAR LIMIT=20]  ScreenPath:UnifiedEmail - > Notification-->
+    <string name="notification_action_archive">"Arsipkan"</string>
+    <!--Type:String Purpose:Notification action for removing a label from a message. [CHAR LIMIT=20]  ScreenPath:UnifiedEmail - > Notification-->
+    <string name="notification_action_remove_label">"Hapus label"</string>
+    <!--MesType:StringPurpose:notification_action_delete for Email;ScreenPath:TctEmail-->
+    <string name="notification_action_delete">"Hapus"</string>
+    <!--Type:String Purpose:Notification undo text after archiving a message. [CHAR LIMIT=30]  ScreenPath:UnifiedEmail - > Notification-->
+    <string name="notification_action_undo_archive">"Diarsipkan"</string>
+    <!--Type:String Purpose:Notification undo text after removing a label from a message. [CHAR LIMIT=30]  ScreenPath:UnifiedEmail - > Notification-->
+    <string name="notification_action_undo_remove_label">"Label dihapus"</string>
+    <!--Type:String Purpose:Notification undo text after deleting a message. [CHAR LIMIT=30]  ScreenPath:UnifiedEmail - > Notification-->
+    <string name="notification_action_undo_delete">"Terhapus"</string>
+    <!-- no translation found for veiled_address -->
+    <skip />
+    <!-- no translation found for veiled_alternate_text -->
+    <skip />
+    <!-- no translation found for veiled_alternate_text_unknown_person -->
+    <skip />
+    <!-- no translation found for veiled_summary_unknown_person -->
+    <skip />
+    <!-- no translation found for label_notification_ticker -->
+    <skip />
+    <plurals name="new_messages">
+        <!--MesType:PluralPurpose:new_messages one for Email;ScreenPath:TctEmail-->
+        <item quantity="one">"<xliff:g id="count">%1$d</xliff:g> pesan baru"</item>
+        <!--MesType:PluralPurpose:new_messages for Email;ScreenPath:TctEmail-->
+        <item quantity="other">"<xliff:g id="count">%1$d</xliff:g> pesan baru"</item>
+    </plurals>
+    <!-- no translation found for single_new_message_notification_title -->
+    <skip />
+    <!--MesType:StringPurpose:silent_ringtone for Email;ScreenPath:TctEmail-->
+    <string name="silent_ringtone">"Senyap"</string>
+    <!---->
+    <string name="preference_removal_action_title">"Arsipkan &amp; hapus tindakan"</string>
+    <string-array name="prefEntries_removal_action">
+        <!--Type:text string Purpose: Options to select from for whether to have archive or delete as the remove action [CHAR LIMIT=50]  ScreenPath:Main Menu -> Unified Email -> Inbox -> Message Content-->
+        <item>"Tampilkan arsip saja"</item>
+        <!--Type:text string Purpose: Options to select from for whether to have archive or delete as the remove action [CHAR LIMIT=50]  ScreenPath:Main Menu -> Unified Email -> Inbox -> Message Content-->
+        <item>"Tampilkan yang dihapus saja"</item>
+        <!--Type:text string Purpose: Options to select from for whether to have archive or delete as the remove action [CHAR LIMIT=50]  ScreenPath:Main Menu -> Unified Email -> Inbox -> Message Content-->
+        <item>"Tampilkan arsipkan &amp; hapus"</item>
+    </string-array>
+    <string-array name="prefSummaries_removal_action_summary">
+        <!--Type:text string Purpose: Description of currently selected option of whether to use archive or delete as remove action [CHAR LIMIT=200]  ScreenPath:Main Menu -> Unified Email -> Conversation List-->
+        <item>"Tampilkan arsip saja"</item>
+        <!--Type:text string Purpose: Description of currently selected option of whether to use archive or delete as remove action [CHAR LIMIT=200]  ScreenPath:Main Menu -> Unified Email -> Conversation List-->
+        <item>"Tampilkan yang dihapus saja"</item>
+        <!--Type:text string Purpose: Options to select from for whether to have archive or delete as the remove action [CHAR LIMIT=50]  ScreenPath:Main Menu -> Unified Email -> Inbox -> Message Content-->
+        <item>"Tampilkan arsipkan &amp; hapus"</item>
+    </string-array>
+    <!--Type:String Purpose:Dialog title for the choosing whether to use archive or delete as remove action [CHAR LIMIT=150]  ScreenPath:UnifiedEmail - > choosing  archive or delete as remove action dialog-->
+    <string name="prefDialogTitle_removal_action">"Arsipkan &amp; hapus tindakan"</string>
+    <!--MesType:StringPurpose:preferences_default_reply_all_title for Email;ScreenPath:TctEmail-->
+    <string name="preferences_default_reply_all_title">"Balas ke semua"</string>
+    <!--MesType:StringPurpose:preferences_default_reply_all_summary_impl for Email;ScreenPath:TctEmail-->
+    <string name="preferences_default_reply_all_summary_impl">"Gunakan sebagai default untuk jawaban pesan"</string>
+    <!--Type:String Purpose:Preference name for swipe action when action is archive [CHAR LIMIT=100] ScreenPath:UnifiedEmail -> Settings screen-->
+    <string name="preference_swipe_title_archive">"Usap untuk mengarsipkan"</string>
+    <!--MesType:StringPurpose:preference_swipe_title_delete for Email;ScreenPath:TctEmail-->
+    <string name="preference_swipe_title_delete">"Usap untuk menghapus"</string>
+    <!--MesType:StringPurpose:preference_swipe_description for Email;ScreenPath:TctEmail-->
+    <string name="preference_swipe_description">"Dalam daftar percakapan"</string>
+    <!--MesType:StringPurpose:preference_sender_image_title for Email;ScreenPath:TctEmail-->
+    <string name="preference_sender_image_title">"Gambar pengirim"</string>
+    <!--MesType:StringPurpose:preference_sender_image_description for Email;ScreenPath:TctEmail-->
+    <string name="preference_sender_image_description">"Tampilkan nama di sebelah daftar percakapan"</string>
+    <!--MesType:StringPurpose:empty_trash for Email;ScreenPath:TctEmail-->
+    <string name="empty_trash">"Kosongkan Sampah"</string>
+    <!---->
+    <string name="empty_spam">"Kosongkan Spam"</string>
+    <!--MesType:StringPurpose:empty_trash_dialog_title for Email;ScreenPath:TctEmail-->
+    <string name="empty_trash_dialog_title">"Kosongkan Sampah?"</string>
+    <!---->
+    <string name="empty_spam_dialog_title">"Kosongkan Spam?"</string>
+    <plurals name="empty_folder_dialog_message">
+        <!--MesType:PluralPurpose:empty_folder_dialog_message one for Email;ScreenPath:TctEmail-->
+        <item quantity="one">"%1$d pesan akan dihapus secara permanen."</item>
+        <!--MesType:PluralPurpose:empty_folder_dialog_message other for Email;ScreenPath:TctEmail-->
+        <item quantity="other">"%1$d pesan akan dihapus secara permanen."</item>
+    </plurals>
+    <!--Type:strings Purpose:when you enter email first times, will show you learning guide, this string is in it. ScreenPath:Enter email first times -> learning guide-->
+    <string name="drawer_open">"Buka laci navigasi"</string>
+    <!--Type:strings Purpose:when you enter email first times, this learning guide will show you how to operate email, this string is in this guide. ScreenPath:Enter email first times -> learning guide-->
+    <string name="drawer_close">"Informasi hak cipta"</string>
+    <!--MesType:StringPurpose:conversation_photo_welcome_text for Email;ScreenPath:TctEmail-->
+    <string name="conversation_photo_welcome_text">"Sentuh gambar pengirim untuk memilih percakapan."</string>
+    <!--Type:String Purpose:long press item to pop tip remind in conversation list ScreenPath:UnifiedEmail - > conversation list-->
+    <string name="long_press_to_select_tip">"Tekan terus untuk memilih satu percakapan, lalu ketuk untuk memilih lebih banyak."</string>
+    <!---->
+    <string name="folder_icon_desc">"Ikon folder"</string>
+    <!--MesType:StringPurpose:add_account for Email
+add_account for EmailScreenPath:TctEmail-->
+    <string name="add_account">"Tambah akun"</string>
+    <!--Type:strings Purpose:enter email app, long press conversation list, this string will show. ScreenPath:Email -> Conversation list-->
+    <string name="dismiss_tip_hover_text">"Tolak tips"</string>
+    <!--Type:text string Purpose: Tip for letting user know that their device auto-sync setting is turned off, in case they are wondering why they are not receiving any new mail. [CHAR LIMIT=250]  ScreenPath:Main Menu -> Unified Email -> Settings-->
+    <string name="auto_sync_off">"Sinkronisasi-otomatis mati."</string>
+    <!--Type:String Purpose:Tap to turn on device auto-sync setting. [CHAR LIMIT=250]  ScreenPath:UnifiedEmail - > conversation-->
+    <string name="tap_to_enable_sync">"Ketuk untuk mengaktifkan."</string>
+    <!--MesType:StringPurpose:account_sync_offScreenPath:TctEmail-->
+    <string name="account_sync_off">"Sinkronisasi akun mati."</string>
+    <!--MesType:StringPurpose:enable_sync_in_account_settings for Email;ScreenPath:TctEmail-->
+    <string name="enable_sync_in_account_settings">"Hidupkan <xliff:g id="account_settings">%1$s</xliff:g>."</string>
+    <!--Type:String Purpose: This is used as a parameter to another string and combined reads "Turn on in Account settings." [CHAR LIMIT=250]  ScreenPath:Main Menu -> Unified Email -> Settings-->
+    <string name="account_settings_param">"Pengaturan akun"</string>
+    <!--Type:a line string Purpose:this string is tips user there are some mail not sent in outbox ScreenPath:email -> outbox-->
+    <string name="unsent_messages_in_outbox">"<xliff:g id="number">%1$s</xliff:g> tidak terkirim di dalam <xliff:g id="outbox">%2$s</xliff:g>"</string>
+    <!--Type:a line string Purpose:this string is used for dialog title, just one line. ScreenPath:Email -> Conversation list-->
+    <string name="turn_auto_sync_on_dialog_title">"Aktifkan sinkronisasi data otomatis?"</string>
+    <!--Type:strings Purpose:this string is no limited, it is used for dialog body. ScreenPath:Email -> Conversation list-->
+    <string name="turn_auto_sync_on_dialog_body">"Perubahan yang Anda buat untuk semua aplikasi dan akun, bukan hanya Gmail, akan disinkronkan ke web, perangkat lain, dan <xliff:g id="phone_or_tablet">%1$s</xliff:g>."</string>
+    <!--Type:String Purpose:Phone (vs. tablet) for describing this device [CHAR LIMIT=30]  ScreenPath:UnifiedEmail - > conversation menu-->
+    <string name="phone">"Ponsel"</string>
+    <!--Type:String Purpose:Tablet (vs. phone) for describing this device [CHAR LIMIT=30]  ScreenPath:UnifiedEmail - > device describing-->
+    <string name="tablet">"Tablet"</string>
+    <!--Type:a line string Purpose:this string is use for a dialog button label, just a line. ScreenPath:Email -> Conversation list-->
+    <string name="turn_auto_sync_on_dialog_confirm_btn">"Aktifkan"</string>
+    <!--MesType:StringPurpose:show_n_more_folders for Email;ScreenPath:TctEmail-->
+    <string name="show_n_more_folders">"Tampilkan %1$s lebih folder"</string>
+    <!--MesType:StringPurpose:hide_folders for Email;ScreenPath:TctEmail-->
+    <string name="hide_folders">"Sembunyikan folder"</string>
+    <!--MesType:StringPurpose:print for Email;ScreenPath:TctEmail-->
+    <string name="print">"Cetak"</string>
+    <!---->
+    <string name="print_all">"Cetak semua"</string>
+    <plurals name="num_messages">
+        <item quantity="one">"<xliff:g id="count">%1$d</xliff:g> pesan"</item>
+        <item quantity="other">"<xliff:g id="count">%1$d</xliff:g> pesan"</item>
+    </plurals>
+    <!-- no translation found for date_message_received_print -->
+    <skip />
+    <!---->
+    <string name="draft_to_heading">"Konsep Ke:"</string>
+    <!--Type:text string Purpose: Displayed in browse list item when the list item is a draft message instead of showing the subject [CHAR LIMIT=100]  Title of the screen when there is exactly one draft  ScreenPath:Main Menu -> Unified Email -> Inbox -> Side bar-->
+    <string name="draft_heading">"Konsep"</string>
+    <!---->
+    <string name="quoted_text_hidden_print">"Teks yang dikutip disembunyikan"</string>
+    <plurals name="num_attachments">
+        <item quantity="one">"<xliff:g id="count">%1$d</xliff:g> lampiran"</item>
+        <item quantity="other">"<xliff:g id="count">%1$d</xliff:g> lampiran"</item>
+    </plurals>
+    <!--Subject to display in the conversation list if there is no subject-->
+    <string name="no_subject">"(Tidak ada subjek)"</string>
+    <!---->
+    <string name="vacation_responder">"Jawaban berlibur"</string>
+    <!---->
+    <string name="preferences_vacation_responder_title">"Jawaban berlibur"</string>
+    <!--Button on the message view screen to show the message content [CHAR LIMIT=16]-->
+    <string name="vacation_responder_body_hint_text">"Pesan"</string>
+    <!---->
+    <string name="send_to_contacts_text">"Hanya kirim ke Kontak saya"</string>
+    <!---->
+    <string name="send_to_domain_text">"Hanya kirim ke <xliff:g id="domain">%1$s</xliff:g>"</string>
+    <!---->
+    <string name="pick_start_date_title">"Mulai"</string>
+    <!---->
+    <string name="pick_end_date_title">"Akhir (Opsional)"</string>
+    <!--Type:String Purpose:Settings screen, setting summary text when no signature set [CHAR LIMIT=100]  ScreenPath:UnifiedEmail - > Settings screen-->
+    <string name="date_not_set">"Belum diatur"</string>
+    <!---->
+    <string name="set_end_date_dialog_title">"Tanggal berakhir (opsional)"</string>
+    <!--Type:Array Purpose:CustomCustomCustomCustomCustomCustom
+CustomCustomCustomCustomCustomCustom
+CustomCustomCustomCustomCustomCustom
+CustomCustomCustomCustomCustomCustom ScreenPath:Settings-->
+    <string name="custom_date">"Kustom"</string>
+    <!--Type:String Purpose:user can see account_settings_enforced_label.account setting preference summary is the preference summary . ScreenPath:Email->Settings->Gernal settings-->
+    <string name="date_none">"Tidak ada"</string>
+    <!---->
+    <string name="discard_changes">"Urungkan perubahan?"</string>
+    <!---->
+    <string name="vacation_responder_changes_saved">"Perubahan jawaban berlibur disimpan"</string>
+    <!---->
+    <string name="vacation_responder_changes_discarded">"Perubahan jawaban berlibur dibuang"</string>
+    <!---->
+    <string name="vacation_responder_off">"MATI"</string>
+    <!-- no translation found for vacation_responder_on -->
+    <skip />
+    <!-- no translation found for vacation_responder_on_with_end_date -->
+    <skip />
+    <!---->
+    <string name="vacation_responder_empty_subject_and_body_warning">"Tambah judul atau pesan"</string>
+    <!---->
+    <string name="view_entire_message">"Lihat keseluruhan pesan"</string>
+    <!---->
+    <string name="eml_loader_error_toast">"Tidak bisa membuka file ini"</string>
+    <!--Type:String Purpose:Menu item that displays the help page for Gmail. ScreenPath:UnifiedEmail->Menu -> Menu Item-->
+    <string name="help_and_info">"Bantuan"</string>
+    <!---->
+    <string name="help_and_feedback">"Bantuan &amp; masukan"</string>
+    <!---->
+    <string name="feedback">"Kirim umpan balik"</string>
+    <!-- no translation found for copyright -->
+    <skip />
+    <!-- no translation found for version -->
+    <skip />
+    <!-- no translation found for view_app_page -->
+    <skip />
+    <!---->
+    <string name="print_dialog">"Cetak\u2026"</string>
+    <!---->
+    <string name="copyright_information">"Informasi hak cipta"</string>
+    <!---->
+    <string name="privacy_policy">"Kebijakan privasi"</string>
+    <!--About phone settings, Legal information setting option name and title of dialog box holding license info-->
+    <string name="open_source_licenses">"Lisensi sumber terbuka"</string>
+    <!--Type:String Purpose:Shown as a button label in message view to accept a calendar invite [CHAR LIMIT=20] ScreenPath:UnifiedEmail - > conversation message invite view-->
+    <string name="reply_choice_yes">"Ya"</string>
+    <!--Type:String Purpose:Shown as a button label in message view to decline a calendar invite [CHAR LIMIT=20] ScreenPath:UnifiedEmail - > conversation message invite view-->
+    <string name="reply_choice_no">"Tidak"</string>
+    <!--Type:string Purpose:show the select item for users when users select a item to toast a dialog in mms. ScreenPath:launcher Mms-> select a message ->show a dialog-->
+    <string name="reply_choice_ok">"OK"</string>
+    <!-- no translation found for reply_choice_hehe -->
+    <skip />
+    <!---->
+    <string name="reply_choice_thanks">"Terima kasih"</string>
+    <!---->
+    <string name="reply_choice_i_agree">"Saya setuju"</string>
+    <!---->
+    <string name="reply_choice_nice">"Bagus"</string>
+    <!---->
+    <string name="reply_on_my_way">"Dalam perjalanan"</string>
+    <!---->
+    <string name="reply_choice_later">"OK, akan saya hubungi lagi nanti"</string>
+    <!-- no translation found for reply_choice_smiling_face -->
+    <skip />
+    <!-- no translation found for reply_choice_frowning_face -->
+    <skip />
+    <!--MesType:StringPurpose:preference_header_action_confirmations for Email;ScreenPath:TctEmail-->
+    <string name="preference_header_action_confirmations">"Konfirmasi Tindakan"</string>
+    <!--MesType:StringPurpose:preference_confirm_before_delete_title for Email;ScreenPath:TctEmail-->
+    <string name="preference_confirm_before_delete_title">"Konfirmasikan sebelum menghapus"</string>
+    <!---->
+    <string name="preference_confirm_before_archive_title">"Konfirmasikan sebelum pengarsipan"</string>
+    <!--MesType:StringPurpose:preference_confirm_before_send_title for Email;ScreenPath:TctEmail-->
+    <string name="preference_confirm_before_send_title">"Konfirmasikan sebelum mengirim"</string>
+    <!---->
+    <string name="preferences_conversation_mode_title">"Sesuaikan pesan otomatis"</string>
+    <!---->
+    <string name="preferences_conversation_mode_summary">"Kecilkan pesan supaya muat di layar"</string>
+    <!-- no translation found for preferences_disable_snap_headers_title -->
+    <skip />
+    <string-array name="prefSummaries_snapHeader">
+        <item>"Hanya tampilkan tindakan pesan di atas layar"</item>
+        <item>"Hanya tampilkan tindakan pesan di atas layar jika diputar menjadi tegak"</item>
+        <item>"Jangan tampilkan tindakan pesan di luar header pesan"</item>
+    </string-array>
+    <string-array name="prefEntries_snapHeader">
+        <item>"Selalu tampilkan"</item>
+        <item>"Hanya tampilkan dalam bentuk tegak"</item>
+        <item>"Jangan tampilkan"</item>
+    </string-array>
+    <!--- Button title in preferences to clear the search history. It's a verb action that takes place immediately when clicked.-->
+    <string name="clear_history_title">"Hapus riwayat pencarian"</string>
+    <!--Message to show in a toast when the history is cleared [CHAR LIMIT=40]-->
+    <string name="search_history_cleared">"Riwayat pencarian dihapus."</string>
+    <!---->
+    <string name="clear_history_dialog_title">"Hapus riwayat pencarian?"</string>
+    <!---->
+    <string name="clear_history_dialog_message">"Semua pencarian Anda yang dilakukan sebelumnya akan dihapus."</string>
+    <!--Header title for list of accounts on Accounts & Synchronization settings-->
+    <string name="manage_accounts_menu_item">"Kelola akun"</string>
+    <!--MesType:StringPurpose:general_preferences_title for Email
+general_preferences_title for EmailScreenPath:TctEmail-->
+    <string name="general_preferences_title">"Pengaturan umum"</string>
+    <!--Settings activity title [CHAR LIMIT=40]-->
+    <string name="activity_preferences">"Pengaturan"</string>
+    <!--MesType:StringPurpose:always_bcc_myself for Email;ScreenPath:TctEmail-->
+    <string name="always_bcc_myself">"Selalu bcc diri saya"</string>
+    <!--MesType:StringPurpose:always_bcc_myself_summary for Email;ScreenPath:TctEmail-->
+    <string name="always_bcc_myself_summary">"Selalu bcc diri saya saat menulis, membalas dan meneruskan"</string>
+    <!---->
+    <string name="general_preference_auto_download_remaining_label">"Sisa unduhan otomatis"</string>
+    <!---->
+    <string name="general_preference_auto_download_remaining_summary">"Body sisa unduhan otomatis saat menggulir ke bawah"</string>
+    <!--Download remaining of the message when view a partial downloaded message-->
+    <string name="download_remaining">"Sisa unduhan"</string>
+    <!---->
+    <string name="downloading_remaining">"Memuat ..."</string>
+    <!--Dialog title when user syncing manually without active network-->
+    <string name="unable_to_connect">"Tidak dapat tersambung"</string>
+    <!--Dialog text when user syncing manually without active network-->
+    <string name="need_connection_prompt">"Anda memerlukan sambungan jaringan untuk menggunakan aplikasi ini. Aktifkan jaringan seluler atau Pengaturan Wi-Fi."</string>
+    <!--Button text in the connection alert dialog-->
+    <string name="connection_settings">"Pengaturan"</string>
+    <!--MesType:StringPurpose:priority_action for Email;ScreenPath:TctEmail-->
+    <string name="priority_action">"Prioritas"</string>
+    <!--MesType:StringPurpose:set_priority_dialog_title for Email;ScreenPath:TctEmail-->
+    <string name="set_priority_dialog_title">"Prioritas"</string>
+    <!-- no translation found for def_email_account1LabelValue -->
+    <skip />
+    <!-- no translation found for def_email_account1DomainValue -->
+    <skip />
+    <!-- no translation found for def_email_account1ReloginValue -->
+    <skip />
+    <!-- no translation found for def_email_account1IncomingServerValue -->
+    <skip />
+    <!-- no translation found for def_email_account1UsernameValue -->
+    <skip />
+    <!-- no translation found for def_email_account1OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for def_email_account2LabelValue -->
+    <skip />
+    <!-- no translation found for def_email_account2DomainValue -->
+    <skip />
+    <!-- no translation found for def_email_account2ReloginValue -->
+    <skip />
+    <!-- no translation found for def_email_account2IncomingServerValue -->
+    <skip />
+    <!-- no translation found for def_email_account2UsernameValue -->
+    <skip />
+    <!-- no translation found for def_email_account2OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for def_email_account3LabelValue -->
+    <skip />
+    <!-- no translation found for def_email_account3DomainValue -->
+    <skip />
+    <!-- no translation found for def_email_account3ReloginValue -->
+    <skip />
+    <!-- no translation found for def_email_account3IncomingServerValue -->
+    <skip />
+    <!-- no translation found for def_email_account3UsernameValue -->
+    <skip />
+    <!-- no translation found for def_email_account3OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for def_email_account4LabelValue -->
+    <skip />
+    <!-- no translation found for def_email_account4DomainValue -->
+    <skip />
+    <!-- no translation found for def_email_account4ReloginValue -->
+    <skip />
+    <!-- no translation found for def_email_account4IncomingServerValue -->
+    <skip />
+    <!-- no translation found for def_email_account4UsernameValue -->
+    <skip />
+    <!-- no translation found for def_email_account4OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for def_email_account5LabelValue -->
+    <skip />
+    <!-- no translation found for def_email_account5DomainValue -->
+    <skip />
+    <!-- no translation found for def_email_account5ReloginValue -->
+    <skip />
+    <!-- no translation found for def_email_account5IncomingServerValue -->
+    <skip />
+    <!-- no translation found for def_email_account5UsernameValue -->
+    <skip />
+    <!-- no translation found for def_email_account5OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for def_email_account6LabelValue -->
+    <skip />
+    <!-- no translation found for def_email_account6DomainValue -->
+    <skip />
+    <!-- no translation found for def_email_account6ReloginValue -->
+    <skip />
+    <!-- no translation found for def_email_account6IncomingServerValue -->
+    <skip />
+    <!-- no translation found for def_email_account6UsernameValue -->
+    <skip />
+    <!-- no translation found for def_email_account6OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for def_email_account7LabelValue -->
+    <skip />
+    <!-- no translation found for def_email_account7DomainValue -->
+    <skip />
+    <!-- no translation found for def_email_account7ReloginValue -->
+    <skip />
+    <!-- no translation found for def_email_account7IncomingServerValue -->
+    <skip />
+    <!-- no translation found for def_email_account7UsernameValue -->
+    <skip />
+    <!-- no translation found for def_email_account7OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for def_email_account8LabelValue -->
+    <skip />
+    <!-- no translation found for def_email_account8DomainValue -->
+    <skip />
+    <!-- no translation found for def_email_account8ReloginValue -->
+    <skip />
+    <!-- no translation found for def_email_account8IncomingServerValue -->
+    <skip />
+    <!-- no translation found for def_email_account8UsernameValue -->
+    <skip />
+    <!-- no translation found for def_email_account8OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for def_email_account9LabelValue -->
+    <skip />
+    <!-- no translation found for def_email_account9DomainValue -->
+    <skip />
+    <!-- no translation found for def_email_account9ReloginValue -->
+    <skip />
+    <!-- no translation found for def_email_account9IncomingServerValue -->
+    <skip />
+    <!-- no translation found for def_email_account9UsernameValue -->
+    <skip />
+    <!-- no translation found for def_email_account9OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for def_email_account10LabelValue -->
+    <skip />
+    <!-- no translation found for def_email_account10DomainValue -->
+    <skip />
+    <!-- no translation found for def_email_account10ReloginValue -->
+    <skip />
+    <!-- no translation found for def_email_account10IncomingServerValue -->
+    <skip />
+    <!-- no translation found for def_email_account10UsernameValue -->
+    <skip />
+    <!-- no translation found for def_email_account10OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for def_email_account11LabelValue -->
+    <skip />
+    <!-- no translation found for def_email_account11DomainValue -->
+    <skip />
+    <!-- no translation found for def_email_account11ReloginValue -->
+    <skip />
+    <!-- no translation found for def_email_account11IncomingServerValue -->
+    <skip />
+    <!-- no translation found for def_email_account11UsernameValue -->
+    <skip />
+    <!-- no translation found for def_email_account11OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for def_email_account12LabelValue -->
+    <skip />
+    <!-- no translation found for def_email_account12DomainValue -->
+    <skip />
+    <!-- no translation found for def_email_account12ReloginValue -->
+    <skip />
+    <!-- no translation found for def_email_account12IncomingServerValue -->
+    <skip />
+    <!-- no translation found for def_email_account12UsernameValue -->
+    <skip />
+    <!-- no translation found for def_email_account12OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for def_email_account13LabelValue -->
+    <skip />
+    <!-- no translation found for def_email_account13DomainValue -->
+    <skip />
+    <!-- no translation found for def_email_account13ReloginValue -->
+    <skip />
+    <!-- no translation found for def_email_account13IncomingServerValue -->
+    <skip />
+    <!-- no translation found for def_email_account13UsernameValue -->
+    <skip />
+    <!-- no translation found for def_email_account13OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for def_email_account14LabelValue -->
+    <skip />
+    <!-- no translation found for def_email_account14DomainValue -->
+    <skip />
+    <!-- no translation found for def_email_account14ReloginValue -->
+    <skip />
+    <!-- no translation found for def_email_account14IncomingServerValue -->
+    <skip />
+    <!-- no translation found for def_email_account14UsernameValue -->
+    <skip />
+    <!-- no translation found for def_email_account14OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for def_email_account15LabelValue -->
+    <skip />
+    <!-- no translation found for def_email_account15DomainValue -->
+    <skip />
+    <!-- no translation found for def_email_account15ReloginValue -->
+    <skip />
+    <!-- no translation found for def_email_account15IncomingServerValue -->
+    <skip />
+    <!-- no translation found for def_email_account15UsernameValue -->
+    <skip />
+    <!-- no translation found for def_email_account15OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for def_email_account16LabelValue -->
+    <skip />
+    <!-- no translation found for def_email_account16DomainValue -->
+    <skip />
+    <!-- no translation found for def_email_account16ReloginValue -->
+    <skip />
+    <!-- no translation found for def_email_account16IncomingServerValue -->
+    <skip />
+    <!-- no translation found for def_email_account16UsernameValue -->
+    <skip />
+    <!-- no translation found for def_email_account16OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for def_email_account17LabelValue -->
+    <skip />
+    <!-- no translation found for def_email_account17DomainValue -->
+    <skip />
+    <!-- no translation found for def_email_account17ReloginValue -->
+    <skip />
+    <!-- no translation found for def_email_account17IncomingServerValue -->
+    <skip />
+    <!-- no translation found for def_email_account17UsernameValue -->
+    <skip />
+    <!-- no translation found for def_email_account17OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for def_email_account18LabelValue -->
+    <skip />
+    <!-- no translation found for def_email_account18DomainValue -->
+    <skip />
+    <!-- no translation found for def_email_account18ReloginValue -->
+    <skip />
+    <!-- no translation found for def_email_account18IncomingServerValue -->
+    <skip />
+    <!-- no translation found for def_email_account18UsernameValue -->
+    <skip />
+    <!-- no translation found for def_email_account18OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for def_email_account19LabelValue -->
+    <skip />
+    <!-- no translation found for def_email_account19DomainValue -->
+    <skip />
+    <!-- no translation found for def_email_account19ReloginValue -->
+    <skip />
+    <!-- no translation found for def_email_account19IncomingServerValue -->
+    <skip />
+    <!-- no translation found for def_email_account19UsernameValue -->
+    <skip />
+    <!-- no translation found for def_email_account19OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for def_email_account20LabelValue -->
+    <skip />
+    <!-- no translation found for def_email_account20DomainValue -->
+    <skip />
+    <!-- no translation found for def_email_account20ReloginValue -->
+    <skip />
+    <!-- no translation found for def_email_account20IncomingServerValue -->
+    <skip />
+    <!-- no translation found for def_email_account20UsernameValue -->
+    <skip />
+    <!-- no translation found for def_email_account20OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for def_email_account21LabelValue -->
+    <skip />
+    <!-- no translation found for def_email_account21DomainValue -->
+    <skip />
+    <!-- no translation found for def_email_account21ReloginValue -->
+    <skip />
+    <!-- no translation found for def_email_account21IncomingServerValue -->
+    <skip />
+    <!-- no translation found for def_email_account21UsernameValue -->
+    <skip />
+    <!-- no translation found for def_email_account21OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for def_email_account22LabelValue -->
+    <skip />
+    <!-- no translation found for def_email_account22DomainValue -->
+    <skip />
+    <!-- no translation found for def_email_account22ReloginValue -->
+    <skip />
+    <!-- no translation found for def_email_account22IncomingServerValue -->
+    <skip />
+    <!-- no translation found for def_email_account22UsernameValue -->
+    <skip />
+    <!-- no translation found for def_email_account22OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for def_email_account23LabelValue -->
+    <skip />
+    <!-- no translation found for def_email_account23DomainValue -->
+    <skip />
+    <!-- no translation found for def_email_account23ReloginValue -->
+    <skip />
+    <!-- no translation found for def_email_account23IncomingServerValue -->
+    <skip />
+    <!-- no translation found for def_email_account23UsernameValue -->
+    <skip />
+    <!-- no translation found for def_email_account23OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for def_email_account24LabelValue -->
+    <skip />
+    <!-- no translation found for def_email_account24DomainValue -->
+    <skip />
+    <!-- no translation found for def_email_account24ReloginValue -->
+    <skip />
+    <!-- no translation found for def_email_account24IncomingServerValue -->
+    <skip />
+    <!-- no translation found for def_email_account24UsernameValue -->
+    <skip />
+    <!-- no translation found for def_email_account24OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for def_email_account25LabelValue -->
+    <skip />
+    <!-- no translation found for def_email_account25DomainValue -->
+    <skip />
+    <!-- no translation found for def_email_account25ReloginValue -->
+    <skip />
+    <!-- no translation found for def_email_account25IncomingServerValue -->
+    <skip />
+    <!-- no translation found for def_email_account25UsernameValue -->
+    <skip />
+    <!-- no translation found for def_email_account25OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for def_isp_topRankDomainValue -->
+    <skip />
+    <!-- no translation found for def_email_account1DisplayValue -->
+    <skip />
+    <!-- no translation found for def_email_checkFrequency_default -->
+    <skip />
+    <!-- no translation found for def_email_checkFrequencyPush_default -->
+    <skip />
+    <!-- no translation found for def_email_account2DisplayValue -->
+    <skip />
+    <!-- no translation found for def_email_account3DisplayValue -->
+    <skip />
+    <!-- no translation found for def_email_account4DisplayValue -->
+    <skip />
+    <!-- no translation found for def_email_account5DisplayValue -->
+    <skip />
+    <!-- no translation found for def_email_account6DisplayValue -->
+    <skip />
+    <!-- no translation found for def_email_account7DisplayValue -->
+    <skip />
+    <!-- no translation found for def_email_account8DisplayValue -->
+    <skip />
+    <!-- no translation found for def_email_account9DisplayValue -->
+    <skip />
+    <!-- no translation found for def_email_account10DisplayValue -->
+    <skip />
+    <!-- no translation found for def_email_account11DisplayValue -->
+    <skip />
+    <!-- no translation found for def_email_account12DisplayValue -->
+    <skip />
+    <!-- no translation found for def_email_account13DisplayValue -->
+    <skip />
+    <!-- no translation found for def_email_account14DisplayValue -->
+    <skip />
+    <!-- no translation found for def_email_account15DisplayValue -->
+    <skip />
+    <!-- no translation found for def_email_account16DisplayValue -->
+    <skip />
+    <!-- no translation found for def_email_account17DisplayValue -->
+    <skip />
+    <!-- no translation found for def_email_account18DisplayValue -->
+    <skip />
+    <!-- no translation found for def_email_account19DisplayValue -->
+    <skip />
+    <!-- no translation found for def_email_account20DisplayValue -->
+    <skip />
+    <!-- no translation found for def_email_account21DisplayValue -->
+    <skip />
+    <!-- no translation found for def_email_account22DisplayValue -->
+    <skip />
+    <!-- no translation found for def_email_account23DisplayValue -->
+    <skip />
+    <!-- no translation found for def_email_account24DisplayValue -->
+    <skip />
+    <!-- no translation found for def_email_account25DisplayValue -->
+    <skip />
+    <!-- no translation found for def_email_popAccountDefaultDeletePolicy -->
+    <skip />
+    <!--Type:string Purpose:the type of Bluetooth Service Map                                              ScreenPath:the type of Bluetooth Service Map-->
+    <string name="tips_sync_alter_title">"Sinkronisasi"</string>
+    <!---->
+    <string name="tips_sync_alter_content">"Anda tidak tersambung ke Wi-Fi, tetap lanjutkan sinkronisasi?"</string>
+    <!---->
+    <string name="tips_sync_alter_yes">"Ya"</string>
+    <!---->
+    <string name="tips_sync_alter_no">"Tidak"</string>
+    <!--MesType:StringPurpose:message_invite_tentative_title for Email;ScreenPath:TctEmail-->
+    <string name="message_invite_tentative_title">"Sementara"</string>
+    <!--MesType:StringPurpose:message_invite_decline_title for Email;ScreenPath:TctEmail-->
+    <string name="message_invite_decline_title">"Tolak"</string>
+    <!--MesType:StringPurpose:message_invite_accent_title for Email;ScreenPath:TctEmail-->
+    <string name="message_invite_accent_title">"Aksen"</string>
+    <!--MesType:StringPurpose:drm file remindScreenPath:Launcher Menu -> Email-->
+    <string name="drm_file_remind">"File ini tidak boleh diunggah atau dibagikan karena dilindungi DRM!"</string>
+    <!-- no translation found for hu_email_account1DomainValue -->
+    <skip />
+    <!-- no translation found for hu_email_account1IncomingServerValue -->
+    <skip />
+    <!-- no translation found for hu_email_account1UsernameValue -->
+    <skip />
+    <!-- no translation found for hu_email_account1OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for hu_email_account2DomainValue -->
+    <skip />
+    <!-- no translation found for hu_email_account2IncomingServerValue -->
+    <skip />
+    <!-- no translation found for hu_email_account2UsernameValue -->
+    <skip />
+    <!-- no translation found for hu_email_account2OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for cz_email_account1DomainValue -->
+    <skip />
+    <!-- no translation found for cz_email_account1IncomingServerValue -->
+    <skip />
+    <!-- no translation found for cz_email_account1UsernameValue -->
+    <skip />
+    <!-- no translation found for cz_email_account1OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for cz_email_account2DomainValue -->
+    <skip />
+    <!-- no translation found for cz_email_account2IncomingServerValue -->
+    <skip />
+    <!-- no translation found for cz_email_account2UsernameValue -->
+    <skip />
+    <!-- no translation found for cz_email_account2OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for cz_email_account3DomainValue -->
+    <skip />
+    <!-- no translation found for cz_email_account3IncomingServerValue -->
+    <skip />
+    <!-- no translation found for cz_email_account3UsernameValue -->
+    <skip />
+    <!-- no translation found for cz_email_account3OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for cz_email_account4DomainValue -->
+    <skip />
+    <!-- no translation found for cz_email_account4IncomingServerValue -->
+    <skip />
+    <!-- no translation found for cz_email_account4UsernameValue -->
+    <skip />
+    <!-- no translation found for cz_email_account4OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for cz_email_account5DomainValue -->
+    <skip />
+    <!-- no translation found for cz_email_account5IncomingServerValue -->
+    <skip />
+    <!-- no translation found for cz_email_account5UsernameValue -->
+    <skip />
+    <!-- no translation found for cz_email_account5OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for cz_email_account6DomainValue -->
+    <skip />
+    <!-- no translation found for cz_email_account6IncomingServerValue -->
+    <skip />
+    <!-- no translation found for cz_email_account6UsernameValue -->
+    <skip />
+    <!-- no translation found for cz_email_account6OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for cz_email_account7DomainValue -->
+    <skip />
+    <!-- no translation found for cz_email_account7IncomingServerValue -->
+    <skip />
+    <!-- no translation found for cz_email_account7UsernameValue -->
+    <skip />
+    <!-- no translation found for cz_email_account7OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for cz_email_account8DomainValue -->
+    <skip />
+    <!-- no translation found for cz_email_account8IncomingServerValue -->
+    <skip />
+    <!-- no translation found for cz_email_account8UsernameValue -->
+    <skip />
+    <!-- no translation found for cz_email_account8OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for cz_email_account9DomainValue -->
+    <skip />
+    <!-- no translation found for cz_email_account9IncomingServerValue -->
+    <skip />
+    <!-- no translation found for cz_email_account9UsernameValue -->
+    <skip />
+    <!-- no translation found for cz_email_account9OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for nl_email_account1DomainValue -->
+    <skip />
+    <!-- no translation found for nl_email_account1IncomingServerValue -->
+    <skip />
+    <!-- no translation found for nl_email_account1UsernameValue -->
+    <skip />
+    <!-- no translation found for nl_email_account1OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for nl_email_account2DomainValue -->
+    <skip />
+    <!-- no translation found for nl_email_account2IncomingServerValue -->
+    <skip />
+    <!-- no translation found for nl_email_account2UsernameValue -->
+    <skip />
+    <!-- no translation found for nl_email_account2OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for nl_email_account3DomainValue -->
+    <skip />
+    <!-- no translation found for nl_email_account3IncomingServerValue -->
+    <skip />
+    <!-- no translation found for nl_email_account3UsernameValue -->
+    <skip />
+    <!-- no translation found for nl_email_account3OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for nl_email_account4DomainValue -->
+    <skip />
+    <!-- no translation found for nl_email_account4IncomingServerValue -->
+    <skip />
+    <!-- no translation found for nl_email_account4UsernameValue -->
+    <skip />
+    <!-- no translation found for nl_email_account4OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for nl_email_account5DomainValue -->
+    <skip />
+    <!-- no translation found for nl_email_account5IncomingServerValue -->
+    <skip />
+    <!-- no translation found for nl_email_account5UsernameValue -->
+    <skip />
+    <!-- no translation found for nl_email_account5OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for nl_email_account6DomainValue -->
+    <skip />
+    <!-- no translation found for nl_email_account6IncomingServerValue -->
+    <skip />
+    <!-- no translation found for nl_email_account6UsernameValue -->
+    <skip />
+    <!-- no translation found for nl_email_account6OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for nl_email_account7DomainValue -->
+    <skip />
+    <!-- no translation found for nl_email_account7IncomingServerValue -->
+    <skip />
+    <!-- no translation found for nl_email_account7UsernameValue -->
+    <skip />
+    <!-- no translation found for nl_email_account7OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for nl_email_account8DomainValue -->
+    <skip />
+    <!-- no translation found for nl_email_account8IncomingServerValue -->
+    <skip />
+    <!-- no translation found for nl_email_account8UsernameValue -->
+    <skip />
+    <!-- no translation found for nl_email_account8OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for nl_email_account9DomainValue -->
+    <skip />
+    <!-- no translation found for nl_email_account9IncomingServerValue -->
+    <skip />
+    <!-- no translation found for nl_email_account9UsernameValue -->
+    <skip />
+    <!-- no translation found for nl_email_account9OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for sk_email_account1DomainValue -->
+    <skip />
+    <!-- no translation found for sk_email_account1IncomingServerValue -->
+    <skip />
+    <!-- no translation found for sk_email_account1UsernameValue -->
+    <skip />
+    <!-- no translation found for sk_email_account1OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for not_add_more_recipients -->
+    <skip />
+    <!-- no translation found for ar_email_account1DomainValue -->
+    <skip />
+    <!-- no translation found for ar_email_account1IncomingServerValue -->
+    <skip />
+    <!-- no translation found for ar_email_account1UsernameValue -->
+    <skip />
+    <!-- no translation found for ar_email_account1OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for col_email_account1DomainValue -->
+    <skip />
+    <!-- no translation found for col_email_account1IncomingServerValue -->
+    <skip />
+    <!-- no translation found for col_email_account1UsernameValue -->
+    <skip />
+    <!-- no translation found for col_email_account1OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for cos_email_account1DomainValue -->
+    <skip />
+    <!-- no translation found for cos_email_account1IncomingServerValue -->
+    <skip />
+    <!-- no translation found for cos_email_account1UsernameValue -->
+    <skip />
+    <!-- no translation found for cos_email_account1OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for do_email_account1DomainValue -->
+    <skip />
+    <!-- no translation found for do_email_account1IncomingServerValue -->
+    <skip />
+    <!-- no translation found for do_email_account1UsernameValue -->
+    <skip />
+    <!-- no translation found for do_email_account1OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for gu_email_account1DomainValue -->
+    <skip />
+    <!-- no translation found for gu_email_account1IncomingServerValue -->
+    <skip />
+    <!-- no translation found for gu_email_account1UsernameValue -->
+    <skip />
+    <!-- no translation found for gu_email_account1OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for ho_email_account1DomainValue -->
+    <skip />
+    <!-- no translation found for ho_email_account1IncomingServerValue -->
+    <skip />
+    <!-- no translation found for ho_email_account1UsernameValue -->
+    <skip />
+    <!-- no translation found for ho_email_account1OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for ni_email_account1DomainValue -->
+    <skip />
+    <!-- no translation found for ni_email_account1IncomingServerValue -->
+    <skip />
+    <!-- no translation found for ni_email_account1UsernameValue -->
+    <skip />
+    <!-- no translation found for ni_email_account1OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for par_email_account1DomainValue -->
+    <skip />
+    <!-- no translation found for par_email_account1IncomingServerValue -->
+    <skip />
+    <!-- no translation found for par_email_account1UsernameValue -->
+    <skip />
+    <!-- no translation found for par_email_account1OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for pe_email_account1DomainValue -->
+    <skip />
+    <!-- no translation found for pe_email_account1IncomingServerValue -->
+    <skip />
+    <!-- no translation found for pe_email_account1UsernameValue -->
+    <skip />
+    <!-- no translation found for pe_email_account1OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for sa_email_account1DomainValue -->
+    <skip />
+    <!-- no translation found for sa_email_account1IncomingServerValue -->
+    <skip />
+    <!-- no translation found for sa_email_account1UsernameValue -->
+    <skip />
+    <!-- no translation found for sa_email_account1OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for ur_email_account1DomainValue -->
+    <skip />
+    <!-- no translation found for ur_email_account1IncomingServerValue -->
+    <skip />
+    <!-- no translation found for ur_email_account1UsernameValue -->
+    <skip />
+    <!-- no translation found for ur_email_account1OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for pan_email_account1DomainValue -->
+    <skip />
+    <!-- no translation found for pan_email_account1IncomingServerValue -->
+    <skip />
+    <!-- no translation found for pan_email_account1UsernameValue -->
+    <skip />
+    <!-- no translation found for pan_email_account1OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for te_email_account1DomainValue -->
+    <skip />
+    <!-- no translation found for te_email_account1IncomingServerValue -->
+    <skip />
+    <!-- no translation found for te_email_account1UsernameValue -->
+    <skip />
+    <!-- no translation found for te_email_account1OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for at_email_account1DomainValue -->
+    <skip />
+    <!-- no translation found for at_email_account1IncomingServerValue -->
+    <skip />
+    <!-- no translation found for at_email_account1UsernameValue -->
+    <skip />
+    <!-- no translation found for at_email_account1OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for at_email_account2DomainValue -->
+    <skip />
+    <!-- no translation found for at_email_account2IncomingServerValue -->
+    <skip />
+    <!-- no translation found for at_email_account2UsernameValue -->
+    <skip />
+    <!-- no translation found for at_email_account2OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for hr_email_account1DomainValue -->
+    <skip />
+    <!-- no translation found for hr_email_account1IncomingServerValue -->
+    <skip />
+    <!-- no translation found for hr_email_account1UsernameValue -->
+    <skip />
+    <!-- no translation found for hr_email_account1OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for foc_nl_email_account1DomainValue -->
+    <skip />
+    <!-- no translation found for foc_nl_email_account1IncomingServerValue -->
+    <skip />
+    <!-- no translation found for foc_nl_email_account1UsernameValue -->
+    <skip />
+    <!-- no translation found for foc_nl_email_account1OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for foc_nl_email_account2DomainValue -->
+    <skip />
+    <!-- no translation found for foc_nl_email_account2IncomingServerValue -->
+    <skip />
+    <!-- no translation found for foc_nl_email_account2UsernameValue -->
+    <skip />
+    <!-- no translation found for foc_nl_email_account2OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for foc_nl_email_account3DomainValue -->
+    <skip />
+    <!-- no translation found for foc_nl_email_account3IncomingServerValue -->
+    <skip />
+    <!-- no translation found for foc_nl_email_account3UsernameValue -->
+    <skip />
+    <!-- no translation found for foc_nl_email_account3OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for foc_nl_email_account4DomainValue -->
+    <skip />
+    <!-- no translation found for foc_nl_email_account4IncomingServerValue -->
+    <skip />
+    <!-- no translation found for foc_nl_email_account4UsernameValue -->
+    <skip />
+    <!-- no translation found for foc_nl_email_account4OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for foc_nl_email_account5DomainValue -->
+    <skip />
+    <!-- no translation found for foc_nl_email_account5IncomingServerValue -->
+    <skip />
+    <!-- no translation found for foc_nl_email_account5UsernameValue -->
+    <skip />
+    <!-- no translation found for foc_nl_email_account5OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for foc_nl_email_account6DomainValue -->
+    <skip />
+    <!-- no translation found for foc_nl_email_account6IncomingServerValue -->
+    <skip />
+    <!-- no translation found for foc_nl_email_account6UsernameValue -->
+    <skip />
+    <!-- no translation found for foc_nl_email_account6OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for foc_nl_email_account7DomainValue -->
+    <skip />
+    <!-- no translation found for foc_nl_email_account7IncomingServerValue -->
+    <skip />
+    <!-- no translation found for foc_nl_email_account7UsernameValue -->
+    <skip />
+    <!-- no translation found for foc_nl_email_account7OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for foc_nl_email_account8DomainValue -->
+    <skip />
+    <!-- no translation found for foc_nl_email_account8IncomingServerValue -->
+    <skip />
+    <!-- no translation found for foc_nl_email_account8UsernameValue -->
+    <skip />
+    <!-- no translation found for foc_nl_email_account8OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for foc_nl_email_account9DomainValue -->
+    <skip />
+    <!-- no translation found for foc_nl_email_account9IncomingServerValue -->
+    <skip />
+    <!-- no translation found for foc_nl_email_account9UsernameValue -->
+    <skip />
+    <!-- no translation found for foc_nl_email_account9OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for extra_email_account1DomainValue -->
+    <skip />
+    <!-- no translation found for extra_email_account1IncomingServerValue -->
+    <skip />
+    <!-- no translation found for extra_email_account1UsernameValue -->
+    <skip />
+    <!-- no translation found for extra_email_account1OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for extra_email_account2DomainValue -->
+    <skip />
+    <!-- no translation found for extra_email_account2IncomingServerValue -->
+    <skip />
+    <!-- no translation found for extra_email_account2UsernameValue -->
+    <skip />
+    <!-- no translation found for extra_email_account2OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for extra_email_account3DomainValue -->
+    <skip />
+    <!-- no translation found for extra_email_account3IncomingServerValue -->
+    <skip />
+    <!-- no translation found for extra_email_account3UsernameValue -->
+    <skip />
+    <!-- no translation found for extra_email_account3OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for extra_email_account4DomainValue -->
+    <skip />
+    <!-- no translation found for extra_email_account4IncomingServerValue -->
+    <skip />
+    <!-- no translation found for extra_email_account4UsernameValue -->
+    <skip />
+    <!-- no translation found for extra_email_account4OutgoingServerValue -->
+    <skip />
+    <!-- no translation found for extra_email_account5DomainValue -->
+    <skip />
+    <!-- no translation found for extra_email_account5IncomingServerValue -->
+    <skip />
+    <!-- no translation found for extra_email_account5UsernameValue -->
+    <skip />
+    <!-- no translation found for extra_email_account5OutgoingServerValue -->
+    <skip />
+    <!--MesType:StringPurpose:global_search_label for Email;ScreenPath:TctEmail-->
+    <string name="global_search_label">"Email"</string>
+    <!--MesType:StringPurpose:global_search_hint for Email;ScreenPath:TctEmail-->
+    <string name="global_search_hint">"Telusuri email"</string>
+    <!--MesType:StringPurpose:global_search_description for Email.ScreenPath:TctEmail-->
+    <string name="global_search_description">"Pengirim, subjek, dan badan"</string>
+    <!--MesType:StringPurpose:remote_search_failed for Email;ScreenPath:TctEmail-->
+    <string name="remote_search_failed">"Pencarian server gagal!"</string>
+    <!--MesType:StringPurpose:searching_on_server for Email;ScreenPath:TctEmail-->
+    <string name="searching_on_server">"Cari di server"</string>
+    <!--MesType:StringPurpose:searching_on_server_title for Email;ScreenPath:TctEmail-->
+    <string name="searching_on_server_title">"Cari \"<xliff:g id="account_name">%s</xliff:g>\" di server"</string>
+    <!--MesType:StringPurpose:searching_all_fields_on_sever for Eamil;ScreenPath:TctEmail-->
+    <string name="searching_all_fields_on_sever">"Cari semua bidang di server"</string>
+    <!--MesType:StringPurpose:search_field_subject for Email;ScreenPath:TctEmail-->
+    <string name="search_field_subject">"Subjek"</string>
+    <!--MesType:StringPurpose:search_field_receiver for Email;ScreenPath:TctEmail-->
+    <string name="search_field_receiver">"Kepada"</string>
+    <!--MesType:StringPurpose:search_field_sender for Email;ScreenPath:TctEmail-->
+    <string name="search_field_sender">"Pengirim"</string>
+    <!--MesType:StringPurpose:search_field_body for Email;ScreenPath:TctEmail-->
+    <string name="search_field_body">"Isi"</string>
+    <!--MesType:StringPurpose:search_field_all for Email;ScreenPath:TctEmail-->
+    <string name="search_field_all">"Semua"</string>
+    <!--MesType:StringPurpose:select_all for Email;ScreenPath:TctEmail-->
+    <string name="select_all">"Pilih semua"</string>
+    <!--MesType:StringPurpose:deselect_all for Email;ScreenPath:TctEmail-->
+    <string name="deselect_all">"Batal-pilih semua"</string>
+    <!--MesType:StringPurpose:need_wifi_connection_prompt for Email;ScreenPath:TctEmail-->
+    <string name="need_wifi_connection_prompt">"Anda memerlukan sambungan jaringan untuk menggunakan aplikasi ini. Aktifkan jaringan seluler atau Pengaturan Wi-Fi."</string>
+    <!--MesType:stringPurpose:account_setup_names_account_name_des_label for emailScreenPath:TctEmail-->
+    <string name="account_setup_names_account_name_des_label">"opsional"</string>
+    <!--MesType:stringPurpose:account_setup_names_user_name_des_label for emailScreenPath:TctEmail-->
+    <string name="account_setup_names_user_name_des_label">"ditampilkan di pesan keluar"</string>
+    <!--MesType:stringPurpose:finish_action for emailScreenPath:TctEmail-->
+    <string name="finish_action">"Selesai"</string>
+    <!--MesType:StringPurpose:copy_email for Email;ScreenPath:TctEmail-->
+    <string name="copy_email">"Salin alamat email"</string>
+    <!-- no translation found for out_of_office_syncing -->
+    <skip />
+    <!-- no translation found for out_of_office_fail -->
+    <skip />
+    <!-- no translation found for out_of_office_success -->
+    <skip />
+    <!-- no translation found for confirm_forward_message -->
+    <skip />
+    <!-- no translation found for confirm_forward_cancel -->
+    <skip />
+    <!-- no translation found for confirm_forward_drop_unload_attachment -->
+    <skip />
+    <!-- no translation found for mail_not_download_completely -->
+    <skip />
+</resources>

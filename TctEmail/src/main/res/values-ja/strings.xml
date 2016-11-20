@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!-- no translation found for app_name -->
+	<skip />
+	<!-- no translation found for photo_view_count -->
+	<skip />
+	<!---->
+	<string name="retry">"やり直す"</string>
+	<!---->
+	<string name="failed">"イメージをロードできませんでした"</string>
+	<!-- no translation found for more_string -->
+	<skip />
+	<!---->
+	<string name="copy_email">"電子メールアドレスのコピー"</string>
+	<!---->
+	<string name="copy_number">"電話番号のコピー"</string>
+	<!---->
+	<string name="action_label">"戻る"</string>
+	<!---->
+	<string name="search_hint">"メールを検索"</string>
+	<!---->
+	<string name="compose">"作成"</string>
+	<!---->
+	<string name="activity_folder_selection">"フォルダーを選択"</string>
+	<!---->
+	<string name="activity_preferences">"設定"</string>
+	<!---->
+	<string name="tap_to_configure">"タッチして設定する"</string>
+	<!---->
+	<string name="loading_conversations">"読み込み中..."</string>
+	<!---->
+	<string name="non_synced_folder_description">"会話を表示するにはこのフォルダを同期する"</string>
+	<!---->
+	<string name="tap_to_configure_folder_sync">"フォルダーを同期する"</string>
+	<!-- no translation found for def_email_accountGermanSignature -->
+	<skip />
+	<!---->
+	<string name="send_failed">"メッセージは送信されませんでした。"</string>
+	<!-- no translation found for permission_needed -->
+	<skip />
+	<!---->
+	<string name="permission_needed_label">"アクセス権限が必要です"</string>
+	<!---->
+	<string name="permission_grant_access_label">"アクセス権限を付与"</string>
+	<!---->
+	<string name="permission_grant_access_descs">"端末のアプリ設定でアクセス権限を変更してください。メールによるアドレス帳へのアクセスを許可してください。"</string>
+	<!---->
+	<string name="permission_grant_exit">"終了"</string>
+	<!---->
+	<string name="permission_grant_go_setting">"設定"</string>
+	<!---->
+	<string name="permission_needed_to_save_attachment">"添付ファイルを保存するには、メールによるストレージへのアクセスを許可してください"</string>
+	<!---->
+	<string name="permission_needed_to_add_attachment">"添付ファイルを添付するには、メールによるストレージへのアクセスを許可してください"</string>
+	<!---->
+	<string name="permission_needed_to_see_calendar">"ゲスト情報を見るには、メールによるカレンダーへのアクセスを許可してください"</string>
+</resources>

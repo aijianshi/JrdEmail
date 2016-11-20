@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Tue Sep 20 16:24:06 CST 2016
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="exchange_name">"Корпоратив"</string>
+	<!---->
+	<string name="exchange_name_alternate">"Microsoft Exchange ActiveSync"</string>
+	<!---->
+	<string name="meeting_accepted">"Прийнято: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_declined">"Відхилено: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_tentative">"Під сумнівом: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_canceled">"Скасовано: <xliff:g id="SUBJECT">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_updated">"Оновлено: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_when">"Коли: <xliff:g id="when">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_where">"Де: <xliff:g id="where">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_recurring">"Коли: <xliff:g example="Tue, Mar 10, 2010 at 2:30 pm" id="eventdate">%s</xliff:g> (повторення)"</string>
+	<!---->
+	<string name="meeting_allday">"Коли: <xliff:g example="Tue, Mar 10, 2010 " id="eventdate">%s</xliff:g> (весь день)"</string>
+	<!---->
+	<string name="meeting_allday_recurring">"Коли: <xliff:g example="Tue, Mar 10, 2010 " id="eventdate">%s</xliff:g> (весь день, повторення)"</string>
+	<!---->
+	<string name="notification_exchange_calendar_added">"Додано календар Exchange"</string>
+	<!---->
+	<string name="app_name">"Послуги Exchange"</string>
+	<!---->
+	<string name="exception_cancel">"Цю подію було скасовано для: <xliff:g id="DATE">%s</xliff:g>"</string>
+	<!---->
+	<string name="exception_updated">"Відомості про цю подію змінено для: <xliff:g id="date">%s</xliff:g>"</string>
+	<!---->
+	<string name="policy_dont_allow_storage_cards">"Не дозволяти карти пам\'яті"</string>
+	<!---->
+	<string name="policy_dont_allow_unsigned_apps">"Не дозволяти непідписані програми"</string>
+	<!---->
+	<string name="policy_dont_allow_unsigned_installers">"Не дозвол. встановлюв. непідпис. прогр."</string>
+	<!---->
+	<string name="policy_dont_allow_wifi">"Не дозволяти Wi-Fi"</string>
+	<!---->
+	<string name="policy_dont_allow_text_messaging">"Не дозволяти текстові повідомлення"</string>
+	<!---->
+	<string name="policy_dont_allow_pop_imap">"Не дозволяти облік. записи POP3 або IMAP"</string>
+	<!---->
+	<string name="policy_dont_allow_irda">"Не дозволяти інфрачервоний зв\'язок"</string>
+	<!---->
+	<string name="policy_dont_allow_html">"Не дозволяти листи у форматі HTML"</string>
+	<!---->
+	<string name="policy_dont_allow_browser">"Не дозволяти веб-переглядачі"</string>
+	<!---->
+	<string name="policy_dont_allow_consumer_email">"Не дозволяти поштові сервіси"</string>
+	<!---->
+	<string name="policy_dont_allow_internet_sharing">"Не дозвол. надання доступу до Інтернету"</string>
+	<!---->
+	<string name="policy_require_smime">"Вимагати повідомлення у форматі SMIME"</string>
+	<!---->
+	<string name="policy_bluetooth_restricted">"Обмежувати використання Bluetooth"</string>
+	<!---->
+	<string name="policy_app_blacklist">"Забороняти вказані програми"</string>
+	<!---->
+	<string name="policy_app_whitelist">"Дозволяти лише вказані програми"</string>
+	<!---->
+	<string name="policy_text_truncation">"Обмежувати розмір тексту листів"</string>
+	<!---->
+	<string name="policy_html_truncation">"Обмежувати розмір листів у форматі HTML"</string>
+	<!---->
+	<string name="policy_require_sd_encryption">"Вимагати шифрування карти SD"</string>
+	<!---->
+	<string name="policy_dont_allow_attachments">"Не дозволяти вкладені файли"</string>
+	<!---->
+	<string name="policy_max_attachment_size">"Обмежувати розмір вкладених файлів"</string>
+	<!---->
+	<string name="policy_require_manual_sync_roaming">"Дозвол. синхрон. вручну лише в роумінгу"</string>
+	<!---->
+	<string name="policy_require_encryption">"Вимагати шифрування пристрою"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_auto">"Автоматично"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1day">"Один день"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_3days">"Три дні"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1week">"Один тиждень"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_2weeks">"Два тижні"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1month">"Один місяць"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_all">"Усі"</string>
+	<!---->
+	<string name="auth_error_notification_title">"Збій аутентифікації"</string>
+	<!---->
+	<string name="auth_error_notification_text">"Натисніть, щоб змінити установки облікового запису <xliff:g id="account">%s</xliff:g>"</string>
+	<!---->
+	<string name="email_settings_not_available">"Повторне увімкнення поштової програми для перегляду налаштувань."</string>
+</resources>

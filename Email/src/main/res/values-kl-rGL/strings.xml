@@ -1,0 +1,1718 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="permission_read_attachment_label">"E-mail-imi ilanngussassiat atuakkit"</string>
+	<!-- no translation found for permission_read_attachment_desc -->
+	<skip />
+	<!-- no translation found for permission_access_provider_label -->
+	<skip />
+	<!-- no translation found for permission_access_provider_desc -->
+	<skip />
+	<!---->
+	<string name="debug_title">"Ajoqutaajaruk"</string>
+	<!---->
+	<string name="next_action">"Tullia"</string>
+	<!---->
+	<string name="okay_action">"OK"</string>
+	<!---->
+	<string name="cancel_action">"Sussaaruk"</string>
+	<!---->
+	<string name="previous_action">"Siulia"</string>
+	<!---->
+	<string name="done_action">"Naammassivoq"</string>
+	<!---->
+	<string name="create_action">"Nutaamik pilersitsigit"</string>
+	<!-- no translation found for quick_responses_empty_view -->
+	<skip />
+	<!---->
+	<string name="account_settings_action">"Konto-mut aaqqiinerit"</string>
+	<!---->
+	<string name="status_network_error">"Attaveqaatikkut ajornartorsiut."</string>
+	<plurals name="move_messages">
+		<item quantity="one">"Nalunaarut nuuguk"</item>
+		<item quantity="other">"Nalunaarutit nuukkit"</item>
+	</plurals>
+	<!---->
+	<string name="cannot_move_protocol_not_supported_toast">"POP3 konto-ni nuussineq atugaanngilaq."</string>
+	<!-- no translation found for cannot_move_multiple_accounts_toast -->
+	<skip />
+	<!-- no translation found for cannot_move_special_mailboxes_toast -->
+	<skip />
+	<!---->
+	<string name="mailbox_name_display_inbox">"Allakkat isertut"</string>
+	<!---->
+	<string name="mailbox_name_display_outbox">"Nassiussimasat"</string>
+	<!---->
+	<string name="mailbox_name_display_drafts">"Allatat"</string>
+	<!---->
+	<string name="mailbox_name_display_trash">"Eqqakkat"</string>
+	<!---->
+	<string name="mailbox_name_display_sent">"Nassiussat"</string>
+	<!---->
+	<string name="mailbox_name_display_junk">"Suarsuit"</string>
+	<!---->
+	<string name="mailbox_name_display_starred">"Nuannarinillit"</string>
+	<!---->
+	<string name="mailbox_name_display_unread">"Atuarneqanngitsut"</string>
+	<!---->
+	<string name="account_folder_list_summary_inbox">"Allakkat isertut"</string>
+	<!---->
+	<string name="account_folder_list_summary_starred">"Nuannarinillit"</string>
+	<!---->
+	<string name="account_folder_list_summary_drafts">"Allatat"</string>
+	<!---->
+	<string name="account_folder_list_summary_outbox">"Nassiussimasat"</string>
+	<!---->
+	<string name="mailbox_list_account_selector_combined_view">"Katitikkatut nuisitsineq"</string>
+	<!---->
+	<string name="message_compose_fwd_header_fmt">"\n\n-------- Nalunaarut Isikkuvimmini --------\nPineqartoq: <xliff:g id="subject">%1$s</xliff:g>\nFrom: <xliff:g id="sender">%2$s</xliff:g>\nTo: <xliff:g id="to">%3$s</xliff:g>\nCC: <xliff:g id="cc">%4$s</xliff:g>\n\n"</string>
+	<!---->
+	<string name="message_compose_insert_quick_response_list_title">"Piaartumik akissutissaq ikkuguk"</string>
+	<!---->
+	<string name="message_compose_insert_quick_response_menu_title">"Piaartumik akissutissaq ikkuguk"</string>
+	<!-- no translation found for message_view_attachment_background_load -->
+	<skip />
+	<!-- no translation found for attachment_not_found -->
+	<skip />
+	<!---->
+	<string name="message_decode_error">"Nalunaarutit atuarsinnaanngorsanerani ajortoqarpoq."</string>
+	<!-- no translation found for forward_download_failed_ticker -->
+	<skip />
+	<!---->
+	<string name="forward_download_failed_title">"Ilanngussassiaq ingerlateqqinneqanngilaq"</string>
+	<!-- no translation found for login_failed_ticker -->
+	<skip />
+	<!-- no translation found for login_failed_title -->
+	<skip />
+	<plurals name="message_view_attachment_bytes">
+		<item quantity="one">"<xliff:g example="1" id="size_in_bytes">%d</xliff:g>B"</item>
+		<item quantity="other">"<xliff:g example="279" id="size_in_bytes">%d</xliff:g>B"</item>
+	</plurals>
+	<plurals name="message_view_attachment_kilobytes">
+		<item quantity="one">"<xliff:g example="1" id="size_in_kilobytes">%d</xliff:g>KB"</item>
+		<item quantity="other">"<xliff:g example="279" id="size_in_kilobytes">%d</xliff:g>KB"</item>
+	</plurals>
+	<plurals name="message_view_attachment_megabytes">
+		<item quantity="one">"<xliff:g example="1" id="size_in_megabytes">%d</xliff:g>MB"</item>
+		<item quantity="other">"<xliff:g example="279" id="size_in_megabytes">%d</xliff:g>MB"</item>
+	</plurals>
+	<plurals name="message_view_attachment_gigabytes">
+		<item quantity="one">"<xliff:g example="1" id="size_in_gigabytes">%d</xliff:g>GB"</item>
+		<item quantity="other">"<xliff:g example="279" id="size_in_gigabytes">%d</xliff:g>GB"</item>
+	</plurals>
+	<!---->
+	<string name="account_setup_basics_title">"Konto-p piorsarnera"</string>
+	<!-- no translation found for oauth_authentication_title -->
+	<skip />
+	<!---->
+	<string name="sign_in_title">"Iserit"</string>
+	<!-- no translation found for oauth_error_description -->
+	<skip />
+	<!-- no translation found for password_warning_label -->
+	<skip />
+	<!---->
+	<string name="email_confirmation_label">"E-mail adresse"</string>
+	<!---->
+	<string name="account_setup_basics_headline">"E-mail konto"</string>
+	<!-- no translation found for accounts_welcome -->
+	<skip />
+	<!---->
+	<string name="account_setup_basics_email_label">"E-mail adresse"</string>
+	<!---->
+	<string name="account_setup_basics_email_flying_label">"E-mail"</string>
+	<!-- no translation found for or_label -->
+	<skip />
+	<!-- no translation found for sign_in_with_google -->
+	<skip />
+	<!---->
+	<string name="account_setup_basics_password_label">"Isissut"</string>
+	<!---->
+	<string name="password_hint">"Isissut"</string>
+	<!-- no translation found for signed_in_with_service_label -->
+	<skip />
+	<!-- no translation found for authentication_label -->
+	<skip />
+	<!-- no translation found for add_authentication_label -->
+	<skip />
+	<!-- no translation found for clear_authentication_label -->
+	<skip />
+	<!---->
+	<string name="account_setup_basics_manual_setup_action">"Nammineerluni piorsaaneq"</string>
+	<!---->
+	<string name="account_setup_username_password_toast">"E-mail adresse kiisalu isissut eqqortut allakkit"</string>
+	<!-- no translation found for account_duplicate_dlg_title -->
+	<skip />
+	<!-- no translation found for account_duplicate_dlg_message_fmt -->
+	<skip />
+	<!-- no translation found for account_password_spaces_error -->
+	<skip />
+	<!-- no translation found for account_setup_check_settings_retr_info_msg -->
+	<skip />
+	<!-- no translation found for account_setup_check_settings_check_incoming_msg -->
+	<skip />
+	<!-- no translation found for account_setup_check_settings_check_outgoing_msg -->
+	<skip />
+	<!-- no translation found for account_setup_creating_account_msg -->
+	<skip />
+	<!-- no translation found for account_setup_ab_headline -->
+	<skip />
+	<!-- no translation found for account_setup_ab_instructions_format -->
+	<skip />
+	<!---->
+	<string name="account_setup_names_title">"Konto-p piorsarnera"</string>
+	<!-- no translation found for account_setup_names_headline -->
+	<skip />
+	<!-- no translation found for account_setup_names_account_name_label -->
+	<skip />
+	<!---->
+	<string name="account_setup_names_user_name_label">"Atit"</string>
+	<!-- no translation found for account_setup_names_user_name_empty_error -->
+	<skip />
+	<!---->
+	<string name="account_setup_account_type_title">"Konto-p piorsarnera"</string>
+	<!---->
+	<string name="account_setup_account_type_headline">"Konto-p suunera"</string>
+	<!---->
+	<string name="account_setup_account_type_instructions">"Konto una qanoq ittuua?"</string>
+	<!---->
+	<string name="account_setup_incoming_title">"Konto-p piorsarnera"</string>
+	<!---->
+	<string name="account_setup_incoming_headline">"Server-imut isaatitsisumut aaqqiinerit"</string>
+	<!---->
+	<string name="account_setup_incoming_username_label">"Atuisutut ateq"</string>
+	<!---->
+	<string name="account_setup_incoming_password_label">"Isissut"</string>
+	<!---->
+	<string name="account_setup_password_subheading">"Isissut"</string>
+	<!---->
+	<string name="account_setup_incoming_server_label">"Server-i"</string>
+	<!---->
+	<string name="account_setup_incoming_port_label">"Aniaffik"</string>
+	<!---->
+	<string name="account_setup_incoming_security_label">"Isumannaallisaanerup suunera"</string>
+	<!-- no translation found for account_setup_incoming_domain_label -->
+	<skip />
+	<!-- no translation found for account_setup_incoming_add_domain_label -->
+	<skip />
+	<!---->
+	<string name="account_setup_incoming_security_none_label">"Soqanngilaq"</string>
+	<!---->
+	<string name="account_setup_incoming_security_ssl_trust_certificates_label">"SSL/TLS (Allagartat tamaasa akuerikkit)"</string>
+	<!---->
+	<string name="account_setup_incoming_security_ssl_label">"SSL/TLS"</string>
+	<!---->
+	<string name="account_setup_incoming_security_tls_trust_certificates_label">"STARTTLS (Allagartat tamaasa akuerikkit)""</string>
+	<!---->
+	<string name="account_setup_incoming_security_tls_label">"STARTTLS"</string>
+	<!---->
+	<string name="account_setup_incoming_delete_policy_label">"Server-imiit e-mail peeruk"</string>
+	<!---->
+	<string name="account_setup_incoming_delete_policy_never_label">"Taamaalinngisaannassaaq"</string>
+	<!---->
+	<string name="account_setup_incoming_delete_policy_delete_label">"Nassiussarsianiit piiaagaangama"</string>
+	<!---->
+	<string name="account_setup_incoming_imap_path_prefix_label">"IMAP aqqummik aaqqeereerneq"</string>
+	<!---->
+	<string name="account_setup_incoming_imap_path_prefix_hint">"Qinigassaq"</string>
+	<!---->
+	<string name="account_setup_outgoing_title">"Konto-p piorsarnera"</string>
+	<!---->
+	<string name="account_setup_outgoing_headline">"Server-imut aniatitsisumut aaqqiinerit"</string>
+	<!---->
+	<string name="account_setup_outgoing_smtp_server_label">"SMTP server-i"</string>
+	<!---->
+	<string name="account_setup_outgoing_port_label">"Aniaffik"</string>
+	<!---->
+	<string name="account_setup_outgoing_security_label">"Isumannaallisaanerup suunera"</string>
+	<!-- no translation found for account_setup_outgoing_require_login_label -->
+	<skip />
+	<!---->
+	<string name="account_setup_outgoing_username_label">"Atuisutut ateq"</string>
+	<!---->
+	<string name="account_setup_outgoing_password_label">"Isissut"</string>
+	<!---->
+	<string name="account_setup_exchange_certificate_title">"Sullitap allagartaa"</string>
+	<!---->
+	<string name="account_setup_exchange_select_certificate">"Toqqaruk"</string>
+	<!---->
+	<string name="account_setup_exchange_use_certificate">"Sullitap allagartaa atoruk"</string>
+	<!---->
+	<string name="account_setup_exchange_remove_certificate">"Peeruk"</string>
+	<!-- no translation found for account_setup_exchange_no_certificate -->
+	<skip />
+	<!---->
+	<string name="account_setup_exchange_device_id_label">"Pigisap Tigummiaannartakkap ID-a"</string>
+	<!---->
+	<string name="account_setup_options_title">"Konto-mut aaqqiinerit"</string>
+	<!---->
+	<string name="account_setup_options_headline">"Konto-mi qinigassat"</string>
+	<!-- no translation found for account_setup_options_mail_check_frequency_label -->
+	<skip />
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_never">"Taamaalinngisaannassaaq"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_push">"Nammineerluni (Push)"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_5min">"5 minutsit tamaasa"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_10min">"10 minutsit tamaasa"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_15min">"15 minutsit tamaasa"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_30min">"30 minutsit tamaasa"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_1hour">"Akunnerit tamaasa"</string>
+	<!-- no translation found for account_setup_options_notify_label -->
+	<skip />
+	<!---->
+	<string name="account_setup_options_sync_contacts_label">"Uannga konto-miit attaveqarfissat ataqatigiilersikkit."</string>
+	<!---->
+	<string name="account_setup_options_sync_calendar_label">"Uannga konto-miit ullorsiutit ataqatigiilersikkit."</string>
+	<!---->
+	<string name="account_setup_options_sync_email_label">"Uannga konto-miit e-mail-it ataqatigiilersikkit."</string>
+	<!---->
+	<string name="account_setup_options_background_attachments_label">"Wi-Fi-ikkut attaveqaraangat nammineerluni ilanngussassianik aallertittaruk"</string>
+	<!-- no translation found for account_setup_failed_dlg_title -->
+	<skip />
+	<!-- no translation found for account_setup_options_mail_window_label -->
+	<skip />
+	<!---->
+	<string name="account_setup_options_mail_window_auto">"Nammineerluni"</string>
+	<!-- no translation found for account_setup_options_mail_window_1day -->
+	<skip />
+	<!-- no translation found for account_setup_options_mail_window_3days -->
+	<skip />
+	<!-- no translation found for account_setup_options_mail_window_1week -->
+	<skip />
+	<!-- no translation found for account_setup_options_mail_window_2weeks -->
+	<skip />
+	<!---->
+	<string name="account_setup_options_mail_window_1month">"Qaammat kingulleq"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_all">"Tamarmik"</string>
+	<!-- no translation found for account_setup_options_mail_window_default -->
+	<skip />
+	<!-- no translation found for account_setup_failed_dlg_auth_message -->
+	<skip />
+	<!-- no translation found for account_setup_failed_dlg_auth_message_fmt -->
+	<skip />
+	<!-- no translation found for account_setup_autodiscover_dlg_authfail_title -->
+	<skip />
+	<!-- no translation found for account_setup_autodiscover_dlg_authfail_message -->
+	<skip />
+	<!-- no translation found for account_setup_failed_dlg_certificate_message -->
+	<skip />
+	<!-- no translation found for account_setup_failed_dlg_certificate_message_fmt -->
+	<skip />
+	<!-- no translation found for account_setup_failed_certificate_required -->
+	<skip />
+	<!-- no translation found for account_setup_failed_certificate_inaccessible -->
+	<skip />
+	<!-- no translation found for account_setup_failed_check_credentials_message -->
+	<skip />
+	<!-- no translation found for account_setup_failed_dlg_server_message -->
+	<skip />
+	<!-- no translation found for account_setup_failed_dlg_server_message_fmt -->
+	<skip />
+	<!---->
+	<string name="account_setup_failed_tls_required">"TLS piumasaqaataavoq server-imilli atorneqarani."</string>
+	<!-- no translation found for account_setup_failed_auth_required -->
+	<skip />
+	<!-- no translation found for account_setup_failed_security -->
+	<skip />
+	<!-- no translation found for account_setup_failed_ioerror -->
+	<skip />
+	<!-- no translation found for account_setup_failed_protocol_unsupported -->
+	<skip />
+	<!-- no translation found for account_setup_failed_access_denied -->
+	<skip />
+	<!---->
+	<string name="account_setup_security_required_title">"Isumannaallisaanerup ingerlanneqarnera avataaniit"</string>
+	<!---->
+	<string name="account_setup_security_policies_required_fmt">"Server-i <xliff:g id="server">%s</xliff:g> Android pigisavit isumannaallisaanermut atortuisa ilaanik avataaniit aqutsisinnaajumalluni akuersaarnissannik piumasaqarpoq. Konto-p uuma piorsarnera naammassissaviuk?"</string>
+	<!-- no translation found for account_setup_failed_security_policies_unsupported -->
+	<skip />
+	<!-- no translation found for account_setup_username_uneditable_error -->
+	<skip />
+	<!-- no translation found for disable_admin_warning -->
+	<skip />
+	<!---->
+	<string name="account_security_dialog_title">"Isumannaallisaanermi nutarterineq"</string>
+	<!---->
+	<string name="account_security_dialog_content_fmt">"<xliff:g id="account">%s</xliff:g> piumasaraa isumannaallisaanermut aaqqiinitit nutartissagitit."</string>
+	<!-- no translation found for security_unsupported_ticker_fmt -->
+	<skip />
+	<!---->
+	<string name="security_needed_ticker_fmt">"Konto \"<xliff:g id="account">%s</xliff:g>\" isumannaallisaanermut aaqqiinernik nutarterinissamik piumasaqarpoq."</string>
+	<!-- no translation found for security_changed_ticker_fmt -->
+	<skip />
+	<!---->
+	<string name="security_notification_content_update_title">"Isumannaallisaanermi nutarterineq piumasaqaataavoq"</string>
+	<!-- no translation found for security_notification_content_change_title -->
+	<skip />
+	<!-- no translation found for security_notification_content_unsupported_title -->
+	<skip />
+	<!---->
+	<string name="account_security_title">"Pigisamut isumannaallisaaneq"</string>
+	<!---->
+	<string name="account_security_policy_explanation_fmt">"Server-i <xliff:g id="server">%s</xliff:g> Android pigisavit isumannaallisaanermut atortuisa ilaanik avataaniit aqutsisinnaajumalluni akuersaarnissannik piumasaqarpoq."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_edit_details_action">"Paasissutissat suliarikkit"</string>
+	<!---->
+	<string name="password_expire_warning_ticker_fmt">"\"<xliff:g id="account">%s</xliff:g>\" skærm-ip paarnaarsaataata PIN-ia imaluunniit isissutip allanngortinneqarnissaanik piumasaqarpoq."</string>
+	<!---->
+	<string name="password_expire_warning_content_title">"Skærm-ip paarnaarnissaanut isissut atorunnaalerpoq"</string>
+	<!---->
+	<string name="password_expired_ticker">"Skærm-ip paarnaarnissaanut PIN imaluunniit isissut atorunnaarsimavoq."</string>
+	<!---->
+	<string name="password_expired_content_title">"Skærm-ip paarnaarnissaanut isissut atorunnaarpoq"</string>
+	<!---->
+	<string name="password_expire_warning_dialog_title">"Skærm-ip paarnaarnissaanut isissut atorunnaalerpoq"</string>
+	<!-- no translation found for password_expire_warning_dialog_content_fmt -->
+	<skip />
+	<!---->
+	<string name="password_expired_dialog_title">"Skærm-ip paarnaarnissaanut isissut atorunnaarpoq"</string>
+	<!-- no translation found for password_expired_dialog_content_fmt -->
+	<skip />
+	<!---->
+	<string name="account_settings_exit_server_settings">"Allannguutit toqqorneqanngitsut taamaatinniarpigit?"</string>
+	<!-- no translation found for account_settings_login_dialog_title -->
+	<skip />
+	<!---->
+	<string name="account_settings_login_dialog_content_fmt">"Atuisutut ateq imaluunniit isissut uunga <xliff:g id="account">%s</xliff:g> ajorpoq. Maanna nutarterniarpigit?"</string>
+	<!-- no translation found for account_settings_login_dialog_reason_fmt -->
+	<skip />
+	<!---->
+	<string name="account_settings_background_attachments_label">"Ilanngussassiat aakkit"</string>
+	<!---->
+	<string name="account_settings_background_attachments_summary">"Ilanngussassiat nammineerluni aatikkit nalunaarutinut kingullernut Wi-Fi-ikkut."</string>
+	<!---->
+	<string name="account_settings_notify_label">"E-mail-inut ilisimatitsissutit"</string>
+	<!---->
+	<string name="account_settings_summary">"Ataqatigiilersitsinerit akulikissusaat, ilisimatitsissutit, il. Il."</string>
+	<!-- no translation found for account_settings_notify_summary -->
+	<skip />
+	<!-- no translation found for account_settings_mail_check_frequency_label -->
+	<skip />
+	<!---->
+	<string name="account_settings_incoming_label">"Isaasunut aaqqiinerit"</string>
+	<!---->
+	<string name="account_settings_incoming_summary">"Atuisutut atermut, isissummut, allanullu server-inut isaatitsiviusunut aaqqiinerit"</string>
+	<!---->
+	<string name="account_settings_outgoing_label">"Aniasunut aaqqiinerit"</string>
+	<!---->
+	<string name="account_settings_outgoing_summary">"Atuisutut atermut, isissummut, allanullu server-inut aniatitsiviusunut aaqqiinerit"</string>
+	<!-- no translation found for account_settings_reply_to_category -->
+	<skip />
+	<!-- no translation found for account_settings_reply_to_label -->
+	<skip />
+	<!-- no translation found for account_settings_reply_to_invalid -->
+	<skip />
+	<!-- no translation found for account_settings_enforced_label -->
+	<skip />
+	<!---->
+	<string name="account_settings_enforced_summary">"Soqanngilaq"</string>
+	<!-- no translation found for account_settings_unsupported_label -->
+	<skip />
+	<!---->
+	<string name="account_settings_unsupported_summary">"Soqanngilaq"</string>
+	<!-- no translation found for account_settings_retry_label -->
+	<skip />
+	<!-- no translation found for account_settings_retry_summary -->
+	<skip />
+	<!---->
+	<string name="account_settings_description_label">"Konto-p aqqa"</string>
+	<!---->
+	<string name="account_settings_name_label">"Atit"</string>
+	<!---->
+	<string name="account_settings_edit_quick_responses_label">"Piaartumik akissutissat"</string>
+	<!---->
+	<string name="account_settings_edit_quick_responses_summary">"E-mail-inik allakkaangavit oqaaseqatigiit atukkajukkatit suliarikkit"</string>
+	<!---->
+	<string name="account_settings_notifications">"Ilisimatitsissummut aaqqiinerit"</string>
+	<!---->
+	<string name="account_settings_data_usage">"Data-mik atuineq"</string>
+	<!-- no translation found for account_settings_policies -->
+	<skip />
+	<!-- no translation found for system_folders_title -->
+	<skip />
+	<!-- no translation found for system_folders_trash_title -->
+	<skip />
+	<!-- no translation found for system_folders_trash_summary -->
+	<skip />
+	<!-- no translation found for system_folders_trash_dlg -->
+	<skip />
+	<!-- no translation found for system_folders_sent_title -->
+	<skip />
+	<!-- no translation found for system_folders_sent_summary -->
+	<skip />
+	<!-- no translation found for system_folders_sent_dlg -->
+	<skip />
+	<!---->
+	<string name="edit_quick_response_dialog">"Piaartumik akissut"</string>
+	<!---->
+	<string name="save_action">"Toqqoruk"</string>
+	<!---->
+	<string name="account_settings_sync_contacts_enable">"Attaveqarfissat ataqatigiilersikkit"</string>
+	<!---->
+	<string name="account_settings_sync_contacts_summary">"Attaveqarfissat uunga konto-mut ataqatigiilersikkit"</string>
+	<!---->
+	<string name="account_settings_sync_calendar_enable">"Ullorsiutit ataqatigiilersikkit"</string>
+	<!-- no translation found for account_settings_sync_calendar_summary -->
+	<skip />
+	<!---->
+	<string name="account_settings_sync_email_enable">"E-mail ataqatigiilersiguk"</string>
+	<!---->
+	<string name="account_settings_sync_email_summary">"E-mail uunga konto-mut ataqatigiilersiguk"</string>
+	<!---->
+	<string name="account_settings_vibrate_when_label">"Sajukulaartiguk"</string>
+	<!---->
+	<string name="account_settings_ringtone">"Sianertaat toqqaruk"</string>
+	<!---->
+	<string name="account_settings_servers">"Server-imut aaqqiinerit"</string>
+	<!---->
+	<string name="default_ringtone">"Sianertaat atugassiaq"</string>
+	<!-- no translation found for default_ringtone_unkonwn -->
+	<skip />
+	<!---->
+	<string name="mailbox_settings_activity_title">"Qinigassat ataqatigiilersikkit"</string>
+	<!---->
+	<string name="mailbox_settings_activity_title_with_mailbox">"Ataqatigiilersitsinissamut qinigassat (<xliff:g example="Family" id="mailboxx_name">%s</xliff:g>)"</string>
+	<!-- no translation found for mailbox_settings_sync_enabled_label -->
+	<skip />
+	<!-- no translation found for mailbox_settings_sync_enabled_summary -->
+	<skip />
+	<!-- no translation found for mailbox_settings_mailbox_sync_window_label -->
+	<skip />
+	<!-- no translation found for prefDialogTitle_conversationListIcon -->
+	<skip />
+	<!-- no translation found for provider_note_live -->
+	<skip />
+	<!---->
+	<string name="provider_note_t_online">"Uuma e-mail konto-p piorsannginnerani T-Online quppersagaq alakkaruk POP3 e-mail-imullu isernissamut isissummik pilersitsillutit."</string>
+	<!---->
+	<string name="exchange_name">"Suleqatigiiffik"</string>
+	<!---->
+	<string name="exchange_name_alternate">"Microsoftimi Paarlaasseqatigiinnissamut AtaavartumikAtaqatigiilersitsineq"</string>
+	<!-- no translation found for system_account_create_failed -->
+	<skip />
+	<!---->
+	<string name="device_admin_label">"E-mail"</string>
+	<!---->
+	<string name="device_admin_description">"Server-inut isumannaallisaanermi aalajangersakkat tulluussakkat atugassanngortittarpai"</string>
+	<!---->
+	<string name="settings_activity_title">"Aaqqiinerit"</string>
+	<!---->
+	<string name="header_label_general_preferences">"Nalinginnaasumik aaqqiinerit"</string>
+	<!-- no translation found for general_preference_confirm_delete_label -->
+	<skip />
+	<!-- no translation found for general_preference_confirm_send_label -->
+	<skip />
+	<!---->
+	<string name="more_than_999">"999+"</string>
+	<!---->
+	<string name="search_hint">"Ujaruk"</string>
+	<!-- no translation found for policy_dont_allow_camera -->
+	<skip />
+	<!-- no translation found for policy_require_password -->
+	<skip />
+	<!-- no translation found for policy_password_history -->
+	<skip />
+	<!-- no translation found for policy_password_expiration -->
+	<skip />
+	<!-- no translation found for policy_screen_timeout -->
+	<skip />
+	<!-- no translation found for policy_calendar_age -->
+	<skip />
+	<!-- no translation found for policy_email_age -->
+	<skip />
+	<!-- no translation found for quick_1 -->
+	<skip />
+	<!-- no translation found for quick_2 -->
+	<skip />
+	<!-- no translation found for quick_3 -->
+	<skip />
+	<!-- no translation found for quick_4 -->
+	<skip />
+	<!---->
+	<string name="require_manual_sync_message">"Uuma konto-p tunuliaqutaani ataqatiigilersitsineq roaming-ernerani atugassaajunnaartarpoq."</string>
+	<!-- no translation found for confirm_response -->
+	<skip />
+	<!-- no translation found for no_conversations -->
+	<skip />
+	<!-- no translation found for imap_name -->
+	<skip />
+	<!-- no translation found for pop3_name -->
+	<skip />
+	<!---->
+	<string name="email_name">"E-mail"</string>
+	<!-- no translation found for folder_picker_title -->
+	<skip />
+	<!-- no translation found for trash_folder_selection_title -->
+	<skip />
+	<!-- no translation found for sent_folder_selection_title -->
+	<skip />
+	<!-- no translation found for account_waiting_for_folders_msg -->
+	<skip />
+	<!-- no translation found for no_quick_responses -->
+	<skip />
+	<!-- no translation found for gmail_name -->
+	<skip />
+	<!-- no translation found for folder_sync_settings_pref_title -->
+	<skip />
+	<!---->
+	<string name="select_your_account">"Konto toqqaruk"</string>
+	<!---->
+	<string name="select_account_list_below">"Konto-t allassimaffimmiit ataaniittumiit toqqaruk:""</string>
+	<!---->
+	<string name="cancel_label">"Sussaaruk"</string>
+	<!---->
+	<string name="next_label">"Tullia"</string>
+	<!---->
+	<string name="str_account_provider_other">"Allat"</string>
+	<!---->
+	<string name="account_settings_download_options_label">"Qinigassat aakkit"</string>
+	<!-- no translation found for account_setting_download_opt_headonly -->
+	<skip />
+	<!---->
+	<string name="account_setting_download_opt_all">"Tamarmik"</string>
+	<!-- no translation found for account_setting_download_opt_2k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_5k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_10k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_20k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_50k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_100k -->
+	<skip />
+	<!---->
+	<string name="account_oof_error_tip_past">"Naaffissaa qangamiissinnaanngilaq. Naaffissaa siunissamiittumut allanngortiguk."</string>
+	<!-- no translation found for account_oof_error_tip_earlier -->
+	<skip />
+	<!---->
+	<string name="account_setting_oof_label">"Allaffimmi aaqqiinerniit"</string>
+	<!-- no translation found for oof_auto_repley -->
+	<skip />
+	<!---->
+	<string name="oof_auto_replies_period">"Nammineerluni akisartut Allaffimmiinngilanga uani piffissami nassiussuutsikkit"</string>
+	<!---->
+	<string name="start_time">"Piffissaq aallartiffia"</string>
+	<!---->
+	<string name="end_time">"Piffissaq piareerfia"</string>
+	<!---->
+	<string name="internal_message">"Nalunaarut iluaneersoq"</string>
+	<!---->
+	<string name="oof_auto_replies_external_senders">"Nammineerluni akisartut Allaffimmiinngilanga silataaniit nassiussuisunut nassiussuutsikkit"</string>
+	<!---->
+	<string name="oof_choice_oof_in_contacts">"Nammineerluni akisartut Allaffimmiinngilanga attaveqarfissama allassimaffianiittunut nassiussuisartunut nassiutikkit"</string>
+	<!---->
+	<string name="oof_choice_oof_outside_organisation">"Nammineerluni akisartut Allaffimmiinngilanga tamanut kattuffimma avataaniittunut nassiutikkit"</string>
+	<!---->
+	<string name="external_message">"Nalunaarut silataaneersoq"</string>
+	<!-- no translation found for oof_done_message_attention -->
+	<skip />
+	<!-- no translation found for oof_choice_in_contacts -->
+	<skip />
+	<!-- no translation found for oof_choice_all_senders -->
+	<skip />
+	<!-- no translation found for hint_text_of_internal_message -->
+	<skip />
+	<!-- no translation found for hint_text_of_external_message -->
+	<skip />
+	<!---->
+	<string name="account_delete_dlg_title">"Konto peeruk"</string>
+	<!---->
+	<string name="account_delete_dlg_instructions_fmt">"Konto \"<xliff:g id="account">%s</xliff:g>\" E-mail-imiit peerneqassaaq."</string>
+	<!-- no translation found for account_delete_dlg_instructions_fmt_new -->
+	<skip />
+	<!-- no translation found for account_delete_dlg_action_remove_label -->
+	<skip />
+	<!---->
+	<string name="account_delete_dlg_action_cancel_label">"Sussaaruk"</string>
+	<!---->
+	<string name="account_settings_category_delete_account">"Konto peeruk"</string>
+	<!---->
+	<string name="account_settings_delete_account_label">"Konto peeruk"</string>
+	<!---->
+	<string name="account_settings_default_label">"Konto atugassiaq"</string>
+	<!---->
+	<string name="account_settings_default_summary">"E-mail nassiuguk uannga konto-miit atugassiatut"</string>
+	<!---->
+	<string name="account_setup_options_default_label">"E-mail uannga konto-miit atugassiatut nassiuttaruk."</string>
+	<!---->
+	<string name="account_setup_basics_default_label">"E-mail uannga konto-miit atugassiatut nassiuttaruk."</string>
+	<!---->
+	<string name="local_search_action">"Sumiiffimmi ujaarlerit"</string>
+	<!---->
+	<string name="service_search_action">"Server-imi ujaarlerit"</string>
+	<!---->
+	<string name="local_search_all">"Tamarmik"</string>
+	<!---->
+	<string name="local_search_from">"Uannga"</string>
+	<!---->
+	<string name="local_search_to">"Uunga"</string>
+	<!---->
+	<string name="local_search_subject">"Pineqartoq"</string>
+	<!---->
+	<string name="status_loading_attachments">"Immerpoq"</string>
+	<!---->
+	<string name="account_use_proxy_label">"Proxy atoruk"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_label">"Proxy IP"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_port_label">"Proxy-p aniaffia"</string>
+	<!-- no translation found for account_setup_exchange_proxy_name -->
+	<skip />
+	<!---->
+	<string name="account_setup_exchange_proxy_password">"Proxy isertaat"</string>
+	<!---->
+	<string name="attachment_info_dialog_wifi_title">"Wi-Fi-imut attaveqarnissaq piumasaqaataavoq"</string>
+	<!---->
+	<string name="attachment_info_wifi_settings">"Wi-Fi-imut aaqqiinerit"</string>
+	<!-- no translation found for attachment_info_wifi_only -->
+	<skip />
+	<!---->
+	<string name="attachment_info_ok">"OK"</string>
+	<!---->
+	<string name="mailbox_name_display_draft">"Allataq"</string>
+	<!---->
+	<string name="message_compose_display_name">"<xliff:g example="John" id="name">%1$s</xliff:g> and <xliff:g example="27" id="number">%2$d</xliff:g> allat"</string>
+	<!---->
+	<string name="app_name">"E-mail"</string>
+	<!---->
+	<string name="from">"Uannga"</string>
+	<!---->
+	<string name="to">"Uunga"</string>
+	<!---->
+	<string name="cc">"Cc"</string>
+	<!---->
+	<string name="bcc">"Bcc"</string>
+	<!---->
+	<string name="subject_hint">"Pineqartoq"</string>
+	<!---->
+	<string name="body_hint">"E-mail allaguk"</string>
+	<!---->
+	<string name="add_file_attachment">"Fil-i ilanngussassiariuk"</string>
+	<!-- no translation found for add_photo_attachment -->
+	<skip />
+	<!---->
+	<string name="save_draft">"Allataq toqqoruk"</string>
+	<!---->
+	<string name="discard">"Taamaatiguk"</string>
+	<!---->
+	<string name="compose">"Allaguk"</string>
+	<!-- no translation found for select_contacts_field -->
+	<skip />
+	<!-- no translation found for item_save_group -->
+	<skip />
+	<!-- no translation found for confirm_select -->
+	<skip />
+	<!-- no translation found for cancel_select -->
+	<skip />
+	<string-array name="compose_modes">
+		<item>"Akiuk"</item>
+		<item>"Tamaasa akikkit"</item>
+		<item>"Siumukarit"</item>
+	</string-array>
+	<string-array name="compose_modes_without_reply_all">
+		<item>"Akiuk"</item>
+		<item>"Siumukarit"</item>
+	</string-array>
+	<!-- no translation found for reply_subject_label -->
+	<skip />
+	<!---->
+	<string name="forward_subject_label">"Fwd:"</string>
+	<!-- no translation found for reply_attribution -->
+	<skip />
+	<!-- no translation found for forward_attribution -->
+	<skip />
+	<!-- no translation found for forward_attribution_with_headers -->
+	<skip />
+	<!-- no translation found for forward_attribution_no_headers -->
+	<skip />
+	<!---->
+	<string name="cc_attribution">"Cc:"</string>
+	<!-- no translation found for select_attachment_type -->
+	<skip />
+	<!-- no translation found for too_large_to_attach_single -->
+	<skip />
+	<!-- no translation found for too_large_to_attach_multiple -->
+	<skip />
+	<!-- no translation found for too_large_to_mid_attach_additional -->
+	<skip />
+	<!-- no translation found for too_large_to_attach_additional -->
+	<skip />
+	<!-- no translation found for generic_attachment_problem -->
+	<skip />
+	<!-- no translation found for recipient_needed -->
+	<skip />
+	<!-- no translation found for recipient_error_dialog_title -->
+	<skip />
+	<!-- no translation found for confirm_send_title -->
+	<skip />
+	<!-- no translation found for confirm_send_message_with_no_subject -->
+	<skip />
+	<!-- no translation found for confirm_send_message_with_no_body -->
+	<skip />
+	<!-- no translation found for confirm_send_message -->
+	<skip />
+	<!---->
+	<string name="message_discarded">"Nalunaarut taamaatinneqarpoq."</string>
+	<!-- no translation found for signature -->
+	<skip />
+	<!-- no translation found for custom_from_account_label -->
+	<skip />
+	<!---->
+	<string name="send">"Nassiuguk"</string>
+	<!---->
+	<string name="mark_read">"Atuarsimasaq nalunaaqutseruk"</string>
+	<!---->
+	<string name="mark_unread">"Atuarsimanngisaq nalunaaqutseruk"</string>
+	<!-- no translation found for mute -->
+	<skip />
+	<!---->
+	<string name="add_star">"Ullorissamik ilanngussigit"</string>
+	<!---->
+	<string name="remove_star">"Ulloriaq peeruk"</string>
+	<!-- no translation found for remove_folder -->
+	<skip />
+	<!-- no translation found for archive -->
+	<skip />
+	<!-- no translation found for report_spam -->
+	<skip />
+	<!-- no translation found for mark_not_spam -->
+	<skip />
+	<!-- no translation found for report_phishing -->
+	<skip />
+	<!-- no translation found for delete -->
+	<skip />
+	<!-- no translation found for discard_drafts -->
+	<skip />
+	<!-- no translation found for discard_failed -->
+	<skip />
+	<!---->
+	<string name="refresh">"Nutarsaruk"</string>
+	<!---->
+	<string name="reply">"Akiuk"</string>
+	<!---->
+	<string name="reply_all">"Tamaasa akikkit"</string>
+	<!---->
+	<string name="resume_draft">"Ilusilersoruk"</string>
+	<!---->
+	<string name="forward">"Siumukarit"</string>
+	<!---->
+	<string name="menu_compose">"Allaguk"</string>
+	<!-- no translation found for menu_sort -->
+	<skip />
+	<!-- no translation found for menu_change_folders -->
+	<skip />
+	<!---->
+	<string name="menu_move_to">"Uunga nuuguk"</string>
+	<!-- no translation found for menu_move_to_inbox -->
+	<skip />
+	<!-- no translation found for menu_manage_folders -->
+	<skip />
+	<!-- no translation found for menu_show_original -->
+	<skip />
+	<!---->
+	<string name="menu_settings">"Aaqqiinerit"</string>
+	<!---->
+	<string name="menu_search">"Ujaruk"</string>
+	<!-- no translation found for drawer_title -->
+	<skip />
+	<!-- no translation found for mark_important -->
+	<skip />
+	<!-- no translation found for mark_not_important -->
+	<skip />
+	<!---->
+	<string name="select_all_conversations">"Tamaasa toqqakkit"</string>
+	<!---->
+	<string name="unselect_all_conversations">"Tamaasa toqqarunnaakkit"</string>
+	<!---->
+	<string name="add_cc_label">"Cc/Bcc ilannguguk"</string>
+	<!-- no translation found for add_bcc_label -->
+	<skip />
+	<!---->
+	<string name="quoted_text">"Allagaq ilaagaq ilannguguk"</string>
+	<!-- no translation found for quoted_text_label -->
+	<skip />
+	<!-- no translation found for respond_inline -->
+	<skip />
+	<!-- no translation found for bytes -->
+	<skip />
+	<!-- no translation found for kilobytes -->
+	<skip />
+	<!-- no translation found for megabytes -->
+	<skip />
+	<!---->
+	<string name="attachment_image">"Asseq"</string>
+	<!---->
+	<string name="attachment_video">"Video"</string>
+	<!---->
+	<string name="attachment_audio">"Nipi"</string>
+	<!---->
+	<string name="attachment_text">"Allataq"</string>
+	<!-- no translation found for attachment_application_msword -->
+	<skip />
+	<!-- no translation found for attachment_application_vnd_ms_powerpoint -->
+	<skip />
+	<!-- no translation found for attachment_application_vnd_ms_excel -->
+	<skip />
+	<!-- no translation found for attachment_application_pdf -->
+	<skip />
+	<!-- no translation found for attachment_unknown -->
+	<skip />
+	<!---->
+	<string name="preview_attachment">"Takoreeruk"</string>
+	<!---->
+	<string name="save_attachment">"Toqqoruk"</string>
+	<!---->
+	<string name="cancel_attachment">"Sussaaruk"</string>
+	<!---->
+	<string name="open_attachment">"Ammaruk"</string>
+	<!---->
+	<string name="install_attachment">"Ikkuguk"</string>
+	<!-- no translation found for download_again -->
+	<skip />
+	<!---->
+	<string name="more_info_attachment">"Paasisutissaq"</string>
+	<!-- no translation found for no_application_found -->
+	<skip />
+	<!-- no translation found for fetching_attachment -->
+	<skip />
+	<!---->
+	<string name="please_wait">"Utaqqilaarit..."</string>
+	<!-- no translation found for saved -->
+	<skip />
+	<!-- no translation found for download_failed -->
+	<skip />
+	<!-- no translation found for menu_photo_save_all -->
+	<skip />
+	<!---->
+	<string name="menu_photo_share">"Siammarteruk"</string>
+	<!-- no translation found for menu_photo_share_all -->
+	<skip />
+	<!-- no translation found for menu_photo_print -->
+	<skip />
+	<!-- no translation found for saving -->
+	<skip />
+	<!---->
+	<string name="choosertitle_sharevia">"Ugguuna siammarteruk"</string>
+	<!-- no translation found for contextmenu_openlink -->
+	<skip />
+	<!---->
+	<string name="contextmenu_copy">"Assiliuk"</string>
+	<!---->
+	<string name="contextmenu_copylink">"Link-i URL assiliuk"</string>
+	<!---->
+	<string name="contextmenu_view_image">"Asseq nuisiguk"</string>
+	<!-- no translation found for contextmenu_dial_dot -->
+	<skip />
+	<!-- no translation found for contextmenu_sms_dot -->
+	<skip />
+	<!---->
+	<string name="contextmenu_add_contact">"Attaveqarfissaq ilannguguk"</string>
+	<!---->
+	<string name="contextmenu_send_mail">"E-mail nassiuguk"</string>
+	<!---->
+	<string name="contextmenu_map">"Nunap assinga"</string>
+	<!---->
+	<string name="contextmenu_sharelink">"Link-i siammarteruk"</string>
+	<!-- no translation found for contextmenu_savelink -->
+	<skip />
+	<!---->
+	<string name="contextmenu_help">"Ikiortinneq"</string>
+	<!---->
+	<string name="contextmenu_feedback">"Akissummik nassiussigit"</string>
+	<!---->
+	<string name="sort_title">"Immikkoortiguk aallaavigalugu"</string>
+	<!-- no translation found for sort_by_tip -->
+	<skip />
+	<!-- no translation found for num_selected -->
+	<skip />
+	<!-- no translation found for move_conversation -->
+	<skip />
+	<!-- no translation found for content_description -->
+	<skip />
+	<!-- no translation found for content_description_today -->
+	<skip />
+	<!-- no translation found for read_string -->
+	<skip />
+	<!-- no translation found for unread_string -->
+	<skip />
+	<!-- no translation found for filtered_tag -->
+	<skip />
+	<!-- no translation found for badge_and_subject -->
+	<skip />
+	<plurals name="draft">
+		<item quantity="one">"Allataq"</item>
+		<item quantity="other">"Allatat"</item>
+	</plurals>
+	<!---->
+	<string name="sending">"Nassiuppoq..."</string>
+	<!-- no translation found for message_retrying -->
+	<skip />
+	<!-- no translation found for message_failed -->
+	<skip />
+	<!-- no translation found for send_failed -->
+	<skip />
+	<!-- no translation found for send_failed_wait_attchment_downloaded -->
+	<skip />
+	<!---->
+	<string name="me_object_pronoun">"Uanga"</string>
+	<!---->
+	<string name="me_subject_pronoun">"Uanga"</string>
+	<!-- no translation found for confirm_delete_conversation -->
+	<skip />
+	<!-- no translation found for confirm_archive_conversation -->
+	<skip />
+	<!-- no translation found for confirm_discard_drafts_conversation -->
+	<skip />
+	<!-- no translation found for confirm_discard_text -->
+	<skip />
+	<!---->
+	<string name="loading_conversations">""Immerpoq..."</string>
+	<!-- no translation found for empty_inbox -->
+	<skip />
+	<!-- no translation found for empty_search -->
+	<skip />
+	<!-- no translation found for empty_spam_folder -->
+	<skip />
+	<!-- no translation found for empty_trash_folder -->
+	<skip />
+	<!-- no translation found for empty_folder -->
+	<skip />
+	<!-- no translation found for getting_messages -->
+	<skip />
+	<!---->
+	<string name="undo">"Utertiguk"</string>
+	<!-- no translation found for conversation_unstarred -->
+	<skip />
+	<!-- no translation found for conversation_muted -->
+	<skip />
+	<!-- no translation found for conversation_spammed -->
+	<skip />
+	<!-- no translation found for conversation_not_spam -->
+	<skip />
+	<!-- no translation found for conversation_not_important -->
+	<skip />
+	<!-- no translation found for conversation_phished -->
+	<skip />
+	<!-- no translation found for conversation_archived -->
+	<skip />
+	<!-- no translation found for conversation_deleted -->
+	<skip />
+	<!---->
+	<string name="deleted">"Peerneqarpoq"</string>
+	<!-- no translation found for archived -->
+	<skip />
+	<!---->
+	<string name="starred">"Nuannarinillit"</string>
+	<!-- no translation found for unstarred -->
+	<skip />
+	<!-- no translation found for folder_removed -->
+	<skip />
+	<!-- no translation found for conversation_folder_changed -->
+	<skip />
+	<!-- no translation found for conversation_folder_moved -->
+	<skip />
+	<!-- no translation found for search_results_header -->
+	<skip />
+	<!-- no translation found for search_unsupported -->
+	<skip />
+	<!-- no translation found for add_label -->
+	<skip />
+	<!-- no translation found for new_incoming_messages_one -->
+	<skip />
+	<!-- no translation found for new_incoming_messages_many -->
+	<skip />
+	<!-- no translation found for date_and_view_details -->
+	<skip />
+	<!-- no translation found for date_and_view_details_another -->
+	<skip />
+	<!-- no translation found for hide_details -->
+	<skip />
+	<!-- no translation found for to_message_header -->
+	<skip />
+	<!-- no translation found for contact_info_string -->
+	<skip />
+	<!-- no translation found for contact_info_string_default -->
+	<skip />
+	<!-- no translation found for show_messages_read -->
+	<skip />
+	<!---->
+	<string name="from_heading">"Uannga:"</string>
+	<!-- no translation found for replyto_heading -->
+	<skip />
+	<!---->
+	<string name="to_heading">"Uunga:"</string>
+	<!---->
+	<string name="to_heading_no_space">"Uunga:"</string>
+	<!---->
+	<string name="cc_heading">"Cc:"</string>
+	<!---->
+	<string name="bcc_heading">"Bcc:"</string>
+	<!---->
+	<string name="date_heading">"Ulloq:"</string>
+	<!---->
+	<string name="show_images">"Assit takutikkit"</string>
+	<!---->
+	<string name="always_show_images">"Uannga nassiussisumiit assit takutittuaannakkit"</string>
+	<!---->
+	<string name="always_show_images_toast">"Uannga nassiussisumiit assit namieerlutik nuiuaannassapput."</string>
+	<!-- no translation found for address_display_format -->
+	<skip />
+	<!-- no translation found for address_display_format_with_via_domain -->
+	<skip />
+	<!---->
+	<string name="message_saved">"Nalunaarut allakkatuut toqqorneqarpoq."</string>
+	<!-- no translation found for sending_message -->
+	<skip />
+	<!-- no translation found for invalid_recipient -->
+	<skip />
+	<!-- no translation found for show_elided -->
+	<skip />
+	<!-- no translation found for hide_elided -->
+	<skip />
+	<!---->
+	<string name="message_invite_title">"Ullorsiutini qaaqqusineq"</string>
+	<!-- no translation found for message_invite_available -->
+	<skip />
+	<!-- no translation found for message_invite_datetime -->
+	<skip />
+	<!-- no translation found for message_invite_location -->
+	<skip />
+	<!-- no translation found for message_invite_in_calendar_view -->
+	<skip />
+	<!---->
+	<string name="message_invite_calendar_view">"Ullorsiutini takujuk"</string>
+	<!---->
+	<string name="message_invite_label_attending">"Ingerlavit?"</string>
+	<!---->
+	<string name="message_invite_accept">"Aap"</string>
+	<!---->
+	<string name="message_invite_tentative">"Immaqa"</string>
+	<!---->
+	<string name="message_invite_decline">"Naamik"</string>
+	<!-- no translation found for enumeration_comma -->
+	<skip />
+	<!---->
+	<string name="send_anyway">"Nassiutiinnaruk"</string>
+	<!---->
+	<string name="ok">"OK"</string>
+	<!---->
+	<string name="done">"Naammassivoq"</string>
+	<!---->
+	<string name="cancel">"Sussaaruk"</string>
+	<!-- no translation found for clear -->
+	<skip />
+	<!---->
+	<string name="next">"Tullia"</string>
+	<!---->
+	<string name="previous">"Siulia"</string>
+	<string-array name="sync_status">
+		<item>"You don\'t have Wi-Fi connectivity, whether to continue the synchronisation?"</item>
+		<item>"Isersinnaanngilaq."</item>
+		<item>"Security error."</item>
+		<item>"Couldn\'t sync."</item>
+		<item>"Internal error"</item>
+		<!--inherit from default language-->
+		<item>"Internal error"</item>
+		<!--inherit from default language-->
+		<item>"Server error"</item>
+	</string-array>
+	<!-- no translation found for tap_to_configure -->
+	<skip />
+	<!-- no translation found for non_synced_folder_description -->
+	<skip />
+	<!-- no translation found for tap_to_configure_folder_sync -->
+	<skip />
+	<!-- no translation found for widget_large_unread_count -->
+	<skip />
+	<!-- no translation found for large_unseen_count -->
+	<skip />
+	<!-- no translation found for unseen_count -->
+	<skip />
+	<!-- no translation found for actionbar_unread_messages -->
+	<skip />
+	<!-- no translation found for actionbar_large_unread_count -->
+	<skip />
+	<!---->
+	<string name="view_more_conversations">"Attaveqatigiinnerit amerlanerit takukkit"</string>
+	<!---->
+	<string name="loading_conversation">""Immerpoq..."</string>
+	<!---->
+	<string name="activity_mailbox_selection">"Konto toqqaruk"</string>
+	<!-- no translation found for activity_folder_selection -->
+	<skip />
+	<!-- no translation found for folder_shortcut_widget_label -->
+	<skip />
+	<!-- no translation found for change_folders_selection_dialog_title -->
+	<skip />
+	<!---->
+	<string name="move_to_selection_dialog_title">"Uunga nuuguk"</string>
+	<!-- no translation found for search_results_loaded -->
+	<skip />
+	<!-- no translation found for network_error -->
+	<skip />
+	<!---->
+	<string name="retry">"Misileeqqigit"</string>
+	<!-- no translation found for load_more -->
+	<skip />
+	<!-- no translation found for load_attachment -->
+	<skip />
+	<!-- no translation found for shortcut_name_title -->
+	<skip />
+	<!---->
+	<string name="wait_for_sync_title">"Ataqatigiilersitsinissaq utaqqivaa"</string>
+	<!-- no translation found for not_synced_title -->
+	<skip />
+	<!-- no translation found for wait_for_manual_sync_body -->
+	<skip />
+	<!---->
+	<string name="manual_sync">"Maanna ataqatigiilersikkit"</string>
+	<!-- no translation found for change_sync_settings -->
+	<skip />
+	<!-- no translation found for photo_load_failed -->
+	<skip />
+	<!-- no translation found for cant_move_or_change_labels -->
+	<skip />
+	<!-- no translation found for multiple_new_message_notification_item -->
+	<skip />
+	<!-- no translation found for single_new_message_notification_big_text -->
+	<skip />
+	<!-- no translation found for ignore_spam_warning -->
+	<skip />
+	<!-- no translation found for via_domain -->
+	<skip />
+	<!---->
+	<string name="signin">"Iserit"</string>
+	<!---->
+	<string name="info">"Paasisutissaq"</string>
+	<!---->
+	<string name="report">"Nalunaarusiaq"</string>
+	<!-- no translation found for sync_error -->
+	<skip />
+	<!-- no translation found for sync_error_message -->
+	<skip />
+	<!---->
+	<string name="storage">"Toqqorsivik"</string>
+	<!-- no translation found for senders_split_token -->
+	<skip />
+	<!-- no translation found for draft_count_format -->
+	<skip />
+	<!---->
+	<string name="all_folders_heading">"Quppersakkat tamarmik"</string>
+	<!---->
+	<string name="recent_folders_heading">"Quppersakkat kingulliit"</string>
+	<!---->
+	<string name="message_details_title">"Nalunaarutip paasissutissai"</string>
+	<!---->
+	<string name="preference_advance_to_title">"Nammineerluni-siumukaartoq"</string>
+	<string-array name="prefEntries_autoAdvance">
+		<item>"Nutaajuneq"</item>
+		<item>"Pisoqaaneq"</item>
+		<item>"Conversation list"</item>
+	</string-array>
+	<string-array name="prefSummaries_autoAdvance">
+		<!--inherit from default language-->
+		<item>"Show newer conversation after you delete"</item>
+		<!--inherit from default language-->
+		<item>"Show older conversation after you delete"</item>
+		<!--inherit from default language-->
+		<item>"Show conversation list after you delete"</item>
+	</string-array>
+	<!---->
+	<string name="prefDialogTitle_autoAdvance">"Uunga siuariartiguk"</string>
+	<!-- no translation found for clear_display_images_whitelist_title -->
+	<skip />
+	<!-- no translation found for clear_display_images_whitelist_dialog_title -->
+	<skip />
+	<!-- no translation found for clear_display_images_whitelist_dialog_message -->
+	<skip />
+	<!-- no translation found for sender_whitelist_cleared -->
+	<skip />
+	<!---->
+	<string name="preferences_signature_title">"Atsiornerit"</string>
+	<!---->
+	<string name="preferences_signature_dialog_title">"Atsiornerit"</string>
+	<!---->
+	<string name="preferences_signature_summary_not_set">"Aaqqinneqanngilaq"</string>
+	<!-- no translation found for mail_account_signature_prefix -->
+	<skip />
+	<!---->
+	<string name="notification_action_reply">"Akiuk"</string>
+	<!---->
+	<string name="notification_action_reply_all">"Tamaasa akikkit"</string>
+	<!-- no translation found for notification_action_archive -->
+	<skip />
+	<!-- no translation found for notification_action_remove_label -->
+	<skip />
+	<!-- no translation found for notification_action_delete -->
+	<skip />
+	<!-- no translation found for notification_action_undo_archive -->
+	<skip />
+	<!-- no translation found for notification_action_undo_remove_label -->
+	<skip />
+	<!---->
+	<string name="notification_action_undo_delete">"Peerneqarpoq"</string>
+	<!-- no translation found for veiled_address -->
+	<skip />
+	<!-- no translation found for veiled_alternate_text -->
+	<skip />
+	<!-- no translation found for veiled_alternate_text_unknown_person -->
+	<skip />
+	<!-- no translation found for veiled_summary_unknown_person -->
+	<skip />
+	<!-- no translation found for label_notification_ticker -->
+	<skip />
+	<!-- no translation found for new_messages -->
+	<skip />
+	<!-- no translation found for single_new_message_notification_title -->
+	<skip />
+	<!---->
+	<string name="silent_ringtone">"Nipikitsoq"</string>
+	<!-- no translation found for preference_removal_action_title -->
+	<skip />
+	<string-array name="prefEntries_removal_action">
+		<item>"Show archived only"</item>
+		<item>"Show deleted only"</item>
+		<item>"Show archive &amp; delete"</item>
+	</string-array>
+	<string-array name="prefSummaries_removal_action_summary">
+		<item>"Show archived only"</item>
+		<item>"Show deleted only"</item>
+		<item>"Show archive &amp; delete"</item>
+	</string-array>
+	<!-- no translation found for prefDialogTitle_removal_action -->
+	<skip />
+	<!---->
+	<string name="preferences_default_reply_all_title">"Tamaasa akikkit"</string>
+	<!-- no translation found for preferences_default_reply_all_summary_impl -->
+	<skip />
+	<!-- no translation found for preference_swipe_title_archive -->
+	<skip />
+	<!-- no translation found for preference_swipe_title_delete -->
+	<skip />
+	<!-- no translation found for preference_swipe_description -->
+	<skip />
+	<!-- no translation found for preference_swipe_actions -->
+	<skip />
+	<!-- no translation found for preference_sender_image_title -->
+	<skip />
+	<!-- no translation found for preference_sender_image_description -->
+	<skip />
+	<!-- no translation found for empty_trash -->
+	<skip />
+	<!-- no translation found for empty_spam -->
+	<skip />
+	<!-- no translation found for star_toggle -->
+	<skip />
+	<!-- no translation found for empty_trash_dialog_title -->
+	<skip />
+	<!-- no translation found for empty_spam_dialog_title -->
+	<skip />
+	<!-- no translation found for empty_folder_dialog_message -->
+	<skip />
+	<!-- no translation found for drawer_open -->
+	<skip />
+	<!-- no translation found for drawer_close -->
+	<skip />
+	<!-- no translation found for conversation_photo_welcome_text -->
+	<skip />
+	<!-- no translation found for long_press_to_select_tip -->
+	<skip />
+	<!-- no translation found for folder_icon_desc -->
+	<skip />
+	<!---->
+	<string name="add_account">"Konto ilannguguk"</string>
+	<!-- no translation found for dismiss_tip_hover_text -->
+	<skip />
+	<!-- no translation found for auto_sync_off -->
+	<skip />
+	<!-- no translation found for tap_to_enable_sync -->
+	<skip />
+	<!-- no translation found for account_sync_off -->
+	<skip />
+	<!-- no translation found for enable_sync_in_account_settings -->
+	<skip />
+	<!---->
+	<string name="account_settings_param">"Konto-mut aaqqiinerit"</string>
+	<!-- no translation found for unsent_messages_in_outbox -->
+	<skip />
+	<!-- no translation found for turn_auto_sync_on_dialog_title -->
+	<skip />
+	<!-- no translation found for turn_auto_sync_on_dialog_body -->
+	<skip />
+	<!---->
+	<string name="phone">"Telefon-i"</string>
+	<!-- no translation found for tablet -->
+	<skip />
+	<!---->
+	<string name="turn_auto_sync_on_dialog_confirm_btn">"Ikiguk"</string>
+	<!-- no translation found for show_n_more_folders -->
+	<skip />
+	<!-- no translation found for hide_folders -->
+	<skip />
+	<!-- no translation found for print -->
+	<skip />
+	<!-- no translation found for print_all -->
+	<skip />
+	<!-- no translation found for num_messages -->
+	<skip />
+	<!-- no translation found for date_message_received_print -->
+	<skip />
+	<!-- no translation found for draft_to_heading -->
+	<skip />
+	<!---->
+	<string name="draft_heading">"Allataq"</string>
+	<!-- no translation found for quoted_text_hidden_print -->
+	<skip />
+	<!-- no translation found for num_attachments -->
+	<skip />
+	<!---->
+	<string name="no_subject">"(Pineqartoq allanneqarsimanngilaq)"</string>
+	<!-- no translation found for vacation_responder -->
+	<skip />
+	<!-- no translation found for preferences_vacation_responder_title -->
+	<skip />
+	<!---->
+	<string name="vacation_responder_body_hint_text">"Nalunaarut"</string>
+	<!-- no translation found for send_to_contacts_text -->
+	<skip />
+	<!-- no translation found for send_to_domain_text -->
+	<skip />
+	<!-- no translation found for pick_start_date_title -->
+	<skip />
+	<!-- no translation found for pick_end_date_title -->
+	<skip />
+	<!---->
+	<string name="date_not_set">"Aaqqinneqanngilaq"</string>
+	<!-- no translation found for set_end_date_dialog_title -->
+	<skip />
+	<!---->
+	<string name="custom_date">"Naleqqussagaq"</string>
+	<!---->
+	<string name="date_none">"Soqanngilaq"</string>
+	<!-- no translation found for discard_changes -->
+	<skip />
+	<!-- no translation found for draft_saved -->
+	<skip />
+	<!-- no translation found for draft_discard -->
+	<skip />
+	<!-- no translation found for vacation_responder_changes_saved -->
+	<skip />
+	<!-- no translation found for vacation_responder_changes_discarded -->
+	<skip />
+	<!-- no translation found for vacation_responder_off -->
+	<skip />
+	<!-- no translation found for vacation_responder_on -->
+	<skip />
+	<!-- no translation found for vacation_responder_on_with_end_date -->
+	<skip />
+	<!-- no translation found for vacation_responder_empty_subject_and_body_warning -->
+	<skip />
+	<!-- no translation found for view_entire_message -->
+	<skip />
+	<!-- no translation found for eml_loader_error_toast -->
+	<skip />
+	<!---->
+	<string name="help_and_info">"Ikiortinneq"</string>
+	<!-- no translation found for help_and_feedback -->
+	<skip />
+	<!---->
+	<string name="feedback">"Akissummik nassiussigit"</string>
+	<!-- no translation found for copyright -->
+	<skip />
+	<!-- no translation found for version -->
+	<skip />
+	<!-- no translation found for view_app_page -->
+	<skip />
+	<!-- no translation found for print_dialog -->
+	<skip />
+	<!-- no translation found for copyright_information -->
+	<skip />
+	<!-- no translation found for privacy_policy -->
+	<skip />
+	<!---->
+	<string name="open_source_licenses">"Program-inut akeqanngitsunut akuersissutit"</string>
+	<!---->
+	<string name="reply_choice_yes">"Aap"</string>
+	<!---->
+	<string name="reply_choice_no">"Naamik"</string>
+	<!---->
+	<string name="reply_choice_ok">"OK"</string>
+	<!-- no translation found for reply_choice_hehe -->
+	<skip />
+	<!-- no translation found for reply_choice_thanks -->
+	<skip />
+	<!-- no translation found for reply_choice_i_agree -->
+	<skip />
+	<!-- no translation found for reply_choice_nice -->
+	<skip />
+	<!-- no translation found for reply_on_my_way -->
+	<skip />
+	<!-- no translation found for reply_choice_later -->
+	<skip />
+	<!-- no translation found for reply_choice_smiling_face -->
+	<skip />
+	<!-- no translation found for reply_choice_frowning_face -->
+	<skip />
+	<!-- no translation found for preference_header_action_confirmations -->
+	<skip />
+	<!-- no translation found for preference_confirm_before_delete_title -->
+	<skip />
+	<!-- no translation found for preference_confirm_before_archive_title -->
+	<skip />
+	<!-- no translation found for preference_confirm_before_send_title -->
+	<skip />
+	<!-- no translation found for preferences_conversation_mode_title -->
+	<skip />
+	<!-- no translation found for preferences_conversation_mode_summary -->
+	<skip />
+	<!-- no translation found for preferences_disable_snap_headers_title -->
+	<skip />
+	<string-array name="prefSummaries_snapHeader">
+		<!--inherit from default language-->
+		<item>"Always show message actions at the top of the screen"</item>
+		<!--inherit from default language-->
+		<item>"Only show message actions at the top of the screen when rotated to portrait"</item>
+		<!--inherit from default language-->
+		<item>"Don\'t show message actions outside the message header"</item>
+	</string-array>
+	<string-array name="prefEntries_snapHeader">
+		<item>"Nuisatittuaannaruk"</item>
+		<!--inherit from default language-->
+		<item>"Only show in portrait"</item>
+		<!--inherit from default language-->
+		<item>"Don\'t show"</item>
+	</string-array>
+	<!---->
+	<string name="clear_history_title">"Ujaarlernerit takussutissaat peeruk"</string>
+	<!---->
+	<string name="search_history_cleared">"Ujaarlernermi takussutissat peerput."</string>
+	<!-- no translation found for clear_history_dialog_title -->
+	<skip />
+	<!-- no translation found for clear_history_dialog_message -->
+	<skip />
+	<!-- no translation found for manage_accounts_menu_item -->
+	<skip />
+	<!---->
+	<string name="general_preferences_title">"Nalinginnaasumik aaqqiinerit"</string>
+	<!---->
+	<string name="activity_preferences">"Aaqqiinerit"</string>
+	<!---->
+	<string name="always_bcc_myself">"Uannut bcc-rtuannaruk"</string>
+	<!---->
+	<string name="always_bcc_myself_summary">"Allakkaangama, akigaangama aammalu ingerlatitseqqiigaangama uannut bcc-rtuaannaruk"</string>
+	<!---->
+	<string name="general_preference_auto_download_remaining_label">"Nammineerluni sinnerinik aallertiguk"</string>
+	<!---->
+	<string name="general_preference_auto_download_remaining_summary">"Ammukaartikkaagakku nammineerluni nuisussat sinnerinik aallertittaruk"</string>
+	<!---->
+	<string name="download_remaining">"Aallernermi sinneruttoq"</string>
+	<!---->
+	<string name="downloading_remaining">"Immerpoq…"</string>
+	<!---->
+	<string name="unable_to_connect">"Attavilersinnaanngilaq"</string>
+	<!---->
+	<string name="need_connection_prompt">"Program-i una atussagukku netværk-imut attaveqarnissaq pisariaqarpoq. Mobil netværk imaluunniit Wi-Fi Aaqqinerni ikiguk."</string>
+	<!---->
+	<string name="connection_settings">"Aaqqiinerit"</string>
+	<!---->
+	<string name="priority_action">"Pingaarnersiuineq"</string>
+	<!---->
+	<string name="set_priority_dialog_title">"Pingaarnersiuineq"</string>
+	<!-- no translation found for dialog_warning -->
+	<skip />
+	<!-- no translation found for dialog_warning_message -->
+	<skip />
+	<!-- no translation found for toast_warning_text -->
+	<skip />
+	<!---->
+	<string name="tips_sync_alter_title">"Ataqatigiilersitsineq"</string>
+	<!-- no translation found for tips_sync_alter_content -->
+	<skip />
+	<!---->
+	<string name="tips_sync_alter_yes">"Aap"</string>
+	<!---->
+	<string name="tips_sync_alter_no">"Naamik"</string>
+	<!---->
+	<string name="message_invite_tentative_title">"Misileraaneq"</string>
+	<!---->
+	<string name="message_invite_decline_title">"Itigartiguk"</string>
+	<!-- no translation found for message_invite_accent_title -->
+	<skip />
+	<!-- no translation found for drm_file_remind -->
+	<skip />
+	<!-- no translation found for not_add_more_recipients -->
+	<skip />
+	<!---->
+	<string name="global_search_label">"E-mail"</string>
+	<!---->
+	<string name="global_search_hint">"e-mail-imi ujaarlerit"</string>
+	<!-- no translation found for global_search_description -->
+	<skip />
+	<!-- no translation found for remote_search_failed -->
+	<skip />
+	<!---->
+	<string name="searching_on_server">"Server-imi ujaarlerit"</string>
+	<!-- no translation found for searching_on_server_title -->
+	<skip />
+	<!-- no translation found for searching_all_fields_on_sever -->
+	<skip />
+	<!---->
+	<string name="search_field_subject">"Pineqartoq"</string>
+	<!-- no translation found for search_field_receiver -->
+	<skip />
+	<!-- no translation found for search_field_sender -->
+	<skip />
+	<!-- no translation found for search_field_body -->
+	<skip />
+	<!---->
+	<string name="search_field_all">"Tamarmik"</string>
+	<!-- no translation found for search_field_attachment -->
+	<skip />
+	<!---->
+	<string name="select_all">"Tamaasa toqqakkit"</string>
+	<!---->
+	<string name="deselect_all">"Tamaasa toqqarunnaakkit"</string>
+	<!-- no translation found for need_wifi_connection_prompt -->
+	<skip />
+	<!-- no translation found for account_setup_names_account_name_des_label -->
+	<skip />
+	<!-- no translation found for account_setup_names_user_name_des_label -->
+	<skip />
+	<!---->
+	<string name="finish_action">"Naammassiuk"</string>
+	<!---->
+	<string name="copy_email">"email-adresse assiliuk"</string>
+	<!-- no translation found for out_of_office_syncing -->
+	<skip />
+	<!-- no translation found for out_of_office_fail -->
+	<skip />
+	<!-- no translation found for out_of_office_success -->
+	<skip />
+	<!-- no translation found for manual_sync_when_roaming -->
+	<skip />
+	<!-- no translation found for manual_sync_when_roaming_summery -->
+	<skip />
+	<!-- no translation found for manual_sync_when_roaming_toast -->
+	<skip />
+	<!-- no translation found for manual_sync_when_roaming_refresh -->
+	<skip />
+	<!-- no translation found for server_rule_can_not_change -->
+	<skip />
+	<!-- no translation found for server_rules -->
+	<skip />
+	<!-- no translation found for confirm_forward_message -->
+	<skip />
+	<!---->
+	<string name="confirm_forward_cancel">"Sussaaruk"</string>
+	<!---->
+	<string name="confirm_forward_drop_unload_attachment">"Siumukarit"</string>
+	<!-- no translation found for mail_not_download_completely -->
+	<skip />
+	<!-- no translation found for account_settings_inline_images_lable -->
+	<skip />
+	<!---->
+	<string name="account_settings_inline_always_show">"Takutittuaannaruk"</string>
+	<!-- no translation found for account_settings_inline_ask_before_show -->
+	<skip />
+	<!-- no translation found for conversation_time_after_today -->
+	<skip />
+	<!-- no translation found for conversation_time_today -->
+	<skip />
+	<!---->
+	<string name="conversation_time_yesterday">"Ippassaq"</string>
+	<!-- no translation found for conversation_time_this_month -->
+	<skip />
+	<!-- no translation found for conversation_time_elapse_just_now -->
+	<skip />
+	<!-- no translation found for conversation_time_elapse_minute -->
+	<skip />
+	<!-- no translation found for message_in_queued_status -->
+	<skip />
+	<!-- no translation found for send_failed_messages -->
+	<skip />
+	<!-- no translation found for account_setup_options_mail_calendar_window_label -->
+	<skip />
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_2weeks">"Sapaatip akunneri marluk"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_1month">"Qaammat"</string>
+	<!-- no translation found for account_setup_options_mail_calendar_window_3months -->
+	<skip />
+	<!-- no translation found for account_setup_options_mail_calendar_window_6months -->
+	<skip />
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_all">"Tamarmik"</string>
+	<!-- no translation found for no_permission_to_open_file -->
+	<skip />
+	<!-- no translation found for conversation_update_time_text -->
+	<skip />
+	<!---->
+	<string name="conversation_update_unknown_time_stamp">"Ilisimaneqanngitsoq"</string>
+	<!-- no translation found for conversation_time_elapse_today -->
+	<skip />
+	<!-- no translation found for save_to_attachment -->
+	<skip />
+	<!-- no translation found for download_settings_title -->
+	<skip />
+	<!-- no translation found for download_edit_filename_label -->
+	<skip />
+	<!-- no translation found for download_filepath_label -->
+	<skip />
+	<!-- no translation found for download_file_size -->
+	<skip />
+	<!-- no translation found for download_time_needed -->
+	<skip />
+	<!-- no translation found for download_cancel -->
+	<skip />
+	<!-- no translation found for download_start -->
+	<skip />
+	<!-- no translation found for unknown_length -->
+	<skip />
+	<!-- no translation found for time_min -->
+	<skip />
+	<!-- no translation found for open_file_manager_failed -->
+	<skip />
+	<!-- no translation found for attachment_not_saved -->
+	<skip />
+	<!-- no translation found for sync_calendar_title -->
+	<skip />
+	<!-- no translation found for sync_calendar_content -->
+	<skip />
+	<!-- no translation found for sync_contacts_title -->
+	<skip />
+	<!-- no translation found for sync_contacts_content -->
+	<skip />
+	<!-- no translation found for notification_never_ask_again -->
+	<skip />
+	<!-- no translation found for sync_storage_title -->
+	<skip />
+	<!-- no translation found for sync_storage_content -->
+	<skip />
+	<!-- no translation found for oof_continue -->
+	<skip />
+	<!-- no translation found for permission_needed_to_add_attachments -->
+	<skip />
+	<!-- no translation found for permission_needed_to_check_ringtone -->
+	<skip />
+	<!-- no translation found for add_folder_as_attachment_fail_tips -->
+	<skip />
+	<!-- no translation found for choose_action_title -->
+	<skip />
+	<!-- no translation found for choose_action_contact -->
+	<skip />
+	<!-- no translation found for choose_action_email -->
+	<skip />
+	<!-- no translation found for choose_action_message -->
+	<skip />
+</resources>

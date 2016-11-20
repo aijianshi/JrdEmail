@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Tue Sep 20 16:24:06 CST 2016
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="exchange_name">"Perusahaan"</string>
+	<!---->
+	<string name="exchange_name_alternate">"Microsoft Exchange ActiveSync"</string>
+	<!---->
+	<string name="meeting_accepted">"Diterima: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_declined">"Ditolak: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_tentative">"Sementara: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_canceled">"Dibatalkan: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_updated">"Diperbaharui: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_when">"Kapan: <xliff:g id="when">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_where">"Dimana: <xliff:g id="where">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_recurring">"Kapan: <xliff:g example="Tue, Mar 10, 2010 at 2:30 pm" id="eventdate">%s</xliff:g> (berulang)"</string>
+	<!---->
+	<string name="meeting_allday">"Saat: <xliff:g example="Tue, Mar 10, 2010 " id="eventdate">%s</xliff:g> (seharian)"</string>
+	<!---->
+	<string name="meeting_allday_recurring">"Saat: <xliff:g example="Tue, Mar 10, 2010 " id="eventdate">%s</xliff:g> (seharian, berulang)"</string>
+	<!---->
+	<string name="notification_exchange_calendar_added">"Kalender Exchange ditambahkan"</string>
+	<!---->
+	<string name="app_name">"Layanan Exchange"</string>
+	<!---->
+	<string name="exception_cancel">"Acara ini telah dibatalkan untuk: <xliff:g id="date">%s</xliff:g>"</string>
+	<!---->
+	<string name="exception_updated">"Detail acara ini telah diubah untuk: <xliff:g id="date">%s</xliff:g>"</string>
+	<!---->
+	<string name="policy_dont_allow_storage_cards">"Jangan izinkan kartu penyimpanan"</string>
+	<!---->
+	<string name="policy_dont_allow_unsigned_apps">"Jangan izinkan apl yang tidak ditandatangani"</string>
+	<!---->
+	<string name="policy_dont_allow_unsigned_installers">"Jangan izinkan pemasang apl yang tidak ditandatangani"</string>
+	<!---->
+	<string name="policy_dont_allow_wifi">"Jangan izinkan Wi-Fi"</string>
+	<!---->
+	<string name="policy_dont_allow_text_messaging">"Jangan izinkan perpesanan teks"</string>
+	<!---->
+	<string name="policy_dont_allow_pop_imap">"Jangan izinkan akun POP3 atau IMAP"</string>
+	<!---->
+	<string name="policy_dont_allow_irda">"Jangan izinkan komunikasi infra merah"</string>
+	<!---->
+	<string name="policy_dont_allow_html">"Jangan izinkan email HTML"</string>
+	<!---->
+	<string name="policy_dont_allow_browser">"Jangan izinkan browser"</string>
+	<!---->
+	<string name="policy_dont_allow_consumer_email">"Jangan izinkan email pelanggan"</string>
+	<!---->
+	<string name="policy_dont_allow_internet_sharing">"Jangan izinkan berbagi Internet"</string>
+	<!---->
+	<string name="policy_require_smime">"Perlu pesan SMIME"</string>
+	<!---->
+	<string name="policy_bluetooth_restricted">"Batasi penggunaan Bluetooth"</string>
+	<!---->
+	<string name="policy_app_blacklist">"Tolak apl yang ditentukan"</string>
+	<!---->
+	<string name="policy_app_whitelist">"Izinkan apl yang ditentukan saja"</string>
+	<!---->
+	<string name="policy_text_truncation">"Batasi ukuran email teks"</string>
+	<!---->
+	<string name="policy_html_truncation">"Batasi ukuran email HTML"</string>
+	<!---->
+	<string name="policy_require_sd_encryption">"Perlu enkripsi kartu SD"</string>
+	<!---->
+	<string name="policy_dont_allow_attachments">"Jangan izinkan lampiran"</string>
+	<!---->
+	<string name="policy_max_attachment_size">"Batasi ukuran lampiran"</string>
+	<!---->
+	<string name="policy_require_manual_sync_roaming">"Hanya izinkan sinkronisasi manual saat roaming"</string>
+	<!---->
+	<string name="policy_require_encryption">"Perlu enkripsi perangkat"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_auto">"Otomatis"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1day">"Satu hari"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_3days">"Tiga hari"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1week">"Satu minggu"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_2weeks">"Dua minggu"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1month">"Satu bulan"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_all">"Semua"</string>
+	<!---->
+	<string name="auth_error_notification_title">"Kesalahan Otentikasi"</string>
+	<!---->
+	<string name="auth_error_notification_text">"Sentuh untuk mengedit pengaturan akun untuk <xliff:g id="account">%s</xliff:g>"</string>
+	<!---->
+	<string name="email_settings_not_available">"Mengaktifkan ulang aplikasi Email untuk melihat pengaturan."</string>
+</resources>

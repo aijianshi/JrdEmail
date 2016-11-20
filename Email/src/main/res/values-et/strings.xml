@@ -1,0 +1,1739 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Tue Sep 20 16:24:06 CST 2016
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="permission_read_attachment_label">"Loe meili manuseid"</string>
+	<!---->
+	<string name="permission_read_attachment_desc">"Võimaldab rakendusel lugeda teie meilisõnumite manuseid."</string>
+	<!---->
+	<string name="permission_access_provider_label">"Juurdepääs e-posti teenusepakkuja andmetele"</string>
+	<!---->
+	<string name="permission_access_provider_desc">"Võimaldab rakendusel pääseda teie meiliandmebaasi, sealhulgas vastuvõetud ja saadetud sõnumite, kasutajanimede ning paroolide juurde."</string>
+	<!---->
+	<string name="debug_title">"Silumine"</string>
+	<!---->
+	<string name="next_action">"Järgmine"</string>
+	<!---->
+	<string name="okay_action">"OK"</string>
+	<!---->
+	<string name="cancel_action">"Tühista"</string>
+	<!---->
+	<string name="previous_action">"Eelmine"</string>
+	<!---->
+	<string name="done_action">"Valmis"</string>
+	<!---->
+	<string name="create_action">"Loo uus"</string>
+	<!---->
+	<string name="quick_responses_empty_view">"Kiirvastuseid pole."</string>
+	<!---->
+	<string name="account_settings_action">"Konto seaded"</string>
+	<!---->
+	<string name="status_network_error">"Ühendusprobleem."</string>
+	<plurals name="move_messages">
+		<item quantity="one">"Teisaldatud sõnum"</item>
+		<item quantity="other">"Teisaldatud sõnumid"</item>
+	</plurals>
+	<!---->
+	<string name="cannot_move_protocol_not_supported_toast">"POP3-kontodel teisaldamist ei toetata."</string>
+	<!---->
+	<string name="cannot_move_multiple_accounts_toast">"Ei saa teisaldada, kuna valik sisaldab mitut kontot."</string>
+	<!---->
+	<string name="cannot_move_special_mailboxes_toast">"Kaustades Mustandid, Väljundkast ja Saadetud olevaid sõnumeid ei saa teisaldada."</string>
+	<!---->
+	<string name="mailbox_name_display_inbox">"Postkast"</string>
+	<!---->
+	<string name="mailbox_name_display_outbox">"Väljundkast"</string>
+	<!---->
+	<string name="mailbox_name_display_drafts">"Mustandid"</string>
+	<!---->
+	<string name="mailbox_name_display_trash">"Prügikast"</string>
+	<!---->
+	<string name="mailbox_name_display_sent">"Saadetud"</string>
+	<!---->
+	<string name="mailbox_name_display_junk">"Rämpspost"</string>
+	<!---->
+	<string name="mailbox_name_display_starred">"Tärniga"</string>
+	<!---->
+	<string name="mailbox_name_display_unread">"Lugemata"</string>
+	<!---->
+	<string name="account_folder_list_summary_inbox">"Postkast"</string>
+	<!---->
+	<string name="account_folder_list_summary_starred">"Tärniga"</string>
+	<!---->
+	<string name="account_folder_list_summary_drafts">"Mustandid"</string>
+	<!---->
+	<string name="account_folder_list_summary_outbox">"Väljundkast"</string>
+	<!---->
+	<string name="mailbox_list_account_selector_combined_view">"Kombineeritud kuva"</string>
+	<!---->
+	<string name="message_compose_fwd_header_fmt">"\n\n-------- Originaalsõnum --------\nTeema: <xliff:g id="subject">%1$s</xliff:g>\nSaatja: <xliff:g id="sender">%2$s</xliff:g>\nSaaja: <xliff:g id="to">%3$s</xliff:g>\nKoopia: <xliff:g id="cc">%4$s</xliff:g>\n\n"</string>
+	<!---->
+	<string name="message_compose_insert_quick_response_list_title">"Kiirvastuse sisestamine"</string>
+	<!---->
+	<string name="message_compose_insert_quick_response_menu_title">"Kiirvastuse sisestamine"</string>
+	<!---->
+	<string name="message_view_attachment_background_load">"Vähemalt üks edastatava sõnumi manus laaditakse enne saatmist alla."</string>
+	<!---->
+	<string name="attachment_not_found">"Manuse allalaadimine ebaõnnestus."</string>
+	<!---->
+	<string name="message_decode_error">"Sõnumi dekodeerimisel ilmnes viga."</string>
+	<!---->
+	<string name="forward_download_failed_ticker">"Ühe või mitme manuse edastamine ebaõnnestus."</string>
+	<!---->
+	<string name="forward_download_failed_title">"Manust ei edastatud"</string>
+	<!---->
+	<string name="login_failed_ticker">"Kontole <xliff:g id="account_name">%s</xliff:g> sisselogimine ebaõnnestus."</string>
+	<!---->
+	<string name="login_failed_title">"Sisselogimine ebaõnnestus"</string>
+	<!-- no translation found for message_view_attachment_bytes -->
+	<skip />
+	<!-- no translation found for message_view_attachment_kilobytes -->
+	<skip />
+	<!-- no translation found for message_view_attachment_megabytes -->
+	<skip />
+	<!-- no translation found for message_view_attachment_gigabytes -->
+	<skip />
+	<!---->
+	<string name="account_setup_basics_title">"Konto seadistamine"</string>
+	<!---->
+	<string name="oauth_authentication_title">"Autoriseerimise taotlemine"</string>
+	<!---->
+	<string name="sign_in_title">"Sisselogimine"</string>
+	<!---->
+	<string name="oauth_error_description">"Autentimine ei õnnestu"</string>
+	<!---->
+	<string name="password_warning_label">"Meiliaadress või parool on vale"</string>
+	<!---->
+	<string name="email_confirmation_label">"E-posti aadress"</string>
+	<!---->
+	<string name="account_setup_basics_headline">"Meilikonto"</string>
+	<!---->
+	<string name="accounts_welcome">"Saate enamiku kontode e-posti seadistada vaid mõne sammuga."</string>
+	<!---->
+	<string name="account_setup_basics_email_label">"E-posti aadress"</string>
+	<!---->
+	<string name="account_setup_basics_email_flying_label">"E-post"</string>
+	<!---->
+	<string name="or_label">"või"</string>
+	<!---->
+	<string name="sign_in_with_google">"Logi sisse Google’iga"</string>
+	<!---->
+	<string name="account_setup_basics_password_label">"Parool"</string>
+	<!---->
+	<string name="password_hint">"Parool"</string>
+	<!---->
+	<string name="signed_in_with_service_label">"Logitud sisse %s-ga"</string>
+	<!---->
+	<string name="authentication_label">"AUTENTIMINE"</string>
+	<!---->
+	<string name="add_authentication_label">"Lisa autentimine"</string>
+	<!---->
+	<string name="clear_authentication_label">"Eemalda autentimine"</string>
+	<!---->
+	<string name="account_setup_basics_manual_setup_action">"Seadista käsitsi"</string>
+	<!---->
+	<string name="account_setup_username_password_toast">"Sisestage kehtiv e-posti aadress ja parool."</string>
+	<!---->
+	<string name="account_duplicate_dlg_title">"Duplikaatkonto"</string>
+	<!---->
+	<string name="account_duplicate_dlg_message_fmt">"Kasutate juba konto \"<xliff:g id="duplicate">%s</xliff:g>\" puhul seda kasutajanime."</string>
+	<!---->
+	<string name="account_password_spaces_error">"See parool algab või lõpeb ühe või mitme tühikuga. Paljud serverid ei toeta tühikutega paroole."</string>
+	<!---->
+	<string name="account_setup_check_settings_retr_info_msg">"Kontoteabe toomine ..."</string>
+	<!---->
+	<string name="account_setup_check_settings_check_incoming_msg">"Serveri seadete kontrollimine ..."</string>
+	<!---->
+	<string name="account_setup_check_settings_check_outgoing_msg">"SMTP seadete kontrollimine ..."</string>
+	<!---->
+	<string name="account_setup_creating_account_msg">"Konto loomine ..."</string>
+	<!---->
+	<string name="account_setup_ab_headline">"Kinnita konto tüüp"</string>
+	<!---->
+	<string name="account_setup_ab_instructions_format">"Teie märkisite, et <xliff:g id="email">%1$s</xliff:g> kasutab protokolli <xliff:g id="userProtocol">%2$s</xliff:g>, kuid konto võib kasutada protokolli <xliff:g id="providerProtocol">%3$s</xliff:g>"</string>
+	<!---->
+	<string name="account_setup_names_title">"Konto seadistamine"</string>
+	<!---->
+	<string name="account_setup_names_headline">"Teie konto on seadistatud ja meilid on tulekul."</string>
+	<!---->
+	<string name="account_setup_names_account_name_label">"Anna sellele kontole nimi"</string>
+	<!---->
+	<string name="account_setup_names_user_name_label">"Teie nimi"</string>
+	<!---->
+	<string name="account_setup_names_user_name_empty_error">"See väli ei tohi tühi olla."</string>
+	<!---->
+	<string name="account_setup_account_type_title">"Konto seadistamine"</string>
+	<!---->
+	<string name="account_setup_account_type_headline">"Konto tüüp"</string>
+	<!---->
+	<string name="account_setup_account_type_instructions">"Mis tüüpi see konto on?"</string>
+	<!---->
+	<string name="account_setup_incoming_title">"Konto seadistamine"</string>
+	<!---->
+	<string name="account_setup_incoming_headline">"Sissetuleva serveri seaded"</string>
+	<!---->
+	<string name="account_setup_incoming_username_label">"Kasutajanimi"</string>
+	<!---->
+	<string name="account_setup_incoming_password_label">"Parool"</string>
+	<!---->
+	<string name="account_setup_password_subheading">"Parool"</string>
+	<!---->
+	<string name="account_setup_incoming_server_label">"Server"</string>
+	<!---->
+	<string name="account_setup_incoming_port_label">"Port"</string>
+	<!---->
+	<string name="account_setup_incoming_security_label">"Turvalisuse tüüp"</string>
+	<!---->
+	<string name="account_setup_incoming_domain_label">"Domeen"</string>
+	<!---->
+	<string name="account_setup_incoming_add_domain_label">"Lisa domeen"</string>
+	<!---->
+	<string name="account_setup_incoming_security_none_label">"Puudub"</string>
+	<!---->
+	<string name="account_setup_incoming_security_ssl_trust_certificates_label">"SSL/TLS (Nõustuge kõigi sertifikaatidega)"</string>
+	<!---->
+	<string name="account_setup_incoming_security_ssl_label">"SSL/TLS"</string>
+	<!---->
+	<string name="account_setup_incoming_security_tls_trust_certificates_label">"STARTTLS (nõustu kõigi sertifikaatidega)"</string>
+	<!---->
+	<string name="account_setup_incoming_security_tls_label">"STARTTLS"</string>
+	<!---->
+	<string name="account_setup_incoming_delete_policy_label">"Kustuta meil serverist"</string>
+	<!---->
+	<string name="account_setup_incoming_delete_policy_never_label">"Mitte kunagi"</string>
+	<!---->
+	<string name="account_setup_incoming_delete_policy_delete_label">"Kui kustutan postkastist"</string>
+	<!---->
+	<string name="account_setup_incoming_imap_path_prefix_label">"IMAP-i tee prefiks"</string>
+	<!---->
+	<string name="account_setup_incoming_imap_path_prefix_hint">"Valikuline"</string>
+	<!---->
+	<string name="account_setup_outgoing_title">"Konto seadistamine"</string>
+	<!---->
+	<string name="account_setup_outgoing_headline">"Väljuva serveri seaded"</string>
+	<!---->
+	<string name="account_setup_outgoing_smtp_server_label">"SMTP-server"</string>
+	<!---->
+	<string name="account_setup_outgoing_port_label">"Port"</string>
+	<!---->
+	<string name="account_setup_outgoing_security_label">"Turvalisuse tüüp"</string>
+	<!---->
+	<string name="account_setup_outgoing_require_login_label">"Nõua sisselogimist"</string>
+	<!---->
+	<string name="account_setup_outgoing_username_label">"Kasutajanimi"</string>
+	<!---->
+	<string name="account_setup_outgoing_password_label">"Parool"</string>
+	<!---->
+	<string name="account_setup_exchange_certificate_title">"Kliendisertifikaat"</string>
+	<!---->
+	<string name="account_setup_exchange_select_certificate">"Vali"</string>
+	<!---->
+	<string name="account_setup_exchange_use_certificate">"Kasuta kliendisertifikaati"</string>
+	<!---->
+	<string name="account_setup_exchange_remove_certificate">"Eemalda"</string>
+	<!---->
+	<string name="account_setup_exchange_no_certificate">"Puudub"</string>
+	<!---->
+	<string name="account_setup_exchange_device_id_label">"Mobiilseadme ID"</string>
+	<!---->
+	<string name="account_setup_options_title">"Konto seaded"</string>
+	<!---->
+	<string name="account_setup_options_headline">"Konto valikud"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_label">"Sünkroonimissagedus"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_never">"Mitte kunagi"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_push">"Automaatne (sundvalik)"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_5min">"Iga 5 minuti järel"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_10min">"Iga 10 minuti järel"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_15min">"Iga 15 minuti järel"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_30min">"Iga 30 minuti järel"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_1hour">"Kord tunnis"</string>
+	<!---->
+	<string name="account_setup_options_notify_label">"Teavita mind e-kirja saabumisest."</string>
+	<!---->
+	<string name="account_setup_options_sync_contacts_label">"Sünkrooni selle konto kontaktid."</string>
+	<!---->
+	<string name="account_setup_options_sync_calendar_label">"Sünkrooni selle konto kalender"</string>
+	<!---->
+	<string name="account_setup_options_sync_email_label">"Sünkrooni selle konto meil."</string>
+	<!---->
+	<string name="account_setup_options_background_attachments_label">"Manuste automaatne allalaadimine WiFi-ühenduse olemasolul"</string>
+	<!---->
+	<string name="account_setup_failed_dlg_title">"Ei saanud lõpetada"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_label">"Sünkrooni meilid saatjalt"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_auto">"Automaatne"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1day">"Viimane päev"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_3days">"Viimased kolm päeva"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1week">"Eelmine nädal"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_2weeks">"Viimased kaks nädalat"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1month">"Eelmisel kuul"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_all">"Kõik"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_default">"Konto vaikeseade kasutam."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_auth_message">"Kasutajanimi või parool on vale."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_auth_message_fmt">"Sisselogimine ebaõnnestus.\n(<xliff:g id="error">%s</xliff:g>)"</string>
+	<!---->
+	<string name="account_setup_autodiscover_dlg_authfail_title">"Probleem konto seadistusega"</string>
+	<!---->
+	<string name="account_setup_autodiscover_dlg_authfail_message">"Kinnitage, et kasutajanimi, parool ja konto sätted on õiged."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_certificate_message">"Serveriga ei saanud ebausaldusväärse või kehtetu serdi tõttu ühendust luua."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_certificate_message_fmt">"Serveriga ei saa turvaliselt ühendust.\n(<xliff:g id="ERROR">%s</xliff:g>)"</string>
+	<!---->
+	<string name="account_setup_failed_certificate_required">"Kliendi sertifikaat on nõutav. Kas soovite luua ühenduse serveriga kliendi sertifikaadi abil?"</string>
+	<!---->
+	<string name="account_setup_failed_certificate_inaccessible">"Sertifikaat on kehtetu või juurdepääsmatu."</string>
+	<!---->
+	<string name="account_setup_failed_check_credentials_message">"Server saatis veateate. Kontrollige kasutajanime ja parooli ning proovige uuesti."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_server_message">"Serveriga ei saa ühendust."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_server_message_fmt">"Serveriga ei saa ühendust.\n(<xliff:g id="ERROR">%s</xliff:g>)"</string>
+	<!---->
+	<string name="account_setup_failed_tls_required">"TLS on vajalik, kuid server ei toeta seda."</string>
+	<!---->
+	<string name="account_setup_failed_auth_required">"Server ei toeta autentimismeetodeid."</string>
+	<!---->
+	<string name="account_setup_failed_security">"Turvavea tõttu ei saanud serveriga ühendust luua."</string>
+	<!---->
+	<string name="account_setup_failed_ioerror">"Serveriga ei saanud luua ühendust."</string>
+	<!---->
+	<string name="account_setup_failed_protocol_unsupported">"Sisestasite vale serveri aadressi või nõuab server protokolli versiooni, mida e-post ei toeta."</string>
+	<!---->
+	<string name="account_setup_failed_access_denied">"Teil puudub luba selle serveriga sünkroonimiseks. Lisateabe saamiseks võtke ühendust oma serveri administraatoriga."</string>
+	<!---->
+	<string name="account_setup_security_required_title">"Kaugturvalisuse haldamine"</string>
+	<!---->
+	<string name="account_setup_security_policies_required_fmt">"Server <xliff:g id="SERVER">%s</xliff:g> nõuab mõnede teie Android-seadme turvafunktsioonide kaugjuhtimise lubamist. Kas soovite lõpetada konto seadistamise?"</string>
+	<!---->
+	<string name="account_setup_failed_security_policies_unsupported">"See server nõuab turvafunktsioone, mida teie Android-seade ei toeta, sh: <xliff:g id="ERROR">%s</xliff:g>"</string>
+	<!---->
+	<string name="account_setup_username_uneditable_error">"Te ei saa muuta konto kasutajanime. Mõne muu kasutajanimega konto lisamiseks puudutage valikut Lisa konto."</string>
+	<!---->
+	<string name="disable_admin_warning">"HOIATUS: meilirakenduse volituse inaktiveerimine seadme haldamiseks kustutab kõik meilikontod, mis seda nõuavad, sh nende meilid, kontaktid, kalendrisündmused ja muud andmed."</string>
+	<!---->
+	<string name="account_security_dialog_title">"Turvavärskendus"</string>
+	<!---->
+	<string name="account_security_dialog_content_fmt">"<xliff:g id="ACCOUNT">%s</xliff:g> nõuab, et värskendaksite oma turvaseadeid."</string>
+	<!---->
+	<string name="security_unsupported_ticker_fmt">"Kontot \"<xliff:g id="account">%s</xliff:g>\" ei saa turbenõuete tõttu sünkroonida."</string>
+	<!---->
+	<string name="security_needed_ticker_fmt">"Konto \"<xliff:g id="account">%s</xliff:g>\" vajab turvaseadete värskendamist."</string>
+	<!---->
+	<string name="security_changed_ticker_fmt">"Konto \"<xliff:g id="account">%s</xliff:g>\" muutis turvaseadeid. Kasutaja ei pea midagi tegema."</string>
+	<!---->
+	<string name="security_notification_content_update_title">"Vaja on turvavärskendust"</string>
+	<!---->
+	<string name="security_notification_content_change_title">"Turvaeeskirjad on muutunud"</string>
+	<!---->
+	<string name="security_notification_content_unsupported_title">"Turbe-eeskirju ei saa täita"</string>
+	<!---->
+	<string name="account_security_title">"Seadme turvalisus"</string>
+	<!---->
+	<string name="account_security_policy_explanation_fmt">"Server <xliff:g id="server">%s</xliff:g> nõuab mõnede teie Android-seadme turvafunktsioonide kaugjuhtimise lubamist."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_edit_details_action">"Muuda üksikasju"</string>
+	<!---->
+	<string name="password_expire_warning_ticker_fmt">"„<xliff:g id="ACCOUNT">%s</xliff:g>” nõuab ekraaniluku PIN-koodi või parooli muutmist."</string>
+	<!---->
+	<string name="password_expire_warning_content_title">"Ekraaniluku parool on aegumas"</string>
+	<!---->
+	<string name="password_expired_ticker">"Teie ekraaniluku PIN-kood või parool on aegunud."</string>
+	<!---->
+	<string name="password_expired_content_title">"Ekraaniluku parool on aegunud"</string>
+	<!---->
+	<string name="password_expire_warning_dialog_title">"Ekraaniluku parool on aegumas"</string>
+	<!---->
+	<string name="password_expire_warning_dialog_content_fmt">"Teil tuleb varsti lukustuskuva PIN-koodi või parooli muuta, vastasel korral kustutatakse konto <xliff:g id="account">%s</xliff:g> andmed. Kas soovite kohe muuta?"</string>
+	<!---->
+	<string name="password_expired_dialog_title">"Ekraaniluku parool on aegunud"</string>
+	<!---->
+	<string name="password_expired_dialog_content_fmt">"Konto <xliff:g id="account">%s</xliff:g> andmed kustutatakse teie seadmest. Taastamiseks muutke oma lukustuskuva PIN-koodi või parooli. Kas soovite kohe muuta?"</string>
+	<!---->
+	<string name="account_settings_exit_server_settings">"Kas loobute salvestamata muudatustest?"</string>
+	<!---->
+	<string name="account_settings_login_dialog_title">"Sisselogimine ebaõnnestus"</string>
+	<!---->
+	<string name="account_settings_login_dialog_content_fmt">"Konto <xliff:g id="ACCOUNT">%s</xliff:g> kasutajanimi või parool on vale. Kas soovite neid kohe värskendada?"</string>
+	<!---->
+	<string name="account_settings_login_dialog_reason_fmt">"Sisselogimine kontole <xliff:g id="account">%s</xliff:g> ebaõnnestus; server vastas: <xliff:g id="reason">%s</xliff:g> Kas soovite oma kasutajanime ja/või salasõna värskendada?"</string>
+	<!---->
+	<string name="account_settings_background_attachments_label">"Manuste allalaadimine"</string>
+	<!---->
+	<string name="account_settings_background_attachments_summary">"Hiljutiste sõnumite manuste automaatne allalaadimine WiFi kaudu"</string>
+	<!---->
+	<string name="account_settings_notify_label">"Meiliteatised"</string>
+	<!---->
+	<string name="account_settings_summary">"Sünkroonimise sagedus, teatised jne."</string>
+	<!---->
+	<string name="account_settings_notify_summary">"Saada teatis meili saabumisel"</string>
+	<!---->
+	<string name="account_settings_mail_check_frequency_label">"Sünkroonimissagedus"</string>
+	<!---->
+	<string name="account_settings_incoming_label">"Sissetulevate seaded"</string>
+	<!---->
+	<string name="account_settings_incoming_summary">"Kasutajanimi, parool ja muud sissetuleva posti serveri seaded"</string>
+	<!---->
+	<string name="account_settings_outgoing_label">"Väljuvad seaded"</string>
+	<!---->
+	<string name="account_settings_outgoing_summary">"Kasutajanimi, parool ja muud väljamineva posti serveri seaded"</string>
+	<!---->
+	<string name="account_settings_reply_to_category">"Vasta seadetele"</string>
+	<!---->
+	<string name="account_settings_reply_to_label">"Vasta:"</string>
+	<!---->
+	<string name="account_settings_reply_to_invalid">"Aadress kehtetu"</string>
+	<!---->
+	<string name="account_settings_enforced_label">"Eeskirjad on jõustatud"</string>
+	<!---->
+	<string name="account_settings_enforced_summary">"Puudub"</string>
+	<!---->
+	<string name="account_settings_unsupported_label">"Toeta eeskirjad"</string>
+	<!---->
+	<string name="account_settings_unsupported_summary">"Puudub"</string>
+	<!---->
+	<string name="account_settings_retry_label">"Proovi sünkroonida"</string>
+	<!---->
+	<string name="account_settings_retry_summary">"Konto sünkroonimiseks puudutage siin"</string>
+	<!---->
+	<string name="account_settings_description_label">"Konto nimi"</string>
+	<!---->
+	<string name="account_settings_name_label">"Teie nimi"</string>
+	<!---->
+	<string name="account_settings_edit_quick_responses_label">"Kiirvastused"</string>
+	<!---->
+	<string name="account_settings_edit_quick_responses_summary">"Muutke teksti, mida meilide koostamisel sageli sisestate"</string>
+	<!---->
+	<string name="account_settings_notifications">"Teadistusseaded"</string>
+	<!---->
+	<string name="account_settings_data_usage">"Andmete kasutamine"</string>
+	<!---->
+	<string name="account_settings_policies">"Turvaeeskirjad"</string>
+	<!---->
+	<string name="system_folders_title">"Süsteemikaustad"</string>
+	<!---->
+	<string name="system_folders_trash_title">"Kaust Prügikast"</string>
+	<!---->
+	<string name="system_folders_trash_summary">"Serveri prügikastikausta valimine"</string>
+	<!---->
+	<string name="system_folders_trash_dlg">"Serveri prügikastikausta valimine"</string>
+	<!---->
+	<string name="system_folders_sent_title">"Saadetud üksuste kaust"</string>
+	<!---->
+	<string name="system_folders_sent_summary">"Serverist saadetud üksuste kausta valimine"</string>
+	<!---->
+	<string name="system_folders_sent_dlg">"Serverist saadetud üksuste kausta valimine"</string>
+	<!---->
+	<string name="edit_quick_response_dialog">"Kiirvastused"</string>
+	<!---->
+	<string name="save_action">"Salvesta"</string>
+	<!---->
+	<string name="account_settings_sync_contacts_enable">"Sünkrooni kontaktid"</string>
+	<!---->
+	<string name="account_settings_sync_contacts_summary">"Konto kontaktide sünkroonimine"</string>
+	<!---->
+	<string name="account_settings_sync_calendar_enable">"Sünkrooni kalender"</string>
+	<!---->
+	<string name="account_settings_sync_calendar_summary">"Sünkrooni konto kalendri sündmused"</string>
+	<!---->
+	<string name="account_settings_sync_email_enable">"Sünkrooni meil"</string>
+	<!---->
+	<string name="account_settings_sync_email_summary">"Konto meili sünkroonimine"</string>
+	<!---->
+	<string name="account_settings_vibrate_when_label">"Vibreerimine"</string>
+	<!---->
+	<string name="account_settings_ringtone">"Vali helin"</string>
+	<!---->
+	<string name="account_settings_servers">"Serveri seaded"</string>
+	<!---->
+	<string name="default_ringtone">"Vaikehelin"</string>
+	<!---->
+	<string name="default_ringtone_unkonwn">"Tundmatu helin"</string>
+	<!---->
+	<string name="mailbox_settings_activity_title">"Sünkroonimisvalikud"</string>
+	<!-- no translation found for mailbox_settings_activity_title_with_mailbox -->
+	<skip />
+	<!---->
+	<string name="mailbox_settings_sync_enabled_label">"Sünkrooni see kaust"</string>
+	<!---->
+	<string name="mailbox_settings_sync_enabled_summary">"Sõnumid laaditakse alla ühendamisel."</string>
+	<!---->
+	<string name="mailbox_settings_mailbox_sync_window_label">"Päevi sünkroonimiseks"</string>
+	<!---->
+	<string name="prefDialogTitle_conversationListIcon">"Saatja pilt"</string>
+	<!---->
+	<string name="provider_note_live">"Ainult mõnel kontol „Plus” on POP-juurdepääs, mis lubab programmiga ühendust võtta. Kui te ei saa oma õige e-posti aadressi ja parooliga sisse logida, pole teil võib-olla tasulist kontot „Plus”. Neile meilikontodele juurdepääsuks käivitage veebibrauser."</string>
+	<!---->
+	<string name="provider_note_t_online">"Enne selle meilikonto loomist külastage T-Online\'i veebisaiti ja looge parool POP3-meilile juurdepääsuks."</string>
+	<!---->
+	<string name="exchange_name">"Korporatiivne"</string>
+	<!---->
+	<string name="exchange_name_alternate">"Microsoft Exchange ActiveSync"</string>
+	<!---->
+	<string name="system_account_create_failed">"Konto loomine ebaõnnestus. Proovige uuesti."</string>
+	<!---->
+	<string name="device_admin_label">"E-post"</string>
+	<!---->
+	<string name="device_admin_description">"Võimaldab serveripõhiseid turvaeeskirju"</string>
+	<!---->
+	<string name="settings_activity_title">"Seaded"</string>
+	<!---->
+	<string name="header_label_general_preferences">"Üldseaded"</string>
+	<!---->
+	<string name="general_preference_confirm_delete_label">"Kinnitamine enne kustutamist"</string>
+	<!---->
+	<string name="general_preference_confirm_send_label">"Kinnitamine enne saatmist"</string>
+	<!---->
+	<string name="more_than_999">"999+"</string>
+	<!---->
+	<string name="search_hint">"Otsing"</string>
+	<!---->
+	<string name="policy_dont_allow_camera">"Keela seadme kaamera kasutamine"</string>
+	<!---->
+	<string name="policy_require_password">"Nõua seadme parooli"</string>
+	<!---->
+	<string name="policy_password_history">"Piira hiljutiste paroolide taaskasutamist"</string>
+	<!---->
+	<string name="policy_password_expiration">"Paroolide aegumise nõue"</string>
+	<!---->
+	<string name="policy_screen_timeout">"Nõua jõudeolekus seadme ekraanilukustust"</string>
+	<!---->
+	<string name="policy_calendar_age">"Piirab sünkroonitavate kalendrisündmuste arvu"</string>
+	<!---->
+	<string name="policy_email_age">"Piirab sünkroonitavate meilide arvu"</string>
+	<!---->
+	<string name="quick_1">"Tänan!"</string>
+	<!---->
+	<string name="quick_2">"Mulle sobib!"</string>
+	<!---->
+	<string name="quick_3">"Loen seda hiljem ja võtan siis ühendust."</string>
+	<!---->
+	<string name="quick_4">"Lepime kokku kohtumise, et seda arutada."</string>
+	<!---->
+	<string name="require_manual_sync_message">"Taustsünkroonimine on sellel kontol rändluse ajal keelatud."</string>
+	<!---->
+	<string name="confirm_response">"Vastuse saatmine ..."</string>
+	<!---->
+	<string name="no_conversations">"Sõnumeid pole."</string>
+	<!-- no translation found for imap_name -->
+	<skip />
+	<!-- no translation found for pop3_name -->
+	<skip />
+	<!---->
+	<string name="email_name">"E-post"</string>
+	<!---->
+	<string name="folder_picker_title">"Kausta valija"</string>
+	<!---->
+	<string name="trash_folder_selection_title">"Valige <xliff:g id="account">%s</xliff:g> jaoks serveri prügikast"</string>
+	<!---->
+	<string name="sent_folder_selection_title">"Valige <xliff:g id="ACCOUNT">%s</xliff:g> jaoks serverikaust"</string>
+	<!---->
+	<string name="account_waiting_for_folders_msg">"Kaustaloendi laadimine ..."</string>
+	<!---->
+	<string name="no_quick_responses">"Ühtegi pole saadaval"</string>
+	<!---->
+	<string name="gmail_name">"Gmail"</string>
+	<!---->
+	<string name="folder_sync_settings_pref_title">"Kausta sünkroonimisseaded"</string>
+	<!---->
+	<string name="select_your_account">"Valige konto"</string>
+	<!---->
+	<string name="select_account_list_below">"Valige konto alltoodud loendist:"</string>
+	<!---->
+	<string name="cancel_label">"Tühista"</string>
+	<!---->
+	<string name="next_label">"Järgmine"</string>
+	<!---->
+	<string name="str_account_provider_other">"Muu"</string>
+	<!---->
+	<string name="account_settings_download_options_label">"Allalaadimissuvandid"</string>
+	<!---->
+	<string name="account_setting_download_opt_headonly">"Ainult päis"</string>
+	<!-- no translation found for account_setting_download_opt_all -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_2k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_5k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_10k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_20k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_50k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_100k -->
+	<skip />
+	<!---->
+	<string name="account_oof_error_tip_past">"Lõppkellaaeg ei saa olla möödas. Muutke lõppkellaaega, nii et see jääks tulevikku."</string>
+	<!---->
+	<string name="account_oof_error_tip_earlier">"Lõppkellaaeg ei saa olla varasem kui alguskellaaeg. Muutke uuesti lõppkellaaega."</string>
+	<!---->
+	<string name="account_setting_oof_label">"Kontorist väljasoleku seadistused"</string>
+	<!---->
+	<string name="oof_auto_repley">"Saada kontorist väljasoleku automaatvastus"</string>
+	<!---->
+	<string name="oof_auto_replies_period">"Saada selle ajavahemiku jooksul automaatvastused"</string>
+	<!---->
+	<string name="start_time">"Algusaeg"</string>
+	<!---->
+	<string name="end_time">"Lõppaeg"</string>
+	<!---->
+	<string name="internal_message">"Sisemine teade"</string>
+	<!---->
+	<string name="oof_auto_replies_external_senders">"Saada automaatvastused välistele saatjatele"</string>
+	<!---->
+	<string name="oof_choice_oof_in_contacts">"Saada kontorist väljasoleku automaatvastused minu kontaktiloendis olevatele saatjatele"</string>
+	<!---->
+	<string name="oof_choice_oof_outside_organisation">"Saada kontorist väljasoleku automaatvastused kõigile väljaspool minu organisatsiooni"</string>
+	<!---->
+	<string name="external_message">"Väline teade"</string>
+	<!---->
+	<string name="oof_done_message_attention">"Te ei määranud organisatsiooni inimestele mõeldud automaatvastust. Kui kontorist väljasoleku sõnumit ei sisestata, ei saa inimesed kontorist väljasoleku teadet. Kuid teie kontorist väljasoleku reeglid toimivad sellegipoolest. Kas soovite jätkata?"</string>
+	<!---->
+	<string name="oof_choice_in_contacts">"Saada minu kontaktiloendis olevatele saatjatele"</string>
+	<!---->
+	<string name="oof_choice_all_senders">"Saada kõigile saatjatele"</string>
+	<!---->
+	<string name="hint_text_of_internal_message">"Vasta organisatsioonisisestele aadressidele"</string>
+	<!---->
+	<string name="hint_text_of_external_message">"Vasta organisatsioonivälistele aadressidele"</string>
+	<!---->
+	<string name="account_delete_dlg_title">"Kas eemaldada konto?"</string>
+	<!---->
+	<string name="account_delete_dlg_instructions_fmt">"Konto „<xliff:g id="ACCOUNT">%s</xliff:g>” eemaldatakse e-postist."</string>
+	<!---->
+	<string name="account_delete_dlg_instructions_fmt_new">"Selle konto eemaldamisel kustutatakse kõik seal olevad sõnumid, kontaktid ja muud telefonis olevad andmed."</string>
+	<!---->
+	<string name="account_delete_dlg_action_remove_label">"Eemalda"</string>
+	<!---->
+	<string name="account_delete_dlg_action_cancel_label">"Tühista"</string>
+	<!---->
+	<string name="account_settings_category_delete_account">"Konto eemaldamine"</string>
+	<!---->
+	<string name="account_settings_delete_account_label">"Konto eemaldamine"</string>
+	<!---->
+	<string name="account_settings_default_label">"Vaikekonto"</string>
+	<!---->
+	<string name="account_settings_default_summary">"Saada meilid vaikimisi sellelt kontolt"</string>
+	<!---->
+	<string name="account_setup_options_default_label">"Saada meilid vaikimisi sellelt kontolt."</string>
+	<!---->
+	<string name="account_setup_basics_default_label">"Saada meilid vaikimisi sellelt kontolt."</string>
+	<!---->
+	<string name="local_search_action">"Otsige kohalikust"</string>
+	<!---->
+	<string name="service_search_action">"Otsi serverist"</string>
+	<!---->
+	<string name="local_search_all">"Kõik"</string>
+	<!---->
+	<string name="local_search_from">"Alates"</string>
+	<!---->
+	<string name="local_search_to">"Saaja"</string>
+	<!---->
+	<string name="local_search_subject">"Teema"</string>
+	<!---->
+	<string name="status_loading_attachments">"Laadimine ..."</string>
+	<!---->
+	<string name="account_use_proxy_label">"Puhverserveri kasutamine"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_label">"Puhverserveri IP"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_port_label">"Puhverserveri port"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_name">"Puhverserveri nimi"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_password">"Puhverserveri parool"</string>
+	<!---->
+	<string name="attachment_info_dialog_wifi_title">"Vajalik Wi-Fi-ühendus"</string>
+	<!---->
+	<string name="attachment_info_wifi_settings">"Wi-Fi-seaded"</string>
+	<!---->
+	<string name="attachment_info_wifi_only">"Manus on mobiilivõrgu kaudu allalaadimiseks liiga suur. Saate alla laadida järgmine kord WiFi-võrku ühendamisel."</string>
+	<!---->
+	<string name="attachment_info_ok">"OK"</string>
+	<!---->
+	<string name="mailbox_name_display_draft">"Mustand"</string>
+	<!-- no translation found for message_compose_display_name -->
+	<skip />
+	<!---->
+	<string name="app_name">"E-post"</string>
+	<!---->
+	<string name="from">"Alates"</string>
+	<!---->
+	<string name="to">"Saaja"</string>
+	<!---->
+	<string name="cc">"Koopia"</string>
+	<!---->
+	<string name="bcc">"Pimekoopia"</string>
+	<!---->
+	<string name="subject_hint">"Teema"</string>
+	<!---->
+	<string name="body_hint">"Koostage meil"</string>
+	<!---->
+	<string name="add_file_attachment">"Manusta fail"</string>
+	<!---->
+	<string name="add_photo_attachment">"Manusta pilt"</string>
+	<!---->
+	<string name="save_draft">"Salvesta mustand"</string>
+	<!---->
+	<string name="discard">"Loobumine"</string>
+	<!---->
+	<string name="compose">"Koostamine"</string>
+	<!---->
+	<string name="select_contacts_field">"Kontaktide valimine"</string>
+	<!---->
+	<string name="item_save_group">"Salvesta rühm"</string>
+	<!---->
+	<string name="confirm_select">"Vali"</string>
+	<!---->
+	<string name="cancel_select">"Tühista"</string>
+	<string-array name="compose_modes">
+		<item>"Vasta"</item>
+		<item>"Vasta kõigile"</item>
+		<item>"Edasta"</item>
+	</string-array>
+	<string-array name="compose_modes_without_reply_all">
+		<item>"Vasta"</item>
+		<item>"Edasta"</item>
+	</string-array>
+	<!---->
+	<string name="reply_subject_label">"Vs:"</string>
+	<!---->
+	<string name="forward_subject_label">"Edasta:"</string>
+	<!---->
+	<string name="reply_attribution">"<xliff:g id="person">%s</xliff:g> kirjutas kuupäeval <xliff:g id="date">%s</xliff:g>:"</string>
+	<!---->
+	<string name="forward_attribution">"---------- Edasi saadetud sõnum ----------；Saatja:；Kuupäev:；Teema:；Adressaat:"</string>
+	<!-- no translation found for forward_attribution_with_headers -->
+	<skip />
+	<!---->
+	<string name="forward_attribution_no_headers">"---------- Edastatud kiri ----------"</string>
+	<!---->
+	<string name="cc_attribution">"Koopia:"</string>
+	<!---->
+	<string name="select_attachment_type">"Valige manuse tüüp"</string>
+	<!---->
+	<string name="too_large_to_attach_single">"Ei saa manustada suuremat faili kui %1$s"</string>
+	<!---->
+	<string name="too_large_to_attach_multiple">"Üht või mitut faili ei lisatud. Limiit <xliff:g id="maxSize">%1$s</xliff:g>."</string>
+	<!---->
+	<string name="too_large_to_mid_attach_additional">"Meil ületab piirangut <xliff:g id="maxSize">%1$s</xliff:g>. Teie meilikonto ei pruugi seda toetada."</string>
+	<!---->
+	<string name="too_large_to_attach_additional">"Faili ei saa lisada. Manuste kogumaht ületab piirangu <xliff:g id="maxSize">%1$s</xliff:g>."</string>
+	<!---->
+	<string name="generic_attachment_problem">"Faili ei saanud manustada."</string>
+	<!---->
+	<string name="recipient_needed">"Lisage vähemalt üks saaja."</string>
+	<!---->
+	<string name="recipient_error_dialog_title">"Saaja viga"</string>
+	<!---->
+	<string name="confirm_send_title">"Kas soovite sõnumi saata?"</string>
+	<!---->
+	<string name="confirm_send_message_with_no_subject">"Sõnumi teemas puudub tekst."</string>
+	<!---->
+	<string name="confirm_send_message_with_no_body">"Sõnumi kehas puudub tekst."</string>
+	<!---->
+	<string name="confirm_send_message">"Kas soovite selle sõnumi saata?"</string>
+	<!---->
+	<string name="message_discarded">"Sõnumist on loobutud."</string>
+	<!-- no translation found for signature -->
+	<skip />
+	<!---->
+	<string name="custom_from_account_label">"Saada meil kui:"</string>
+	<!---->
+	<string name="send">"Saada"</string>
+	<!---->
+	<string name="mark_read">"Märgi loetuks"</string>
+	<!---->
+	<string name="mark_unread">"Märgi mitteloetuks"</string>
+	<!---->
+	<string name="mute">"Summuta"</string>
+	<!---->
+	<string name="add_star">"Lisa tärn"</string>
+	<!---->
+	<string name="remove_star">"Eemalda tärn"</string>
+	<!---->
+	<string name="remove_folder">"Eemalda kaustast <xliff:g id="folderName">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="archive">"Arhiiv"</string>
+	<!---->
+	<string name="report_spam">"Teata rämpspostist"</string>
+	<!---->
+	<string name="mark_not_spam">"Teata: pole rämpspost"</string>
+	<!---->
+	<string name="report_phishing">"Teata andmepüügist"</string>
+	<!---->
+	<string name="delete">"kustuta"</string>
+	<!---->
+	<string name="discard_drafts">"Kustuta mustandid"</string>
+	<!---->
+	<string name="discard_failed">"Tühistamine nurjus"</string>
+	<!---->
+	<string name="refresh">"Värskenda"</string>
+	<!---->
+	<string name="reply">"Vasta"</string>
+	<!---->
+	<string name="reply_all">"Vasta kõigile"</string>
+	<!---->
+	<string name="resume_draft">"Muuda"</string>
+	<!---->
+	<string name="forward">"Edasta"</string>
+	<!---->
+	<string name="menu_compose">"Koostamine"</string>
+	<!---->
+	<string name="menu_sort">"Sordi"</string>
+	<!---->
+	<string name="menu_change_folders">"Muuda kaustu"</string>
+	<!---->
+	<string name="menu_move_to">"Teisalda:"</string>
+	<!---->
+	<string name="menu_move_to_inbox">"Teisalda postkasti"</string>
+	<!---->
+	<string name="menu_manage_folders">"Kausta seaded"</string>
+	<!---->
+	<string name="menu_show_original">"Ennista automaatne suurus"</string>
+	<!---->
+	<string name="menu_settings">"Seaded"</string>
+	<!---->
+	<string name="menu_search">"Otsing"</string>
+	<!---->
+	<string name="drawer_title">"Navigeerimine"</string>
+	<!---->
+	<string name="mark_important">"Märgi oluliseks"</string>
+	<!---->
+	<string name="mark_not_important">"Märgi ebaoluliseks"</string>
+	<!---->
+	<string name="select_all_conversations">"Vali kõik"</string>
+	<!---->
+	<string name="unselect_all_conversations">"Tühista kõik valikud"</string>
+	<!---->
+	<string name="add_cc_label">"Lisa koopia/pimekoopia väli"</string>
+	<!---->
+	<string name="add_bcc_label">"Lisa pimekoopia"</string>
+	<!---->
+	<string name="quoted_text">"Osundatud teksti lisamine"</string>
+	<!---->
+	<string name="quoted_text_label">"Osundatud tekst"</string>
+	<!---->
+	<string name="respond_inline">"Vasta tekstisiseselt"</string>
+	<!---->
+	<string name="bytes">"<xliff:g id="count">%s</xliff:g> B"</string>
+	<!---->
+	<string name="kilobytes">"<xliff:g id="count">%s</xliff:g> KB"</string>
+	<!---->
+	<string name="megabytes">"<xliff:g id="count">%s</xliff:g> MB"</string>
+	<!---->
+	<string name="attachment_image">"Kujutis"</string>
+	<!---->
+	<string name="attachment_video">"Video"</string>
+	<!---->
+	<string name="attachment_audio">"Heli"</string>
+	<!---->
+	<string name="attachment_text">"tekst"</string>
+	<!---->
+	<string name="attachment_application_msword">"Dokument"</string>
+	<!---->
+	<string name="attachment_application_vnd_ms_powerpoint">"Esitlus"</string>
+	<!---->
+	<string name="attachment_application_vnd_ms_excel">"Arvutustabel"</string>
+	<!-- no translation found for attachment_application_pdf -->
+	<skip />
+	<!---->
+	<string name="attachment_unknown">"<xliff:g id="attachmentExtension">%s</xliff:g>-fail"</string>
+	<!---->
+	<string name="preview_attachment">"Eelvaade"</string>
+	<!---->
+	<string name="save_attachment">"Salvesta"</string>
+	<!---->
+	<string name="cancel_attachment">"Tühista"</string>
+	<!---->
+	<string name="open_attachment">"Puudub"</string>
+	<!---->
+	<string name="install_attachment">"Installi"</string>
+	<!---->
+	<string name="download_again">"Laadi uuesti alla"</string>
+	<!---->
+	<string name="more_info_attachment">"Teave"</string>
+	<!---->
+	<string name="no_application_found">"Ükski rakendus ei saa seda manust vaatamiseks avada."</string>
+	<!---->
+	<string name="fetching_attachment">"Manuse toomine"</string>
+	<!---->
+	<string name="please_wait">"Palun oodake\u2026"</string>
+	<!---->
+	<string name="saved">"Salvestatud."</string>
+	<!---->
+	<string name="download_failed">"Allal. nurjus. Puudutage."</string>
+	<!---->
+	<string name="menu_photo_save_all">"Salv. kõik"</string>
+	<!---->
+	<string name="menu_photo_share">"Jaga"</string>
+	<!---->
+	<string name="menu_photo_share_all">"Jaga kõike"</string>
+	<!---->
+	<string name="menu_photo_print">"Prindi"</string>
+	<!---->
+	<string name="saving">"Salvestamine ..."</string>
+	<!---->
+	<string name="choosertitle_sharevia">"Jagage teenusega"</string>
+	<!---->
+	<string name="contextmenu_openlink">"Ava brauseris"</string>
+	<!---->
+	<string name="contextmenu_copy">"Kopeeri"</string>
+	<!---->
+	<string name="contextmenu_copylink">"Kopeeri lingi URL"</string>
+	<!---->
+	<string name="contextmenu_view_image">"Kuva kujutis"</string>
+	<!---->
+	<string name="contextmenu_dial_dot">"Helista"</string>
+	<!---->
+	<string name="contextmenu_sms_dot">"SMS\u2026"</string>
+	<!---->
+	<string name="contextmenu_add_contact">"Lisa kontakt"</string>
+	<!---->
+	<string name="contextmenu_send_mail">"Saada meil"</string>
+	<!---->
+	<string name="contextmenu_map">"Kaart"</string>
+	<!---->
+	<string name="contextmenu_sharelink">"Jaga linki"</string>
+	<!---->
+	<string name="contextmenu_savelink">"Salvesta link"</string>
+	<!---->
+	<string name="contextmenu_help">"Abi"</string>
+	<!---->
+	<string name="contextmenu_feedback">"Saatke tagasisidet"</string>
+	<!---->
+	<string name="sort_title">"Sortimisalus:"</string>
+	<!---->
+	<string name="sort_by_tip">"Sorteeris <xliff:g id="sor_type">%s</xliff:g>"</string>
+	<!-- no translation found for num_selected -->
+	<skip />
+	<plurals name="move_conversation">
+		<item quantity="one">"Meilivestluse teisaldamine"</item>
+		<item quantity="other">"Teisalda <xliff:g>%1$d</xliff:g> meilivestlust"</item>
+	</plurals>
+	<!---->
+	<string name="content_description">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> teemal <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> kuupäeval <xliff:g id="date">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g>"</string>
+	<!---->
+	<string name="content_description_today">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> teemal <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> kell <xliff:g id="time">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g>"</string>
+	<!---->
+	<string name="read_string">"loetud vestlus"</string>
+	<!---->
+	<string name="unread_string">"lugemata vestlus"</string>
+	<!---->
+	<string name="filtered_tag">"[<xliff:g id="tag">%1$s</xliff:g>] <xliff:g id="subject">%2$s</xliff:g>"</string>
+	<!-- no translation found for badge_and_subject -->
+	<skip />
+	<plurals name="draft">
+		<item quantity="one">"Mustand"</item>
+		<item quantity="other">"Mustandid"</item>
+	</plurals>
+	<!---->
+	<string name="sending">"Saatmine \u2026"</string>
+	<!---->
+	<string name="message_retrying">"Uuesti proovimine\u2026"</string>
+	<!---->
+	<string name="message_failed">"Ebaõnnestus"</string>
+	<!---->
+	<string name="send_failed">"Meili saatmine ebaõnnestus."</string>
+	<!---->
+	<string name="send_failed_wait_attchment_downloaded">"Ei saa edasi saata, kuna manused pole täielikult alla laaditud, laadige esmalt manused alla."</string>
+	<!---->
+	<string name="me_object_pronoun">"Mina"</string>
+	<!---->
+	<string name="me_subject_pronoun">"Mina"</string>
+	<plurals name="confirm_delete_conversation">
+		<item quantity="one">"Kas kustutada see meilivestlus?"</item>
+		<item quantity="other">"Kas kustutada need <xliff:g id="count">%1$d</xliff:g> meilivestlust?"</item>
+	</plurals>
+	<plurals name="confirm_archive_conversation">
+		<item quantity="one">"Kas arhiveerida see meilivestlus?"</item>
+		<item quantity="other">"Kas arhiveerida need <xliff:g id="count">%1$d</xliff:g> meilivestlust?"</item>
+	</plurals>
+	<plurals name="confirm_discard_drafts_conversation">
+		<item quantity="one">"Kas soovite sellest sõnumist loobuda?"</item>
+		<item quantity="other">"Kas loobuda nendest <xliff:g id="count">%1$d</xliff:g> sõnumitest?"</item>
+	</plurals>
+	<!---->
+	<string name="confirm_discard_text">"Kas soovite sellest sõnumist loobuda?"</string>
+	<!---->
+	<string name="loading_conversations">"Laadimine \u2026"</string>
+	<!---->
+	<string name="empty_inbox">"Oletegi valmis! Ilusat päeva!"</string>
+	<!---->
+	<string name="empty_search">"Oih! Me ei leidnud midagi päringu \"<xliff:g id="search_query">%1$s</xliff:g>\" kohta."</string>
+	<!---->
+	<string name="empty_spam_folder">"Hurraa, rämpsposti pole!"</string>
+	<!---->
+	<string name="empty_trash_folder">"Siin pole rämpsposti. Aitäh taaskasutuse eest!"</string>
+	<!---->
+	<string name="empty_folder">"Siin pole ühtki meili."</string>
+	<!---->
+	<string name="getting_messages">"Teie sõnumite saamine"</string>
+	<!---->
+	<string name="undo">"VÕTA TAGASI"</string>
+	<plurals name="conversation_unstarred">
+		<item quantity="one">"Tärnid eemaldatakse <xliff:g id="count">%1$d</xliff:g> meilivestluselt."</item>
+		<item quantity="other">"Tärnid eemaldatakse <xliff:g id="count">%1$d</xliff:g> meilivestluselt."</item>
+	</plurals>
+	<plurals name="conversation_muted">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> on summutatud."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> on summutatud."</item>
+	</plurals>
+	<plurals name="conversation_spammed">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> on teadete kohaselt rämpspost."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> on teadete kohaselt rämpspost."</item>
+	</plurals>
+	<plurals name="conversation_not_spam">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> ei ole teadete kohaselt rämpspost."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> ei ole teadete kohaselt rämpspost."</item>
+	</plurals>
+	<plurals name="conversation_not_important">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> on märgitud ebaoluliseks."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> on märgitud ebaoluliseks."</item>
+	</plurals>
+	<plurals name="conversation_phished">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> hõlmab teadete kohaselt andmepüüki."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> hõlmab teadete kohaselt andmepüüki."</item>
+	</plurals>
+	<plurals name="conversation_archived">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> on arhiivitud."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> on arhiivitud."</item>
+	</plurals>
+	<plurals name="conversation_deleted">
+		<item quantity="one">"&lt;b&gt;%1$d&lt;/b&gt; on kustutatud."</item>
+		<item quantity="other">"&lt;b&gt;%1$d&lt;/b&gt; on kustutatud."</item>
+	</plurals>
+	<!---->
+	<string name="deleted">"Kustutatud"</string>
+	<!---->
+	<string name="archived">"Arhiveeritud"</string>
+	<!---->
+	<string name="starred">"Tärniga"</string>
+	<!---->
+	<string name="unstarred">"Ilma täheta"</string>
+	<!---->
+	<string name="folder_removed">"Eemaldatud kaustast <xliff:g id="folderName">%1$s</xliff:g>"</string>
+	<plurals name="conversation_folder_changed">
+		<item quantity="one">"Kausta on muudetud."</item>
+		<item quantity="other">"Kaustu on muudetud."</item>
+	</plurals>
+	<!---->
+	<string name="conversation_folder_moved">"Teisaldati kausta <xliff:g id="folderName">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="search_results_header">"Tulemused"</string>
+	<!---->
+	<string name="search_unsupported">"Sellel kontol ei toetata otsingut."</string>
+	<!---->
+	<string name="add_label">"Lisa kaust"</string>
+	<!---->
+	<string name="new_incoming_messages_one">"Kuva uus sõnum kontaktilt <xliff:g id="sender">%s</xliff:g>."</string>
+	<plurals name="new_incoming_messages_many">
+		<item quantity="other">"Kuva <xliff:g id="count">%1$d</xliff:g> uut sõnumit."</item>
+	</plurals>
+	<!---->
+	<string name="date_and_view_details">"<xliff:g id="date">%1$s</xliff:g> &lt;a href=\'http://www.example.com\'&gt;Kuva üksikasjad&lt;/a&gt;"</string>
+	<!---->
+	<string name="date_and_view_details_another">"<xliff:g id="date">%1$s</xliff:g> &lt;font color=\"<xliff:g id="color">%2$d</xliff:g>\"&gt;Kuva üksikasjad&lt;/font&gt;"</string>
+	<!---->
+	<string name="hide_details">"Peida üksikasjad"</string>
+	<!---->
+	<string name="to_message_header">"Adressaatidele <xliff:g id="recipients">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="contact_info_string">"Kuva saatja <xliff:g id="name">%1$s</xliff:g>kontaktandmed"</string>
+	<!---->
+	<string name="contact_info_string_default">"Kuva kontaktandmed"</string>
+	<plurals name="show_messages_read">
+		<item quantity="other">"<xliff:g example="4" id="count">%1$d</xliff:g> vanemat sõnumit"</item>
+	</plurals>
+	<!---->
+	<string name="from_heading">"Saatja:"</string>
+	<!---->
+	<string name="replyto_heading">"Vasta:"</string>
+	<!---->
+	<string name="to_heading">"Saaja:"</string>
+	<!---->
+	<string name="to_heading_no_space">"Saaja:"</string>
+	<!---->
+	<string name="cc_heading">"Koopia:"</string>
+	<!---->
+	<string name="bcc_heading">"Pimekoopia:"</string>
+	<!---->
+	<string name="date_heading">"Kuupäev:"</string>
+	<!---->
+	<string name="show_images">"Kuva pildid"</string>
+	<!---->
+	<string name="always_show_images">"Näita alati selle saatja pilte"</string>
+	<!---->
+	<string name="always_show_images_toast">"Selle saatja pilte näidatakse automaatselt."</string>
+	<!---->
+	<string name="address_display_format">"<xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g>"</string>
+	<!---->
+	<string name="address_display_format_with_via_domain">"<xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g> dom. <xliff:g id="via_domain">%3$s</xliff:g> kaudu"</string>
+	<!---->
+	<string name="message_saved">"Sõnum salvestati mustandina."</string>
+	<!---->
+	<string name="sending_message">"Sõnumi saatmine\u2026"</string>
+	<!---->
+	<string name="invalid_recipient">"Aadress %s on kehtetu."</string>
+	<!---->
+	<string name="show_elided">"Kuva tsiteeritud tekst"</string>
+	<!-- no translation found for hide_elided -->
+	<skip />
+	<!---->
+	<string name="message_invite_title">"Kalendri kutse"</string>
+	<!---->
+	<string name="message_invite_available">"Olete saadaval"</string>
+	<!---->
+	<string name="message_invite_datetime">"Millal?"</string>
+	<!---->
+	<string name="message_invite_location">"Kus"</string>
+	<!---->
+	<string name="message_invite_in_calendar_view">"Vaata kalendrist"</string>
+	<!---->
+	<string name="message_invite_calendar_view">"Vaata kalendris"</string>
+	<!---->
+	<string name="message_invite_label_attending">"Kas lähete?"</string>
+	<!---->
+	<string name="message_invite_accept">"Jah"</string>
+	<!---->
+	<string name="message_invite_tentative">"Võib-olla"</string>
+	<!---->
+	<string name="message_invite_decline">"Ei"</string>
+	<!-- no translation found for enumeration_comma -->
+	<skip />
+	<!---->
+	<string name="send_anyway">"Saada ikkagi"</string>
+	<!---->
+	<string name="ok">"OK"</string>
+	<!---->
+	<string name="done">"Valmis"</string>
+	<!---->
+	<string name="cancel">"Tühista"</string>
+	<!---->
+	<string name="clear">"Kustuta"</string>
+	<!---->
+	<string name="next">"Järgmine"</string>
+	<!---->
+	<string name="previous">"Eelmine"</string>
+	<string-array name="sync_status">
+		<item>"Wi-Fi-ühendus puudub. Kas soovite sünkroonimist jätkata?"</item>
+		<item>"Ühendus puudub."</item>
+		<item>"Sisselogimine ebaõnnestus"</item>
+		<item>"Turvalisuse viga."</item>
+		<item>"Ei saanud sünkroonida."</item>
+		<item>"Sisemine viga"</item>
+		<item>"Serveri tõrge"</item>
+	</string-array>
+	<!---->
+	<string name="tap_to_configure">"Puudutage seadistamiseks"</string>
+	<!---->
+	<string name="non_synced_folder_description">"Meilivestl. vaatamis. sünkr. kaust."</string>
+	<!---->
+	<string name="tap_to_configure_folder_sync">"Sünkrooni kaust"</string>
+	<!-- no translation found for widget_large_unread_count -->
+	<skip />
+	<!---->
+	<string name="large_unseen_count">"<xliff:g example="99" id="count">%d</xliff:g>+ uut"</string>
+	<!-- no translation found for unseen_count -->
+	<skip />
+	<plurals name="actionbar_unread_messages">
+		<item quantity="other">"%1$d on lugemata"</item>
+	</plurals>
+	<!---->
+	<string name="actionbar_large_unread_count">"<xliff:g id="count">%1$d</xliff:g>+ lugemata"</string>
+	<!---->
+	<string name="view_more_conversations">"Kuva rohkem vestlusi"</string>
+	<!---->
+	<string name="loading_conversation">"Laadimine \u2026"</string>
+	<!---->
+	<string name="activity_mailbox_selection">"Konto valimine"</string>
+	<!---->
+	<string name="activity_folder_selection">"Kausta valimine"</string>
+	<!---->
+	<string name="folder_shortcut_widget_label">"Meili kaust"</string>
+	<!---->
+	<string name="change_folders_selection_dialog_title">"Muuda kaustu"</string>
+	<!---->
+	<string name="move_to_selection_dialog_title">"Teisalda:"</string>
+	<!-- no translation found for search_results_loaded -->
+	<skip />
+	<!---->
+	<string name="network_error">"Ühendus puudub"</string>
+	<!---->
+	<string name="retry">"Proovi uuesti"</string>
+	<!---->
+	<string name="load_more">"Laadi rohkem"</string>
+	<!---->
+	<string name="shortcut_name_title">"Kausta otseteele nime andmine"</string>
+	<!---->
+	<string name="wait_for_sync_title">"Sünkroonimise ootel"</string>
+	<!---->
+	<string name="not_synced_title">"Konto pole sünkroonitud"</string>
+	<!---->
+	<string name="wait_for_manual_sync_body">"See konto ei ole seadistatud automaatseks sünkroonimiseks.\nPuudutage käsku "<b>"Sünkrooni kohe"</b>", et meile üks kord sünkroonida, või käsku "<b>"Muuda sünkroonimisseadeid"</b>", et seadistada see konto meilide automaatseks sünkroonimiseks."</string>
+	<!---->
+	<string name="manual_sync">"Sünkrooni kohe"</string>
+	<!---->
+	<string name="change_sync_settings">"Muuda sünkroonimisseadeid"</string>
+	<!---->
+	<string name="photo_load_failed">"Kujutist ei õnnestunud laadida"</string>
+	<!---->
+	<string name="cant_move_or_change_labels">"Ei saa teisaldada, kuna valik sisaldab mitut kontot."</string>
+	<!-- no translation found for multiple_new_message_notification_item -->
+	<skip />
+	<!-- no translation found for single_new_message_notification_big_text -->
+	<skip />
+	<!---->
+	<string name="ignore_spam_warning">"Eira, usaldan seda sõnumit"</string>
+	<!---->
+	<string name="via_domain">"<xliff:g id="viaDomain">%1$s</xliff:g> kaudu"</string>
+	<!---->
+	<string name="signin">"Logi sisse"</string>
+	<!---->
+	<string name="info">"Teave"</string>
+	<!---->
+	<string name="report">"Teata"</string>
+	<!---->
+	<string name="sync_error">"Ei saanud sünkroonida."</string>
+	<!---->
+	<string name="sync_error_message">"Seadmes pole sünkroonimiseks piisavalt mäluruumi."</string>
+	<!---->
+	<string name="storage">"Mäluruum"</string>
+	<!-- no translation found for senders_split_token -->
+	<skip />
+	<!-- no translation found for draft_count_format -->
+	<skip />
+	<!---->
+	<string name="all_folders_heading">"Kõik kaustad"</string>
+	<!---->
+	<string name="recent_folders_heading">"Hiljutised kaustad"</string>
+	<!---->
+	<string name="message_details_title">"Sõnumi üksikasjad"</string>
+	<!---->
+	<string name="preference_advance_to_title">"Automaatne edasiminek"</string>
+	<string-array name="prefEntries_autoAdvance">
+		<item>"Uuemad"</item>
+		<item>"Vanem"</item>
+		<item>"Vestlusloend"</item>
+	</string-array>
+	<string-array name="prefSummaries_autoAdvance">
+		<item>"Uuema vestluse näitamine pärast kustutamist"</item>
+		<item>"Vanema vestluse näitamine pärast kustutamist"</item>
+		<item>"Vestlusloendi näitamine pärast kustutamist"</item>
+	</string-array>
+	<!---->
+	<string name="prefDialogTitle_autoAdvance">"Edasiminek"</string>
+	<!---->
+	<string name="clear_display_images_whitelist_title">"Kustuta piltide kinnitused"</string>
+	<!---->
+	<string name="clear_display_images_whitelist_dialog_title">"Kas kustutada pildiload?"</string>
+	<!---->
+	<string name="clear_display_images_whitelist_dialog_message">"Varasemalt lubatud saatjate tekstisiseste piltide kuvamise peatamine."</string>
+	<!---->
+	<string name="sender_whitelist_cleared">"Pilte ei kuvata automaatselt."</string>
+	<!---->
+	<string name="preferences_signature_title">"Allkiri"</string>
+	<!---->
+	<string name="preferences_signature_dialog_title">"Allkiri"</string>
+	<!---->
+	<string name="preferences_signature_summary_not_set">"Määramata"</string>
+	<!-- no translation found for mail_account_signature_prefix -->
+	<skip />
+	<!---->
+	<string name="notification_action_reply">"Vasta"</string>
+	<!---->
+	<string name="notification_action_reply_all">"Vasta kõigile"</string>
+	<!---->
+	<string name="notification_action_archive">"Arhiiv"</string>
+	<!---->
+	<string name="notification_action_remove_label">"Eemalda silt"</string>
+	<!---->
+	<string name="notification_action_delete">"kustuta"</string>
+	<!---->
+	<string name="notification_action_undo_archive">"Arhiveeritud"</string>
+	<!---->
+	<string name="notification_action_undo_remove_label">"Silt on eemaldatud"</string>
+	<!---->
+	<string name="notification_action_undo_delete">"Kustutatud"</string>
+	<!-- no translation found for veiled_address -->
+	<skip />
+	<!-- no translation found for veiled_alternate_text -->
+	<skip />
+	<!-- no translation found for veiled_alternate_text_unknown_person -->
+	<skip />
+	<!-- no translation found for veiled_summary_unknown_person -->
+	<skip />
+	<!-- no translation found for label_notification_ticker -->
+	<skip />
+	<plurals name="new_messages">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> uus sõnum."</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> uut sõnumit"</item>
+	</plurals>
+	<!-- no translation found for single_new_message_notification_title -->
+	<skip />
+	<!---->
+	<string name="silent_ringtone">"Hääletu"</string>
+	<!---->
+	<string name="preference_removal_action_title">"Arhiveerimise ja kustutamise toimingud"</string>
+	<string-array name="prefEntries_removal_action">
+		<item>"Kuva ainult arhiivitud üksused"</item>
+		<item>"Kuva ainult kustutatud üksused"</item>
+		<item>"Kuva arhiivimine ja kustutamine"</item>
+	</string-array>
+	<string-array name="prefSummaries_removal_action_summary">
+		<item>"Kuva ainult arhiivitud üksused"</item>
+		<item>"Kuva ainult kustutatud üksused"</item>
+		<item>"Kuva arhiivimine ja kustutamine"</item>
+	</string-array>
+	<!---->
+	<string name="prefDialogTitle_removal_action">"Arhiveerimise ja kustutamise toimingud"</string>
+	<!---->
+	<string name="preferences_default_reply_all_title">"Vasta kõigile"</string>
+	<!---->
+	<string name="preferences_default_reply_all_summary_impl">"Kasuta vaikeseadena sõnumitele vastamisel"</string>
+	<!---->
+	<string name="preference_swipe_title_archive">"Arhiveerimine pühkides"</string>
+	<!---->
+	<string name="preference_swipe_title_delete">"Nipsake kustutamiseks"</string>
+	<!---->
+	<string name="preference_swipe_description">"Meilivestluste loendis"</string>
+	<!---->
+	<string name="preference_swipe_actions">"Pühkimisliigutustega tegevused"</string>
+	<!---->
+	<string name="preference_sender_image_title">"Saatja pilt"</string>
+	<!---->
+	<string name="preference_sender_image_description">"Kuvatakse vestluste loendis nime kõrval"</string>
+	<!---->
+	<string name="empty_trash">"Tühjenda prügikast"</string>
+	<!---->
+	<string name="empty_spam">"Tühjenda rämpspostikaust"</string>
+	<!---->
+	<string name="star_toggle">"Tähista tähega"</string>
+	<!---->
+	<string name="empty_trash_dialog_title">"Kas tühjendada prügikast?"</string>
+	<!---->
+	<string name="empty_spam_dialog_title">"Kas tühjendada rämpspostikaust?"</string>
+	<plurals name="empty_folder_dialog_message">
+		<item quantity="one">"%1$d sõnum kustutatakse jäädavalt."</item>
+		<item quantity="other">"%1$d sõnumit kustutatakse jäädavalt."</item>
+	</plurals>
+	<!---->
+	<string name="drawer_open">"Ava navigatsioonipaan"</string>
+	<!---->
+	<string name="drawer_close">"Autoriõiguse teave"</string>
+	<!---->
+	<string name="conversation_photo_welcome_text">"Puudutage selle vestluse valimiseks saatja pilti."</string>
+	<!---->
+	<string name="long_press_to_select_tip">"Puudutage ja hoidke all ühe vestluse valimiseks, seejärel puudutage teiste valimiseks."</string>
+	<!---->
+	<string name="folder_icon_desc">"Kausta ikoon"</string>
+	<!---->
+	<string name="add_account">"Lisa konto"</string>
+	<!---->
+	<string name="dismiss_tip_hover_text">"Loobu nõuandest"</string>
+	<!---->
+	<string name="auto_sync_off">"Automaatne sünkroonimine on välja lülitatud."</string>
+	<!---->
+	<string name="tap_to_enable_sync">"Puudutage sisselülitamiseks."</string>
+	<!---->
+	<string name="account_sync_off">"Konto sünkroonimine on välja lülitatud."</string>
+	<!---->
+	<string name="enable_sync_in_account_settings">"Lülitage sisse jaotises <xliff:g id="account_settings">%1$s</xliff:g>."</string>
+	<!---->
+	<string name="account_settings_param">"Konto seaded"</string>
+	<!---->
+	<string name="unsent_messages_in_outbox">"Jaotises <xliff:g id="outbox">%2$s</xliff:g> on <xliff:g id="number">%1$s</xliff:g> saatmata sõnumit"</string>
+	<!---->
+	<string name="turn_auto_sync_on_dialog_title">"Kas lülitada automaatne sünkroonimine sisse?"</string>
+	<!---->
+	<string name="turn_auto_sync_on_dialog_body">"Kõigis rakendustes ja kõigil kontodel (mitte ainult Gmailis) tehtavad muudatused sünkroonitakse veebi, teie teiste seadmete ja teie seadmega <xliff:g id="phone_or_tablet">%1$s</xliff:g>."</string>
+	<!---->
+	<string name="phone">"tahvelarvuti"</string>
+	<!---->
+	<string name="tablet">"Tahvelarvuti"</string>
+	<!---->
+	<string name="turn_auto_sync_on_dialog_confirm_btn">"Lülita sisse"</string>
+	<!-- no translation found for show_n_more_folders -->
+	<skip />
+	<!---->
+	<string name="hide_folders">"Peida kaustad"</string>
+	<!---->
+	<string name="print">"Prindi"</string>
+	<!---->
+	<string name="print_all">"Prindi kõik"</string>
+	<plurals name="num_messages">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> sõnum"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> sõnumit"</item>
+	</plurals>
+	<!-- no translation found for date_message_received_print -->
+	<skip />
+	<!---->
+	<string name="draft_to_heading">"Mustand adressaadile:"</string>
+	<!---->
+	<string name="draft_heading">"Mustand"</string>
+	<!---->
+	<string name="quoted_text_hidden_print">"Osundatud teksti on peidetud"</string>
+	<plurals name="num_attachments">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> manus"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> manust"</item>
+	</plurals>
+	<!---->
+	<string name="no_subject">"(Teema puudub)"</string>
+	<!---->
+	<string name="vacation_responder">"Puhkuse automaatvastus"</string>
+	<!---->
+	<string name="preferences_vacation_responder_title">"Puhkuse automaatvastus"</string>
+	<!---->
+	<string name="vacation_responder_body_hint_text">"Sõnum"</string>
+	<!---->
+	<string name="send_to_contacts_text">"Saada ainult minu kontaktidele"</string>
+	<!---->
+	<string name="send_to_domain_text">"Saada ainult kontaktile <xliff:g id="domain">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="pick_start_date_title">"Algab"</string>
+	<!---->
+	<string name="pick_end_date_title">"Lõpeb (valikuline)"</string>
+	<!---->
+	<string name="date_not_set">"Määramata"</string>
+	<!---->
+	<string name="set_end_date_dialog_title">"Lõpukuupäev (valikuline)"</string>
+	<!---->
+	<string name="custom_date">"Kohandatud"</string>
+	<!---->
+	<string name="date_none">"Puudub"</string>
+	<!---->
+	<string name="discard_changes">"Kas tühistada muudatused?"</string>
+	<!---->
+	<string name="draft_saved">"Mustand on salvestatud"</string>
+	<!---->
+	<string name="draft_discard">"Mustand on hüljatud"</string>
+	<!---->
+	<string name="vacation_responder_changes_saved">"Puhkuse automaatvastuse muudatused on salvestatud"</string>
+	<!---->
+	<string name="vacation_responder_changes_discarded">"Puhkuse automaatvastuse muudatused on tühistatud"</string>
+	<!---->
+	<string name="vacation_responder_off">"VÄLJAS"</string>
+	<!-- no translation found for vacation_responder_on -->
+	<skip />
+	<!-- no translation found for vacation_responder_on_with_end_date -->
+	<skip />
+	<!---->
+	<string name="vacation_responder_empty_subject_and_body_warning">"Lisa teema või sõnum"</string>
+	<!---->
+	<string name="view_entire_message">"Vaata tervet sõnumit"</string>
+	<!---->
+	<string name="eml_loader_error_toast">"Seda faili ei saa avada"</string>
+	<!---->
+	<string name="help_and_info">"Abi"</string>
+	<!---->
+	<string name="help_and_feedback">"Abi ja tagasiside"</string>
+	<!---->
+	<string name="feedback">"Saatke tagasisidet"</string>
+	<!---->
+	<string name="copyright">"©<xliff:g example="2010" id="year">%1$d</xliff:g> Google Inc."</string>
+	<!-- no translation found for version -->
+	<skip />
+	<!-- no translation found for view_app_page -->
+	<skip />
+	<!---->
+	<string name="print_dialog">"Printimine\u2026"</string>
+	<!---->
+	<string name="copyright_information">"Autoriõiguse teave"</string>
+	<!---->
+	<string name="privacy_policy">"Privaatsuspoliitika"</string>
+	<!---->
+	<string name="open_source_licenses">"Avatud lähtekoodiga litsentsid"</string>
+	<!---->
+	<string name="reply_choice_yes">"Jah"</string>
+	<!---->
+	<string name="reply_choice_no">"Ei"</string>
+	<!---->
+	<string name="reply_choice_ok">"OK"</string>
+	<!-- no translation found for reply_choice_hehe -->
+	<skip />
+	<!---->
+	<string name="reply_choice_thanks">"Tänan"</string>
+	<!---->
+	<string name="reply_choice_i_agree">"Nõus"</string>
+	<!---->
+	<string name="reply_choice_nice">"Tore"</string>
+	<!---->
+	<string name="reply_on_my_way">"Juba tegutsen"</string>
+	<!---->
+	<string name="reply_choice_later">"OK, võtan teiega uuesti ühendust"</string>
+	<!-- no translation found for reply_choice_smiling_face -->
+	<skip />
+	<!-- no translation found for reply_choice_frowning_face -->
+	<skip />
+	<!---->
+	<string name="preference_header_action_confirmations">"Toimingute kinnitused"</string>
+	<!---->
+	<string name="preference_confirm_before_delete_title">"Kinnitamine enne kustutamist"</string>
+	<!---->
+	<string name="preference_confirm_before_archive_title">"Kinnita enne arhiivimist"</string>
+	<!---->
+	<string name="preference_confirm_before_send_title">"Kinnitamine enne saatmist"</string>
+	<!---->
+	<string name="preferences_conversation_mode_title">"Mahuta sõnumeid automaatselt"</string>
+	<!---->
+	<string name="preferences_conversation_mode_summary">"Kahanda sõnumeid nii, et need mahuksid ekraanile"</string>
+	<!---->
+	<string name="preferences_disable_snap_headers_title">"Sõnumitoimingud"</string>
+	<string-array name="prefSummaries_snapHeader">
+		<item>"Kuva sõnumitoimingud alati ekraani ülaosas"</item>
+		<item>"Kuva sõnumitoimingud ainult vertikaalasendisse pööratuna ekraani ülaosas"</item>
+		<item>"Ära kuva sõnumitoiminguid väljaspool sõnumi päist"</item>
+	</string-array>
+	<string-array name="prefEntries_snapHeader">
+		<item>"Kuva alati"</item>
+		<item>"Kuva ainult vertikaalpaigutuses"</item>
+		<item>"Ära kuva"</item>
+	</string-array>
+	<!---->
+	<string name="clear_history_title">"Otsinguajaloo kustutamine"</string>
+	<!---->
+	<string name="search_history_cleared">"Otsinguajalugu on kustutatud."</string>
+	<!---->
+	<string name="clear_history_dialog_title">"Kas kustutada otsinguajalugu?"</string>
+	<!---->
+	<string name="clear_history_dialog_message">"Kõik varasemad otsingud eemaldatakse."</string>
+	<!---->
+	<string name="manage_accounts_menu_item">"Kontode haldamine"</string>
+	<!---->
+	<string name="general_preferences_title">"Üldseaded"</string>
+	<!---->
+	<string name="activity_preferences">"Seaded"</string>
+	<!---->
+	<string name="always_bcc_myself">"Saada mulle alati pimekoopia"</string>
+	<!---->
+	<string name="always_bcc_myself_summary">"Lisa mind alati salakoopiana, kui koostan sõnumi, vastan sellele või edastan selle"</string>
+	<!---->
+	<string name="general_preference_auto_download_remaining_label">"Allesjäänu automaatne allalaadimine"</string>
+	<!---->
+	<string name="general_preference_auto_download_remaining_summary">"Laadi allakerimisel automaatselt ülejäänud sisu alla"</string>
+	<!---->
+	<string name="download_remaining">"Allalaadimise järelejäänud maht"</string>
+	<!---->
+	<string name="downloading_remaining">"Laadimine ..."</string>
+	<!---->
+	<string name="unable_to_connect">"Ühendust ei saa luua"</string>
+	<!---->
+	<string name="need_connection_prompt">"Selle rakenduse kasutamiseks vajate võrguühendust. Lülitage sätetes mobiilsidevõrk või Wi-Fi sisse."</string>
+	<!---->
+	<string name="connection_settings">"Seaded"</string>
+	<!---->
+	<string name="priority_action">"Prioriteet"</string>
+	<!---->
+	<string name="set_priority_dialog_title">"Määra prioriteetsus"</string>
+	<!---->
+	<string name="dialog_warning">"Hoiatus\u2026"</string>
+	<!---->
+	<string name="dialog_warning_message">"Vahetusrakenduse versioon ei kattu e-mailiga, kas jätkata?"</string>
+	<!---->
+	<string name="toast_warning_text">"Vahetusrakenduse versioon ei kattu e-mailiga"</string>
+	<!---->
+	<string name="tips_sync_alter_title">"Sünkroonimine"</string>
+	<!---->
+	<string name="tips_sync_alter_content">"Wi-Fi-ühendus puudub. Kas soovite sünkroonimist jätkata?"</string>
+	<!---->
+	<string name="tips_sync_alter_yes">"Jah"</string>
+	<!---->
+	<string name="tips_sync_alter_no">"Ei"</string>
+	<!---->
+	<string name="message_invite_tentative_title">"Katseline"</string>
+	<!---->
+	<string name="message_invite_decline_title">"Keeldu"</string>
+	<!---->
+	<string name="message_invite_accent_title">"Nõustu"</string>
+	<!---->
+	<string name="drm_file_remind">"Seda faili ei saa üles laadida ega jagada, sest sel on DRM-i kaitse."</string>
+	<!---->
+	<string name="not_add_more_recipients">"Korraga ei saa lisada rohkem kui <xliff:g id="maxLimit">%1$d</xliff:g> saajat."</string>
+	<!---->
+	<string name="global_search_label">"E-post"</string>
+	<!---->
+	<string name="global_search_hint">"Otsi meili"</string>
+	<!---->
+	<string name="global_search_description">"Saatjad, teemad ja sisud"</string>
+	<!---->
+	<string name="remote_search_failed">"Serveri otsing ebaõnnestus!"</string>
+	<!---->
+	<string name="searching_on_server">"Otsi serverist"</string>
+	<!---->
+	<string name="searching_on_server_title">"Konto \"<xliff:g id="account_name">%s</xliff:g>\" otsimine serverist"</string>
+	<!---->
+	<string name="searching_all_fields_on_sever">"Serveris kõigi väljade otsimine"</string>
+	<!---->
+	<string name="search_field_subject">"Teema"</string>
+	<!---->
+	<string name="search_field_receiver">"Vastuvõtja"</string>
+	<!---->
+	<string name="search_field_sender">"Saatja"</string>
+	<!---->
+	<string name="search_field_body">"Sisu"</string>
+	<!---->
+	<string name="search_field_all">"Kõik"</string>
+	<!---->
+	<string name="search_field_attachment">"Manused"</string>
+	<!---->
+	<string name="select_all">"Vali kõik"</string>
+	<!---->
+	<string name="deselect_all">"Tühista kõik valikud"</string>
+	<!---->
+	<string name="need_wifi_connection_prompt">"„Rakenduse kasutamiseks on vaja võrguühendust. Lülitage Wi-Fi seadetes sisse.”"</string>
+	<!---->
+	<string name="account_setup_names_account_name_des_label">"valikuline"</string>
+	<!---->
+	<string name="account_setup_names_user_name_des_label">"kuvatakse väljuvates sõnumites"</string>
+	<!---->
+	<string name="finish_action">"Lõpeta"</string>
+	<!---->
+	<string name="copy_email">"Kopeeri e-posti aadress"</string>
+	<!---->
+	<string name="out_of_office_syncing">"Office\'i seadete sünkroonimise lõpetamine"</string>
+	<!---->
+	<string name="out_of_office_fail">"Office\'i seadete sünkroonimise lõpetamine ebaõnnestus!"</string>
+	<!---->
+	<string name="out_of_office_success">"Office\'i seadete sünkroonimise lõpetamine õnnestus!"</string>
+	<!---->
+	<string name="manual_sync_when_roaming">"Sünkrooni rändlemise ajal"</string>
+	<!---->
+	<string name="manual_sync_when_roaming_summery">"Värskenda ainult manuaalselt"</string>
+	<!---->
+	<string name="manual_sync_when_roaming_toast">"Rändlemise ajal manuaalseks värskendamiseks libista allapole"</string>
+	<!---->
+	<string name="manual_sync_when_roaming_refresh">"Värskenda"</string>
+	<!---->
+	<string name="server_rule_can_not_change">"Serverireegleid ei saa muuta"</string>
+	<!---->
+	<string name="server_rules">"Serverireeglid"</string>
+	<!---->
+	<string name="confirm_forward_message">"Kõiki faile ei laaditud alla. Kas soovite jätkata faile alla laadimata?"</string>
+	<!---->
+	<string name="confirm_forward_cancel">"Tühista"</string>
+	<!---->
+	<string name="confirm_forward_drop_unload_attachment">"Edasta"</string>
+	<!---->
+	<string name="mail_not_download_completely">"Oodake, kuni allalaadimine on lõppenud"</string>
+	<!---->
+	<string name="account_settings_inline_images_lable">"Pildid"</string>
+	<!---->
+	<string name="account_settings_inline_always_show">"Kuva alati"</string>
+	<!---->
+	<string name="account_settings_inline_ask_before_show">"Küsi enne näitamist"</string>
+	<!---->
+	<string name="conversation_time_after_today">"Pärast tänast"</string>
+	<!---->
+	<string name="conversation_time_today">"Täna"</string>
+	<!---->
+	<string name="conversation_time_yesterday">"Eile"</string>
+	<!---->
+	<string name="conversation_time_this_month">"Sel kuul"</string>
+	<!---->
+	<string name="conversation_time_elapse_just_now">"Praegu"</string>
+	<!---->
+	<string name="conversation_time_elapse_minute">"<xliff:g id="count">%d</xliff:g> min"</string>
+	<!---->
+	<string name="message_in_queued_status">"Järjekorras"</string>
+	<plurals name="send_failed_messages">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> e-kirja ei saadetud"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> e-kirja ei saadetud"</item>
+	</plurals>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_label">"Kalendrite sünkroonimine"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_2weeks">"Kaks nädalat"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_1month">"Üks kuu"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_3months">"3 kuud"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_6months">"Kuus kuud"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_all">"Kõik"</string>
+	<!---->
+	<string name="no_permission_to_open_file">"Selle faili avamiseks on vaja mäluruumi luba"</string>
+	<!---->
+	<string name="conversation_update_time_text">"Viimane värskendus:"</string>
+	<!---->
+	<string name="conversation_update_unknown_time_stamp">"Tundmatu"</string>
+	<!---->
+	<string name="conversation_time_elapse_today">"Täna"</string>
+	<!---->
+	<string name="save_to_attachment">"Salvesta:"</string>
+	<!---->
+	<string name="download_settings_title">"Manuse salvestamine"</string>
+	<!---->
+	<string name="download_edit_filename_label">"Nimi"</string>
+	<!---->
+	<string name="download_filepath_label">"Tee"</string>
+	<!---->
+	<string name="download_file_size">"Suurus"</string>
+	<!---->
+	<string name="download_time_needed">"Kellaaeg"</string>
+	<!---->
+	<string name="download_cancel">"Tühista"</string>
+	<!---->
+	<string name="download_start">"OK"</string>
+	<!---->
+	<string name="unknown_length">"Tundmatu"</string>
+	<!---->
+	<string name="time_min">"min"</string>
+	<!---->
+	<string name="open_file_manager_failed">"Failihalduri avamine ebaõnnestus"</string>
+	<!---->
+	<string name="attachment_not_saved">"Manust ei salvestatud"</string>
+	<!---->
+	<string name="sync_calendar_title">"Kalendri sünkroniseerimine ebaõnnestus"</string>
+	<!---->
+	<string name="sync_calendar_content">"Sünkroniseerimiseks luba vahendamise teenustele juurdepääs kalendrile"</string>
+	<!---->
+	<string name="sync_contacts_title">"Kontaktide sünkroniseerimine ebaõnnestus"</string>
+	<!---->
+	<string name="sync_contacts_content">"Sünkroniseerimiseks luba vahendamise teenustele juurdepääs kontaktidele"</string>
+	<!---->
+	<string name="notification_never_ask_again">"Ära enam kunagi küsi"</string>
+	<!---->
+	<string name="sync_storage_title">"Manust ei saanud salvestada."</string>
+	<!---->
+	<string name="sync_storage_content">"Salvestamiseks luba vahendamise teenustele juurdepääs salvestisele"</string>
+	<!---->
+	<string name="oof_continue">"Jätka"</string>
+	<!---->
+	<string name="permission_needed_to_add_attachments">"Manuste lisamiseks anna e-postile ligipääs mäluruumile"</string>
+	<!---->
+	<string name="permission_needed_to_check_ringtone">"Helina kontrollimiseks anna e-postile ligipääs mäluruumile"</string>
+	<!---->
+	<string name="add_folder_as_attachment_fail_tips">"Ei saa kausta manusena lisada"</string>
+	<!---->
+	<string name="choose_action_title">"Toimingu valimine"</string>
+	<!---->
+	<string name="choose_action_contact">"Kontakti lisamine: <xliff:g example="4" id="email_address">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="choose_action_email">"E-post: <xliff:g example="4" id="email_address">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="choose_action_message">"Sõnum: <xliff:g example="4" id="email_address">%1$s</xliff:g>"</string>
+	<!-- no translation found for account_setup_basics_exit_action -->
+	<skip />
+</resources>

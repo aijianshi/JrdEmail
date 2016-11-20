@@ -1,0 +1,1747 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Tue Sep 20 16:24:06 CST 2016
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="permission_read_attachment_label">"Đọc tập tin đính kèm trong email"</string>
+	<!---->
+	<string name="permission_read_attachment_desc">"Cho phép ứng dụng đọc tệp đính kèm trong email của bạn."</string>
+	<!---->
+	<string name="permission_access_provider_label">"Truy cập dữ liệu của nhà cung cấp Email"</string>
+	<!---->
+	<string name="permission_access_provider_desc">"Cho phép ứng dụng này truy cập cơ sở dữ liệu email của bạn, bao gồm thư đã nhận, thư đã gửi, tên người dùng và mật khẩu."</string>
+	<!---->
+	<string name="debug_title">"Gỡ lỗi"</string>
+	<!---->
+	<string name="next_action">"Tiếp theo"</string>
+	<!---->
+	<string name="okay_action">"OK"</string>
+	<!---->
+	<string name="cancel_action">"Hủy"</string>
+	<!---->
+	<string name="previous_action">"Trước"</string>
+	<!---->
+	<string name="done_action">"Xong"</string>
+	<!---->
+	<string name="create_action">"Tạo mới"</string>
+	<!---->
+	<string name="quick_responses_empty_view">"Không có câu trả lời nhanh nào."</string>
+	<!---->
+	<string name="account_settings_action">"Cài đặt tài khoản"</string>
+	<!---->
+	<string name="status_network_error">"Sự cố kết nối."</string>
+	<plurals name="move_messages">
+		<item quantity="one">"Di chuyển thư"</item>
+		<item quantity="other">"Di chuyển thư"</item>
+	</plurals>
+	<!---->
+	<string name="cannot_move_protocol_not_supported_toast">"Di chuyển không được hỗ trợ trên các tài khoản POP3."</string>
+	<!---->
+	<string name="cannot_move_multiple_accounts_toast">"Không thể di chuyển vì lựa chọn chứa nhiều tài khoản."</string>
+	<!---->
+	<string name="cannot_move_special_mailboxes_toast">"Không thể di chuyển tin nhắn trong mục Nháp, Tin nhắn đi và Tin nhắn đã gửi."</string>
+	<!---->
+	<string name="mailbox_name_display_inbox">"Hộp thư đến"</string>
+	<!---->
+	<string name="mailbox_name_display_outbox">"Hộp thư đi"</string>
+	<!---->
+	<string name="mailbox_name_display_drafts">"Nháp"</string>
+	<!---->
+	<string name="mailbox_name_display_trash">"Thùng rác"</string>
+	<!---->
+	<string name="mailbox_name_display_sent">"Thư đã gửi"</string>
+	<!---->
+	<string name="mailbox_name_display_junk">"Thư rác"</string>
+	<!---->
+	<string name="mailbox_name_display_starred">"Được gắn sao"</string>
+	<!---->
+	<string name="mailbox_name_display_unread">"Ch.đọc"</string>
+	<!---->
+	<string name="account_folder_list_summary_inbox">"Hộp thư đến"</string>
+	<!---->
+	<string name="account_folder_list_summary_starred">"Được gắn sao"</string>
+	<!---->
+	<string name="account_folder_list_summary_drafts">"Nháp"</string>
+	<!---->
+	<string name="account_folder_list_summary_outbox">"Hộp thư đi"</string>
+	<!---->
+	<string name="mailbox_list_account_selector_combined_view">"Chế độ xem tổng hợp"</string>
+	<!---->
+	<string name="message_compose_fwd_header_fmt">"\n\n"-------- Tin nhắn gốc --------"\n"Chủ đề: <xliff:g id="SUBJECT">%1$s</xliff:g>"\n"Từ: <xliff:g id="SENDER">%2$s</xliff:g>"\n"Tới: <xliff:g id="TO">%3$s</xliff:g>"\n"CC: <xliff:g id="CC_0">%4$s</xliff:g>"\n\n"</string>
+	<!---->
+	<string name="message_compose_insert_quick_response_list_title">"Chèn trả lời nhanh"</string>
+	<!---->
+	<string name="message_compose_insert_quick_response_menu_title">"Chèn trả lời nhanh"</string>
+	<!---->
+	<string name="message_view_attachment_background_load">"Một hoặc nhiều tệp đính kèm trong thư chuyển tiếp của bạn sẽ được tải xuống trước khi gửi."</string>
+	<!---->
+	<string name="attachment_not_found">"Không thể tải xuống tập tin đính kèm."</string>
+	<!---->
+	<string name="message_decode_error">"Đã xảy ra lỗi khi giải mã thư."</string>
+	<!---->
+	<string name="forward_download_failed_ticker">"Không thể chuyển tiếp một hoặc nhiều tập tin đính kèm"</string>
+	<!---->
+	<string name="forward_download_failed_title">"Tập tin đính kèm không được chuyển tiếp"</string>
+	<!---->
+	<string name="login_failed_ticker">"<xliff:g id="account_name">%s</xliff:g> đăng nhập không thành công."</string>
+	<!---->
+	<string name="login_failed_title">"Không thể đăng nhập"</string>
+	<plurals name="message_view_attachment_bytes">
+		<item quantity="one">"<xliff:g id="SIZE_IN_BYTES">%d</xliff:g>B"</item>
+		<item quantity="other">"<xliff:g id="SIZE_IN_BYTES">%d</xliff:g>B"</item>
+	</plurals>
+	<plurals name="message_view_attachment_kilobytes">
+		<item quantity="one">"<xliff:g id="SIZE_IN_KILOBYTES">%d</xliff:g>KB"</item>
+		<item quantity="other">"<xliff:g id="SIZE_IN_KILOBYTES">%d</xliff:g>KB"</item>
+	</plurals>
+	<plurals name="message_view_attachment_megabytes">
+		<item quantity="one">"<xliff:g id="SIZE_IN_MEGABYTES">%d</xliff:g>MB"</item>
+		<item quantity="other">"<xliff:g id="SIZE_IN_MEGABYTES">%d</xliff:g>MB"</item>
+	</plurals>
+	<plurals name="message_view_attachment_gigabytes">
+		<item quantity="one">"<xliff:g id="SIZE_IN_GIGABYTES">%d</xliff:g>GB"</item>
+		<item quantity="other">"<xliff:g id="SIZE_IN_GIGABYTES">%d</xliff:g>GB"</item>
+	</plurals>
+	<!---->
+	<string name="account_setup_basics_title">"Thiết lập tài khoản"</string>
+	<!---->
+	<string name="oauth_authentication_title">"Yêu cầu cho phép"</string>
+	<!---->
+	<string name="sign_in_title">"Đăng nhập"</string>
+	<!---->
+	<string name="oauth_error_description">"Không thể xác thực"</string>
+	<!---->
+	<string name="password_warning_label">"Địa chỉ email hoặc mật khẩu không chính xác"</string>
+	<!---->
+	<string name="email_confirmation_label">"Địa chỉ email"</string>
+	<!---->
+	<string name="account_setup_basics_headline">"Tài khoản email"</string>
+	<!---->
+	<string name="accounts_welcome">"Bạn có thể thiết lập tài khoản của bạn chỉ bằng vài bước."</string>
+	<!---->
+	<string name="account_setup_basics_email_label">"Địa chỉ email"</string>
+	<!---->
+	<string name="account_setup_basics_email_flying_label">"Email"</string>
+	<!---->
+	<string name="or_label">"HOẶC"</string>
+	<!---->
+	<string name="sign_in_with_google">"Đăng nhập bằng Google"</string>
+	<!---->
+	<string name="account_setup_basics_password_label">"Mật khẩu"</string>
+	<!---->
+	<string name="password_hint">"Mật khẩu"</string>
+	<!---->
+	<string name="signed_in_with_service_label">"Đã đăng nhập bằng %s"</string>
+	<!---->
+	<string name="authentication_label">"XÁC THỰC"</string>
+	<!---->
+	<string name="add_authentication_label">"Thêm xác thực"</string>
+	<!---->
+	<string name="clear_authentication_label">"Xóa xác thực"</string>
+	<!---->
+	<string name="account_setup_basics_manual_setup_action">"C.đặt thủ công"</string>
+	<!---->
+	<string name="account_setup_username_password_toast">"Hãy nhập địa chỉ email và mật khẩu hợp lệ."</string>
+	<!---->
+	<string name="account_duplicate_dlg_title">"Nhân đôi Tài khoản"</string>
+	<!---->
+	<string name="account_duplicate_dlg_message_fmt">"Bạn đã sử dụng tên người dùng cho tài khoản này rồi \"<xliff:g id="duplicate">%s</xliff:g>\"."</string>
+	<!---->
+	<string name="account_password_spaces_error">"Mật khẩu này bắt đầu hoặc kết thúc bằng một hoặc nhiều ký tự dấu cách. Nhiều máy chủ không hỗ trợ mật khẩu chứa dấu cách."</string>
+	<!---->
+	<string name="account_setup_check_settings_retr_info_msg">"Đang truy xuất thông tin tài khoản..."</string>
+	<!---->
+	<string name="account_setup_check_settings_check_incoming_msg">"Đang xác nhận cài đặt máy chủ..."</string>
+	<!---->
+	<string name="account_setup_check_settings_check_outgoing_msg">"Đang xác nhận cài đặt SMTP..."</string>
+	<!---->
+	<string name="account_setup_creating_account_msg">"Đang tạo tài khoản..."</string>
+	<!---->
+	<string name="account_setup_ab_headline">"Xác nhận loại tài khoản"</string>
+	<!---->
+	<string name="account_setup_ab_instructions_format">"Bạn đã cho biết <xliff:g id="email">%1$s</xliff:g> sử dụng <xliff:g id="userProtocol">%2$s</xliff:g>, nhưng tài khoản có thể sử dụng <xliff:g id="providerProtocol">%3$s</xliff:g>"</string>
+	<!---->
+	<string name="account_setup_names_title">"Thiết lập tài khoản"</string>
+	<!---->
+	<string name="account_setup_names_headline">"Tài khoản của bạn đã được thiết lập và email đang được gửi đến!"</string>
+	<!---->
+	<string name="account_setup_names_account_name_label">"Đặt tên tài khoản này"</string>
+	<!---->
+	<string name="account_setup_names_user_name_label">"Tên bạn"</string>
+	<!---->
+	<string name="account_setup_names_user_name_empty_error">"Không được để trống trường này."</string>
+	<!---->
+	<string name="account_setup_account_type_title">"Thiết lập tài khoản"</string>
+	<!---->
+	<string name="account_setup_account_type_headline">"Loại tài khoản"</string>
+	<!---->
+	<string name="account_setup_account_type_instructions">"Đây là loại tài khoản gì?"</string>
+	<!---->
+	<string name="account_setup_incoming_title">"Thiết lập tài khoản"</string>
+	<!---->
+	<string name="account_setup_incoming_headline">"Cài đặt máy chủ thư đến"</string>
+	<!---->
+	<string name="account_setup_incoming_username_label">"Tên người dùng"</string>
+	<!---->
+	<string name="account_setup_incoming_password_label">"Mật khẩu"</string>
+	<!---->
+	<string name="account_setup_password_subheading">"Mật khẩu"</string>
+	<!---->
+	<string name="account_setup_incoming_server_label">"Máy chủ"</string>
+	<!---->
+	<string name="account_setup_incoming_port_label">"Cổng"</string>
+	<!---->
+	<string name="account_setup_incoming_security_label">"Loại bảo mật"</string>
+	<!---->
+	<string name="account_setup_incoming_domain_label">"Tên miền"</string>
+	<!---->
+	<string name="account_setup_incoming_add_domain_label">"Thêm tên miền"</string>
+	<!---->
+	<string name="account_setup_incoming_security_none_label">"Không có"</string>
+	<!---->
+	<string name="account_setup_incoming_security_ssl_trust_certificates_label">"SSL/TLS (Ch.nhận tất cả c.chỉ)"</string>
+	<!---->
+	<string name="account_setup_incoming_security_ssl_label">"SSL/TLS"</string>
+	<!---->
+	<string name="account_setup_incoming_security_tls_trust_certificates_label">"STARTTLS (Ch.nhận tất cả c.chỉ)"</string>
+	<!---->
+	<string name="account_setup_incoming_security_tls_label">"STARTTLS"</string>
+	<!---->
+	<string name="account_setup_incoming_delete_policy_label">"Xóa email khỏi máy chủ"</string>
+	<!---->
+	<string name="account_setup_incoming_delete_policy_never_label">"Không bao giờ"</string>
+	<!---->
+	<string name="account_setup_incoming_delete_policy_delete_label">"Khi xóa khỏi Hộp thư đến"</string>
+	<!---->
+	<string name="account_setup_incoming_imap_path_prefix_label">"Tiền tố đường dẫn IMAP"</string>
+	<!---->
+	<string name="account_setup_incoming_imap_path_prefix_hint">"Tùy chọn"</string>
+	<!---->
+	<string name="account_setup_outgoing_title">"Thiết lập tài khoản"</string>
+	<!---->
+	<string name="account_setup_outgoing_headline">"Cài đặt máy chủ thư đi"</string>
+	<!---->
+	<string name="account_setup_outgoing_smtp_server_label">"Máy chủ SMTP"</string>
+	<!---->
+	<string name="account_setup_outgoing_port_label">"Cổng"</string>
+	<!---->
+	<string name="account_setup_outgoing_security_label">"Loại bảo mật"</string>
+	<!---->
+	<string name="account_setup_outgoing_require_login_label">"Cần đăng nhập"</string>
+	<!---->
+	<string name="account_setup_outgoing_username_label">"Tên người dùng"</string>
+	<!---->
+	<string name="account_setup_outgoing_password_label">"Mật khẩu"</string>
+	<!---->
+	<string name="account_setup_exchange_certificate_title">"Chứng chỉ ứng dụng khách"</string>
+	<!---->
+	<string name="account_setup_exchange_select_certificate">"Chọn"</string>
+	<!---->
+	<string name="account_setup_exchange_use_certificate">"Sử dụng chứng chỉ ứng dụng khách"</string>
+	<!---->
+	<string name="account_setup_exchange_remove_certificate">"Xóa"</string>
+	<!---->
+	<string name="account_setup_exchange_no_certificate">"Không"</string>
+	<!---->
+	<string name="account_setup_exchange_device_id_label">"ID Thiết bị di động"</string>
+	<!---->
+	<string name="account_setup_options_title">"Cài đặt tài khoản"</string>
+	<!---->
+	<string name="account_setup_options_headline">"Tùy chọn tài khoản"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_label">"Đồng bộ hóa tần số"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_never">"Không bao giờ"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_push">"Tự động (Push)"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_5min">"5 phút một lần"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_10min">"10 phút một lần"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_15min">"15 phút một lần"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_30min">"30 phút một lần"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_1hour">"Mỗi giờ"</string>
+	<!---->
+	<string name="account_setup_options_notify_label">"Thông báo cho tôi khi email đến."</string>
+	<!---->
+	<string name="account_setup_options_sync_contacts_label">"Đồng bộ danh bạ từ tài khoản này."</string>
+	<!---->
+	<string name="account_setup_options_sync_calendar_label">"Đồng bộ lịch từ tài khoản này."</string>
+	<!---->
+	<string name="account_setup_options_sync_email_label">"Đồng bộ hóa email từ tài khoản này."</string>
+	<!---->
+	<string name="account_setup_options_background_attachments_label">"Tự động tải xuống tệp đính kèm khi được kết nối Wi-Fi"</string>
+	<!---->
+	<string name="account_setup_failed_dlg_title">"Không thể hoàn tất"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_label">"Đồng bộ hóa email từ"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_auto">"Tự động"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1day">"Ngày cuối"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_3days">"Ba ngày cuối"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1week">"Tuần trước"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_2weeks">"Hai tuần cuối"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1month">"Tháng trước"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_all">"Tất cả"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_default">"Sử dụng mặc định của tài khoản"</string>
+	<!---->
+	<string name="account_setup_failed_dlg_auth_message">"Tên người dùng hoặc mật khẩu không chính xác."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_auth_message_fmt">"Đăng nhập thất bại.\n(<xliff:g id="error">%s</xliff:g>)"</string>
+	<!---->
+	<string name="account_setup_autodiscover_dlg_authfail_title">"Sự cố khi thiết lập tài khoản"</string>
+	<!---->
+	<string name="account_setup_autodiscover_dlg_authfail_message">"Xác nhận các cài đặt tên người dùng, mật khẩu và tài khoản là chính xác."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_certificate_message">"Không thể thiết lập kết nối với máy chủ do chứng nhận không đáng tin cậy hoặc không hợp lệ."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_certificate_message_fmt">"Không thể kết nối an toàn với máy chủ.\n(<xliff:g id="ERROR">%s</xliff:g>)"</string>
+	<!---->
+	<string name="account_setup_failed_certificate_required">"Cần chứng chỉ ứng dụng khách. Bạn có muốn kết nối với máy chủ bằng chứng chỉ ứng dụng khách không?"</string>
+	<!---->
+	<string name="account_setup_failed_certificate_inaccessible">"Chứng chỉ không hợp lệ hoặc không thể truy cập được."</string>
+	<!---->
+	<string name="account_setup_failed_check_credentials_message">"Máy chủ đã phản hồi lại bằng cách báo lỗi. Kiểm tra tên người dùng và mật khẩu của bạn, sau đó thử lại."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_server_message">"Không thể kết nối với máy chủ."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_server_message_fmt">"Không thể kết nối với máy chủ.\n(<xliff:g id="ERROR">%s</xliff:g>)"</string>
+	<!---->
+	<string name="account_setup_failed_tls_required">"TLS được yêu cầu nhưng không được máy chủ hỗ trợ."</string>
+	<!---->
+	<string name="account_setup_failed_auth_required">"Phương thức xác thực không được máy chủ hỗ trợ."</string>
+	<!---->
+	<string name="account_setup_failed_security">"Không thể mở kết nối với máy chủ do lỗi bảo mật."</string>
+	<!---->
+	<string name="account_setup_failed_ioerror">"Không thể mở kết nối tới máy chủ."</string>
+	<!---->
+	<string name="account_setup_failed_protocol_unsupported">"Bạn đã nhập địa chỉ máy chủ không chính xác hoặc máy chủ yêu cầu phiên bản giao thức mà Email không hỗ trợ."</string>
+	<!---->
+	<string name="account_setup_failed_access_denied">"Bạn không được phép đồng bộ hóa với máy chủ này. Hãy liên hệ với quản trị viên máy chủ của bạn để biết thêm thông tin."</string>
+	<!---->
+	<string name="account_setup_security_required_title">"Quản trị bảo mật từ xa"</string>
+	<!---->
+	<string name="account_setup_security_policies_required_fmt">"Máy chủ <xliff:g id="SERVER">%s</xliff:g> yêu cầu bạn cho phép kiểm soát từ xa một số tính năng bảo mật của thiết bị Android của bạn. Bạn có muốn hoàn tất việc thiết lập tài khoản này không?"</string>
+	<!---->
+	<string name="account_setup_failed_security_policies_unsupported">"Máy chủ này yêu cầu các tính năng bảo mật mà thiết bị Android của bạn không hỗ trợ, bao gồm: <xliff:g id="ERROR">%s</xliff:g>"</string>
+	<!---->
+	<string name="account_setup_username_uneditable_error">"Bạn không thể thay đổi tên người dùng của tài khoản. Để thêm tài khoản có tên người dùng khác, hãy chạm vào Thêm tài khoản."</string>
+	<!---->
+	<string name="disable_admin_warning">"CẢNH BÁO: Hủy k.hoạt quyền s.dụng ứng dụng Email để q.trị t.bị sẽ xóa tất cả t.khoản email y.cầu quyền này cùng với email, ds liên hệ, sự kiện lịch và dữ liệu khác."</string>
+	<!---->
+	<string name="account_security_dialog_title">"Cập nhật bảo mật"</string>
+	<!---->
+	<string name="account_security_dialog_content_fmt">"<xliff:g id="ACCOUNT">%s</xliff:g> yêu cầu bạn cập nhật cài đặt bảo mật của mình."</string>
+	<!---->
+	<string name="security_unsupported_ticker_fmt">"Tài khoản \"<xliff:g id="account">%s</xliff:g>\" không thể được đồng bộ hóa do các yêu cầu bảo mật."</string>
+	<!---->
+	<string name="security_needed_ticker_fmt">"Tài khoản \"<xliff:g id="account">%s</xliff:g>\" yêu cầu cập nhật cài đặt bảo mật."</string>
+	<!---->
+	<string name="security_changed_ticker_fmt">"Tài khoản \"<xliff:g id="account">%s</xliff:g>\" đã thay đổi các cài đặt bảo mật của nó; không cần có hành động của người dùng."</string>
+	<!---->
+	<string name="security_notification_content_update_title">"Yêu cầu cập nhật bảo mật"</string>
+	<!---->
+	<string name="security_notification_content_change_title">"Chính sách bảo mật đã thay đổi"</string>
+	<!---->
+	<string name="security_notification_content_unsupported_title">"Chính sách bảo mật không thể đáp ứng được"</string>
+	<!---->
+	<string name="account_security_title">"Bảo mật thiết bị"</string>
+	<!---->
+	<string name="account_security_policy_explanation_fmt">"Máy chủ <xliff:g id="SERVER">%s</xliff:g> yêu cầu bạn cho phép kiểm soát từ xa một số tính năng bảo mật của thiết bị Android của bạn."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_edit_details_action">"Sửa chi tiết"</string>
+	<!---->
+	<string name="password_expire_warning_ticker_fmt">"\"<xliff:g id="ACCOUNT">%s</xliff:g>\" yêu cầu bạn thay đổi mật khẩu hoặc mã PIN khóa màn hình của bạn."</string>
+	<!---->
+	<string name="password_expire_warning_content_title">"Mật khẩu khóa màn hình sắp hết hạn"</string>
+	<!---->
+	<string name="password_expired_ticker">"Mật khẩu hoặc mã PIN khóa màn hình của bạn đã hết hạn."</string>
+	<!---->
+	<string name="password_expired_content_title">"Mật khẩu khóa màn hình đã hết hạn"</string>
+	<!---->
+	<string name="password_expire_warning_dialog_title">"Mật khẩu khóa màn hình sắp hết hạn"</string>
+	<!---->
+	<string name="password_expire_warning_dialog_content_fmt">"Bạn cần phải sớm thay đổi mã PIN hoặc mật khẩu khóa màn hình của mình, nếu không dữ liệu của <xliff:g id="account">%s</xliff:g> sẽ bị xóa. Bạn có muốn thay đổi ngay bây giờ?"</string>
+	<!---->
+	<string name="password_expired_dialog_title">"Mật khẩu khóa màn hình đã hết hạn"</string>
+	<!---->
+	<string name="password_expired_dialog_content_fmt">"Dữ liệu của <xliff:g id="account">%s</xliff:g> đang bị xóa khỏi thiết bị của bạn. Bạn có thể khôi phục dữ liệu bằng cách thay đổi mã PIN hoặc mật khẩu khóa màn hình của bạn. Bạn có muốn thay đổi ngay bây giờ?"</string>
+	<!---->
+	<string name="account_settings_exit_server_settings">"Hủy những thay đổi chưa lưu?"</string>
+	<!---->
+	<string name="account_settings_login_dialog_title">"Không thể đăng nhập"</string>
+	<!---->
+	<string name="account_settings_login_dialog_content_fmt">"Tên người dùng hoặc mật khẩu của <xliff:g id="ACCOUNT">%s</xliff:g> không đúng. Cập nhật tên người dùng hoặc mật khẩu ngay bây giờ?"</string>
+	<!---->
+	<string name="account_settings_login_dialog_reason_fmt">"Đăng nhập của bạn vào <xliff:g id="account">%s</xliff:g> bị lỗi; máy chủ đã thông báo: <xliff:g id="reason">%s</xliff:g> Bạn có muốn cập nhật tên người dùng và/hoặc mật khẩu của bạn?"</string>
+	<!---->
+	<string name="account_settings_background_attachments_label">"Tải về tệp đính kèm"</string>
+	<!---->
+	<string name="account_settings_background_attachments_summary">"Tự động tải xuống tập tin đính kèm tin nhắn gần đây qua Wi-Fi"</string>
+	<!---->
+	<string name="account_settings_notify_label">"Thông báo email"</string>
+	<!---->
+	<string name="account_settings_summary">"Tần suất đồng bộ, thông báo, v.v."</string>
+	<!---->
+	<string name="account_settings_notify_summary">"Gửi thông báo khi email đến"</string>
+	<!---->
+	<string name="account_settings_mail_check_frequency_label">"Đồng bộ hóa tần số"</string>
+	<!---->
+	<string name="account_settings_incoming_label">"Cài đặt thư đến"</string>
+	<!---->
+	<string name="account_settings_incoming_summary">"Tên người dùng, mật khẩu và các cài đặt máy chủ thư đến khác"</string>
+	<!---->
+	<string name="account_settings_outgoing_label">"Cài đặt thư đi"</string>
+	<!---->
+	<string name="account_settings_outgoing_summary">"Tên người dùng, mật khẩu và cài đặt máy chủ thư đi khác"</string>
+	<!---->
+	<string name="account_settings_reply_to_category">"Trả lời các cài đặt"</string>
+	<!---->
+	<string name="account_settings_reply_to_label">"Trả lời"</string>
+	<!---->
+	<string name="account_settings_reply_to_invalid">"Địa chỉ không hợp lệ"</string>
+	<!---->
+	<string name="account_settings_enforced_label">"Chính sách thực thi"</string>
+	<!---->
+	<string name="account_settings_enforced_summary">"Không có"</string>
+	<!---->
+	<string name="account_settings_unsupported_label">"Chính sách không được hỗ trợ"</string>
+	<!---->
+	<string name="account_settings_unsupported_summary">"Không có"</string>
+	<!---->
+	<string name="account_settings_retry_label">"Thử đồng bộ hóa"</string>
+	<!---->
+	<string name="account_settings_retry_summary">"Chạm vào đây để đồng bộ hóa tài khoản này"</string>
+	<!---->
+	<string name="account_settings_description_label">"Tên tài khoản"</string>
+	<!---->
+	<string name="account_settings_name_label">"Tên bạn"</string>
+	<!---->
+	<string name="account_settings_edit_quick_responses_label">"Trả lời nhanh"</string>
+	<!---->
+	<string name="account_settings_edit_quick_responses_summary">"Chỉnh sửa văn bản mà bạn thường xuyên chèn khi soạn email"</string>
+	<!---->
+	<string name="account_settings_notifications">"Cài đặt thông báo"</string>
+	<!---->
+	<string name="account_settings_data_usage">"Sử dụng dữ liệu"</string>
+	<!---->
+	<string name="account_settings_policies">"Chính sách bảo mật"</string>
+	<!---->
+	<string name="system_folders_title">"Thư mục hệ thống"</string>
+	<!---->
+	<string name="system_folders_trash_title">"Thư mục thùng rác"</string>
+	<!---->
+	<string name="system_folders_trash_summary">"Chọn thư mục thùng rác của máy chủ"</string>
+	<!---->
+	<string name="system_folders_trash_dlg">"Chọn thư mục thùng rác của máy chủ"</string>
+	<!---->
+	<string name="system_folders_sent_title">"Thư mục các mục đã gửi"</string>
+	<!---->
+	<string name="system_folders_sent_summary">"Chọn thư mục các mục đã gửi của máy chủ"</string>
+	<!---->
+	<string name="system_folders_sent_dlg">"Chọn thư mục các mục đã gửi của máy chủ"</string>
+	<!---->
+	<string name="edit_quick_response_dialog">"Trả lời nhanh"</string>
+	<!---->
+	<string name="save_action">"Lưu"</string>
+	<!---->
+	<string name="account_settings_sync_contacts_enable">"Đồng bộ danh bạ"</string>
+	<!---->
+	<string name="account_settings_sync_contacts_summary">"Đồng bộ danh bạ cho tài khoản này"</string>
+	<!---->
+	<string name="account_settings_sync_calendar_enable">"Đồng bộ lịch"</string>
+	<!---->
+	<string name="account_settings_sync_calendar_summary">"Đồng bộ hóa sự kiện trên lịch cho tài khoản này"</string>
+	<!---->
+	<string name="account_settings_sync_email_enable">"Đồng bộ hóa email"</string>
+	<!---->
+	<string name="account_settings_sync_email_summary">"Đồng bộ hóa email cho tài khoản này"</string>
+	<!---->
+	<string name="account_settings_vibrate_when_label">"Rung"</string>
+	<!---->
+	<string name="account_settings_ringtone">"Chọn nhạc chuông"</string>
+	<!---->
+	<string name="account_settings_servers">"Cài đặt máy chủ"</string>
+	<!---->
+	<string name="default_ringtone">"Nhạc chuông mặc định"</string>
+	<!---->
+	<string name="default_ringtone_unkonwn">"Nhạc chuông không rõ"</string>
+	<!---->
+	<string name="mailbox_settings_activity_title">"Tùy chọn đồng bộ hóa"</string>
+	<!---->
+	<string name="mailbox_settings_activity_title_with_mailbox">"Tùy chọn đồng bộ hóa (<xliff:g id="MAILBOXX_NAME">%s</xliff:g>)"</string>
+	<!---->
+	<string name="mailbox_settings_sync_enabled_label">"Đồng bộ thư mục này"</string>
+	<!---->
+	<string name="mailbox_settings_sync_enabled_summary">"Thư sẽ được tải xuống khi đã kết nối"</string>
+	<!---->
+	<string name="mailbox_settings_mailbox_sync_window_label">"Ngày mail cần đồng bộ"</string>
+	<!---->
+	<string name="prefDialogTitle_conversationListIcon">"Ảnh người gửi"</string>
+	<!---->
+	<string name="provider_note_live">"Chỉ một số tài khoản \"Plus\" mới có quyền truy cập POP cho phép chương trình này kết nối. Nếu bạn không thể đăng nhập bằng địa chỉ email và mật khẩu chính xác của mình, bạn có thể không có tài khoản \"Plus\" tính phí. Hãy khởi chạy trình duyệt web để yêu cầu cấp quyền truy cập vào các tài khoản email này."</string>
+	<!---->
+	<string name="provider_note_t_online">"Trước khi thiết lập tài khoản email này, hãy truy cập trang web T-Online và tạo mật khẩu để truy cập email POP3."</string>
+	<!---->
+	<string name="exchange_name">"Kết hợp"</string>
+	<!---->
+	<string name="exchange_name_alternate">"Microsoft Exchange ActiveSync"</string>
+	<!---->
+	<string name="system_account_create_failed">"Không thể tạo tài khoản. Hãy thử lại."</string>
+	<!---->
+	<string name="device_admin_label">"Email"</string>
+	<!---->
+	<string name="device_admin_description">"Cho phép các chính sách bảo mật do máy chủ chỉ định"</string>
+	<!---->
+	<string name="settings_activity_title">"Cài đặt"</string>
+	<!---->
+	<string name="header_label_general_preferences">"Cài đặt chung"</string>
+	<!---->
+	<string name="general_preference_confirm_delete_label">"Xác nhận trước khi xóa"</string>
+	<!---->
+	<string name="general_preference_confirm_send_label">"Xác nhận trước khi gửi"</string>
+	<!---->
+	<string name="more_than_999">"999+"</string>
+	<!---->
+	<string name="search_hint">"Tìm"</string>
+	<!---->
+	<string name="policy_dont_allow_camera">"Không cho phép sử dụng máy ảnh thiết bị"</string>
+	<!---->
+	<string name="policy_require_password">"Yêu cầu mật khẩu thiết bị"</string>
+	<!---->
+	<string name="policy_password_history">"Hạn chế sử dụng lại các mật khẩu gần đây"</string>
+	<!---->
+	<string name="policy_password_expiration">"Yêu cầu mật khẩu phải hết hạn"</string>
+	<!---->
+	<string name="policy_screen_timeout">"Yêu cầu thiết bị nhàn rỗi phải khóa màn hình của nó"</string>
+	<!---->
+	<string name="policy_calendar_age">"Giới hạn số lượng sự kiện lịch được đồng bộ hóa"</string>
+	<!---->
+	<string name="policy_email_age">"Giới hạn số lượng email được đồng bộ hóa"</string>
+	<!---->
+	<string name="quick_1">"Xin cảm ơn!"</string>
+	<!---->
+	<string name="quick_2">"Nghe có vẻ hay đấy!"</string>
+	<!---->
+	<string name="quick_3">"Tôi sẽ đọc cái này sau và quay lại với bạn."</string>
+	<!---->
+	<string name="quick_4">"Hãy thiết lập một cuộc họp để thảo luận về điều này."</string>
+	<!---->
+	<string name="require_manual_sync_message">"Đồng bộ hóa nền cho tài khoản này bị tắt trong khi chuyển vùng."</string>
+	<!---->
+	<string name="confirm_response">"Đang gửi thư trả lời…"</string>
+	<!---->
+	<string name="no_conversations">"Không có tin nhắn."</string>
+	<!-- no translation found for imap_name -->
+	<skip />
+	<!-- no translation found for pop3_name -->
+	<skip />
+	<!---->
+	<string name="email_name">"Email"</string>
+	<!---->
+	<string name="folder_picker_title">"Trình chọn thư mục"</string>
+	<!---->
+	<string name="trash_folder_selection_title">"Chọn thư mục thùng rác của máy chủ cho <xliff:g id="account">%s</xliff:g>"</string>
+	<!---->
+	<string name="sent_folder_selection_title">"Chọn thư mục chứa mục đã gửi trên máy chủ cho <xliff:g id="ACCOUNT">%s</xliff:g>"</string>
+	<!---->
+	<string name="account_waiting_for_folders_msg">"Đang tải danh sách thư mục..."</string>
+	<!---->
+	<string name="no_quick_responses">"Không có cái nào sẵn có"</string>
+	<!---->
+	<string name="gmail_name">"Gmail"</string>
+	<!---->
+	<string name="folder_sync_settings_pref_title">"Cài đặt đồng bộ hóa thư mục"</string>
+	<!---->
+	<string name="select_your_account">"Chọn Tài khoản"</string>
+	<!---->
+	<string name="select_account_list_below">"Chọn tài khoản của bạn từ danh sách bên dưới:"</string>
+	<!---->
+	<string name="cancel_label">"Hủy"</string>
+	<!---->
+	<string name="next_label">"Tiếp theo"</string>
+	<!---->
+	<string name="str_account_provider_other">"Khác"</string>
+	<!---->
+	<string name="account_settings_download_options_label">"Tùy chọn tải xuống"</string>
+	<!---->
+	<string name="account_setting_download_opt_headonly">"Chỉ tiêu đề"</string>
+	<!---->
+	<string name="account_setting_download_opt_all">"Tất cả"</string>
+	<!-- no translation found for account_setting_download_opt_2k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_5k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_10k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_20k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_50k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_100k -->
+	<skip />
+	<!---->
+	<string name="account_oof_error_tip_past">"Giờ kết thúc không thể ở trong quá khứ. Hãy thay đổi giờ kết thúc sang thời điểm tương lai."</string>
+	<!---->
+	<string name="account_oof_error_tip_earlier">"Thời gian kết thúc không thể sớm hơn thời gian bắt đầu. Hãy thay đổi thời gian kết thúc một lần nữa."</string>
+	<!---->
+	<string name="account_setting_oof_label">"Cài đặt Rời Văn phòng"</string>
+	<!---->
+	<string name="oof_auto_repley">"Gửi trả lời tự động khi rời khỏi văn phòng"</string>
+	<!---->
+	<string name="oof_auto_replies_period">"Gửi những trả lời tự động trong thời gian này"</string>
+	<!---->
+	<string name="start_time">"Thời gian bắt đầu"</string>
+	<!---->
+	<string name="end_time">"Thời gian kết thúc"</string>
+	<!---->
+	<string name="internal_message">"Thư nội bên trong"</string>
+	<!---->
+	<string name="oof_auto_replies_external_senders">"Gửi những trả lời tự động đến những người gửi bên ngoài"</string>
+	<!---->
+	<string name="oof_choice_oof_in_contacts">"Gửi tự động trả lời Rời Văn phòng đến người gửi trong danh sách liên hệ của tôi"</string>
+	<!---->
+	<string name="oof_choice_oof_outside_organisation">"Gửi tự động trả lời Rời Văn phòng đến bất cứ ai ngoài công ty của tôi"</string>
+	<!---->
+	<string name="external_message">"Thư bên ngoài"</string>
+	<!---->
+	<string name="oof_done_message_attention">""Bạn đã không chỉ định tin nhắn trả lời tự động cho những người trong công ty của bạn. Nếu không nhập tin nhắn Rời Văn phòng, mọi người sẽ không nhận được thông báo Rời Văn phòng của bạn. Tuy nhiên các quy tắc cho Rời Văn phòng vẫn sẽ có tác dụng. Bạn có"</string>
+	<!---->
+	<string name="oof_choice_in_contacts">"Gửi tới những người gửi trong danh bạ của tôi"</string>
+	<!---->
+	<string name="oof_choice_all_senders">"Gửi tới tất cả những người gửi"</string>
+	<!---->
+	<string name="hint_text_of_internal_message">"Reply to addresses from your organisation"</string>
+	<!---->
+	<string name="hint_text_of_external_message">"Trả lời các địa chỉ bên ngoài tổ chức của bạn"</string>
+	<!---->
+	<string name="account_delete_dlg_title">"Xóa tài khoản?"</string>
+	<!---->
+	<string name="account_delete_dlg_instructions_fmt">"Tài khoản \"<xliff:g id="account">%s</xliff:g>\" sẽ bị xóa khỏi Email."</string>
+	<!---->
+	<string name="account_delete_dlg_instructions_fmt_new">"Việc xóa tài khoản này sẽ xóa tất cả tin nhắn, số liên hệ và dữ liệu khác khỏi điện thoại của bạn."</string>
+	<!---->
+	<string name="account_delete_dlg_action_remove_label">"Xóa"</string>
+	<!---->
+	<string name="account_delete_dlg_action_cancel_label">"Hủy"</string>
+	<!---->
+	<string name="account_settings_category_delete_account">"Xóa tài khoản"</string>
+	<!---->
+	<string name="account_settings_delete_account_label">"Xóa tài khoản"</string>
+	<!---->
+	<string name="account_settings_default_label">"Tài khoản mặc định"</string>
+	<!---->
+	<string name="account_settings_default_summary">"Gửi email từ tài khoản này theo mặc định"</string>
+	<!---->
+	<string name="account_setup_options_default_label">"Gửi email từ tài khoản này theo mặc định."</string>
+	<!---->
+	<string name="account_setup_basics_default_label">"Gửi email từ tài khoản này theo mặc định."</string>
+	<!---->
+	<string name="local_search_action">"Tìm trên máy"</string>
+	<!---->
+	<string name="service_search_action">"Tìm kiếm trên máy chủ"</string>
+	<!---->
+	<string name="local_search_all">"Tất cả"</string>
+	<!---->
+	<string name="local_search_from">"Từ"</string>
+	<!---->
+	<string name="local_search_to">"Tới"</string>
+	<!---->
+	<string name="local_search_subject">"Chủ đề"</string>
+	<!---->
+	<string name="status_loading_attachments">"Đang tải"</string>
+	<!---->
+	<string name="account_use_proxy_label">"Sử dụng proxy"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_label">"IP ủy nhiệm"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_port_label">"Cổng ủy nhiệm"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_name">"Tên proxy"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_password">"Mật khẩu ủy nhiệm"</string>
+	<!---->
+	<string name="attachment_info_dialog_wifi_title">"Yêu cầu kết nối Wi-Fi"</string>
+	<!---->
+	<string name="attachment_info_wifi_settings">"Cài đặt Wi-Fi"</string>
+	<!---->
+	<string name="attachment_info_wifi_only">"Tập tin đính kèm này quá lớn để tải xuống qua mạng di động. Bạn có thể tải tập tin xuống vào lần sau khi bạn kết nối với mạng Wi-Fi."</string>
+	<!---->
+	<string name="attachment_info_ok">"OK"</string>
+	<!---->
+	<string name="mailbox_name_display_draft">"Nháp"</string>
+	<!---->
+	<string name="message_compose_display_name">"<xliff:g example="John" id="name">%1$s</xliff:g> và <xliff:g example="27" id="number">%2$d</xliff:g> người khác"</string>
+	<!---->
+	<string name="app_name">"Email"</string>
+	<!---->
+	<string name="from">"Từ"</string>
+	<!---->
+	<string name="to">"Tới"</string>
+	<!---->
+	<string name="cc">"Cc"</string>
+	<!---->
+	<string name="bcc">"Bcc"</string>
+	<!---->
+	<string name="subject_hint">"Chủ đề"</string>
+	<!---->
+	<string name="body_hint">"Soạn email"</string>
+	<!---->
+	<string name="add_file_attachment">"Đính kèm tập tin"</string>
+	<!---->
+	<string name="add_photo_attachment">"Đính kèm ảnh"</string>
+	<!---->
+	<string name="save_draft">"Lưu bản nháp"</string>
+	<!---->
+	<string name="discard">"Loại bỏ"</string>
+	<!---->
+	<string name="compose">"Soạn"</string>
+	<!---->
+	<string name="select_contacts_field">"Chọn danh bạ từ"</string>
+	<!---->
+	<string name="item_save_group">"Lưu nhóm"</string>
+	<!---->
+	<string name="confirm_select">"Chọn"</string>
+	<!---->
+	<string name="cancel_select">"Hủy"</string>
+	<string-array name="compose_modes">
+		<item>"Trả lời"</item>
+		<item>"Trả lời tất cả"</item>
+		<item>"Chuyển tiếp"</item>
+	</string-array>
+	<string-array name="compose_modes_without_reply_all">
+		<item>"Trả lời"</item>
+		<item>"Chuyển tiếp"</item>
+	</string-array>
+	<!---->
+	<string name="reply_subject_label">"Trả lời:"</string>
+	<!---->
+	<string name="forward_subject_label">"CTiếp:"</string>
+	<!---->
+	<string name="reply_attribution">"vào <xliff:g id="date">%s</xliff:g>, <xliff:g id="person">%s</xliff:g> viết:"</string>
+	<!---->
+	<string name="forward_attribution">"---------- Tin nhắn đã chuyển tiếp ----------；Từ:；Ngày:；Chủ đề:；Đến:"</string>
+	<!---->
+	<string name="forward_attribution_with_headers">"---------- Tin nhắn được chuyển tiếp ---------- <xliff:g id="a">%s</xliff:g> Từ: <xliff:g id="from">%s</xliff:g> <xliff:g id="b">%s</xliff:g> Ngày: <xliff:g id="date">%s</xliff:g> <xliff:g id="c">%s</xliff:g> Nội dung: <xliff:g id="subject">%s</xliff:g> <xliff:g id="d">%s</xliff:g> Đến: <xliff:g id="to">%s</xliff:g> <xliff:g id="e">%s</xliff:g> Đồng gửi: <xliff:g id="cc">%s</xliff:g> <br/>"</string>
+	<!---->
+	<string name="forward_attribution_no_headers">"---------- Thư đã chuyển tiếp ----------"</string>
+	<!---->
+	<string name="cc_attribution">"Cc:"</string>
+	<!---->
+	<string name="select_attachment_type">"Chọn loại tập tin đính kèm"</string>
+	<!---->
+	<string name="too_large_to_attach_single">"Không thể đính kèm tập tin quá %1$s"</string>
+	<!---->
+	<string name="too_large_to_attach_multiple">"Một hoặc nhiều tập tin chưa được đính kèm. Giới hạn <xliff:g id="maxSize">%1$s</xliff:g>."</string>
+	<!---->
+	<string name="too_large_to_mid_attach_additional">"Email của bạn sẽ vượt quá <xliff:g id="maxSize">%1$s</xliff:g>. Tài khoản email của bạn có thể không hỗ trợ điều này."</string>
+	<!---->
+	<string name="too_large_to_attach_additional">"Không thể thêm file. Dung lượng email sẽ vượt quá giới hạn <xliff:g id="maxSize">%1$s</xliff:g>."</string>
+	<!---->
+	<string name="generic_attachment_problem">"Không thể đính kèm tập tin."</string>
+	<!---->
+	<string name="recipient_needed">"Thêm ít nhất một người nhận."</string>
+	<!---->
+	<string name="recipient_error_dialog_title">"Lỗi người nhận"</string>
+	<!---->
+	<string name="confirm_send_title">"Gửi tin nhắn?"</string>
+	<!---->
+	<string name="confirm_send_message_with_no_subject">"Không có văn bản trong tiêu đề tin nhắn"</string>
+	<!---->
+	<string name="confirm_send_message_with_no_body">"Không có văn bản trong nội dung tin nhắn."</string>
+	<!---->
+	<string name="confirm_send_message">"Gửi thư này?"</string>
+	<!---->
+	<string name="message_discarded">"Đã hủy bỏ thư."</string>
+	<!-- no translation found for signature -->
+	<skip />
+	<!---->
+	<string name="custom_from_account_label">"Gửi thư dạng:"</string>
+	<!---->
+	<string name="send">"Gửi"</string>
+	<!---->
+	<string name="mark_read">"Đánh dấu đã đọc"</string>
+	<!---->
+	<string name="mark_unread">"Đánh dấu chưa đọc"</string>
+	<!---->
+	<string name="mute">"Tắt tiếng"</string>
+	<!---->
+	<string name="add_star">"Thêm dấu sao"</string>
+	<!---->
+	<string name="remove_star">"Xóa dấu sao"</string>
+	<!---->
+	<string name="remove_folder">"Xóa khỏi <xliff:g id="folderName">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="archive">"Lưu trữ"</string>
+	<!---->
+	<string name="report_spam">"Báo cáo thư rác"</string>
+	<!---->
+	<string name="mark_not_spam">"Báo cáo: Không phải thư rác"</string>
+	<!---->
+	<string name="report_phishing">"Báo cáo lừa đảo"</string>
+	<!---->
+	<string name="delete">"Xóa"</string>
+	<!---->
+	<string name="discard_drafts">"Loại bỏ bản nháp"</string>
+	<!---->
+	<string name="discard_failed">"Hủy bỏ thất bại"</string>
+	<!---->
+	<string name="refresh">"Làm mới"</string>
+	<!---->
+	<string name="reply">"Trả lời"</string>
+	<!---->
+	<string name="reply_all">"Trả lời tất cả"</string>
+	<!---->
+	<string name="resume_draft">"Chỉnh sửa"</string>
+	<!---->
+	<string name="forward">"Chuyển tiếp"</string>
+	<!---->
+	<string name="menu_compose">"Soạn"</string>
+	<!---->
+	<string name="menu_sort">"Sắp xếp"</string>
+	<!---->
+	<string name="menu_change_folders">"Thay đổi thư mục"</string>
+	<!---->
+	<string name="menu_move_to">"Di chuyển tới"</string>
+	<!---->
+	<string name="menu_move_to_inbox">"Di chuyển vào Hộp thư đến"</string>
+	<!---->
+	<string name="menu_manage_folders">"Cài đặt thư mục"</string>
+	<!---->
+	<string name="menu_show_original">"Hoàn nguyên tự động thay đổi kích cỡ"</string>
+	<!---->
+	<string name="menu_settings">"Cài đặt"</string>
+	<!---->
+	<string name="menu_search">"Tìm kiếm"</string>
+	<!---->
+	<string name="drawer_title">"Điều hướng"</string>
+	<!---->
+	<string name="mark_important">"Đánh dấu quan trọng"</string>
+	<!---->
+	<string name="mark_not_important">"Đánh dấu không quan trọng"</string>
+	<!---->
+	<string name="select_all_conversations">"Chọn tất cả"</string>
+	<!---->
+	<string name="unselect_all_conversations">"Bỏ chọn tất cả"</string>
+	<!---->
+	<string name="add_cc_label">"Thêm Cc/Bcc"</string>
+	<!---->
+	<string name="add_bcc_label">"Thêm Bcc"</string>
+	<!---->
+	<string name="quoted_text">"Bao gồm văn bản trích dẫn"</string>
+	<!---->
+	<string name="quoted_text_label">"Nội dung trích dẫn"</string>
+	<!---->
+	<string name="respond_inline">"Đáp ứng trong hàng"</string>
+	<!---->
+	<string name="bytes">"<xliff:g id="count">%s</xliff:g> B"</string>
+	<!---->
+	<string name="kilobytes">"<xliff:g id="count">%s</xliff:g> KB"</string>
+	<!---->
+	<string name="megabytes">"<xliff:g id="count">%s</xliff:g> MB"</string>
+	<!---->
+	<string name="attachment_image">"Ảnh"</string>
+	<!---->
+	<string name="attachment_video">"Video"</string>
+	<!---->
+	<string name="attachment_audio">"Âm thanh"</string>
+	<!---->
+	<string name="attachment_text">"Văn bản"</string>
+	<!---->
+	<string name="attachment_application_msword">"Tài liệu"</string>
+	<!---->
+	<string name="attachment_application_vnd_ms_powerpoint">"Bản trình bày"</string>
+	<!---->
+	<string name="attachment_application_vnd_ms_excel">"Bảng tính"</string>
+	<!-- no translation found for attachment_application_pdf -->
+	<skip />
+	<!---->
+	<string name="attachment_unknown">"<xliff:g id="attachmentExtension">%s</xliff:g> Tập tin"</string>
+	<!---->
+	<string name="preview_attachment">"Xem trước"</string>
+	<!---->
+	<string name="save_attachment">"Lưu"</string>
+	<!---->
+	<string name="cancel_attachment">"Hủy"</string>
+	<!---->
+	<string name="open_attachment">"Mở"</string>
+	<!---->
+	<string name="install_attachment">"Cài đặt"</string>
+	<!---->
+	<string name="download_again">"Tải xuống lại"</string>
+	<!---->
+	<string name="more_info_attachment">"Thông tin"</string>
+	<!---->
+	<string name="no_application_found">"Không ứng dụng nào có thể mở tập tin đính kèm này để xem."</string>
+	<!---->
+	<string name="fetching_attachment">"Tìm nạp tập tin đính kèm"</string>
+	<!---->
+	<string name="please_wait">"Vui lòng đợi\u2026"</string>
+	<!---->
+	<string name="saved">"Đã lưu,"</string>
+	<!---->
+	<string name="download_failed">"Không thể tải xuống. Chạm để thử lại."</string>
+	<!---->
+	<string name="menu_photo_save_all">"Lưu tất cả"</string>
+	<!---->
+	<string name="menu_photo_share">"Chia sẻ"</string>
+	<!---->
+	<string name="menu_photo_share_all">"Chia sẻ tất cả"</string>
+	<!---->
+	<string name="menu_photo_print">"In"</string>
+	<!---->
+	<string name="saving">"Đang lưu..."</string>
+	<!---->
+	<string name="choosertitle_sharevia">"Chia sẻ qua"</string>
+	<!---->
+	<string name="contextmenu_openlink">"Mở trong Trình duyệt"</string>
+	<!---->
+	<string name="contextmenu_copy">"Sao chép"</string>
+	<!---->
+	<string name="contextmenu_copylink">"Sao chép địa chỉ URL liên kết"</string>
+	<!---->
+	<string name="contextmenu_view_image">"Xem hình ảnh"</string>
+	<!---->
+	<string name="contextmenu_dial_dot">"Gọi"</string>
+	<!---->
+	<string name="contextmenu_sms_dot">"SMS\u2026"</string>
+	<!---->
+	<string name="contextmenu_add_contact">"Thêm liên hệ"</string>
+	<!---->
+	<string name="contextmenu_send_mail">"Gửi email"</string>
+	<!---->
+	<string name="contextmenu_map">"Bản đồ"</string>
+	<!---->
+	<string name="contextmenu_sharelink">"Chia sẻ liên kết"</string>
+	<!---->
+	<string name="contextmenu_savelink">"Lưu liên kết"</string>
+	<!---->
+	<string name="contextmenu_help">"Trợ giúp"</string>
+	<!---->
+	<string name="contextmenu_feedback">"Gửi phản hồi"</string>
+	<!---->
+	<string name="sort_title">"Xếp theo"</string>
+	<!---->
+	<string name="sort_by_tip">"Sắp xếp theo <xliff:g id="sor_type">%s</xliff:g>"</string>
+	<!-- no translation found for num_selected -->
+	<skip />
+	<plurals name="move_conversation">
+		<item quantity="one">"Trò chuyện khác"</item>
+		<item quantity="other">"Di chuyển <xliff:g>%1$d</xliff:g> cuộc trò chuyện"</item>
+	</plurals>
+	<!---->
+	<string name="content_description">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> khoảng <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> trên <xliff:g id="date">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g>"</string>
+	<!---->
+	<string name="content_description_today">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> khoảng <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> ở <xliff:g id="time">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g>"</string>
+	<!---->
+	<string name="read_string">"Cuộc trò chuyện đã đọc"</string>
+	<!---->
+	<string name="unread_string">"Cuộc trò chuyện chưa đọc"</string>
+	<!---->
+	<string name="filtered_tag">"[<xliff:g id="tag">%1$s</xliff:g>]<xliff:g id="subject">%2$s</xliff:g>"</string>
+	<!-- no translation found for badge_and_subject -->
+	<skip />
+	<plurals name="draft">
+		<item quantity="one">"Nháp"</item>
+		<item quantity="other">"Nháp"</item>
+	</plurals>
+	<!---->
+	<string name="sending">"Đang gửi\u2026"</string>
+	<!---->
+	<string name="message_retrying">"Đang thử lại\u2026"</string>
+	<!---->
+	<string name="message_failed">"Bị lỗi"</string>
+	<!---->
+	<string name="send_failed">"Không gửi được email."</string>
+	<!---->
+	<string name="send_failed_wait_attchment_downloaded">"Không thể chuyển tiếp vì tập tin đính kèm không được tải về hoàn toàn, xin vui lòng tải về tập tin đính kèm trước tiên."</string>
+	<!---->
+	<string name="me_object_pronoun">"Tôi"</string>
+	<!---->
+	<string name="me_subject_pronoun">"Tôi"</string>
+	<plurals name="confirm_delete_conversation">
+		<item quantity="one">"Xóa cuộc trò chuyện này?"</item>
+		<item quantity="other">"Xóa <xliff:g id="count">%1$d</xliff:g> cuộc trò chuyện này?"</item>
+	</plurals>
+	<plurals name="confirm_archive_conversation">
+		<item quantity="one">"Lưu trữ cuộc trò chuyện này?"</item>
+		<item quantity="other">"Lưu trữ <xliff:g id="count">%1$d</xliff:g> cuộc trò chuyện này?"</item>
+	</plurals>
+	<plurals name="confirm_discard_drafts_conversation">
+		<item quantity="one">"Loại bỏ tin nhắn này?"</item>
+		<item quantity="other">"Hủy bỏ những <xliff:g id="count">%1$d</xliff:g> tin nhắn này?"</item>
+	</plurals>
+	<!---->
+	<string name="confirm_discard_text">"Loại bỏ tin nhắn này?"</string>
+	<!---->
+	<string name="loading_conversations">"Đang tải\u2026"</string>
+	<!---->
+	<string name="empty_inbox">"Bạn đã hoàn thành! Hãy tận hưởng ngày của mình."</string>
+	<!---->
+	<string name="empty_search">"Rất tiếc! Chúng tôi đã không tìm thấy bất cứ thứ gì cho \"<xliff:g id="search_query">%1$s</xliff:g>\"."</string>
+	<!---->
+	<string name="empty_spam_folder">"Hura, không còn thư rác ở đây nữa!"</string>
+	<!---->
+	<string name="empty_trash_folder">"Không có rác ở đây. Cảm ơn đã tái chế!"</string>
+	<!---->
+	<string name="empty_folder">"Không có thư nào ở đây."</string>
+	<!---->
+	<string name="getting_messages">"Nhận tin nhắn của bạn"</string>
+	<!---->
+	<string name="undo">"Hoàn tác"</string>
+	<plurals name="conversation_unstarred">
+		<item quantity="one">"Hủy gắn sao <xliff:g id="count">%1$d</xliff:g> cuộc trò chuyện."</item>
+		<item quantity="other">"Hủy gắn sao <xliff:g id="count">%1$d</xliff:g> cuộc trò chuyện."</item>
+	</plurals>
+	<plurals name="conversation_muted">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> bị tắt tiếng."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> bị tắt tiếng."</item>
+	</plurals>
+	<plurals name="conversation_spammed">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> được báo cáo là thư rác."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> được báo cáo là thư rác."</item>
+	</plurals>
+	<plurals name="conversation_not_spam">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> được báo cáo không phải thư rác."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> được báo cáo không phải thư rác."</item>
+	</plurals>
+	<plurals name="conversation_not_important">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> được đánh dấu không quan trọng."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> được đánh dấu không quan trọng."</item>
+	</plurals>
+	<plurals name="conversation_phished">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> được báo cáo là lừa đảo."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> được báo cáo là lừa đảo."</item>
+	</plurals>
+	<plurals name="conversation_archived">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> đã lưu trữ."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> đã lưu trữ."</item>
+	</plurals>
+	<plurals name="conversation_deleted">
+		<item quantity="one">"&lt;b&gt;%1$d&lt;/b&gt; được xóa."</item>
+		<item quantity="other">"&lt;b&gt;%1$d&lt;/b&gt; được xóa."</item>
+	</plurals>
+	<!---->
+	<string name="deleted">"Đã xóa"</string>
+	<!---->
+	<string name="archived">"Đã lưu trữ"</string>
+	<!---->
+	<string name="starred">"Được gắn sao"</string>
+	<!---->
+	<string name="unstarred">"Đã hủy đánh dấu sao"</string>
+	<!---->
+	<string name="folder_removed">"Đã xóa khỏi <xliff:g id="folderName">%1$s</xliff:g>"</string>
+	<plurals name="conversation_folder_changed">
+		<item quantity="one">"Thư mục đã thay đổi."</item>
+		<item quantity="other">"Thư mục đã thay đổi."</item>
+	</plurals>
+	<!---->
+	<string name="conversation_folder_moved">"Di chuyển đến <xliff:g id="folderName">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="search_results_header">"Kết quả"</string>
+	<!---->
+	<string name="search_unsupported">"Tìm kiếm không được hỗ trợ trên tài khoản này."</string>
+	<!---->
+	<string name="add_label">"Thêm thư mục"</string>
+	<!---->
+	<string name="new_incoming_messages_one">"Hiển thị tin nhắn mới từ <xliff:g id="sender">%s</xliff:g>."</string>
+	<plurals name="new_incoming_messages_many">
+		<item quantity="other">"Hiển thị <xliff:g id="count">%1$d</xliff:g> tin nhắn mới."</item>
+	</plurals>
+	<!---->
+	<string name="date_and_view_details">"<xliff:g id="date">%1$s</xliff:g> &lt;a href=\'http://www.example.com\'&gt;Xem chi tiết&lt;/a&gt;"</string>
+	<!---->
+	<string name="date_and_view_details_another">"<xliff:g id="date">%1$s</xliff:g> &lt;font color=\"<xliff:g id="color">%2$d</xliff:g>\"&gt;Xem chi tiết&lt;/font&gt;"</string>
+	<!---->
+	<string name="hide_details">"Ẩn chi tiết"</string>
+	<!---->
+	<string name="to_message_header">"đến <xliff:g id="recipients">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="contact_info_string">"Hiện thông tin liên lạc cho <xliff:g id="name">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="contact_info_string_default">"Hiện thông tin liên lạc"</string>
+	<plurals name="show_messages_read">
+		<item quantity="other">"<xliff:g example="4" id="count">%1$d</xliff:g> tin nhắn cũ hơn"</item>
+	</plurals>
+	<!---->
+	<string name="from_heading">"Từ:"</string>
+	<!---->
+	<string name="replyto_heading">"Phản hồi cho:"</string>
+	<!---->
+	<string name="to_heading">"Đến:"</string>
+	<!---->
+	<string name="to_heading_no_space">"Đến:"</string>
+	<!---->
+	<string name="cc_heading">"Cc:"</string>
+	<!---->
+	<string name="bcc_heading">"Bcc:"</string>
+	<!---->
+	<string name="date_heading">"Ngày:"</string>
+	<!---->
+	<string name="show_images">"Hiển thị hình ảnh"</string>
+	<!---->
+	<string name="always_show_images">"Luôn hiển thị ảnh từ người gửi này"</string>
+	<!---->
+	<string name="always_show_images_toast">"Hình ảnh từ người gửi này sẽ được hiển thị tự động."</string>
+	<!---->
+	<string name="address_display_format">"<xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g>"</string>
+	<!---->
+	<string name="address_display_format_with_via_domain">"<xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g> thông qua <xliff:g id="via_domain">%3$s</xliff:g>"</string>
+	<!---->
+	<string name="message_saved">"Thư đã lưu dưới dạng nháp."</string>
+	<!---->
+	<string name="sending_message">"Gửi thư\u2026"</string>
+	<!---->
+	<string name="invalid_recipient">"Địa chỉ %s không hợp lệ."</string>
+	<!---->
+	<string name="show_elided">"Hiện văn bản trích dẫn"</string>
+	<!---->
+	<string name="hide_elided">"\u25BC Ẩn văn bản trích dẫn"</string>
+	<!---->
+	<string name="message_invite_title">"Thư mời kèm lịch"</string>
+	<!---->
+	<string name="message_invite_available">"Bạn đang trực tuyến"</string>
+	<!---->
+	<string name="message_invite_datetime">"Khi"</string>
+	<!---->
+	<string name="message_invite_location">"Địa điểm"</string>
+	<!---->
+	<string name="message_invite_in_calendar_view">"Xem trong Lịch"</string>
+	<!---->
+	<string name="message_invite_calendar_view">"Xem trong Lịch"</string>
+	<!---->
+	<string name="message_invite_label_attending">"Sẽ tham gia?"</string>
+	<!---->
+	<string name="message_invite_accept">"Có"</string>
+	<!---->
+	<string name="message_invite_tentative">"Có thể"</string>
+	<!---->
+	<string name="message_invite_decline">"Không"</string>
+	<!-- no translation found for enumeration_comma -->
+	<skip />
+	<!---->
+	<string name="send_anyway">"Vẫn gửi"</string>
+	<!---->
+	<string name="ok">"OK"</string>
+	<!---->
+	<string name="done">"Xong"</string>
+	<!---->
+	<string name="cancel">"Hủy"</string>
+	<!---->
+	<string name="clear">"Xóa"</string>
+	<!---->
+	<string name="next">"Tiếp theo"</string>
+	<!---->
+	<string name="previous">"Trước"</string>
+	<string-array name="sync_status">
+		<item>"Bạn không có kết nối Wi-Fi, bạn có tiếp tục đồng bộ hóa không?"</item>
+		<item>"Không có kết nối."</item>
+		<item>"Không thể đăng nhập."</item>
+		<item>"Lỗi bảo mật."</item>
+		<item>"Không thể đồng bộ hóa."</item>
+		<item>"Lỗi nội bộ"</item>
+		<item>"Lỗi máy chủ"</item>
+	</string-array>
+	<!---->
+	<string name="tap_to_configure">"Chạm để thiết lập"</string>
+	<!---->
+	<string name="non_synced_folder_description">"Để xem các cuộc trò chuyện, hãy đồng bộ hóa thư mục này."</string>
+	<!---->
+	<string name="tap_to_configure_folder_sync">"Đồng bộ hóa thư mục"</string>
+	<!-- no translation found for widget_large_unread_count -->
+	<skip />
+	<!---->
+	<string name="large_unseen_count">"<xliff:g example="99" id="count">%d</xliff:g>+ mới"</string>
+	<!---->
+	<string name="unseen_count">"<xliff:g example="4" id="count">%d</xliff:g> mới"</string>
+	<plurals name="actionbar_unread_messages">
+		<item quantity="other">"%1$d chưa đọc"</item>
+	</plurals>
+	<!---->
+	<string name="actionbar_large_unread_count">"<xliff:g id="count">%1$d</xliff:g>+ chưa đọc"</string>
+	<!---->
+	<string name="view_more_conversations">"Xem thêm cuộc trò chuyện"</string>
+	<!---->
+	<string name="loading_conversation">"Đang tải\u2026"</string>
+	<!---->
+	<string name="activity_mailbox_selection">"Chọn tài khoản"</string>
+	<!---->
+	<string name="activity_folder_selection">"Chọn thư mục"</string>
+	<!---->
+	<string name="folder_shortcut_widget_label">"Thư mục email"</string>
+	<!---->
+	<string name="change_folders_selection_dialog_title">"Thay đổi thư mục"</string>
+	<!---->
+	<string name="move_to_selection_dialog_title">"Di chuyển tới"</string>
+	<!-- no translation found for search_results_loaded -->
+	<skip />
+	<!---->
+	<string name="network_error">"Không có kết nối"</string>
+	<!---->
+	<string name="retry">"Thử lại"</string>
+	<!---->
+	<string name="load_more">"Tải thêm"</string>
+	<!---->
+	<string name="shortcut_name_title">"Đặt tên lối tắt thư mục"</string>
+	<!---->
+	<string name="wait_for_sync_title">"Đang đợi đồng bộ hóa"</string>
+	<!---->
+	<string name="not_synced_title">"Tài khoản không được đồng bộ hóa"</string>
+	<!---->
+	<string name="wait_for_manual_sync_body">"Tài khoản này chưa được thiết lập để tự động đồng bộ hóa.\nChạm vào <b>Đồng bộ hóa ngay</b> để đồng bộ hóa thư một lần, hoặc <b>Thay đổi cài đặt đồng bộ hóa</b> để thiết lập tài khoản này tự động đồng bộ hóa thư."</string>
+	<!---->
+	<string name="manual_sync">"Đồng bộ ngay"</string>
+	<!---->
+	<string name="change_sync_settings">"Thay đổi cài đặt đồng bộ hóa"</string>
+	<!---->
+	<string name="photo_load_failed">"Không thể tải hình ảnh"</string>
+	<!---->
+	<string name="cant_move_or_change_labels">"Không thể di chuyển vì lựa chọn chứa nhiều tài khoản."</string>
+	<!-- no translation found for multiple_new_message_notification_item -->
+	<skip />
+	<!-- no translation found for single_new_message_notification_big_text -->
+	<skip />
+	<!---->
+	<string name="ignore_spam_warning">"Bỏ qua, tôi tin cậy tin nhắn này"</string>
+	<!---->
+	<string name="via_domain">"thông qua <xliff:g id="viaDomain">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="signin">"Đăng nhập"</string>
+	<!---->
+	<string name="info">"Thông tin"</string>
+	<!---->
+	<string name="report">"Báo cáo"</string>
+	<!---->
+	<string name="sync_error">"Không thể đồng bộ hóa."</string>
+	<!---->
+	<string name="sync_error_message">"Thiết bị của bạn không có đủ chỗ trống lưu trữ để đồng bộ hóa."</string>
+	<!---->
+	<string name="storage">"Lưu trữ"</string>
+	<!-- no translation found for senders_split_token -->
+	<skip />
+	<!-- no translation found for draft_count_format -->
+	<skip />
+	<!---->
+	<string name="all_folders_heading">"Tất cả thư mục"</string>
+	<!---->
+	<string name="recent_folders_heading">"Thư mục gần đây"</string>
+	<!---->
+	<string name="message_details_title">"Chi tiết tin nhắn"</string>
+	<!---->
+	<string name="preference_advance_to_title">"Tự động tiến"</string>
+	<string-array name="prefEntries_autoAdvance">
+		<item>"Mới hơn"</item>
+		<item>"Trước đó"</item>
+		<item>"Danh sách cuộc trò chuyện"</item>
+	</string-array>
+	<string-array name="prefSummaries_autoAdvance">
+		<item>"Hiện cuộc trò chuyện mới hơn sau khi bạn xóa"</item>
+		<item>"Hiện cuộc trò chuyện cũ hơn sau khi bạn xóa"</item>
+		<item>"Hiện danh sách cuộc trò chuyện sau khi bạn xóa"</item>
+	</string-array>
+	<!---->
+	<string name="prefDialogTitle_autoAdvance">"Chuyển sang"</string>
+	<!---->
+	<string name="clear_display_images_whitelist_title">"Xóa phê duyệt ảnh"</string>
+	<!---->
+	<string name="clear_display_images_whitelist_dialog_title">"Xóa phê duyệt ảnh?"</string>
+	<!---->
+	<string name="clear_display_images_whitelist_dialog_message">"Dừng hiển thị các ảnh nội tuyến từ những người gửi bạn đã cho phép trước đây."</string>
+	<!---->
+	<string name="sender_whitelist_cleared">"Ảnh sẽ không được hiển thị tự động."</string>
+	<!---->
+	<string name="preferences_signature_title">"Chữ ký"</string>
+	<!---->
+	<string name="preferences_signature_dialog_title">"Chữ ký"</string>
+	<!---->
+	<string name="preferences_signature_summary_not_set">"Chưa cài đặt"</string>
+	<!---->
+	<string name="mail_account_signature_prefix">"Gửi từ <xliff:g example="4" id="product">%1$s</xliff:g> của tôi"</string>
+	<!---->
+	<string name="notification_action_reply">"Trả lời"</string>
+	<!---->
+	<string name="notification_action_reply_all">"Trả lời tất cả"</string>
+	<!---->
+	<string name="notification_action_archive">"Lưu trữ"</string>
+	<!---->
+	<string name="notification_action_remove_label">"Xóa nhãn"</string>
+	<!---->
+	<string name="notification_action_delete">"Xóa"</string>
+	<!---->
+	<string name="notification_action_undo_archive">"Đã lưu trữ"</string>
+	<!---->
+	<string name="notification_action_undo_remove_label">"Đã xóa nhãn"</string>
+	<!---->
+	<string name="notification_action_undo_delete">"Đã xóa"</string>
+	<!-- no translation found for veiled_address -->
+	<skip />
+	<!-- no translation found for veiled_alternate_text -->
+	<skip />
+	<!-- no translation found for veiled_alternate_text_unknown_person -->
+	<skip />
+	<!-- no translation found for veiled_summary_unknown_person -->
+	<skip />
+	<!-- no translation found for label_notification_ticker -->
+	<skip />
+	<plurals name="new_messages">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> tin nhắn mới"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> tin nhắn mới"</item>
+	</plurals>
+	<!-- no translation found for single_new_message_notification_title -->
+	<skip />
+	<!---->
+	<string name="silent_ringtone">"Im lặng"</string>
+	<!---->
+	<string name="preference_removal_action_title">"Lưu trữ &amp; xóa các hành động"</string>
+	<string-array name="prefEntries_removal_action">
+		<item>"Chỉ hiện đã lưu trữ"</item>
+		<item>"Chỉ hiện đã xóa"</item>
+		<item>"Hiện lưu trữ &amp; xóa"</item>
+	</string-array>
+	<string-array name="prefSummaries_removal_action_summary">
+		<item>"Chỉ hiện đã lưu trữ"</item>
+		<item>"Chỉ hiện đã xóa"</item>
+		<item>"Hiện lưu trữ &amp; xóa"</item>
+	</string-array>
+	<!---->
+	<string name="prefDialogTitle_removal_action">"Lưu trữ &amp; xóa các hành động"</string>
+	<!---->
+	<string name="preferences_default_reply_all_title">"Trả lời tất cả"</string>
+	<!---->
+	<string name="preferences_default_reply_all_summary_impl">"Sử dụng làm mặc định để trả lời tin nhắn"</string>
+	<!---->
+	<string name="preference_swipe_title_archive">"Vuốt để lưu trữ"</string>
+	<!---->
+	<string name="preference_swipe_title_delete">"Vuốt để xóa"</string>
+	<!---->
+	<string name="preference_swipe_description">"Trong danh sách cuộc trò chuyện"</string>
+	<!---->
+	<string name="preference_swipe_actions">"Các thao tác vuốt"</string>
+	<!---->
+	<string name="preference_sender_image_title">"Ảnh người gửi"</string>
+	<!---->
+	<string name="preference_sender_image_description">"Hiện bên cạnh tên trong danh sách trò chuyện"</string>
+	<!---->
+	<string name="empty_trash">"Xóa Thùng rác"</string>
+	<!---->
+	<string name="empty_spam">"Xóa thư rác"</string>
+	<!---->
+	<string name="star_toggle">"Đánh sấu sao lệnh bật tắt"</string>
+	<!---->
+	<string name="empty_trash_dialog_title">"Xóa thùng rác?"</string>
+	<!---->
+	<string name="empty_spam_dialog_title">"Xóa thư rác?"</string>
+	<plurals name="empty_folder_dialog_message">
+		<item quantity="one">"%1$d tin nhắn sẽ bị xóa vĩnh viễn."</item>
+		<item quantity="other">"%1$d tin nhắn sẽ bị xóa vĩnh viễn."</item>
+	</plurals>
+	<!---->
+	<string name="drawer_open">"Mở hướng ngăn điều hướng"</string>
+	<!---->
+	<string name="drawer_close">"Thông tin về bản quyền"</string>
+	<!---->
+	<string name="conversation_photo_welcome_text">"Chạm vào ảnh người gửi để chọn cuộc trò chuyện đó."</string>
+	<!---->
+	<string name="long_press_to_select_tip">"Chạm &amp; giữ để chọn một cuộc trò chuyện, sau đó chạm để chọn thêm."</string>
+	<!---->
+	<string name="folder_icon_desc">"Biểu tượng thư mục"</string>
+	<!---->
+	<string name="add_account">"Thêm tài khoản"</string>
+	<!---->
+	<string name="dismiss_tip_hover_text">"Bỏ qua mẹo"</string>
+	<!---->
+	<string name="auto_sync_off">"Tự động đồng bộ hóa đang tắt."</string>
+	<!---->
+	<string name="tap_to_enable_sync">"Chạm để bật."</string>
+	<!---->
+	<string name="account_sync_off">"Đồng bộ hóa tài khoản đang tắt."</string>
+	<!---->
+	<string name="enable_sync_in_account_settings">"Bật trong <xliff:g id="account_settings">%1$s</xliff:g>."</string>
+	<!---->
+	<string name="account_settings_param">"Cài đặt tài khoản"</string>
+	<!---->
+	<string name="unsent_messages_in_outbox">"<xliff:g id="number">%1$s</xliff:g> chưa được gửi trong <xliff:g id="outbox">%2$s</xliff:g>"</string>
+	<!---->
+	<string name="turn_auto_sync_on_dialog_title">"Bật tự động đồng bộ hóa?"</string>
+	<!---->
+	<string name="turn_auto_sync_on_dialog_body">"Các thay đổi bạn thực hiện cho tất cả các ứng dụng và tài khoản, không chỉ Gmail, sẽ được đồng bộ hóa với trang web, các thiết bị khác của bạn, và <xliff:g id="phone_or_tablet">%1$s</xliff:g>."</string>
+	<!---->
+	<string name="phone">"Điện thoại"</string>
+	<!---->
+	<string name="tablet">"Máy tính bảng"</string>
+	<!---->
+	<string name="turn_auto_sync_on_dialog_confirm_btn">"Bật"</string>
+	<!---->
+	<string name="show_n_more_folders">"Hiện thêm %1$s thư mục"</string>
+	<!---->
+	<string name="hide_folders">"Ẩn thư mục"</string>
+	<!---->
+	<string name="print">"In"</string>
+	<!---->
+	<string name="print_all">"In tất cả"</string>
+	<plurals name="num_messages">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> tin nhắn"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> tin nhắn"</item>
+	</plurals>
+	<!-- no translation found for date_message_received_print -->
+	<skip />
+	<!---->
+	<string name="draft_to_heading">"Thư nháp cho:"</string>
+	<!---->
+	<string name="draft_heading">"Nháp"</string>
+	<!---->
+	<string name="quoted_text_hidden_print">"Đã ẩn văn bản trích dẫn"</string>
+	<plurals name="num_attachments">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> tập tin đính kèm"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> tập tin đính kèm"</item>
+	</plurals>
+	<!---->
+	<string name="no_subject">"(Không có chủ đề)"</string>
+	<!---->
+	<string name="vacation_responder">"Trình trả lời trong thời gian nghỉ"</string>
+	<!---->
+	<string name="preferences_vacation_responder_title">"Trình trả lời trong thời gian nghỉ"</string>
+	<!---->
+	<string name="vacation_responder_body_hint_text">"Thư"</string>
+	<!---->
+	<string name="send_to_contacts_text">"Chỉ gửi đến Danh bạ của tôi"</string>
+	<!---->
+	<string name="send_to_domain_text">"Chỉ gửi đến <xliff:g id="domain">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="pick_start_date_title">"Bắt đầu"</string>
+	<!---->
+	<string name="pick_end_date_title">"Kết thúc (Tùy chọn)"</string>
+	<!---->
+	<string name="date_not_set">"Chưa cài đặt"</string>
+	<!---->
+	<string name="set_end_date_dialog_title">"Ngày kết thúc (tùy chọn)"</string>
+	<!---->
+	<string name="custom_date">"Tùy chỉnh"</string>
+	<!---->
+	<string name="date_none">"Không có"</string>
+	<!---->
+	<string name="discard_changes">"Hủy thay đổi?"</string>
+	<!---->
+	<string name="draft_saved">"Lưu bản nháp"</string>
+	<!---->
+	<string name="draft_discard">"Hủy bỏ bản nháp"</string>
+	<!---->
+	<string name="vacation_responder_changes_saved">"Đã lưu những thay đổi về trình trả lời trong thời gian nghỉ"</string>
+	<!---->
+	<string name="vacation_responder_changes_discarded">"Đã hủy những thay đổi về trình trả lời trong thời gian nghỉ"</string>
+	<!---->
+	<string name="vacation_responder_off">"TẮT"</string>
+	<!-- no translation found for vacation_responder_on -->
+	<skip />
+	<!-- no translation found for vacation_responder_on_with_end_date -->
+	<skip />
+	<!---->
+	<string name="vacation_responder_empty_subject_and_body_warning">"Thêm chủ đề hoặc tin nhắn"</string>
+	<!---->
+	<string name="view_entire_message">"Xem toàn bộ tin nhắn"</string>
+	<!---->
+	<string name="eml_loader_error_toast">"Không thể mở tập tin này"</string>
+	<!---->
+	<string name="help_and_info">"Trợ giúp"</string>
+	<!---->
+	<string name="help_and_feedback">"Trợ giúp &amp; phản hồi"</string>
+	<!---->
+	<string name="feedback">"Gửi phản hồi"</string>
+	<!---->
+	<string name="copyright">"©<xliff:g example="2010" id="year">%1$d</xliff:g> Google Inc."</string>
+	<!---->
+	<string name="version">"<xliff:g example="Email" id="app_name">%1$s</xliff:g> phiên bản <xliff:g example="2.2.1" id="version">%2$s</xliff:g>"</string>
+	<!-- no translation found for view_app_page -->
+	<skip />
+	<!---->
+	<string name="print_dialog">"In\u2026"</string>
+	<!---->
+	<string name="copyright_information">"Thông tin về bản quyền"</string>
+	<!---->
+	<string name="privacy_policy">"Chính sách về quyền riêng tư"</string>
+	<!---->
+	<string name="open_source_licenses">"Giấy phép nguồn mở"</string>
+	<!---->
+	<string name="reply_choice_yes">"Có"</string>
+	<!---->
+	<string name="reply_choice_no">"Không"</string>
+	<!---->
+	<string name="reply_choice_ok">"OK"</string>
+	<!-- no translation found for reply_choice_hehe -->
+	<skip />
+	<!---->
+	<string name="reply_choice_thanks">"Xin cảm ơn"</string>
+	<!---->
+	<string name="reply_choice_i_agree">"Tôi đồng ý"</string>
+	<!---->
+	<string name="reply_choice_nice">"Tốt"</string>
+	<!---->
+	<string name="reply_on_my_way">"Tôi đang rời đi"</string>
+	<!---->
+	<string name="reply_choice_later">"OK, để tôi quay lại với bạn"</string>
+	<!-- no translation found for reply_choice_smiling_face -->
+	<skip />
+	<!-- no translation found for reply_choice_frowning_face -->
+	<skip />
+	<!---->
+	<string name="preference_header_action_confirmations">"Xác nhận Hành động"</string>
+	<!---->
+	<string name="preference_confirm_before_delete_title">"Xác nhận trước khi xóa"</string>
+	<!---->
+	<string name="preference_confirm_before_archive_title">"Xác nhận trước khi lưu trữ"</string>
+	<!---->
+	<string name="preference_confirm_before_send_title">"Xác nhận trước khi gửi"</string>
+	<!---->
+	<string name="preferences_conversation_mode_title">"Tự động điều chỉnh tin nhắn cho vừa"</string>
+	<!---->
+	<string name="preferences_conversation_mode_summary">"Thu hẹp tin nhắn để vừa màn hình"</string>
+	<!---->
+	<string name="preferences_disable_snap_headers_title">"Thao tác tin nhắn"</string>
+	<string-array name="prefSummaries_snapHeader">
+		<item>"Luôn hiển thị các thao tác đối với tin nhắn ở đầu màn hình"</item>
+		<item>"Chỉ hiển thị các thao tác đối với tin nhắn ở đầu màn hình khi được xoay dọc"</item>
+		<item>"Không hiển thị các thao tác đối với tin nhắn bên ngoài tiêu đề tin nhắn"</item>
+	</string-array>
+	<string-array name="prefEntries_snapHeader">
+		<item>"Luôn hiển thị"</item>
+		<item>"Chỉ hiển thị theo dạng dọc"</item>
+		<item>"Không hiển thị"</item>
+	</string-array>
+	<!---->
+	<string name="clear_history_title">"Xóa lịch sử tìm kiếm"</string>
+	<!---->
+	<string name="search_history_cleared">"Đã xóa lịch sử tìm kiếm."</string>
+	<!---->
+	<string name="clear_history_dialog_title">"Xóa lịch sử tìm kiếm?"</string>
+	<!---->
+	<string name="clear_history_dialog_message">"Tất cả các tìm kiếm bạn đã thực hiện trước đó sẽ bị xóa."</string>
+	<!---->
+	<string name="manage_accounts_menu_item">"Quản lý tài khoản"</string>
+	<!---->
+	<string name="general_preferences_title">"Cài đặt chung"</string>
+	<!---->
+	<string name="activity_preferences">"Cài đặt"</string>
+	<!---->
+	<string name="always_bcc_myself">"Luôn bcc cho tôi"</string>
+	<!---->
+	<string name="always_bcc_myself_summary">"Luôn bcc cho tôi khi soạn, trả lời và chuyển tiếp thư"</string>
+	<!---->
+	<string name="general_preference_auto_download_remaining_label">"Tải tự động còn lại"</string>
+	<!---->
+	<string name="general_preference_auto_download_remaining_summary">"Nội dung tải xuống tự động còn lại khi cuộn xuống"</string>
+	<!---->
+	<string name="download_remaining">"Tải xuống còn lại"</string>
+	<!---->
+	<string name="downloading_remaining">"Đang tải..."</string>
+	<!---->
+	<string name="unable_to_connect">"Không thể kết nối"</string>
+	<!---->
+	<string name="need_connection_prompt">"Bạn cần một kết nối mạng để sử dụng ứng dụng này. Hãy bật mạng di động hoặc Wi-Fi trong Cài đặt."</string>
+	<!---->
+	<string name="connection_settings">"Cài đặt"</string>
+	<!---->
+	<string name="priority_action">"Ưu tiên"</string>
+	<!---->
+	<string name="set_priority_dialog_title">"Cài đặt ưu tiên"</string>
+	<!---->
+	<string name="dialog_warning">"Cảnh báo\u2026"</string>
+	<!---->
+	<string name="dialog_warning_message">"Phiên bản ứng dụng Exchange không giống với Email, tiếp tục?"</string>
+	<!---->
+	<string name="toast_warning_text">"Phiên bản ứng dụng Exchange không giống với Email"</string>
+	<!---->
+	<string name="tips_sync_alter_title">"Đồng bộ hóa"</string>
+	<!---->
+	<string name="tips_sync_alter_content">"Bạn không có kết nối Wi-Fi, bạn có tiếp tục đồng bộ hóa không?"</string>
+	<!---->
+	<string name="tips_sync_alter_yes">"Có"</string>
+	<!---->
+	<string name="tips_sync_alter_no">"Không"</string>
+	<!---->
+	<string name="message_invite_tentative_title">"Thử nghiệm"</string>
+	<!---->
+	<string name="message_invite_decline_title">"Từ chối"</string>
+	<!---->
+	<string name="message_invite_accent_title">"Chấp nhận"</string>
+	<!---->
+	<string name="drm_file_remind">"Không được phép tải lên hoặc chia sẻ tập tin này vì tập tin này được bảo vệ bằng Quản lý Bản quyền Số (DRM)!"</string>
+	<!---->
+	<string name="not_add_more_recipients">"Không thể thêm nhiều người nhận hơn <xliff:g id="maxLimit">%1$d</xliff:g> cùng một lúc."</string>
+	<!---->
+	<string name="global_search_label">"Email"</string>
+	<!---->
+	<string name="global_search_hint">"Tìm kiếm email"</string>
+	<!---->
+	<string name="global_search_description">"Người gửi, chủ đề và nội dung"</string>
+	<!---->
+	<string name="remote_search_failed">"Tìm máy chủ bị lỗi!"</string>
+	<!---->
+	<string name="searching_on_server">"Tìm kiếm trên máy chủ"</string>
+	<!---->
+	<string name="searching_on_server_title">"Tìm kiếm \"<xliff:g id="account_name">%s</xliff:g>\" trên máy chủ"</string>
+	<!---->
+	<string name="searching_all_fields_on_sever">"T.kiếm mọi trường trên m.chủ"</string>
+	<!---->
+	<string name="search_field_subject">"Chủ đề"</string>
+	<!---->
+	<string name="search_field_receiver">"Người nhận"</string>
+	<!---->
+	<string name="search_field_sender">"Người gửi"</string>
+	<!---->
+	<string name="search_field_body">"Nội dung"</string>
+	<!---->
+	<string name="search_field_all">"Tất cả"</string>
+	<!---->
+	<string name="search_field_attachment">"Tập tin đính kèm"</string>
+	<!---->
+	<string name="select_all">"Chọn tất cả"</string>
+	<!---->
+	<string name="deselect_all">"Bỏ chọn tất cả"</string>
+	<!---->
+	<string name="need_wifi_connection_prompt">"Bạn cần một kết nối mạng để sử dụng ứng dụng này. Hãy bật mạng di động hoặc Wi-Fi trong Cài đặt."</string>
+	<!---->
+	<string name="account_setup_names_account_name_des_label">"tùy chọn"</string>
+	<!---->
+	<string name="account_setup_names_user_name_des_label">"được hiển thị trên thư đi"</string>
+	<!---->
+	<string name="finish_action">"Hoàn tất"</string>
+	<!---->
+	<string name="copy_email">"Sao chép địa chỉ email"</string>
+	<!---->
+	<string name="out_of_office_syncing">"Đồng bộ hóa Ngoài Cài đặt Office"</string>
+	<!---->
+	<string name="out_of_office_fail">"Đồng bộ hóa Ngoài Cài đặt Office thất bại!"</string>
+	<!---->
+	<string name="out_of_office_success">"Đồng bộ hóa Ngoài Cài đặt Office thành công!"</string>
+	<!---->
+	<string name="manual_sync_when_roaming">"Đồng bộ hóa khi chuyển vùng"</string>
+	<!---->
+	<string name="manual_sync_when_roaming_summery">"Chỉ làm mới bằng cách thủ công"</string>
+	<!---->
+	<string name="manual_sync_when_roaming_toast">"Kéo xuống để làm mới bằng cách thủ công khi chuyển vùng"</string>
+	<!---->
+	<string name="manual_sync_when_roaming_refresh">"Làm mới"</string>
+	<!---->
+	<string name="server_rule_can_not_change">"Không thể thay đổi các quy tắc của máy chủ"</string>
+	<!---->
+	<string name="server_rules">"Các quy tắc của máy chủ"</string>
+	<!---->
+	<string name="confirm_forward_message">"Chưa tải xuống hết tất cả các tập tin. Chuyển tiếp mà không tải xuống tập tin?"</string>
+	<!---->
+	<string name="confirm_forward_cancel">"Hủy"</string>
+	<!---->
+	<string name="confirm_forward_drop_unload_attachment">"Chuyển tiếp"</string>
+	<!---->
+	<string name="mail_not_download_completely">"Đợi đến khi tải xuống hoàn tất"</string>
+	<!---->
+	<string name="account_settings_inline_images_lable">"Hình ảnh"</string>
+	<!---->
+	<string name="account_settings_inline_always_show">"Luôn hiển thị"</string>
+	<!---->
+	<string name="account_settings_inline_ask_before_show">"Hỏi trước khi hiển thị"</string>
+	<!---->
+	<string name="conversation_time_after_today">"Sau ngày hôm nay"</string>
+	<!---->
+	<string name="conversation_time_today">"Hôm nay"</string>
+	<!---->
+	<string name="conversation_time_yesterday">"Ngày hôm qua"</string>
+	<!---->
+	<string name="conversation_time_this_month">"Tháng này"</string>
+	<!---->
+	<string name="conversation_time_elapse_just_now">"Ngay bây giờ"</string>
+	<!---->
+	<string name="conversation_time_elapse_minute">"<xliff:g id="count">%d</xliff:g> p"</string>
+	<!---->
+	<string name="message_in_queued_status">"Đã xếp hàng"</string>
+	<plurals name="send_failed_messages">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> email chưa được gửi"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> email chưa được gửi"</item>
+	</plurals>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_label">"Đồng bộ hóa lịch từ"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_2weeks">"Hai tuần"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_1month">"Một tháng"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_3months">"Ba tháng"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_6months">"Sáu tháng"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_all">"Tất cả"</string>
+	<!---->
+	<string name="no_permission_to_open_file">"Cần cho phép lưu trữ để mở tập tin này"</string>
+	<!---->
+	<string name="conversation_update_time_text">"Cập nhật lần cuối:"</string>
+	<!---->
+	<string name="conversation_update_unknown_time_stamp">"Không xác định"</string>
+	<!---->
+	<string name="conversation_time_elapse_today">"Hôm nay"</string>
+	<!---->
+	<string name="save_to_attachment">"Lưu vào"</string>
+	<!---->
+	<string name="download_settings_title">"Lưu tập tin đính kèm"</string>
+	<!---->
+	<string name="download_edit_filename_label">"Tên"</string>
+	<!---->
+	<string name="download_filepath_label">"Đường dẫn"</string>
+	<!---->
+	<string name="download_file_size">"Kích thước"</string>
+	<!---->
+	<string name="download_time_needed">"Thời gian"</string>
+	<!---->
+	<string name="download_cancel">"Hủy"</string>
+	<!---->
+	<string name="download_start">"OK"</string>
+	<!---->
+	<string name="unknown_length">"Không xác định"</string>
+	<!---->
+	<string name="time_min">"phút"</string>
+	<!---->
+	<string name="open_file_manager_failed">"Không thể mở Trình quản lý Tập tin"</string>
+	<!---->
+	<string name="attachment_not_saved">"Tập tin đính kèm không được lưu"</string>
+	<!---->
+	<string name="sync_calendar_title">"Không thể đồng bộ Calendar (Lịch)"</string>
+	<!---->
+	<string name="sync_calendar_content">"Để đồng bộ, cho phép các dịch vụ Exchange (Trao đổi) truy cập Calendar (Lịch)"</string>
+	<!---->
+	<string name="sync_contacts_title">"Không thể đồng bộ Contacts (Danh bạ)"</string>
+	<!---->
+	<string name="sync_contacts_content">"Để đồng bộ, cho phép các dịch vụ Exchange (Trao đổi) truy cập Contacts (Danh bạ)"</string>
+	<!---->
+	<string name="notification_never_ask_again">"Xin đừng hỏi lại"</string>
+	<!---->
+	<string name="sync_storage_title">"Không thể lưu đính kèm"</string>
+	<!---->
+	<string name="sync_storage_content">"Để lưu lại, cho phép các dịch vụ Exchange (Trao đổi) truy cập bộ nhớ"</string>
+	<!---->
+	<string name="oof_continue">"Tiếp tục"</string>
+	<!---->
+	<string name="permission_needed_to_add_attachments">"Để thêm tập tin đính kèm, hãy cho phép Email các quyền hạn truy cập bộ nhớ"</string>
+	<!---->
+	<string name="permission_needed_to_check_ringtone">"Để kiểm tra nhạc chuông, cho Email quyền truy cập bộ nhớ"</string>
+	<!---->
+	<string name="add_folder_as_attachment_fail_tips">"Không thể thêm thư mục là tài liệu đính kèm"</string>
+	<!---->
+	<string name="choose_action_title">"Chọn hành động"</string>
+	<!---->
+	<string name="choose_action_contact">"Thêm liên hệ: <xliff:g example="4" id="email_address">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="choose_action_email">"Email: <xliff:g example="4" id="email_address">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="choose_action_message">"Thư: <xliff:g example="4" id="email_address">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="account_setup_basics_exit_action">"Thoát"</string>
+</resources>

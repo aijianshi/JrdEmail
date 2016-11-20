@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Tue Sep 20 16:24:06 CST 2016
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="exchange_name">"Korporatë"</string>
+	<!---->
+	<string name="exchange_name_alternate">"Microsoft ActiveSync për Këmbim"</string>
+	<!---->
+	<string name="meeting_accepted">"Të pranuar: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_declined">"Refuzuar: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_tentative">"Eksperimental: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_canceled">"U anulua: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_updated">"Përditësuar: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_when">"Kur: <xliff:g id="when">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_where">"Ku: <xliff:g id="where">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_recurring">"Kur: <xliff:g example="Tue, Mar 10, 2010 at 2:30 pm" id="eventdate">%s</xliff:g> (përsëritet)"</string>
+	<!---->
+	<string name="meeting_allday">"Kur: <xliff:g example="Tue, Mar 10, 2010 " id="eventdate">%s</xliff:g> (tërë ditën)"</string>
+	<!---->
+	<string name="meeting_allday_recurring">"Kur: <xliff:g example="Tue, Mar 10, 2010 " id="eventdate">%s</xliff:g> (tërë ditën, përsëritet)"</string>
+	<!---->
+	<string name="notification_exchange_calendar_added">"Kalendari për Këmbim është shtuar"</string>
+	<!---->
+	<string name="app_name">"Shërbime Exchange"</string>
+	<!---->
+	<string name="exception_cancel">"Kjo ngjarje është anuluar për: <xliff:g id="date">%s</xliff:g>"</string>
+	<!---->
+	<string name="exception_updated">"Detajet e kësaj ngjarje janë të ndryshuar për: <xliff:g id="date">%s</xliff:g>"</string>
+	<!---->
+	<string name="policy_dont_allow_storage_cards">"mos lejoni karta të Hapësira e ruajtjesve"</string>
+	<!---->
+	<string name="policy_dont_allow_unsigned_apps">"Mos lejoni aplikacione të panënshkruara"</string>
+	<!---->
+	<string name="policy_dont_allow_unsigned_installers">"Mos lejoni instalim të programëve me aplikacione të panënshkruara"</string>
+	<!---->
+	<string name="policy_dont_allow_wifi">"Mos lejoni Wi-Fi"</string>
+	<!---->
+	<string name="policy_dont_allow_text_messaging">"Mos lejoni dërgimin e mesazheve"</string>
+	<!---->
+	<string name="policy_dont_allow_pop_imap">"Mos lejoni llogaria POP3 ose IMAP"</string>
+	<!---->
+	<string name="policy_dont_allow_irda">"Mos lejoni komunikim infra të kuq"</string>
+	<!---->
+	<string name="policy_dont_allow_html">"Mos lejoni e-mail në HTML"</string>
+	<!---->
+	<string name="policy_dont_allow_browser">"Mos lejoni shfletuese"</string>
+	<!---->
+	<string name="policy_dont_allow_consumer_email">"Mos lejoni e-mail e shfrytëzuesit"</string>
+	<!---->
+	<string name="policy_dont_allow_internet_sharing">"Mos lejoni shpërndarje e lidhjes së internetit"</string>
+	<!---->
+	<string name="policy_require_smime">"kërkesë për mesazhe SMIME"</string>
+	<!---->
+	<string name="policy_bluetooth_restricted">"kufizoje përdorimin e bluetooth"</string>
+	<!---->
+	<string name="policy_app_blacklist">"Refuzoni aplikacionet e caktuar"</string>
+	<!---->
+	<string name="policy_app_whitelist">"Lejoni vetëm aplikacionet e caktuar"</string>
+	<!---->
+	<string name="policy_text_truncation">"kufizo madhësinë e e-mail-it tekstuale"</string>
+	<!---->
+	<string name="policy_html_truncation">"kufizo madhësinë e e-mail-it HTML"</string>
+	<!---->
+	<string name="policy_require_sd_encryption">"kërkesë për kodimin e kartës SD"</string>
+	<!---->
+	<string name="policy_dont_allow_attachments">"Mos lejoni shtojca"</string>
+	<!---->
+	<string name="policy_max_attachment_size">"Kufizo madhësinë e shtojcës"</string>
+	<!---->
+	<string name="policy_require_manual_sync_roaming">"Lejoni vetëm sinkronizim dore në roaming"</string>
+	<!---->
+	<string name="policy_require_encryption">"kërkesë për kodimin e pajisjes"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_auto">"Automatik"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1day">"Një ditë"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_3days">"Tre ditë"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1week">"Një javë"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_2weeks">"Dy java"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1month">"Një muaj"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_all">"Të gjitha"</string>
+	<!---->
+	<string name="auth_error_notification_title">"Gabim në autenticitetin"</string>
+	<!---->
+	<string name="auth_error_notification_text">"Prek për modifikim të Konfigurimeve të llogarisë për <xliff:g id="account">%s</xliff:g>"</string>
+	<!---->
+	<string name="email_settings_not_available">"Rimundësoni aplikacionin e e-mailit për të parë konfigurimet."</string>
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!-- no translation found for app_name -->
+	<skip />
+	<!-- no translation found for photo_view_count -->
+	<skip />
+	<!-- no translation found for retry -->
+	<skip />
+	<!---->
+	<string name="failed">"לא ניתן לטעון תמונה"</string>
+	<!-- no translation found for more_string -->
+	<skip />
+	<!---->
+	<string name="copy_email">"העתק כתובת דואר"</string>
+	<!---->
+	<string name="copy_number">"העתק מספר טלפון"</string>
+	<!---->
+	<string name="action_label">"חזור"</string>
+	<!---->
+	<string name="search_hint">"חפש דוא\"ל"</string>
+	<!---->
+	<string name="compose">"חבר"</string>
+	<!---->
+	<string name="activity_folder_selection">"בחר תיקייה"</string>
+	<!---->
+	<string name="activity_preferences">"הגדרות"</string>
+	<!---->
+	<string name="tap_to_configure">"גע להגדרה."</string>
+	<!---->
+	<string name="loading_conversations">"טוען…"</string>
+	<!---->
+	<string name="non_synced_folder_description">"להצגת שיחות, סנכרן תיקייה זו."</string>
+	<!---->
+	<string name="tap_to_configure_folder_sync">"סנכרן תיקייה"</string>
+	<!-- no translation found for def_email_accountGermanSignature -->
+	<skip />
+	<!-- no translation found for send_failed -->
+	<skip />
+	<!-- no translation found for permission_needed -->
+	<skip />
+	<!-- no translation found for permission_needed_label -->
+	<skip />
+	<!-- no translation found for permission_grant_access_label -->
+	<skip />
+	<!-- no translation found for permission_grant_access_descs -->
+	<skip />
+	<!---->
+	<string name="permission_grant_exit">"יציאה"</string>
+	<!---->
+	<string name="permission_grant_go_setting">"הגדרות"</string>
+	<!-- no translation found for permission_needed_to_save_attachment -->
+	<skip />
+	<!-- no translation found for permission_needed_to_add_attachment -->
+	<skip />
+	<!-- no translation found for permission_needed_to_see_calendar -->
+	<skip />
+</resources>

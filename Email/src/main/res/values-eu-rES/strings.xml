@@ -1,0 +1,1747 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Tue Sep 20 16:24:06 CST 2016
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="permission_read_attachment_label">"Irakurri posta elektronikoko eranskinak"</string>
+	<!---->
+	<string name="permission_read_attachment_desc">"Posta elektronikoko eranskinak irakurtzea ahalbidetzen dio aplikazioari."</string>
+	<!---->
+	<string name="permission_access_provider_label">"Atzitu posta elektronikoko hornitzailearen datuak"</string>
+	<!---->
+	<string name="permission_access_provider_desc">"Posta elektronikoaren datu-basea atzitzea baimentzen die aplikazioei, jasotako mezuak, bidalitako mezuak, erabiltzaile-izenak eta pasahitzak barne."</string>
+	<!---->
+	<string name="debug_title">"Araztu"</string>
+	<!---->
+	<string name="next_action">"Hurrengoa"</string>
+	<!---->
+	<string name="okay_action">"Ados"</string>
+	<!---->
+	<string name="cancel_action">"Utzi"</string>
+	<!---->
+	<string name="previous_action">"Aurrekoa"</string>
+	<!---->
+	<string name="done_action">"Eginda"</string>
+	<!---->
+	<string name="create_action">"Sortu"</string>
+	<!---->
+	<string name="quick_responses_empty_view">"Ez dago erantzun bizkorrik"</string>
+	<!---->
+	<string name="account_settings_action">"Kontuaren ezarpenak"</string>
+	<!---->
+	<string name="status_network_error">"Konexio-arazoa."</string>
+	<plurals name="move_messages">
+		<item quantity="one">"Eraman mezua"</item>
+		<item quantity="other">"Eraman mezuak"</item>
+	</plurals>
+	<!---->
+	<string name="cannot_move_protocol_not_supported_toast">"Ez da eramatea onartzen POP3 kontuetan."</string>
+	<!---->
+	<string name="cannot_move_multiple_accounts_toast">"Ezin da eraman, hautapenak hainbat kontu dituelako."</string>
+	<!---->
+	<string name="cannot_move_special_mailboxes_toast">"Zirriborroak, Irteerako ontzia eta Bidalitakoak karpetetako mezuak ezin dira eraman."</string>
+	<!---->
+	<string name="mailbox_name_display_inbox">"Sarrerako ontzia"</string>
+	<!---->
+	<string name="mailbox_name_display_outbox">"Irteerako ontzia"</string>
+	<!---->
+	<string name="mailbox_name_display_drafts">"Zirriborroak"</string>
+	<!---->
+	<string name="mailbox_name_display_trash">"Zakarrontzia"</string>
+	<!---->
+	<string name="mailbox_name_display_sent">"Bidalitakoak"</string>
+	<!---->
+	<string name="mailbox_name_display_junk">"Zaborrontzia"</string>
+	<!---->
+	<string name="mailbox_name_display_starred">"Izardunak"</string>
+	<!---->
+	<string name="mailbox_name_display_unread">"Irakurri gabekoak"</string>
+	<!---->
+	<string name="account_folder_list_summary_inbox">"Sarrerako ontzia"</string>
+	<!---->
+	<string name="account_folder_list_summary_starred">"Izardunak"</string>
+	<!---->
+	<string name="account_folder_list_summary_drafts">"Zirriborroak"</string>
+	<!---->
+	<string name="account_folder_list_summary_outbox">"Irteerako ontzia"</string>
+	<!---->
+	<string name="mailbox_list_account_selector_combined_view">"Ikuspegi konbinatua"</string>
+	<!---->
+	<string name="message_compose_fwd_header_fmt">"\n\n-------- Jatorrizko mezua --------\nGaia: <xliff:g id="subject">%1$s</xliff:g>\nIgorlea: <xliff:g id="sender">%2$s</xliff:g>\nHartzailea: <xliff:g id="to">%3$s</xliff:g>\nCC: <xliff:g id="cc">%4$s</xliff:g>\n\n"</string>
+	<!---->
+	<string name="message_compose_insert_quick_response_list_title">"Txertatu erantzun bizkorra"</string>
+	<!---->
+	<string name="message_compose_insert_quick_response_menu_title">"Txertatu erantzun bizkorra"</string>
+	<!---->
+	<string name="message_view_attachment_background_load">"Oharra: birbidalitako mezuaren eranskin bat edo gehiago bidali aurretik deskargatuko dira."</string>
+	<!---->
+	<string name="attachment_not_found">"Ezin izan da eranskina deskargatu."</string>
+	<!---->
+	<string name="message_decode_error">"Errore bat izan da mezua deskodetzean."</string>
+	<!---->
+	<string name="forward_download_failed_ticker">"Ezin izan dira birbidali eranskin bat edo gehiago."</string>
+	<!---->
+	<string name="forward_download_failed_title">"Ez da eranskina birbidali"</string>
+	<!---->
+	<string name="login_failed_ticker">"Ezin izan da saioa hasi <xliff:g id="account_name">%s</xliff:g> kontuan."</string>
+	<!---->
+	<string name="login_failed_title">"Ezin izan da saioa hasi"</string>
+	<plurals name="message_view_attachment_bytes">
+		<item quantity="one">"<xliff:g example="1" id="size_in_bytes">%d</xliff:g> B"</item>
+		<item quantity="other">"<xliff:g example="279" id="size_in_bytes">%d</xliff:g> B"</item>
+	</plurals>
+	<plurals name="message_view_attachment_kilobytes">
+		<item quantity="one">"<xliff:g example="1" id="size_in_kilobytes">%d</xliff:g> KB"</item>
+		<item quantity="other">"<xliff:g example="279" id="size_in_kilobytes">%d</xliff:g> KB"</item>
+	</plurals>
+	<plurals name="message_view_attachment_megabytes">
+		<item quantity="one">"<xliff:g example="1" id="size_in_megabytes">%d</xliff:g> MB"</item>
+		<item quantity="other">"<xliff:g example="279" id="size_in_megabytes">%d</xliff:g> MB"</item>
+	</plurals>
+	<plurals name="message_view_attachment_gigabytes">
+		<item quantity="one">"<xliff:g example="1" id="size_in_gigabytes">%d</xliff:g> GB"</item>
+		<item quantity="other">"<xliff:g example="279" id="size_in_gigabytes">%d</xliff:g> GB"</item>
+	</plurals>
+	<!---->
+	<string name="account_setup_basics_title">"Kontuaren konfigurazioa"</string>
+	<!---->
+	<string name="oauth_authentication_title">"Baimena eskatzen"</string>
+	<!---->
+	<string name="sign_in_title">"Hasi saioa"</string>
+	<!---->
+	<string name="oauth_error_description">"Ezin izan da autentifikatu"</string>
+	<!---->
+	<string name="password_warning_label">"Helbide elektronikoa edo pasahitza okerra da"</string>
+	<!---->
+	<string name="email_confirmation_label">"Helbide elektronikoa"</string>
+	<!---->
+	<string name="account_setup_basics_headline">"Posta-kontua"</string>
+	<!---->
+	<string name="accounts_welcome">"Kontua urrats gutxitan konfigura dezakezu."</string>
+	<!---->
+	<string name="account_setup_basics_email_label">"Helbide elektronikoa"</string>
+	<!---->
+	<string name="account_setup_basics_email_flying_label">"Helbidea"</string>
+	<!---->
+	<string name="or_label">"EDO"</string>
+	<!---->
+	<string name="sign_in_with_google">"Hasi saioa Google-n"</string>
+	<!---->
+	<string name="account_setup_basics_password_label">"Pasahitza"</string>
+	<!---->
+	<string name="password_hint">"Pasahitza"</string>
+	<!---->
+	<string name="signed_in_with_service_label">"%s zerbitzuan saioa hasita"</string>
+	<!---->
+	<string name="authentication_label">"AUTENTIFIKAZIOA"</string>
+	<!---->
+	<string name="add_authentication_label">"Gehitu autentifikazioa"</string>
+	<!---->
+	<string name="clear_authentication_label">"Garbitu autentifikazioa"</string>
+	<!---->
+	<string name="account_setup_basics_manual_setup_action">"Eskuzko konfig."</string>
+	<!---->
+	<string name="account_setup_username_password_toast">"Idatzi baliozko helbide elektronikoa eta pasahitza."</string>
+	<!---->
+	<string name="account_duplicate_dlg_title">"Kontu bikoiztua"</string>
+	<!---->
+	<string name="account_duplicate_dlg_message_fmt">"Dagoeneko erabiltzen ari zara erabiltzaile-izen hori \"<xliff:g id="duplicate">%s</xliff:g>\" kontuan."</string>
+	<!---->
+	<string name="account_password_spaces_error">"Pasahitz honek zuriune-karaktere bat edo gehiago ditu hasieran edo amaiera. Zerbitzari askok ez dituzte zuriuneak dituzten pasahitzak onartzen."</string>
+	<!---->
+	<string name="account_setup_check_settings_retr_info_msg">"Kontuaren informazioa berreskuratzen..."</string>
+	<!---->
+	<string name="account_setup_check_settings_check_incoming_msg">"Zerbitzariaren ezarpenak balidatzen..."</string>
+	<!---->
+	<string name="account_setup_check_settings_check_outgoing_msg">"SMTP ezarpenak balidatzen..."</string>
+	<!---->
+	<string name="account_setup_creating_account_msg">"Kontua sortzen..."</string>
+	<!---->
+	<string name="account_setup_ab_headline">"Berretsi kontu mota"</string>
+	<!---->
+	<string name="account_setup_ab_instructions_format">"<xliff:g id="email">%1$s</xliff:g> postak <xliff:g id="userProtocol">%2$s</xliff:g> protokoloa darabilela adierazi duzu, baina baliteke kontuak <xliff:g id="providerProtocol">%3$s</xliff:g> erabiltzea"</string>
+	<!---->
+	<string name="account_setup_names_title">"Kontuaren konfigurazioa"</string>
+	<!---->
+	<string name="account_setup_names_headline">"Kontua konfiguratuta dago eta posta prest dago!"</string>
+	<!---->
+	<string name="account_setup_names_account_name_label">"Ezarri izena"</string>
+	<!---->
+	<string name="account_setup_names_user_name_label">"Zure izena"</string>
+	<!---->
+	<string name="account_setup_names_user_name_empty_error">"Eremu honek ezin du hutsik egon."</string>
+	<!---->
+	<string name="account_setup_account_type_title">"Kontuaren konfigurazioa"</string>
+	<!---->
+	<string name="account_setup_account_type_headline">"Kontu mota"</string>
+	<!---->
+	<string name="account_setup_account_type_instructions">"Zer motatako kontua da hau?"</string>
+	<!---->
+	<string name="account_setup_incoming_title">"Kontuaren konfigurazioa"</string>
+	<!---->
+	<string name="account_setup_incoming_headline">"Sarr. zerbitzariaren ezarpenak"</string>
+	<!---->
+	<string name="account_setup_incoming_username_label">"Erabiltzaile-izena"</string>
+	<!---->
+	<string name="account_setup_incoming_password_label">"Pasahitza"</string>
+	<!---->
+	<string name="account_setup_password_subheading">"Pasahitza"</string>
+	<!---->
+	<string name="account_setup_incoming_server_label">"Zerbitzaria"</string>
+	<!---->
+	<string name="account_setup_incoming_port_label">"Ataka"</string>
+	<!---->
+	<string name="account_setup_incoming_security_label">"Segurtasun mota"</string>
+	<!---->
+	<string name="account_setup_incoming_domain_label">"Domeinua"</string>
+	<!---->
+	<string name="account_setup_incoming_add_domain_label">"Gehitu domeinua"</string>
+	<!---->
+	<string name="account_setup_incoming_security_none_label">"Bat ere ez"</string>
+	<!---->
+	<string name="account_setup_incoming_security_ssl_trust_certificates_label">"SSL/TLS (onartu ziurt. guztiak)"</string>
+	<!---->
+	<string name="account_setup_incoming_security_ssl_label">"SSL/TLS"</string>
+	<!---->
+	<string name="account_setup_incoming_security_tls_trust_certificates_label">"STARTTLS (onartu ziurtagiri guztiak)"</string>
+	<!---->
+	<string name="account_setup_incoming_security_tls_label">"STARTTLS"</string>
+	<!---->
+	<string name="account_setup_incoming_delete_policy_label">"Ezabatu mezuak zerbitzaritik"</string>
+	<!---->
+	<string name="account_setup_incoming_delete_policy_never_label">"Inoiz ez"</string>
+	<!---->
+	<string name="account_setup_incoming_delete_policy_delete_label">"Sarreratik ezabatzean"</string>
+	<!---->
+	<string name="account_setup_incoming_imap_path_prefix_label">"IMAP bidearen aurrizkia"</string>
+	<!---->
+	<string name="account_setup_incoming_imap_path_prefix_hint">"Aukerakoa"</string>
+	<!---->
+	<string name="account_setup_outgoing_title">"Kontuaren konfigurazioa"</string>
+	<!---->
+	<string name="account_setup_outgoing_headline">"Irt. zerbitzariaren ezarpenak"</string>
+	<!---->
+	<string name="account_setup_outgoing_smtp_server_label">"SMTP zerbitzaria"</string>
+	<!---->
+	<string name="account_setup_outgoing_port_label">"Ataka"</string>
+	<!---->
+	<string name="account_setup_outgoing_security_label">"Segurtasun mota"</string>
+	<!---->
+	<string name="account_setup_outgoing_require_login_label">"Eskatu saio-hasiera"</string>
+	<!---->
+	<string name="account_setup_outgoing_username_label">"Erabiltzaile-izena"</string>
+	<!---->
+	<string name="account_setup_outgoing_password_label">"Pasahitza"</string>
+	<!---->
+	<string name="account_setup_exchange_certificate_title">"Bezero-ziurtagiria"</string>
+	<!---->
+	<string name="account_setup_exchange_select_certificate">"Hautatu"</string>
+	<!---->
+	<string name="account_setup_exchange_use_certificate">"Erabili bezero-ziurtagiria"</string>
+	<!---->
+	<string name="account_setup_exchange_remove_certificate">"Kendu"</string>
+	<!---->
+	<string name="account_setup_exchange_no_certificate">"Bat ere ez"</string>
+	<!---->
+	<string name="account_setup_exchange_device_id_label">"Gailu mugikorraren IDa"</string>
+	<!---->
+	<string name="account_setup_options_title">"Kontuaren ezarpenak"</string>
+	<!---->
+	<string name="account_setup_options_headline">"Kontuaren aukerak"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_label">"Sinkronizazio-maiztasuna"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_never">"Inoiz ez"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_push">"Automatikoa (Push)"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_5min">"5 minuturo"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_10min">"10 minuturo"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_15min">"15 minuturo"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_30min">"30 minuturo"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_1hour">"Orduro"</string>
+	<!---->
+	<string name="account_setup_options_notify_label">"Jakinarazi mezu elektronikoak iristen direnean"</string>
+	<!---->
+	<string name="account_setup_options_sync_contacts_label">"Sinkronizatu kontu honetako kontaktuak."</string>
+	<!---->
+	<string name="account_setup_options_sync_calendar_label">"Sinkronizatu kontu honetako egutegia."</string>
+	<!---->
+	<string name="account_setup_options_sync_email_label">"Sinkronizatu kontu honetako posta."</string>
+	<!---->
+	<string name="account_setup_options_background_attachments_label">"Deskargatu eranskinak automatikoki Wi-Fi sarera konektatuta zaudela"</string>
+	<!---->
+	<string name="account_setup_failed_dlg_title">"Ezin izan da amaitu"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_label">"Sinkronizatu hemengo mezu elektronikoak:"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_auto">"Automatikoa"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1day">"Azken eguna"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_3days">"Azken hiru egunak"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1week">"Azken astea"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_2weeks">"Azken bi asteak"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1month">"Azken hilabetea"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_all">"Guztiak"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_default">"Erabili kontuaren balio lehenetsiak"</string>
+	<!---->
+	<string name="account_setup_failed_dlg_auth_message">"Erabiltzaile-izena edo pasahitza okerra da."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_auth_message_fmt">"Ezin izan da saioa hasi.\n(<xliff:g id="error">%s</xliff:g>)"</string>
+	<!---->
+	<string name="account_setup_autodiscover_dlg_authfail_title">"Arazoa kontua konfiguratzeko"</string>
+	<!---->
+	<string name="account_setup_autodiscover_dlg_authfail_message">"Berretsi erabiltzaile-izena, pasahitza eta kontuaren ezarpenak zuzenak direla."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_certificate_message">"Ezin izan da zerbitzarira konektatu, ziurtagiriak ez duelako balio edo ez delako fidagarria."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_certificate_message_fmt">"Ezin da modu seguruan konektatu zerbitzarira.\n(<xliff:g id="error">%s</xliff:g>)"</string>
+	<!---->
+	<string name="account_setup_failed_certificate_required">"Bezero-ziurtagiria beharrezkoa da. Zerbitzarira bezero-ziurtagiriarekin konektatu?"</string>
+	<!---->
+	<string name="account_setup_failed_certificate_inaccessible">"Ziurtagiria baliogabea da edo ezin da atzitu."</string>
+	<!---->
+	<string name="account_setup_failed_check_credentials_message">"Zerbitzariak errore bat itzuli du. Egiaztatu erabiltzaile-izena eta pasahitza eta, ondoren, saiatu berriro."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_server_message">"Ezin da zerbitzarira konektatu."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_server_message_fmt">"Ezin da zerbitzarira konektatu.\n(<xliff:g id="error">%s</xliff:g>)"</string>
+	<!---->
+	<string name="account_setup_failed_tls_required">"TLS beharrezkoa da baina zerbitzariak ez du onartzen."</string>
+	<!---->
+	<string name="account_setup_failed_auth_required">"Zerbitzariak ez ditu autentifikazio-metodoak onartzen."</string>
+	<!---->
+	<string name="account_setup_failed_security">"Ezin izan da zerbitzarira konektatu segurtasun-errore batengatik."</string>
+	<!---->
+	<string name="account_setup_failed_ioerror">"Ezin izan da zerbitzarira konektatu."</string>
+	<!---->
+	<string name="account_setup_failed_protocol_unsupported">"Zerbitzariaren helbide okerra idatzi duzu edo postak onartzen ez duen protokolo-bertsio bat behar du zerbitzariak."</string>
+	<!---->
+	<string name="account_setup_failed_access_denied">"Ez duzu zerbitzari honekin sinkronizatzeko baimenik. Jarri zerbitzariaren administratzailearekin harremanetan informazio gehiago lortzeko."</string>
+	<!---->
+	<string name="account_setup_security_required_title">"Urruneko segurtasun- administrazioa"</string>
+	<!---->
+	<string name="account_setup_security_policies_required_fmt">"<xliff:g id="server">%s</xliff:g> zerbitzariari telefonoaren segurtasun-eginbide batzuk urrunetik kontrolatzeko baimena eman behar diozu. Kontuaren konfigurazioa amaitu nahi duzu?"</string>
+	<!---->
+	<string name="account_setup_failed_security_policies_unsupported">"Zerbitzari honek Android gailuak onartzen ez dituen segurtasun-eginbideak behar ditu, hauek barne: <xliff:g id="error">%s</xliff:g>"</string>
+	<!---->
+	<string name="account_setup_username_uneditable_error">"Ezin duzu kontuen erabiltzaile-izena aldatu. Beste erabiltzaile-izena duen kontu bat gehitzeko, sakatu Gehitu kontua."</string>
+	<!---->
+	<string name="disable_admin_warning">"ABISUA: gailua administratzeko Posta elektronikoaren aplikazioaren agintea desaktibatuz gero, hori behar duten posta-kontu guztiak ezabatuko dira, horien mezu elektroniko, kontaktu, egutegiko gertaera eta bestelako datuekin batera."</string>
+	<!---->
+	<string name="account_security_dialog_title">"Segurtasun-eguneratzea"</string>
+	<!---->
+	<string name="account_security_dialog_content_fmt">"<xliff:g id="account">%s</xliff:g> kontuaren segurtasun-ezarpenak eguneratu behar dira."</string>
+	<!---->
+	<string name="security_unsupported_ticker_fmt">"Ezin da \"<xliff:g id="account">%s</xliff:g>\" kontua sinkronizatu segurtasun-eskakizunak direla-eta."</string>
+	<!---->
+	<string name="security_needed_ticker_fmt">"\"<xliff:g id="account">%s</xliff:g>\" kontuaren segurtasun-ezarpenak eguneratu behar dira."</string>
+	<!---->
+	<string name="security_changed_ticker_fmt">"\"<xliff:g id="account">%s</xliff:g>\" kontuaren segurtasun-ezarpenak aldatu dira. Erabiltzaileak ez du parte hartu beharrik."</string>
+	<!---->
+	<string name="security_notification_content_update_title">"Segurt.-eguneratzea behar da"</string>
+	<!---->
+	<string name="security_notification_content_change_title">"Segurtasun-gidalerroak aldatu egin dira"</string>
+	<!---->
+	<string name="security_notification_content_unsupported_title">"Ezin dira segurtasun-gidalerroak gorde"</string>
+	<!---->
+	<string name="account_security_title">"Gailuaren segurtasuna"</string>
+	<!---->
+	<string name="account_security_policy_explanation_fmt">"<xliff:g id="server">%s</xliff:g> zerbitzariari Android gailuaren segurtasun-eginbide batzuk urrunetik kontrolatzeko baimena eman behar diozu."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_edit_details_action">"Editatu xehetasunak"</string>
+	<!---->
+	<string name="password_expire_warning_ticker_fmt">"\"<xliff:g id="account">%s</xliff:g>\" kontuko blokeo-pantailaren PINa edo pasahitza aldatu behar da."</string>
+	<!---->
+	<string name="password_expire_warning_content_title">"Blokeo-pant. pasahitza iraungitzea"</string>
+	<!---->
+	<string name="password_expired_ticker">"Blokeo-pantailaren PINa edo pasahitza iraungi da."</string>
+	<!---->
+	<string name="password_expired_content_title">"Blokeo-pantailaren pasahitza iraungi da"</string>
+	<!---->
+	<string name="password_expire_warning_dialog_title">"Blokeo-pantailaren pasahitza iraungitzear dago"</string>
+	<!---->
+	<string name="password_expire_warning_dialog_content_fmt">"Blokeo-pantailaren PINa edo pasahitza laster aldatu behar duzu; bestela, <xliff:g id="account">%s</xliff:g> datuak ezabatuko dira. Orain aldatu nahi duzu?"</string>
+	<!---->
+	<string name="password_expired_dialog_title">"Blokeo-pantailaren pasahitza iraungi da"</string>
+	<!---->
+	<string name="password_expired_dialog_content_fmt">"<xliff:g id="account">%s</xliff:g> datuak gailutik ezabatuko dira. Leheneratzeko, aldatu blokeo-pantailaren PINa edo pasahitza. Orain aldatu nahi duzu?"</string>
+	<!---->
+	<string name="account_settings_exit_server_settings">"Gorde gabeko aldaketak baztertu?"</string>
+	<!---->
+	<string name="account_settings_login_dialog_title">"Ezin izan da saioa hasi"</string>
+	<!---->
+	<string name="account_settings_login_dialog_content_fmt">"<xliff:g id="account">%s</xliff:g> kontuaren erabiltzaile-izena edo pasahitza okerra da. Orain eguneratu?"</string>
+	<!---->
+	<string name="account_settings_login_dialog_reason_fmt">"Ezin izan da <xliff:g id="account">%s</xliff:g> kontuan saioa hasi. Zerbitzariaren oharra: <xliff:g id="reason">%s</xliff:g> Erabiltzaile-izena edo pasahitza eguneratu nahi duzu?"</string>
+	<!---->
+	<string name="account_settings_background_attachments_label">"Deskargatu eranskinak"</string>
+	<!---->
+	<string name="account_settings_background_attachments_summary">"Deskargatu automatikoki azken mezuen eranskinak Wi-Fi bidez"</string>
+	<!---->
+	<string name="account_settings_notify_label">"Posta-jakinarazpenak"</string>
+	<!---->
+	<string name="account_settings_summary">"Sinkronizatu maiztasuna, jakinarazpenak etab."</string>
+	<!---->
+	<string name="account_settings_notify_summary">"Bidali jakinarazpenak mezu elektronikoak jasotzean"</string>
+	<!---->
+	<string name="account_settings_mail_check_frequency_label">"Sinkronizazio-maiztasuna"</string>
+	<!---->
+	<string name="account_settings_incoming_label">"Sarrerako ezarpenak"</string>
+	<!---->
+	<string name="account_settings_incoming_summary">"Erabiltzaile-izena, pasahitza eta sarrerako zerbitzariaren ezarpen gehiago"</string>
+	<!---->
+	<string name="account_settings_outgoing_label">"Irteerako ezarpenak"</string>
+	<!---->
+	<string name="account_settings_outgoing_summary">"Erabiltzaile-izena, pasahitza eta irteerako zerbitzariaren ezarpen gehiago"</string>
+	<!---->
+	<string name="account_settings_reply_to_category">"Erantzuteko ezarpenak"</string>
+	<!---->
+	<string name="account_settings_reply_to_label">"Erantzun honi"</string>
+	<!---->
+	<string name="account_settings_reply_to_invalid">"Helbideak ez du balio"</string>
+	<!---->
+	<string name="account_settings_enforced_label">"Gidalerroak aplikatu dira"</string>
+	<!---->
+	<string name="account_settings_enforced_summary">"Bat ere ez"</string>
+	<!---->
+	<string name="account_settings_unsupported_label">"Onartzen ez diren gidalerroak"</string>
+	<!---->
+	<string name="account_settings_unsupported_summary">"Bat ere ez"</string>
+	<!---->
+	<string name="account_settings_retry_label">"Saiatu sinkronizatzen"</string>
+	<!---->
+	<string name="account_settings_retry_summary">"Ukitu kontua sinkronizatzeko"</string>
+	<!---->
+	<string name="account_settings_description_label">"Kontuaren izena"</string>
+	<!---->
+	<string name="account_settings_name_label">"Zure izena"</string>
+	<!---->
+	<string name="account_settings_edit_quick_responses_label">"Erantzun bizkorrak"</string>
+	<!---->
+	<string name="account_settings_edit_quick_responses_summary">"Editatu mezu elektronikoak idaztean maiz txertatzen duzun testua"</string>
+	<!---->
+	<string name="account_settings_notifications">"Jakinarazpenen ezarpenak"</string>
+	<!---->
+	<string name="account_settings_data_usage">"Datuen erabilera"</string>
+	<!---->
+	<string name="account_settings_policies">"Segurtasun-gidalerroak"</string>
+	<!---->
+	<string name="system_folders_title">"Sistemaren karpetak"</string>
+	<!---->
+	<string name="system_folders_trash_title">"Zaborrontziaren karpetak"</string>
+	<!---->
+	<string name="system_folders_trash_summary">"Hautatu zerbitzariaren zaborrontziaren karpeta"</string>
+	<!---->
+	<string name="system_folders_trash_dlg">"Hautatu zerbitzariaren zaborrontziaren karpeta"</string>
+	<!---->
+	<string name="system_folders_sent_title">"Bidalitako elementuen karpeta"</string>
+	<!---->
+	<string name="system_folders_sent_summary">"Hautatu zerbitzariaren bidalitako elementuen karpeta"</string>
+	<!---->
+	<string name="system_folders_sent_dlg">"Hautatu zerbitzariaren bidalitako elementuen karpeta"</string>
+	<!---->
+	<string name="edit_quick_response_dialog">"Erantzun bizkorra"</string>
+	<!---->
+	<string name="save_action">"Gorde"</string>
+	<!---->
+	<string name="account_settings_sync_contacts_enable">"Sinkronizatu kontaktuak"</string>
+	<!---->
+	<string name="account_settings_sync_contacts_summary">"Sinkronizatu kontu honetako kontaktuak"</string>
+	<!---->
+	<string name="account_settings_sync_calendar_enable">"Sinkronizatu egutegia"</string>
+	<!---->
+	<string name="account_settings_sync_calendar_summary">"Sinkronizatu kontu honetako egutegiko gertaera"</string>
+	<!---->
+	<string name="account_settings_sync_email_enable">"Sinkronizatu posta"</string>
+	<!---->
+	<string name="account_settings_sync_email_summary">"Sinkronizatu kontu honetako posta"</string>
+	<!---->
+	<string name="account_settings_vibrate_when_label">"Dardara"</string>
+	<!---->
+	<string name="account_settings_ringtone">"Aukeratu dei-tonua"</string>
+	<!---->
+	<string name="account_settings_servers">"Zerbitzariaren ezarpenak"</string>
+	<!---->
+	<string name="default_ringtone">"Dei-tonu lehenetsia"</string>
+	<!---->
+	<string name="default_ringtone_unkonwn">"Dei-tonu ezezaguna"</string>
+	<!---->
+	<string name="mailbox_settings_activity_title">"Sinkronizazio-aukerak"</string>
+	<!---->
+	<string name="mailbox_settings_activity_title_with_mailbox">"Sinkronizazio-aukerak (<xliff:g example="Family" id="mailboxx_name">%s</xliff:g>)"</string>
+	<!---->
+	<string name="mailbox_settings_sync_enabled_label">"Sinkronizatu karpeta"</string>
+	<!---->
+	<string name="mailbox_settings_sync_enabled_summary">"Mezuak deskargatuko dira konektatutakoan"</string>
+	<!---->
+	<string name="mailbox_settings_mailbox_sync_window_label">"Posta sinkronizatu beharreko egunak"</string>
+	<!---->
+	<string name="prefDialogTitle_conversationListIcon">"Igorlearen irudia"</string>
+	<!---->
+	<string name="provider_note_live">"\"Plus\" kontu batzuek bakarrik onartzen dute programa honek haietarako POP sarbidea izatea. Helbide elektroniko eta pasahitz zuzenak erabili arren ezin baduzu saiorik hasi, agian ez duzu ordaindutako \"Plus\" konturik izango. Abiarazi web-arakatzailea po"</string>
+	<!---->
+	<string name="provider_note_t_online">"Posta-kontu hau ezarri aurretik, joan T-Online-ren webgunera eta sortu POP3 posta atzitzeko pasahitza."</string>
+	<!---->
+	<string name="exchange_name">"Lanekoa"</string>
+	<!---->
+	<string name="exchange_name_alternate">"Microsoft Exchange ActiveSync"</string>
+	<!---->
+	<string name="system_account_create_failed">"Ezin izan da kontua sortu. Saiatu berriro."</string>
+	<!---->
+	<string name="device_admin_label">"Posta elektronikoa"</string>
+	<!---->
+	<string name="device_admin_description">"Zerbitzariak zehaztutako segurtasun-gidalerroak gaitzen ditu"</string>
+	<!---->
+	<string name="settings_activity_title">"Ezarpenak"</string>
+	<!---->
+	<string name="header_label_general_preferences">"Orokorrak"</string>
+	<!---->
+	<string name="general_preference_confirm_delete_label">"Berretsi ezabatu aurretik"</string>
+	<!---->
+	<string name="general_preference_confirm_send_label">"Berretsi bidali aurretik"</string>
+	<!---->
+	<string name="more_than_999">"999+"</string>
+	<!---->
+	<string name="search_hint">"Bilatu"</string>
+	<!---->
+	<string name="policy_dont_allow_camera">"Desgaitu gailuko kamera erabiltzeko aukera"</string>
+	<!---->
+	<string name="policy_require_password">"Eskatu gailuaren pasahitza"</string>
+	<!---->
+	<string name="policy_password_history">"Murriztu azken pasahitzak erabiltzeko aukera"</string>
+	<!---->
+	<string name="policy_password_expiration">"Eskatu pasahitzak iraungitze-data izatea"</string>
+	<!---->
+	<string name="policy_screen_timeout">"Eskatu inaktibo dagoen gailuari pantaila blokeatzea"</string>
+	<!---->
+	<string name="policy_calendar_age">"Mugatu egutegiko sinkronizatutako gertaera kopurua"</string>
+	<!---->
+	<string name="policy_email_age">"Mugatu sinkronizatutako mezu elektroniko kopurua"</string>
+	<!---->
+	<string name="quick_1">"Eskerrik asko!"</string>
+	<!---->
+	<string name="quick_2">"Ongi iruditzen zait!"</string>
+	<!---->
+	<string name="quick_3">"Geroago irakurriko dut eta erantzungo dizut."</string>
+	<!---->
+	<string name="quick_4">"Egin dezagun bilera bat hori eztabaidatzeko."</string>
+	<!---->
+	<string name="require_manual_sync_message">"Kontu honen atzeko planoko sinkronizazioa desgaituta dago\ ibiltaritzan."</string>
+	<!---->
+	<string name="confirm_response">"Erantzuna bidaltzen…"</string>
+	<!---->
+	<string name="no_conversations">"Ez dago mezurik."</string>
+	<!-- no translation found for imap_name -->
+	<skip />
+	<!-- no translation found for pop3_name -->
+	<skip />
+	<!---->
+	<string name="email_name">"Helbidea"</string>
+	<!---->
+	<string name="folder_picker_title">"Karpeta-hautatzailea"</string>
+	<!---->
+	<string name="trash_folder_selection_title">"Hautatu kontu honen zerbitzariko Zaborrontzia karpeta: <xliff:g id="account">%s</xliff:g>"</string>
+	<!---->
+	<string name="sent_folder_selection_title">"Hautatu kontu honen zerbitzariko Bidalitakoak karpeta: <xliff:g id="account">%s</xliff:g>"</string>
+	<!---->
+	<string name="account_waiting_for_folders_msg">"Karpeta-zerrenda kargatzen..."</string>
+	<!---->
+	<string name="no_quick_responses">"Ez dago bat ere erabilgarri"</string>
+	<!---->
+	<string name="gmail_name">"Gmail"</string>
+	<!---->
+	<string name="folder_sync_settings_pref_title">"Karpetaren sinkronizazio-ezarpenak"</string>
+	<!---->
+	<string name="select_your_account">"Hautatu kontua"</string>
+	<!---->
+	<string name="select_account_list_below">"Hautatu kontua beheko zerrendan:"</string>
+	<!---->
+	<string name="cancel_label">"Utzi"</string>
+	<!---->
+	<string name="next_label">"Hurrengoa"</string>
+	<!---->
+	<string name="str_account_provider_other">"Gehiago"</string>
+	<!---->
+	<string name="account_settings_download_options_label">"Deskargatzeko aukerak"</string>
+	<!---->
+	<string name="account_setting_download_opt_headonly">"Goiburua soilik"</string>
+	<!---->
+	<string name="account_setting_download_opt_all">"Guztiak"</string>
+	<!-- no translation found for account_setting_download_opt_2k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_5k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_10k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_20k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_50k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_100k -->
+	<skip />
+	<!---->
+	<string name="account_oof_error_tip_past">"Amaiera-orduak ezin du iraganekoa izan. Aldatu amaiera-ordua etorkizunera."</string>
+	<!---->
+	<string name="account_oof_error_tip_earlier">"Amaiera-orduak ezin du hasiera-ordua baino lehenagokoa izan. Aldatu amaiera-ordua berriro."</string>
+	<!---->
+	<string name="account_setting_oof_label">"Bulegotik kanpoko erantzunaren ezarpenak"</string>
+	<!---->
+	<string name="oof_auto_repley">"Bidali bulegotik kanpoko erantzun automatikoa"</string>
+	<!---->
+	<string name="oof_auto_replies_period">"Bidali erantzun automatikoak denbora-tarte honetan"</string>
+	<!---->
+	<string name="start_time">"Hasteko ordua"</string>
+	<!---->
+	<string name="end_time">"Amaiera-ordua"</string>
+	<!---->
+	<string name="internal_message">"Barnekoentzako mezua"</string>
+	<!---->
+	<string name="oof_auto_replies_external_senders">"Bidali erantzun automatikoak kanpoko igorleei"</string>
+	<!---->
+	<string name="oof_choice_oof_in_contacts">"Bidali bulegotik kanpoko erantzun automatikoak kontaktuen zerrendan ditudan igorleei"</string>
+	<!---->
+	<string name="oof_choice_oof_outside_organisation">"Bidali bulegotik kanpoko erantzun automatikoak nire erakundetik kanpoko edonori"</string>
+	<!---->
+	<string name="external_message">"Kanpokoentzako mezua"</string>
+	<!---->
+	<string name="oof_done_message_attention">"Ez duzu zehaztu zure erakundeko jendeari bidali beharreko erantzun automatikorik. Bulegotik kanpoko erantzuna idazten ez bada, jendeak ez du jasoko bulegotik kanpoan zaudenaren jakinarazpenik. Halere, bulegotik kanpoko arauek funtzionatzen jarraituko dute. Jarraitu nahi duzu?"</string>
+	<!---->
+	<string name="oof_choice_in_contacts">"Bidali kontaktuen zerrendan ditudan igorleei"</string>
+	<!---->
+	<string name="oof_choice_all_senders">"Bidali igorle guztiei"</string>
+	<!---->
+	<string name="hint_text_of_internal_message">"Erantzun erakundeko helbideei"</string>
+	<!---->
+	<string name="hint_text_of_external_message">"Erantzun zure erakundetik kanpoko helbideei"</string>
+	<!---->
+	<string name="account_delete_dlg_title">"Kontua kendu?"</string>
+	<!---->
+	<string name="account_delete_dlg_instructions_fmt">"\"<xliff:g id="account">%s</xliff:g>\" kontua posta elektronikotik kenduko da."</string>
+	<!---->
+	<string name="account_delete_dlg_instructions_fmt_new">"Kontua kenduz gero, bertako mezu, kontaktu eta telefonoko gainerako datuak ezabatuko dira."</string>
+	<!---->
+	<string name="account_delete_dlg_action_remove_label">"Kendu"</string>
+	<!---->
+	<string name="account_delete_dlg_action_cancel_label">"Utzi"</string>
+	<!---->
+	<string name="account_settings_category_delete_account">"Kendu kontua"</string>
+	<!---->
+	<string name="account_settings_delete_account_label">"Kendu kontua"</string>
+	<!---->
+	<string name="account_settings_default_label">"Kontu lehenetsia"</string>
+	<!---->
+	<string name="account_settings_default_summary">"Lehenespenez, bidali mezu elektronikoak kontu honetatik."</string>
+	<!---->
+	<string name="account_setup_options_default_label">"Lehenespenez, bidali mezu elektronikoak kontu honetatik."</string>
+	<!---->
+	<string name="account_setup_basics_default_label">"Lehenespenez, bidali mezu elektronikoak kontu honetatik."</string>
+	<!---->
+	<string name="local_search_action">"Bilatu disko lokalean"</string>
+	<!---->
+	<string name="service_search_action">"Bilatu zerbitzarian"</string>
+	<!---->
+	<string name="local_search_all">"Guztiak"</string>
+	<!---->
+	<string name="local_search_from">"Hasiera"</string>
+	<!---->
+	<string name="local_search_to">"Amaiera"</string>
+	<!---->
+	<string name="local_search_subject">"Gaia"</string>
+	<!---->
+	<string name="status_loading_attachments">"Kargatzen"</string>
+	<!---->
+	<string name="account_use_proxy_label">"Erabili proxya"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_label">"Proxy IPa"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_port_label">"Proxy-ataka"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_name">"Proxyaren izena"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_password">"Proxy-pasahitza"</string>
+	<!---->
+	<string name="attachment_info_dialog_wifi_title">"Wi-Fi konexioa beharrezkoa da"</string>
+	<!---->
+	<string name="attachment_info_wifi_settings">"Wi-Fi ezarpenak"</string>
+	<!---->
+	<string name="attachment_info_wifi_only">"Eranskina handiegia da sare mugikor baten bidez deskargatzeko. Wi-Fi sare batera konektatzen zaren hurrengo aldia deskargatu ahal izango duzu."</string>
+	<!---->
+	<string name="attachment_info_ok">"Ados"</string>
+	<!---->
+	<string name="mailbox_name_display_draft">"Zirriborroa"</string>
+	<!---->
+	<string name="message_compose_display_name">"<xliff:g example="John" id="name">%1$s</xliff:g> eta beste <xliff:g example="27" id="number">%2$d</xliff:g>"</string>
+	<!---->
+	<string name="app_name">"Helbidea"</string>
+	<!---->
+	<string name="from">"Igorlea"</string>
+	<!---->
+	<string name="to">"Nori"</string>
+	<!---->
+	<string name="cc">"Cc"</string>
+	<!---->
+	<string name="bcc">"Bcc"</string>
+	<!---->
+	<string name="subject_hint">"Gaia"</string>
+	<!---->
+	<string name="body_hint">"Idatzi mezu elektronikoa"</string>
+	<!---->
+	<string name="add_file_attachment">"Erantsi fitxategia"</string>
+	<!---->
+	<string name="add_photo_attachment">"Erantsi irudia"</string>
+	<!---->
+	<string name="save_draft">"Gorde zirriborroa"</string>
+	<!---->
+	<string name="discard">"Baztertu"</string>
+	<!---->
+	<string name="compose">"Idatzi"</string>
+	<!---->
+	<string name="select_contacts_field">"Hautatu kontaktuak hemendik:"</string>
+	<!---->
+	<string name="item_save_group">"Gorde taldea"</string>
+	<!---->
+	<string name="confirm_select">"Hautatu"</string>
+	<!---->
+	<string name="cancel_select">"Utzi"</string>
+	<string-array name="compose_modes">
+		<item>"Erantzun"</item>
+		<item>"Erantzun guztiei"</item>
+		<item>"Birbidali"</item>
+	</string-array>
+	<string-array name="compose_modes_without_reply_all">
+		<item>"Erantzun"</item>
+		<item>"Birbidali"</item>
+	</string-array>
+	<!---->
+	<string name="reply_subject_label">"Re:"</string>
+	<!---->
+	<string name="forward_subject_label">"Fwd:"</string>
+	<!---->
+	<string name="reply_attribution">"datan <xliff:g id="date">%s</xliff:g>, <xliff:g id="person">%s</xliff:g> erabiltzaileak hau idatzi zuen:"</string>
+	<!---->
+	<string name="forward_attribution">"---------- Birbidalitako mezua ----------；Igorlea:；Data:；Gaia:；Hartzailea:"</string>
+	<!---->
+	<string name="forward_attribution_with_headers">"---------- Birbidalitako mezua ---------- <xliff:g id="a">%s</xliff:g> Igorlea: <xliff:g id="from">%s</xliff:g> <xliff:g id="b">%s</xliff:g> Data: <xliff:g id="date">%s</xliff:g> <xliff:g id="c">%s</xliff:g> Gaia: <xliff:g id="subject">%s</xliff:g> <xliff:g id="d">%s</xliff:g> Hartzailea: <xliff:g id="to">%s</xliff:g> <xliff:g id="e">%s</xliff:g> Cc: <xliff:g id="cc">%s</xliff:g> <br/>"</string>
+	<!---->
+	<string name="forward_attribution_no_headers">"---------- Birbidalitako mezua ----------"</string>
+	<!---->
+	<string name="cc_attribution">"Cc:"</string>
+	<!---->
+	<string name="select_attachment_type">"Aukeratu eranskin mota"</string>
+	<!---->
+	<string name="too_large_to_attach_single">"Ezin dira %1$s baino gehiagoko fitxategiak erantsi"</string>
+	<!---->
+	<string name="too_large_to_attach_multiple">"Gutxienez fitxategi bat ez da erantsi. Muga: <xliff:g id="maxSize">%1$s</xliff:g>."</string>
+	<!---->
+	<string name="too_large_to_mid_attach_additional">"<xliff:g id="maxSize">%1$s</xliff:g>-ko muga gainditzen du mezu elektronikoak. Baliteke posta-kontuak hori ez onartzea."</string>
+	<!---->
+	<string name="too_large_to_attach_additional">"Ez da fitxategia gehitu. <xliff:g id="maxSize">%1$s</xliff:g>-ko muga gainditzen du mezu elektronikoak."</string>
+	<!---->
+	<string name="generic_attachment_problem">"Ezin izan da fitxategia erantsi."</string>
+	<!---->
+	<string name="recipient_needed">"Gehitu hartzaile bat gutxienez."</string>
+	<!---->
+	<string name="recipient_error_dialog_title">"Hartzailearen errorea"</string>
+	<!---->
+	<string name="confirm_send_title">"Mezua bidali?"</string>
+	<!---->
+	<string name="confirm_send_message_with_no_subject">"Mezuaren gaia hutsik dago"</string>
+	<!---->
+	<string name="confirm_send_message_with_no_body">"Mezua hutsik dago."</string>
+	<!---->
+	<string name="confirm_send_message">"Mezua bidali?"</string>
+	<!---->
+	<string name="message_discarded">"Mezua baztertu da."</string>
+	<!-- no translation found for signature -->
+	<skip />
+	<!---->
+	<string name="custom_from_account_label">"Bidali mezua honela:"</string>
+	<!---->
+	<string name="send">"Bidali"</string>
+	<!---->
+	<string name="mark_read">"Irakurrita"</string>
+	<!---->
+	<string name="mark_unread">"Irakurri gabe"</string>
+	<!---->
+	<string name="mute">"Mututu"</string>
+	<!---->
+	<string name="add_star">"Gehitu izarra"</string>
+	<!---->
+	<string name="remove_star">"Kendu izarra"</string>
+	<!---->
+	<string name="remove_folder">"Kendu <xliff:g id="folderName">%1$s</xliff:g> karpetatik"</string>
+	<!---->
+	<string name="archive">"Artxibatu"</string>
+	<!---->
+	<string name="report_spam">"Salatu spama"</string>
+	<!---->
+	<string name="mark_not_spam">"Salatu: Ez da spama"</string>
+	<!---->
+	<string name="report_phishing">"Salatu phishing-a"</string>
+	<!---->
+	<string name="delete">"Ezabatu"</string>
+	<!---->
+	<string name="discard_drafts">"Baztertu zirriborroak"</string>
+	<!---->
+	<string name="discard_failed">"Ezin izan dira baztertu"</string>
+	<!---->
+	<string name="refresh">"Freskatu"</string>
+	<!---->
+	<string name="reply">"Erantzun"</string>
+	<!---->
+	<string name="reply_all">"Erantzun guztiei"</string>
+	<!---->
+	<string name="resume_draft">"Editatu"</string>
+	<!---->
+	<string name="forward">"Birbidali"</string>
+	<!---->
+	<string name="menu_compose">"Idatzi"</string>
+	<!---->
+	<string name="menu_sort">"Ordenatu"</string>
+	<!---->
+	<string name="menu_change_folders">"Aldatu karpetak"</string>
+	<!---->
+	<string name="menu_move_to">"Eraman hona:"</string>
+	<!---->
+	<string name="menu_move_to_inbox">"Eraman sarrerako ontzira"</string>
+	<!---->
+	<string name="menu_manage_folders">"Karpetaren ezarpenak"</string>
+	<!---->
+	<string name="menu_show_original">"Leheneratu tamaina automatikoa"</string>
+	<!---->
+	<string name="menu_settings">"Ezarpenak"</string>
+	<!---->
+	<string name="menu_search">"Bilatu"</string>
+	<!---->
+	<string name="drawer_title">"Nabigazioa"</string>
+	<!---->
+	<string name="mark_important">"Markatu garrantzitsu gisa"</string>
+	<!---->
+	<string name="mark_not_important">"Markatu ez-garrantzitsu gisa"</string>
+	<!---->
+	<string name="select_all_conversations">"Hautatu guztiak"</string>
+	<!---->
+	<string name="unselect_all_conversations">"Desautatu guztiak"</string>
+	<!---->
+	<string name="add_cc_label">"Gehitu Cc/Bcc"</string>
+	<!---->
+	<string name="add_bcc_label">"Gehitu Bcc"</string>
+	<!---->
+	<string name="quoted_text">"Sartu jatorrizko testua"</string>
+	<!---->
+	<string name="quoted_text_label">"Gehitu aurreko mezuaren kopia"</string>
+	<!---->
+	<string name="respond_inline">"Erantzun lerro artean"</string>
+	<!---->
+	<string name="bytes">"<xliff:g id="count">%s</xliff:g> B"</string>
+	<!---->
+	<string name="kilobytes">"<xliff:g id="count">%s</xliff:g> KB"</string>
+	<!---->
+	<string name="megabytes">"<xliff:g id="count">%s</xliff:g> MB"</string>
+	<!---->
+	<string name="attachment_image">"Irudia"</string>
+	<!---->
+	<string name="attachment_video">"Bideoa"</string>
+	<!---->
+	<string name="attachment_audio">"Audioa"</string>
+	<!---->
+	<string name="attachment_text">"Testua"</string>
+	<!---->
+	<string name="attachment_application_msword">"Dokumentua"</string>
+	<!---->
+	<string name="attachment_application_vnd_ms_powerpoint">"Aurkezpena"</string>
+	<!---->
+	<string name="attachment_application_vnd_ms_excel">"Kalkulu-orria"</string>
+	<!-- no translation found for attachment_application_pdf -->
+	<skip />
+	<!---->
+	<string name="attachment_unknown">"<xliff:g id="attachmentExtension">%s</xliff:g> fitxategia"</string>
+	<!---->
+	<string name="preview_attachment">"Aurrebista"</string>
+	<!---->
+	<string name="save_attachment">"Gorde"</string>
+	<!---->
+	<string name="cancel_attachment">"Utzi"</string>
+	<!---->
+	<string name="open_attachment">"Ireki"</string>
+	<!---->
+	<string name="install_attachment">"Instalatu"</string>
+	<!---->
+	<string name="download_again">"Deskargatu berriro"</string>
+	<!---->
+	<string name="more_info_attachment">"Informazioa"</string>
+	<!---->
+	<string name="no_application_found">"Ez dago eranskina ikusteko ireki dezakeen aplikaziorik."</string>
+	<!---->
+	<string name="fetching_attachment">"Eranskina eskuratzen"</string>
+	<!---->
+	<string name="please_wait">"Itxaron, mesedez\u2026"</string>
+	<!---->
+	<string name="saved">"Gorde da,"</string>
+	<!---->
+	<string name="download_failed">"Ezin izan da deskargatu. Ukitu berriro saiatzeko."</string>
+	<!---->
+	<string name="menu_photo_save_all">"Gorde guztiak"</string>
+	<!---->
+	<string name="menu_photo_share">"Partekatu"</string>
+	<!---->
+	<string name="menu_photo_share_all">"Partekatu guztiak"</string>
+	<!---->
+	<string name="menu_photo_print">"Inprimatu"</string>
+	<!---->
+	<string name="saving">"Gordetzen…"</string>
+	<!---->
+	<string name="choosertitle_sharevia">"Partekatu honen bidez"</string>
+	<!---->
+	<string name="contextmenu_openlink">"Ireki arakatzailean"</string>
+	<!---->
+	<string name="contextmenu_copy">"Kopiatu"</string>
+	<!---->
+	<string name="contextmenu_copylink">"Kopiatu estekaren URLa"</string>
+	<!---->
+	<string name="contextmenu_view_image">"Ikusi irudia"</string>
+	<!---->
+	<string name="contextmenu_dial_dot">"Deitu"</string>
+	<!---->
+	<string name="contextmenu_sms_dot">"SMSa\u2026"</string>
+	<!---->
+	<string name="contextmenu_add_contact">"Gehitu kontaktua"</string>
+	<!---->
+	<string name="contextmenu_send_mail">"Bidali mezu elektronikoa"</string>
+	<!---->
+	<string name="contextmenu_map">"Esleitu"</string>
+	<!---->
+	<string name="contextmenu_sharelink">"Partekatu esteka"</string>
+	<!---->
+	<string name="contextmenu_savelink">"Gorde esteka"</string>
+	<!---->
+	<string name="contextmenu_help">"Laguntza"</string>
+	<!---->
+	<string name="contextmenu_feedback">"Bidali iritzia"</string>
+	<!---->
+	<string name="sort_title">"Ordenatzeko irizpidea"</string>
+	<!---->
+	<string name="sort_by_tip">"Honen arabera ordenatua: <xliff:g id="sor_type">%s</xliff:g>"</string>
+	<!-- no translation found for num_selected -->
+	<skip />
+	<plurals name="move_conversation">
+		<item quantity="one">"Elkarrizketa gehiago"</item>
+		<item quantity="other">"Eraman <xliff:g>%1$d</xliff:g> elkarrizketa"</item>
+	</plurals>
+	<!---->
+	<string name="content_description">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g>, gaia: <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> (<xliff:g id="date">%5$s</xliff:g>), <xliff:g id="readstate">%6$s</xliff:g>"</string>
+	<!---->
+	<string name="content_description_today">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g>, gaia: <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> (<xliff:g id="time">%5$s</xliff:g>), <xliff:g id="readstate">%6$s</xliff:g>"</string>
+	<!---->
+	<string name="read_string">"Elkarrizketa irakurri egin da"</string>
+	<!---->
+	<string name="unread_string">"Elkarrizketa ez da irakurri"</string>
+	<!---->
+	<string name="filtered_tag">"[<xliff:g id="tag">%1$s</xliff:g>]<xliff:g id="subject">%2$s</xliff:g>"</string>
+	<!-- no translation found for badge_and_subject -->
+	<skip />
+	<plurals name="draft">
+		<item quantity="one">"Zirriborroa"</item>
+		<item quantity="other">"Zirriborroak"</item>
+	</plurals>
+	<!---->
+	<string name="sending">"Bidaltzen\u2026"</string>
+	<!---->
+	<string name="message_retrying">"Berriro saiatzen\u2026"</string>
+	<!---->
+	<string name="message_failed">"Huts egin du"</string>
+	<!---->
+	<string name="send_failed">"Ezin izan da bidali mezua."</string>
+	<!---->
+	<string name="send_failed_wait_attchment_downloaded">"Ezin da birbidali, eranskinak guztiz deskargatu ez direlako. Aurrena, deskargatu eranskinak."</string>
+	<!---->
+	<string name="me_object_pronoun">"Ni"</string>
+	<!---->
+	<string name="me_subject_pronoun">"Ni"</string>
+	<plurals name="confirm_delete_conversation">
+		<item quantity="one">"Elkarrizketa ezabatu?"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> elkarrizketak ezabatu?"</item>
+	</plurals>
+	<plurals name="confirm_archive_conversation">
+		<item quantity="one">"Elkarrizketa artxibatu?"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> elkarrizketak artxibatu?"</item>
+	</plurals>
+	<plurals name="confirm_discard_drafts_conversation">
+		<item quantity="one">"Mezua baztertu?"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> mezu hauek baztertu nahi dituzu?"</item>
+	</plurals>
+	<!---->
+	<string name="confirm_discard_text">"Mezua baztertu?"</string>
+	<!---->
+	<string name="loading_conversations">"Kargatzen\u2026"</string>
+	<!---->
+	<string name="empty_inbox">"Amaitu duzu! Ondo pasa!"</string>
+	<!---->
+	<string name="empty_search">"Hara! Ez dugu \"<xliff:g id="search_query">%1$s</xliff:g>\" bilaketaren emaitzarik aurkitu."</string>
+	<!---->
+	<string name="empty_spam_folder">"Ez dago spamik!"</string>
+	<!---->
+	<string name="empty_trash_folder">"Ez dago zaborrik. Eskerrik asko birziklatzeagatik!"</string>
+	<!---->
+	<string name="empty_folder">"Ez dago mezu elektronikorik."</string>
+	<!---->
+	<string name="getting_messages">"Mezuak eskuratzen"</string>
+	<!---->
+	<string name="undo">"Desegin"</string>
+	<plurals name="conversation_unstarred">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> elkarrizketari izarra kentzen."</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> elkarrizketari izarra kentzen."</item>
+	</plurals>
+	<plurals name="conversation_muted">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> ezkutatu egin da."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> ezkutatu egin da."</item>
+	</plurals>
+	<plurals name="conversation_spammed">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> spama dela salatu da."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> spama dela salatu da."</item>
+	</plurals>
+	<plurals name="conversation_not_spam">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> spama ez dela zehaztu da."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> spama ez dela zehaztu da."</item>
+	</plurals>
+	<plurals name="conversation_not_important">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> garrantzitsua ez dela zehaztu da."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> garrantzitsua ez dela zehaztu da."</item>
+	</plurals>
+	<plurals name="conversation_phished">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> phishing-saiakera dela salatu da."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> phishing-saiakera dela salatu da."</item>
+	</plurals>
+	<plurals name="conversation_archived">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> artxibatu da."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> artxibatu da."</item>
+	</plurals>
+	<plurals name="conversation_deleted">
+		<item quantity="one">"&lt;b&gt;%1$d&lt;/b&gt; ezabatu dira."</item>
+		<item quantity="other">"&lt;b&gt;%1$d&lt;/b&gt; ezabatu dira."</item>
+	</plurals>
+	<!---->
+	<string name="deleted">"Ezabatutakoak"</string>
+	<!---->
+	<string name="archived">"Artxibatuta"</string>
+	<!---->
+	<string name="starred">"Izardunak"</string>
+	<!---->
+	<string name="unstarred">"Izarra kendu zaio"</string>
+	<!---->
+	<string name="folder_removed">"<xliff:g id="folderName">%1$s</xliff:g> karpetatik kendu da"</string>
+	<plurals name="conversation_folder_changed">
+		<item quantity="one">"Karpeta aldatu egin da."</item>
+		<item quantity="other">"Karpetak aldatu egin dira."</item>
+	</plurals>
+	<!---->
+	<string name="conversation_folder_moved">"<xliff:g id="folderName">%1$s</xliff:g> karpetara eraman da"</string>
+	<!---->
+	<string name="search_results_header">"Emaitzak"</string>
+	<!---->
+	<string name="search_unsupported">"Kontuak ez du bilaketa-funtzioa onartzen."</string>
+	<!---->
+	<string name="add_label">"Gehitu karpeta"</string>
+	<!---->
+	<string name="new_incoming_messages_one">"<xliff:g id="sender">%s</xliff:g> erabiltzailearen mezu berria."</string>
+	<plurals name="new_incoming_messages_many">
+		<item quantity="other">"Erakutsi <xliff:g id="count">%1$d</xliff:g> mezu berri."</item>
+	</plurals>
+	<!---->
+	<string name="date_and_view_details">"<xliff:g id="date">%1$s</xliff:g> &lt;a href=\'http://www.example.com\'&gt;Ikusi xehetasunak&lt;/a&gt;"</string>
+	<!---->
+	<string name="date_and_view_details_another">"<xliff:g id="date">%1$s</xliff:g> &lt;font color=\"<xliff:g id="color">%2$d</xliff:g>\"&gt;Ikusi xehetasunak&lt;/font&gt;"</string>
+	<!---->
+	<string name="hide_details">"Ezkutatu xehetasunak"</string>
+	<!---->
+	<string name="to_message_header">"hartzailea: <xliff:g id="recipients">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="contact_info_string">"Erakutsi kontaktuaren informazioa: <xliff:g id="name">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="contact_info_string_default">"Erakutsi kontaktuaren informazioa"</string>
+	<plurals name="show_messages_read">
+		<item quantity="other">"<xliff:g example="4" id="count">%1$d</xliff:g> mezu zahar"</item>
+	</plurals>
+	<!---->
+	<string name="from_heading">"Igorlea:"</string>
+	<!---->
+	<string name="replyto_heading">"Erantzuteko helbidea:"</string>
+	<!---->
+	<string name="to_heading">"Hartzailea:"</string>
+	<!---->
+	<string name="to_heading_no_space">"Hartzailea:"</string>
+	<!---->
+	<string name="cc_heading">"Cc:"</string>
+	<!---->
+	<string name="bcc_heading">"Bcc:"</string>
+	<!---->
+	<string name="date_heading">"Data:"</string>
+	<!---->
+	<string name="show_images">"Erakutsi arg."</string>
+	<!---->
+	<string name="always_show_images">"Always show pictures from this sender"</string>
+	<!---->
+	<string name="always_show_images_toast">"Igorle honen argazkiak automatikoki erakutsiko dira."</string>
+	<!---->
+	<string name="address_display_format">"<xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g>"</string>
+	<!---->
+	<string name="address_display_format_with_via_domain">"<xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g>, <xliff:g id="via_domain">%3$s</xliff:g> bidez"</string>
+	<!---->
+	<string name="message_saved">"Mezua zirriborro gisa gorde da."</string>
+	<!---->
+	<string name="sending_message">"Mezua bidaltzen\u2026"</string>
+	<!---->
+	<string name="invalid_recipient">"%s helbideak ez du balio"</string>
+	<!---->
+	<string name="show_elided">"Erakutsi jatorrizko mezua"</string>
+	<!---->
+	<string name="hide_elided">"\u25BC Ezkutatu aipatutako testua"</string>
+	<!---->
+	<string name="message_invite_title">"Egutegiko gonbidapena"</string>
+	<!---->
+	<string name="message_invite_available">"Libre zaude"</string>
+	<!---->
+	<string name="message_invite_datetime">"Ordua"</string>
+	<!---->
+	<string name="message_invite_location">"Non"</string>
+	<!---->
+	<string name="message_invite_in_calendar_view">"Ikusi egutegian"</string>
+	<!---->
+	<string name="message_invite_calendar_view">"Ikusi egutegian"</string>
+	<!---->
+	<string name="message_invite_label_attending">"Joango zara?"</string>
+	<!---->
+	<string name="message_invite_accept">"Bai"</string>
+	<!---->
+	<string name="message_invite_tentative">"Agian"</string>
+	<!---->
+	<string name="message_invite_decline">"Ez"</string>
+	<!-- no translation found for enumeration_comma -->
+	<skip />
+	<!---->
+	<string name="send_anyway">"Bidali. halere"</string>
+	<!---->
+	<string name="ok">"Ados"</string>
+	<!---->
+	<string name="done">"Eginda"</string>
+	<!---->
+	<string name="cancel">"Utzi"</string>
+	<!---->
+	<string name="clear">"Garbitu"</string>
+	<!---->
+	<string name="next">"Hurrengoa"</string>
+	<!---->
+	<string name="previous">"Aurrekoa"</string>
+	<string-array name="sync_status">
+		<item>"Ez duzu Wi-Fi konexiorik. Sinkronizatzen jarraitu nahi duzu?"</item>
+		<item>"Ez dago konexiorik."</item>
+		<item>"Ezin izan da saioa hasi."</item>
+		<item>"Segurtasun-errorea."</item>
+		<item>"Ezin izan da sinkronizatu."</item>
+		<item>"Barneko errorea"</item>
+		<item>"Zerbitzariaren errorea"</item>
+	</string-array>
+	<!---->
+	<string name="tap_to_configure">"Ukitu konfiguratzeko"</string>
+	<!---->
+	<string name="non_synced_folder_description">"Elkarrizketak ikusteko, sinkronizatu karpeta hau."</string>
+	<!---->
+	<string name="tap_to_configure_folder_sync">"Sinkronizatu karpeta"</string>
+	<!-- no translation found for widget_large_unread_count -->
+	<skip />
+	<!---->
+	<string name="large_unseen_count">"<xliff:g example="99" id="count">%d</xliff:g> berri baino gehiago"</string>
+	<!---->
+	<string name="unseen_count">"<xliff:g example="4" id="count">%d</xliff:g> berri"</string>
+	<plurals name="actionbar_unread_messages">
+		<item quantity="other">"Irakurri gabeko %1$d mezu"</item>
+	</plurals>
+	<!---->
+	<string name="actionbar_large_unread_count">"<xliff:g id="count">%1$d</xliff:g>+ irakurri gabe"</string>
+	<!---->
+	<string name="view_more_conversations">"Ikusi elkarrizketa gehiago"</string>
+	<!---->
+	<string name="loading_conversation">"Kargatzen\u2026"</string>
+	<!---->
+	<string name="activity_mailbox_selection">"Aukeratu kontua"</string>
+	<!---->
+	<string name="activity_folder_selection">"Aukeratu karpeta"</string>
+	<!---->
+	<string name="folder_shortcut_widget_label">"Bidali karpeta mezu elektronikoz"</string>
+	<!---->
+	<string name="change_folders_selection_dialog_title">"Aldatu karpetak"</string>
+	<!---->
+	<string name="move_to_selection_dialog_title">"Eraman hona:"</string>
+	<!-- no translation found for search_results_loaded -->
+	<skip />
+	<!---->
+	<string name="network_error">"Sare-konexiorik ez"</string>
+	<!---->
+	<string name="retry">"Saiatu berriro"</string>
+	<!---->
+	<string name="load_more">"Kargatu gehiago"</string>
+	<!---->
+	<string name="shortcut_name_title">"Eman izena karpetaren lasterbideari"</string>
+	<!---->
+	<string name="wait_for_sync_title">"Sinkronizatzeko zain"</string>
+	<!---->
+	<string name="not_synced_title">"Ez da kontua sinkronizatu"</string>
+	<!---->
+	<string name="wait_for_manual_sync_body">"Kontua ez dago automatikoki sinkronizatzeko konfiguratuta.\nUkitu <b>Sinkronizatu</b> posta behin sinkronizatzeko, edo <b>Aldatu sinkronizazio-ezarpenak</b> kontua postarekin automatikoki sinkroniza dadin."</string>
+	<!---->
+	<string name="manual_sync">"Sinkronizatu orain"</string>
+	<!---->
+	<string name="change_sync_settings">"Aldatu sinkronizazio-ezarpenak"</string>
+	<!---->
+	<string name="photo_load_failed">"Ezin izan da irudia kargatu"</string>
+	<!---->
+	<string name="cant_move_or_change_labels">"Ezin da eraman, hautapenak hainbat kontu dituelako."</string>
+	<!-- no translation found for multiple_new_message_notification_item -->
+	<skip />
+	<!-- no translation found for single_new_message_notification_big_text -->
+	<skip />
+	<!---->
+	<string name="ignore_spam_warning">"Egin ez ikusi, mezua fidagarri zait"</string>
+	<!---->
+	<string name="via_domain">"<xliff:g id="viaDomain">%1$s</xliff:g> bidez"</string>
+	<!---->
+	<string name="signin">"Hasi saioa"</string>
+	<!---->
+	<string name="info">"Informazioa"</string>
+	<!---->
+	<string name="report">"Txostena"</string>
+	<!---->
+	<string name="sync_error">"Ezin izan da sinkronizatu."</string>
+	<!---->
+	<string name="sync_error_message">"Gailuak ez du sinkronizatzeko behar adina memoria."</string>
+	<!---->
+	<string name="storage">"Biltegia"</string>
+	<!-- no translation found for senders_split_token -->
+	<skip />
+	<!-- no translation found for draft_count_format -->
+	<skip />
+	<!---->
+	<string name="all_folders_heading">"Karpeta guztiak"</string>
+	<!---->
+	<string name="recent_folders_heading">"Azken karpetak"</string>
+	<!---->
+	<string name="message_details_title">"Mezuaren xehetasunak"</string>
+	<!---->
+	<string name="preference_advance_to_title">"Aurreratu automatikoki"</string>
+	<string-array name="prefEntries_autoAdvance">
+		<item>"Berriagoa"</item>
+		<item>"Zaharragoak"</item>
+		<item>"Elkarrizketa-zerrenda"</item>
+	</string-array>
+	<string-array name="prefSummaries_autoAdvance">
+		<item>"Ezabatu ondoren, erakutsi elkarrizketa berriena"</item>
+		<item>"Ezabatu ondoren, erakutsi elkarrizketa zaharrena"</item>
+		<item>"Ezabatu ondoren, erakutsi elkarrizketa-zerrenda"</item>
+	</string-array>
+	<!---->
+	<string name="prefDialogTitle_autoAdvance">"Aurreratu hona:"</string>
+	<!---->
+	<string name="clear_display_images_whitelist_title">"Garbitu irudi-onarpenak"</string>
+	<!---->
+	<string name="clear_display_images_whitelist_dialog_title">"Irudi-onarpenak garbitu?"</string>
+	<!---->
+	<string name="clear_display_images_whitelist_dialog_message">"Utzi aurretik onartutako igorleen irudi txertatuak bistaratzeari."</string>
+	<!---->
+	<string name="sender_whitelist_cleared">"Mezuetako irudiak ez dira automatikoki erakutsiko."</string>
+	<!---->
+	<string name="preferences_signature_title">"Sinadura"</string>
+	<!---->
+	<string name="preferences_signature_dialog_title">"Sinadura"</string>
+	<!---->
+	<string name="preferences_signature_summary_not_set">"Ezarri gabe"</string>
+	<!---->
+	<string name="mail_account_signature_prefix">"<xliff:g example="4" id="product">%1$s</xliff:g> gailutik bidalita"</string>
+	<!---->
+	<string name="notification_action_reply">"Erantzun"</string>
+	<!---->
+	<string name="notification_action_reply_all">"Erantzun guztiei"</string>
+	<!---->
+	<string name="notification_action_archive">"Artxibatu"</string>
+	<!---->
+	<string name="notification_action_remove_label">"Kendu etiketa"</string>
+	<!---->
+	<string name="notification_action_delete">"Ezabatu"</string>
+	<!---->
+	<string name="notification_action_undo_archive">"Artxibatuta"</string>
+	<!---->
+	<string name="notification_action_undo_remove_label">"Etiketa kendu da"</string>
+	<!---->
+	<string name="notification_action_undo_delete">"Ezabatutakoak"</string>
+	<!-- no translation found for veiled_address -->
+	<skip />
+	<!-- no translation found for veiled_alternate_text -->
+	<skip />
+	<!-- no translation found for veiled_alternate_text_unknown_person -->
+	<skip />
+	<!-- no translation found for veiled_summary_unknown_person -->
+	<skip />
+	<!-- no translation found for label_notification_ticker -->
+	<skip />
+	<plurals name="new_messages">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> mezu berria"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> mezu berri"</item>
+	</plurals>
+	<!-- no translation found for single_new_message_notification_title -->
+	<skip />
+	<!---->
+	<string name="silent_ringtone">"Isilik"</string>
+	<!---->
+	<string name="preference_removal_action_title">"Artxibatu eta ezabatu ekintzak"</string>
+	<string-array name="prefEntries_removal_action">
+		<item>"Erakutsi artxibatutakoak soilik"</item>
+		<item>"Erakutsi ezabatutakoak soilik"</item>
+		<item>"Erakutsi artxibatzeko eta ezabatzeko aukerak"</item>
+	</string-array>
+	<string-array name="prefSummaries_removal_action_summary">
+		<item>"Erakutsi artxibatutakoak soilik"</item>
+		<item>"Erakutsi ezabatutakoak soilik"</item>
+		<item>"Erakutsi artxibatzeko eta ezabatzeko aukerak"</item>
+	</string-array>
+	<!---->
+	<string name="prefDialogTitle_removal_action">"Artxibatu eta ezabatu ekintzak"</string>
+	<!---->
+	<string name="preferences_default_reply_all_title">"Erantzun guztiei"</string>
+	<!---->
+	<string name="preferences_default_reply_all_summary_impl">"Erabili aukera lehenetsi gisa mezuei erantzutean"</string>
+	<!---->
+	<string name="preference_swipe_title_archive">"Pasatu hatza artxibatzeko"</string>
+	<!---->
+	<string name="preference_swipe_title_delete">"Pasatu hatza ezabatzeko"</string>
+	<!---->
+	<string name="preference_swipe_description">"Elkarrizketa-zerrendan"</string>
+	<!---->
+	<string name="preference_swipe_actions">"Hatza pasatuta gauza daitezkeen ekintzak"</string>
+	<!---->
+	<string name="preference_sender_image_title">"Igorlearen irudia"</string>
+	<!---->
+	<string name="preference_sender_image_description">"Erakutsi izenaren ondoan elkarrizketa-zerrendan"</string>
+	<!---->
+	<string name="empty_trash">"Hustu zaborrontzia"</string>
+	<!---->
+	<string name="empty_spam">"Hustu spam-karpeta"</string>
+	<!---->
+	<string name="star_toggle">"Jarri/Kendu izarra"</string>
+	<!---->
+	<string name="empty_trash_dialog_title">"Zaborrontzia hustu?"</string>
+	<!---->
+	<string name="empty_spam_dialog_title">"Spam-karpeta hustu?"</string>
+	<plurals name="empty_folder_dialog_message">
+		<item quantity="one">"%1$d mezu behin betiko ezabatuko da."</item>
+		<item quantity="other">"%1$d mezu behin betiko ezabatuko dira."</item>
+	</plurals>
+	<!---->
+	<string name="drawer_open">"Ireki nabigazio-menu lerrakorra"</string>
+	<!---->
+	<string name="drawer_close">"Copyright-informazioa"</string>
+	<!---->
+	<string name="conversation_photo_welcome_text">"Ukitu igorle baten irudia elkarrizketa hautatzeko."</string>
+	<!---->
+	<string name="long_press_to_select_tip">"Eduki ukituta elkarrizketa bat hautatzeko eta, ondoren, ukitu gehiago hautatzeko."</string>
+	<!---->
+	<string name="folder_icon_desc">"Karpetaren ikonoa"</string>
+	<!---->
+	<string name="add_account">"Gehitu kontua"</string>
+	<!---->
+	<string name="dismiss_tip_hover_text">"Baztertu aholkua"</string>
+	<!---->
+	<string name="auto_sync_off">"Sinkronizazio automatikoa desaktibatuta dago."</string>
+	<!---->
+	<string name="tap_to_enable_sync">"Ukitu aktibatzeko."</string>
+	<!---->
+	<string name="account_sync_off">"Kontuaren sinkronizazioa desaktibatuta dago."</string>
+	<!---->
+	<string name="enable_sync_in_account_settings">"Aktibatu <xliff:g id="account_settings">%1$s</xliff:g> atalean."</string>
+	<!---->
+	<string name="account_settings_param">"Kontuaren ezarpenak"</string>
+	<!---->
+	<string name="unsent_messages_in_outbox">"<xliff:g id="outbox">%2$s</xliff:g> karpetako <xliff:g id="number">%1$s</xliff:g> ez dira bidali"</string>
+	<!---->
+	<string name="turn_auto_sync_on_dialog_title">"Sinkronizazio automatikoa aktibatu?"</string>
+	<!---->
+	<string name="turn_auto_sync_on_dialog_body">"Gmail-en ez ezik aplikazio eta kontu guztietan egiten dituzun aldaketak Internetekin eta zure beste gailuekin sinkronizatuko dira (<xliff:g id="phone_or_tablet">%1$s</xliff:g> barne)."</string>
+	<!---->
+	<string name="phone">"Telefonoa"</string>
+	<!---->
+	<string name="tablet">"Telefonoa"</string>
+	<!---->
+	<string name="turn_auto_sync_on_dialog_confirm_btn">"Aktibatu"</string>
+	<!---->
+	<string name="show_n_more_folders">"Erakutsi beste %1$s karpeta"</string>
+	<!---->
+	<string name="hide_folders">"Ezkutatu karpetak"</string>
+	<!---->
+	<string name="print">"Inprimatu"</string>
+	<!---->
+	<string name="print_all">"Inprimatu guztiak"</string>
+	<plurals name="num_messages">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> mezu"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> mezu"</item>
+	</plurals>
+	<!-- no translation found for date_message_received_print -->
+	<skip />
+	<!---->
+	<string name="draft_to_heading">"Zirriborroaren hartzaileak:"</string>
+	<!---->
+	<string name="draft_heading">"Zirriborroa"</string>
+	<!---->
+	<string name="quoted_text_hidden_print">"Jatorrizko testua ezkutatuta"</string>
+	<plurals name="num_attachments">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> eranskin"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> eranskin"</item>
+	</plurals>
+	<!---->
+	<string name="no_subject">"(Gairik ez)"</string>
+	<!---->
+	<string name="vacation_responder">"Erantzun automatikoa"</string>
+	<!---->
+	<string name="preferences_vacation_responder_title">"Erantzun automatikoa"</string>
+	<!---->
+	<string name="vacation_responder_body_hint_text">"mezu"</string>
+	<!---->
+	<string name="send_to_contacts_text">"Bidali nire kontaktuei soilik"</string>
+	<!---->
+	<string name="send_to_domain_text">"Bidali hauei soilik: <xliff:g id="domain">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="pick_start_date_title">"Hasiera"</string>
+	<!---->
+	<string name="pick_end_date_title">"Amaiera (aukerakoa)"</string>
+	<!---->
+	<string name="date_not_set">"Ezarri gabe"</string>
+	<!---->
+	<string name="set_end_date_dialog_title">"Amaiera-data (aukerakoa)"</string>
+	<!---->
+	<string name="custom_date">"Pertsonalizatua"</string>
+	<!---->
+	<string name="date_none">"Bat ere ez"</string>
+	<!---->
+	<string name="discard_changes">"Aldaketak baztertu nahi dituzu?"</string>
+	<!---->
+	<string name="draft_saved">"Zirriborroa gorde da"</string>
+	<!---->
+	<string name="draft_discard">"Zirriborroa baztertu da"</string>
+	<!---->
+	<string name="vacation_responder_changes_saved">"Erantzun automatikoaren aldaketak gorde dira"</string>
+	<!---->
+	<string name="vacation_responder_changes_discarded">"Erantzun automatikoaren aldaketak baztertu dira"</string>
+	<!---->
+	<string name="vacation_responder_off">"DESAKTIBATUTA"</string>
+	<!-- no translation found for vacation_responder_on -->
+	<skip />
+	<!-- no translation found for vacation_responder_on_with_end_date -->
+	<skip />
+	<!---->
+	<string name="vacation_responder_empty_subject_and_body_warning">"Gehitu gaia edo mezua"</string>
+	<!---->
+	<string name="view_entire_message">"Ikusi mezu osoa"</string>
+	<!---->
+	<string name="eml_loader_error_toast">"Ezin da ireki fitxategia"</string>
+	<!---->
+	<string name="help_and_info">"Laguntza"</string>
+	<!---->
+	<string name="help_and_feedback">"Laguntza eta iritziak"</string>
+	<!---->
+	<string name="feedback">"Bidali iritzia"</string>
+	<!---->
+	<string name="copyright">"©<xliff:g example="2010" id="year">%1$d</xliff:g> Google Inc."</string>
+	<!---->
+	<string name="version">"<xliff:g example="Email" id="app_name">%1$s</xliff:g> bertsioa <xliff:g example="2.2.1" id="version">%2$s</xliff:g>"</string>
+	<!-- no translation found for view_app_page -->
+	<skip />
+	<!---->
+	<string name="print_dialog">"Inprimatu\u2026"</string>
+	<!---->
+	<string name="copyright_information">"Copyrightari buruzko informazioa"</string>
+	<!---->
+	<string name="privacy_policy">"Pribatutasun-gidalerroak"</string>
+	<!---->
+	<string name="open_source_licenses">"Ireki iturburuko lizentziak"</string>
+	<!---->
+	<string name="reply_choice_yes">"Bai"</string>
+	<!---->
+	<string name="reply_choice_no">"Ez"</string>
+	<!---->
+	<string name="reply_choice_ok">"Ados"</string>
+	<!-- no translation found for reply_choice_hehe -->
+	<skip />
+	<!---->
+	<string name="reply_choice_thanks">"Eskerrik asko"</string>
+	<!---->
+	<string name="reply_choice_i_agree">"Ados"</string>
+	<!---->
+	<string name="reply_choice_nice">"Ongi da"</string>
+	<!---->
+	<string name="reply_on_my_way">"Bidean naiz"</string>
+	<!---->
+	<string name="reply_choice_later">"Ados, esango dizu zerbait"</string>
+	<!-- no translation found for reply_choice_smiling_face -->
+	<skip />
+	<!-- no translation found for reply_choice_frowning_face -->
+	<skip />
+	<!---->
+	<string name="preference_header_action_confirmations">"Ekintzen berrespenak"</string>
+	<!---->
+	<string name="preference_confirm_before_delete_title">"Berretsi ezabatu aurretik"</string>
+	<!---->
+	<string name="preference_confirm_before_archive_title">"Berretsi artxibatu aurretik"</string>
+	<!---->
+	<string name="preference_confirm_before_send_title">"Berretsi bidali aurretik"</string>
+	<!---->
+	<string name="preferences_conversation_mode_title">"Doitu mezuak automatikoki"</string>
+	<!---->
+	<string name="preferences_conversation_mode_summary">"Uzkurtu mezuak pantailara doitzeko"</string>
+	<!---->
+	<string name="preferences_disable_snap_headers_title">"Mezuen ekintzak"</string>
+	<string-array name="prefSummaries_snapHeader">
+		<item>"Erakutsi beti mezuen ekintzak pantailaren goialdean"</item>
+		<item>"Erakutsi mezuen ekintzak pantailaren goialdean soilik, gailua bertikalki dagoenean"</item>
+		<item>"Ez erakutsi mezuen ekintzak mezuaren goiburutik at"</item>
+	</string-array>
+	<string-array name="prefEntries_snapHeader">
+		<item>"Erakutsi beti"</item>
+		<item>"Erakutsi bertikalki soilik"</item>
+		<item>"Ez erakutsi"</item>
+	</string-array>
+	<!---->
+	<string name="clear_history_title">"Garbitu bilaketa-historia"</string>
+	<!---->
+	<string name="search_history_cleared">"Bilaketa-historia garbitu da."</string>
+	<!---->
+	<string name="clear_history_dialog_title">"Bilaketa-historia garbitu?"</string>
+	<!---->
+	<string name="clear_history_dialog_message">"Aurretik egindako bilaketa guztiak kenduko dira."</string>
+	<!---->
+	<string name="manage_accounts_menu_item">"Kudeatu kontuak"</string>
+	<!---->
+	<string name="general_preferences_title">"Ezarpen orokorrak"</string>
+	<!---->
+	<string name="activity_preferences">"Ezarpenak"</string>
+	<!---->
+	<string name="always_bcc_myself">"Ezarri beti ni bcc gisa"</string>
+	<!---->
+	<string name="always_bcc_myself_summary">"Ezarri beti ni bcc gisa"</string>
+	<!---->
+	<string name="general_preference_auto_download_remaining_label">"Deskargatu automatikoki falta dena"</string>
+	<!---->
+	<string name="general_preference_auto_download_remaining_summary">"Deskargatu automatikoki falta den gorputzaren zatia behera korritzean"</string>
+	<!---->
+	<string name="download_remaining">"Deskarga bat zain dago"</string>
+	<!---->
+	<string name="downloading_remaining">"Kargatzen…"</string>
+	<!---->
+	<string name="unable_to_connect">"Ezin da konektatu"</string>
+	<!---->
+	<string name="need_connection_prompt">"Sarerako konexioa behar da aplikazioa erabiltzeko. Aktibatu sare mugikorra edo Wi-Fi konexioa Ezarpenak atalean."</string>
+	<!---->
+	<string name="connection_settings">"Ezarpenak"</string>
+	<!---->
+	<string name="priority_action">"Lehentasuna"</string>
+	<!---->
+	<string name="set_priority_dialog_title">"Ezarri lehentasuna"</string>
+	<!---->
+	<string name="dialog_warning">"Abisua\u2026"</string>
+	<!---->
+	<string name="dialog_warning_message">"Exchange aplikazioaren bertsioa ez dator bat postaren Exchange bertsioarekin. Aurrera egin nahi duzu?"</string>
+	<!---->
+	<string name="toast_warning_text">"Exchange aplikazioaren bertsioa ez dator bat postaren Exchange bertsioarekin"</string>
+	<!---->
+	<string name="tips_sync_alter_title">"Sinkronizazioa"</string>
+	<!---->
+	<string name="tips_sync_alter_content">"Ez duzu Wi-Fi konexiorik. Sinkronizatzen jarraitu nahi duzu?"</string>
+	<!---->
+	<string name="tips_sync_alter_yes">"Bai"</string>
+	<!---->
+	<string name="tips_sync_alter_no">"Ez"</string>
+	<!---->
+	<string name="message_invite_tentative_title">"Behin-behinekoa"</string>
+	<!---->
+	<string name="message_invite_decline_title">"Baztertu"</string>
+	<!---->
+	<string name="message_invite_accent_title">"Onartu"</string>
+	<!---->
+	<string name="drm_file_remind">"Ezin da kargatu edo partekatu fitxategia, DRM bidez babestuta dagoelako!"</string>
+	<!---->
+	<string name="not_add_more_recipients">"Ezin dira <xliff:g id="maxLimit">%1$d</xliff:g> hartzaile baino gehiago gehitu aldi berean."</string>
+	<!---->
+	<string name="global_search_label">"Helbidea"</string>
+	<!---->
+	<string name="global_search_hint">"Bilatu mezu elektronikoa"</string>
+	<!---->
+	<string name="global_search_description">"Igorleak, gaiak eta gorputzak"</string>
+	<!---->
+	<string name="remote_search_failed">"Zerbitzariko bilaketak huts egin du!"</string>
+	<!---->
+	<string name="searching_on_server">"Bilatu zerbitzarian"</string>
+	<!---->
+	<string name="searching_on_server_title">"Bilatu \"<xliff:g id="account_name">%s</xliff:g>\" zerbitzarian"</string>
+	<!---->
+	<string name="searching_all_fields_on_sever">"Bilatu zerbitzariko eremu guztietan"</string>
+	<!---->
+	<string name="search_field_subject">"Gaia"</string>
+	<!---->
+	<string name="search_field_receiver">"Hartzailea"</string>
+	<!---->
+	<string name="search_field_sender">"Bidaltzailea"</string>
+	<!---->
+	<string name="search_field_body">"Gorputza"</string>
+	<!---->
+	<string name="search_field_all">"Osoa"</string>
+	<!---->
+	<string name="search_field_attachment">"Eranskina"</string>
+	<!---->
+	<string name="select_all">"Hautatu guztiak"</string>
+	<!---->
+	<string name="deselect_all">"Desautatu guztiak"</string>
+	<!---->
+	<string name="need_wifi_connection_prompt">"Sarerako konexioa behar da aplikazioa erabiltzeko. Aktibatu sare mugikorra edo Wi-Fi konexioa Ezarpenak atalean."</string>
+	<!---->
+	<string name="account_setup_names_account_name_des_label">"aukerakoa"</string>
+	<!---->
+	<string name="account_setup_names_user_name_des_label">"irteerako mezuetan bistaratzen da"</string>
+	<!---->
+	<string name="finish_action">"Amaitu"</string>
+	<!---->
+	<string name="copy_email">"Kopiatu helbide elektronikoa"</string>
+	<!---->
+	<string name="out_of_office_syncing">"Bulegotik kanpoko erantzunaren ezarpenak sinkronizatzen"</string>
+	<!---->
+	<string name="out_of_office_fail">"Bulegotik kanpoko erantzunaren ezarpenak ez dira behar bezala sinkronizatu!"</string>
+	<!---->
+	<string name="out_of_office_success">"Bulegotik kanpoko erantzunaren ezarpenak behar bezala sinkronizatu dira!"</string>
+	<!---->
+	<string name="manual_sync_when_roaming">"Sinkronizatu ibiltaritzan"</string>
+	<!---->
+	<string name="manual_sync_when_roaming_summery">"Freskatu eskuz soilik"</string>
+	<!---->
+	<string name="manual_sync_when_roaming_toast">"Ibiltaritzan zaudela, pasatu hatza behera eskuz freskatzeko"</string>
+	<!---->
+	<string name="manual_sync_when_roaming_refresh">"Freskatu"</string>
+	<!---->
+	<string name="server_rule_can_not_change">"Ezin dira aldatu zerbitzariaren arauak"</string>
+	<!---->
+	<string name="server_rules">"Zerbitzariaren arauak"</string>
+	<!---->
+	<string name="confirm_forward_message">"Ez dira fitxategi guztiak deskargatu. Fitxategiak deskargatzen jarraitu nahi duzu?"</string>
+	<!---->
+	<string name="confirm_forward_cancel">"Utzi"</string>
+	<!---->
+	<string name="confirm_forward_drop_unload_attachment">"Birbidali"</string>
+	<!---->
+	<string name="mail_not_download_completely">"Itxaron deskargatzen amaitu arte"</string>
+	<!---->
+	<string name="account_settings_inline_images_lable">"Irudiak"</string>
+	<!---->
+	<string name="account_settings_inline_always_show">"Erakutsi beti"</string>
+	<!---->
+	<string name="account_settings_inline_ask_before_show">"Galdetu erakutsi aurretik"</string>
+	<!---->
+	<string name="conversation_time_after_today">"Gaur"</string>
+	<!---->
+	<string name="conversation_time_today">"Gaur"</string>
+	<!---->
+	<string name="conversation_time_yesterday">"Atzo"</string>
+	<!---->
+	<string name="conversation_time_this_month">"Hilabete honetan"</string>
+	<!---->
+	<string name="conversation_time_elapse_just_now">"Oraintxe"</string>
+	<!---->
+	<string name="conversation_time_elapse_minute">"<xliff:g id="count">%d</xliff:g> minutu"</string>
+	<!---->
+	<string name="message_in_queued_status">"Ilaran ezarri da"</string>
+	<plurals name="send_failed_messages">
+		<item quantity="one">"Ez dira bidali <xliff:g id="count">%1$d</xliff:g> mezu elektroniko"</item>
+		<item quantity="other">"Ez dira bidali <xliff:g id="count">%1$d</xliff:g> mezu elektroniko"</item>
+	</plurals>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_label">"Sinkronizatu hemengo egutegiak:"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_2weeks">"Bi aste"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_1month">"Hilabete"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_3months">"Hiruhilero"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_6months">"Sei hilabete"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_all">"Guztiak"</string>
+	<!---->
+	<string name="no_permission_to_open_file">"Fitxategia irekitzeko, memoria atzitzeko baimena behar da"</string>
+	<!---->
+	<string name="conversation_update_time_text">"Azken eguneratzea:"</string>
+	<!---->
+	<string name="conversation_update_unknown_time_stamp">"Ezezaguna"</string>
+	<!---->
+	<string name="conversation_time_elapse_today">"Gaur"</string>
+	<!---->
+	<string name="save_to_attachment">"Gorde hemen"</string>
+	<!---->
+	<string name="download_settings_title">"Gorde eranskina"</string>
+	<!---->
+	<string name="download_edit_filename_label">"Name"</string>
+	<!---->
+	<string name="download_filepath_label">"Bide-izena"</string>
+	<!---->
+	<string name="download_file_size">"Tamaina"</string>
+	<!---->
+	<string name="download_time_needed">"Ordua"</string>
+	<!---->
+	<string name="download_cancel">"Utzi"</string>
+	<!---->
+	<string name="download_start">"Ados"</string>
+	<!---->
+	<string name="unknown_length">"Ezezaguna"</string>
+	<!---->
+	<string name="time_min">"minutu"</string>
+	<!---->
+	<string name="open_file_manager_failed">"Ezin izan da ireki Fitxategi-kudeatzailea"</string>
+	<!---->
+	<string name="attachment_not_saved">"Ez da gorde eranskina"</string>
+	<!---->
+	<string name="sync_calendar_title">"Ezin da sinkronizatu Egutegia"</string>
+	<!---->
+	<string name="sync_calendar_content">"Sinkronizatzeko, baimendu Exchange zerbitzuei Egutegia atzitzea"</string>
+	<!---->
+	<string name="sync_contacts_title">"Ezin dira sinkronizatu Kontaktuak"</string>
+	<!---->
+	<string name="sync_contacts_content">"Sinkronizatzeko, baimendu Exchange zerbitzuei Kontaktuak atzitzea"</string>
+	<!---->
+	<string name="notification_never_ask_again">"Ez galdetu berriro"</string>
+	<!---->
+	<string name="sync_storage_title">"Ezin izan da eranskina SD txartelean kopiatu"</string>
+	<!---->
+	<string name="sync_storage_content">"Gordetzeko, baimendu Exchange zerbitzuei memoria atzitzea"</string>
+	<!---->
+	<string name="oof_continue">"Jarraitu"</string>
+	<!---->
+	<string name="permission_needed_to_add_attachments">"Eranskina gehitzeko, eman Postari memorian sartzeko baimena"</string>
+	<!---->
+	<string name="permission_needed_to_check_ringtone">"Dei tonua entzuteko, eman Posta aplikazioari memoria atzitzeko baimena"</string>
+	<!---->
+	<string name="add_folder_as_attachment_fail_tips">"Karpetak ezin dira gehitu eranskin gisa"</string>
+	<!---->
+	<string name="choose_action_title">"Hautatu ekintza"</string>
+	<!---->
+	<string name="choose_action_contact">"Gehitu kontaktua: <xliff:g example="4" id="email_address">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="choose_action_email">"Mezu elektronikoa: <xliff:g example="4" id="email_address">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="choose_action_message">"Mezua: <xliff:g example="4" id="email_address">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="account_setup_basics_exit_action">"Irten"</string>
+</resources>

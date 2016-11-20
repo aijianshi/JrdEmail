@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+================================================================================
+|                                                                 Date:10/2014 |
+|                                 PRESENTATION                                 |
+|                                                                              |
+|        Copyright 2014 TCL Communication Technology Holdings Limited.         |
+|                                                                              |
+| This material is company confidential, cannot be reproduced in any form      |
+| without the written permission of TCL Communication Technology Holdings      |
+| Limited.                                                                     |
+|                                                                              |
+| **************************************************************************** |
+|  Author :  qinglian.zhang                                                       |
+|  Email  :  qinglian.zhang@tcl-mobile.com                                        |
+|  Role   :                                                                    |
+|  Reference documents :                                                       |
+| **************************************************************************** |
+|  Comments :                                                                  |
+|  File     : packages/apps/Email/res/layout/use_proxy_selector.xml            |
+|  Labels   :                                                                  |
+| **************************************************************************** |
+| ============================================================================ |
+|      Modifications on Features list / Changes Request / Problems Report      |
+| **************************************************************************** |
+|    date   |        author        |         Key          |      comment       |
+| **********|**********************|**********************|******************* |
+| 10/28/2014|     qinglian.zhang   |      FR 736417       |[Orange]Proxy supp- |
+|           |                      |                      |ort                 |
+| **********|**********************|**********************|******************* |
+================================================================================
+/*
+ ==========================================================================
+ *HISTORY
+ *
+ *Tag            Date         Author        Description
+ *============== ============ =============== ==============================
+ *BUGFIX-946597  2015/03/19   ke.ma           [UI][Android5.0][Email]The colour in incoming and outgoing screen is different from other screen.
+ ===========================================================================
+ */
+-->
+
+<!-- TS: ke.ma 2015-03-19 EMAIL BUGFIX-946597 MOD_S -->
+<!-- A layout to select a proxy, akin to a file selector on web pages. -->
+<!-- Extends LinearLayout -->
+<com.tct.email.view.UseProxySelector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="36dip"
+    android:theme="@style/AccountSetupDialogActivityTheme1"
+    android:gravity="center_vertical" >
+<!-- TS: ke.ma 2015-03-19 EMAIL BUGFIX-946597 MOD_E -->
+
+    <TextView
+        android:id="@+id/account_setup_exchange_proxy"
+        android:text="@string/account_setup_exchange_proxy_label"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="?android:attr/textColorPrimary" />
+    <EditText
+        android:id="@+id/account_proxy"
+        android:inputType="textUri"
+        android:imeOptions="actionDone"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="16dip"
+        android:layout_below="@+id/account_setup_exchange_proxy"
+        android:layout_alignParentLeft="true"
+        android:singleLine="true"/>
+    <TextView
+        android:id="@+id/account_setup_exchange_proxy_port"
+        android:text="@string/account_setup_exchange_proxy_port_label"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="?android:attr/textColorPrimary"
+        android:layout_below="@+id/account_proxy"
+        android:layout_alignParentLeft="true"/>
+    <EditText
+        android:id="@+id/account_proxy_port"
+        android:inputType="number"
+        android:maxLength="5"
+        android:imeOptions="actionDone"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="16dip"
+        android:layout_below="@+id/account_setup_exchange_proxy_port"
+        android:layout_alignParentLeft="true"
+        android:singleLine="true"/>
+    <TextView
+        android:id="@+id/account_setup_exchange_proxy_name"
+        android:text="@string/account_setup_exchange_proxy_name"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="?android:attr/textColorPrimary"
+        android:layout_below="@+id/account_proxy_port"
+        android:layout_alignParentLeft="true"/>
+    <EditText
+        android:id="@+id/account_proxy_name"
+        android:inputType="textUri"
+        android:imeOptions="actionDone"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="16dip"
+        android:layout_below="@+id/account_setup_exchange_proxy_name"
+        android:layout_alignParentLeft="true"
+        android:singleLine="true"/>
+    <TextView
+        android:id="@+id/account_setup_exchange_proxy_password"
+        android:text="@string/account_setup_exchange_proxy_password"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="?android:attr/textColorPrimary"
+        android:layout_below="@+id/account_proxy_name"
+        android:layout_alignParentLeft="true" />
+    <EditText
+        android:id="@+id/account_proxy_password"
+        android:inputType="textPassword"
+        android:imeOptions="actionDone"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="16dip"
+        android:layout_below="@+id/account_setup_exchange_proxy_password"
+        android:layout_alignParentLeft="true"
+        android:singleLine="true"/>
+
+</com.tct.email.view.UseProxySelector>

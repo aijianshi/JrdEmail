@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+    <!--
+        this file is built by arct v:froyo_2011-03-23, Fri May 22 11:44:00 GMT+08:00 2015
+    -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="set_priority_dialog_options">
+        <!--MesType:ArrayPurpose:set_priority_dialog_options for Email;ScreenPath:TctEmail-->
+        <item>"Tinggi"</item>
+        <!--MesType:ArrayPurpose:set_priority_dialog_options for Email;ScreenPath:TctEmail-->
+        <item>"Normal"</item>
+        <!--MesType:ArrayPurpose:set_priority_dialog_options for Email;ScreenPath:TctEmail-->
+        <item>"Rendah"</item>
+    </string-array>
+    <!-- no translation found for account_settings_check_frequency_entries -->
+    <skip />
+    <!-- no translation found for account_settings_check_frequency_entries_push -->
+    <skip />
+    <!-- no translation found for account_settings_mail_window_entries -->
+    <skip />
+    <!-- no translation found for account_settings_mail_window_entries_with_default -->
+    <skip />
+    <!-- no translation found for default_quick_responses -->
+    <skip />
+    <!-- no translation found for Email_POP3_Download_Options -->
+    <skip />
+    <!-- no translation found for Email_Download_Options -->
+    <skip />
+    <!-- no translation found for account_provider1 -->
+    <skip />
+    <!-- no translation found for account_provider2 -->
+    <skip />
+    <!-- no translation found for account_provider3 -->
+    <skip />
+    <!-- no translation found for account_provider4 -->
+    <skip />
+    <!-- no translation found for account_provider5 -->
+    <skip />
+    <!-- no translation found for account_provider6 -->
+    <skip />
+    <!-- no translation found for account_provider7 -->
+    <skip />
+    <!-- no translation found for account_provider8 -->
+    <skip />
+    <!-- no translation found for account_provider9 -->
+    <skip />
+    <!-- no translation found for account_provider10 -->
+    <skip />
+    <!-- no translation found for account_provider11 -->
+    <skip />
+    <!-- no translation found for account_provider12 -->
+    <skip />
+    <!-- no translation found for account_provider13 -->
+    <skip />
+    <!-- no translation found for account_provider14 -->
+    <skip />
+    <!-- no translation found for account_provider15 -->
+    <skip />
+    <!-- no translation found for account_provider16 -->
+    <skip />
+    <!-- no translation found for account_provider17 -->
+    <skip />
+    <!-- no translation found for account_provider18 -->
+    <skip />
+    <!-- no translation found for account_provider19 -->
+    <skip />
+    <!-- no translation found for account_provider20 -->
+    <skip />
+    <!-- no translation found for account_provider21 -->
+    <skip />
+    <!-- no translation found for account_provider22 -->
+    <skip />
+    <!-- no translation found for account_provider23 -->
+    <skip />
+    <!-- no translation found for account_provider24 -->
+    <skip />
+    <!-- no translation found for account_provider25 -->
+    <skip />
+    <!-- no translation found for search_field_list -->
+    <skip />
+</resources>

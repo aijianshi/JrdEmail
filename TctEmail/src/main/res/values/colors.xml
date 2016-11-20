@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2011 Google Inc.
+     Licensed to The Android Open Source Project.
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<!--
+ ==========================================================================
+ *HISTORY
+ *
+ *Tag              Date          Author          Description
+ *============== ============ =============== ==============================
+ *CONFLICT-50001 2014/10/08   zhaotianyong      Modify the resource conflict
+ *CONFLICT_20000 2014/10/23   gangjin.wen     Modify the resource conflict
+ *CONFLICT-50004 2014/11/05   zhaotianyong    Modify the resource conflict
+ *GD-912050      2015/01/22   ke.ma           [Email] Email_GD_v5.1.0.1 should be implemented.
+ *BUGFIX-898634  2015/01/22   ke.ma           [Android5.0][Email][UI]All the mail folder name should display ‘White’ color
+ *BUGFIX-898634  2015/01/28   xinlei.sheng    [Android5.0][Email] [UI] Search history is hard to see
+ *TASK-869664    2015/11/25   zheng.zou       [Email]Android M Permission Upgrade
+ *BUGFIX-956919  2015-12-03  yanhua.chen     [Android L][Email][UE]The font of "Email account" string change to black after rorating screen and the check box style is not consistent after rotating screen..
+ ============================================================================
+ -->
+<resources>
+    <!--TS: ADD by zhaotianyong for CONFLICT_50001 START -->
+    <!-- Photo Viewer Colors -->
+    <color name="solid_black">#ff000000</color>
+    <color name="photo_crop_dim_color">#cc000000</color>
+    <color name="photo_crop_highlight_color">#fff</color>
+    <!--TS: ADD by zhaotianyong for CONFLICT_50001 END -->
+
+    <!-- TS: ADD by gangjin.wen for CONFLICT_20000 START -->
+    <color name="chips_dropdown_background_activated">#4285f4</color>
+    <color name="chips_dropdown_background_pressed">#ededed</color>
+    <color name="autocomplete_divider_color">#cccccc</color>
+    <color name="chip_background">#f6f6f6</color>
+    <color name="chip_background_selected">#4285f4</color>
+    <color name="chip_background_invalid">#db4437</color>
+    <!--TS: ADD by gangjin.wen for CONFLICT_20000 END -->
+
+    <!--TS: ADD by zhaotianyong for CONFLICT_50004 START -->
+    <!-- Widget colors -->
+    <color name="widget_header_bg_color">#da4336</color>
+    <color name="action_mode_background">#9b9b9b</color>
+    <color name="actionbar_color">@color/mail_orange</color>
+    <!-- TS: ke.ma 2015-01-22 EMAIL BUGFIX-898634 ADD_S-->
+    <color name="actionbar_text_color">#ffffff</color>
+    <!-- TS: ke.ma 2015-01-22 EMAIL BUGFIX-898634 ADD_E-->
+    <!--TS: ke.ma 2015-01-22 EMAIL GD-912050 MOD_S-->
+    <color name="mail_orange">#ff9800</color>
+    <!--TS: ke.ma 2015-01-22 EMAIL GD-912050 MOD_E-->
+    <color name="statusbar_color">@color/statusbar_orange</color>
+    <!--TS: ke.ma 2015-01-22 EMAIL GD-912050 MOD_S-->
+    <color name="statusbar_orange">#f57c00</color>
+    <!--TS: ke.ma 2015-01-22 EMAIL GD-912050 MOD_E-->
+    <color name="accent_blue">#00bfd8</color>
+    <!--TS: ADD by zhaotianyong for CONFLICT_50004 END -->
+    <!--TS: xinlei.sheng 2015-01-28 EMAIL FIXBUG-912976 MOD_S-->
+    <color name="searchView_text_color">#777777</color>
+    <!--TS: xinlei.sheng 2015-01-28 EMAIL FIXBUG-912976 MOD_E-->
+    <!--TS: zheng.zou 2015-11-25 EMAIL TASK-996919 ADD_S-->
+    <color name="permission_block_bg_color">#ff9801</color>
+    <color name="permission_explain_line_color">#eeff98</color>
+    <!--TS: zheng.zou 2015-11-25 EMAIL TASK-996919 ADD_E-->
+    <!-- TS: yanhua.chen 2015-11-25 EMAIL BUGFIX-956919  ADD_S -->
+    <color name="accent_color">#f57c00</color>
+    <color name="text_warning_color">#F44233</color>
+    <color name="text_front_color_1">#DD000000</color>
+    <color name="text_front_color_2">#8E000000</color>
+    <!-- TS: yanhua.chen 2015-11-25 EMAIL BUGFIX-956919  ADD_E -->
+</resources>

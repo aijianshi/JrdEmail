@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Tue Sep 20 16:24:06 CST 2016
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="exchange_name">"Zakelijk"</string>
+	<!---->
+	<string name="exchange_name_alternate">"Microsoft Exchange ActiveSync"</string>
+	<!---->
+	<string name="meeting_accepted">"Geaccepteerd: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_declined">"Afgewezen: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_tentative">"Voorlopig: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_canceled">"Geannuleerd: <xliff:g id="SUBJECT">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_updated">"Bijgewerkt: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_when">"Wanneer: <xliff:g id="when">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_where">"Waar: <xliff:g id="where">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_recurring">"Wanneer: <xliff:g example="Tue, Mar 10, 2010 at 2:30 pm" id="eventdate">%s</xliff:g> (herhalen)"</string>
+	<!---->
+	<string name="meeting_allday">"Wanneer: <xliff:g example="Tue, Mar 10, 2010 " id="eventdate">%s</xliff:g> (hele dag)"</string>
+	<!---->
+	<string name="meeting_allday_recurring">"Wanneer: <xliff:g example="Tue, Mar 10, 2010 " id="eventdate">%s</xliff:g> (hele dag, terugkerend)"</string>
+	<!---->
+	<string name="notification_exchange_calendar_added">"Exchange-agenda toegevoegd"</string>
+	<!---->
+	<string name="app_name">"Exchange Services"</string>
+	<!---->
+	<string name="exception_cancel">"Deze afspraak is geannuleerd voor: <xliff:g id="DATE">%s</xliff:g>"</string>
+	<!---->
+	<string name="exception_updated">"De details van deze afspraak zijn gewijzigd voor: <xliff:g id="date">%s</xliff:g>"</string>
+	<!---->
+	<string name="policy_dont_allow_storage_cards">"Geheugenkaarten niet toestaan"</string>
+	<!---->
+	<string name="policy_dont_allow_unsigned_apps">"Niet-ondertekende apps niet toestaan"</string>
+	<!---->
+	<string name="policy_dont_allow_unsigned_installers">"Niet-ondertekende Installatie-Apps weigeren"</string>
+	<!---->
+	<string name="policy_dont_allow_wifi">"Wi-Fi niet toestaan"</string>
+	<!---->
+	<string name="policy_dont_allow_text_messaging">"SMS\'en niet toestaan"</string>
+	<!---->
+	<string name="policy_dont_allow_pop_imap">"POP3- of IMAP-accounts niet toestaan"</string>
+	<!---->
+	<string name="policy_dont_allow_irda">"Infraroodcommunicatie niet toestaan"</string>
+	<!---->
+	<string name="policy_dont_allow_html">"HTML-e-mail niet toestaan"</string>
+	<!---->
+	<string name="policy_dont_allow_browser">"Browsers niet toestaan"</string>
+	<!---->
+	<string name="policy_dont_allow_consumer_email">"Consumenten-e-mail niet toestaan"</string>
+	<!---->
+	<string name="policy_dont_allow_internet_sharing">"Internet delen niet toestaan"</string>
+	<!---->
+	<string name="policy_require_smime">"SMIME-berichten vereisen"</string>
+	<!---->
+	<string name="policy_bluetooth_restricted">"Het gebruik van Bluetooth beperken"</string>
+	<!---->
+	<string name="policy_app_blacklist">"Opgegeven apps niet toestaan"</string>
+	<!---->
+	<string name="policy_app_whitelist">"Alleen opgegeven apps toestaan"</string>
+	<!---->
+	<string name="policy_text_truncation">"Tekstgrootte van e-mail beperken"</string>
+	<!---->
+	<string name="policy_html_truncation">"Grootte van HTML-e-mails beperken"</string>
+	<!---->
+	<string name="policy_require_sd_encryption">"Codering van SD-kaart vereisen"</string>
+	<!---->
+	<string name="policy_dont_allow_attachments">"Bijlagen niet toestaan"</string>
+	<!---->
+	<string name="policy_max_attachment_size">"Grootte van bijlagen beperken"</string>
+	<!---->
+	<string name="policy_require_manual_sync_roaming">"Alleen handm. synchr. toestn bij roaming"</string>
+	<!---->
+	<string name="policy_require_encryption">"Apparaatencryptie vereisen"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_auto">"Automatisch"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1day">"Eén dag"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_3days">"Drie dagen"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1week">"Eén week"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_2weeks">"Twee weken"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1month">"Eén maand"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_all">"Alles"</string>
+	<!---->
+	<string name="auth_error_notification_title">"Verificatiefout"</string>
+	<!---->
+	<string name="auth_error_notification_text">"Raak aan om de accountinstellingen voor <xliff:g id="account">%s</xliff:g> te wijzigen"</string>
+	<!---->
+	<string name="email_settings_not_available">"Schakel de app E-mail weer in om de instellingen te bekijken."</string>
+</resources>

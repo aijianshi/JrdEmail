@@ -1,0 +1,1747 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Tue Sep 20 16:24:06 CST 2016
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="permission_read_attachment_label">"Läs meddelandets bifogade filer"</string>
+	<!---->
+	<string name="permission_read_attachment_desc">"Tillåter att appen läser bilagor i e-postmeddelanden."</string>
+	<!---->
+	<string name="permission_access_provider_label">"Använd e-postleverantörens data"</string>
+	<!---->
+	<string name="permission_access_provider_desc">"Tillåter att appen kommer åt e-postdatabasen med bland annat mottagna meddelanden, skickade meddelanden, användarnamn och lösenord."</string>
+	<!---->
+	<string name="debug_title">"Felsökning"</string>
+	<!---->
+	<string name="next_action">"Nästa"</string>
+	<!---->
+	<string name="okay_action">"OK"</string>
+	<!---->
+	<string name="cancel_action">"Avbryt"</string>
+	<!---->
+	<string name="previous_action">"Föregående"</string>
+	<!---->
+	<string name="done_action">"Färdig"</string>
+	<!---->
+	<string name="create_action">"Skapa nytt"</string>
+	<!---->
+	<string name="quick_responses_empty_view">"Inga snabba svar."</string>
+	<!---->
+	<string name="account_settings_action">"Kontoinställningar"</string>
+	<!---->
+	<string name="status_network_error">"Anslutningsproblem."</string>
+	<plurals name="move_messages">
+		<item quantity="one">"Flytta meddelande"</item>
+		<item quantity="other">"Flytta meddelanden"</item>
+	</plurals>
+	<!---->
+	<string name="cannot_move_protocol_not_supported_toast">"POP3-konton har inte stöd för att flytta meddelanden."</string>
+	<!---->
+	<string name="cannot_move_multiple_accounts_toast">"Det gick inte att flytta eftersom markeringen innehåller flera konton."</string>
+	<!---->
+	<string name="cannot_move_special_mailboxes_toast">"Meddelanden i Utkast, Utkorgen och Skickat kan inte flyttas."</string>
+	<!---->
+	<string name="mailbox_name_display_inbox">"Inkorgen"</string>
+	<!---->
+	<string name="mailbox_name_display_outbox">"Utkorgen"</string>
+	<!---->
+	<string name="mailbox_name_display_drafts">"Utkast"</string>
+	<!---->
+	<string name="mailbox_name_display_trash">"Papperskorgen"</string>
+	<!---->
+	<string name="mailbox_name_display_sent">"Skickat"</string>
+	<!---->
+	<string name="mailbox_name_display_junk">"Skräp"</string>
+	<!---->
+	<string name="mailbox_name_display_starred">"Stjärnmärkta"</string>
+	<!---->
+	<string name="mailbox_name_display_unread">"Olästa"</string>
+	<!---->
+	<string name="account_folder_list_summary_inbox">"Inkorgen"</string>
+	<!---->
+	<string name="account_folder_list_summary_starred">"Stjärnmärkta"</string>
+	<!---->
+	<string name="account_folder_list_summary_drafts">"Utkast"</string>
+	<!---->
+	<string name="account_folder_list_summary_outbox">"Utkorgen"</string>
+	<!---->
+	<string name="mailbox_list_account_selector_combined_view">"Kombinerad vy"</string>
+	<!---->
+	<string name="message_compose_fwd_header_fmt">"\n\n"-------- Ursprungligt meddelande --------"\n"Ämne: <xliff:g id="SUBJECT">%1$s</xliff:g>"\n"Från: <xliff:g id="SENDER">%2$s</xliff:g>"\n"Till: <xliff:g id="TO">%3$s</xliff:g>"\n"Kopia: <xliff:g id="CC_0">%4$s</xliff:g>"\n\n"</string>
+	<!---->
+	<string name="message_compose_insert_quick_response_list_title">"Infoga snabbsvar"</string>
+	<!---->
+	<string name="message_compose_insert_quick_response_menu_title">"Infoga snabbsvar"</string>
+	<!---->
+	<string name="message_view_attachment_background_load">"En eller flera bilagor i det vidarebefordrade meddelandet hämtas innan de skickas."</string>
+	<!---->
+	<string name="attachment_not_found">"Det gick inte att ladda ner bilagan."</string>
+	<!---->
+	<string name="message_decode_error">"Ett fel uppstod vid avkodning av meddelandet."</string>
+	<!---->
+	<string name="forward_download_failed_ticker">"Det gick inte att vidarebefordra en eller flera bilagor."</string>
+	<!---->
+	<string name="forward_download_failed_title">"Bilaga ej vidarebefordrad"</string>
+	<!---->
+	<string name="login_failed_ticker">"<xliff:g id="account_name">%s</xliff:g>-inloggning misslyckades."</string>
+	<!---->
+	<string name="login_failed_title">"Det gick inte att logga in"</string>
+	<plurals name="message_view_attachment_bytes">
+		<item quantity="one">"<xliff:g example="1" id="size_in_bytes">%d</xliff:g> B"</item>
+		<item quantity="other">"<xliff:g example="279" id="size_in_bytes">%d</xliff:g> B"</item>
+	</plurals>
+	<plurals name="message_view_attachment_kilobytes">
+		<item quantity="one">"<xliff:g example="1" id="size_in_kilobytes">%d</xliff:g> KB"</item>
+		<item quantity="other">"<xliff:g example="279" id="size_in_kilobytes">%d</xliff:g> KB"</item>
+	</plurals>
+	<plurals name="message_view_attachment_megabytes">
+		<item quantity="one">"<xliff:g example="1" id="size_in_megabytes">%d</xliff:g> MB"</item>
+		<item quantity="other">"<xliff:g example="279" id="size_in_megabytes">%d</xliff:g> MB"</item>
+	</plurals>
+	<plurals name="message_view_attachment_gigabytes">
+		<item quantity="one">"<xliff:g example="1" id="size_in_gigabytes">%d</xliff:g> GB"</item>
+		<item quantity="other">"<xliff:g example="279" id="size_in_gigabytes">%d</xliff:g> GB"</item>
+	</plurals>
+	<!---->
+	<string name="account_setup_basics_title">"Kontoinställning"</string>
+	<!---->
+	<string name="oauth_authentication_title">"Begär auktorisering"</string>
+	<!---->
+	<string name="sign_in_title">"Logga in"</string>
+	<!---->
+	<string name="oauth_error_description">"Det går inte att auktorisera"</string>
+	<!---->
+	<string name="password_warning_label">"E-postadress eller lösenord är fel"</string>
+	<!---->
+	<string name="email_confirmation_label">"E-postadress"</string>
+	<!---->
+	<string name="account_setup_basics_headline">"E-postkonto"</string>
+	<!---->
+	<string name="accounts_welcome">"Du kan ställa in ditt konto i bara några steg."</string>
+	<!---->
+	<string name="account_setup_basics_email_label">"E-postadress"</string>
+	<!---->
+	<string name="account_setup_basics_email_flying_label">"E-post"</string>
+	<!---->
+	<string name="or_label">"ELLER"</string>
+	<!---->
+	<string name="sign_in_with_google">"Logga in med Google"</string>
+	<!---->
+	<string name="account_setup_basics_password_label">"Lösenord"</string>
+	<!---->
+	<string name="password_hint">"Lösenord"</string>
+	<!---->
+	<string name="signed_in_with_service_label">"Inloggad med %s"</string>
+	<!---->
+	<string name="authentication_label">"AUTENTISERING"</string>
+	<!---->
+	<string name="add_authentication_label">"Lägg till autentisering"</string>
+	<!---->
+	<string name="clear_authentication_label">"Rensa autentisering"</string>
+	<!---->
+	<string name="account_setup_basics_manual_setup_action">"Manuell inst."</string>
+	<!---->
+	<string name="account_setup_username_password_toast">"Skriv ett giltig e-postadress och lösenord."</string>
+	<!---->
+	<string name="account_duplicate_dlg_title">"Dubblettkonto"</string>
+	<!---->
+	<string name="account_duplicate_dlg_message_fmt">"Du använder redan det här användarnamnet för kontot <xliff:g id="DUPLICATE">%s</xliff:g>."</string>
+	<!---->
+	<string name="account_password_spaces_error">"Det här lösenordet börjar eller slutar med ett eller flera blanksteg. Många servrar har inte stöd för lösenord med blanksteg."</string>
+	<!---->
+	<string name="account_setup_check_settings_retr_info_msg">"Hämtar kontoinformation…"</string>
+	<!---->
+	<string name="account_setup_check_settings_check_incoming_msg">"Validerar serverinställningar..."</string>
+	<!---->
+	<string name="account_setup_check_settings_check_outgoing_msg">"Validerar SMTP-inställningar..."</string>
+	<!---->
+	<string name="account_setup_creating_account_msg">"Skapar konto..."</string>
+	<!---->
+	<string name="account_setup_ab_headline">"Bekräfta kontotyp"</string>
+	<!---->
+	<string name="account_setup_ab_instructions_format">"Du uppgav <xliff:g id="email">%1$s</xliff:g> använder <xliff:g id="userProtocol">%2$s</xliff:g>, men kontot kan använda <xliff:g id="providerProtocol">%3$s</xliff:g>"</string>
+	<!---->
+	<string name="account_setup_names_title">"Kontoinställning"</string>
+	<!---->
+	<string name="account_setup_names_headline">"Ditt konto är färdigt och snart kan du skicka och ta emot e-postmeddelanden!"</string>
+	<!---->
+	<string name="account_setup_names_account_name_label">"Ge kontot ett namn (valfritt)"</string>
+	<!---->
+	<string name="account_setup_names_user_name_label">"Ditt namn (visas för utgående meddelanden)"</string>
+	<!---->
+	<string name="account_setup_names_user_name_empty_error">"Det här fältet kan inte vara tomt."</string>
+	<!---->
+	<string name="account_setup_account_type_title">"Kontoinställning"</string>
+	<!---->
+	<string name="account_setup_account_type_headline">"Kontotyp"</string>
+	<!---->
+	<string name="account_setup_account_type_instructions">"Vilken typ av konto är det här?"</string>
+	<!---->
+	<string name="account_setup_incoming_title">"Kontoinställning"</string>
+	<!---->
+	<string name="account_setup_incoming_headline">"Inkommande serverinst."</string>
+	<!---->
+	<string name="account_setup_incoming_username_label">"Användarnamn"</string>
+	<!---->
+	<string name="account_setup_incoming_password_label">"Lösenord"</string>
+	<!---->
+	<string name="account_setup_password_subheading">"Lösenord"</string>
+	<!---->
+	<string name="account_setup_incoming_server_label">"Exchange-server"</string>
+	<!---->
+	<string name="account_setup_incoming_port_label">"Port"</string>
+	<!---->
+	<string name="account_setup_incoming_security_label">"Säkerhetstyp"</string>
+	<!---->
+	<string name="account_setup_incoming_domain_label">"Domän"</string>
+	<!---->
+	<string name="account_setup_incoming_add_domain_label">"Lägg till domän"</string>
+	<!---->
+	<string name="account_setup_incoming_security_none_label">"Inga"</string>
+	<!---->
+	<string name="account_setup_incoming_security_ssl_trust_certificates_label">"SSL/TLS (Godkänn alla certifikat)"</string>
+	<!---->
+	<string name="account_setup_incoming_security_ssl_label">"SSL/TLS"</string>
+	<!---->
+	<string name="account_setup_incoming_security_tls_trust_certificates_label">"STARTTLS (godkänn alla cert.)"</string>
+	<!---->
+	<string name="account_setup_incoming_security_tls_label">"STARTTLS"</string>
+	<!---->
+	<string name="account_setup_incoming_delete_policy_label">"Ta bort e-post från servern"</string>
+	<!---->
+	<string name="account_setup_incoming_delete_policy_never_label">"Aldrig"</string>
+	<!---->
+	<string name="account_setup_incoming_delete_policy_delete_label">"Ta bort från Inkorgen"</string>
+	<!---->
+	<string name="account_setup_incoming_imap_path_prefix_label">"IMAP-sökvägsprefix"</string>
+	<!---->
+	<string name="account_setup_incoming_imap_path_prefix_hint">"Valfritt"</string>
+	<!---->
+	<string name="account_setup_outgoing_title">"Kontoinställning"</string>
+	<!---->
+	<string name="account_setup_outgoing_headline">"Utgående serverinställningar"</string>
+	<!---->
+	<string name="account_setup_outgoing_smtp_server_label">"SMTP-server"</string>
+	<!---->
+	<string name="account_setup_outgoing_port_label">"Port"</string>
+	<!---->
+	<string name="account_setup_outgoing_security_label">"Säkerhetstyp"</string>
+	<!---->
+	<string name="account_setup_outgoing_require_login_label">"Kräv inloggning"</string>
+	<!---->
+	<string name="account_setup_outgoing_username_label">"Användarnamn"</string>
+	<!---->
+	<string name="account_setup_outgoing_password_label">"Lösenord"</string>
+	<!---->
+	<string name="account_setup_exchange_certificate_title">"Klientcertifikat"</string>
+	<!---->
+	<string name="account_setup_exchange_select_certificate">"Välj"</string>
+	<!---->
+	<string name="account_setup_exchange_use_certificate">"Använd klientcertifikat"</string>
+	<!---->
+	<string name="account_setup_exchange_remove_certificate">"Ta bort"</string>
+	<!---->
+	<string name="account_setup_exchange_no_certificate">"Inga"</string>
+	<!---->
+	<string name="account_setup_exchange_device_id_label">"ID för mobil enhet"</string>
+	<!---->
+	<string name="account_setup_options_title">"Kontoinställningar"</string>
+	<!---->
+	<string name="account_setup_options_headline">"Kontoalternativ"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_label">"Synkroniseringsfrekvens:"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_never">"Aldrig"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_push">"Automatiskt (push)"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_5min">"Var 5:e minut"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_10min">"Var 10:e minut"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_15min">"Var 15:e minut"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_30min">"Var 30:e minut"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_1hour">"Varje timme"</string>
+	<!---->
+	<string name="account_setup_options_notify_label">"Meddela mig när jag får e-post"</string>
+	<!---->
+	<string name="account_setup_options_sync_contacts_label">"Synkronisera kontakter från det här kontot."</string>
+	<!---->
+	<string name="account_setup_options_sync_calendar_label">"Synkronisera kalendrar från det här kontot."</string>
+	<!---->
+	<string name="account_setup_options_sync_email_label">"Synkronisera e-post från det här kontot."</string>
+	<!---->
+	<string name="account_setup_options_background_attachments_label">"Hämta automatiskt bilagor vid anslutning till Wi-Fi"</string>
+	<!---->
+	<string name="account_setup_failed_dlg_title">"Det gick inte att slutföra"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_label">"Synkronisera e-post från:"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_auto">"Automatiskt"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1day">"Senaste dag"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_3days">"Senaste tre dagar"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1week">"Senaste vecka"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_2weeks">"Senaste två veckor"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1month">"Senaste månaden"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_all">"Alla"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_default">"Använd kontostandard"</string>
+	<!---->
+	<string name="account_setup_failed_dlg_auth_message">"Användarnamnet eller lösenordet är felaktigt."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_auth_message_fmt">"Fel användarnamn eller lösenord."\n"(<xliff:g id="ERROR">%s</xliff:g>)"</string>
+	<!---->
+	<string name="account_setup_autodiscover_dlg_authfail_title">"Problem med kontoinställning"</string>
+	<!---->
+	<string name="account_setup_autodiscover_dlg_authfail_message">"Bekräfta att användarnamn, lösenord och kontoinställningar är rätt."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_certificate_message">"Det gick inte att upprätta anslutningen till servern på grund av opålitliga eller ogiltiga certifikat."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_certificate_message_fmt">"Kan inte säkert ansluta till server.\n(<xliff:g id="error">%s</xliff:g>)"</string>
+	<!---->
+	<string name="account_setup_failed_certificate_required">"Ett klientcertifikat måste anges. Vill du ansluta till servern med ett klientcertifikat?"</string>
+	<!---->
+	<string name="account_setup_failed_certificate_inaccessible">"Certifikatet är ogiltigt eller otillgängligt."</string>
+	<!---->
+	<string name="account_setup_failed_check_credentials_message">"Servern svarade med ett fel. Kontrollera ditt användarnamn och lösenord och försök sedan igen."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_server_message">"Kan inte ansluta till server."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_server_message_fmt">"Kan inte ansluta till server.\n(<xliff:g id="error">%s</xliff:g>)"</string>
+	<!---->
+	<string name="account_setup_failed_tls_required">"TLS krävs men stöds inte av servern."</string>
+	<!---->
+	<string name="account_setup_failed_auth_required">"Autentiseringsmetoder stöds inte av servern."</string>
+	<!---->
+	<string name="account_setup_failed_security">"Kunde inte öppna anslutningen på grund av säkerhetsfel."</string>
+	<!---->
+	<string name="account_setup_failed_ioerror">"Kunde inte öppna anslutning till server."</string>
+	<!---->
+	<string name="account_setup_failed_protocol_unsupported">"Du skrev in en felaktig serveradress eller så kräver servern en protokollversion som e-posten inte stödjer."</string>
+	<!---->
+	<string name="account_setup_failed_access_denied">"Du har inte behörighet att synkronisera med den här servern. Kontakta din servers administratör för mer information."</string>
+	<!---->
+	<string name="account_setup_security_required_title">"Fjärrsäkerhetsadministration"</string>
+	<!---->
+	<string name="account_setup_security_policies_required_fmt">"Servern <xliff:g id="server">%s</xliff:g> kräver att du tillåter den att fjärrstyra visa säkerhetsfunktioner på din Android-enhet. Vill du slutföra inställningen av det här kontot?"</string>
+	<!---->
+	<string name="account_setup_failed_security_policies_unsupported">"Den här servern kräver säkerhetsfunktioner som din Android-enhet inte stödjer, däribland: <xliff:g id="error">%s</xliff:g>"</string>
+	<!---->
+	<string name="account_setup_username_uneditable_error">"Du kan inte ändra ett kontos användarnamn. För att lägga till ett konto med ett annat användarnamn, tryck på Lägg till konto."</string>
+	<!---->
+	<string name="disable_admin_warning">"VARNING: Inaktivering av e-postappens behörighet att administrera din enhet tar bort alla e-postkonton som kräver det, tillsammans med e-post, kontakter, kalenderhändelser och andra data."</string>
+	<!---->
+	<string name="account_security_dialog_title">"Säkerhetsuppdatering"</string>
+	<!---->
+	<string name="account_security_dialog_content_fmt">"<xliff:g id="account">%s</xliff:g> kräver att du uppdaterar dina säkerhetsinställningar."</string>
+	<!---->
+	<string name="security_unsupported_ticker_fmt">"Konto \"<xliff:g id="account">%s</xliff:g>\" kan inte synkroniseras på grund av säkerhetskrav."</string>
+	<!---->
+	<string name="security_needed_ticker_fmt">"Konto \"<xliff:g id="account">%s</xliff:g>\" kräver uppdatering av säkerhetsinställningar."</string>
+	<!---->
+	<string name="security_changed_ticker_fmt">"Konto \"<xliff:g id="account">%s</xliff:g>\" ändrade sina säkerhetsinställningar, ingen användaråtgärd behövs."</string>
+	<!---->
+	<string name="security_notification_content_update_title">"Säkerhetsuppdatering krävs"</string>
+	<!---->
+	<string name="security_notification_content_change_title">"Säkerhetspolicyer har ändrats"</string>
+	<!---->
+	<string name="security_notification_content_unsupported_title">"Säkerhetspolicyer kan inte uppfyllas"</string>
+	<!---->
+	<string name="account_security_title">"Enhetssäkerhet"</string>
+	<!---->
+	<string name="account_security_policy_explanation_fmt">"Servern <xliff:g id="server">%s</xliff:g> kräver att du tillåter att den fjärrstyr vissa säkerhetsfunktioner på din Android-enhet."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_edit_details_action">"Redigera information"</string>
+	<!---->
+	<string name="password_expire_warning_ticker_fmt">"\"<xliff:g id="account">%s</xliff:g>\" kräver att du ändrar din PIN-kod eller ditt lösenord till skärmlåset."</string>
+	<!---->
+	<string name="password_expire_warning_content_title">"Lösenord till skärmlås förfaller"</string>
+	<!---->
+	<string name="password_expired_ticker">"PIN-kod eller lösenord till skärmlåset har förfallit."</string>
+	<!---->
+	<string name="password_expired_content_title">"Lösenord till skärmlås förfaller"</string>
+	<!---->
+	<string name="password_expire_warning_dialog_title">"Lösenord till skärmlås förfaller"</string>
+	<!---->
+	<string name="password_expire_warning_dialog_content_fmt">"Du måste ändra PIN-kod eller lösenord till ditt skärmlås snart eller så kommer data för <xliff:g id="account">%s</xliff:g> att raderas. Vill du ändra det nu?"</string>
+	<!---->
+	<string name="password_expired_dialog_title">"Lösenord till skärmlås förfaller"</string>
+	<!---->
+	<string name="password_expired_dialog_content_fmt">"Data för <xliff:g id="account">%s</xliff:g> raderas från enheten. Du kan återställa genom att ändra PIN-kod för skärmlås eller lösenord. Vill du ändra det nu?"</string>
+	<!---->
+	<string name="account_settings_exit_server_settings">"Kassera ändringar som inte sparats?"</string>
+	<!---->
+	<string name="account_settings_login_dialog_title">"Det gick inte att logga in"</string>
+	<!---->
+	<string name="account_settings_login_dialog_content_fmt">"Användarnamnet eller lösenordet för <xliff:g id="account">%s</xliff:g> är felaktigt. Uppdatera nu?"</string>
+	<!---->
+	<string name="account_settings_login_dialog_reason_fmt">"Din inloggning på <xliff:g id="account">%s</xliff:g> misslyckades, servern svarade: <xliff:g id="reason">%s</xliff:g> Vill du uppdatera användarnamn och/eller lösenord?"</string>
+	<!---->
+	<string name="account_settings_background_attachments_label">"Hämta bilagor"</string>
+	<!---->
+	<string name="account_settings_background_attachments_summary">"Hämta automatiskt bilagor till nya meddelanden via Wi-Fi"</string>
+	<!---->
+	<string name="account_settings_notify_label">"E-postavisering"</string>
+	<!---->
+	<string name="account_settings_summary">"Synkroniseringsfrekvens, meddelanden, m.m."</string>
+	<!---->
+	<string name="account_settings_notify_summary">"Skicka avisering när e-postmeddelande tas emot"</string>
+	<!---->
+	<string name="account_settings_mail_check_frequency_label">"Synkronisera frekvens"</string>
+	<!---->
+	<string name="account_settings_incoming_label">"Inkommande inställningar"</string>
+	<!---->
+	<string name="account_settings_incoming_summary">"Användarnamn, lösenord och andra inkommande serverinställningar"</string>
+	<!---->
+	<string name="account_settings_outgoing_label">"Utgående inställningar"</string>
+	<!---->
+	<string name="account_settings_outgoing_summary">"Användarnamn, lösenord och andra utgående serverinställningar"</string>
+	<!---->
+	<string name="account_settings_reply_to_category">"Svara på inställningar"</string>
+	<!---->
+	<string name="account_settings_reply_to_label">"Svara till"</string>
+	<!---->
+	<string name="account_settings_reply_to_invalid">"Adressen är ogiltig"</string>
+	<!---->
+	<string name="account_settings_enforced_label">"Policyer verkställda"</string>
+	<!---->
+	<string name="account_settings_enforced_summary">"Inga"</string>
+	<!---->
+	<string name="account_settings_unsupported_label">"Policyer som inte stöds"</string>
+	<!---->
+	<string name="account_settings_unsupported_summary">"Inga"</string>
+	<!---->
+	<string name="account_settings_retry_label">"Synkroniseringsförsök"</string>
+	<!---->
+	<string name="account_settings_retry_summary">"Tryck här för att synkronisera det här kontot"</string>
+	<!---->
+	<string name="account_settings_description_label">"Kontonamn"</string>
+	<!---->
+	<string name="account_settings_name_label">"Ditt namn"</string>
+	<!---->
+	<string name="account_settings_edit_quick_responses_label">"Snabbsvar"</string>
+	<!---->
+	<string name="account_settings_edit_quick_responses_summary">"Redigera text som du bifogar ofta när du skriver e-postmeddelanden"</string>
+	<!---->
+	<string name="account_settings_notifications">"Aviseringsinställningar"</string>
+	<!---->
+	<string name="account_settings_data_usage">"Dataanvändning"</string>
+	<!---->
+	<string name="account_settings_policies">"Säkerhetspolicy"</string>
+	<!---->
+	<string name="system_folders_title">"Systemmappar"</string>
+	<!---->
+	<string name="system_folders_trash_title">"Papperskorgsmapp"</string>
+	<!---->
+	<string name="system_folders_trash_summary">"Välj papperskorgsmappen på din server"</string>
+	<!---->
+	<string name="system_folders_trash_dlg">"Välj papperskorgsmappen på din server"</string>
+	<!---->
+	<string name="system_folders_sent_title">"Skickat-mapp"</string>
+	<!---->
+	<string name="system_folders_sent_summary">"Välj skickat-mappen på din server"</string>
+	<!---->
+	<string name="system_folders_sent_dlg">"Välj skickat-mappen på din server"</string>
+	<!---->
+	<string name="edit_quick_response_dialog">"Snabbsvar"</string>
+	<!---->
+	<string name="save_action">"Spara"</string>
+	<!---->
+	<string name="account_settings_sync_contacts_enable">"Synkronisera kontakter"</string>
+	<!---->
+	<string name="account_settings_sync_contacts_summary">"Synkronisera kontakter för det här kontot"</string>
+	<!---->
+	<string name="account_settings_sync_calendar_enable">"Synkronisera kalender"</string>
+	<!---->
+	<string name="account_settings_sync_calendar_summary">"Synkronisera kalenderhändelse för det här kontot"</string>
+	<!---->
+	<string name="account_settings_sync_email_enable">"Synkronisera e-post"</string>
+	<!---->
+	<string name="account_settings_sync_email_summary">"Synkronisera e-post för det här kontot"</string>
+	<!---->
+	<string name="account_settings_vibrate_when_label">"Vibrera"</string>
+	<!---->
+	<string name="account_settings_ringtone">"Välj ringsignal"</string>
+	<!---->
+	<string name="account_settings_servers">"Serverinställningar"</string>
+	<!---->
+	<string name="default_ringtone">"Standardringsignal"</string>
+	<!---->
+	<string name="default_ringtone_unkonwn">"Okänd ringsignal"</string>
+	<!---->
+	<string name="mailbox_settings_activity_title">"Synkroniseringsalternativ"</string>
+	<!---->
+	<string name="mailbox_settings_activity_title_with_mailbox">"Synkroniseringsalternativ (<xliff:g example="Family" id="mailboxx_name">%s</xliff:g>)"</string>
+	<!---->
+	<string name="mailbox_settings_sync_enabled_label">"Synkronisera den här mappen"</string>
+	<!---->
+	<string name="mailbox_settings_sync_enabled_summary">"Meddelanden hämtas vid anslutning."</string>
+	<!---->
+	<string name="mailbox_settings_mailbox_sync_window_label">"Dagar för att e-post ska synkroniseras"</string>
+	<!---->
+	<string name="prefDialogTitle_conversationListIcon">"Avsändarbild"</string>
+	<!---->
+	<string name="provider_note_live">"Endast vissa "Plus"-konton innehåller POP-åtkomst som tillåter det här programmet att ansluta. Om du inte kan logga in med din riktiga e-postadress kanske du inte har ett betalt "Plus"-konto. Starta webbläsaren för att få åtkomst till dessa e-postkonton."</string>
+	<!---->
+	<string name="provider_note_t_online">"Innan du ställer in det här kontot, besök webbplatsen T-Online och skapa ett lösenord för POP3-e-post."</string>
+	<!---->
+	<string name="exchange_name">"Företag"</string>
+	<!---->
+	<string name="exchange_name_alternate">"Microsoft Exchange ActiveSync"</string>
+	<!---->
+	<string name="system_account_create_failed">"Kunde inte skapa konto. Försök igen."</string>
+	<!---->
+	<string name="device_admin_label">"E-post"</string>
+	<!---->
+	<string name="device_admin_description">"Aktiverar serverspecifika säkerhetspolicys"</string>
+	<!---->
+	<string name="settings_activity_title">"Inställningar"</string>
+	<!---->
+	<string name="header_label_general_preferences">"Allmänna inställn."</string>
+	<!---->
+	<string name="general_preference_confirm_delete_label">"Bekräfta innan borttagning"</string>
+	<!---->
+	<string name="general_preference_confirm_send_label">"Bekräfta innan sändning"</string>
+	<!---->
+	<string name="more_than_999">"999+"</string>
+	<!---->
+	<string name="search_hint">"Sök e-post"</string>
+	<!---->
+	<string name="policy_dont_allow_camera">"Tillåt inte användning av enhetens kamera"</string>
+	<!---->
+	<string name="policy_require_password">"Kräv enhetslösenord"</string>
+	<!---->
+	<string name="policy_password_history">"Begränsa användning av nyligen använda lösenord"</string>
+	<!---->
+	<string name="policy_password_expiration">"Kräv att lösenord förfaller"</string>
+	<!---->
+	<string name="policy_screen_timeout">"Kräv att en overksam enhet låser den här skärmen"</string>
+	<!---->
+	<string name="policy_calendar_age">"Begränsa antalet kalenderhändelser som synkas"</string>
+	<!---->
+	<string name="policy_email_age">"Begränsa antalet e-postmeddelanden som synkas"</string>
+	<!---->
+	<string name="quick_1">"Tack!"</string>
+	<!---->
+	<string name="quick_2">"Det låter bra!"</string>
+	<!---->
+	<string name="quick_3">"Jag läser det här senare och återkommer till dig."</string>
+	<!---->
+	<string name="quick_4">"Låt oss boka in ett möte och diskutera det."</string>
+	<!---->
+	<string name="require_manual_sync_message">"Bakgrundssynkronisering för det här kontot är inaktiverat vid\ roaming."</string>
+	<!---->
+	<string name="confirm_response">"Skickar svar..."</string>
+	<!---->
+	<string name="no_conversations">"Inga meddelanden."</string>
+	<!-- no translation found for imap_name -->
+	<skip />
+	<!-- no translation found for pop3_name -->
+	<skip />
+	<!---->
+	<string name="email_name">"E-post"</string>
+	<!---->
+	<string name="folder_picker_title">"Mappväljare"</string>
+	<!---->
+	<string name="trash_folder_selection_title">"Välj serverskräpmapp för <xliff:g id="account">%s</xliff:g>"</string>
+	<!---->
+	<string name="sent_folder_selection_title">"Välj mapp för skickade objekt på servern för <xliff:g id="ACCOUNT">%s</xliff:g>"</string>
+	<!---->
+	<string name="account_waiting_for_folders_msg">"Laddar mapplista...."</string>
+	<!---->
+	<string name="no_quick_responses">"Ingen tillgänglig"</string>
+	<!---->
+	<string name="gmail_name">"Gmail"</string>
+	<!---->
+	<string name="folder_sync_settings_pref_title">"Synkroniseringsinställningar för mapp"</string>
+	<!---->
+	<string name="select_your_account">"Välj konto"</string>
+	<!---->
+	<string name="select_account_list_below">"Selecteer uw account in de onderstaande lijst:"</string>
+	<!---->
+	<string name="cancel_label">"Avbryt"</string>
+	<!---->
+	<string name="next_label">"Nästa"</string>
+	<!---->
+	<string name="str_account_provider_other">"Övrigt"</string>
+	<!---->
+	<string name="account_settings_download_options_label">"Hämtningsalternativ"</string>
+	<!---->
+	<string name="account_setting_download_opt_headonly">"Endast rubrik"</string>
+	<!---->
+	<string name="account_setting_download_opt_all">"Alla"</string>
+	<!-- no translation found for account_setting_download_opt_2k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_5k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_10k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_20k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_50k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_100k -->
+	<skip />
+	<!---->
+	<string name="account_oof_error_tip_past">"Sluttiden kan inte ha passerats. Ändra sluttiden till en tidpunkt i framtiden."</string>
+	<!---->
+	<string name="account_oof_error_tip_earlier">"Sluttiden kan inte vara tidigare än starttiden. Ändra sluttiden igen."</string>
+	<!---->
+	<string name="account_setting_oof_label">"Frånvaroinställningar"</string>
+	<!---->
+	<string name="oof_auto_repley">"Skicka frånvarosvar"</string>
+	<!---->
+	<string name="oof_auto_replies_period">"Skicka frånvarosvar under den här perioden"</string>
+	<!---->
+	<string name="start_time">"Starttid"</string>
+	<!---->
+	<string name="end_time">"Sluttid"</string>
+	<!---->
+	<string name="internal_message">"Internt meddelande"</string>
+	<!---->
+	<string name="oof_auto_replies_external_senders">"Skicka frånvarosvar till externa avsändare"</string>
+	<!---->
+	<string name="oof_choice_oof_in_contacts">"Skicka frånvarosvar till avsändare i min kontaktlista"</string>
+	<!---->
+	<string name="oof_choice_oof_outside_organisation">"Skicka frånvarosvar till alla utanför min organisation"</string>
+	<!---->
+	<string name="external_message">"Externt meddelande"</string>
+	<!---->
+	<string name="oof_done_message_attention">""Du har inte angivit något autosvarsmeddelande för personer inom din organisation. Om inget frånvaromeddelande anges, kommer inte personerna att få något frånvaromeddelande. Din frånvaroregler kommer däremot fortfarande att fungera. Vill du fortsätta?"</string>
+	<!---->
+	<string name="oof_choice_in_contacts">"Skicka till avsändare i min kontaktlista"</string>
+	<!---->
+	<string name="oof_choice_all_senders">"Skicka till alla avsändare"</string>
+	<!---->
+	<string name="hint_text_of_internal_message">"Svara till adresser inom din org."</string>
+	<!---->
+	<string name="hint_text_of_external_message">"Svara till adresser utanför din organisation"</string>
+	<!---->
+	<string name="account_delete_dlg_title">"Ta bort konto"</string>
+	<!---->
+	<string name="account_delete_dlg_instructions_fmt">"Kontot <xliff:g id="ACCOUNT">%s</xliff:g> tas bort från E-post."</string>
+	<!---->
+	<string name="account_delete_dlg_instructions_fmt_new">"Om du tar bort det här kontot tas alla meddelanden, kontakter och andra data bort från telefonen."</string>
+	<!---->
+	<string name="account_delete_dlg_action_remove_label">"Ta bort"</string>
+	<!---->
+	<string name="account_delete_dlg_action_cancel_label">"Avbryt"</string>
+	<!---->
+	<string name="account_settings_category_delete_account">"Ta bort konto"</string>
+	<!---->
+	<string name="account_settings_delete_account_label">"Ta bort konto"</string>
+	<!---->
+	<string name="account_settings_default_label">"Standardkonto"</string>
+	<!---->
+	<string name="account_settings_default_summary">"Skicka e-post från det här kontot som standard"</string>
+	<!---->
+	<string name="account_setup_options_default_label">"Skicka e-post från det här kontot som standard"</string>
+	<!---->
+	<string name="account_setup_basics_default_label">"Skicka e-post från det här kontot som standard"</string>
+	<!---->
+	<string name="local_search_action">"Sök lokalt"</string>
+	<!---->
+	<string name="service_search_action">"Sök på server"</string>
+	<!---->
+	<string name="local_search_all">"Alla"</string>
+	<!---->
+	<string name="local_search_from">"Från"</string>
+	<!---->
+	<string name="local_search_to">"Till"</string>
+	<!---->
+	<string name="local_search_subject">"Ämne"</string>
+	<!---->
+	<string name="status_loading_attachments">"Läser in"</string>
+	<!---->
+	<string name="account_use_proxy_label">"Använd proxy"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_label">"Proxy-IP"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_port_label">"Proxy-port"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_name">"Proxy-namn"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_password">"Proxy-lösenord"</string>
+	<!---->
+	<string name="attachment_info_dialog_wifi_title">"Wi-Fi-anslutning krävs"</string>
+	<!---->
+	<string name="attachment_info_wifi_settings">"WI-Fi-inställningar"</string>
+	<!---->
+	<string name="attachment_info_wifi_only">"Den här bilagan är för stor att hämta över ett mobilnätverk. Du kan hämta den nästa gång du är ansluten till ett Wi-Fi-nätverk."</string>
+	<!---->
+	<string name="attachment_info_ok">"OK"</string>
+	<!---->
+	<string name="mailbox_name_display_draft">"Utkast"</string>
+	<!-- no translation found for message_compose_display_name -->
+	<skip />
+	<!---->
+	<string name="app_name">"E-post"</string>
+	<!---->
+	<string name="from">"Från"</string>
+	<!---->
+	<string name="to">"Till"</string>
+	<!---->
+	<string name="cc">"Kopia"</string>
+	<!---->
+	<string name="bcc">"Hemlig kopia"</string>
+	<!---->
+	<string name="subject_hint">"Ämne"</string>
+	<!---->
+	<string name="body_hint">"Skapa e-postmeddelande"</string>
+	<!---->
+	<string name="add_file_attachment">"Bifoga fil"</string>
+	<!---->
+	<string name="add_photo_attachment">"Bifoga bild"</string>
+	<!---->
+	<string name="save_draft">"Spara utkast"</string>
+	<!---->
+	<string name="discard">"Ignorera"</string>
+	<!---->
+	<string name="compose">"Skriv"</string>
+	<!---->
+	<string name="select_contacts_field">"Välj kontakter från"</string>
+	<!---->
+	<string name="item_save_group">"Spara grupp"</string>
+	<!---->
+	<string name="confirm_select">"Välj"</string>
+	<!---->
+	<string name="cancel_select">"Avbryt"</string>
+	<string-array name="compose_modes">
+		<item>"Svara"</item>
+		<item>"Svara alla"</item>
+		<item>"Vidarebefordra"</item>
+	</string-array>
+	<string-array name="compose_modes_without_reply_all">
+		<item>"Svara"</item>
+		<item>"Vidarebefordra"</item>
+	</string-array>
+	<!---->
+	<string name="reply_subject_label">"Sv:"</string>
+	<!---->
+	<string name="forward_subject_label">"Vidarebefordra:"</string>
+	<!---->
+	<string name="reply_attribution">"den <xliff:g id="date">%s</xliff:g>, <xliff:g id="person">%s</xliff:g> skrev:"</string>
+	<!---->
+	<string name="forward_attribution">"---------- Vidarebefordrat meddelande ----------；Från:；Datum:；Ämne:；Till:"</string>
+	<!-- no translation found for forward_attribution_with_headers -->
+	<skip />
+	<!---->
+	<string name="forward_attribution_no_headers">"---------- Vidarebefordrat meddelande ----------"</string>
+	<!---->
+	<string name="cc_attribution">"Kopia:"</string>
+	<!---->
+	<string name="select_attachment_type">"Välj typ av bilaga"</string>
+	<!---->
+	<string name="too_large_to_attach_single">"Det går inte att bifoga fil över %1$s"</string>
+	<!---->
+	<string name="too_large_to_attach_multiple">"En eller flera filer ej bifogade. Begränsa <xliff:g id="maxSize">%1$s</xliff:g>."</string>
+	<!---->
+	<string name="too_large_to_mid_attach_additional">"Din e-poststorlek överskrider <xliff:g id="maxSize">%1$s</xliff:g>. Ditt e-postkonto kanske inte har stöd för det."</string>
+	<!---->
+	<string name="too_large_to_attach_additional">"Det gick inte att lägga till fil. E-poststorleken överskrider gränsen på <xliff:g id="maxSize">%1$s</xliff:g>."</string>
+	<!---->
+	<string name="generic_attachment_problem">"Det gick inte att bifoga filen."</string>
+	<!---->
+	<string name="recipient_needed">"Minst en mottagare."</string>
+	<!---->
+	<string name="recipient_error_dialog_title">"Mottagarfel"</string>
+	<!---->
+	<string name="confirm_send_title">"Skicka meddelande?"</string>
+	<!---->
+	<string name="confirm_send_message_with_no_subject">"Det finns ingen text i meddelandets ämnesrad"</string>
+	<!---->
+	<string name="confirm_send_message_with_no_body">"Det finns ingen text i meddelandets ämnesrad."</string>
+	<!---->
+	<string name="confirm_send_message">"Skicka det här meddelandet?"</string>
+	<!---->
+	<string name="message_discarded">"Meddelandet slängs."</string>
+	<!-- no translation found for signature -->
+	<skip />
+	<!---->
+	<string name="custom_from_account_label">"Skicka e-post som:"</string>
+	<!---->
+	<string name="send">"Skicka"</string>
+	<!---->
+	<string name="mark_read">"Mark. som läs"</string>
+	<!---->
+	<string name="mark_unread">"Mark. s. oläst"</string>
+	<!---->
+	<string name="mute">"Ljud av"</string>
+	<!---->
+	<string name="add_star">"Lägg t. stjärna"</string>
+	<!---->
+	<string name="remove_star">"Rad. stjärna"</string>
+	<!---->
+	<string name="remove_folder">"Ta bort från <xliff:g id="folderName">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="archive">"Arkivera"</string>
+	<!---->
+	<string name="report_spam">"Rapportera skräppost"</string>
+	<!---->
+	<string name="mark_not_spam">"Rapport: Ej skräppost"</string>
+	<!---->
+	<string name="report_phishing">"Rapportera nätfiske"</string>
+	<!---->
+	<string name="delete">"Ta bort"</string>
+	<!---->
+	<string name="discard_drafts">"Ta bort utkast"</string>
+	<!---->
+	<string name="discard_failed">"Avvisning misslyckades"</string>
+	<!---->
+	<string name="refresh">"Uppdatera"</string>
+	<!---->
+	<string name="reply">"Svara"</string>
+	<!---->
+	<string name="reply_all">"Svara alla"</string>
+	<!---->
+	<string name="resume_draft">"Redigera"</string>
+	<!---->
+	<string name="forward">"Vidarebefordra"</string>
+	<!---->
+	<string name="menu_compose">"Skriv"</string>
+	<!---->
+	<string name="menu_sort">"Sortera"</string>
+	<!---->
+	<string name="menu_change_folders">"Ändra mappar"</string>
+	<!---->
+	<string name="menu_move_to">"Flytta till"</string>
+	<!---->
+	<string name="menu_move_to_inbox">"Flytta till Inkorg"</string>
+	<!---->
+	<string name="menu_manage_folders">"Mappinställningar"</string>
+	<!---->
+	<string name="menu_show_original">"Återgå till automatisk storlek"</string>
+	<!---->
+	<string name="menu_settings">"Inställningar"</string>
+	<!---->
+	<string name="menu_search">"Sök"</string>
+	<!---->
+	<string name="drawer_title">"Navigering"</string>
+	<!---->
+	<string name="mark_important">"Markera som viktigt"</string>
+	<!---->
+	<string name="mark_not_important">"Markera som oviktigt"</string>
+	<!---->
+	<string name="select_all_conversations">"Välj alla"</string>
+	<!---->
+	<string name="unselect_all_conversations">"Avmarkera alla"</string>
+	<!---->
+	<string name="add_cc_label">"Kopia/hemlig kopia"</string>
+	<!---->
+	<string name="add_bcc_label">"Lägg till hemlig kopia"</string>
+	<!---->
+	<string name="quoted_text">"Inkludera citerad text"</string>
+	<!---->
+	<string name="quoted_text_label">"Citera text"</string>
+	<!---->
+	<string name="respond_inline">"Svara inuti"</string>
+	<!---->
+	<string name="bytes">"<xliff:g id="count">%s</xliff:g> B"</string>
+	<!---->
+	<string name="kilobytes">"<xliff:g id="count">%s</xliff:g> KB"</string>
+	<!---->
+	<string name="megabytes">"<xliff:g id="count">%s</xliff:g> MB"</string>
+	<!---->
+	<string name="attachment_image">"Bild"</string>
+	<!---->
+	<string name="attachment_video">"Video"</string>
+	<!---->
+	<string name="attachment_audio">"Ljud"</string>
+	<!---->
+	<string name="attachment_text">"Text"</string>
+	<!---->
+	<string name="attachment_application_msword">"Dokument"</string>
+	<!---->
+	<string name="attachment_application_vnd_ms_powerpoint">"Presentation"</string>
+	<!---->
+	<string name="attachment_application_vnd_ms_excel">"Kalkylblad"</string>
+	<!-- no translation found for attachment_application_pdf -->
+	<skip />
+	<!---->
+	<string name="attachment_unknown">"<xliff:g id="attachmentExtension">%s</xliff:g> Fil"</string>
+	<!---->
+	<string name="preview_attachment">"Förhandsgranska"</string>
+	<!---->
+	<string name="save_attachment">"Spara"</string>
+	<!---->
+	<string name="cancel_attachment">"Avbryt"</string>
+	<!---->
+	<string name="open_attachment">"Öppna"</string>
+	<!---->
+	<string name="install_attachment">"Installera"</string>
+	<!---->
+	<string name="download_again">"Hämta igen"</string>
+	<!---->
+	<string name="more_info_attachment">"Info"</string>
+	<!---->
+	<string name="no_application_found">"Ingen app kan öppna den här bilagan för visning."</string>
+	<!---->
+	<string name="fetching_attachment">"Hämtar bilaga"</string>
+	<!-- no translation found for please_wait -->
+	<skip />
+	<!---->
+	<string name="saved">"Sparat,"</string>
+	<!---->
+	<string name="download_failed">"Det gick inte att hämta. Tryck för att försöka igen."</string>
+	<!---->
+	<string name="menu_photo_save_all">"Spara alla"</string>
+	<!---->
+	<string name="menu_photo_share">"Dela"</string>
+	<!---->
+	<string name="menu_photo_share_all">"Dela alla"</string>
+	<!---->
+	<string name="menu_photo_print">"Skriv ut"</string>
+	<!---->
+	<string name="saving">"Sparar..."</string>
+	<!---->
+	<string name="choosertitle_sharevia">"Dela via"</string>
+	<!---->
+	<string name="contextmenu_openlink">"Öppna i webbläsare"</string>
+	<!---->
+	<string name="contextmenu_copy">"Kopiera"</string>
+	<!---->
+	<string name="contextmenu_copylink">"Kopiera länkens webbadress"</string>
+	<!---->
+	<string name="contextmenu_view_image">"Visa bild"</string>
+	<!---->
+	<string name="contextmenu_dial_dot">"Ring"</string>
+	<!---->
+	<string name="contextmenu_sms_dot">"SMS\u2026"</string>
+	<!---->
+	<string name="contextmenu_add_contact">"Lägg till kontakt"</string>
+	<!---->
+	<string name="contextmenu_send_mail">"Skicka e-post"</string>
+	<!---->
+	<string name="contextmenu_map">"Karta"</string>
+	<!---->
+	<string name="contextmenu_sharelink">"Dela länk"</string>
+	<!---->
+	<string name="contextmenu_savelink">"Spara länk"</string>
+	<!---->
+	<string name="contextmenu_help">"Hjälp"</string>
+	<!---->
+	<string name="contextmenu_feedback">"Skicka feedback"</string>
+	<!---->
+	<string name="sort_title">"Sortera efter"</string>
+	<!---->
+	<string name="sort_by_tip">"Sorterad av <xliff:g id="sor_type">%s</xliff:g>"</string>
+	<!-- no translation found for num_selected -->
+	<skip />
+	<plurals name="move_conversation">
+		<item quantity="one">"Flytta konversation"</item>
+		<item quantity="other">"Flytta <xliff:g>%1$d</xliff:g> konversationer"</item>
+	</plurals>
+	<!---->
+	<string name="content_description">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> om <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> den <xliff:g id="date">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g>"</string>
+	<!---->
+	<string name="content_description_today">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> om <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> kl. <xliff:g id="time">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g>"</string>
+	<!---->
+	<string name="read_string">"Konversation läst"</string>
+	<!---->
+	<string name="unread_string">"Konversation oläst"</string>
+	<!---->
+	<string name="filtered_tag">"[<xliff:g id="tag">%1$s</xliff:g>]<xliff:g id="subject">%2$s</xliff:g>"</string>
+	<!-- no translation found for badge_and_subject -->
+	<skip />
+	<plurals name="draft">
+		<item quantity="one">"Utkast"</item>
+		<item quantity="other">"Utkast"</item>
+	</plurals>
+	<!---->
+	<string name="sending">"Skickar\u2026"</string>
+	<!---->
+	<string name="message_retrying">"Försöker igen\u2026"</string>
+	<!---->
+	<string name="message_failed">"Misslyckades"</string>
+	<!---->
+	<string name="send_failed">"Det gick inte att skicka e-postmeddelande."</string>
+	<!---->
+	<string name="send_failed_wait_attchment_downloaded">"Det går inte att vidarebefordra eftersom bilagor inte är helt nedladdade. Hämta bilagorna först."</string>
+	<!---->
+	<string name="me_object_pronoun">"Jag"</string>
+	<!---->
+	<string name="me_subject_pronoun">"Jag"</string>
+	<plurals name="confirm_delete_conversation">
+		<item quantity="one">"Ta bort den här konversationen?"</item>
+		<item quantity="other">"Ta bort dessa <xliff:g id="count">%1$d</xliff:g> konversationer?"</item>
+	</plurals>
+	<plurals name="confirm_archive_conversation">
+		<item quantity="one">"Arkivera den här konversationen?"</item>
+		<item quantity="other">"Arkivera dessa <xliff:g id="count">%1$d</xliff:g> konversationer?"</item>
+	</plurals>
+	<plurals name="confirm_discard_drafts_conversation">
+		<item quantity="one">"Ta bort det här meddelandet?"</item>
+		<item quantity="other">"Avvisa dessa <xliff:g id="count">%1$d</xliff:g> meddelanden?"</item>
+	</plurals>
+	<!---->
+	<string name="confirm_discard_text">"Ta bort det här meddelandet?"</string>
+	<!---->
+	<string name="loading_conversations">"Laddar\u2026"</string>
+	<!---->
+	<string name="empty_inbox">"Du är klar! Ha en bra dag."</string>
+	<!---->
+	<string name="empty_search">"Hoppsan! Vi hittade inget för \"<xliff:g id="search_query">%1$s</xliff:g>\"."</string>
+	<!---->
+	<string name="empty_spam_folder">"Hurra, ingen skräppost här!"</string>
+	<!---->
+	<string name="empty_trash_folder">"Inget skräp här. Tack för att du återvinner!"</string>
+	<!---->
+	<string name="empty_folder">"Det finns ingen post här."</string>
+	<!---->
+	<string name="getting_messages">"Hämta dina meddelanden"</string>
+	<!---->
+	<string name="undo">"Ångra"</string>
+	<plurals name="conversation_unstarred">
+		<item quantity="one">"Tar bort stjärnmärkning från <xliff:g id="count">%1$d</xliff:g> konversation."</item>
+		<item quantity="other">"Tar bort stjärnmärkning från <xliff:g id="count">%1$d</xliff:g> konversationer."</item>
+	</plurals>
+	<plurals name="conversation_muted">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> tystade."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> tystade."</item>
+	</plurals>
+	<plurals name="conversation_spammed">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> rapporterade som skräppost."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> rapporterade som skräppost."</item>
+	</plurals>
+	<plurals name="conversation_not_spam">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> rapporterade som icke-skräppost."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> rapporterade som icke-skräppost."</item>
+	</plurals>
+	<plurals name="conversation_not_important">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> markerade som oviktiga."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> markerade som oviktiga."</item>
+	</plurals>
+	<plurals name="conversation_phished">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> rapporterade som nätfiske."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> rapporterade som nätfiske."</item>
+	</plurals>
+	<plurals name="conversation_archived">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> arkiverade."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> arkiverade."</item>
+	</plurals>
+	<plurals name="conversation_deleted">
+		<item quantity="one">"&lt;b&gt;%1$d&lt;/b&gt; borttagna."</item>
+		<item quantity="other">"&lt;b&gt;%1$d&lt;/b&gt; borttagna."</item>
+	</plurals>
+	<!---->
+	<string name="deleted">"Borttagen"</string>
+	<!---->
+	<string name="archived">"Arkiverad"</string>
+	<!---->
+	<string name="starred">"Stjärnmärkta"</string>
+	<!---->
+	<string name="unstarred">"Avmarkerad"</string>
+	<!---->
+	<string name="folder_removed">"Borttagen från <xliff:g id="folderName">%1$s</xliff:g>"</string>
+	<plurals name="conversation_folder_changed">
+		<item quantity="one">"Mapp ändrad."</item>
+		<item quantity="other">"Mappar ändrade."</item>
+	</plurals>
+	<!---->
+	<string name="conversation_folder_moved">"Flyttad till <xliff:g id="folderName">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="search_results_header">"Resultat"</string>
+	<!---->
+	<string name="search_unsupported">"Sök stöds inte på det här kontot."</string>
+	<!---->
+	<string name="add_label">"Lägg till mapp"</string>
+	<!---->
+	<string name="new_incoming_messages_one">"Visa nytt meddelande från <xliff:g id="sender">%s</xliff:g>."</string>
+	<plurals name="new_incoming_messages_many">
+		<item quantity="other">"Visa <xliff:g id="count">%1$d</xliff:g> nya meddelanden."</item>
+	</plurals>
+	<!---->
+	<string name="date_and_view_details">"<xliff:g id="date">%1$s</xliff:g> &lt;a href=\'http://www.example.com\'&gt;Visa information&lt;/a&gt;"</string>
+	<!---->
+	<string name="date_and_view_details_another">"<xliff:g id="date">%1$s</xliff:g> &lt;font color=\"<xliff:g id="color">%2$d</xliff:g>\"&gt;Visa information&lt;/font&gt;"</string>
+	<!---->
+	<string name="hide_details">"Dölj information"</string>
+	<!---->
+	<string name="to_message_header">"till <xliff:g id="recipients">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="contact_info_string">"Visa kontaktinformation för <xliff:g id="name">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="contact_info_string_default">"Visa kontaktinformation"</string>
+	<plurals name="show_messages_read">
+		<item quantity="other">"<xliff:g example="4" id="count">%1$d</xliff:g> äldre meddelanden"</item>
+	</plurals>
+	<!---->
+	<string name="from_heading">"Från:"</string>
+	<!---->
+	<string name="replyto_heading">"Svara till:"</string>
+	<!---->
+	<string name="to_heading">"Till:"</string>
+	<!---->
+	<string name="to_heading_no_space">"Till:"</string>
+	<!---->
+	<string name="cc_heading">"Kopia:"</string>
+	<!---->
+	<string name="bcc_heading">"Hemlig kopia:"</string>
+	<!---->
+	<string name="date_heading">"Datum:"</string>
+	<!---->
+	<string name="show_images">"Visa bilder"</string>
+	<!---->
+	<string name="always_show_images">"Visa alltid bilder från den här avsändaren"</string>
+	<!---->
+	<string name="always_show_images_toast">"Bilder från den här avsändaren visas automatiskt."</string>
+	<!---->
+	<string name="address_display_format">"<xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g>"</string>
+	<!---->
+	<string name="address_display_format_with_via_domain">"<xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g> via <xliff:g id="via_domain">%3$s</xliff:g>"</string>
+	<!---->
+	<string name="message_saved">"Meddelandet sparas som utkast."</string>
+	<!---->
+	<string name="sending_message">"Skickar meddelande\u2026"</string>
+	<!---->
+	<string name="invalid_recipient">"Adressen %s är ogiltig."</string>
+	<!---->
+	<string name="show_elided">"Visa citerad text"</string>
+	<!-- no translation found for hide_elided -->
+	<skip />
+	<!---->
+	<string name="message_invite_title">"Kalenderinbjudan"</string>
+	<!---->
+	<string name="message_invite_available">"Du är tillgänglig"</string>
+	<!---->
+	<string name="message_invite_datetime">"När"</string>
+	<!---->
+	<string name="message_invite_location">"Var"</string>
+	<!---->
+	<string name="message_invite_in_calendar_view">"Titta i kalendern"</string>
+	<!---->
+	<string name="message_invite_calendar_view">"Visa i kalender"</string>
+	<!---->
+	<string name="message_invite_label_attending">"Kommer?"</string>
+	<!---->
+	<string name="message_invite_accept">"Ja"</string>
+	<!---->
+	<string name="message_invite_tentative">"Kanske"</string>
+	<!---->
+	<string name="message_invite_decline">"Nej"</string>
+	<!-- no translation found for enumeration_comma -->
+	<skip />
+	<!---->
+	<string name="send_anyway">"Skicka i alla fall"</string>
+	<!---->
+	<string name="ok">"OK"</string>
+	<!---->
+	<string name="done">"Färdig"</string>
+	<!---->
+	<string name="cancel">"Avbryt"</string>
+	<!---->
+	<string name="clear">"Rensa"</string>
+	<!---->
+	<string name="next">"Nästa"</string>
+	<!---->
+	<string name="previous">"Föregående"</string>
+	<string-array name="sync_status">
+		<item>"Du har ingen Wi-Fi-anslutning, vill du fortsätta synkroniseringen?"</item>
+		<item>"Ingen anslutning."</item>
+		<item>"Det gick inte att logga in."</item>
+		<item>"Säkerhetsfel."</item>
+		<item>"Kunde inte synkronisera."</item>
+		<item>"Internt fel"</item>
+		<item>"Serverfel"</item>
+	</string-array>
+	<!---->
+	<string name="tap_to_configure">"Tryck för att ställa in"</string>
+	<!---->
+	<string name="non_synced_folder_description">"Synkronisera den här mappen för att visa konversationer."</string>
+	<!---->
+	<string name="tap_to_configure_folder_sync">"Synkronisera mapp"</string>
+	<!-- no translation found for widget_large_unread_count -->
+	<skip />
+	<!---->
+	<string name="large_unseen_count">"<xliff:g example="99" id="count">%d</xliff:g>+ nya"</string>
+	<!-- no translation found for unseen_count -->
+	<skip />
+	<plurals name="actionbar_unread_messages">
+		<item quantity="other">"%1$d olästa"</item>
+	</plurals>
+	<!---->
+	<string name="actionbar_large_unread_count">"<xliff:g id="count">%1$d</xliff:g>+ olästa"</string>
+	<!---->
+	<string name="view_more_conversations">"Visa fler konversationer"</string>
+	<!---->
+	<string name="loading_conversation">"Laddar\u2026"</string>
+	<!---->
+	<string name="activity_mailbox_selection">"Välj konto"</string>
+	<!---->
+	<string name="activity_folder_selection">"Välj mapp"</string>
+	<!---->
+	<string name="folder_shortcut_widget_label">"E-postmapp"</string>
+	<!---->
+	<string name="change_folders_selection_dialog_title">"Ändra mappar"</string>
+	<!---->
+	<string name="move_to_selection_dialog_title">"Flytta till"</string>
+	<!-- no translation found for search_results_loaded -->
+	<skip />
+	<!---->
+	<string name="network_error">"Ingen anslutning"</string>
+	<!---->
+	<string name="retry">"Försök igen"</string>
+	<!---->
+	<string name="load_more">"Ladda mer"</string>
+	<!---->
+	<string name="shortcut_name_title">"Namnge mappgenväg"</string>
+	<!---->
+	<string name="wait_for_sync_title">"Väntar på synkronisering"</string>
+	<!---->
+	<string name="not_synced_title">"Konto ej synkroniserat"</string>
+	<!---->
+	<string name="wait_for_manual_sync_body">"Det här kontot är inte inställt på att synkronisera automatiskt.\nTryck <b>Synkronisera nu</b> för att synkronisera e-post en gång eller <b>Ändra synkroniseringsinställningar</b> för att ställa in det här kontot på att synkronisera e-post automatiskt."</string>
+	<!---->
+	<string name="manual_sync">"Synkronisera nu"</string>
+	<!---->
+	<string name="change_sync_settings">"Ändra synkroniseringsinställningar"</string>
+	<!---->
+	<string name="photo_load_failed">"Det gick inte att ladda bilden"</string>
+	<!---->
+	<string name="cant_move_or_change_labels">"Det gick inte att flytta eftersom markeringen innehåller flera konton."</string>
+	<!-- no translation found for multiple_new_message_notification_item -->
+	<skip />
+	<!-- no translation found for single_new_message_notification_big_text -->
+	<skip />
+	<!---->
+	<string name="ignore_spam_warning">"Ignorera, jag litar på det här meddelandet"</string>
+	<!---->
+	<string name="via_domain">"via <xliff:g id="viaDomain">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="signin">"Logga in"</string>
+	<!---->
+	<string name="info">"Info"</string>
+	<!---->
+	<string name="report">"Rapportera"</string>
+	<!---->
+	<string name="sync_error">"Kunde inte synkronisera."</string>
+	<!---->
+	<string name="sync_error_message">"Din enhet har inte tillräckligt med lagringsutrymme för att synkronisera."</string>
+	<!---->
+	<string name="storage">"Minne"</string>
+	<!-- no translation found for senders_split_token -->
+	<skip />
+	<!-- no translation found for draft_count_format -->
+	<skip />
+	<!---->
+	<string name="all_folders_heading">"Alla mappar"</string>
+	<!---->
+	<string name="recent_folders_heading">"Senaste mappar"</string>
+	<!---->
+	<string name="message_details_title">"Meddelandeinfo"</string>
+	<!---->
+	<string name="preference_advance_to_title">"Fortsätt automatiskt"</string>
+	<string-array name="prefEntries_autoAdvance">
+		<item>"Nyare"</item>
+		<item>"Äldre"</item>
+		<item>"Konversationslista"</item>
+	</string-array>
+	<string-array name="prefSummaries_autoAdvance">
+		<item>"Visa nyare konversation efter borttagning"</item>
+		<item>"Visa äldre konversation efter borttagning"</item>
+		<item>"Visa konversationslista efter borttagning"</item>
+	</string-array>
+	<!---->
+	<string name="prefDialogTitle_autoAdvance">"Fortsätt till"</string>
+	<!---->
+	<string name="clear_display_images_whitelist_title">"Rensa bildgodkännanden"</string>
+	<!---->
+	<string name="clear_display_images_whitelist_dialog_title">"Rensa bildgodkännanden?"</string>
+	<!---->
+	<string name="clear_display_images_whitelist_dialog_message">"Sluta visa bilder i meddelanden från avsändare du tidigare tillåtit."</string>
+	<!---->
+	<string name="sender_whitelist_cleared">"Bilder visas inte automatiskt."</string>
+	<!---->
+	<string name="preferences_signature_title">"Signatur"</string>
+	<!---->
+	<string name="preferences_signature_dialog_title">"Signatur"</string>
+	<!---->
+	<string name="preferences_signature_summary_not_set">"Ej inställd"</string>
+	<!-- no translation found for mail_account_signature_prefix -->
+	<skip />
+	<!---->
+	<string name="notification_action_reply">"Svara"</string>
+	<!---->
+	<string name="notification_action_reply_all">"Svara alla"</string>
+	<!---->
+	<string name="notification_action_archive">"Arkivera"</string>
+	<!---->
+	<string name="notification_action_remove_label">"Ta bort etikett"</string>
+	<!---->
+	<string name="notification_action_delete">"Ta bort"</string>
+	<!---->
+	<string name="notification_action_undo_archive">"Arkiverad"</string>
+	<!---->
+	<string name="notification_action_undo_remove_label">"Etikett borttagen"</string>
+	<!---->
+	<string name="notification_action_undo_delete">"Borttagen"</string>
+	<!-- no translation found for veiled_address -->
+	<skip />
+	<!-- no translation found for veiled_alternate_text -->
+	<skip />
+	<!-- no translation found for veiled_alternate_text_unknown_person -->
+	<skip />
+	<!-- no translation found for veiled_summary_unknown_person -->
+	<skip />
+	<!-- no translation found for label_notification_ticker -->
+	<skip />
+	<plurals name="new_messages">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> nytt meddelande"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> nya meddelanden"</item>
+	</plurals>
+	<!-- no translation found for single_new_message_notification_title -->
+	<skip />
+	<!---->
+	<string name="silent_ringtone">"Tyst"</string>
+	<!---->
+	<string name="preference_removal_action_title">"Arkivera och ta bort åtgärder"</string>
+	<string-array name="prefEntries_removal_action">
+		<item>"Visa endast arkiverade"</item>
+		<item>"Visa endast borttagna"</item>
+		<item>"Visa arkiv och ta bort"</item>
+	</string-array>
+	<string-array name="prefSummaries_removal_action_summary">
+		<item>"Visa endast arkiverade"</item>
+		<item>"Visa endast borttagna"</item>
+		<item>"Visa arkiv och ta bort"</item>
+	</string-array>
+	<!---->
+	<string name="prefDialogTitle_removal_action">"Arkivera och ta bort åtgärder"</string>
+	<!---->
+	<string name="preferences_default_reply_all_title">"Svara alla"</string>
+	<!---->
+	<string name="preferences_default_reply_all_summary_impl">"Använd som standard för meddelandesvar"</string>
+	<!---->
+	<string name="preference_swipe_title_archive">"Svep för att arkivera"</string>
+	<!---->
+	<string name="preference_swipe_title_delete">"Svep för att ta bort"</string>
+	<!---->
+	<string name="preference_swipe_description">"I konversationslista"</string>
+	<!---->
+	<string name="preference_swipe_actions">"Svepåtgärder"</string>
+	<!---->
+	<string name="preference_sender_image_title">"Avsändarbild"</string>
+	<!---->
+	<string name="preference_sender_image_description">"Visa bredvid namn i konversationslista"</string>
+	<!---->
+	<string name="empty_trash">"Töm papperskorg"</string>
+	<!---->
+	<string name="empty_spam">"Töm skräppost"</string>
+	<!---->
+	<string name="star_toggle">"Byt stjärna"</string>
+	<!---->
+	<string name="empty_trash_dialog_title">"Töm papperskorg?"</string>
+	<!---->
+	<string name="empty_spam_dialog_title">"Töm skräppost?"</string>
+	<plurals name="empty_folder_dialog_message">
+		<item quantity="one">"%1$d meddelande tas bort permanent."</item>
+		<item quantity="other">"%1$d meddelanden tas bort permanent."</item>
+	</plurals>
+	<!---->
+	<string name="drawer_open">"Öppna navigeringsbox"</string>
+	<!---->
+	<string name="drawer_close">"Copyrightinformation"</string>
+	<!---->
+	<string name="conversation_photo_welcome_text">"Tryck på en avsändares bild för att välja den konversationen."</string>
+	<!---->
+	<string name="long_press_to_select_tip">"Tryck och håll för att välja en konversation, tryck sedan för att välja fler."</string>
+	<!---->
+	<string name="folder_icon_desc">"Mappikon"</string>
+	<!---->
+	<string name="add_account">"Lägg till konto"</string>
+	<!---->
+	<string name="dismiss_tip_hover_text">"Avvisa tips"</string>
+	<!---->
+	<string name="auto_sync_off">"Autosynkronisering är av."</string>
+	<!---->
+	<string name="tap_to_enable_sync">"Tryck för att slå på."</string>
+	<!---->
+	<string name="account_sync_off">"Kontosynkronisering är av."</string>
+	<!---->
+	<string name="enable_sync_in_account_settings">"Slå på i <xliff:g id="account_settings">%1$s</xliff:g>."</string>
+	<!---->
+	<string name="account_settings_param">"Kontoinställningar"</string>
+	<!---->
+	<string name="unsent_messages_in_outbox">"<xliff:g id="number">%1$s</xliff:g> ej skickade i <xliff:g id="outbox">%2$s</xliff:g>"</string>
+	<!---->
+	<string name="turn_auto_sync_on_dialog_title">"Aktivera automatisk synkronisering?"</string>
+	<!---->
+	<string name="turn_auto_sync_on_dialog_body">"Ändringar du gör för alla appar och konton, inte bara Gmail, synkroniseras till nätet, dina andra enheter och din <xliff:g id="phone_or_tablet">%1$s</xliff:g>."</string>
+	<!---->
+	<string name="phone">"Telefon"</string>
+	<!---->
+	<string name="tablet">"Telefon"</string>
+	<!---->
+	<string name="turn_auto_sync_on_dialog_confirm_btn">"Sätt på"</string>
+	<!-- no translation found for show_n_more_folders -->
+	<skip />
+	<!---->
+	<string name="hide_folders">"Dölj mappar"</string>
+	<!---->
+	<string name="print">"Skriv ut"</string>
+	<!---->
+	<string name="print_all">"Skriv ut alla"</string>
+	<plurals name="num_messages">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> meddelande"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> meddelanden"</item>
+	</plurals>
+	<!-- no translation found for date_message_received_print -->
+	<skip />
+	<!---->
+	<string name="draft_to_heading">"Utkast till:"</string>
+	<!---->
+	<string name="draft_heading">"Utkast"</string>
+	<!---->
+	<string name="quoted_text_hidden_print">"Citerad text dold"</string>
+	<plurals name="num_attachments">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> bilaga"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> bilagor"</item>
+	</plurals>
+	<!---->
+	<string name="no_subject">"(Inget ämne)"</string>
+	<!---->
+	<string name="vacation_responder">"Autosvar vid ledighet"</string>
+	<!---->
+	<string name="preferences_vacation_responder_title">"Autosvar vid ledighet"</string>
+	<!---->
+	<string name="vacation_responder_body_hint_text">"Meddelande"</string>
+	<!---->
+	<string name="send_to_contacts_text">"Skicka bara till mina kontakter"</string>
+	<!---->
+	<string name="send_to_domain_text">"Skicka bara till <xliff:g id="domain">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="pick_start_date_title">"Startar"</string>
+	<!---->
+	<string name="pick_end_date_title">"Avslutas (valfritt)"</string>
+	<!---->
+	<string name="date_not_set">"Ej inställd"</string>
+	<!---->
+	<string name="set_end_date_dialog_title">"Slutdatum (valfritt)"</string>
+	<!---->
+	<string name="custom_date">"Anpassad"</string>
+	<!---->
+	<string name="date_none">"Inga"</string>
+	<!---->
+	<string name="discard_changes">"Spara inte ändringar?"</string>
+	<!---->
+	<string name="draft_saved">"Utkast sparat"</string>
+	<!---->
+	<string name="draft_discard">"Utkast avvisat"</string>
+	<!---->
+	<string name="vacation_responder_changes_saved">"Ändringar av ledighetssvar sparades"</string>
+	<!---->
+	<string name="vacation_responder_changes_discarded">"Ändringar av ledighetssvar avvisades"</string>
+	<!---->
+	<string name="vacation_responder_off">"AV"</string>
+	<!-- no translation found for vacation_responder_on -->
+	<skip />
+	<!-- no translation found for vacation_responder_on_with_end_date -->
+	<skip />
+	<!---->
+	<string name="vacation_responder_empty_subject_and_body_warning">"Lägg till ett ämne eller brödtext"</string>
+	<!---->
+	<string name="view_entire_message">"Visa hela meddelandet"</string>
+	<!---->
+	<string name="eml_loader_error_toast">"Det går inte att öppna den här filen"</string>
+	<!---->
+	<string name="help_and_info">"Hjälp"</string>
+	<!---->
+	<string name="help_and_feedback">"Hjälp och feedback"</string>
+	<!---->
+	<string name="feedback">"Skicka feedback"</string>
+	<!---->
+	<string name="copyright">"©<xliff:g example="2010" id="year">%1$d</xliff:g> Google Inc."</string>
+	<!-- no translation found for version -->
+	<skip />
+	<!-- no translation found for view_app_page -->
+	<skip />
+	<!---->
+	<string name="print_dialog">"Skriv ut\u2026"</string>
+	<!---->
+	<string name="copyright_information">"Copyrightinformation"</string>
+	<!---->
+	<string name="privacy_policy">"Sekretesspolicy"</string>
+	<!---->
+	<string name="open_source_licenses">"Öppen källkodslicens"</string>
+	<!---->
+	<string name="reply_choice_yes">"Ja"</string>
+	<!---->
+	<string name="reply_choice_no">"Nej"</string>
+	<!---->
+	<string name="reply_choice_ok">"OK"</string>
+	<!-- no translation found for reply_choice_hehe -->
+	<skip />
+	<!---->
+	<string name="reply_choice_thanks">"Tack"</string>
+	<!---->
+	<string name="reply_choice_i_agree">"Jag håller med"</string>
+	<!---->
+	<string name="reply_choice_nice">"Bra"</string>
+	<!---->
+	<string name="reply_on_my_way">"På väg"</string>
+	<!---->
+	<string name="reply_choice_later">"OK, låt mig komma tillbaka till dig"</string>
+	<!-- no translation found for reply_choice_smiling_face -->
+	<skip />
+	<!-- no translation found for reply_choice_frowning_face -->
+	<skip />
+	<!---->
+	<string name="preference_header_action_confirmations">"Åtgärdsbekräftelser"</string>
+	<!---->
+	<string name="preference_confirm_before_delete_title">"Bekräfta innan borttagning"</string>
+	<!---->
+	<string name="preference_confirm_before_archive_title">"Bekräfta innan arkivering"</string>
+	<!---->
+	<string name="preference_confirm_before_send_title">"Bekräfta innan sändning"</string>
+	<!---->
+	<string name="preferences_conversation_mode_title">"Anpassa meddelanden automatiskt"</string>
+	<!---->
+	<string name="preferences_conversation_mode_summary">"Krymp meddelanden för att passa skärmen"</string>
+	<!---->
+	<string name="preferences_disable_snap_headers_title">"Meddelandeåtgärder"</string>
+	<string-array name="prefSummaries_snapHeader">
+		<item>"Visa alltid meddelandeaktiviteter högst upp på skärmen"</item>
+		<item>"Visa bara meddelandeaktiviteter högst upp på skärmen när den är roterad till stående"</item>
+		<item>"Visa inte e-postaktiviteter utanför e-postrubriken"</item>
+	</string-array>
+	<string-array name="prefEntries_snapHeader">
+		<item>"Visa alltid"</item>
+		<item>"Visa bara i stående"</item>
+		<item>"Visa inte"</item>
+	</string-array>
+	<!---->
+	<string name="clear_history_title">"Rensa sökhistorik"</string>
+	<!---->
+	<string name="search_history_cleared">"Sökhistorik rensad."</string>
+	<!---->
+	<string name="clear_history_dialog_title">"Rensa sökhistorik?"</string>
+	<!---->
+	<string name="clear_history_dialog_message">"Alla sökningar du utfört tidigare tas bort."</string>
+	<!---->
+	<string name="manage_accounts_menu_item">"Hantera konton"</string>
+	<!---->
+	<string name="general_preferences_title">"Allmänna inställn."</string>
+	<!---->
+	<string name="activity_preferences">"Inställningar"</string>
+	<!---->
+	<string name="always_bcc_myself">"Skicka alltid kopia till mig"</string>
+	<!---->
+	<string name="always_bcc_myself_summary">"Skicka alltid kopia till mig själv när jag skriver nytt, svarar och vidarebefordrar"</string>
+	<!---->
+	<string name="general_preference_auto_download_remaining_label">"Automatisk hämtning återstår"</string>
+	<!---->
+	<string name="general_preference_auto_download_remaining_summary">"Hämta automatiskt resterande brödtext vid bläddring"</string>
+	<!---->
+	<string name="download_remaining">"Hämtning återstår"</string>
+	<!---->
+	<string name="downloading_remaining">"Laddar..."</string>
+	<!---->
+	<string name="unable_to_connect">"Kan inte ansluta"</string>
+	<!---->
+	<string name="need_connection_prompt">"Du behöver en nätverksanslutning för att använda den här applikationen. Aktivera mobilnätverk eller Wi-Fi i Inställningar."</string>
+	<!---->
+	<string name="connection_settings">"Inställningar"</string>
+	<!---->
+	<string name="priority_action">"Prioritet"</string>
+	<!---->
+	<string name="set_priority_dialog_title">"Välj prioritet"</string>
+	<!---->
+	<string name="dialog_warning">"Varning\u2026"</string>
+	<!---->
+	<string name="dialog_warning_message">"Denna version av Exchange-appen är inte samma som i E-post. Fortsätt?"</string>
+	<!---->
+	<string name="toast_warning_text">"Denna version av Exchange-appen är inte samma som i E-post"</string>
+	<!---->
+	<string name="tips_sync_alter_title">"Synkronisering"</string>
+	<!---->
+	<string name="tips_sync_alter_content">"Du har ingen Wi-Fi-anslutning, vill du fortsätta synkroniseringen?"</string>
+	<!---->
+	<string name="tips_sync_alter_yes">"Ja"</string>
+	<!---->
+	<string name="tips_sync_alter_no">"Nej"</string>
+	<!---->
+	<string name="message_invite_tentative_title">"Provisorisk"</string>
+	<!---->
+	<string name="message_invite_decline_title">"Avvisa"</string>
+	<!---->
+	<string name="message_invite_accent_title">"Godkänn"</string>
+	<!---->
+	<string name="drm_file_remind">"Den här filen kan inte överföras eller delas eftersom filen är DRM-skyddad!"</string>
+	<!---->
+	<string name="not_add_more_recipients">"Det går inte att lägga till mottagare över <xliff:g id="maxLimit">%1$d</xliff:g> på en gång."</string>
+	<!---->
+	<string name="global_search_label">"E-post"</string>
+	<!---->
+	<string name="global_search_hint">"Sök e-post"</string>
+	<!---->
+	<string name="global_search_description">"Avsändare, ämnen och brödtext"</string>
+	<!---->
+	<string name="remote_search_failed">"Serversökning misslyckades!"</string>
+	<!---->
+	<string name="searching_on_server">"Sök på server"</string>
+	<!---->
+	<string name="searching_on_server_title">"Sök \"<xliff:g id="account_name">%s</xliff:g>\" på server"</string>
+	<!---->
+	<string name="searching_all_fields_on_sever">"Sök alla fält på server"</string>
+	<!---->
+	<string name="search_field_subject">"Ämne"</string>
+	<!---->
+	<string name="search_field_receiver">"Mottagare"</string>
+	<!---->
+	<string name="search_field_sender">"Avsändare"</string>
+	<!---->
+	<string name="search_field_body">"Brödtext"</string>
+	<!---->
+	<string name="search_field_all">"Alla"</string>
+	<!---->
+	<string name="search_field_attachment">"Bilagor"</string>
+	<!---->
+	<string name="select_all">"Välj alla"</string>
+	<!---->
+	<string name="deselect_all">"Avmarkera alla"</string>
+	<!---->
+	<string name="need_wifi_connection_prompt">"Du behöver en nätverksanslutning för att använda den här applikationen. Aktivera mobilnätverk eller Wi-Fi i Inställningar."</string>
+	<!---->
+	<string name="account_setup_names_account_name_des_label">"valfritt"</string>
+	<!---->
+	<string name="account_setup_names_user_name_des_label">"visas för utgående meddelanden"</string>
+	<!---->
+	<string name="finish_action">"Slutför"</string>
+	<!---->
+	<string name="copy_email">"Kopiera e-postadress"</string>
+	<!---->
+	<string name="out_of_office_syncing">"Synkronisering av frånvaroinställningar"</string>
+	<!---->
+	<string name="out_of_office_fail">"Synkronisering av frånvaroinställningar misslyckades!"</string>
+	<!---->
+	<string name="out_of_office_success">"Synkronisering av frånvaroinställningar klara!"</string>
+	<!---->
+	<string name="manual_sync_when_roaming">"Synkronisera vid roaming"</string>
+	<!---->
+	<string name="manual_sync_when_roaming_summery">"Uppdatera enbart manuellt"</string>
+	<!---->
+	<string name="manual_sync_when_roaming_toast">"Dra ned för att uppdatera manuellt vid roaming"</string>
+	<!---->
+	<string name="manual_sync_when_roaming_refresh">"Uppdatera"</string>
+	<!---->
+	<string name="server_rule_can_not_change">"Serverregler kan inte ändras"</string>
+	<!---->
+	<string name="server_rules">"Serverregler"</string>
+	<!---->
+	<string name="confirm_forward_message">"Alla filer har inte hämtats. Vidarebefordra innan filerna är hämtade?"</string>
+	<!---->
+	<string name="confirm_forward_cancel">"Återgå"</string>
+	<!---->
+	<string name="confirm_forward_drop_unload_attachment">"Vidarebefordra"</string>
+	<!---->
+	<string name="mail_not_download_completely">"Vänta tills hämtning är klar"</string>
+	<!---->
+	<string name="account_settings_inline_images_lable">"Bilder"</string>
+	<!---->
+	<string name="account_settings_inline_always_show">"Visa alltid"</string>
+	<!---->
+	<string name="account_settings_inline_ask_before_show">"Fråga innan visning"</string>
+	<!---->
+	<string name="conversation_time_after_today">"Efter idag"</string>
+	<!---->
+	<string name="conversation_time_today">"Idag"</string>
+	<!---->
+	<string name="conversation_time_yesterday">"igår"</string>
+	<!---->
+	<string name="conversation_time_this_month">"Denna månad"</string>
+	<!---->
+	<string name="conversation_time_elapse_just_now">"Precis nu"</string>
+	<!---->
+	<string name="conversation_time_elapse_minute">"<xliff:g id="COUNT">%d</xliff:g> minuter"</string>
+	<!---->
+	<string name="message_in_queued_status">"Köad"</string>
+	<plurals name="send_failed_messages">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> epost skickades inte"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> epost skickades inte"</item>
+	</plurals>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_label">"Synkronisera kalendrer från"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_2weeks">"Två veckor"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_1month">"En månad"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_3months">"Tre månader"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_6months">"Sex månader"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_all">"Alla"</string>
+	<!---->
+	<string name="no_permission_to_open_file">"Spartillåtelse krävs för att öppna den här filen"</string>
+	<!---->
+	<string name="conversation_update_time_text">"Senast uppdaterad"</string>
+	<!---->
+	<string name="conversation_update_unknown_time_stamp">"Okänd"</string>
+	<!---->
+	<string name="conversation_time_elapse_today">"Idag"</string>
+	<!---->
+	<string name="save_to_attachment">"Spara till"</string>
+	<!---->
+	<string name="download_settings_title">"Kopia bifogad till SD-kort"</string>
+	<!---->
+	<string name="download_edit_filename_label">"Namn"</string>
+	<!---->
+	<string name="download_filepath_label">"Sökväg"</string>
+	<!---->
+	<string name="download_file_size">"Vänta…"</string>
+	<!---->
+	<string name="download_time_needed">"Tid"</string>
+	<!---->
+	<string name="download_cancel">"Avbryt"</string>
+	<!---->
+	<string name="download_start">"OK"</string>
+	<!---->
+	<string name="unknown_length">"Okänd"</string>
+	<!---->
+	<string name="time_min">"minut"</string>
+	<!---->
+	<string name="open_file_manager_failed">"Det gick inte att öppna Filhanteraren"</string>
+	<!---->
+	<string name="attachment_not_saved">"Bilaga ej sparad"</string>
+	<!---->
+	<string name="sync_calendar_title">"Det gick inte att synka Kalender"</string>
+	<!---->
+	<string name="sync_calendar_content">"För att synka måste du ge Exchange-tjänsterna tillgång till Kalender"</string>
+	<!---->
+	<string name="sync_contacts_title">"Det gick inte att synka Kontakter"</string>
+	<!---->
+	<string name="sync_contacts_content">"För att synka måste du ge Exchange-tjänsterna tillgång till Kontakter"</string>
+	<!---->
+	<string name="notification_never_ask_again">"Fråga inte igen"</string>
+	<!---->
+	<string name="sync_storage_title">"Det gick inte att spara bilaga"</string>
+	<!---->
+	<string name="sync_storage_content">"För att spara tillåter du Exchange-tjänster att få åtkomst till lagring"</string>
+	<!---->
+	<string name="oof_continue">"Fortsätt"</string>
+	<!---->
+	<string name="permission_needed_to_add_attachments">"För att lägga till en bilaga, ge E-post behörighet att komma åt lagring"</string>
+	<!---->
+	<string name="permission_needed_to_check_ringtone">"För att kolla ringsignalen, ge E-post behörighet att komma åt lagring"</string>
+	<!---->
+	<string name="add_folder_as_attachment_fail_tips">"Det går inte att bifoga en mapp"</string>
+	<!---->
+	<string name="choose_action_title">"Välj åtgärd"</string>
+	<!---->
+	<string name="choose_action_contact">"Lägg till kontakt <xliff:g example="4" id="email_address">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="choose_action_email">"E-post: <xliff:g example="4" id="email_address">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="choose_action_message">"Meddelande: <xliff:g example="4" id="email_address">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="account_setup_basics_exit_action">"Stäng"</string>
+</resources>

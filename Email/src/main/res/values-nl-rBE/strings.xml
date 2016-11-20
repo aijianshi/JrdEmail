@@ -1,0 +1,1747 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Tue Sep 20 16:24:06 CST 2016
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="permission_read_attachment_label">"E-mailbijlagen lezen"</string>
+	<!---->
+	<string name="permission_read_attachment_desc">"Hiermee kan de app uw e-mailbijlagen lezen."</string>
+	<!---->
+	<string name="permission_access_provider_label">"Gegevens e-mailprovider openen"</string>
+	<!---->
+	<string name="permission_access_provider_desc">"Hiermee geeft u de app toegang tot uw e-maildatabase, inclusief ontvangen berichten, verzonden berichten, gebruikersnamen en wachtwoorden."</string>
+	<!---->
+	<string name="debug_title">"Foutopsporing"</string>
+	<!---->
+	<string name="next_action">"Volgende"</string>
+	<!---->
+	<string name="okay_action">"OK"</string>
+	<!---->
+	<string name="cancel_action">"Annuleren"</string>
+	<!---->
+	<string name="previous_action">"Vorige"</string>
+	<!---->
+	<string name="done_action">"Gereed"</string>
+	<!---->
+	<string name="create_action">"Nieuwe maken"</string>
+	<!---->
+	<string name="quick_responses_empty_view">"Geen snelle reacties."</string>
+	<!---->
+	<string name="account_settings_action">"Accountinstellingen"</string>
+	<!---->
+	<string name="status_network_error">"Verbindingsprobleem."</string>
+	<plurals name="move_messages">
+		<item quantity="one">"Bericht verplaatsen"</item>
+		<item quantity="other">"Berichten verplaatsen"</item>
+	</plurals>
+	<!---->
+	<string name="cannot_move_protocol_not_supported_toast">"Verplaatsen wordt niet ondersteund in POP3-accounts."</string>
+	<!---->
+	<string name="cannot_move_multiple_accounts_toast">"Verplaatsen is niet mogelijk. Selectie bevat meerdere accounts."</string>
+	<!---->
+	<string name="cannot_move_special_mailboxes_toast">"Berichten in Concepten, Postvak UIT en Verzonden kunnen niet worden verplaatst."</string>
+	<!---->
+	<string name="mailbox_name_display_inbox">"Postvak IN"</string>
+	<!---->
+	<string name="mailbox_name_display_outbox">"Postvak UIT"</string>
+	<!---->
+	<string name="mailbox_name_display_drafts">"Concepten"</string>
+	<!---->
+	<string name="mailbox_name_display_trash">"Prullenbak"</string>
+	<!---->
+	<string name="mailbox_name_display_sent">"Verzonden"</string>
+	<!---->
+	<string name="mailbox_name_display_junk">"Ongewenst"</string>
+	<!---->
+	<string name="mailbox_name_display_starred">"Met ster"</string>
+	<!---->
+	<string name="mailbox_name_display_unread">"Ongel."</string>
+	<!---->
+	<string name="account_folder_list_summary_inbox">"Postvak IN"</string>
+	<!---->
+	<string name="account_folder_list_summary_starred">"Met ster"</string>
+	<!---->
+	<string name="account_folder_list_summary_drafts">"Concepten"</string>
+	<!---->
+	<string name="account_folder_list_summary_outbox">"Postvak UIT"</string>
+	<!---->
+	<string name="mailbox_list_account_selector_combined_view">"Gecombineerde weergave"</string>
+	<!---->
+	<string name="message_compose_fwd_header_fmt">"\n\n"-------- Oorspronkelijk bericht --------"\n"Onderwerp: <xliff:g id="SUBJECT">%1$s</xliff:g>"\n"Van: <xliff:g id="SENDER">%2$s</xliff:g>"\n"Aan: <xliff:g id="TO">%3$s</xliff:g>"\n"Cc: <xliff:g id="CC_0">%4$s</xliff:g>"\n\n"</string>
+	<!---->
+	<string name="message_compose_insert_quick_response_list_title">"Snelle reactie invoegen"</string>
+	<!---->
+	<string name="message_compose_insert_quick_response_menu_title">"Snelle reactie invoegen"</string>
+	<!---->
+	<string name="message_view_attachment_background_load">"Een of meer bijlagen in uw doorgestuurde bericht worden gedownload voordat het bericht wordt verzonden."</string>
+	<!---->
+	<string name="attachment_not_found">"Kan de bijlage niet downloaden."</string>
+	<!---->
+	<string name="message_decode_error">"Er is een fout opgetreden tijdens het decoderen van het bericht."</string>
+	<!---->
+	<string name="forward_download_failed_ticker">"Kan een of meer bijlagen niet doorsturen."</string>
+	<!---->
+	<string name="forward_download_failed_title">"Bijlage niet doorgestuurd"</string>
+	<!---->
+	<string name="login_failed_ticker">"Aanmelden bij <xliff:g id="account_name">%s</xliff:g> mislukt."</string>
+	<!---->
+	<string name="login_failed_title">"Kan niet aanmelden"</string>
+	<plurals name="message_view_attachment_bytes">
+		<item quantity="one">"<xliff:g id="SIZE_IN_BYTES">%d</xliff:g> B"</item>
+		<item quantity="other">"<xliff:g id="SIZE_IN_BYTES">%d</xliff:g> B"</item>
+	</plurals>
+	<plurals name="message_view_attachment_kilobytes">
+		<item quantity="one">"<xliff:g id="SIZE_IN_KILOBYTES">%d</xliff:g> kB"</item>
+		<item quantity="other">"<xliff:g id="SIZE_IN_KILOBYTES">%d</xliff:g> kB"</item>
+	</plurals>
+	<plurals name="message_view_attachment_megabytes">
+		<item quantity="one">"<xliff:g id="SIZE_IN_MEGABYTES">%d</xliff:g> MB"</item>
+		<item quantity="other">"<xliff:g id="SIZE_IN_MEGABYTES">%d</xliff:g> MB"</item>
+	</plurals>
+	<plurals name="message_view_attachment_gigabytes">
+		<item quantity="one">"<xliff:g id="SIZE_IN_GIGABYTES">%d</xliff:g> GB"</item>
+		<item quantity="other">"<xliff:g id="SIZE_IN_GIGABYTES">%d</xliff:g> GB"</item>
+	</plurals>
+	<!---->
+	<string name="account_setup_basics_title">"Accountinstellingen"</string>
+	<!---->
+	<string name="oauth_authentication_title">"Autorisatie aanvragen"</string>
+	<!---->
+	<string name="sign_in_title">"Aanmelden"</string>
+	<!---->
+	<string name="oauth_error_description">"Kan niet verifiëren"</string>
+	<!---->
+	<string name="password_warning_label">"E-mailadres of wachtwoord is onjuist"</string>
+	<!---->
+	<string name="email_confirmation_label">"E-mailadres"</string>
+	<!---->
+	<string name="account_setup_basics_headline">"E-mailaccount"</string>
+	<!---->
+	<string name="accounts_welcome">"U kunt uw account in slechts enkele stappen instellen."</string>
+	<!---->
+	<string name="account_setup_basics_email_label">"E-mailadres"</string>
+	<!---->
+	<string name="account_setup_basics_email_flying_label">"E-mail"</string>
+	<!---->
+	<string name="or_label">"OF"</string>
+	<!---->
+	<string name="sign_in_with_google">"Aanmelden met Google"</string>
+	<!---->
+	<string name="account_setup_basics_password_label">"Wachtwoord"</string>
+	<!---->
+	<string name="password_hint">"Wachtwoord"</string>
+	<!---->
+	<string name="signed_in_with_service_label">"Aangemeld met %s"</string>
+	<!---->
+	<string name="authentication_label">"VERIFICATIE"</string>
+	<!---->
+	<string name="add_authentication_label">"Verificatie toevoegen"</string>
+	<!---->
+	<string name="clear_authentication_label">"Verificatie wissen"</string>
+	<!---->
+	<string name="account_setup_basics_manual_setup_action">"Handm. instellen"</string>
+	<!---->
+	<string name="account_setup_username_password_toast">"Typ een geldig e-mailadres en wachtwoord."</string>
+	<!---->
+	<string name="account_duplicate_dlg_title">"Kopie van account maken"</string>
+	<!---->
+	<string name="account_duplicate_dlg_message_fmt">"U gebruikt deze gebruikersnaam al voor het account \"<xliff:g id="duplicate">%s</xliff:g>\"."</string>
+	<!---->
+	<string name="account_password_spaces_error">"Dit wachtwoord begint of eindigt met een of meer spaties. Veel servers bieden geen ondersteuning voor wachtwoorden met spaties."</string>
+	<!---->
+	<string name="account_setup_check_settings_retr_info_msg">"Accountinformatie ophalen..."</string>
+	<!---->
+	<string name="account_setup_check_settings_check_incoming_msg">"Serverinstellingen valideren..."</string>
+	<!---->
+	<string name="account_setup_check_settings_check_outgoing_msg">"SMTP-instellingen valideren..."</string>
+	<!---->
+	<string name="account_setup_creating_account_msg">"Account maken..."</string>
+	<!---->
+	<string name="account_setup_ab_headline">"Accounttype bevestigen"</string>
+	<!---->
+	<string name="account_setup_ab_instructions_format">"U hebt aangegeven dat <xliff:g id="email">%1$s</xliff:g> <xliff:g id="userProtocol">%2$s</xliff:g> gebruikt, maar het account gebruikt mogelijk <xliff:g id="providerProtocol">%3$s</xliff:g>"</string>
+	<!---->
+	<string name="account_setup_names_title">"Accountinstellingen"</string>
+	<!---->
+	<string name="account_setup_names_headline">"Uw account is ingesteld en de e-mail is onderweg."</string>
+	<!---->
+	<string name="account_setup_names_account_name_label">"Geef dit account een naam"</string>
+	<!---->
+	<string name="account_setup_names_user_name_label">"Uw naam"</string>
+	<!---->
+	<string name="account_setup_names_user_name_empty_error">"Dit veld mag niet leeg zijn."</string>
+	<!---->
+	<string name="account_setup_account_type_title">"Accountinstellingen"</string>
+	<!---->
+	<string name="account_setup_account_type_headline">"Accounttype"</string>
+	<!---->
+	<string name="account_setup_account_type_instructions">"Welk type account is dit?"</string>
+	<!---->
+	<string name="account_setup_incoming_title">"Accountinstellingen"</string>
+	<!---->
+	<string name="account_setup_incoming_headline">"Inst. voor inkomende server"</string>
+	<!---->
+	<string name="account_setup_incoming_username_label">"Gebruikersnaam"</string>
+	<!---->
+	<string name="account_setup_incoming_password_label">"Wachtwoord"</string>
+	<!---->
+	<string name="account_setup_password_subheading">"Wachtwoord"</string>
+	<!---->
+	<string name="account_setup_incoming_server_label">"Server"</string>
+	<!---->
+	<string name="account_setup_incoming_port_label">"Poort"</string>
+	<!---->
+	<string name="account_setup_incoming_security_label">"Beveiligingstype"</string>
+	<!---->
+	<string name="account_setup_incoming_domain_label">"Domein"</string>
+	<!---->
+	<string name="account_setup_incoming_add_domain_label">"Domein toevoegen"</string>
+	<!---->
+	<string name="account_setup_incoming_security_none_label">"Geen"</string>
+	<!---->
+	<string name="account_setup_incoming_security_ssl_trust_certificates_label">"SSL/TLS (alle certificaten accept.)"</string>
+	<!---->
+	<string name="account_setup_incoming_security_ssl_label">"SSL/TLS"</string>
+	<!---->
+	<string name="account_setup_incoming_security_tls_trust_certificates_label">"STARTTLS (alle certificaten accept.)"</string>
+	<!---->
+	<string name="account_setup_incoming_security_tls_label">"STARTTLS"</string>
+	<!---->
+	<string name="account_setup_incoming_delete_policy_label">"E-mail verw. van server"</string>
+	<!---->
+	<string name="account_setup_incoming_delete_policy_never_label">"Nooit"</string>
+	<!---->
+	<string name="account_setup_incoming_delete_policy_delete_label">"Bij verw. uit Postvak IN"</string>
+	<!---->
+	<string name="account_setup_incoming_imap_path_prefix_label">"Voorvoeg IMAP-pad"</string>
+	<!---->
+	<string name="account_setup_incoming_imap_path_prefix_hint">"Optioneel"</string>
+	<!---->
+	<string name="account_setup_outgoing_title">"Accountinstellingen"</string>
+	<!---->
+	<string name="account_setup_outgoing_headline">"Instell. voor uitgaande server"</string>
+	<!---->
+	<string name="account_setup_outgoing_smtp_server_label">"SMTP-server"</string>
+	<!---->
+	<string name="account_setup_outgoing_port_label">"Poort"</string>
+	<!---->
+	<string name="account_setup_outgoing_security_label">"Beveiligingstype"</string>
+	<!---->
+	<string name="account_setup_outgoing_require_login_label">"Aanmelding vereisen"</string>
+	<!---->
+	<string name="account_setup_outgoing_username_label">"Gebruikersnaam"</string>
+	<!---->
+	<string name="account_setup_outgoing_password_label">"Wachtwoord"</string>
+	<!---->
+	<string name="account_setup_exchange_certificate_title">"Clientcertificaat"</string>
+	<!---->
+	<string name="account_setup_exchange_select_certificate">"Selecteren"</string>
+	<!---->
+	<string name="account_setup_exchange_use_certificate">"Clientcertificaat gebruiken"</string>
+	<!---->
+	<string name="account_setup_exchange_remove_certificate">"Verwijderen"</string>
+	<!---->
+	<string name="account_setup_exchange_no_certificate">"Geen"</string>
+	<!---->
+	<string name="account_setup_exchange_device_id_label">"Mobiele apparaat-ID"</string>
+	<!---->
+	<string name="account_setup_options_title">"Accountinstellingen"</string>
+	<!---->
+	<string name="account_setup_options_headline">"Accountopties"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_label">"Synchronisatiefrequentie"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_never">"Nooit"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_push">"Automatisch (push)"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_5min">"Elke 5 minuten"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_10min">"Elke 10 minuten"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_15min">"Elke 15 minuten"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_30min">"Elke 30 minuten"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_1hour">"Elk uur"</string>
+	<!---->
+	<string name="account_setup_options_notify_label">"Geef melding wanneer er e-mail binnenkomt"</string>
+	<!---->
+	<string name="account_setup_options_sync_contacts_label">"Contacten van dit account synchroniseren."</string>
+	<!---->
+	<string name="account_setup_options_sync_calendar_label">"Agenda van dit account synchroniseren."</string>
+	<!---->
+	<string name="account_setup_options_sync_email_label">"E-mail voor dit account synchroniseren."</string>
+	<!---->
+	<string name="account_setup_options_background_attachments_label">"Bijlagen automatisch downloaden indien verbonden met Wi-Fi"</string>
+	<!---->
+	<string name="account_setup_failed_dlg_title">"Kan niet voltooien"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_label">"E-mails synchroniseren van"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_auto">"Automatisch"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1day">"Laatste dag"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_3days">"Laatste drie dagen"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1week">"Laatste week"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_2weeks">"Laatste twee weken"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1month">"Vorige maand"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_all">"Alles"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_default">"Accountstandaard gebruiken"</string>
+	<!---->
+	<string name="account_setup_failed_dlg_auth_message">"Gebruikersnaam of wachtwoord is onjuist."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_auth_message_fmt">"Aanmelden mislukt.\n(<xliff:g id="error">%s</xliff:g>)"</string>
+	<!---->
+	<string name="account_setup_autodiscover_dlg_authfail_title">"Probleem bij het instellen van account"</string>
+	<!---->
+	<string name="account_setup_autodiscover_dlg_authfail_message">"Bevestig dat gebruikersnaam, wachtwoord en accountinstellingen correct zijn."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_certificate_message">"Kan geen verbinding maken met de server wegens een niet-vertrouwd of ongeldig certificaat."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_certificate_message_fmt">"Kan geen veilige verbinding met de server tot stand brengen.\n(<xliff:g id="ERROR">%s</xliff:g>)"</string>
+	<!---->
+	<string name="account_setup_failed_certificate_required">"Er is een client-certificaat vereist. Wilt u verbinding maken met de server met een clientcertificaat?"</string>
+	<!---->
+	<string name="account_setup_failed_certificate_inaccessible">"Het certificaat is ongeldig of niet toegankelijk."</string>
+	<!---->
+	<string name="account_setup_failed_check_credentials_message">"De server heeft gereageerd met een fout. Controleer uw gebruikersnaam en wachtwoord en probeer het opnieuw."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_server_message">"Kan geen verbinding maken met de server."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_server_message_fmt">"Kan geen verbinding maken met de server.\n(<xliff:g id="ERROR">%s</xliff:g>)"</string>
+	<!---->
+	<string name="account_setup_failed_tls_required">"TLS is vereist maar wordt niet ondersteund door de server."</string>
+	<!---->
+	<string name="account_setup_failed_auth_required">"Verificatiemethoden worden niet ondersteund door de server."</string>
+	<!---->
+	<string name="account_setup_failed_security">"Kan geen verbinding maken met de server wegens een beveiligingsfout."</string>
+	<!---->
+	<string name="account_setup_failed_ioerror">"Kan geen verbinding met de server maken."</string>
+	<!---->
+	<string name="account_setup_failed_protocol_unsupported">"U heeft een onjuist serveradres getypt of de server vereist een protocolversie die niet door E-mail wordt ondersteund."</string>
+	<!---->
+	<string name="account_setup_failed_access_denied">"U heeft geen toestemming met deze server te synchroniseren. Neem voor meer informatie contact op met de beheerder van uw server."</string>
+	<!---->
+	<string name="account_setup_security_required_title">"Extern beveiligingsbeheer"</string>
+	<!---->
+	<string name="account_setup_security_policies_required_fmt">"De server <xliff:g id="SERVER">%s</xliff:g> vereist dat u de server toestemming geeft bepaalde beveiligingsfuncties van uw Android-apparaat extern te bedienen. Wilt u het instellen van dit account voltooien?"</string>
+	<!---->
+	<string name="account_setup_failed_security_policies_unsupported">"Voor deze server zijn beveiligingsfuncties nodig die uw Android-apparaat niet ondersteunt, waaronder: <xliff:g id="ERROR">%s</xliff:g>"</string>
+	<!---->
+	<string name="account_setup_username_uneditable_error">"U kunt de gebruikersnaam van een account niet wijzigen. Als u een account met een andere gebruikersnaam wilt toevoegen, raakt u \'Account toevoegen\' aan."</string>
+	<!---->
+	<string name="disable_admin_warning">"WAARSCHUWING: als u de autoriteit van de toepassing E-mail voor het beheren van uw apparaat uitschakelt, worden alle e-mailaccounts die deze autoriteit vereisen, verwijderd, evenals alle bijbehorende e-mail, contacten, agendagebeurtenissen en andere gegevens."</string>
+	<!---->
+	<string name="account_security_dialog_title">"Beveiligingsupdate"</string>
+	<!---->
+	<string name="account_security_dialog_content_fmt">"Voor <xliff:g id="ACCOUNT">%s</xliff:g> moet u uw beveiligingsinstellingen bijwerken."</string>
+	<!---->
+	<string name="security_unsupported_ticker_fmt">"Account \"<xliff:g id="account">%s</xliff:g>\" kan niet worden gesynchroniseerd wegens beveiligingsvereisten."</string>
+	<!---->
+	<string name="security_needed_ticker_fmt">"Account \"<xliff:g id="account">%s</xliff:g>\" vereist een update van de beveiligingsinstellingen."</string>
+	<!---->
+	<string name="security_changed_ticker_fmt">"De beveiligingsinstellingen van account \"<xliff:g id="account">%s</xliff:g>\" zijn gewijzigd. Er is geen actie van de gebruiker vereist."</string>
+	<!---->
+	<string name="security_notification_content_update_title">"Beveiligingsupdate vereist"</string>
+	<!---->
+	<string name="security_notification_content_change_title">"Beveiligingsbeleidsregels zijn gewijzigd"</string>
+	<!---->
+	<string name="security_notification_content_unsupported_title">"Er kan niet worden voldaan aan de beveiligingsbeleidsregels"</string>
+	<!---->
+	<string name="account_security_title">"Apparaatbeveiliging"</string>
+	<!---->
+	<string name="account_security_policy_explanation_fmt">"De server <xliff:g id="SERVER">%s</xliff:g> vereist dat u de server toestemming geeft bepaalde beveiligingsfuncties van uw Android-apparaat extern te bedienen."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_edit_details_action">"Details bewerken"</string>
+	<!---->
+	<string name="password_expire_warning_ticker_fmt">"Voor \'<xliff:g id="account">%s</xliff:g>\' moet u uw PIN-code of wachtwoord voor schermvergrendeling wijzigen."</string>
+	<!---->
+	<string name="password_expire_warning_content_title">"Wachtw. schermvergr. bijna verlopen"</string>
+	<!---->
+	<string name="password_expired_ticker">"Uw PIN-code of wachtwoord voor schermvergrendeling is verlopen."</string>
+	<!---->
+	<string name="password_expired_content_title">"Wachtw. schermvergr. verlopen"</string>
+	<!---->
+	<string name="password_expire_warning_dialog_title">"Wachtw. schermvergr. bijna verlopen"</string>
+	<!---->
+	<string name="password_expire_warning_dialog_content_fmt">"U moet uw PIN-code of wachtwoord voor het vergrendelingsscherm binnenkort wijzigen, anders worden de gegevens voor <xliff:g id="account">%s</xliff:g> gewist. Wilt u dit nu wijzigen?"</string>
+	<!---->
+	<string name="password_expired_dialog_title">"Wachtw. schermvergr. verlopen"</string>
+	<!---->
+	<string name="password_expired_dialog_content_fmt">"De gegevens voor <xliff:g id="account">%s</xliff:g> worden gewist op uw apparaat. U kunt dit herstellen door de PIN-code of het wachtwoord voor het vergrendelingsscherm te wijzigen. Wilt u dit nu wijzigen?"</string>
+	<!---->
+	<string name="account_settings_exit_server_settings">"Niet-opgeslagen wijzigingen annuleren?"</string>
+	<!---->
+	<string name="account_settings_login_dialog_title">"Kan niet aanmelden"</string>
+	<!---->
+	<string name="account_settings_login_dialog_content_fmt">"De gebruikersnaam of het wachtwoord voor <xliff:g id="ACCOUNT">%s</xliff:g> is onjuist. Nu bijwerken?"</string>
+	<!---->
+	<string name="account_settings_login_dialog_reason_fmt">"Het aanmelden bij <xliff:g id="account">%s</xliff:g> is mislukt. Er wordt gemeld door de server dat: <xliff:g id="reason">%s</xliff:g> Wilt u uw gebruikersnaam en/of wachtwoord bijwerken?"</string>
+	<!---->
+	<string name="account_settings_background_attachments_label">"Bijlagen downloaden"</string>
+	<!---->
+	<string name="account_settings_background_attachments_summary">"Bijlagen van recente berichten automatisch downloaden via Wi-Fi"</string>
+	<!---->
+	<string name="account_settings_notify_label">"Meldingen van e-mail"</string>
+	<!---->
+	<string name="account_settings_summary">"Synchronisatiefrequentie, meldingen, enzovoort"</string>
+	<!---->
+	<string name="account_settings_notify_summary">"Melding verzenden wanneer e-mail binnenkomt"</string>
+	<!---->
+	<string name="account_settings_mail_check_frequency_label">"Synchronisatiefrequentie"</string>
+	<!---->
+	<string name="account_settings_incoming_label">"Instellingen inkomende e-mail"</string>
+	<!---->
+	<string name="account_settings_incoming_summary">"Gebruikersnaam, wachtwoord en andere inst. voor inkomende server"</string>
+	<!---->
+	<string name="account_settings_outgoing_label">"Instellingen uitgaande e-mail"</string>
+	<!---->
+	<string name="account_settings_outgoing_summary">"Gebruikersnaam, wachtwoord en andere inst. voor uitgaande server"</string>
+	<!---->
+	<string name="account_settings_reply_to_category">"Instellingen voor beantwoorden"</string>
+	<!---->
+	<string name="account_settings_reply_to_label">"Antwoorden op"</string>
+	<!---->
+	<string name="account_settings_reply_to_invalid">"Het adres is ongeldig."</string>
+	<!---->
+	<string name="account_settings_enforced_label">"Afgedwongen beleidsregels"</string>
+	<!---->
+	<string name="account_settings_enforced_summary">"Geen"</string>
+	<!---->
+	<string name="account_settings_unsupported_label">"Niet-ondersteunde beleidsregels"</string>
+	<!---->
+	<string name="account_settings_unsupported_summary">"Geen"</string>
+	<!---->
+	<string name="account_settings_retry_label">"Poging tot synchroniseren"</string>
+	<!---->
+	<string name="account_settings_retry_summary">"Raak hier aan om dit account te synchroniseren"</string>
+	<!---->
+	<string name="account_settings_description_label">"Accountnaam"</string>
+	<!---->
+	<string name="account_settings_name_label">"Uw naam"</string>
+	<!---->
+	<string name="account_settings_edit_quick_responses_label">"Snelle reacties"</string>
+	<!---->
+	<string name="account_settings_edit_quick_responses_summary">"Tekst bewerken die u vaak invoegt wanneer u e-mails opstelt"</string>
+	<!---->
+	<string name="account_settings_notifications">"Instellingen voor meldingen"</string>
+	<!---->
+	<string name="account_settings_data_usage">"Data-gebruik"</string>
+	<!---->
+	<string name="account_settings_policies">"Beveiligingsbeleidsregels"</string>
+	<!---->
+	<string name="system_folders_title">"Systeemmappen"</string>
+	<!---->
+	<string name="system_folders_trash_title">"Prullenbakmap"</string>
+	<!---->
+	<string name="system_folders_trash_summary">"Selecteer de prullenbakmap van uw server"</string>
+	<!---->
+	<string name="system_folders_trash_dlg">"Selecteer de prullenbakmap van uw server"</string>
+	<!---->
+	<string name="system_folders_sent_title">"Map met verzonden bestanden"</string>
+	<!---->
+	<string name="system_folders_sent_summary">"Selecteer de map met verzonden items van uw server"</string>
+	<!---->
+	<string name="system_folders_sent_dlg">"Selecteer de map met verzonden items van uw server"</string>
+	<!---->
+	<string name="edit_quick_response_dialog">"Snelle reactie"</string>
+	<!---->
+	<string name="save_action">"Opslaan"</string>
+	<!---->
+	<string name="account_settings_sync_contacts_enable">"Contacten synchroniseren"</string>
+	<!---->
+	<string name="account_settings_sync_contacts_summary">"Contacten synchroniseren voor dit account"</string>
+	<!---->
+	<string name="account_settings_sync_calendar_enable">"Agenda synchroniseren"</string>
+	<!---->
+	<string name="account_settings_sync_calendar_summary">"Agenda-afspraak synchroniseren voor dit account"</string>
+	<!---->
+	<string name="account_settings_sync_email_enable">"E-mail synchroniseren"</string>
+	<!---->
+	<string name="account_settings_sync_email_summary">"E-mail voor dit account synchroniseren"</string>
+	<!---->
+	<string name="account_settings_vibrate_when_label">"Trillen"</string>
+	<!---->
+	<string name="account_settings_ringtone">"Beltoon selecteren"</string>
+	<!---->
+	<string name="account_settings_servers">"Serverinstellingen"</string>
+	<!---->
+	<string name="default_ringtone">"Standaard beltoon"</string>
+	<!---->
+	<string name="default_ringtone_unkonwn">"Onbekende beltoon"</string>
+	<!---->
+	<string name="mailbox_settings_activity_title">"Synchronisatieopties"</string>
+	<!---->
+	<string name="mailbox_settings_activity_title_with_mailbox">"Synchronisatieopties (<xliff:g id="MAILBOXX_NAME">%s</xliff:g>)"</string>
+	<!---->
+	<string name="mailbox_settings_sync_enabled_label">"Deze map synchroniseren"</string>
+	<!---->
+	<string name="mailbox_settings_sync_enabled_summary">"Berichten worden gedownload wanneer verbonden."</string>
+	<!---->
+	<string name="mailbox_settings_mailbox_sync_window_label">"Aantal dagen dat e-mail moet worden gesynchroniseerd"</string>
+	<!---->
+	<string name="prefDialogTitle_conversationListIcon">"Afbeelding van afzender"</string>
+	<!---->
+	<string name="provider_note_live">"Alleen sommige Plus-accounts hebben POP-toegang waarmee dit programma verbinding kan maken. Als u niet kunt inloggen met het juiste e-mailadres en wachtwoord, heeft u mogelijk niet betaald voor uw Plus-account. Start de webbrowser voor toegang tot deze e-mailaccounts."</string>
+	<!---->
+	<string name="provider_note_t_online">"Voordat u dit e-mailaccount instelt, gaat u naar de website van T-Online en maakt u een wachtwoord voor toegang tot e-mail via POP3."</string>
+	<!---->
+	<string name="exchange_name">"Zakelijk"</string>
+	<!---->
+	<string name="exchange_name_alternate">"Microsoft Exchange ActiveSync"</string>
+	<!---->
+	<string name="system_account_create_failed">"Kan het account niet maken. Probeer het opnieuw."</string>
+	<!---->
+	<string name="device_admin_label">"E-mail"</string>
+	<!---->
+	<string name="device_admin_description">"Door de server aangegeven beveiligingsbeleid inschakelen"</string>
+	<!---->
+	<string name="settings_activity_title">"Instellingen"</string>
+	<!---->
+	<string name="header_label_general_preferences">"Algemene inst."</string>
+	<!---->
+	<string name="general_preference_confirm_delete_label">"Bevestigen voor verwijderen"</string>
+	<!---->
+	<string name="general_preference_confirm_send_label">"Bevestigen voor verzenden"</string>
+	<!---->
+	<string name="more_than_999">"999 +"</string>
+	<!---->
+	<string name="search_hint">"Zoeken"</string>
+	<!---->
+	<string name="policy_dont_allow_camera">"Gebruik van de camera van het apparaat niet toestaan"</string>
+	<!---->
+	<string name="policy_require_password">"Apparaatwachtwoord vereist"</string>
+	<!---->
+	<string name="policy_password_history">"Hergebruik van recente wachtwoorden beperken"</string>
+	<!---->
+	<string name="policy_password_expiration">"Wachtwoorden moeten verlopen"</string>
+	<!---->
+	<string name="policy_screen_timeout">"Een inactief apparaat is vereist voor schermvergrendeling"</string>
+	<!---->
+	<string name="policy_calendar_age">"Aantal gesynchroniseerde agenda-afspraken beperken"</string>
+	<!---->
+	<string name="policy_email_age">"Aantal gesynchroniseerde e-mails beperken"</string>
+	<!---->
+	<string name="quick_1">"Bedankt"</string>
+	<!---->
+	<string name="quick_2">"Dat klinkt prima."</string>
+	<!---->
+	<string name="quick_3">"Ik lees het later en kom erop terug."</string>
+	<!---->
+	<string name="quick_4">"Laten we een afspraak maken om dit te bespreken."</string>
+	<!---->
+	<string name="require_manual_sync_message">"Achtergrondsynchronisatie voor dit account is uitgeschakeld tijdens roaming."</string>
+	<!---->
+	<string name="confirm_response">"Antwoord verzenden…"</string>
+	<!---->
+	<string name="no_conversations">"Geen berichten."</string>
+	<!-- no translation found for imap_name -->
+	<skip />
+	<!-- no translation found for pop3_name -->
+	<skip />
+	<!---->
+	<string name="email_name">"E-mail"</string>
+	<!---->
+	<string name="folder_picker_title">"Mapkiezer"</string>
+	<!---->
+	<string name="trash_folder_selection_title">"Selecteer een prullenbakmap voor <xliff:g id="account">%s</xliff:g>"</string>
+	<!---->
+	<string name="sent_folder_selection_title">"Map \'Verzonden items\' van server selecteren voor <xliff:g id="ACCOUNT">%s</xliff:g>"</string>
+	<!---->
+	<string name="account_waiting_for_folders_msg">"Mappenlijst laden…"</string>
+	<!---->
+	<string name="no_quick_responses">"Geen beschikbaar"</string>
+	<!---->
+	<string name="gmail_name">"Gmail"</string>
+	<!---->
+	<string name="folder_sync_settings_pref_title">"Synchronisatie-instellingen voor map"</string>
+	<!---->
+	<string name="select_your_account">"Account selecteren"</string>
+	<!---->
+	<string name="select_account_list_below">"Selecteer uw account in de onderstaande lijst:"</string>
+	<!---->
+	<string name="cancel_label">"Annuleren"</string>
+	<!---->
+	<string name="next_label">"Volgende"</string>
+	<!---->
+	<string name="str_account_provider_other">"Andere"</string>
+	<!---->
+	<string name="account_settings_download_options_label">"Downloadopties"</string>
+	<!---->
+	<string name="account_setting_download_opt_headonly">"Alleen koptekst"</string>
+	<!---->
+	<string name="account_setting_download_opt_all">"Alles"</string>
+	<!-- no translation found for account_setting_download_opt_2k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_5k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_10k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_20k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_50k -->
+	<skip />
+	<!-- no translation found for account_setting_download_opt_100k -->
+	<skip />
+	<!---->
+	<string name="account_oof_error_tip_past">"De eindtijd kan niet in het verleden liggen. Wijzig de eindtijd in een tijdstip in de toekomst."</string>
+	<!---->
+	<string name="account_oof_error_tip_earlier">"De eindtijd kan niet eerder zijn dan de begintijd. Wijzig de eindtijd opnieuw."</string>
+	<!---->
+	<string name="account_setting_oof_label">"Afwezigheidsinstellingen"</string>
+	<!---->
+	<string name="oof_auto_repley">"Automatisch afwezigheidsbericht verzenden"</string>
+	<!---->
+	<string name="oof_auto_replies_period">"Automatisch afwezigheidsberichten verzenden gedurende deze periode"</string>
+	<!---->
+	<string name="start_time">"Starttijd"</string>
+	<!---->
+	<string name="end_time">"Eindtijd"</string>
+	<!---->
+	<string name="internal_message">"Intern bericht"</string>
+	<!---->
+	<string name="oof_auto_replies_external_senders">"Automatisch afwezigheidsberichten verzenden naar externe afzenders"</string>
+	<!---->
+	<string name="oof_choice_oof_in_contacts">"Automatisch afwezigheidsberichten verzenden naar afzenders in mijn lijst met contacten"</string>
+	<!---->
+	<string name="oof_choice_oof_outside_organisation">"Automatisch afwezigheidsberichten verzenden naar iedereen buiten mijn organisatie"</string>
+	<!---->
+	<string name="external_message">"Extern bericht"</string>
+	<!---->
+	<string name="oof_done_message_attention">""U hebt geen automatisch afwezigheidsbericht ingesteld voor mensen binnen uw organisatie. Als er geen afwezigheidsbericht wordt opgegeven, ontvangen mensen geen afwezigheidsbericht. Uw afwezigheidsregels zijn nog wel van toepassing. Wilt u doorgaan?"</string>
+	<!---->
+	<string name="oof_choice_in_contacts">"Antwoorden verzenden naar afzenders in mijn contactenlijst"</string>
+	<!---->
+	<string name="oof_choice_all_senders">"Antwoorden verzenden naar alle afzenders"</string>
+	<!---->
+	<string name="hint_text_of_internal_message">"Antwoorden op adressen van uw organisatie"</string>
+	<!---->
+	<string name="hint_text_of_external_message">"Antwoorden op adressen buiten uw organisatie"</string>
+	<!---->
+	<string name="account_delete_dlg_title">"Account verwijderen?"</string>
+	<!---->
+	<string name="account_delete_dlg_instructions_fmt">"Het account <xliff:g id="ACCOUNT">%s</xliff:g> wordt verwijderd van E-mail"</string>
+	<!---->
+	<string name="account_delete_dlg_instructions_fmt_new">"Als u dit account verwijdert, worden ook alle accountberichten, contacten en andere gegevens van uw telefoon verwijderd."</string>
+	<!---->
+	<string name="account_delete_dlg_action_remove_label">"Verwijderen"</string>
+	<!---->
+	<string name="account_delete_dlg_action_cancel_label">"Annuleren"</string>
+	<!---->
+	<string name="account_settings_category_delete_account">"Account verwijderen"</string>
+	<!---->
+	<string name="account_settings_delete_account_label">"Account verwijderen"</string>
+	<!---->
+	<string name="account_settings_default_label">"Standaardaccount"</string>
+	<!---->
+	<string name="account_settings_default_summary">"E-mail standaard vanaf dit account verzenden"</string>
+	<!---->
+	<string name="account_setup_options_default_label">"E-mail standaard vanaf dit account verzenden"</string>
+	<!---->
+	<string name="account_setup_basics_default_label">"E-mail standaard vanaf dit account verzenden"</string>
+	<!---->
+	<string name="local_search_action">"Lokaal zoeken"</string>
+	<!---->
+	<string name="service_search_action">"Zoeken op de server"</string>
+	<!---->
+	<string name="local_search_all">"Alles"</string>
+	<!---->
+	<string name="local_search_from">"Van"</string>
+	<!---->
+	<string name="local_search_to">"Aan"</string>
+	<!---->
+	<string name="local_search_subject">"Onderwerp"</string>
+	<!---->
+	<string name="status_loading_attachments">"Laden"</string>
+	<!---->
+	<string name="account_use_proxy_label">"Proxy gebruiken"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_label">"Proxy IP-adres"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_port_label">"Proxy poort"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_name">"Proxynaam"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_password">"Proxy wachtwoord"</string>
+	<!---->
+	<string name="attachment_info_dialog_wifi_title">"Wi-Fi-verbinding vereist"</string>
+	<!---->
+	<string name="attachment_info_wifi_settings">"Wi-Fi-instellingen"</string>
+	<!---->
+	<string name="attachment_info_wifi_only">"Deze bijlage is te groot om te downloaden via een mobiel netwerk. U kunt de bijlage downloaden wanneer u weer verbinding maakt met een Wi-Fi-netwerk."</string>
+	<!---->
+	<string name="attachment_info_ok">"OK"</string>
+	<!---->
+	<string name="mailbox_name_display_draft">"Concept"</string>
+	<!---->
+	<string name="message_compose_display_name">"<xliff:g id="NAME">%1$s</xliff:g> en <xliff:g id="NUMBER">%2$d</xliff:g> anderen"</string>
+	<!---->
+	<string name="app_name">"E-mail"</string>
+	<!---->
+	<string name="from">"Van"</string>
+	<!---->
+	<string name="to">"Aan"</string>
+	<!---->
+	<string name="cc">"Cc"</string>
+	<!---->
+	<string name="bcc">"Bcc"</string>
+	<!---->
+	<string name="subject_hint">"Onderwerp"</string>
+	<!---->
+	<string name="body_hint">"E-mail opstellen"</string>
+	<!---->
+	<string name="add_file_attachment">"Bestand bijvoegen"</string>
+	<!---->
+	<string name="add_photo_attachment">"Afbeelding bijvoegen"</string>
+	<!---->
+	<string name="save_draft">"Concept opslaan"</string>
+	<!---->
+	<string name="discard">"Weggooien"</string>
+	<!---->
+	<string name="compose">"Opstellen"</string>
+	<!---->
+	<string name="select_contacts_field">"Contacten selecteren uit"</string>
+	<!---->
+	<string name="item_save_group">"Groep opslaan"</string>
+	<!---->
+	<string name="confirm_select">"Selecteren"</string>
+	<!---->
+	<string name="cancel_select">"Annuleren"</string>
+	<string-array name="compose_modes">
+		<item>"Beantwoorden"</item>
+		<item>"Allen antwoord"</item>
+		<item>"Doorsturen"</item>
+	</string-array>
+	<string-array name="compose_modes_without_reply_all">
+		<item>"Beantwoorden"</item>
+		<item>"Doorsturen"</item>
+	</string-array>
+	<!---->
+	<string name="reply_subject_label">"Re:"</string>
+	<!---->
+	<string name="forward_subject_label">"Doorst.:"</string>
+	<!---->
+	<string name="reply_attribution">"op <xliff:g id="date">%s</xliff:g>, <xliff:g id="person">%s</xliff:g> schreef:"</string>
+	<!---->
+	<string name="forward_attribution">"---------- Doorgestuurd bericht ----------；Van:；Datum:；Onderwerp:；Aan:"</string>
+	<!---->
+	<string name="forward_attribution_with_headers">"---------- Doorgestuurd bericht ---------- <xliff:g id="a">%s</xliff:g> Van: <xliff:g id="from">%s</xliff:g> <xliff:g id="b">%s</xliff:g> Datum: <xliff:g id="date">%s</xliff:g> <xliff:g id="c">%s</xliff:g> Onderwerp: <xliff:g id="subject">%s</xliff:g> <xliff:g id="d">%s</xliff:g> Aan: <xliff:g id="to">%s</xliff:g> <xliff:g id="e">%s</xliff:g> Cc: <xliff:g id="cc">%s</xliff:g> <br/>"</string>
+	<!---->
+	<string name="forward_attribution_no_headers">"---------- Doorgestuurd bericht----------"</string>
+	<!---->
+	<string name="cc_attribution">"Cc:"</string>
+	<!---->
+	<string name="select_attachment_type">"Type bijlage kiezen"</string>
+	<!---->
+	<string name="too_large_to_attach_single">"Kan bestand niet bijvoegen via %1$s"</string>
+	<!---->
+	<string name="too_large_to_attach_multiple">"Eén of meer bestanden niet bijgevoegd. Limiet <xliff:g id="maxSize">%1$s</xliff:g>."</string>
+	<!---->
+	<string name="too_large_to_mid_attach_additional">"Uw e-mail is groter dan <xliff:g id="maxSize">%1$s</xliff:g>. Uw e-mailaccount ondersteunt dit mogelijk niet."</string>
+	<!---->
+	<string name="too_large_to_attach_additional">"Bestand bijvoegen niet mogelijk. E-mail wordt groter dan de <xliff:g id="maxSize">%1$s</xliff:g> limiet."</string>
+	<!---->
+	<string name="generic_attachment_problem">"Kan bestand niet bijvoegen."</string>
+	<!---->
+	<string name="recipient_needed">"Voeg minstens één ontvanger toe."</string>
+	<!---->
+	<string name="recipient_error_dialog_title">"Ontvangstfout"</string>
+	<!---->
+	<string name="confirm_send_title">"Bericht verzenden?"</string>
+	<!---->
+	<string name="confirm_send_message_with_no_subject">"Geen tekst in het onderwerp van het bericht"</string>
+	<!---->
+	<string name="confirm_send_message_with_no_body">"Geen tekst in het hoofdgedeelte van het bericht"</string>
+	<!---->
+	<string name="confirm_send_message">"Dit bericht verzenden?"</string>
+	<!---->
+	<string name="message_discarded">"Bericht wordt verwijderd"</string>
+	<!-- no translation found for signature -->
+	<skip />
+	<!---->
+	<string name="custom_from_account_label">"Mail verzenden als:"</string>
+	<!---->
+	<string name="send">"Verzenden"</string>
+	<!---->
+	<string name="mark_read">"Markeren als gelezen"</string>
+	<!---->
+	<string name="mark_unread">"Markeren als ongelezen"</string>
+	<!---->
+	<string name="mute">"Dempen"</string>
+	<!---->
+	<string name="add_star">"Ster toevoegen"</string>
+	<!---->
+	<string name="remove_star">"Ster verwijderen"</string>
+	<!---->
+	<string name="remove_folder">"Verwijderen uit <xliff:g id="USERNAME">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="archive">"Archief"</string>
+	<!---->
+	<string name="report_spam">"Spam rapporteren"</string>
+	<!---->
+	<string name="mark_not_spam">"Rapporteren: Geen spam"</string>
+	<!---->
+	<string name="report_phishing">"Phishing rapporteren"</string>
+	<!---->
+	<string name="delete">"Verwijderen"</string>
+	<!---->
+	<string name="discard_drafts">"Concepten verwijderen"</string>
+	<!---->
+	<string name="discard_failed">"Weggooien mislukt"</string>
+	<!---->
+	<string name="refresh">"Vernieuwen"</string>
+	<!---->
+	<string name="reply">"Beantwoorden"</string>
+	<!---->
+	<string name="reply_all">"Allen antwoord"</string>
+	<!---->
+	<string name="resume_draft">"Bewerken"</string>
+	<!---->
+	<string name="forward">"Doorsturen"</string>
+	<!---->
+	<string name="menu_compose">"Opstellen"</string>
+	<!---->
+	<string name="menu_sort">"Sorteren"</string>
+	<!---->
+	<string name="menu_change_folders">"Mappen wijzigen"</string>
+	<!---->
+	<string name="menu_move_to">"Verplaatsen naar"</string>
+	<!---->
+	<string name="menu_move_to_inbox">"Verplaatsen naar Postvak IN"</string>
+	<!---->
+	<string name="menu_manage_folders">"Mapinstellingen"</string>
+	<!---->
+	<string name="menu_show_original">"Grootte automatisch aanpassen herstellen"</string>
+	<!---->
+	<string name="menu_settings">"Instellingen"</string>
+	<!---->
+	<string name="menu_search">"Zoeken"</string>
+	<!---->
+	<string name="drawer_title">"Navigatie"</string>
+	<!---->
+	<string name="mark_important">"Markeren als belangrijk"</string>
+	<!---->
+	<string name="mark_not_important">"Markeren als onbelangrijk"</string>
+	<!---->
+	<string name="select_all_conversations">"Alles selecteren"</string>
+	<!---->
+	<string name="unselect_all_conversations">"Selec. van alles onged. mkn"</string>
+	<!---->
+	<string name="add_cc_label">"Cc/Bcc toevoegen"</string>
+	<!---->
+	<string name="add_bcc_label">"Bcc toevoegen"</string>
+	<!---->
+	<string name="quoted_text">"Geciteerde tekst opnemen"</string>
+	<!---->
+	<string name="quoted_text_label">"Tekst citeren"</string>
+	<!---->
+	<string name="respond_inline">"Inline beantwoorden"</string>
+	<!---->
+	<string name="bytes">"<xliff:g id="count">%s</xliff:g> B"</string>
+	<!---->
+	<string name="kilobytes">"<xliff:g id="count">%s</xliff:g> kB"</string>
+	<!---->
+	<string name="megabytes">"<xliff:g id="count">%s</xliff:g> MB"</string>
+	<!---->
+	<string name="attachment_image">"Afbeelding"</string>
+	<!---->
+	<string name="attachment_video">"Video"</string>
+	<!---->
+	<string name="attachment_audio">"Audio"</string>
+	<!---->
+	<string name="attachment_text">"Tekst"</string>
+	<!---->
+	<string name="attachment_application_msword">"Document"</string>
+	<!---->
+	<string name="attachment_application_vnd_ms_powerpoint">"Presentatie"</string>
+	<!---->
+	<string name="attachment_application_vnd_ms_excel">"Spreadsheet"</string>
+	<!-- no translation found for attachment_application_pdf -->
+	<skip />
+	<!---->
+	<string name="attachment_unknown">"<xliff:g id="attachmentExtension">%s</xliff:g> bestand"</string>
+	<!---->
+	<string name="preview_attachment">"Voorbeeld"</string>
+	<!---->
+	<string name="save_attachment">"Opslaan"</string>
+	<!---->
+	<string name="cancel_attachment">"Annuleren"</string>
+	<!---->
+	<string name="open_attachment">"Openen"</string>
+	<!---->
+	<string name="install_attachment">"Installeren"</string>
+	<!---->
+	<string name="download_again">"Opnieuw downloaden"</string>
+	<!---->
+	<string name="more_info_attachment">"Informatie"</string>
+	<!---->
+	<string name="no_application_found">"Geen enkele app kan deze bijlage weergeven"</string>
+	<!---->
+	<string name="fetching_attachment">"Bijlage wordt opgehaald"</string>
+	<!---->
+	<string name="please_wait">"Een ogenblik geduld..."</string>
+	<!---->
+	<string name="saved">"Opgeslagen"</string>
+	<!---->
+	<string name="download_failed">"Kan niet downloaden. Raak aan om opnieuw te proberen."</string>
+	<!---->
+	<string name="menu_photo_save_all">"Alles opslaan"</string>
+	<!---->
+	<string name="menu_photo_share">"Delen"</string>
+	<!---->
+	<string name="menu_photo_share_all">"Alles delen"</string>
+	<!---->
+	<string name="menu_photo_print">"Afdrukken"</string>
+	<!---->
+	<string name="saving">"Opslaan…"</string>
+	<!---->
+	<string name="choosertitle_sharevia">"Delen via"</string>
+	<!---->
+	<string name="contextmenu_openlink">"Openen in browser"</string>
+	<!---->
+	<string name="contextmenu_copy">"Kopiëren"</string>
+	<!---->
+	<string name="contextmenu_copylink">"Link-URL kopiëren"</string>
+	<!---->
+	<string name="contextmenu_view_image">"Afbeelding weergeven"</string>
+	<!---->
+	<string name="contextmenu_dial_dot">"Bellen"</string>
+	<!---->
+	<string name="contextmenu_sms_dot">"SMS\u2026"</string>
+	<!---->
+	<string name="contextmenu_add_contact">"Contact toevoegen"</string>
+	<!---->
+	<string name="contextmenu_send_mail">"E-mail verzenden"</string>
+	<!---->
+	<string name="contextmenu_map">"Kaart"</string>
+	<!---->
+	<string name="contextmenu_sharelink">"Link delen"</string>
+	<!---->
+	<string name="contextmenu_savelink">"Link opslaan"</string>
+	<!---->
+	<string name="contextmenu_help">"Help"</string>
+	<!---->
+	<string name="contextmenu_feedback">"Feedback verzenden"</string>
+	<!---->
+	<string name="sort_title">"Sorteer op"</string>
+	<!---->
+	<string name="sort_by_tip">"Gesorteerd op <xliff:g id="sor_type">%s</xliff:g>"</string>
+	<!-- no translation found for num_selected -->
+	<skip />
+	<plurals name="move_conversation">
+		<item quantity="one">"Gesprek verplaatsen"</item>
+		<item quantity="other">"<xliff:g>%1$d</xliff:g> gesprekken verplaatsen"</item>
+	</plurals>
+	<!---->
+	<string name="content_description">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> over <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> op <xliff:g id="date">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g>"</string>
+	<!---->
+	<string name="content_description_today">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> over <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> om <xliff:g id="time">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g>"</string>
+	<!---->
+	<string name="read_string">"Gesprek gelezen"</string>
+	<!---->
+	<string name="unread_string">"Gesprek ongelezen"</string>
+	<!---->
+	<string name="filtered_tag">"[<xliff:g id="tag">%1$s</xliff:g>]<xliff:g id="subject">%2$s</xliff:g>"</string>
+	<!-- no translation found for badge_and_subject -->
+	<skip />
+	<plurals name="draft">
+		<item quantity="one">"Concept"</item>
+		<item quantity="other">"Concepten"</item>
+	</plurals>
+	<!---->
+	<string name="sending">"Verzenden\u2026"</string>
+	<!---->
+	<string name="message_retrying">"Opnieuw proberen\u2026"</string>
+	<!---->
+	<string name="message_failed">"Mislukt"</string>
+	<!---->
+	<string name="send_failed">"E-mail verzenden mislukt."</string>
+	<!---->
+	<string name="send_failed_wait_attchment_downloaded">"Doorsturen niet mogelijk, omdat bijlagen niet volledig zijn gedownload. Download eerst de bijlagen."</string>
+	<!---->
+	<string name="me_object_pronoun">"Ik"</string>
+	<!---->
+	<string name="me_subject_pronoun">"Ik"</string>
+	<plurals name="confirm_delete_conversation">
+		<item quantity="one">"Dit gesprek verwijderen?"</item>
+		<item quantity="other">"Deze <xliff:g id="count">%1$d</xliff:g> gesprekken verwijderen?"</item>
+	</plurals>
+	<plurals name="confirm_archive_conversation">
+		<item quantity="one">"Dit gesprek archiveren?"</item>
+		<item quantity="other">"Deze gesprekken <xliff:g id="count">%1$d</xliff:g> archiveren?"</item>
+	</plurals>
+	<plurals name="confirm_discard_drafts_conversation">
+		<item quantity="one">"Dit bericht weggooien?"</item>
+		<item quantity="other">"Deze <xliff:g id="count">%1$d</xliff:g> berichten weggooien?"</item>
+	</plurals>
+	<!---->
+	<string name="confirm_discard_text">"Dit bericht verwijderen?"</string>
+	<!---->
+	<string name="loading_conversations">"Laden\u2026"</string>
+	<!---->
+	<string name="empty_inbox">"U bent helemaal klaar. Een prettige dag nog."</string>
+	<!---->
+	<string name="empty_search">"Oeps. We hebben niets gevonden voor \"<xliff:g id="search_query">%1$s</xliff:g>\"."</string>
+	<!---->
+	<string name="empty_spam_folder">"Hier is geen spam gevonden."</string>
+	<!---->
+	<string name="empty_trash_folder">"Hier is geen rommel gevonden. Hartelijk dank voor het recyclen."</string>
+	<!---->
+	<string name="empty_folder">"Hier is geen e-mail."</string>
+	<!---->
+	<string name="getting_messages">"Uw berichten ophalen"</string>
+	<!---->
+	<string name="undo">"Ongedaan maken"</string>
+	<plurals name="conversation_unstarred">
+		<item quantity="one">"Ster verwijderen van <xliff:g id="count">%1$d</xliff:g> gesprek."</item>
+		<item quantity="other">"Ster verwijderen van <xliff:g id="count">%1$d</xliff:g> gesprekken."</item>
+	</plurals>
+	<plurals name="conversation_muted">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> gedempt."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> gedempt."</item>
+	</plurals>
+	<plurals name="conversation_spammed">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> gerapporteerd als spam."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> gerapporteerd als spam."</item>
+	</plurals>
+	<plurals name="conversation_not_spam">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> gerapporteerd als geen spam."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> gerapporteerd als geen spam."</item>
+	</plurals>
+	<plurals name="conversation_not_important">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> gemarkeerd als onbelangrijk."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> gemarkeerd als onbelangrijk."</item>
+	</plurals>
+	<plurals name="conversation_phished">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> gerapporteerd als phishing."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> gerapporteerd als phishing."</item>
+	</plurals>
+	<plurals name="conversation_archived">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> gearchiveerd."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> gearchiveerd."</item>
+	</plurals>
+	<plurals name="conversation_deleted">
+		<item quantity="one">"&lt;b&gt;%1$d&lt;/b&gt; verwijderd."</item>
+		<item quantity="other">"&lt;b&gt;%1$d&lt;/b&gt; verwijderd."</item>
+	</plurals>
+	<!---->
+	<string name="deleted">"Verwijderd"</string>
+	<!---->
+	<string name="archived">"Gearchiveerd"</string>
+	<!---->
+	<string name="starred">"Met ster"</string>
+	<!---->
+	<string name="unstarred">"Niet gepubliceerd"</string>
+	<!---->
+	<string name="folder_removed">"Verwijderd uit <xliff:g id="USERNAME">%1$s</xliff:g>"</string>
+	<plurals name="conversation_folder_changed">
+		<item quantity="one">"Map gewijzigd."</item>
+		<item quantity="other">"Mappen gewijzigd."</item>
+	</plurals>
+	<!---->
+	<string name="conversation_folder_moved">"Verplaatst naar <xliff:g id="USERNAME">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="search_results_header">"Resultaten"</string>
+	<!---->
+	<string name="search_unsupported">"Zoeken wordt niet ondersteund op dit account."</string>
+	<!---->
+	<string name="add_label">"Map toevoegen"</string>
+	<!---->
+	<string name="new_incoming_messages_one">"Nieuw bericht van <xliff:g id="sender">%s</xliff:g> weergeven."</string>
+	<plurals name="new_incoming_messages_many">
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> nieuwe berichten weergeven."</item>
+	</plurals>
+	<!---->
+	<string name="date_and_view_details">"<xliff:g id="date">%1$s</xliff:g> &lt;a href=\'http://www.example.com\'&gt;Details weergeven&lt;/a&gt;"</string>
+	<!---->
+	<string name="date_and_view_details_another">"<xliff:g id="date">%1$s</xliff:g> &lt;font color=\"<xliff:g id="color">%2$d</xliff:g>\"&gt;Details weergeven&lt;/font&gt;"</string>
+	<!---->
+	<string name="hide_details">"Details verbergen"</string>
+	<!---->
+	<string name="to_message_header">"Aan <xliff:g id="recipients">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="contact_info_string">"Contactgegevens van <xliff:g id="NAME">%1$s</xliff:g> weergeven"</string>
+	<!---->
+	<string name="contact_info_string_default">"Contactgegevens weergeven"</string>
+	<plurals name="show_messages_read">
+		<item quantity="other">"<xliff:g example="4" id="count">%1$d</xliff:g> oudere berichten"</item>
+	</plurals>
+	<!---->
+	<string name="from_heading">"Van:"</string>
+	<!---->
+	<string name="replyto_heading">"Antwoord naar:"</string>
+	<!---->
+	<string name="to_heading">"Aan:"</string>
+	<!---->
+	<string name="to_heading_no_space">"Aan:"</string>
+	<!---->
+	<string name="cc_heading">"Cc:"</string>
+	<!---->
+	<string name="bcc_heading">"Bcc:"</string>
+	<!---->
+	<string name="date_heading">"Datum:"</string>
+	<!---->
+	<string name="show_images">"Afbeeldingen weergeven"</string>
+	<!---->
+	<string name="always_show_images">"Foto\'s van deze afzender altijd weergeven"</string>
+	<!---->
+	<string name="always_show_images_toast">"Foto\'s van deze afzender worden automatisch weergegeven."</string>
+	<!---->
+	<string name="address_display_format">"<xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g>"</string>
+	<!---->
+	<string name="address_display_format_with_via_domain">"<xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g> via <xliff:g id="via_domain">%3$s</xliff:g>"</string>
+	<!---->
+	<string name="message_saved">"Bericht opgeslagen als concept."</string>
+	<!---->
+	<string name="sending_message">"Bericht verzenden\u2026"</string>
+	<!---->
+	<string name="invalid_recipient">"Het adres %s is ongeldig."</string>
+	<!---->
+	<string name="show_elided">"Geciteerde tekst weergeven"</string>
+	<!---->
+	<string name="hide_elided">"\u25BC Geciteerde tekst verbergen"</string>
+	<!---->
+	<string name="message_invite_title">"Agenda-uitnodiging"</string>
+	<!---->
+	<string name="message_invite_available">"U bent beschikbaar"</string>
+	<!---->
+	<string name="message_invite_datetime">"Wanneer"</string>
+	<!---->
+	<string name="message_invite_location">"Waar"</string>
+	<!---->
+	<string name="message_invite_in_calendar_view">"In agenda’s kijken"</string>
+	<!---->
+	<string name="message_invite_calendar_view">"Weergeven in Agenda"</string>
+	<!---->
+	<string name="message_invite_label_attending">"Gaat u?"</string>
+	<!---->
+	<string name="message_invite_accept">"Ja"</string>
+	<!---->
+	<string name="message_invite_tentative">"Misschien"</string>
+	<!---->
+	<string name="message_invite_decline">"Nee"</string>
+	<!-- no translation found for enumeration_comma -->
+	<skip />
+	<!---->
+	<string name="send_anyway">"Toch verzenden"</string>
+	<!---->
+	<string name="ok">"OK"</string>
+	<!---->
+	<string name="done">"Gereed"</string>
+	<!---->
+	<string name="cancel">"Annuleren"</string>
+	<!---->
+	<string name="clear">"Wissen"</string>
+	<!---->
+	<string name="next">"Volgende"</string>
+	<!---->
+	<string name="previous">"Vorige"</string>
+	<string-array name="sync_status">
+		<item>"U hebt geen Wi-Fi-verbinding, wilt u doorgaan met synchroniseren?"</item>
+		<item>"Geen verbinding."</item>
+		<item>"Kan niet aanmelden."</item>
+		<item>"Beveiligingsfout"</item>
+		<item>"Kan niet synchroniseren."</item>
+		<item>"Interne fout"</item>
+		<item>"Serverfout"</item>
+	</string-array>
+	<!---->
+	<string name="tap_to_configure">"Aanraken om in te stellen"</string>
+	<!---->
+	<string name="non_synced_folder_description">"Synchroniseer deze map als u de gesprekken wilt bekijken."</string>
+	<!---->
+	<string name="tap_to_configure_folder_sync">"Map synchroniseren"</string>
+	<!-- no translation found for widget_large_unread_count -->
+	<skip />
+	<!---->
+	<string name="large_unseen_count">"<xliff:g example="99" id="count">%d</xliff:g>+ nieuw"</string>
+	<!---->
+	<string name="unseen_count">"<xliff:g example="4" id="count">%d</xliff:g> nieuw"</string>
+	<plurals name="actionbar_unread_messages">
+		<item quantity="other">"%1$d ongelezen"</item>
+	</plurals>
+	<!---->
+	<string name="actionbar_large_unread_count">"<xliff:g id="count">%1$d</xliff:g>+ ongelezen"</string>
+	<!---->
+	<string name="view_more_conversations">"Meer gesprekken weergeven"</string>
+	<!---->
+	<string name="loading_conversation">"Laden\u2026"</string>
+	<!---->
+	<string name="activity_mailbox_selection">"Account selecteren"</string>
+	<!---->
+	<string name="activity_folder_selection">"Map kiezen"</string>
+	<!---->
+	<string name="folder_shortcut_widget_label">"E-mailmap"</string>
+	<!---->
+	<string name="change_folders_selection_dialog_title">"Mappen wijzigen"</string>
+	<!---->
+	<string name="move_to_selection_dialog_title">"Verplaatsen naar"</string>
+	<!-- no translation found for search_results_loaded -->
+	<skip />
+	<!---->
+	<string name="network_error">"Geen verbinding"</string>
+	<!---->
+	<string name="retry">"Opnieuw proberen"</string>
+	<!---->
+	<string name="load_more">"Meer laden"</string>
+	<!---->
+	<string name="shortcut_name_title">"Snelkoppeling naar map benoemen"</string>
+	<!---->
+	<string name="wait_for_sync_title">"Wachten op synchronisatie"</string>
+	<!---->
+	<string name="not_synced_title">"Account niet gesynchroniseerd"</string>
+	<!---->
+	<string name="wait_for_manual_sync_body">"Dit account is niet ingesteld om automatisch te synchroniseren.\nRaak <b>Nu synchroniseren</b> aan om de mail een keer te synchroniseren of raak <b>Synchronisatie-instellingen wijzigen</b> aan om in te stellen dat mail van dit account automatisch wordt gesynchroniseerd."</string>
+	<!---->
+	<string name="manual_sync">"Nu synchroniseren"</string>
+	<!---->
+	<string name="change_sync_settings">"Synchronisatie-instellingen wijzigen"</string>
+	<!---->
+	<string name="photo_load_failed">"Kan afbeelding niet laden"</string>
+	<!---->
+	<string name="cant_move_or_change_labels">"Verplaatsen is niet mogelijk. Selectie bevat meerdere accounts."</string>
+	<!-- no translation found for multiple_new_message_notification_item -->
+	<skip />
+	<!-- no translation found for single_new_message_notification_big_text -->
+	<skip />
+	<!---->
+	<string name="ignore_spam_warning">"Negeren. Ik vertrouw dit bericht"</string>
+	<!---->
+	<string name="via_domain">"via <xliff:g id="viaDomain">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="signin">"Aanmelden"</string>
+	<!---->
+	<string name="info">"Informatie"</string>
+	<!---->
+	<string name="report">"Rapport"</string>
+	<!---->
+	<string name="sync_error">"Kan niet synchroniseren."</string>
+	<!---->
+	<string name="sync_error_message">"Uw apparaat heeft niet genoeg opslagruimte om te synchroniseren."</string>
+	<!---->
+	<string name="storage">"Opslagruimte"</string>
+	<!-- no translation found for senders_split_token -->
+	<skip />
+	<!-- no translation found for draft_count_format -->
+	<skip />
+	<!---->
+	<string name="all_folders_heading">"Alle mappen"</string>
+	<!---->
+	<string name="recent_folders_heading">"Recente mappen"</string>
+	<!---->
+	<string name="message_details_title">"Berichtdetails"</string>
+	<!---->
+	<string name="preference_advance_to_title">"Automatisch doorgaan"</string>
+	<string-array name="prefEntries_autoAdvance">
+		<item>"Nieuwer"</item>
+		<item>"Ouder"</item>
+		<item>"Gesprekkenlijst"</item>
+	</string-array>
+	<string-array name="prefSummaries_autoAdvance">
+		<item>"Nieuwer gesprek weergeven na het verwijderen"</item>
+		<item>"Ouder gesprek weergeven na het verwijderen"</item>
+		<item>"Gesprekkenlijst weergeven na het verwijderen"</item>
+	</string-array>
+	<!---->
+	<string name="prefDialogTitle_autoAdvance">"Doorgaan naar"</string>
+	<!---->
+	<string name="clear_display_images_whitelist_title">"Afbeeldingsgoedkeuring wissen"</string>
+	<!---->
+	<string name="clear_display_images_whitelist_dialog_title">"Goedkeuringen van afbeeldingen verwijderen?"</string>
+	<!---->
+	<string name="clear_display_images_whitelist_dialog_message">"Stop met het weergeven van inline-afbeeldingen van eerder goedkeurde afzenders."</string>
+	<!---->
+	<string name="sender_whitelist_cleared">"Afbeeldingen worden niet automatisch weergegeven"</string>
+	<!---->
+	<string name="preferences_signature_title">"Handtekening"</string>
+	<!---->
+	<string name="preferences_signature_dialog_title">"Handtekening"</string>
+	<!---->
+	<string name="preferences_signature_summary_not_set">"Niet ingesteld"</string>
+	<!---->
+	<string name="mail_account_signature_prefix">"Verzonden vanaf mijn <xliff:g example="4" id="product">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="notification_action_reply">"Beantwoorden"</string>
+	<!---->
+	<string name="notification_action_reply_all">"Allen antwoord"</string>
+	<!---->
+	<string name="notification_action_archive">"Archief"</string>
+	<!---->
+	<string name="notification_action_remove_label">"Label verwijderen"</string>
+	<!---->
+	<string name="notification_action_delete">"Verwijderen"</string>
+	<!---->
+	<string name="notification_action_undo_archive">"Gearchiveerd"</string>
+	<!---->
+	<string name="notification_action_undo_remove_label">"Label verwijderd"</string>
+	<!---->
+	<string name="notification_action_undo_delete">"Verwijderd"</string>
+	<!-- no translation found for veiled_address -->
+	<skip />
+	<!-- no translation found for veiled_alternate_text -->
+	<skip />
+	<!-- no translation found for veiled_alternate_text_unknown_person -->
+	<skip />
+	<!-- no translation found for veiled_summary_unknown_person -->
+	<skip />
+	<!-- no translation found for label_notification_ticker -->
+	<skip />
+	<plurals name="new_messages">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> nieuw bericht"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> nieuwe berichten"</item>
+	</plurals>
+	<!-- no translation found for single_new_message_notification_title -->
+	<skip />
+	<!---->
+	<string name="silent_ringtone">"Stil"</string>
+	<!---->
+	<string name="preference_removal_action_title">"Acties voor archiveren en verwijderen"</string>
+	<string-array name="prefEntries_removal_action">
+		<item>"Alleen gearchiveerde berichten weergeven"</item>
+		<item>"Alleen verwijderde berichten weergeven"</item>
+		<item>"Gearchiveerde en verwijderde weergeven"</item>
+	</string-array>
+	<string-array name="prefSummaries_removal_action_summary">
+		<item>"Alleen gearchiveerde berichten weergeven"</item>
+		<item>"Alleen verwijderde berichten weergeven"</item>
+		<item>"Gearchiveerde en verwijderde weergeven"</item>
+	</string-array>
+	<!---->
+	<string name="prefDialogTitle_removal_action">"Acties voor archiveren en verwijderen"</string>
+	<!---->
+	<string name="preferences_default_reply_all_title">"Allen antwoord"</string>
+	<!---->
+	<string name="preferences_default_reply_all_summary_impl">"Als standaardinstelling gebruiken voor het beantwoorden van berichten"</string>
+	<!---->
+	<string name="preference_swipe_title_archive">"Vegen om te archiveren"</string>
+	<!---->
+	<string name="preference_swipe_title_delete">"Vegen om te verwijderen"</string>
+	<!---->
+	<string name="preference_swipe_description">"In gesprekkenlijst"</string>
+	<!---->
+	<string name="preference_swipe_actions">"Veegacties"</string>
+	<!---->
+	<string name="preference_sender_image_title">"Afbeelding van afzender"</string>
+	<!---->
+	<string name="preference_sender_image_description">"Naast naam in gesprekkenlijst weergeven"</string>
+	<!---->
+	<string name="empty_trash">"Prullenbak legen"</string>
+	<!---->
+	<string name="empty_spam">"Spam legen"</string>
+	<!---->
+	<string name="star_toggle">"Publiceren in-/uitschakelen"</string>
+	<!---->
+	<string name="empty_trash_dialog_title">"Prullenbak legen?"</string>
+	<!---->
+	<string name="empty_spam_dialog_title">"Spam legen?"</string>
+	<plurals name="empty_folder_dialog_message">
+		<item quantity="one">"%1$d bericht wordt definitief verwijderd."</item>
+		<item quantity="other">"%1$d berichten worden definitief verwijderd."</item>
+	</plurals>
+	<!---->
+	<string name="drawer_open">"Navigatievak openen"</string>
+	<!---->
+	<string name="drawer_close">"Auteursrechtinformatie"</string>
+	<!---->
+	<string name="conversation_photo_welcome_text">"Raak de afbeelding van een afzender aan om dat gesprek te selecteren."</string>
+	<!---->
+	<string name="long_press_to_select_tip">"Blijf aanraken om één gesprek te selecteren en raak opnieuw aan om meer te selecteren"</string>
+	<!---->
+	<string name="folder_icon_desc">"Mappictogram"</string>
+	<!---->
+	<string name="add_account">"Account toevoegen"</string>
+	<!---->
+	<string name="dismiss_tip_hover_text">"Tip verwijderen"</string>
+	<!---->
+	<string name="auto_sync_off">"Automatisch synchroniseren is uitgeschakeld."</string>
+	<!---->
+	<string name="tap_to_enable_sync">"Raak aan om in te schakelen."</string>
+	<!---->
+	<string name="account_sync_off">"Accountsynchronisatie is uitgeschakeld."</string>
+	<!---->
+	<string name="enable_sync_in_account_settings">"Inschakelen in <xliff:g id="account_settings">%1$s</xliff:g>."</string>
+	<!---->
+	<string name="account_settings_param">"Accountinstellingen"</string>
+	<!---->
+	<string name="unsent_messages_in_outbox">"<xliff:g id="number">%1$s</xliff:g> niet-verzonden berichten <xliff:g id="outbox">%2$s</xliff:g>"</string>
+	<!---->
+	<string name="turn_auto_sync_on_dialog_title">"Automat. synchroniseren inschakelen?"</string>
+	<!---->
+	<string name="turn_auto_sync_on_dialog_body">"Wijzigingen die u aanbrengt in alle apps en accounts, niet alleen Gmail, worden gesynchroniseerd naar internet, uw andere apparaten en uw <xliff:g id="phone_or_tablet">%1$s</xliff:g>."</string>
+	<!---->
+	<string name="phone">"Telefoon"</string>
+	<!---->
+	<string name="tablet">"Tablet"</string>
+	<!---->
+	<string name="turn_auto_sync_on_dialog_confirm_btn">"Inschakelen"</string>
+	<!---->
+	<string name="show_n_more_folders">"Nog %1$s mappen weergeven"</string>
+	<!---->
+	<string name="hide_folders">"Mappen verbergen"</string>
+	<!---->
+	<string name="print">"Afdrukken"</string>
+	<!---->
+	<string name="print_all">"Alles afdrukken"</string>
+	<plurals name="num_messages">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> bericht"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> berichten"</item>
+	</plurals>
+	<!-- no translation found for date_message_received_print -->
+	<skip />
+	<!---->
+	<string name="draft_to_heading">"Concept naar:"</string>
+	<!---->
+	<string name="draft_heading">"Concept"</string>
+	<!---->
+	<string name="quoted_text_hidden_print">"Geciteerde tekst verborgen"</string>
+	<plurals name="num_attachments">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> bijlage"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> bijlagen"</item>
+	</plurals>
+	<!---->
+	<string name="no_subject">"(Geen onderwerp)"</string>
+	<!---->
+	<string name="vacation_responder">"Vakantiemelding"</string>
+	<!---->
+	<string name="preferences_vacation_responder_title">"Vakantiemelding"</string>
+	<!---->
+	<string name="vacation_responder_body_hint_text">"Bericht"</string>
+	<!---->
+	<string name="send_to_contacts_text">"Alleen verzenden naar mijn contacten"</string>
+	<!---->
+	<string name="send_to_domain_text">"Alleen verzenden naar <xliff:g id="domain">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="pick_start_date_title">"Begint"</string>
+	<!---->
+	<string name="pick_end_date_title">"Eindigt (optioneel)"</string>
+	<!---->
+	<string name="date_not_set">"Niet ingesteld"</string>
+	<!---->
+	<string name="set_end_date_dialog_title">"Einddatum (optioneel)"</string>
+	<!---->
+	<string name="custom_date">"Aangepast"</string>
+	<!---->
+	<string name="date_none">"Geen"</string>
+	<!---->
+	<string name="discard_changes">"Wijzigingen annuleren?"</string>
+	<!---->
+	<string name="draft_saved">"Concept opgeslagen"</string>
+	<!---->
+	<string name="draft_discard">"Concept weggegooid"</string>
+	<!---->
+	<string name="vacation_responder_changes_saved">"Wijzigingen vakantiemelding opgeslagen"</string>
+	<!---->
+	<string name="vacation_responder_changes_discarded">"Wijzigingen vakantiemelding verwijderd"</string>
+	<!---->
+	<string name="vacation_responder_off">"UIT"</string>
+	<!-- no translation found for vacation_responder_on -->
+	<skip />
+	<!-- no translation found for vacation_responder_on_with_end_date -->
+	<skip />
+	<!---->
+	<string name="vacation_responder_empty_subject_and_body_warning">"Onderwerp of bericht toevoegen"</string>
+	<!---->
+	<string name="view_entire_message">"Hele bericht bekijken"</string>
+	<!---->
+	<string name="eml_loader_error_toast">"Kan dit bestand niet openen"</string>
+	<!---->
+	<string name="help_and_info">"Help"</string>
+	<!---->
+	<string name="help_and_feedback">"Help en feedback"</string>
+	<!---->
+	<string name="feedback">"Feedback verzenden"</string>
+	<!---->
+	<string name="copyright">"©<xliff:g example="2010" id="year">%1$d</xliff:g> Google Inc."</string>
+	<!---->
+	<string name="version">"<xliff:g example="Email" id="app_name">%1$s</xliff:g> versie <xliff:g example="2.2.1" id="version">%2$s</xliff:g>"</string>
+	<!-- no translation found for view_app_page -->
+	<skip />
+	<!---->
+	<string name="print_dialog">"Afdrukken\u2026"</string>
+	<!---->
+	<string name="copyright_information">"Auteursrechtinformatie"</string>
+	<!---->
+	<string name="privacy_policy">"Privacybeleid"</string>
+	<!---->
+	<string name="open_source_licenses">"Open-sourcelicenties"</string>
+	<!---->
+	<string name="reply_choice_yes">"Ja"</string>
+	<!---->
+	<string name="reply_choice_no">"Nee"</string>
+	<!---->
+	<string name="reply_choice_ok">"OK"</string>
+	<!-- no translation found for reply_choice_hehe -->
+	<skip />
+	<!---->
+	<string name="reply_choice_thanks">"Bedankt"</string>
+	<!---->
+	<string name="reply_choice_i_agree">"Ik ga akkoord"</string>
+	<!---->
+	<string name="reply_choice_nice">"Geweldig"</string>
+	<!---->
+	<string name="reply_on_my_way">"Ben op weg"</string>
+	<!---->
+	<string name="reply_choice_later">"OK, hier kom ik op terug"</string>
+	<!-- no translation found for reply_choice_smiling_face -->
+	<skip />
+	<!-- no translation found for reply_choice_frowning_face -->
+	<skip />
+	<!---->
+	<string name="preference_header_action_confirmations">"Bevestiging van actie"</string>
+	<!---->
+	<string name="preference_confirm_before_delete_title">"Bevestigen voor verwijderen"</string>
+	<!---->
+	<string name="preference_confirm_before_archive_title">"Bevestigen vóór archiveren"</string>
+	<!---->
+	<string name="preference_confirm_before_send_title">"Bevestigen voor verzenden"</string>
+	<!---->
+	<string name="preferences_conversation_mode_title">"Formaat van berichten automatisch aanpassen"</string>
+	<!---->
+	<string name="preferences_conversation_mode_summary">"Berichten verkleinen zodat ze op het scherm passen"</string>
+	<!---->
+	<string name="preferences_disable_snap_headers_title">"Berichtacties"</string>
+	<string-array name="prefSummaries_snapHeader">
+		<item>"Alleen berichtacties altijd boven aan het scherm weergeven"</item>
+		<item>"Alleen berichtacties weergeven boven aan het scherm wanneer gedraaid naar staand"</item>
+		<item>"Geen berichtacties weergeven buiten de berichtheader"</item>
+	</string-array>
+	<string-array name="prefEntries_snapHeader">
+		<item>"Altijd weergeven"</item>
+		<item>"Alleen in staande stand weergeven"</item>
+		<item>"Niet weergeven"</item>
+	</string-array>
+	<!---->
+	<string name="clear_history_title">"Zoekgeschiedenis wissen"</string>
+	<!---->
+	<string name="search_history_cleared">"Zoekgeschiedenis gewist."</string>
+	<!---->
+	<string name="clear_history_dialog_title">"Zoekgeschiedenis wissen?"</string>
+	<!---->
+	<string name="clear_history_dialog_message">"Alle zoekopdrachten die u hebt uitgevoerd, worden verwijderd."</string>
+	<!---->
+	<string name="manage_accounts_menu_item">"Accounts beheren"</string>
+	<!---->
+	<string name="general_preferences_title">"Algemene instellingen"</string>
+	<!---->
+	<string name="activity_preferences">"Instellingen"</string>
+	<!---->
+	<string name="always_bcc_myself">"Altijd BCC aan mezelf"</string>
+	<!---->
+	<string name="always_bcc_myself_summary">"Altijd BCC aan mezelf voor e-mail, antw. en doorst."</string>
+	<!---->
+	<string name="general_preference_auto_download_remaining_label">"Restant autom. downloaden"</string>
+	<!---->
+	<string name="general_preference_auto_download_remaining_summary">"Resterende hoofdtekst automatisch downloaden tijdens omlaag scrollen"</string>
+	<!---->
+	<string name="download_remaining">"Restant downloaden"</string>
+	<!---->
+	<string name="downloading_remaining">"Laden..."</string>
+	<!---->
+	<string name="unable_to_connect">"Kan geen verbinding maken"</string>
+	<!---->
+	<string name="need_connection_prompt">"U hebt een netwerkverbinding nodig om deze toepassing te gebruiken. Schakel mobiele netwerken of Wi-Fi bij Instellingen in."</string>
+	<!---->
+	<string name="connection_settings">"Instellingen"</string>
+	<!---->
+	<string name="priority_action">"Prioriteit"</string>
+	<!---->
+	<string name="set_priority_dialog_title">"Prioriteit instellen"</string>
+	<!---->
+	<string name="dialog_warning">"Waarschuwing\u2026"</string>
+	<!---->
+	<string name="dialog_warning_message">"De versie van Exchange-applicatie komt niet overeen met E-mail. Doorgaan?"</string>
+	<!---->
+	<string name="toast_warning_text">"De versie van Exchange-applicatie komt niet overeen met E-mail"</string>
+	<!---->
+	<string name="tips_sync_alter_title">"Synchronisatie"</string>
+	<!---->
+	<string name="tips_sync_alter_content">"U hebt geen Wi-Fi-verbinding, wilt u doorgaan met synchroniseren?"</string>
+	<!---->
+	<string name="tips_sync_alter_yes">"Ja"</string>
+	<!---->
+	<string name="tips_sync_alter_no">"Nee"</string>
+	<!---->
+	<string name="message_invite_tentative_title">"Voorlopig"</string>
+	<!---->
+	<string name="message_invite_decline_title">"Weigeren"</string>
+	<!---->
+	<string name="message_invite_accent_title">"Accepteren"</string>
+	<!---->
+	<string name="drm_file_remind">"Dit bestand uploaden of delen is niet toegestaan, omdat het bestand een DRM-beveiliging heeft!"</string>
+	<!---->
+	<string name="not_add_more_recipients">"Kan niet meer dan <xliff:g id="maxLimit">%1$d</xliff:g> ontvangers tegelijk toevoegen."</string>
+	<!---->
+	<string name="global_search_label">"E-mail"</string>
+	<!---->
+	<string name="global_search_hint">"Zoeken in e-mail"</string>
+	<!---->
+	<string name="global_search_description">"Afzenders, onderwerpen en hoofdteksten"</string>
+	<!---->
+	<string name="remote_search_failed">"Server zoeken is mislukt."</string>
+	<!---->
+	<string name="searching_on_server">"Zoeken op de server"</string>
+	<!---->
+	<string name="searching_on_server_title">"\"<xliff:g id="account_name">%s</xliff:g>\" zoeken op de server"</string>
+	<!---->
+	<string name="searching_all_fields_on_sever">"Zoeken in alle velden op server"</string>
+	<!---->
+	<string name="search_field_subject">"Onderwerp"</string>
+	<!---->
+	<string name="search_field_receiver">"Ontvanger"</string>
+	<!---->
+	<string name="search_field_sender">"Afzender"</string>
+	<!---->
+	<string name="search_field_body">"Hoofdtekst"</string>
+	<!---->
+	<string name="search_field_all">"Alle"</string>
+	<!---->
+	<string name="search_field_attachment">"Bijlagen"</string>
+	<!---->
+	<string name="select_all">"Alles selecteren"</string>
+	<!---->
+	<string name="deselect_all">"Alle selecties opheffen"</string>
+	<!---->
+	<string name="need_wifi_connection_prompt">"U hebt een netwerkverbinding nodig om deze toepassing te gebruiken. Schakel mobiele netwerken of Wi-Fi bij Instellingen in."</string>
+	<!---->
+	<string name="account_setup_names_account_name_des_label">"optioneel"</string>
+	<!---->
+	<string name="account_setup_names_user_name_des_label">"weergegeven in uitgaande berichten"</string>
+	<!---->
+	<string name="finish_action">"Voltooien"</string>
+	<!---->
+	<string name="copy_email">"E-mailadres kopiëren"</string>
+	<!---->
+	<string name="out_of_office_syncing">"Instellingen voor afwezigheidsbericht synchroniseren"</string>
+	<!---->
+	<string name="out_of_office_fail">"Instellingen voor afwezigheidsbericht synchroniseren is mislukt."</string>
+	<!---->
+	<string name="out_of_office_success">"Instellingen voor afwezigheidsbericht synchroniseren is voltooid."</string>
+	<!---->
+	<string name="manual_sync_when_roaming">"Synchroniseren tijdens roaming"</string>
+	<!---->
+	<string name="manual_sync_when_roaming_summery">"Alleen handmatig vernieuwen"</string>
+	<!---->
+	<string name="manual_sync_when_roaming_toast">"Veeg omlaag om handmatig te vernieuwen tijdens het roamen"</string>
+	<!---->
+	<string name="manual_sync_when_roaming_refresh">"Vernieuwen"</string>
+	<!---->
+	<string name="server_rule_can_not_change">"Serverregels kunnen niet worden gewijzigd"</string>
+	<!---->
+	<string name="server_rules">"Serverregels"</string>
+	<!---->
+	<string name="confirm_forward_message">"Niet alle bestanden zijn gedownload. Doorsturen zonder bestanden te downloaden?"</string>
+	<!---->
+	<string name="confirm_forward_cancel">"Annuleren"</string>
+	<!---->
+	<string name="confirm_forward_drop_unload_attachment">"Doorsturen"</string>
+	<!---->
+	<string name="mail_not_download_completely">"Wacht tot het downloaden is voltooid"</string>
+	<!---->
+	<string name="account_settings_inline_images_lable">"Afbeelding"</string>
+	<!---->
+	<string name="account_settings_inline_always_show">"Altijd weergeven"</string>
+	<!---->
+	<string name="account_settings_inline_ask_before_show">"Vragen voor weergeven"</string>
+	<!---->
+	<string name="conversation_time_after_today">"Na vandaag"</string>
+	<!---->
+	<string name="conversation_time_today">"Vandaag"</string>
+	<!---->
+	<string name="conversation_time_yesterday">"Gisteren"</string>
+	<!---->
+	<string name="conversation_time_this_month">"Deze maand"</string>
+	<!---->
+	<string name="conversation_time_elapse_just_now">"Nu net"</string>
+	<!---->
+	<string name="conversation_time_elapse_minute">"<xliff:g id="COUNT">%d</xliff:g> min."</string>
+	<!---->
+	<string name="message_in_queued_status">"In wachtrij"</string>
+	<plurals name="send_failed_messages">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> e-mail niet verzonden"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> e-mails niet verzonden"</item>
+	</plurals>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_label">"Agenda’s synchroniseren van"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_2weeks">"Twee weken"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_1month">"Eén maand"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_3months">"Drie maanden"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_6months">"Zes maanden"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_all">"Alles"</string>
+	<!---->
+	<string name="no_permission_to_open_file">"Opslagtoegang is vereist om dit bestand te openen"</string>
+	<!---->
+	<string name="conversation_update_time_text">"Laatst bijgewerkt:"</string>
+	<!---->
+	<string name="conversation_update_unknown_time_stamp">"Onbekend"</string>
+	<!---->
+	<string name="conversation_time_elapse_today">"Vandaag"</string>
+	<!---->
+	<string name="save_to_attachment">"Opslaan in"</string>
+	<!---->
+	<string name="download_settings_title">"Bijlage opslaan"</string>
+	<!---->
+	<string name="download_edit_filename_label">"Naam"</string>
+	<!---->
+	<string name="download_filepath_label">"Pad"</string>
+	<!---->
+	<string name="download_file_size">"Grootte"</string>
+	<!---->
+	<string name="download_time_needed">"Tijd"</string>
+	<!---->
+	<string name="download_cancel">"Annuleren"</string>
+	<!---->
+	<string name="download_start">"OK"</string>
+	<!---->
+	<string name="unknown_length">"Onbekend"</string>
+	<!---->
+	<string name="time_min">"min"</string>
+	<!---->
+	<string name="open_file_manager_failed">"Kan Bestandsbeheer niet openen"</string>
+	<!---->
+	<string name="attachment_not_saved">"Bijlage niet opgeslagen"</string>
+	<!---->
+	<string name="sync_calendar_title">"Kan Agenda niet synchroniseren"</string>
+	<!---->
+	<string name="sync_calendar_content">"Als u wilt synchroniseren, moet u Exchange-services toegang geven tot Agenda"</string>
+	<!---->
+	<string name="sync_contacts_title">"Kan Contacten niet synchroniseren"</string>
+	<!---->
+	<string name="sync_contacts_content">"Als u wilt synchroniseren, moet u Exchange-services toegang geven tot Contacten"</string>
+	<!---->
+	<string name="notification_never_ask_again">"Nooit meer vragen"</string>
+	<!---->
+	<string name="sync_storage_title">"Kan bijlage niet opslaan"</string>
+	<!---->
+	<string name="sync_storage_content">"Als u wilt opslaan, moet u Exchange-services toegang geven tot opslag"</string>
+	<!---->
+	<string name="oof_continue">"Doorgaan"</string>
+	<!---->
+	<string name="permission_needed_to_add_attachments">"Om bijlagen toe te voegen, geef E-mail toestemming voor toegang tot opslag"</string>
+	<!---->
+	<string name="permission_needed_to_check_ringtone">"Als u de beltoon wilt controleren, geeft u E-mail toegang tot de opslag"</string>
+	<!---->
+	<string name="add_folder_as_attachment_fail_tips">"Kan geen map toevoegen als bijlage"</string>
+	<!---->
+	<string name="choose_action_title">"Actie selecteren"</string>
+	<!---->
+	<string name="choose_action_contact">"Contact toevoegen: <xliff:g example="4" id="email_address">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="choose_action_email">"E-mail: <xliff:g example="4" id="email_address">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="choose_action_message">"Bericht: <xliff:g example="4" id="email_address">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="account_setup_basics_exit_action">"Afsluiten"</string>
+</resources>

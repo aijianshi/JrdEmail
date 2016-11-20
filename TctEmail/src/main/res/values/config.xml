@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+ ==========================================================================
+ *HISTORY
+ *
+ *Tag              Date          Author          Description
+ *============== ============ =============== ==============================
+ *CONFLICT-50001 2014/10/08   zhaotianyong      Modify the resource conflict
+ *Porting-622609 2014/10/27   lixl            Porting from kk8926
+ *Porting-765508 2014/10/27   zhaotianyong    Porting from kk8926
+ *Porting-631895 2014/10/27   zhaotianyong    Porting from kk8916
+ *Porting-400015 2014/11/5   wenggangjin      Modify the resource conflict
+ *Porting-400016 2014/11/5   wenggangjin      Modify the resource conflict
+ *Porting-400017 2014/11/5   wenggangjin      Modify the resource conflict
+ *Porting-400018 2014/11/5   wenggangjin      Modify the resource conflict
+ *Porting-400018 2014/11/5   wenggangjin      Modify the resource conflict
+ *BUGFIX-845676  2014/11/21  wenggangjin      [Android5.0][Email]Can't check the "Default account" in Email settings
+ *BUGFIX-862341  2014/12/11  zhaotianyong     [Android5.0][Email] No Contacts entrance when creating a new mail
+ *BUGFIX-869494  2014/12/31   zhaotianyong    [Android5.0][Email][UE] Show attachments on top screen.
+ *BUGFIX-923792  2015/2/6     junwei-xu      [HOMO][TMO DT varaint 61562]The download attachments option was selected by default without user interaction.
+ *BUGFIX-1071056 2015/08/19   jian.xu         [HOMO]Default Email settings should be changed.
+ *BUGFIX-1072139 2015/09/01   junwei-xu       [HOMO][O2 UK][Email] Make top-level domains ("com", "org", "info", "de") country codes not relevant.
+ *Task_1190494   2015/12/18   jian.xu         Shortest Allowed Polling Interval
+ ============================================================================
+ -->
+<resources>
+  <!--TS: ADD by zhaotianyong for CONFLICT_50001 START -->
+  <!-- If true, thumbnails will be forcibly set to ScaleType.CENTER -->
+  <bool name="force_thumbnail_no_scaling">true</bool>
+  <!--TS: ADD by zhaotianyong for CONFLICT_50001 END -->
+
+  <!--TS: ADD by zhaotianyong for Porting 765508 START -->
+  <!--TS: wenggangjin 2014-11-21 EMAIL BUGFIX_845676 MOD_S-->
+  <bool name="feature_email_defaultAccount_on">false</bool>
+  <!--TS: wenggangjin 2014-11-21 EMAIL BUGFIX_845676 MOD_E-->
+  <bool name="feature_email_removeAccount_on">false</bool>
+  <!--TS: ADD by zhaotianyong for Porting 765508 END -->
+
+  <!-- TS: ADD by zhaotianyong for Porting 631895 START whether to add downlaod options for email -->
+  <bool name="feature_email_downloadOptions_on">false</bool>
+  <!-- TS: ADD by zhaotianyong for Porting 631895 END -->
+
+  <!--TS: ADD by lixl for Porting 622609 START -->
+  <bool name="feature_email_orangeImap_on">false</bool>
+  <!--TS: ADD by lixl for Porting 622609 END -->
+
+  <!--TS: ADD by wenggangjin for Modify the resource conflict 400015 START -->
+  <bool name="feature_email_sfrImap_on">false</bool>
+  <!--TS: ADD by wenggangjin for Modify the resource conflict 400015 END -->
+
+  <!--TS: ADD by wenggangjin for Modify the resource conflict 400016 START -->
+  <bool name="feature_email_localizedDateTime_on">false</bool>
+  <!--TS: ADD by wenggangjin for Modify the resource conflict 400016 END -->
+
+  <!--TS: ADD by wenggangjin for Modify the resource conflict 400017 START -->
+  <bool name="feature_email_proxy_on">true</bool>
+  <!--TS: ADD by wenggangjin for Modify the resource conflict 400017 END -->
+
+  <!--TS: ADD by wenggangjin for Modify the resource conflict 400018 START -->
+  <bool name="feature_email_spamQuarantaineIsJunkFolder_on">true</bool>
+  <!--TS: ADD by wenggangjin for Modify the resource conflict 400018 END -->
+
+  <!--TS: ADD by wenggangjin for Modify the resource conflict 400019 START -->
+  <bool name="feature_email_priority_on">true</bool>
+  <!--TS: ADD by wenggangjin for Modify the resource conflict 400019 END -->
+  <bool name="feature_email_oof_on">false</bool>
+  <bool name="feature_email_account_list_on">false</bool>
+  <bool name="feature_email_recipients_picker_on">true</bool><!-- TS: zhaotianyong 2014-12-11 EMAIL BUGFIX-862341 MOD_S-->
+  <bool name="feature_email_search_enhance_on">false</bool>
+  <!--TS: DEL by lixl for PLF START -->
+  <!-- <bool name="def_Email_settings_remove_account_display">false</bool>  -->
+  <!--TS: DEL by lixl for PLF END -->
+  <bool name="feature_email_show_remain_msg_on">false</bool>
+  <bool name="feature_email_exchangeAutoSetup_on">true</bool>
+  <bool name="feature_tctfw_SyncTip_on">false</bool>
+  <bool name="feature_email_accountGermanSignature_on">true</bool>
+  <!-- TS: xiaolin.li 2014-12-10 EMAIL READ_PLF MOD_S -->
+  <bool name="feature_email_send_launcher_unread_on">true</bool>
+  <!-- TS: xiaolin.li 2014-12-10 EMAIL READ_PLF MOD_E -->
+  <bool name="feature_email_show_attachments_on_top">true</bool><!-- TS: zhaotianyong 2014-12-31 EMAIL BUGFIX-869494 ADD-->
+  <bool name="feature_email_TmoProvisionEmail_on">false</bool><!-- TS: zhaotianyong 2015-02-05 EMAIL BUGFIX-924451 ADD-->
+  <bool name="feature_exchange_download_attachment_wifi_on">true</bool><!-- TS: junwei-xu 2015-2-6 EXCHANGE BUGFIX-923792 ADD-->
+  <bool name="def_Email_download_option">true</bool><!-- TS: jian.xu 2015-08-19 Email BUGFIX-1071056 ADD-->
+  <!-- TS: jian.xu 2015-10-09 Email FEATURE-1096744 ADD_S-->
+  <bool name="feature_email_syncCalendarScope_on">true</bool>
+  <!-- TS: jian.xu 2015-10-09 Email FEATURE-1096744 ADD_E-->
+  <bool name="feature_email_associate_prompt_on">true</bool><!-- TS: junwei-xu 2015-09-01 Email BUGFIX-1072139 ADD-->
+  <bool name="def_email_manualEditAfterPasswordFailed_on">false</bool>
+
+  <!-- TS: Gantao 2015-10-30 EMAIL FEATURE_1104470 ADD_S -->
+  <bool name="feature_email_save_group">false</bool>
+  <!-- TS: Gantao 2015-10-30 EMAIL FEATURE_1104470 ADD_E -->
+
+  <!-- Gantao 2015-12-16 EMAIL BUGFIX_1171140 ADD_S -->
+  <bool name="feature_email_select_all">true</bool>
+  <!-- Gantao 2015-12-16 EMAIL BUGFIX_1171140 ADD_E -->
+  <!-- TS: jian.xu 2015-12-18 EMAIL Task_1190494 ADD_S -->
+  <bool name="feature_email_deleteFiveOrTenMinutes_on">false</bool>
+  <!-- TS: jian.xu 2015-12-18 EMAIL Task_1190494 ADD_E -->
+
+  <!--TS: tao.gan 2015-12-25 EMAIL FEATURE-1239148 ADD_S-->
+  <bool name="feature_email_reply_to">false</bool>
+  <!--TS: tao.gan 2015-12-25 EMAIL FEATURE-1239148 ADD_E-->
+  <bool name="feature_email_lastUpdateTime_on">false</bool><!-- TS: yanhua.chen 2015-10-28 EMAIL FR_1098700 ADD -->
+
+  <bool name="def_enable_email_message_list_sorting">false</bool>   <!--TS: zheng.zou 2016-01-14 EMAIL TASK-1431225 ADD-->
+  <bool name="feature_email_saveAttachmentLocationSelectable_on">false</bool><!-- TS: jian.xu 2016-01-20 EMAIL FEATURE-1477377 ADD -->
+  <bool name="feature_email_provideActionOptionsForMailAddress_on">false</bool><!-- TS: rong-tang 2016-04-19 EMAIL BUGFIX-1951808 ADD -->
+  <bool name="feature_platform_464gCKT_on">false</bool>
+</resources>

@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2011 Google Inc.
+     Licensed to The Android Open Source Project.
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+| ============================================================================ |
+|      Modifications on Features list / Changes Request / Problems Report      |
+| **************************************************************************** |
+|    date   |        author        |         Key          |      comment       |
+| **********|**********************|**********************|******************* |
+| 05/28/2014|     zhonghua.tuo     |      FR 670064       |email search funct- |
+|           |                      |                      |ion                 |
+| **********|**********************|**********************|******************* |
+================================================================================
+-->
+<!--
+==========================================================================
+ *HISTORY
+ *
+ *Tag            Date              Author        Description
+ *============== ============ =============== ==============================
+ *BUGFIX-922163  2015/2/12    junwei-xu       [5.0][Email][UI] sub-folder tag not aligned with icon
+ *BUGFIX-948086  2015/3/15    ke.ma           [5.0][Email][GD] folder number CR
+ *CR-540045      2015/9/1     yanhua.chen     Compose ui adjustment
+ *BUGFIX-526255  2015-09-01   zheng.zou       CR:swipe to delete or star unstar email
+ *BUGFIX-539892  2015-09-01   zheng.zou       CR:in email list view, group email with time range and show time range in column
+ *CR_585337      2015-09-16   chao.zhang      Exchange Email resend mechanism
+ *FEATURE-834751 2015/10/28   jian.xu         Use different color to distinguish each account when in combined view mode
+ *BUGFIX-1163942 2015/12/16   junwei-xu       [Android 6.0][Email][UE] Hard to touch 'Touch to display' icon.
+ *BUGFIX-1270053 2016/01/04   kaifeng.lu      [Andorid 6.0][Email][Ergo]The subject font is different from Ergo
+ *===========================================================================
+-->
+<resources>
+    <dimen name="account_avatar_dimension">48dp</dimen>
+    <!--TS: jian.xu 2015-10-28 EMAIL FEATURE-834751 ADD_S-->
+    <dimen name="account_color_block_dimension">36dp</dimen>
+    <dimen name="account_color_block_radius_dimension">8dp</dimen>
+    <!--TS: jian.xu 2015-10-28 EMAIL FEATURE-834751 ADD_E-->
+    <!--TS: junwei-xu 2015-12-16 EMAIL BUGFIX-1163942 ADD_S-->
+    <dimen name="show_or_hide_password_width">24dp</dimen>
+    <dimen name="show_or_hide_password_height">24dp</dimen>
+    <dimen name="show_or_hide_password_padding">3dp</dimen>
+    <!--TS: junwei-xu 2015-12-16 EMAIL BUGFIX-1163942 ADD_E-->
+    <dimen name="drawer_width">300dp</dimen>
+    <dimen name="two_pane_drawer_width_mini">72dp</dimen>
+    <dimen name="two_pane_drawer_width_open">288dp</dimen>
+    <dimen name="two_pane_tl_side">24dp</dimen>
+    <dimen name="two_pane_tl_top">16dp</dimen>
+    <dimen name="list_min_width_is_wide">720dp</dimen>
+    <dimen name="senders_font_size">18sp</dimen>
+    <dimen name="attachment_tile_min_size">120dp</dimen>
+    <dimen name="attachment_tile_max_size">164dp</dimen>
+    <dimen name="attachment_tile_padding">8dp</dimen>
+    <dimen name="compose_scrollview_max_width">768dp</dimen>
+    <dimen name="color_block_width">32dip</dimen>
+    <dimen name="color_block_height">6dip</dimen>
+    <!-- The star is pretty small and does not have padding anymore, so the slop needs to be bigger-->
+    <dimen name="star_touch_slop">16dip</dimen>
+    <dimen name="sender_image_touch_slop">8dip</dimen>
+    <dimen name="standard_scaled_dimen">100sp</dimen>
+
+    <!-- TL folder chips -->
+    <dimen name="folders_text_bottom_padding">3dp</dimen>
+    <dimen name="folder_cell_content_padding">6dp</dimen>
+    <dimen name="folders_start_padding">6dp</dimen>
+    <dimen name="folders_gradient_padding">8dp</dimen>
+
+    <dimen name="conversation_page_gutter">16dp</dimen>
+    <dimen name="conversation_message_content_margin_side">16dp</dimen>
+    <dimen name="conversation_view_margin_side">16dp</dimen>
+    <dimen name="conversation_header_font_size">20sp</dimen>
+    <dimen name="conversation_header_padding_side">16dp</dimen>
+    <dimen name="conversation_header_star_size">52dp</dimen>
+    <dimen name="conversation_border_margin_side">0dp</dimen>
+    <dimen name="conversation_folder_font_size">12sp</dimen>
+    <dimen name="conversation_folder_padding">1dp</dimen>
+    <dimen name="conversation_folder_padding_extra_width">8dp</dimen>
+    <dimen name="conversation_folder_padding_after">8dp</dimen>
+    <dimen name="folder_rounded_corner_radius">1dp</dimen>
+    <dimen name="conversation_folder_margin_top">6dp</dimen>
+    <dimen name="message_details_header_padding_start_expanded">72dip</dimen>
+    <dimen name="message_details_header_padding_end">16dp</dimen>
+    <dimen name="message_details_header_vertical_padding">7dp</dimen>
+    <dimen name="message_show_pics_header_padding_end">14dip</dimen>
+    <dimen name="message_header_icon_additional_margin_start">16dp</dimen>
+    <dimen name="message_header_action_button_width">48dp</dimen>
+    <dimen name="message_header_action_button_height">48dp</dimen>
+    <dimen name="message_header_action_button_margin_top">0dp</dimen>
+    <dimen name="message_sender_name_text_size">16sp</dimen>
+    <dimen name="message_header_subtitle_text_size">14sp</dimen>
+    <dimen name="message_header_small_text_size">12sp</dimen>
+    <dimen name="message_header_text_margin_top">14dp</dimen>
+    <dimen name="message_header_margin_bottom">12dp</dimen>
+    <dimen name="super_collapsed_height">30sp</dimen>
+    <dimen name="super_collapsed_text_size">16sp</dimen>
+    <dimen name="super_collapsed_stroke_margin_start">0dp</dimen>
+    <dimen name="notification_view_height">36dp</dimen>
+    <dimen name="contact_image_width">40dp</dimen>
+    <dimen name="contact_image_height">40dp</dimen>
+    <dimen name="message_header_icon_margin">16dp</dimen>
+    <dimen name="message_header_inner_side_padding">16dp</dimen>
+    <dimen name="attachment_toast_yoffset">-100dip</dimen>
+    <dimen name="floating_action_bar_margin">16dp</dimen>
+    <dimen name="snack_bar_margin_horizontal">24dp</dimen>
+    <dimen name="snack_bar_margin_vertical">14dp</dimen>
+    <dimen name="folder_selection_margin_start">16dp</dimen>
+    <dimen name="folder_selection_margin_end">24dp</dimen>
+    <dimen name="folder_list_heading_padding_side">16dp</dimen>
+    <dimen name="folder_list_heading_padding_bottom">8dp</dimen>
+    <!--TS: xinlei.sheng 2016-01-04 EMAIL BUGFIX-1270229 MOD_S-->
+    <dimen name="folder_list_heading_padding_top">8dp</dimen>
+    <!--TS: xinlei.sheng 2016-01-04 EMAIL BUGFIX-1270229 MOD_E-->
+    <dimen name="folder_list_item_start_margin">16dp</dimen>
+    <dimen name="folder_list_item_text_start_margin">32dp</dimen>
+    <dimen name="folder_list_item_end_margin">8dp</dimen>
+    <!-- Let's try to keep this consistent with color_block_height above, unless there's a good reason not to. -->
+    <dimen name="folder_swatch_height">6dip</dimen>
+    <dimen name="folder_list_popup_width">200dip</dimen>
+    <dimen name="folder_list_folder_color_width">36dip</dimen>
+    <dimen name="folder_list_item_minimum_height">48dip</dimen>
+    <dimen name="folder_list_item_left_offset">9dp</dimen>
+    <dimen name="account_item_margin_start">14dp</dimen>
+    <dimen name="account_item_margin_end">8dp</dimen>
+    <dimen name="account_item_minimum_height">48dip</dimen>
+    <dimen name="account_item_swatch_height">8dip</dimen>
+    <dimen name="account_item_folder_color_width">36dip</dimen>
+    <dimen name="drawer_footer_item_padding">16dp</dimen>
+    <dimen name="drawer_footer_text_padding_start">32dp</dimen>
+    <dimen name="drawer_footer_item_minimum_height">48dp</dimen>
+    <dimen name="drawer_item_font_size">16sp</dimen>
+    <dimen name="widget_subject_font_size">13sp</dimen>
+    <dimen name="widget_date_font_size">12sp</dimen>
+    <dimen name="widget_margin_top">0dip</dimen>
+    <dimen name="widget_margin_left">0dip</dimen>
+    <dimen name="widget_margin_right">0dip</dimen>
+    <dimen name="widget_margin_bottom">0dip</dimen>
+    <dimen name="search_view_width">1000dip</dimen>
+    <dimen name="wait_padding">16dp</dimen>
+    <integer name="chips_max_lines">2</integer>
+    <dimen name="tile_letter_font_size">24dp</dimen>
+    <dimen name="tile_letter_font_size_small">16dp</dimen>
+    <dimen name="tile_divider_width">1dp</dimen>
+    <dimen name="dismiss_button_padding_start">20dip</dimen>
+    <dimen name="dismiss_button_padding_end">28dip</dimen>
+    <dimen name="checked_text_padding">16dip</dimen>
+    <dimen name="send_mail_as_padding">8dip</dimen>
+    <dimen name="undo_text_padding">24dip</dimen><!--  TS: tao.gan 2015-07-31 EMAIL FEATURE_1055835 MOD -->
+    <dimen name="dismiss_separator_padding">16dip</dimen>
+    <dimen name="teaser_text_padding">16dip</dimen>
+    <dimen name="attachment_padding_start">16dp</dimen>
+    <dimen name="attachment_padding_end">16dp</dimen>
+    <dimen name="attachment_icon_padding">5dip</dimen>
+    <dimen name="recipient_summary_margin">16dip</dimen>
+    <dimen name="undo_notification_margin_left">16dp</dimen><!--  TS: tao.gan 2015-07-31 EMAIL FEATURE_1055835 ADD -->
+
+    <!-- Minimum width of the folder teaser count TextView -->
+    <dimen name="folder_teaser_count_textview_minwidth">68dp</dimen>
+
+    <dimen name="compose_attachment_text_padding">8dip</dimen>
+
+    <dimen name="toast_bar_margin">4dip</dimen>
+
+    <dimen name="vacation_responder_width">800dip</dimen>
+    <dimen name="vacation_responder_padding_vertical">16dip</dimen>
+    <dimen name="vacation_responder_padding_horizontal">16dip</dimen>
+    <dimen name="vacation_responder_padding_horizontal_wide">80dip</dimen>
+    <dimen name="vacation_responder_inner_padding">12dip</dimen>
+    <dimen name="vacation_responder_padding_between_date_spinners">8dip</dimen>
+
+    <dimen name="new_message_button_padding">24dip</dimen>
+
+    <dimen name="message_attachment_bar_padding">8dip</dimen>
+
+    <dimen name="widget_senders_padding_end">16dip</dimen>
+    <dimen name="widget_attachment_padding_end">8dp</dimen>
+
+    <dimen name="search_results_padding">16dp</dimen>
+    <dimen name="search_banner_text_size">12sp</dimen>
+
+    <!-- conversation list dimensions -->
+    <dimen name="conv_list_padding">16dip</dimen>
+    <dimen name="conv_list_card_border_padding">8dip</dimen>
+    <dimen name="conv_list_no_border_padding">0dip</dimen>
+    <dimen name="conv_list_contact_image_padding_end">16dp</dimen>
+    <dimen name="conv_list_reply_state_padding_end">8dip</dimen>
+    <dimen name="conv_list_personal_indicator_padding_start">-2dip</dimen>
+    <dimen name="conv_list_personal_indicator_padding_end">2dip</dimen>
+    <dimen name="conv_list_info_icon_padding_start">4dip</dimen>
+    <dimen name="conv_list_date_padding_start">8dip</dimen>
+    <dimen name="conv_list_paperclip_padding_start">6dip</dimen>
+    <dimen name="conv_list_star_padding_start">8dp</dimen>
+    <dimen name="conv_list_status_padding_start">6dip</dimen>   <!-- TS: chao.zhang 2015-09-14 EMAIL FEATURE-585337 ADD_S -->
+
+    <dimen name="conv_list_wide_padding_start">20dip</dimen>
+    <dimen name="conv_list_wide_padding_end">32dip</dimen>
+    <dimen name="conv_list_wide_contact_image_padding_end">20dip</dimen>
+    <dimen name="conv_list_wide_personal_indicator_padding_end">8dip</dimen>
+    <dimen name="conv_list_wide_star_padding_start">32dip</dimen>
+    <dimen name="conv_list_wide_color_block_padding_end">64dip</dimen>
+    <dimen name="conv_list_divider_inset">72dp</dimen>
+
+    <dimen name="conv_list_spacious_padding_start">22dip</dimen>
+    <dimen name="conv_list_spacious_padding_end">16dip</dimen>
+    <dimen name="conv_list_spacious_contact_image_padding_end">16dip</dimen>
+    <dimen name="conv_list_spacious_star_padding_end">-8dip</dimen>
+    <dimen name="conv_list_leavebehind_icon_padding">25dip</dimen>    <!-- TS: zheng.zou 2015-0-01 EMAIL BUGFIX_526255 ADD -->
+    <!-- TS: zheng.zou 2015-0-01 EMAIL BUGFIX_539892 ADD_S -->
+    <dimen name="conv_list_time_column_mini_height">48dip</dimen>
+    <dimen name="conv_list_time_column_font_size">12sp</dimen>
+    <!-- TS: zheng.zou 2015-0-01 EMAIL BUGFIX_539892 ADD_E -->
+
+    <dimen name="badge_padding_extra_width">6dip</dimen>
+    <dimen name="badge_rounded_corner_radius">2dip</dimen>
+
+    <dimen name="custom_from_inner_padding">6dip</dimen>
+
+    <dimen name="compose_attachment_tile_text_end_padding">4dip</dimen>
+
+    <!-- TS: junwei-xu 2015-1-12 EMAIL BUGFIX_922163 MOD_S -->
+    <dimen name="folder_teaser_start_padding">20dp</dimen>
+    <!-- TS: junwei-xu 2015-1-12 EMAIL BUGFIX_922163 MOD_E -->
+    <!-- TS: ke.ma 2015-3-15 EMAIL BUGFIX_948086 MOD_S -->
+    <dimen name="folder_teaser_end_padding">64dp</dimen>
+    <!-- TS: ke.ma 2015-3-15 EMAIL BUGFIX_948086 MOD_E -->
+
+    <dimen name="folder_teaser_label_start_padding">16dp</dimen>
+    <dimen name="folder_teaser_label_end_padding">16dp</dimen>
+
+    <dimen name="teaser_arrow_margin_start">16dip</dimen>
+    <dimen name="teaser_arrow_margin_end">12dip</dimen>
+
+    <dimen name="empty_view_text_width">228dip</dimen>
+    <dimen name="empty_view_text_size">22sp</dimen>
+    <dimen name="empty_view_space">16dip</dimen>
+
+    <dimen name="avatar_border_width">.5dp</dimen>
+    <dimen name="progress_bar_height">12dp</dimen>
+
+    <dimen name="undo_description_padding">16dip</dimen>
+    <dimen name="undo_icon_padding_start">12dip</dimen>
+    <dimen name="undo_icon_padding_end">8dip</dimen>
+
+    <!-- The width of the wearable image background. -->
+    <dimen name="wearable_background_width">320dp</dimen>
+    <!-- The height of the wearable image background. -->
+    <dimen name="wearable_background_height">320dp</dimen>
+
+    <dimen name="compose_wrapper_top_padding">0dp</dimen>
+    <dimen name="compose_wrapper_side_padding">0dp</dimen>
+    <dimen name="compose_header_btn_padding">8dp</dimen>
+    <dimen name="compose_header_min_height">56dp</dimen>
+    <dimen name="compose_header_text_size">16sp</dimen>
+    <dimen name="compose_area_start_padding">0dp</dimen>
+    <dimen name="compose_area_end_padding">0dp</dimen>
+    <dimen name="compose_content_start_padding">16dp</dimen>
+    <dimen name="compose_content_end_padding">16dp</dimen>
+    <dimen name="quoted_text_checkbox_margin_offset">-6dp</dimen>
+    <dimen name="compose_subject_text_size">14sp</dimen><!-- TS: kaifeng.lu 2016-01-04 EMAIL BUGFIX_1270053 ADD -->
+    <dimen name="chip_wrapper_start_padding">72dp</dimen>
+
+    <!-- Standard height for all dividers -->
+    <dimen name="divider_height">0.5dp</dimen>
+
+    <dimen name="account_item_name_start_padding">16dp</dimen>
+    <dimen name="account_item_name_end_padding">8dp</dimen>
+    <!--[FEATURE]-Add-BEGIN by TSCD.zhonghua.tuo,05/28/2014,FR 487417-->
+    <dimen name="local_search_header_height">45dp</dimen>
+    <!--[FEATURE]-Add-END by TSCD.zhonghua.tuo-->
+    <!-- TS: yanhua.chen 2015-9-1 EMAIL CR_540045 ADD_S -->
+    <dimen name="compose_picker_margin_right">14dp</dimen>
+    <dimen name="compose_picker_margin_left">2dp</dimen>
+    <dimen name="compose_picker_margin_top">16dp</dimen>
+    <!-- TS: yanhua.chen 2015-9-1 EMAIL CR_540045 ADD_E -->
+
+    <!-- TS: Gantao 2016-01-31 EMAIL BUGFIX-1538961 ADD_S -->
+    <dimen name="oof_each_item_height">36dp</dimen>
+    <!-- TS: Gantao 2016-01-31 EMAIL BUGFIX-1538961 ADD_E -->
+    <!--TS: chao-zhang 2016-03-12 EMAIL BUGFIX-1778170 ADD_S-->
+    <integer name="subject_max_length">1000</integer>
+    <!--TS: chao-zhang 2016-03-12 EMAIL BUGFIX-1778170 ADD_S-->
+</resources>

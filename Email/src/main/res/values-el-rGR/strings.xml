@@ -1,0 +1,1747 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Tue Sep 20 16:24:06 CST 2016
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="permission_read_attachment_label">"Ανάγνωση επισυνάψεων μηνύματος email"</string>
+	<!---->
+	<string name="permission_read_attachment_desc">"Επιτρέπει στην εφαρμογή την ανάγνωση των συνημμένων email."</string>
+	<!---->
+	<string name="permission_access_provider_label">"Πρόσβαση στα δεδομένα παρόχου email"</string>
+	<!---->
+	<string name="permission_access_provider_desc">"Επιτρέπει στην εφαρμογή να έχει πρόσβαση στη βάση δεδομένων του email σας, συμπεριλαμβανομένων των ληφθέντων μηνυμάτων, των απεσταλμένων, των ονομάτων χρηστών και των κωδικών πρόσβασης."</string>
+	<!---->
+	<string name="debug_title">"Εντοπισμός σφαλμάτων"</string>
+	<!---->
+	<string name="next_action">"Επόμενο"</string>
+	<!---->
+	<string name="okay_action">"OK"</string>
+	<!---->
+	<string name="cancel_action">"Ακύρωση"</string>
+	<!---->
+	<string name="previous_action">"Προηγούμενο"</string>
+	<!---->
+	<string name="done_action">"Τέλος"</string>
+	<!---->
+	<string name="create_action">"Δημιουργία νέου"</string>
+	<!---->
+	<string name="quick_responses_empty_view">"Δεν υπάρχουν γρήγορες απαντήσεις."</string>
+	<!---->
+	<string name="account_settings_action">"Ρυθμίσεις λογαριασμού"</string>
+	<!---->
+	<string name="status_network_error">"Πρόβλημα σύνδεσης."</string>
+	<plurals name="move_messages">
+		<item quantity="one">"Μετακίνηση μηνύματος"</item>
+		<item quantity="other">"Μετακίνηση μηνυμάτων"</item>
+	</plurals>
+	<!---->
+	<string name="cannot_move_protocol_not_supported_toast">"Η μετακίνηση δεν υποστηρίζεται σε λογαριασμούς POP3."</string>
+	<!---->
+	<string name="cannot_move_multiple_accounts_toast">"Δεν είναι δυνατή η μετακίνηση επειδή η επιλογή περιλαμβάνει πολλούς λογαριασμούς."</string>
+	<!---->
+	<string name="cannot_move_special_mailboxes_toast">"Δεν είναι δυνατή η μετακίνηση των μηνυμάτων στα Πρόχειρα, τα Εξερχόμενα και τα Απεσταλμένα."</string>
+	<!---->
+	<string name="mailbox_name_display_inbox">"Εισερχόμενα"</string>
+	<!---->
+	<string name="mailbox_name_display_outbox">"Εξερχόμενα"</string>
+	<!---->
+	<string name="mailbox_name_display_drafts">"Πρόχειρα"</string>
+	<!---->
+	<string name="mailbox_name_display_trash">"Κάδος απορριμμάτων"</string>
+	<!---->
+	<string name="mailbox_name_display_sent">"Απεσταλμένα"</string>
+	<!---->
+	<string name="mailbox_name_display_junk">"Ανεπιθύμητα"</string>
+	<!---->
+	<string name="mailbox_name_display_starred">"Με αστέρι"</string>
+	<!---->
+	<string name="mailbox_name_display_unread">"Αδιάβ."</string>
+	<!---->
+	<string name="account_folder_list_summary_inbox">"Εισερχόμενα"</string>
+	<!---->
+	<string name="account_folder_list_summary_starred">"Με αστέρι"</string>
+	<!---->
+	<string name="account_folder_list_summary_drafts">"Πρόχειρα"</string>
+	<!---->
+	<string name="account_folder_list_summary_outbox">"Εξερχόμενα"</string>
+	<!---->
+	<string name="mailbox_list_account_selector_combined_view">"Συνδυασμένη προβολή"</string>
+	<!---->
+	<string name="message_compose_fwd_header_fmt">"\n\n"-------- Αρχικό μήνυμα --------"\n"Θέμα: <xliff:g id="SUBJECT">%1$s</xliff:g>"\n"Από: <xliff:g id="SENDER">%2$s</xliff:g>"\n"Προς: <xliff:g id="TO">%3$s</xliff:g>"\n"Κοιν.: <xliff:g id="CC_0">%4$s</xliff:g>"\n\n"</string>
+	<!---->
+	<string name="message_compose_insert_quick_response_list_title">"Εισάγετε γρήγορη απάντηση"</string>
+	<!---->
+	<string name="message_compose_insert_quick_response_menu_title">"Εισαγωγή γρήγ. απάντησης"</string>
+	<!---->
+	<string name="message_view_attachment_background_load">"Ένα ή περισσότερα συνημμένα στο προωθημένο μήνυμά σας θα ληφθούν πριν την αποστολή."</string>
+	<!---->
+	<string name="attachment_not_found">"Δεν ήταν δυνατή η λήψη αυτής της επισύναψης."</string>
+	<!---->
+	<string name="message_decode_error">"Παρουσιάστηκε κάποιο σφάλμα κατά την αποκωδικοποίηση του μηνύματος."</string>
+	<!---->
+	<string name="forward_download_failed_ticker">"Δεν ήταν δυνατή η προώθηση μίας ή περισσότερων επισυνάψεων."</string>
+	<!---->
+	<string name="forward_download_failed_title">"Η επισύναψη δεν προωθήθηκε"</string>
+	<!---->
+	<string name="login_failed_ticker">"Η σύνδεση στο λογαριασμό σας <xliff:g id="account_name">%s</xliff:g> απέτυχε."</string>
+	<!---->
+	<string name="login_failed_title">"Δεν ήταν δυνατή η σύνδεση"</string>
+	<plurals name="message_view_attachment_bytes">
+		<item quantity="one">"<xliff:g id="SIZE_IN_BYTES">%d</xliff:g>B"</item>
+		<item quantity="other">"<xliff:g id="SIZE_IN_BYTES">%d</xliff:g>B"</item>
+	</plurals>
+	<plurals name="message_view_attachment_kilobytes">
+		<item quantity="one">"<xliff:g id="SIZE_IN_KILOBYTES">%d</xliff:g>KB"</item>
+		<item quantity="other">"<xliff:g id="SIZE_IN_KILOBYTES">%d</xliff:g>KB"</item>
+	</plurals>
+	<plurals name="message_view_attachment_megabytes">
+		<item quantity="one">"<xliff:g id="SIZE_IN_MEGABYTES">%d</xliff:g>MB"</item>
+		<item quantity="other">"<xliff:g id="SIZE_IN_MEGABYTES">%d</xliff:g>MB"</item>
+	</plurals>
+	<plurals name="message_view_attachment_gigabytes">
+		<item quantity="one">"<xliff:g id="SIZE_IN_GIGABYTES">%d</xliff:g>GB"</item>
+		<item quantity="other">"<xliff:g id="SIZE_IN_GIGABYTES">%d</xliff:g>GB"</item>
+	</plurals>
+	<!---->
+	<string name="account_setup_basics_title">"Ρύθμιση λογαριασμού"</string>
+	<!---->
+	<string name="oauth_authentication_title">"Αίτημα εξουσιοδότησης"</string>
+	<!---->
+	<string name="sign_in_title">"Σύνδεση"</string>
+	<!---->
+	<string name="oauth_error_description">"Δεν είναι δυνατή η ολοκλήρωση του ελέγχου ταυτότητας"</string>
+	<!---->
+	<string name="password_warning_label">"Εσφαλμένη διεύθυνση ή κωδικός πρόσβασης email"</string>
+	<!---->
+	<string name="email_confirmation_label">"Διεύθυνση email"</string>
+	<!---->
+	<string name="account_setup_basics_headline">"Λογαριασμός Email"</string>
+	<!---->
+	<string name="accounts_welcome">"Μπορείτε να ρυθμίσετε το λογαριασμό σας σε λίγα μόλις βήματα."</string>
+	<!---->
+	<string name="account_setup_basics_email_label">"Διεύθυνση Email"</string>
+	<!---->
+	<string name="account_setup_basics_email_flying_label">"E-mail"</string>
+	<!---->
+	<string name="or_label">"Ή"</string>
+	<!---->
+	<string name="sign_in_with_google">"Σύνδεση με λογαριασμό Google"</string>
+	<!---->
+	<string name="account_setup_basics_password_label">"Κωδικός πρόσβασης"</string>
+	<!---->
+	<string name="password_hint">"Κωδικός πρόσβασης"</string>
+	<!---->
+	<string name="signed_in_with_service_label">"Έχετε συνδεθεί με το λογαριασμό %s"</string>
+	<!---->
+	<string name="authentication_label">"ΕΛΕΓΧΟΣ ΤΑΥΤΟΤΗΤΑΣ"</string>
+	<!---->
+	<string name="add_authentication_label">"Προσθήκη ελέγχου ταυτότητας"</string>
+	<!---->
+	<string name="clear_authentication_label">"Εκκαθάριση ελέγχου ταυτότητας"</string>
+	<!---->
+	<string name="account_setup_basics_manual_setup_action">"Χειρ. ρύθμιση"</string>
+	<!---->
+	<string name="account_setup_username_password_toast">"Πληκτρολογήστε μια έγκυρη διεύθυνση email και έναν έγκυρο κωδικό πρόσβασης."</string>
+	<!---->
+	<string name="account_duplicate_dlg_title">"Διπλός λογαριασμός"</string>
+	<!---->
+	<string name="account_duplicate_dlg_message_fmt">"Χρησιμοποιείτε ήδη αυτό το όνομα χρήστη για το λογαριασμό \"<xliff:g id="duplicate">%s</xliff:g>\"."</string>
+	<!---->
+	<string name="account_password_spaces_error">"Αυτός κωδικός πρόσβασης ξεκινά ή καταλήγει σε έναν ή περισσότερους χαρακτήρες κενού διαστήματος. Πολλοί διακομιστές δεν υποστηρίζουν κωδικούς πρόσβασης με κενά διαστήματα."</string>
+	<!---->
+	<string name="account_setup_check_settings_retr_info_msg">"Ανάκτηση πληροφοριών λογαριασμού..."</string>
+	<!---->
+	<string name="account_setup_check_settings_check_incoming_msg">"Επικύρωση ρυθμίσεων διακομιστή..."</string>
+	<!---->
+	<string name="account_setup_check_settings_check_outgoing_msg">"Επικύρωση ρυθμίσεων SMTP..."</string>
+	<!---->
+	<string name="account_setup_creating_account_msg">"Δημιουργία λογαριασμού..."</string>
+	<!---->
+	<string name="account_setup_ab_headline">"Επιβεβαίωση τύπου λογαριασμού"</string>
+	<!---->
+	<string name="account_setup_ab_instructions_format">"Έχετε υποδείξει ότι η διεύθυνση <xliff:g id="email">%1$s</xliff:g> χρησιμοποιεί το πρωτόκολλο <xliff:g id="userProtocol">%2$s</xliff:g>, αλλά ο λογαριασμός ενδέχεται να χρησιμοποιεί το <xliff:g id="providerProtocol">%3$s</xliff:g>"</string>
+	<!---->
+	<string name="account_setup_names_title">"Ρύθμιση λογαριασμού"</string>
+	<!---->
+	<string name="account_setup_names_headline">"Ο λογαριασμός σας ρυθμίστηκε και το email έχει ήδη αποσταλεί!"</string>
+	<!---->
+	<string name="account_setup_names_account_name_label">"Όνομα λογαριασμού"</string>
+	<!---->
+	<string name="account_setup_names_user_name_label">"Το όνομα σας"</string>
+	<!---->
+	<string name="account_setup_names_user_name_empty_error">"Αυτό το πεδίο δεν μπορεί να είναι κενό."</string>
+	<!---->
+	<string name="account_setup_account_type_title">"Ρύθμιση λογαριασμού"</string>
+	<!---->
+	<string name="account_setup_account_type_headline">"Τύπος λογαριασμού"</string>
+	<!---->
+	<string name="account_setup_account_type_instructions">"Τί τύπος λογαριασμού είναι;"</string>
+	<!---->
+	<string name="account_setup_incoming_title">"Ρύθμιση λογαριασμού"</string>
+	<!---->
+	<string name="account_setup_incoming_headline">"Ρυθμ. διακομ. εισερχομέν."</string>
+	<!---->
+	<string name="account_setup_incoming_username_label">"Όνομα χρήστη"</string>
+	<!---->
+	<string name="account_setup_incoming_password_label">"Κωδικός πρόσβασης"</string>
+	<!---->
+	<string name="account_setup_password_subheading">"Κωδικός πρόσβασης"</string>
+	<!---->
+	<string name="account_setup_incoming_server_label">"Διακομιστής"</string>
+	<!---->
+	<string name="account_setup_incoming_port_label">"Θύρα"</string>
+	<!---->
+	<string name="account_setup_incoming_security_label">"Τύπος ασφάλειας"</string>
+	<!---->
+	<string name="account_setup_incoming_domain_label">"Domain"</string>
+	<!---->
+	<string name="account_setup_incoming_add_domain_label">"Εισάγετε domain"</string>
+	<!---->
+	<string name="account_setup_incoming_security_none_label">"Κανένας"</string>
+	<!---->
+	<string name="account_setup_incoming_security_ssl_trust_certificates_label">"SSL/TLS (Αποδοχή πιστοπ.)"</string>
+	<!---->
+	<string name="account_setup_incoming_security_ssl_label">"SSL/TLS"</string>
+	<!---->
+	<string name="account_setup_incoming_security_tls_trust_certificates_label">"STARTTLS (Αποδοχή πιστοπ.)"</string>
+	<!---->
+	<string name="account_setup_incoming_security_tls_label">"STARTTLS"</string>
+	<!---->
+	<string name="account_setup_incoming_delete_policy_label">"Διαγρ. email από διακομ."</string>
+	<!---->
+	<string name="account_setup_incoming_delete_policy_never_label">"Ποτέ"</string>
+	<!---->
+	<string name="account_setup_incoming_delete_policy_delete_label">"Όταν διαγρ. από Εισερχ."</string>
+	<!---->
+	<string name="account_setup_incoming_imap_path_prefix_label">"Πρόθεμα διαδρομής IMAP"</string>
+	<!---->
+	<string name="account_setup_incoming_imap_path_prefix_hint">"Προαιρετικό"</string>
+	<!---->
+	<string name="account_setup_outgoing_title">"Ρύθμιση λογαριασμού"</string>
+	<!---->
+	<string name="account_setup_outgoing_headline">"Ρυθμ. διακομ. εξερχομένων"</string>
+	<!---->
+	<string name="account_setup_outgoing_smtp_server_label">"Διακομιστής SMTP"</string>
+	<!---->
+	<string name="account_setup_outgoing_port_label">"Θύρα"</string>
+	<!---->
+	<string name="account_setup_outgoing_security_label">"Τύπος ασφάλειας"</string>
+	<!---->
+	<string name="account_setup_outgoing_require_login_label">"Να απαιτείται σύνδεση"</string>
+	<!---->
+	<string name="account_setup_outgoing_username_label">"Όνομα χρήστη"</string>
+	<!---->
+	<string name="account_setup_outgoing_password_label">"Κωδικός πρόσβασης"</string>
+	<!---->
+	<string name="account_setup_exchange_certificate_title">"Πιστοποιητικό πελάτη"</string>
+	<!---->
+	<string name="account_setup_exchange_select_certificate">"Επιλογή"</string>
+	<!---->
+	<string name="account_setup_exchange_use_certificate">"Χρήση του πιστοποιητικού πελάτη"</string>
+	<!---->
+	<string name="account_setup_exchange_remove_certificate">"Κατάργηση"</string>
+	<!---->
+	<string name="account_setup_exchange_no_certificate">"Κανένα"</string>
+	<!---->
+	<string name="account_setup_exchange_device_id_label">"ΙD κινητής συσκευής"</string>
+	<!---->
+	<string name="account_setup_options_title">"Ρυθμίσεις λογαριασμού"</string>
+	<!---->
+	<string name="account_setup_options_headline">"Επιλογές λογαριασμού"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_label">"Συχνότητα συγχρονισμού"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_never">"Ποτέ"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_push">"Αυτόματα (Push)"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_5min">"Κάθε 5 λεπτά"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_10min">"Κάθε 10 λεπτά"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_15min">"Κάθε 15 λεπτά"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_30min">"Κάθε 30 λεπτά"</string>
+	<!---->
+	<string name="account_setup_options_mail_check_frequency_1hour">"Κάθε ώρα"</string>
+	<!---->
+	<string name="account_setup_options_notify_label">"Να ειδοποιούμαι κατά τη λήψη μηνύματος email"</string>
+	<!---->
+	<string name="account_setup_options_sync_contacts_label">"Συγχρονισμός επαφών από αυτόν το λογαριασμό."</string>
+	<!---->
+	<string name="account_setup_options_sync_calendar_label">"Συγχρονισμός ημερολογίου από αυτόν τον λογαριασμό."</string>
+	<!---->
+	<string name="account_setup_options_sync_email_label">"Συγχρονισμός μηνυμάτων email από αυτόν τον λογαριασμό."</string>
+	<!---->
+	<string name="account_setup_options_background_attachments_label">"Αυτόματη λήψη συνημμένων κατά τη σύνδεση σε δίκτυο Wi-Fi"</string>
+	<!---->
+	<string name="account_setup_failed_dlg_title">"Αδυναμία ολοκλήρωσης"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_label">"Συγχρονισμός email από"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_auto">"Αυτόματα"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1day">"Τελευταία ημέρα"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_3days">"Τελευταίες τρεις ημέρες"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1week">"Τελευταία εβδομάδα"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_2weeks">"Τελευταίες δύο εβδομάδες"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1month">"Τελευταίος μήνας"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_all">"Όλες"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_default">"Χρήση των προεπιλογών του λογαριασμού"</string>
+	<!---->
+	<string name="account_setup_failed_dlg_auth_message">"Λάθος όνομα χρήστη ή κωδικός πρόσβασης."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_auth_message_fmt">"Η σύνδεση απέτυχε.\n(<xliff:g id="error">%s</xliff:g>)"</string>
+	<!---->
+	<string name="account_setup_autodiscover_dlg_authfail_title">"Πρόβλημα με τη ρύθμιση του λογαριασμού"</string>
+	<!---->
+	<string name="account_setup_autodiscover_dlg_authfail_message">"Επιβεβαιώστε ότι το όνομα χρήστη, ο κωδικός πρόσβασης και οι ρυθμίσεις του λογαριασμού είναι σωστά."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_certificate_message">"Δεν ήταν δυνατή η πραγματοποίηση της σύνδεσης με το διακομιστή λόγω μη αξιόπιστου ή μη έγκυρου πιστοποιητικού."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_certificate_message_fmt">"Δεν είναι δυνατή η ασφαλής σύνδεση με τον διακομιστή.\n(<xliff:g id="ERROR">%s</xliff:g>)"</string>
+	<!---->
+	<string name="account_setup_failed_certificate_required">"Απαιτείται πιστοποιητικό προγράμματος-πελάτη. Θέλετε να συνδεθείτε στο διακομιστή με ένα πιστοποιητικό προγράμματος-πελάτη;"</string>
+	<!---->
+	<string name="account_setup_failed_certificate_inaccessible">"Το πιστοποιητικό δεν είναι έγκυρο ή δεν είναι δυνατή η πρόσβαση σε αυτό."</string>
+	<!---->
+	<string name="account_setup_failed_check_credentials_message">"Ο διακομιστής αποκρίθηκε με σφάλμα. Ελέγξτε το όνομα χρήστη και τον κωδικό πρόσβασής σας και, στη συνέχεια, δοκιμάστε ξανά."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_server_message">"Δεν είναι δυνατή η σύνδεση με τον διακομιστή."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_server_message_fmt">"Δεν είναι δυνατή η σύνδεση με τον διακομιστή.\n(<xliff:g id="ERROR">%s</xliff:g>)"</string>
+	<!---->
+	<string name="account_setup_failed_tls_required">"Απαιτείται TLS αλλά δεν υποστηρίζεται από το διακομιστή."</string>
+	<!---->
+	<string name="account_setup_failed_auth_required">"Οι μέθοδοι ελέγχου ταυτότητας δεν υποστηρίζονται από τον διακομιστή."</string>
+	<!---->
+	<string name="account_setup_failed_security">"Δεν ήταν δυνατό το άνοιγμα της σύνδεσης στον διακομιστή επειδή προέκυψε σφάλμα ασφάλειας."</string>
+	<!---->
+	<string name="account_setup_failed_ioerror">"Δεν ήταν δυνατό το άνοιγμα της σύνδεσης στον διακομιστή."</string>
+	<!---->
+	<string name="account_setup_failed_protocol_unsupported">"Έχετε πληκτρολογήσει λανθασμένη διεύθυνση διακομιστή ή ο διακομιστής απαιτεί μια έκδοση πρωτοκόλλου η οποία δεν υποστηρίζεται από το ηλεκτρονικό ταχυδρομείο."</string>
+	<!---->
+	<string name="account_setup_failed_access_denied">"Δεν έχετε άδεια συγχρονισμού με αυτόν τον διακομιστή. Επικοινωνήστε με τον διαχειριστή του διακομιστή σας για περισσότερες πληροφορίες."</string>
+	<!---->
+	<string name="account_setup_security_required_title">"Απομακρυσμένη διαχείριση ασφαλείας"</string>
+	<!---->
+	<string name="account_setup_security_policies_required_fmt">"Ο διακομιστής <xliff:g id="SERVER">%s</xliff:g> χρειάζεται την άδειά σας για να πραγματοποιήσει απομακρυσμένο έλεγχο ορισμένων λειτουργιών ασφαλείας της συσκευής σας Android. Θέλετε να ολοκληρωθεί η ρύθμιση αυτού του λογαριασμού;"</string>
+	<!---->
+	<string name="account_setup_failed_security_policies_unsupported">"Αυτός ο διακομιστής απαιτεί λειτουργίες ασφαλείας που η συσκευή σας Android δεν υποστηρίζει, όπως: <xliff:g id="ERROR">%s</xliff:g>"</string>
+	<!---->
+	<string name="account_setup_username_uneditable_error">"Δεν είναι δυνατό να αλλάξετε το όνομα χρήστη ενός λογαριασμού. Για να προσθέσετε έναν λογαριασμό με διαφορετικό όνομα χρήστη, αγγίξτε την επιλογή \"Προσθήκη λογαριασμού\"."</string>
+	<!---->
+	<string name="disable_admin_warning">"ΠΡΟΕΙΔΟΠΟΙΗΣΗ: Η απενεργοποίηση της δυνατότητας της εφαρμογής email να διαχειρίζεται τη συσκευή σας θα οδηγήσει σε διαγραφή όλων των λογαριασμών email που απαιτούν τη χρήση του, μαζί με τα μηνύματα email, τις επαφές, τα συμβάντα ημερολογίου και άλλα δεδομένα."</string>
+	<!---->
+	<string name="account_security_dialog_title">"Ενημέρωση ασφάλειας"</string>
+	<!---->
+	<string name="account_security_dialog_content_fmt">"Ο λογαριασμός <xliff:g id="ACCOUNT">%s</xliff:g> απαιτεί την ενημέρωση των ρυθμίσεων ασφαλείας."</string>
+	<!---->
+	<string name="security_unsupported_ticker_fmt">"Ο λογαριασμός \"<xliff:g id="account">%s</xliff:g>\" δεν είναι δυνατό να συγχρονιστεί λόγω των απαιτήσεων ασφάλειας."</string>
+	<!---->
+	<string name="security_needed_ticker_fmt">"Ο λογαριασμός \"<xliff:g id="account">%s</xliff:g>\" απαιτεί ενημέρωση ρυθμίσεων ασφαλείας."</string>
+	<!---->
+	<string name="security_changed_ticker_fmt">"Ο λογαριασμός \"<xliff:g id="account">%s</xliff:g>\" άλλαξε τις ρυθμίσεις ασφάλειας. Δεν απαιτείται καμία ενέργεια από το χρήστη."</string>
+	<!---->
+	<string name="security_notification_content_update_title">"Απαιτείται ενημ. ασφαλείας"</string>
+	<!---->
+	<string name="security_notification_content_change_title">"Οι πολιτικές ασφάλειας έχουν αλλάξει"</string>
+	<!---->
+	<string name="security_notification_content_unsupported_title">"Δεν είναι δυνατή η εκπλήρωση των πολιτικών ασφάλειας"</string>
+	<!---->
+	<string name="account_security_title">"Ασφάλεια συσκευής"</string>
+	<!---->
+	<string name="account_security_policy_explanation_fmt">"Ο διακομιστής <xliff:g id="SERVER">%s</xliff:g> χρειάζεται την άδειά σας για να πραγματοποιήσει απομακρυσμένο έλεγχο ορισμένων λειτουργιών ασφαλείας της συσκευής σας Android."</string>
+	<!---->
+	<string name="account_setup_failed_dlg_edit_details_action">"Επεξ. λεπτομερειών"</string>
+	<!---->
+	<string name="password_expire_warning_ticker_fmt">"Ο λογαριασμός \"<xliff:g id="ACCOUNT">%s</xliff:g>\" απαιτεί να αλλάξετε το PIN ή τον κωδικό κλειδώματος οθόνης."</string>
+	<!---->
+	<string name="password_expire_warning_content_title">"Λήγει ο κωδικός κλειδ. οθόνης"</string>
+	<!---->
+	<string name="password_expired_ticker">"Το PIN ή ο κωδικός πρόσβασης κλειδώματος οθόνης έχουν λήξει."</string>
+	<!---->
+	<string name="password_expired_content_title">"Ο κωδ. κλειδ. οθόνης έληξε"</string>
+	<!---->
+	<string name="password_expire_warning_dialog_title">"Λήγει ο κωδικός κλειδώματος οθόνης"</string>
+	<!---->
+	<string name="password_expire_warning_dialog_content_fmt">"Πρέπει να αλλάξετε σύντομα τον PIN ή τον κωδικό πρόσβασης κλειδώματος οθόνης, διαφορετικά τα δεδομένα του λογαριασμού <xliff:g id="account">%s</xliff:g> θα διαγραφούν. Θέλετε να γίνει τώρα η αλλαγή;"</string>
+	<!---->
+	<string name="password_expired_dialog_title">"Ο κωδικός κλειδώματος οθόνης έληξε"</string>
+	<!---->
+	<string name="password_expired_dialog_content_fmt">"Τα δεδομένα για το λογαριασμό σας <xliff:g id="account">%s</xliff:g> θα διαγραφούν από τη συσκευή σας. Μπορείτε να τα επαναφέρετε, με την αλλαγή του PIN ή του κωδικού πρόσβασης κλειδώματος οθόνης. Θέλετε να γίνει τώρα η αλλαγή;"</string>
+	<!---->
+	<string name="account_settings_exit_server_settings">"Απόρριψη μη αποθηκευμένων αλλαγών;"</string>
+	<!---->
+	<string name="account_settings_login_dialog_title">"Δεν ήταν δυνατή η σύνδεση"</string>
+	<!---->
+	<string name="account_settings_login_dialog_content_fmt">"Το όνομα χρήστη ή ο κωδικός πρόσβασης για τον λογαριασμό <xliff:g id="ACCOUNT">%s</xliff:g> είναι λανθασμένα. Θέλετε να τα ενημερώσετε τώρα;"</string>
+	<!---->
+	<string name="account_settings_login_dialog_reason_fmt">"Η σύνδεσή σας στο λογαριασμό <xliff:g id="account">%s</xliff:g> απέτυχε. Η απόκριση του διακομιστή ήταν: <xliff:g id="reason">%s</xliff:g> Θέλετε να ενημερώσετε το όνομα χρήστη ή/και τον κωδικό πρόσβασής σας;"</string>
+	<!---->
+	<string name="account_settings_background_attachments_label">"Λήψη συνημμένων"</string>
+	<!---->
+	<string name="account_settings_background_attachments_summary">"Αυτόματη λήψη συνημμένων πρόσφατων μηνυμάτων μέσω Wi-Fi"</string>
+	<!---->
+	<string name="account_settings_notify_label">"Ειδοποιήσεις Email"</string>
+	<!---->
+	<string name="account_settings_summary">"Συχνότητα συγχρονισμού, ειδοποιήσεις, κτλ."</string>
+	<!---->
+	<string name="account_settings_notify_summary">"Αποστολή ειδοποίησης μόλις φτάσει το email"</string>
+	<!---->
+	<string name="account_settings_mail_check_frequency_label">"Συχνότητα συγχρονισμού"</string>
+	<!---->
+	<string name="account_settings_incoming_label">"Ρυθμίσεις εισερχόμενων"</string>
+	<!---->
+	<string name="account_settings_incoming_summary">"Όνομα χρήστη, κωδ. πρόσβ. και άλλες ρυθμίσεις διακομιστή εισερχ."</string>
+	<!---->
+	<string name="account_settings_outgoing_label">"Ρυθμίσεις εξερχόμενων"</string>
+	<!---->
+	<string name="account_settings_outgoing_summary">"Όνομα χρήστη, κωδ. πρόσβ. και άλλες ρυθμίσεις διακομιστή εξερχ."</string>
+	<!---->
+	<string name="account_settings_reply_to_category">"Ρυθμίσεις απάντησης"</string>
+	<!---->
+	<string name="account_settings_reply_to_label">"Απάντηση σε"</string>
+	<!---->
+	<string name="account_settings_reply_to_invalid">"Η διεύθυνση δεν είναι έγκυρη"</string>
+	<!---->
+	<string name="account_settings_enforced_label">"Επιβολή πολιτικών"</string>
+	<!---->
+	<string name="account_settings_enforced_summary">"Κανένας"</string>
+	<!---->
+	<string name="account_settings_unsupported_label">"Μη υποστηριζόμενες πολιτικές"</string>
+	<!---->
+	<string name="account_settings_unsupported_summary">"Κανένας"</string>
+	<!---->
+	<string name="account_settings_retry_label">"Προσπάθεια συγχρονισμού"</string>
+	<!---->
+	<string name="account_settings_retry_summary">"Αγγίξτε εδώ για να συγχρονίσετε αυτόν το λογαριασμό"</string>
+	<!---->
+	<string name="account_settings_description_label">"Όνομα λογαριασμού"</string>
+	<!---->
+	<string name="account_settings_name_label">"Το όνομα σας"</string>
+	<!---->
+	<string name="account_settings_edit_quick_responses_label">"Γρήγορες απαντήσεις"</string>
+	<!---->
+	<string name="account_settings_edit_quick_responses_summary">"Επεξ. κειμένου που εισάγετε συχνά κατά τη σύνταξη μην. ηλ. ταχ."</string>
+	<!---->
+	<string name="account_settings_notifications">"Ρυθμίσεις ειδοποίησης"</string>
+	<!---->
+	<string name="account_settings_data_usage">"Χρήση δεδομένων"</string>
+	<!---->
+	<string name="account_settings_policies">"Πολιτικές ασφάλειας"</string>
+	<!---->
+	<string name="system_folders_title">"Φάκελοι συστήματος"</string>
+	<!---->
+	<string name="system_folders_trash_title">"Φάκελος απορριμμάτων"</string>
+	<!---->
+	<string name="system_folders_trash_summary">"Επιλέξτε το φάκελο απορριμμάτων του διακομιστή σας"</string>
+	<!---->
+	<string name="system_folders_trash_dlg">"Επιλέξτε το φάκελο απορριμμάτων του διακομιστή σας"</string>
+	<!---->
+	<string name="system_folders_sent_title">"Φάκελος απεσταλμένων στοιχείων"</string>
+	<!---->
+	<string name="system_folders_sent_summary">"Επιλέξτε το φάκελο απεσταλμένων στοιχείων του διακομιστή σας"</string>
+	<!---->
+	<string name="system_folders_sent_dlg">"Επιλέξτε το φάκελο απεσταλμένων στοιχείων του διακομιστή σας"</string>
+	<!---->
+	<string name="edit_quick_response_dialog">"Γρήγορη απάντηση"</string>
+	<!---->
+	<string name="save_action">"Αποθήκευση"</string>
+	<!---->
+	<string name="account_settings_sync_contacts_enable">"Συγχρονισμός επαφών"</string>
+	<!---->
+	<string name="account_settings_sync_contacts_summary">"Συγχρονισμός επαφών για αυτόν το λογαριασμό"</string>
+	<!---->
+	<string name="account_settings_sync_calendar_enable">"Συγχρονισμός ημερολογίου"</string>
+	<!---->
+	<string name="account_settings_sync_calendar_summary">"Συγχρονισμός εκδηλώσεων ημερολογίου για αυτόν το λογαριασμό"</string>
+	<!---->
+	<string name="account_settings_sync_email_enable">"Συγχρονισμός email"</string>
+	<!---->
+	<string name="account_settings_sync_email_summary">"Συγχρονισμός μηνυμάτων email για αυτόν τον λογαριασμό"</string>
+	<!---->
+	<string name="account_settings_vibrate_when_label">"Δόνηση"</string>
+	<!---->
+	<string name="account_settings_ringtone">"Επιλογή ήχου κλήσης"</string>
+	<!---->
+	<string name="account_settings_servers">"Ρυθμίσεις διακομιστή"</string>
+	<!---->
+	<string name="default_ringtone">"Προεπιλεγμένος ήχος κλήσης"</string>
+	<!---->
+	<string name="default_ringtone_unkonwn">"Άγνωστος ήχος κλήσης"</string>
+	<!---->
+	<string name="mailbox_settings_activity_title">"Επιλογές συγχρονισμού"</string>
+	<!---->
+	<string name="mailbox_settings_activity_title_with_mailbox">"Επιλογές συγχρονισμού (<xliff:g id="MAILBOXX_NAME">%s</xliff:g>)"</string>
+	<!---->
+	<string name="mailbox_settings_sync_enabled_label">"Συγχρονισμός αυτού του φακέλου"</string>
+	<!---->
+	<string name="mailbox_settings_sync_enabled_summary">"Τα μηνύματα θα ληφθούν όταν συνδεθεί"</string>
+	<!---->
+	<string name="mailbox_settings_mailbox_sync_window_label">"Ημέρες για τις οποίες θα γίνει συγχρονισμός email"</string>
+	<!---->
+	<string name="prefDialogTitle_conversationListIcon">"Εικόνα αποστολέα"</string>
+	<!---->
+	<string name="provider_note_live">"Μόνο ορισμένοι λογαριασμοί \"Plus\" περιλαμβάνουν πρόσβαση POP και επιτρέπουν στο πρόγραμμα αυτό να συνδεθεί. Εάν δεν μπορείτε να συνδεθείτε με τη σωστή διεύθυνση ηλεκτρονικού ταχυδρομείου και τον κωδικό πρόσβασης, ενδέχεται να μην έχετε πληρωμένο λογαριασμό \"Plus\". Εκκινήστε το πρόγραμμα περιήγησης ιστού, για να αποκτήσετε πρόσβαση σε αυτούς τους λογαριασμούς ηλεκτρονικού ταχυδρομείου."</string>
+	<!---->
+	<string name="provider_note_t_online">"Πριν ρυθμίσετε αυτόν τον λογαριασμό email, επισκεφτείτε τον ιστότοπο T-Online και δημιουργήστε έναν κωδικό πρόσβασης για πρόσβαση σε ηλεκτρονικό ταχυδρομείο POP3."</string>
+	<!---->
+	<string name="exchange_name">"Εταιρικό"</string>
+	<!---->
+	<string name="exchange_name_alternate">"Microsoft Exchange ActiveSync"</string>
+	<!---->
+	<string name="system_account_create_failed">"Δεν ήταν δυνατή η δημιουργία του λογαριασμού. Προσπαθήστε ξανά."</string>
+	<!---->
+	<string name="device_admin_label">"Email"</string>
+	<!---->
+	<string name="device_admin_description">"Ενεργοποιεί πολιτικές ασφαλείας που έχουν καθοριστεί από τον χρήστη"</string>
+	<!---->
+	<string name="settings_activity_title">"Ρυθμίσεις"</string>
+	<!---->
+	<string name="header_label_general_preferences">"Γενικές ρυθμίσεις"</string>
+	<!---->
+	<string name="general_preference_confirm_delete_label">"Επιβεβαίωση πριν τη διαγραφή"</string>
+	<!---->
+	<string name="general_preference_confirm_send_label">"Επιβεβ πριν την αποστολή"</string>
+	<!---->
+	<string name="more_than_999">"999+"</string>
+	<!---->
+	<string name="search_hint">"Αναζήτηση"</string>
+	<!---->
+	<string name="policy_dont_allow_camera">"Να μην επιτρέπεται η χρήση της κάμερας της συσκευής"</string>
+	<!---->
+	<string name="policy_require_password">"Να απαιτείται κωδικός πρόσβασης για τη συσκευή"</string>
+	<!---->
+	<string name="policy_password_history">"Περιορισμός της επανάληψης χρήσης των πρόσφατων κωδικών πρόσβασης"</string>
+	<!---->
+	<string name="policy_password_expiration">"Απαιτείται η λήξη των κωδικών πρόσβασης"</string>
+	<!---->
+	<string name="policy_screen_timeout">"Απαιτείται το κλείδωμα της οθόνης όταν η συσκευή βρίσκεται σε αδράνεια"</string>
+	<!---->
+	<string name="policy_calendar_age">"Περιορισμός αριθμού συγχρον. συμβάντων ημερολογίου"</string>
+	<!---->
+	<string name="policy_email_age">"Περιορισμός αριθμού συγχρον. μηνυμ. ηλ. ταχυδρομ."</string>
+	<!---->
+	<string name="quick_1">"Ευχαριστούμε!"</string>
+	<!---->
+	<string name="quick_2">"Μου φαίνεται καλό!"</string>
+	<!---->
+	<string name="quick_3">"Θα το διαβάσω αργότερα και θα σας απαντήσω."</string>
+	<!---->
+	<string name="quick_4">"Ας κανονίσουμε μια συνάντηση για να το συζητήσουμε."</string>
+	<!---->
+	<string name="require_manual_sync_message">"Ο συγχρονισμός στο παρασκήνιο για αυτόν το λογαριασμό είναι απενεργοποιημένος κατά την περιαγωγή."</string>
+	<!---->
+	<string name="confirm_response">"Αποστολή αποκρίσεων..."</string>
+	<!---->
+	<string name="no_conversations">"Δεν υπάρχουν μηνύματα."</string>
+	<!-- no translation found for imap_name -->
+	<skip />
+	<!-- no translation found for pop3_name -->
+	<skip />
+	<!---->
+	<string name="email_name">"E-mail"</string>
+	<!---->
+	<string name="folder_picker_title">"Επιλογέας φακέλου"</string>
+	<!---->
+	<string name="trash_folder_selection_title">"Επιλέξτε τον φάκελο απορριμάτων στο διακομιστή για το λογαριασμό <xliff:g id="account">%s</xliff:g>"</string>
+	<!---->
+	<string name="sent_folder_selection_title">"Επιλογή φακέλου με απεσταλμένα στοιχεία από τον διακομιστή για τον λογαριασμό <xliff:g id="ACCOUNT">%s</xliff:g>"</string>
+	<!---->
+	<string name="account_waiting_for_folders_msg">"Φόρτωση λίστας φακέλων..."</string>
+	<!---->
+	<string name="no_quick_responses">"Καμί αδιαθέσιμη επιλογή"</string>
+	<!---->
+	<string name="gmail_name">"Gmail"</string>
+	<!---->
+	<string name="folder_sync_settings_pref_title">"Ρυθμίσεις συγχρονισμού φακέλων"</string>
+	<!---->
+	<string name="select_your_account">"Επιλογή λογαριασμού"</string>
+	<!---->
+	<string name="select_account_list_below">"Επιλέξτε το λογαριασμό σας από την παρακάτω λίστα:"</string>
+	<!---->
+	<string name="cancel_label">"Ακύρωση"</string>
+	<!---->
+	<string name="next_label">"Επόμενο"</string>
+	<!---->
+	<string name="str_account_provider_other">"Άλλος"</string>
+	<!---->
+	<string name="account_settings_download_options_label">"Επιλογές λήψης"</string>
+	<!---->
+	<string name="account_setting_download_opt_headonly">"Μόνο κεφαλίδα"</string>
+	<!---->
+	<string name="account_setting_download_opt_all">"Ολα"</string>
+	<!---->
+	<string name="account_setting_download_opt_2k">"2K"</string>
+	<!---->
+	<string name="account_setting_download_opt_5k">"5K"</string>
+	<!---->
+	<string name="account_setting_download_opt_10k">"10K"</string>
+	<!---->
+	<string name="account_setting_download_opt_20k">"20K"</string>
+	<!---->
+	<string name="account_setting_download_opt_50k">"50K"</string>
+	<!---->
+	<string name="account_setting_download_opt_100k">"100K"</string>
+	<!---->
+	<string name="account_oof_error_tip_past">"Η ώρα λήξης δεν μπορεί να είναι παρελθοντική. Αλλάξτε την ώρα λήξης σε μελλοντική ώρα."</string>
+	<!---->
+	<string name="account_oof_error_tip_earlier">"Η ώρα λήξης δεν μπορεί να είναι προγενέστερη της ώρας έναρξης. Αλλάξτε ξανά την ώρα λήξης."</string>
+	<!---->
+	<string name="account_setting_oof_label">"Ρυθμίσεις "Εκτός γραφείου""</string>
+	<!---->
+	<string name="oof_auto_repley">"Αποστολή αυτόματης απάντησης "εκτός γραφείου""</string>
+	<!---->
+	<string name="oof_auto_replies_period">"Αποστολή αυτόματων απαντήσεων κατά τη διάρκεια αυτής της περιόδου"</string>
+	<!---->
+	<string name="start_time">"Ώρα έναρξης"</string>
+	<!---->
+	<string name="end_time">"Ώρα λήξης"</string>
+	<!---->
+	<string name="internal_message">"Εσωτερικό μήνυμα"</string>
+	<!---->
+	<string name="oof_auto_replies_external_senders">"Αποστολή αυτόματων απαντήσεων σε εξωτερικούς αποστολείς"</string>
+	<!---->
+	<string name="oof_choice_oof_in_contacts">"Αποστολή αυτόματων απαντήσεων "Εκτός γραφείου" σε αποστολείς της λίστας επαφών μου"</string>
+	<!---->
+	<string name="oof_choice_oof_outside_organisation">"Αποστολή αυτόματων απαντήσεων "Εκτός γραφείου" σε κάθε χρήστη εκτός της εταιρείας"</string>
+	<!---->
+	<string name="external_message">"Εξωτερικό μήνυμα"</string>
+	<!---->
+	<string name="oof_done_message_attention">"Δεν καθορίσατε κάποιο μήνυμα αυτόματης απάντησης για άτομα εκτός της εταιρείας. Εάν δεν καταχωριστεί κάποιο μήνυμα "Εκτός γραφείου", οι επαφές δεν θα λαμβάνουν κάποια ειδοποίηση "Εκτός γραφείου". Ωστόσο, οι κανόνες σας "Εκτός γραφείου" θα εξακολουθούν να λειτουργούν. Θέλετε να συνεχίσετε;"</string>
+	<!---->
+	<string name="oof_choice_in_contacts">"Αποστολή σε αποστολείς της λίστας επαφών μου"</string>
+	<!---->
+	<string name="oof_choice_all_senders">"Αποστολή σε όλους τους αποστολείς"</string>
+	<!---->
+	<string name="hint_text_of_internal_message">"Απάντηση σε διευθύνσεις, εντός του οργανισμού σας"</string>
+	<!---->
+	<string name="hint_text_of_external_message">"Απαντήστε σε διευθύνσεις εκτός του οργανισμού σας"</string>
+	<!---->
+	<string name="account_delete_dlg_title">"Κατάργηση λογαριασμού;"</string>
+	<!---->
+	<string name="account_delete_dlg_instructions_fmt">"Ο λογ. \"<xliff:g id="account">%s</xliff:g>\" θα καταργ. από το Email."</string>
+	<!---->
+	<string name="account_delete_dlg_instructions_fmt_new">"Η κατάργηση αυτού του λογαριασμού θα έχει σαν αποτέλεσμα τη διαγραφή όλων των μηνυμάτων, των επαφών και άλλων δεδομένων του από το τηλέφωνο."</string>
+	<!---->
+	<string name="account_delete_dlg_action_remove_label">"Κατάργηση"</string>
+	<!---->
+	<string name="account_delete_dlg_action_cancel_label">"Ακύρωση"</string>
+	<!---->
+	<string name="account_settings_category_delete_account">"Κατάργηση λογαριασμού"</string>
+	<!---->
+	<string name="account_settings_delete_account_label">"Κατάργηση λογαριασμού"</string>
+	<!---->
+	<string name="account_settings_default_label">"Προεπιλεγμ. λογαριασμός"</string>
+	<!---->
+	<string name="account_settings_default_summary">"Αποστολή μηνυμάτων email από αυτόν το λογαριασμό από προεπιλογή"</string>
+	<!---->
+	<string name="account_setup_options_default_label">"Αποστολή μηνυμάτων email από αυτόν το λογαριασμό από προεπιλογή."</string>
+	<!---->
+	<string name="account_setup_basics_default_label">"Αποστολή μηνυμάτων email από αυτόν το λογαριασμό εξ ορισμού."</string>
+	<!---->
+	<string name="local_search_action">"Αναζήτηση τοπικά"</string>
+	<!---->
+	<string name="service_search_action">"Αναζήτηση στο διακομιστή"</string>
+	<!---->
+	<string name="local_search_all">"Ολα"</string>
+	<!---->
+	<string name="local_search_from">"Από"</string>
+	<!---->
+	<string name="local_search_to">"Προς"</string>
+	<!---->
+	<string name="local_search_subject">"Θέμα"</string>
+	<!---->
+	<string name="status_loading_attachments">"Φόρτωση"</string>
+	<!---->
+	<string name="account_use_proxy_label">"Χρήση διακομιστή proxy"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_label">"Proxy IP"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_port_label">"Proxy port"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_name">"Όνομα διακομιστή μεσολάβησης"</string>
+	<!---->
+	<string name="account_setup_exchange_proxy_password">"Κωδικός πρόσβασης Proxy"</string>
+	<!---->
+	<string name="attachment_info_dialog_wifi_title">"Απαιτείται σύνδεση Wi-Fi"</string>
+	<!---->
+	<string name="attachment_info_wifi_settings">"Ρυθμίσεις Wi-Fi"</string>
+	<!---->
+	<string name="attachment_info_wifi_only">"Το μέγεθος αυτής της επισύναψης είναι πολύ μεγάλο για τη λήψη μέσω δικτύου κινητής τηλεφωνίας. Μπορείτε να πραγματοποιήσετε λήψη της επισύναψης την επόμενη φορά που θα συνδεθείτε σε δίκτυο Wi-Fi."</string>
+	<!---->
+	<string name="attachment_info_ok">"OK"</string>
+	<!---->
+	<string name="mailbox_name_display_draft">"Πρόχειρο"</string>
+	<!---->
+	<string name="message_compose_display_name">"<xliff:g example="John" id="name">%1$s</xliff:g> και <xliff:g example="27" id="number">%2$d</xliff:g> άλλοι"</string>
+	<!---->
+	<string name="app_name">"E-mail"</string>
+	<!---->
+	<string name="from">"Από"</string>
+	<!---->
+	<string name="to">"Προς"</string>
+	<!---->
+	<string name="cc">"Κοιν."</string>
+	<!---->
+	<string name="bcc">"Κρυφ. κοιν."</string>
+	<!---->
+	<string name="subject_hint">"Θέμα"</string>
+	<!---->
+	<string name="body_hint">"Σύνταξη email"</string>
+	<!---->
+	<string name="add_file_attachment">"Επισύναψη αρχείου"</string>
+	<!---->
+	<string name="add_photo_attachment">"Επισύναψη εικόνας"</string>
+	<!---->
+	<string name="save_draft">"Αποθήκευση προχείρου"</string>
+	<!---->
+	<string name="discard">"Απόρριψη"</string>
+	<!---->
+	<string name="compose">"Σύνταξη"</string>
+	<!---->
+	<string name="select_contacts_field">"Επιλέξτε επαφές από"</string>
+	<!---->
+	<string name="item_save_group">"Αποθήκευση ομάδας"</string>
+	<!---->
+	<string name="confirm_select">"Επιλογή"</string>
+	<!---->
+	<string name="cancel_select">"Ακύρωση"</string>
+	<string-array name="compose_modes">
+		<item>"Απάντηση"</item>
+		<item>"Απάντηση σε όλους"</item>
+		<item>"Προώθηση"</item>
+	</string-array>
+	<string-array name="compose_modes_without_reply_all">
+		<item>"Απάντηση"</item>
+		<item>"Προώθηση"</item>
+	</string-array>
+	<!---->
+	<string name="reply_subject_label">"Απάντηση:"</string>
+	<!---->
+	<string name="forward_subject_label">"Προώθ.:"</string>
+	<!---->
+	<string name="reply_attribution">"Στις <xliff:g id="date">%s</xliff:g>, <xliff:g id="person">%s</xliff:g> έγραψε:"</string>
+	<!---->
+	<string name="forward_attribution">"---------- Προωθημένο μήνυμα ----------；Από:；Ημερομηνία:；Θέμα:；Προς:"</string>
+	<!---->
+	<string name="forward_attribution_with_headers">"---------- Προωθημένο μήνυμα ---------- <xliff:g id="a">%s</xliff:g> Από: <xliff:g id="from">%s</xliff:g> <xliff:g id="b">%s</xliff:g> Ημερομηνία: <xliff:g id="date">%s</xliff:g> <xliff:g id="c">%s</xliff:g> Θέμα: <xliff:g id="subject">%s</xliff:g> <xliff:g id="d">%s</xliff:g> Προς: <xliff:g id="to">%s</xliff:g> <xliff:g id="e">%s</xliff:g> Κοιν.: <xliff:g id="cc">%s</xliff:g> <br/>"</string>
+	<!---->
+	<string name="forward_attribution_no_headers">"---------- Προωθημένο μήνυμα ----------"</string>
+	<!---->
+	<string name="cc_attribution">"Κοιν.:"</string>
+	<!---->
+	<string name="select_attachment_type">"Επιλέξτε τύπο συνημμένου"</string>
+	<!---->
+	<string name="too_large_to_attach_single">"Δεν είναι δυνατή η επισύναψη αρχείων μεγαλύτερων από %1$s"</string>
+	<!---->
+	<string name="too_large_to_attach_multiple">"Ένα ή περισσότερα αρχεία δεν επισυνάφθηκαν. Όριο <xliff:g id="maxSize">%1$s</xliff:g>."</string>
+	<!---->
+	<string name="too_large_to_mid_attach_additional">"Το email σας ξεπερνάει τα <xliff:g id="maxSize">%1$s</xliff:g>. Ο λογαριασμός email μπορεί να μην υποστηρίζει αυτό το μέγεθος."</string>
+	<!---->
+	<string name="too_large_to_attach_additional">"Το αρχείο δεν προστέθηκε. Συμπληρώθηκε το όριο μεγέθους <xliff:g id="maxSize">%1$s</xliff:g>."</string>
+	<!---->
+	<string name="generic_attachment_problem">"Δεν ήταν δυνατή η επισύναψη του αρχείου."</string>
+	<!---->
+	<string name="recipient_needed">"Προσθέστε τουλάχιστον έναν παραλήπτη."</string>
+	<!---->
+	<string name="recipient_error_dialog_title">"Σφάλμα παραλήπτη"</string>
+	<!---->
+	<string name="confirm_send_title">"Αποστολή μηνύματος;"</string>
+	<!---->
+	<string name="confirm_send_message_with_no_subject">"Δεν υπάρχει κείμενο στο θέμα του μηνύματος"</string>
+	<!---->
+	<string name="confirm_send_message_with_no_body">"Δεν υπάρχει κείμενο στο κύριο σώμα του μηνύματος."</string>
+	<!---->
+	<string name="confirm_send_message">"Να αποσταλεί αυτό το μήνυμα;"</string>
+	<!---->
+	<string name="message_discarded">"Το μήνυμα απορρίφθηκε."</string>
+	<!-- no translation found for signature -->
+	<skip />
+	<!---->
+	<string name="custom_from_account_label">"Αποστολή email ως:"</string>
+	<!---->
+	<string name="send">"Αποστολή"</string>
+	<!---->
+	<string name="mark_read">"Επισήμ.ως αναγνωσμ."</string>
+	<!---->
+	<string name="mark_unread">"Επισήμανση μη αναγνωσμ."</string>
+	<!---->
+	<string name="mute">"Σίγαση"</string>
+	<!---->
+	<string name="add_star">"Προσθήκη αστεριού"</string>
+	<!---->
+	<string name="remove_star">"Κατάργηση αστεριού"</string>
+	<!---->
+	<string name="remove_folder">"Κατάργηση από <xliff:g id="folderName">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="archive">"Αρχειοθέτηση"</string>
+	<!---->
+	<string name="report_spam">"Αναφορά ανεπιθύμητης αλληλογραφίας"</string>
+	<!---->
+	<string name="mark_not_spam">"Αναφορά: Δεν είναι ανεπιθύμητο"</string>
+	<!---->
+	<string name="report_phishing">"Αναφορά ηλεκτρονικού ψαρέματος"</string>
+	<!---->
+	<string name="delete">"Διαγραφή"</string>
+	<!---->
+	<string name="discard_drafts">"Απόρριψη προσχεδίων"</string>
+	<!---->
+	<string name="discard_failed">"Η απόρριψη απέτυχε"</string>
+	<!---->
+	<string name="refresh">"Ανανέωση"</string>
+	<!---->
+	<string name="reply">"Απάντηση"</string>
+	<!---->
+	<string name="reply_all">"Απάντηση σε όλους"</string>
+	<!---->
+	<string name="resume_draft">"Επεξεργασία"</string>
+	<!---->
+	<string name="forward">"Προώθηση"</string>
+	<!---->
+	<string name="menu_compose">"Σύνταξη"</string>
+	<!---->
+	<string name="menu_sort">"Ταξινόμηση"</string>
+	<!---->
+	<string name="menu_change_folders">"Αλλαγή φακέλων"</string>
+	<!---->
+	<string name="menu_move_to">"Μετακίνηση σε"</string>
+	<!---->
+	<string name="menu_move_to_inbox">"Μετακίνηση στα εισερχόμενα"</string>
+	<!---->
+	<string name="menu_manage_folders">"Ρυθμίσεις φακέλου"</string>
+	<!---->
+	<string name="menu_show_original">"Αναίρεση αυτόματης προσαρμογής μεγέθους"</string>
+	<!---->
+	<string name="menu_settings">"Ρυθμίσεις"</string>
+	<!---->
+	<string name="menu_search">"Αναζήτηση"</string>
+	<!---->
+	<string name="drawer_title">"Πλοήγηση"</string>
+	<!---->
+	<string name="mark_important">"Επισήμανση ως σημαντικού"</string>
+	<!---->
+	<string name="mark_not_important">"Επισήμανση ως μη σημαντικού"</string>
+	<!---->
+	<string name="select_all_conversations">"Επιλογή όλων"</string>
+	<!---->
+	<string name="unselect_all_conversations">"Αποεπιλογή όλων"</string>
+	<!---->
+	<string name="add_cc_label">"Προσθ.Κοιν./Κρ.κοιν."</string>
+	<!---->
+	<string name="add_bcc_label">"Προσθήκη Κρ.κοιν."</string>
+	<!---->
+	<string name="quoted_text">"Συμπερίληψη κειμένου αναφοράς"</string>
+	<!---->
+	<string name="quoted_text_label">"Παράθεση κειμένου"</string>
+	<!---->
+	<string name="respond_inline">"Ενσωματωμένη απάντηση"</string>
+	<!---->
+	<string name="bytes">"<xliff:g id="count">%s</xliff:g> B"</string>
+	<!---->
+	<string name="kilobytes">"<xliff:g id="count">%s</xliff:g> KB"</string>
+	<!---->
+	<string name="megabytes">"<xliff:g id="count">%s</xliff:g> MB"</string>
+	<!---->
+	<string name="attachment_image">"Εικόνα"</string>
+	<!---->
+	<string name="attachment_video">"Βίντεο"</string>
+	<!---->
+	<string name="attachment_audio">"Ήχος"</string>
+	<!---->
+	<string name="attachment_text">"Κείμενο"</string>
+	<!---->
+	<string name="attachment_application_msword">"Έγγραφο"</string>
+	<!---->
+	<string name="attachment_application_vnd_ms_powerpoint">"Παρουσίαση"</string>
+	<!---->
+	<string name="attachment_application_vnd_ms_excel">"Υπολογιστικό φύλλο"</string>
+	<!-- no translation found for attachment_application_pdf -->
+	<skip />
+	<!---->
+	<string name="attachment_unknown">"Αρχείο <xliff:g id="attachmentExtension">%s</xliff:g>"</string>
+	<!---->
+	<string name="preview_attachment">"Προεπισκόπηση"</string>
+	<!---->
+	<string name="save_attachment">"Αποθήκευση"</string>
+	<!---->
+	<string name="cancel_attachment">"Ακύρωση"</string>
+	<!---->
+	<string name="open_attachment">"Άνοιγμα"</string>
+	<!---->
+	<string name="install_attachment">"Εγκατάσταση"</string>
+	<!---->
+	<string name="download_again">"Λήψη ξανά"</string>
+	<!---->
+	<string name="more_info_attachment">"Πληροφορίες"</string>
+	<!---->
+	<string name="no_application_found">"Καμία εφαρμογή δεν μπορεί να ανοίξει αυτό το συνημμένο για προβολή."</string>
+	<!---->
+	<string name="fetching_attachment">"Ανάκτηση συνημμένου"</string>
+	<!---->
+	<string name="please_wait">"Περιμένετε\u2026"</string>
+	<!---->
+	<string name="saved">"Αποθηκεύτηκε,"</string>
+	<!---->
+	<string name="download_failed">"Δεν ήταν δυνατή η λήψη. Αγγίξτε για να δοκιμάσετε ξανά."</string>
+	<!---->
+	<string name="menu_photo_save_all">"Αποθήκευση όλων"</string>
+	<!---->
+	<string name="menu_photo_share">"Μοίρασμα"</string>
+	<!---->
+	<string name="menu_photo_share_all">"Κοινή χρήση όλων"</string>
+	<!---->
+	<string name="menu_photo_print">"Εκτύπωση"</string>
+	<!---->
+	<string name="saving">"Αποθήκευση..."</string>
+	<!---->
+	<string name="choosertitle_sharevia">"Μοίρασμα μέσω"</string>
+	<!---->
+	<string name="contextmenu_openlink">"Άνοιγμα σε browser"</string>
+	<!---->
+	<string name="contextmenu_copy">"Αντιγραφή"</string>
+	<!---->
+	<string name="contextmenu_copylink">"Αντιγραφή URL συνδέσμου"</string>
+	<!---->
+	<string name="contextmenu_view_image">"Προβολή εικόνας"</string>
+	<!---->
+	<string name="contextmenu_dial_dot">"Κλήση"</string>
+	<!---->
+	<string name="contextmenu_sms_dot">"SMS\u2026"</string>
+	<!---->
+	<string name="contextmenu_add_contact">"Προσθήκη επαφής"</string>
+	<!---->
+	<string name="contextmenu_send_mail">"Αποστολή email"</string>
+	<!---->
+	<string name="contextmenu_map">"Χάρτης"</string>
+	<!---->
+	<string name="contextmenu_sharelink">"Μοίρασμα συνδέσμου"</string>
+	<!---->
+	<string name="contextmenu_savelink">"Αποθήκευση συνδέσμου"</string>
+	<!---->
+	<string name="contextmenu_help">"Βοήθεια"</string>
+	<!---->
+	<string name="contextmenu_feedback">"Αποστολή σχολίων"</string>
+	<!---->
+	<string name="sort_title">"Ταξ. με"</string>
+	<!---->
+	<string name="sort_by_tip">"Ταξινόμηση κατά <xliff:g id="sor_type">%s</xliff:g>"</string>
+	<!-- no translation found for num_selected -->
+	<skip />
+	<plurals name="move_conversation">
+		<item quantity="one">"Μετακίνηση συνομιλίας"</item>
+		<item quantity="other">"Μετακίνηση <xliff:g>%1$d</xliff:g> συνομιλιών"</item>
+	</plurals>
+	<!---->
+	<string name="content_description">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> σχετικά με το θέμα <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> στις <xliff:g id="date">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g>"</string>
+	<!---->
+	<string name="content_description_today">"<xliff:g id="toHeader">%1$s</xliff:g><xliff:g id="participant">%2$s</xliff:g> σχετικά με το θέμα <xliff:g id="subject">%3$s</xliff:g>, <xliff:g id="snippet">%4$s</xliff:g> στις <xliff:g id="time">%5$s</xliff:g>, <xliff:g id="readstate">%6$s</xliff:g>"</string>
+	<!---->
+	<string name="read_string">"Αναγνωσμένη συνομιλία"</string>
+	<!---->
+	<string name="unread_string">"Μη αναγνωσμένη συνομιλία"</string>
+	<!---->
+	<string name="filtered_tag">"[<xliff:g id="tag">%1$s</xliff:g>]<xliff:g id="subject">%2$s</xliff:g>"</string>
+	<!-- no translation found for badge_and_subject -->
+	<skip />
+	<plurals name="draft">
+		<item quantity="one">"Πρόχειρο"</item>
+		<item quantity="other">"Πρόχειρα"</item>
+	</plurals>
+	<!---->
+	<string name="sending">"Αποστολή\u2026"</string>
+	<!---->
+	<string name="message_retrying">"Επανάληψη\u2026"</string>
+	<!---->
+	<string name="message_failed">"απέτυχε"</string>
+	<!---->
+	<string name="send_failed">"Η αποστολή την αλληλογραφίας απέτυχε."</string>
+	<!---->
+	<string name="send_failed_wait_attchment_downloaded">"Δεν είναι δυνατή η προώθηση επειδή δεν έχει ολοκληρωθεί η λήψη των συνημμένων. Πραγματοποιήστε πρώτα λήψη των συνημμένων."</string>
+	<!---->
+	<string name="me_object_pronoun">"Εγώ"</string>
+	<!---->
+	<string name="me_subject_pronoun">"Εγώ"</string>
+	<plurals name="confirm_delete_conversation">
+		<item quantity="one">"Να διαγραφεί αυτή η συνομιλία;"</item>
+		<item quantity="other">"Να διαγραφούν αυτές οι <xliff:g id="count">%1$d</xliff:g> συνομιλίες;"</item>
+	</plurals>
+	<plurals name="confirm_archive_conversation">
+		<item quantity="one">"Να αρχειοθετηθεί αυτή η συνομιλία;"</item>
+		<item quantity="other">"Να αρχειοθετηθούν αυτές οι <xliff:g id="count">%1$d</xliff:g> συνομιλίες;"</item>
+	</plurals>
+	<plurals name="confirm_discard_drafts_conversation">
+		<item quantity="one">"Να απορριφθεί αυτό το μήνυμα;"</item>
+		<item quantity="other">"Να διαγραφούν αυτά τα <xliff:g id="count">%1$d</xliff:g> μηνύματα;"</item>
+	</plurals>
+	<!---->
+	<string name="confirm_discard_text">"Να απορριφθεί αυτό το μήνυμα;"</string>
+	<!---->
+	<string name="loading_conversations">"Φόρτωση\u2026"</string>
+	<!---->
+	<string name="empty_inbox">"Τελειώσατε! Απολαύστε τη μέρα σας."</string>
+	<!---->
+	<string name="empty_search">"Ωχ! Δεν βρέθηκε τίποτα για το ερώτημα \"<xliff:g id="search_query">%1$s</xliff:g>\"."</string>
+	<!---->
+	<string name="empty_spam_folder">"Τέλεια! Δεν υπάρχει κανένα ανεπιθύμητο μήνυμα!"</string>
+	<!---->
+	<string name="empty_trash_folder">"Δεν υπάρχουν διαγραμμένα στοιχεία. Ευχαριστούμε που χρησιμοποιείτε τον κάδο ανακύκλωσης!"</string>
+	<!---->
+	<string name="empty_folder">"Δεν υπάρχουν μηνύματα αλληλογραφίας εδώ."</string>
+	<!---->
+	<string name="getting_messages">"Ανάκτηση των μηνυμάτων σας"</string>
+	<!---->
+	<string name="undo">"Αναίρεση"</string>
+	<plurals name="conversation_unstarred">
+		<item quantity="one">"Αναίρεση επισήμανσης με αστέρι για <xliff:g id="count">%1$d</xliff:g> συνομιλία."</item>
+		<item quantity="other">"Αναίρεση επισήμανσης με αστέρι για <xliff:g id="count">%1$d</xliff:g> συνομιλίες."</item>
+	</plurals>
+	<plurals name="conversation_muted">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> τέθηκαν σε σίγαση."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> τέθηκαν σε σίγαση."</item>
+	</plurals>
+	<plurals name="conversation_spammed">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> αναφέρθηκαν ως ανεπιθύμητα."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> αναφέρθηκαν ως ανεπιθύμητα."</item>
+	</plurals>
+	<plurals name="conversation_not_spam">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> αναφέρθηκαν ως μη ανεπιθύμητα."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> αναφέρθηκαν ως μη ανεπιθύμητα."</item>
+	</plurals>
+	<plurals name="conversation_not_important">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> επισημάνθηκαν ως μη σημαντικά."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> επισημάνθηκαν ως μη σημαντικά."</item>
+	</plurals>
+	<plurals name="conversation_phished">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b> αναφέρθηκαν ως απόπειρα ηλεκτρονικού ψαρέματος."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b> αναφέρθηκαν ως απόπειρα ηλεκτρονικού ψαρέματος."</item>
+	</plurals>
+	<plurals name="conversation_archived">
+		<item quantity="one">"<b><xliff:g id="count">%1$d</xliff:g></b>αρχειοθετήθηκαν."</item>
+		<item quantity="other">"<b><xliff:g id="count">%1$d</xliff:g></b>αρχειοθετήθηκαν."</item>
+	</plurals>
+	<plurals name="conversation_deleted">
+		<item quantity="one">"&lt;b&gt;%1$d&lt;/b&gt; διαγράφηκαν."</item>
+		<item quantity="other">"&lt;b&gt;%1$d&lt;/b&gt; διαγράφηκαν."</item>
+	</plurals>
+	<!---->
+	<string name="deleted">"Διαγράφηκε"</string>
+	<!---->
+	<string name="archived">"Αρχειοθετήθηκε"</string>
+	<!---->
+	<string name="starred">"Με αστέρι"</string>
+	<!---->
+	<string name="unstarred">"Αναίρεση επισήμανσης με αστέρι"</string>
+	<!---->
+	<string name="folder_removed">"Καταργήθηκε από <xliff:g id="folderName">%1$s</xliff:g>"</string>
+	<plurals name="conversation_folder_changed">
+		<item quantity="one">"Ο φάκελος άλλαξε."</item>
+		<item quantity="other">"Οι φάκελοι άλλαξαν."</item>
+	</plurals>
+	<!---->
+	<string name="conversation_folder_moved">"Μετακινήθηκε σε <xliff:g id="folderName">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="search_results_header">"Αποτελέσματα"</string>
+	<!---->
+	<string name="search_unsupported">"Η αναζήτηση δεν υποστηρίζεται σε αυτόν το λογαριασμό."</string>
+	<!---->
+	<string name="add_label">"Προσθήκη φακέλου"</string>
+	<!---->
+	<string name="new_incoming_messages_one">"Εμφάνιση νέου μηνύματος από <xliff:g id="sender">%s</xliff:g>."</string>
+	<plurals name="new_incoming_messages_many">
+		<item quantity="other">"Εμφάνιση <xliff:g id="count">%1$d</xliff:g> νέων μηνυμάτων."</item>
+	</plurals>
+	<!---->
+	<string name="date_and_view_details">"<xliff:g id="date">%1$s</xliff:g> &lt;a href=\'http://www.example.com\'&gt;Προβολή λεπτομερειών&lt;/a&gt;"</string>
+	<!---->
+	<string name="date_and_view_details_another">"<xliff:g id="date">%1$s</xliff:g> &lt;font color=\"<xliff:g id="color">%2$d</xliff:g>\"&gt;Προβολή λεπτομερειών&lt;/font&gt;"</string>
+	<!---->
+	<string name="hide_details">"Απόκρυψη λεπτομερειών"</string>
+	<!---->
+	<string name="to_message_header">"σε <xliff:g id="recipients">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="contact_info_string">"Εμφάνιση στοιχείων επικοινωνίας για <xliff:g id="name">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="contact_info_string_default">"Εμφάνιση στοιχείων επικοινωνίας"</string>
+	<plurals name="show_messages_read">
+		<item quantity="other">"<xliff:g example="4" id="count">%1$d</xliff:g> παλαιότερα μηνύματα"</item>
+	</plurals>
+	<!---->
+	<string name="from_heading">"Από:"</string>
+	<!---->
+	<string name="replyto_heading">"Απάντηση σε:"</string>
+	<!---->
+	<string name="to_heading">"Προς:"</string>
+	<!---->
+	<string name="to_heading_no_space">"Προς:"</string>
+	<!---->
+	<string name="cc_heading">"Κοιν.:"</string>
+	<!---->
+	<string name="bcc_heading">"Κρυφή κοιν.:"</string>
+	<!---->
+	<string name="date_heading">"Ημερομηνία:"</string>
+	<!---->
+	<string name="show_images">"Εμφάνιση εικόνων"</string>
+	<!---->
+	<string name="always_show_images">"Να εμφανίζονται πάντα οι εικόνες από αυτόν τον παραλήπτη"</string>
+	<!---->
+	<string name="always_show_images_toast">"Οι εικόνες από αυτόν τον αποστολέα θα εμφανίζονται αυτόματα."</string>
+	<!---->
+	<string name="address_display_format">"<xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g>"</string>
+	<!---->
+	<string name="address_display_format_with_via_domain">"<xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g> μέσω <xliff:g id="via_domain">%3$s</xliff:g>"</string>
+	<!---->
+	<string name="message_saved">"Το μήνυμα αποθηκεύτηκε ως πρόχειρο."</string>
+	<!---->
+	<string name="sending_message">"Αποστολή μηνύματος\u2026"</string>
+	<!---->
+	<string name="invalid_recipient">"Η διεύθυνση %s δεν είναι έγκυρη."</string>
+	<!---->
+	<string name="show_elided">"Εμφάνιση κειμένου αναφοράς"</string>
+	<!---->
+	<string name="hide_elided">"\u25BC Απόκρυψη κειμένου με εισαγωγικά"</string>
+	<!---->
+	<string name="message_invite_title">"Πρόσκληση ημερολογίου"</string>
+	<!---->
+	<string name="message_invite_available">"Είστε διαθέσιμοι"</string>
+	<!---->
+	<string name="message_invite_datetime">"Πότε"</string>
+	<!---->
+	<string name="message_invite_location">"Πού"</string>
+	<!---->
+	<string name="message_invite_in_calendar_view">"Εμφάνιση στο Ημερολόγιο"</string>
+	<!---->
+	<string name="message_invite_calendar_view">"Προβολή στο Ημερολόγιο"</string>
+	<!---->
+	<string name="message_invite_label_attending">"Θα το παρακολουθήσετε;"</string>
+	<!---->
+	<string name="message_invite_accept">"Ναι"</string>
+	<!---->
+	<string name="message_invite_tentative">"Ίσως"</string>
+	<!---->
+	<string name="message_invite_decline">"Όχι"</string>
+	<!-- no translation found for enumeration_comma -->
+	<skip />
+	<!---->
+	<string name="send_anyway">"Αποστολή ούτως ή άλλως"</string>
+	<!---->
+	<string name="ok">"OK"</string>
+	<!---->
+	<string name="done">"Τέλος"</string>
+	<!---->
+	<string name="cancel">"Ακύρωση"</string>
+	<!---->
+	<string name="clear">"Εκκαθάριση"</string>
+	<!---->
+	<string name="next">"Επόμενο"</string>
+	<!---->
+	<string name="previous">"Προηγούμενο"</string>
+	<string-array name="sync_status">
+		<item>"Δεν υπάρχει συνδεσιμότητα Wi-Fi. Θέλετε να συνεχιστεί ο συγχρονισμός;"</item>
+		<item>"Δεν υπάρχει σύνδεση."</item>
+		<item>"Δεν συνδεθήκατε"</item>
+		<item>"Σφάλμα ασφάλειας."</item>
+		<item>"Δεν ήταν δυνατός ο συγχρονισμός."</item>
+		<item>"Εσωτερικό σφάλμα"</item>
+		<item>"Σφάλμα διακομιστή"</item>
+	</string-array>
+	<!---->
+	<string name="tap_to_configure">"Αγγίξτε για ρύθμιση"</string>
+	<!---->
+	<string name="non_synced_folder_description">"Για να προβάλετε τις συνομιλίες, συγχρονίστε αυτόν το φάκελο."</string>
+	<!---->
+	<string name="tap_to_configure_folder_sync">"Συγχρονισμός φακέλου"</string>
+	<!-- no translation found for widget_large_unread_count -->
+	<skip />
+	<!---->
+	<string name="large_unseen_count">"<xliff:g example="99" id="count">%d</xliff:g>+ νέα"</string>
+	<!---->
+	<string name="unseen_count">"<xliff:g example="4" id="count">%d</xliff:g> νέα"</string>
+	<plurals name="actionbar_unread_messages">
+		<item quantity="other">"%1$d μη αναγνωσμένα"</item>
+	</plurals>
+	<!---->
+	<string name="actionbar_large_unread_count">"<xliff:g id="count">%1$d</xliff:g>+ μη αναγνωσμένα"</string>
+	<!---->
+	<string name="view_more_conversations">"Προβολή περισσότερων συνομιλιών"</string>
+	<!---->
+	<string name="loading_conversation">"Φόρτωση\u2026"</string>
+	<!---->
+	<string name="activity_mailbox_selection">"Επιλογή λογαριασμού"</string>
+	<!---->
+	<string name="activity_folder_selection">"Επιλογή φακέλου"</string>
+	<!---->
+	<string name="folder_shortcut_widget_label">"Φάκελος email"</string>
+	<!---->
+	<string name="change_folders_selection_dialog_title">"Αλλαγή φακέλων"</string>
+	<!---->
+	<string name="move_to_selection_dialog_title">"Μετακίνηση σε"</string>
+	<!-- no translation found for search_results_loaded -->
+	<skip />
+	<!---->
+	<string name="network_error">"Δεν υπάρχει σύνδεση"</string>
+	<!---->
+	<string name="retry">"Επανάληψη"</string>
+	<!---->
+	<string name="load_more">"Φόρτωση περισσότερων"</string>
+	<!---->
+	<string name="shortcut_name_title">"Συντόμευση φακέλου ονομάτων"</string>
+	<!---->
+	<string name="wait_for_sync_title">"Αναμονή για συγχρονισμό"</string>
+	<!---->
+	<string name="not_synced_title">"Ο λογαριασμός δεν έχει συγχρονιστεί"</string>
+	<!---->
+	<string name="wait_for_manual_sync_body">"Ο λογαριασμός δεν έχει ρυθμιστεί για αυτόματο συγχρονισμό.\nΑγγίξτε την επιλογή <b>Συγχρονισμός τώρα</b> για να συγχρονίσετε μία φορά τα email ή επιλέξτε <b>Αλλαγή ρυθμίσεων συγχρονισμού</b> για να ρυθμίσετε το λογαριασμό ώστε να εκτελεία αυτόματα συγχρονισμό."</string>
+	<!---->
+	<string name="manual_sync">"Συγχρονισμός τώρα"</string>
+	<!---->
+	<string name="change_sync_settings">"Αλλαγή ρυθμίσεων συγχρονισμού"</string>
+	<!---->
+	<string name="photo_load_failed">"Δεν ήταν δυνατή η φόρτωση της εικόνας"</string>
+	<!---->
+	<string name="cant_move_or_change_labels">"Δεν είναι δυνατή η μετακίνηση επειδή η επιλογή περιλαμβάνει πολλούς λογαριασμούς."</string>
+	<!-- no translation found for multiple_new_message_notification_item -->
+	<skip />
+	<!-- no translation found for single_new_message_notification_big_text -->
+	<skip />
+	<!---->
+	<string name="ignore_spam_warning">"Παράβλεψη, το μήνυμα είναι αξιόπιστο"</string>
+	<!---->
+	<string name="via_domain">"μέσω <xliff:g id="viaDomain">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="signin">"Σύνδεση"</string>
+	<!---->
+	<string name="info">"Πληροφορίες"</string>
+	<!---->
+	<string name="report">"Αναφορά"</string>
+	<!---->
+	<string name="sync_error">"Δεν ήταν δυνατός ο συγχρονισμός."</string>
+	<!---->
+	<string name="sync_error_message">"Δεν απομένει αρκετός χώρος αποθήκευσης στη συσκευή σας για συγχρονισμό."</string>
+	<!---->
+	<string name="storage">"Αποθήκευση"</string>
+	<!-- no translation found for senders_split_token -->
+	<skip />
+	<!-- no translation found for draft_count_format -->
+	<skip />
+	<!---->
+	<string name="all_folders_heading">"Όλοι οι φάκελοι"</string>
+	<!---->
+	<string name="recent_folders_heading">"Πρόσφατοι φάκελοι"</string>
+	<!---->
+	<string name="message_details_title">"Λεπτομέρειες μηνύματος"</string>
+	<!---->
+	<string name="preference_advance_to_title">"Αυτόματη συνέχιση"</string>
+	<string-array name="prefEntries_autoAdvance">
+		<item>"Νεότερα"</item>
+		<item>"Παλαιότερα"</item>
+		<item>"Λίστα συνομιλιών"</item>
+	</string-array>
+	<string-array name="prefSummaries_autoAdvance">
+		<item>"Εμφάνιση νεότερων συνομιλιών μετά τη διαγραφή"</item>
+		<item>"Εμφάνιση παλαιότερων συνομιλιών μετά τη διαγραφή"</item>
+		<item>"Εμφάνιση λίστα συνομιλιών μετά τη διαγραφή"</item>
+	</string-array>
+	<!---->
+	<string name="prefDialogTitle_autoAdvance">"Συνέχιση σε"</string>
+	<!---->
+	<string name="clear_display_images_whitelist_title">"Εκκαθάριση εγκρίσεων εικόνας"</string>
+	<!---->
+	<string name="clear_display_images_whitelist_dialog_title">"Εκκαθάριση εγκρίσεων εικόνας;"</string>
+	<!---->
+	<string name="clear_display_images_whitelist_dialog_message">"Διακοπή εμφάνισης ενσωματωμένων εικόνων από αποστολείς που είχατε επιτρέψει προηγουμένως."</string>
+	<!---->
+	<string name="sender_whitelist_cleared">"Οι εικόνες δεν θα εμφανίζονται αυτόματα."</string>
+	<!---->
+	<string name="preferences_signature_title">"Υπογραφή"</string>
+	<!---->
+	<string name="preferences_signature_dialog_title">"Υπογραφή"</string>
+	<!---->
+	<string name="preferences_signature_summary_not_set">"Δεν έχει οριστεί"</string>
+	<!---->
+	<string name="mail_account_signature_prefix">"Στάλθηκε από το <xliff:g example="4" id="product">%1$s</xliff:g> μου"</string>
+	<!---->
+	<string name="notification_action_reply">"Απάντηση"</string>
+	<!---->
+	<string name="notification_action_reply_all">"Απάντηση σε όλους"</string>
+	<!---->
+	<string name="notification_action_archive">"Αρχειοθέτηση"</string>
+	<!---->
+	<string name="notification_action_remove_label">"Κατάργηση ετικέτας"</string>
+	<!---->
+	<string name="notification_action_delete">"Διαγραφή"</string>
+	<!---->
+	<string name="notification_action_undo_archive">"Αρχειοθετήθηκε"</string>
+	<!---->
+	<string name="notification_action_undo_remove_label">"Η ετικέτα καταργήθηκε"</string>
+	<!---->
+	<string name="notification_action_undo_delete">"Διαγράφηκε"</string>
+	<!-- no translation found for veiled_address -->
+	<skip />
+	<!-- no translation found for veiled_alternate_text -->
+	<skip />
+	<!-- no translation found for veiled_alternate_text_unknown_person -->
+	<skip />
+	<!-- no translation found for veiled_summary_unknown_person -->
+	<skip />
+	<!-- no translation found for label_notification_ticker -->
+	<skip />
+	<plurals name="new_messages">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> νέο μήνυμα"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> νέα μηνύματα"</item>
+	</plurals>
+	<!-- no translation found for single_new_message_notification_title -->
+	<skip />
+	<!---->
+	<string name="silent_ringtone">"Σίγαση"</string>
+	<!---->
+	<string name="preference_removal_action_title">"Ενέργειες αρχειοθέτησης και διαγραφής"</string>
+	<string-array name="prefEntries_removal_action">
+		<item>"Εμφάνιση μόνο των αρχειοθετημένων στοιχείων"</item>
+		<item>"Εμφάνιση μόνο των διαγραμμένων στοιχείων"</item>
+		<item>"Εμφάνιση αρχειοθετημένων και διαγραμμένων"</item>
+	</string-array>
+	<string-array name="prefSummaries_removal_action_summary">
+		<item>"Εμφάνιση μόνο των αρχειοθετημένων στοιχείων"</item>
+		<item>"Εμφάνιση μόνο των διαγραμμένων στοιχείων"</item>
+		<item>"Εμφάνιση αρχειοθετημένων και διαγραμμένων"</item>
+	</string-array>
+	<!---->
+	<string name="prefDialogTitle_removal_action">"Ενέργειες αρχειοθέτησης και διαγραφής"</string>
+	<!---->
+	<string name="preferences_default_reply_all_title">"Απάντηση σε όλους"</string>
+	<!---->
+	<string name="preferences_default_reply_all_summary_impl">"Χρήση ως προεπιλογής για απαντήσεις μηνυμάτων"</string>
+	<!---->
+	<string name="preference_swipe_title_archive">"Κάντε σάρωση για αρχειοθέτηση"</string>
+	<!---->
+	<string name="preference_swipe_title_delete">"Κάντε σάρωση για διαγραφή"</string>
+	<!---->
+	<string name="preference_swipe_description">"Σε λίστα συνομιλιών"</string>
+	<!---->
+	<string name="preference_swipe_actions">"Ενέργειες σάρωσης"</string>
+	<!---->
+	<string name="preference_sender_image_title">"Εικόνα αποστολέα"</string>
+	<!---->
+	<string name="preference_sender_image_description">"Εμφάνιση δίπλα από το όνομα στη λίστα συνομιλιών"</string>
+	<!---->
+	<string name="empty_trash">"Άδειασμα απορριμμάτων"</string>
+	<!---->
+	<string name="empty_spam">"Άδειασμα ανεπιθύμητης αλληλογραφίας"</string>
+	<!---->
+	<string name="star_toggle">"Εναλλαγή αστεριού"</string>
+	<!---->
+	<string name="empty_trash_dialog_title">"Να γίνει άδειασμα απορριμμάτων;"</string>
+	<!---->
+	<string name="empty_spam_dialog_title">"Να γίνει άδειασμα ανεπιθύμητης αλληλογραφίας;"</string>
+	<plurals name="empty_folder_dialog_message">
+		<item quantity="one">"%1$d μήνυμα θα διαγραφεί οριστικά."</item>
+		<item quantity="other">"%1$d μηνύματα θα διαγραφούν οριστικά."</item>
+	</plurals>
+	<!---->
+	<string name="drawer_open">"Άνοιγμα συρταριού πλοήγησης"</string>
+	<!---->
+	<string name="drawer_close">"Πληροφορίες πνευματικών δικαιωμάτων"</string>
+	<!---->
+	<string name="conversation_photo_welcome_text">"Αγγίξτε την εικόνα ενός αποστολέα για να επιλέξετε τη συγκεκριμένη συνομιλία."</string>
+	<!---->
+	<string name="long_press_to_select_tip">"Αγγίξτε παρατεταμένα για να επιλέξετε μία συνομιλία και, στη συνέχεια, αγγίξτε για να επιλέξετε περισσότερες."</string>
+	<!---->
+	<string name="folder_icon_desc">"Εικονίδιο φακέλου"</string>
+	<!---->
+	<string name="add_account">"Προσθήκη λογαριασμού"</string>
+	<!---->
+	<string name="dismiss_tip_hover_text">"Απόρριψη συμβουλής"</string>
+	<!---->
+	<string name="auto_sync_off">"Ο αυτόματος συγχρονισμός είναι ανενεργός."</string>
+	<!---->
+	<string name="tap_to_enable_sync">"Αγγίξτε για ενεργοποίηση."</string>
+	<!---->
+	<string name="account_sync_off">"Ο συγχρονισμός λογαριασμών έχει απενεργοποιηθεί."</string>
+	<!---->
+	<string name="enable_sync_in_account_settings">"Ενεργοποιήστε από <xliff:g id="account_settings">%1$s</xliff:g>."</string>
+	<!---->
+	<string name="account_settings_param">"Ρυθμίσεις λογαριασμού"</string>
+	<!---->
+	<string name="unsent_messages_in_outbox">"<xliff:g id="number">%1$s</xliff:g> μη απεσταλμένα στοιχεία στο φάκελο <xliff:g id="outbox">%2$s</xliff:g>"</string>
+	<!---->
+	<string name="turn_auto_sync_on_dialog_title">"Να ενεργοποιηθεί ο αυτόματος συγχρονισμός;"</string>
+	<!---->
+	<string name="turn_auto_sync_on_dialog_body">"Οι αλλαγές που εφαρμόζετε σε όλες τις εφαρμογές κι τους λογαριασμούς, και όχι μόνο στο Gmail, θα συγχρονίζονται στο web, τις υπόλοιπες συσκευές σας και το <xliff:g id="phone_or_tablet">%1$s</xliff:g>."</string>
+	<!---->
+	<string name="phone">"Τηλέφωνο"</string>
+	<!---->
+	<string name="tablet">"Tablet"</string>
+	<!---->
+	<string name="turn_auto_sync_on_dialog_confirm_btn">"Ενεργοποίηση"</string>
+	<!---->
+	<string name="show_n_more_folders">"Εμφάνιση %1$s ακόμα φακέλων"</string>
+	<!---->
+	<string name="hide_folders">"Απόκρυψη φακέλων"</string>
+	<!---->
+	<string name="print">"Εκτύπωση"</string>
+	<!---->
+	<string name="print_all">"Εκτύπωση όλων"</string>
+	<plurals name="num_messages">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> μήνυμα"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> μηνύματα"</item>
+	</plurals>
+	<!---->
+	<string name="date_message_received_print">"<xliff:g id="day_and_date">%1$s</xliff:g> σε <xliff:g id="time">%2$s</xliff:g>"</string>
+	<!---->
+	<string name="draft_to_heading">"Προσχέδιο προς:"</string>
+	<!---->
+	<string name="draft_heading">"Πρόχειρο"</string>
+	<!---->
+	<string name="quoted_text_hidden_print">"Κρυφό κείμενο αναφοράς"</string>
+	<plurals name="num_attachments">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> συνημμένο"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> συνημμένα"</item>
+	</plurals>
+	<!---->
+	<string name="no_subject">"(Χωρίς θέμα)"</string>
+	<!---->
+	<string name="vacation_responder">"Απάντηση διακοπών"</string>
+	<!---->
+	<string name="preferences_vacation_responder_title">"Απάντηση διακοπών"</string>
+	<!---->
+	<string name="vacation_responder_body_hint_text">"Μήνυμα"</string>
+	<!---->
+	<string name="send_to_contacts_text">"Αποστολή μόνο στις επαφές μου"</string>
+	<!---->
+	<string name="send_to_domain_text">"Αποστολή μόνο σε <xliff:g id="domain">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="pick_start_date_title">"Έναρξη"</string>
+	<!---->
+	<string name="pick_end_date_title">"Λήξη (Προαιρετικά)"</string>
+	<!---->
+	<string name="date_not_set">"Δεν έχει οριστεί"</string>
+	<!---->
+	<string name="set_end_date_dialog_title">"Ημερομηνία λήξης (προαιρετικά)"</string>
+	<!---->
+	<string name="custom_date">"Προσαρμογή"</string>
+	<!---->
+	<string name="date_none">"Κανένας"</string>
+	<!---->
+	<string name="discard_changes">"Απόρριψη αλλαγών;"</string>
+	<!---->
+	<string name="draft_saved">"Το πρόχειρο αποθηκεύτηκε"</string>
+	<!---->
+	<string name="draft_discard">"Το πρόχειρο απορρίφθηκε"</string>
+	<!---->
+	<string name="vacation_responder_changes_saved">"Οι αλλαγές της απάντησης διακοπών αποθηκεύτηκαν"</string>
+	<!---->
+	<string name="vacation_responder_changes_discarded">"Οι αλλαγές της απάντησης διακοπών απορρίφθηκαν"</string>
+	<!---->
+	<string name="vacation_responder_off">"ΑΝΕΝΕΡΓΟ"</string>
+	<!---->
+	<string name="vacation_responder_on">"Ενεργό, από <xliff:g id="date">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="vacation_responder_on_with_end_date">"Ενεργό, από <xliff:g id="start-date">%1$s</xliff:g> έως <xliff:g id="end-date">%2$s</xliff:g>"</string>
+	<!---->
+	<string name="vacation_responder_empty_subject_and_body_warning">"Προσθήκη θέματος ή μηνύματος"</string>
+	<!---->
+	<string name="view_entire_message">"Προβολή ολόκληρου του μηνύματος"</string>
+	<!---->
+	<string name="eml_loader_error_toast">"Δεν είναι δυνατό το άνοιγμα αυτού του αρχείου"</string>
+	<!---->
+	<string name="help_and_info">"Βοήθεια"</string>
+	<!---->
+	<string name="help_and_feedback">"Βοήθεια και σχόλια"</string>
+	<!---->
+	<string name="feedback">"Αποστολή σχολίων"</string>
+	<!---->
+	<string name="copyright">"©<xliff:g example="2010" id="year">%1$d</xliff:g> Google Inc."</string>
+	<!---->
+	<string name="version">"Έκδοση <xliff:g example="Email" id="app_name">%1$s</xliff:g> <xliff:g example="2.2.1" id="version">%2$s</xliff:g>"</string>
+	<!-- no translation found for view_app_page -->
+	<skip />
+	<!---->
+	<string name="print_dialog">"Εκτύπωση\u2026"</string>
+	<!---->
+	<string name="copyright_information">"Πληροφορίες πνευματικών δικαιωμάτων"</string>
+	<!---->
+	<string name="privacy_policy">"Πολιτική απορρήτου"</string>
+	<!---->
+	<string name="open_source_licenses">"Άδειες χρήσης ανοιχτού κώδικα"</string>
+	<!---->
+	<string name="reply_choice_yes">"Ναι"</string>
+	<!---->
+	<string name="reply_choice_no">"Όχι"</string>
+	<!---->
+	<string name="reply_choice_ok">"OK"</string>
+	<!-- no translation found for reply_choice_hehe -->
+	<skip />
+	<!---->
+	<string name="reply_choice_thanks">"Ευχαριστώ"</string>
+	<!---->
+	<string name="reply_choice_i_agree">"Αποδοχή"</string>
+	<!---->
+	<string name="reply_choice_nice">"Ωραία"</string>
+	<!---->
+	<string name="reply_on_my_way">"Έρχομαι"</string>
+	<!---->
+	<string name="reply_choice_later">"ΟΚ, θα επικοινωνήσω εγώ μαζί σου"</string>
+	<!-- no translation found for reply_choice_smiling_face -->
+	<skip />
+	<!-- no translation found for reply_choice_frowning_face -->
+	<skip />
+	<!---->
+	<string name="preference_header_action_confirmations">"Επιβεβαιώσεις ενεργειών"</string>
+	<!---->
+	<string name="preference_confirm_before_delete_title">"Επιβεβαίωση πριν τη διαγραφή"</string>
+	<!---->
+	<string name="preference_confirm_before_archive_title">"Επιβεβαίωση πριν την αρχειοθέτηση"</string>
+	<!---->
+	<string name="preference_confirm_before_send_title">"Επιβεβαίωση πριν την αποστολή"</string>
+	<!---->
+	<string name="preferences_conversation_mode_title">"Αυτόματη προσαρμογή μηνυμάτων"</string>
+	<!---->
+	<string name="preferences_conversation_mode_summary">"Μείωση μεγέθους μηνυμάτων ώστε να χωρούν στην οθόνη"</string>
+	<!---->
+	<string name="preferences_disable_snap_headers_title">"Ενέργειες μηνύματος"</string>
+	<string-array name="prefSummaries_snapHeader">
+		<item>"Να εμφανίζονται πάντα οι ενέργειες του μηνύματος στο επάνω μέρος της οθόνης"</item>
+		<item>"Να εμφανίζονται οι ενέργειες του μηνύματος μόνο στο επάνω μέρος της οθόνης κατά την περιστροφή σε κατακόρυφη προβολή"</item>
+		<item>"Να μην εμφανίζονται οι ενέργειες του μηνύματος εκτός της κεφαλίδας του μηνύματος"</item>
+	</string-array>
+	<string-array name="prefEntries_snapHeader">
+		<item>"Να εμφανίζονται πάντα"</item>
+		<item>"Εμφάνιση μόνο σε κατακόρυφη προβολή"</item>
+		<item>"Να μην εμφανίζεται"</item>
+	</string-array>
+	<!---->
+	<string name="clear_history_title">"Εκκαθάριση ιστορικού αναζήτησης"</string>
+	<!---->
+	<string name="search_history_cleared">"Έγινε εκκαθάριση ιστορικού αναζήτησης."</string>
+	<!---->
+	<string name="clear_history_dialog_title">"Εκκαθάριση ιστορικού αναζήτησης;"</string>
+	<!---->
+	<string name="clear_history_dialog_message">"Όλες οι αναζητήσεις που έχετε εκτελέσει θα διαγραφούν."</string>
+	<!---->
+	<string name="manage_accounts_menu_item">"Διαχείριση λογαριασμών"</string>
+	<!---->
+	<string name="general_preferences_title">"Γενικές ρυθμίσεις"</string>
+	<!---->
+	<string name="activity_preferences">"Ρυθμίσεις"</string>
+	<!---->
+	<string name="always_bcc_myself">"Πάντα Ιδ.Κοιν. σε εμένα"</string>
+	<!---->
+	<string name="always_bcc_myself_summary">"Να γίνεται πάντα Ιδ.Κοιν. σε εμένα για σύνταξη, απάντηση και προώθηση"</string>
+	<!---->
+	<string name="general_preference_auto_download_remaining_label">"Αυτόμ. λήψη υπολειπόμεν."</string>
+	<!---->
+	<string name="general_preference_auto_download_remaining_summary">"Αυτόματη λήψη υπολειπόμενου σώματος κατά την κύλιση προς τα κάτω"</string>
+	<!---->
+	<string name="download_remaining">"Λήψη υπολειπόμενου"</string>
+	<!---->
+	<string name="downloading_remaining">"Φόρτωση..."</string>
+	<!---->
+	<string name="unable_to_connect">"Δεν ήταν δυνατή η σύνδεση"</string>
+	<!---->
+	<string name="need_connection_prompt">"Απαιτείται σύνδεση δικτύου για τη χρήση αυτής της εφαρμογή. Ενεργοποιήστε το δίκτυο κινητής τηλεφωνίας ή το Wi-Fi στις Ρυθμίσεις."</string>
+	<!---->
+	<string name="connection_settings">"Ρυθμίσεις"</string>
+	<!---->
+	<string name="priority_action">"Προτεραιότητα"</string>
+	<!---->
+	<string name="set_priority_dialog_title">"Ορισμός προτεραιότητας"</string>
+	<!---->
+	<string name="dialog_warning">"Προειδοποίηση\u2026"</string>
+	<!---->
+	<string name="dialog_warning_message">"Η έκδοση της εφαρμογής Exchange δεν είναι ίδια με την έκδοση του Email. Συνέχεια;"</string>
+	<!---->
+	<string name="toast_warning_text">"Η έκδοση της εφαρμογής Exchange δεν είναι ίδια με την έκδοση του Email"</string>
+	<!---->
+	<string name="tips_sync_alter_title">"Συγχρονισμός"</string>
+	<!---->
+	<string name="tips_sync_alter_content">"Δεν υπάρχει συνδεσιμότητα Wi-Fi. Θέλετε να συνεχιστεί ο συγχρονισμός;"</string>
+	<!---->
+	<string name="tips_sync_alter_yes">"Ναι"</string>
+	<!---->
+	<string name="tips_sync_alter_no">"Όχι"</string>
+	<!---->
+	<string name="message_invite_tentative_title">"Αβέβαιη παρουσία"</string>
+	<!---->
+	<string name="message_invite_decline_title">"Απόρριψη"</string>
+	<!---->
+	<string name="message_invite_accent_title">"Αποδοχή"</string>
+	<!---->
+	<string name="drm_file_remind">"Αυτό το αρχείο δεν επιτρέπεται να φορτωθεί ή να διαμοιραστεί γιατί το αρχείο έιναι προστατευμένο με DRM!"</string>
+	<!---->
+	<string name="not_add_more_recipients">"Δεν είναι η δυνατή η προσθήκη παραληπτών πάνω από <xliff:g id="maxLimit">%1$d</xliff:g> τη φορά."</string>
+	<!---->
+	<string name="global_search_label">"E-mail"</string>
+	<!---->
+	<string name="global_search_hint">"Αναζήτηση email"</string>
+	<!---->
+	<string name="global_search_description">"Αποστολείς, θέματα και κυρίως σώματα μηνυμάτων"</string>
+	<!---->
+	<string name="remote_search_failed">"Απέτυχε η αναζήτηση διακομιστή!"</string>
+	<!---->
+	<string name="searching_on_server">"Αναζήτηση στο διακομιστή"</string>
+	<!---->
+	<string name="searching_on_server_title">"Αναζήτηση στο διακομιστή για \"<xliff:g id="account_name">%s</xliff:g>\""</string>
+	<!---->
+	<string name="searching_all_fields_on_sever">"Αναζ.όλων των πεδίων σε διακ"</string>
+	<!---->
+	<string name="search_field_subject">"Θέμα"</string>
+	<!---->
+	<string name="search_field_receiver">"Παραλήπτης"</string>
+	<!---->
+	<string name="search_field_sender">"Αποστολέας"</string>
+	<!---->
+	<string name="search_field_body">"Κυρίως σώμα κειμένου"</string>
+	<!---->
+	<string name="search_field_all">"Όλες"</string>
+	<!---->
+	<string name="search_field_attachment">"Συνημμένα"</string>
+	<!---->
+	<string name="select_all">"Επιλογή όλων"</string>
+	<!---->
+	<string name="deselect_all">"Αποεπιλογή όλων"</string>
+	<!---->
+	<string name="need_wifi_connection_prompt">"Απαιτείται σύνδεση δικτύου για τη χρήση αυτής της εφαρμογή. Ενεργοποιήστε το δίκτυο κινητής τηλεφωνίας ή το Wi-Fi στις Ρυθμίσεις."</string>
+	<!---->
+	<string name="account_setup_names_account_name_des_label">"προαιρ."</string>
+	<!---->
+	<string name="account_setup_names_user_name_des_label">"στα εξερχόμενα"</string>
+	<!---->
+	<string name="finish_action">"Τερματισμός"</string>
+	<!---->
+	<string name="copy_email">"Αντιγραφή διεύθυνσης email"</string>
+	<!---->
+	<string name="out_of_office_syncing">"Συγχρονισμός ρυθμίσεων "Εκτός γραφείου""</string>
+	<!---->
+	<string name="out_of_office_fail">"Ο συγχρονισμός των ρυθμίσεων "Εκτός γραφείου" απέτυχε!"</string>
+	<!---->
+	<string name="out_of_office_success">"Ο συγχρονισμός των ρυθμίσεων "Εκτός γραφείου" ήταν επιτυχής!"</string>
+	<!---->
+	<string name="manual_sync_when_roaming">"Συγχρονισμός κατά την περιαγωγή"</string>
+	<!---->
+	<string name="manual_sync_when_roaming_summery">"Μη αυτόματη ανανέωση μόνο"</string>
+	<!---->
+	<string name="manual_sync_when_roaming_toast">"Κάντε σάρωση προς τα κάτω για μη αυτόματη ανανέωση κατά την περιαγωγή"</string>
+	<!---->
+	<string name="manual_sync_when_roaming_refresh">"Ανανέωση"</string>
+	<!---->
+	<string name="server_rule_can_not_change">"Δεν είναι δυνατή η αλλαγή των κανόνων διακομιστή"</string>
+	<!---->
+	<string name="server_rules">"Κανόνες διακομιστή"</string>
+	<!---->
+	<string name="confirm_forward_message">"Δεν έχει γίνει λήψη όλων των αρχείων. Να γίνει προώθηση χωρίς λήψη των αρχείων;"</string>
+	<!---->
+	<string name="confirm_forward_cancel">"Ακύρωση"</string>
+	<!---->
+	<string name="confirm_forward_drop_unload_attachment">"Προώθηση"</string>
+	<!---->
+	<string name="mail_not_download_completely">"Περιμένετε μέχρι να ολοκληρωθεί η λήψη"</string>
+	<!---->
+	<string name="account_settings_inline_images_lable">"Εικόνες"</string>
+	<!---->
+	<string name="account_settings_inline_always_show">"Να εμφανίζονται πάντα"</string>
+	<!---->
+	<string name="account_settings_inline_ask_before_show">"Ερώτηση πριν την εμφάνιση"</string>
+	<!---->
+	<string name="conversation_time_after_today">"Μετά από σήμερα"</string>
+	<!---->
+	<string name="conversation_time_today">"Σήμερα"</string>
+	<!---->
+	<string name="conversation_time_yesterday">"Χθες"</string>
+	<!---->
+	<string name="conversation_time_this_month">"Αυτό το μήνα"</string>
+	<!---->
+	<string name="conversation_time_elapse_just_now">"Μόλις τώρα"</string>
+	<!---->
+	<string name="conversation_time_elapse_minute">"<xliff:g id="count">%d</xliff:g> λεπτά"</string>
+	<!---->
+	<string name="message_in_queued_status">"Σε ουρά"</string>
+	<plurals name="send_failed_messages">
+		<item quantity="one">"<xliff:g id="count">%1$d</xliff:g> email δεν εστάλη"</item>
+		<item quantity="other">"<xliff:g id="count">%1$d</xliff:g> email δεν εστάλησαν"</item>
+	</plurals>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_label">"Συγχρονισμός ημερολογίων από"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_2weeks">"Δύο εβδομάδες"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_1month">"Ένας μήνας"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_3months">"Μια φορά τους τρεις μήνες"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_6months">"Έξι μήνες"</string>
+	<!---->
+	<string name="account_setup_options_mail_calendar_window_all">"Όλα"</string>
+	<!---->
+	<string name="no_permission_to_open_file">"Απαιτείται δικαίωμα αποθήκευσης για το άνοιγμα του αρχείου"</string>
+	<!---->
+	<string name="conversation_update_time_text">"Τελευταία ενημέρωση:"</string>
+	<!---->
+	<string name="conversation_update_unknown_time_stamp">"Άγνωστο"</string>
+	<!---->
+	<string name="conversation_time_elapse_today">"Σήμερα"</string>
+	<!---->
+	<string name="save_to_attachment">"Αποθήκευση σε"</string>
+	<!---->
+	<string name="download_settings_title">"Αποθήκευση συνημμένου"</string>
+	<!---->
+	<string name="download_edit_filename_label">"Όνομα"</string>
+	<!---->
+	<string name="download_filepath_label">"Διαδρομή"</string>
+	<!---->
+	<string name="download_file_size">"Μέγεθος"</string>
+	<!---->
+	<string name="download_time_needed">"Ώρα"</string>
+	<!---->
+	<string name="download_cancel">"Ακύρωση"</string>
+	<!---->
+	<string name="download_start">"ΟΚ"</string>
+	<!---->
+	<string name="unknown_length">"Άγνωστο"</string>
+	<!---->
+	<string name="time_min">"λεπτό"</string>
+	<!---->
+	<string name="open_file_manager_failed">"Δεν ήταν δυνατό το άνοιγμα της Διαχείρισης αρχείων"</string>
+	<!---->
+	<string name="attachment_not_saved">"Το συνημμένο δεν αποθηκεύτηκε"</string>
+	<!---->
+	<string name="sync_calendar_title">"Δεν είναι δυνατός ο συγχρονισμός Ημερολογίου"</string>
+	<!---->
+	<string name="sync_calendar_content">"Για το συγχρονισμό, επιτρέψτε στις υπηρεσίες Exchange την πρόσβαση στο Ημερολόγιο"</string>
+	<!---->
+	<string name="sync_contacts_title">"Δεν είναι δυνατός ο συγχρονισμός Επαφών"</string>
+	<!---->
+	<string name="sync_contacts_content">"Για το συγχρονισμό, επιτρέψτε στις υπηρεσίες Exchange την πρόσβαση στις Επαφές"</string>
+	<!---->
+	<string name="notification_never_ask_again">"Να μην ερωτηθώ ξανά"</string>
+	<!---->
+	<string name="sync_storage_title">"Δεν είναι δυνατή η αποθήκευση του συνημμένου"</string>
+	<!---->
+	<string name="sync_storage_content">"Για την αποθήκευση, επιτρέψτε στις υπηρεσίες Exchange την πρόσβαση στο χώρο αποθήκευσης"</string>
+	<!---->
+	<string name="oof_continue">"Συνέχεια"</string>
+	<!---->
+	<string name="permission_needed_to_add_attachments">"Για να προσθέσετε συνημμένα, παραχωρήστε στην εφαρμογή Email δικαιώματα για την πρόσβαση στο χώρο αποθήκευσης"</string>
+	<!---->
+	<string name="permission_needed_to_check_ringtone">"Για να ελέγξετε τον ήχο κλήσης, παραχωρήστε στην εφαρμογή Email το δικαίωμα πρόσβασης στο χώρο αποθήκευσης"</string>
+	<!---->
+	<string name="add_folder_as_attachment_fail_tips">"Δεν μπορείτε να προσθέσετε ένα φάκελλο αρχείων, ως συννημένο"</string>
+	<!---->
+	<string name="choose_action_title">"Επιλογή ενέργειας"</string>
+	<!---->
+	<string name="choose_action_contact">"Προσθήκη επαφής: <xliff:g example="4" id="email_address">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="choose_action_email">"Email: <xliff:g example="4" id="email_address">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="choose_action_message">"Μήνυμα: <xliff:g example="4" id="email_address">%1$s</xliff:g>"</string>
+	<!---->
+	<string name="account_setup_basics_exit_action">"Έξοδος"</string>
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!-- no translation found for app_name -->
+	<skip />
+	<!-- no translation found for photo_view_count -->
+	<skip />
+	<!---->
+	<string name="retry">"Pokušaj ponovno"</string>
+	<!---->
+	<string name="failed">"Nije moguće učitati sliku"</string>
+	<!-- no translation found for more_string -->
+	<skip />
+	<!---->
+	<string name="copy_email">"Kopiraj adresu e-pošte"</string>
+	<!---->
+	<string name="copy_number">"Kopiraj telefonski broj"</string>
+	<!---->
+	<string name="action_label">"Povratak"</string>
+	<!---->
+	<string name="search_hint">"Pretraži e-poštu"</string>
+	<!---->
+	<string name="compose">"Nova poruka"</string>
+	<!---->
+	<string name="activity_folder_selection">"Odaberi mapu"</string>
+	<!---->
+	<string name="activity_preferences">"Postavke"</string>
+	<!---->
+	<string name="tap_to_configure">"Dodirnite za postavljanje"</string>
+	<!---->
+	<string name="loading_conversations">"Učitavanje\u2026"</string>
+	<!---->
+	<string name="non_synced_folder_description">"Sinkronizirajte ovu mapu za pregled razgovora"</string>
+	<!---->
+	<string name="tap_to_configure_folder_sync">"Sinkroniziraj mapu"</string>
+	<!-- no translation found for def_email_accountGermanSignature -->
+	<skip />
+	<!---->
+	<string name="send_failed">"Slanje e-pošte nije uspjelo"</string>
+	<!-- no translation found for permission_needed -->
+	<skip />
+	<!---->
+	<string name="permission_needed_label">"Potrebne su dozvole"</string>
+	<!---->
+	<string name="permission_grant_access_label">"Dozvola pristupa"</string>
+	<!---->
+	<string name="permission_grant_access_descs">"Dozvole možete promijeniti u postavkama aplikacije. E-pošti odobrite pristup kontaktima."</string>
+	<!---->
+	<string name="permission_grant_exit">"Izlaz"</string>
+	<!---->
+	<string name="permission_grant_go_setting">"Postavke"</string>
+	<!---->
+	<string name="permission_needed_to_save_attachment">"Za spremanje privitaka dozvolite e-pošti pristup pohrani"</string>
+	<!---->
+	<string name="permission_needed_to_add_attachment">"Za dodavanje privitaka dozvolite e-pošti pristup pohrani."</string>
+	<!---->
+	<string name="permission_needed_to_see_calendar">"Za pregled u kalendaru dozvolite e-pošti pristup kalendaru"</string>
+</resources>

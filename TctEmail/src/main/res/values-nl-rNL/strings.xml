@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!-- no translation found for app_name -->
+	<skip />
+	<!-- no translation found for photo_view_count -->
+	<skip />
+	<!---->
+	<string name="retry">"Opnieuw proberen"</string>
+	<!---->
+	<string name="failed">"Kan afbeelding niet laden"</string>
+	<!-- no translation found for more_string -->
+	<skip />
+	<!---->
+	<string name="copy_email">"E-mailadres kopiëren"</string>
+	<!---->
+	<string name="copy_number">"Telefoonnummer kopiëren"</string>
+	<!---->
+	<string name="action_label">"Terug"</string>
+	<!---->
+	<string name="search_hint">"Zoeken in e-mail"</string>
+	<!---->
+	<string name="compose">"Opstellen"</string>
+	<!---->
+	<string name="activity_folder_selection">"Map kiezen"</string>
+	<!---->
+	<string name="activity_preferences">"Instellingen"</string>
+	<!---->
+	<string name="tap_to_configure">"Aanraken om in te stellen"</string>
+	<!---->
+	<string name="loading_conversations">"Laden..."</string>
+	<!---->
+	<string name="non_synced_folder_description">"Synchroniseer deze map als u de gesprekken wilt bekijken."</string>
+	<!---->
+	<string name="tap_to_configure_folder_sync">"Map synchroniseren"</string>
+	<!-- no translation found for def_email_accountGermanSignature -->
+	<skip />
+	<!---->
+	<string name="send_failed">"Bericht is niet verzonden."</string>
+	<!-- no translation found for permission_needed -->
+	<skip />
+	<!---->
+	<string name="permission_needed_label">"Toestemming vereist"</string>
+	<!---->
+	<string name="permission_grant_access_label">"Toegang verlenen"</string>
+	<!---->
+	<string name="permission_grant_access_descs">"Wijzig de toestemmingen in de app-instellingen van uw apparaat. E-mail toegang geven tot Contacten."</string>
+	<!---->
+	<string name="permission_grant_exit">"Afsluiten"</string>
+	<!---->
+	<string name="permission_grant_go_setting">"Instellingen"</string>
+	<!---->
+	<string name="permission_needed_to_save_attachment">"Als u een bijlage wilt opslaan, moet u E-mail toegang verlenen tot de opslag"</string>
+	<!---->
+	<string name="permission_needed_to_add_attachment">"Als u een bijlage wilt toevoegen, moet u E-mail toegang verlenen tot de opslag"</string>
+	<!---->
+	<string name="permission_needed_to_see_calendar">"Geef E-mail toegang tot Agenda om de agenda te bekijken"</string>
+</resources>

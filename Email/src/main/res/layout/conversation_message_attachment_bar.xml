@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2012 Google Inc.
+     Licensed to The Android Open Source Project.
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<!--
+ ==========================================================================
+ *HISTORY
+ *
+ *Tag            Date         Author          Description
+ *============== ============ =============== ==============================
+ *FEATURE-ID     2015/08/27   tao.gan         Horizontal attachment
+ *BUGFIX-1877787 2016/03/31   kaifeng.lu     [Email]Have no the download and menu on attachment when open mail
+ ============================================================================
+-->
+<!-- TS: tao.gan 2015-08-27 EMAIL FEATURE_ID MOD_S -->
+<com.tct.mail.browse.MessageAttachmentBar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="110dp"
+    android:layout_height="110dp"
+    android:minHeight="110dip" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="8dp"
+        android:orientation="vertical"
+        android:background="@drawable/attachment_bg_holo" >
+
+        <RelativeLayout
+            android:id="@+id/attachment_thunmbnail_title"
+            android:layout_width="match_parent"
+            android:layout_height="70dp" >
+
+            <ImageView
+                android:id="@+id/attachment_thunmbnail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_array" />
+
+            <TextView
+                android:id="@+id/attachment_title"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_margin="8dp"
+                android:ellipsize="end"
+                android:fadingEdge="horizontal"
+                android:fadingEdgeLength="3dip"
+                android:includeFontPadding="false"
+                android:maxLines="2"
+                android:textColor="#ffffff"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="3dp">
+
+            <LinearLayout
+                android:id="@+id/attachment_type_size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/attachment_type"
+                    android:layout_width="62dp"
+                    android:layout_height="12dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:textAlignment="viewStart"
+                    android:textColor="#000"
+                    android:textSize="9sp" />
+
+                <TextView
+                    android:id="@+id/attachment_size"
+                    android:layout_width="62dp"
+                    android:layout_height="11dp"
+                    android:layout_marginTop="1dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:textAlignment="viewStart"
+                    android:textColor="#000000"
+                    android:textSize="8sp" />
+            </LinearLayout>
+
+            <ProgressBar
+                android:id="@+id/attachment_progress"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:progressDrawable="@drawable/attachment_progress_bar_drawable"
+                android:layout_alignParentBottom="true"
+                android:indeterminate="true"
+                android:visibility="invisible" />
+            <!-- TS: kaifeng.lu 2016-03-31 EMAIL BUGFIX-1877787 MOD_S -->
+            <ImageView
+                android:id="@+id/attachment_download_icon"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginRight="8dp"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/ic_download_small" />
+
+            <ImageView
+                android:id="@+id/overflow"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginRight="8dp"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/ic_overflow_24dp" />
+
+            <ImageButton
+                android:id="@+id/cancel_attachment"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginRight="8dp"
+                android:layout_alignParentEnd="true"
+                android:background="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:scaleType="center"
+                android:src="@drawable/ic_close_small"
+                android:visibility="gone" />
+            <!-- TS: kaifeng.lu 2016-03-31 EMAIL BUGFIX-1877787 MOD_E -->
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/attachment_push_state"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?android:attr/selectableItemBackground"
+        android:focusable="true" />
+
+</com.tct.mail.browse.MessageAttachmentBar>
+<!-- TS: tao.gan 2015-08-27 EMAIL FEATURE_ID MOD_E -->

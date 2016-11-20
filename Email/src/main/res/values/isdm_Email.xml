@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+================================================================================
+|                                                                 Date:09/2013 |
+|                                 PRESENTATION                                 |
+|                                                                              |
+|        Copyright 2013 TCL Communication Technology Holdings Limited.         |
+|                                                                              |
+| This material is company confidential, cannot be reproduced in any form      |
+| without the written permission of TCL Communication Technology Holdings      |
+| Limited.                                                                     |
+|                                                                              |
+| **************************************************************************** |
+|  Author :  chen caixia                                                       |
+|  Email  :  caixia.chen@tcl-mobile.com                                        |
+|  Role   :                                                                    |
+|  Reference documents :                                                       |
+| **************************************************************************** |
+|  Comments :                                                                  |
+|  File     : Email/res/values/isdm_Email.xml                                  |
+|  Labels   :                                                                  |
+| **************************************************************************** |
+| ============================================================================ |
+|      Modifications on Features list / Changes Request / Problems Report      |
+| **************************************************************************** |
+|    date   |        author        |         Key          |      comment       |
+| **********|**********************|**********************|******************* |
+| 04/16/2014|     Chao Zhang       |      FR 473181       |[SDM]E-mail Porting |
+|           |                      |porting from(FR473181)|                    |
+| **********|**********************|**********************|******************* |
+| 11/21/2014|     li.yu            |       835333         |[SDM][Email]The     |
+|           |                      |                      |SDM ID for email    |
+|           |                      |                      |account12-20 is     |
+|           |                      |                      |invalid.            |
+================================================================================
+-->
+<!--
+/**
+*===================================================================================================================
+*HISTORY
+*
+*Tag            Date         Author          Description
+*============== ============ =============== =======================================================================
+*BUGFIX-845093  2014/11/20   wenggangjin     [Android5.0][Email]Email crashes when input a hotmail account
+*BUGFIX-922404  2015/02/11   zhaotianyong    [TMO-EU][SSV]The configuration of email is not effective
+*BUGFIX-998426  2015/05/14   junwei-xu       [HOMO][HOMO][TMO ] T-Mobile FOC requirement on ranged product but our open marketing version
+*BUGFIX-1054500 2015/08/03   junwei-xu       [TMO-66505][FOC]It is not possible to set up any email account automatically via the setup wizard
+*BUGFIX-1062845 2015/08/11   junwei-xu       [America][SSV] "def_Email_account_provider1_domain" is wrong when insert Puerto Rico card.
+*BUGFIX-894294 2015/10/28   kaifeng.lu       [Email][VDF]MTK Platform Compatibility：Email compose recipients contacts
+====================================================================================================================
+*/
+ -->
+<resources>
+
+    <!-- Predefined email account provider info -->
+    <!-- It predefine 11 providers -->
+
+    <!-- Provder1 -->
+    <string name="def_email_account1Id">JRD</string>
+    <!-- The following items are moved into isdm_Email.plf for customization
+    <string name="def_email_account_provider1_label">JRD</string>
+    <string name="def_email_account_provider1_domain">jrdcom.com</string>
+    <string name="def_email_account_provider1_incoming_server">pop3://mailsh.jrdcom.com</string>
+    <string name="def_email_account_provider1_outgoing_server">smtp://mailsh.jrdcom.com</string>
+    <string name="def_email_account_provider1_username">"$user"</string>
+    <string name="def_email_account_provider1_whether_display">1</string>
+    -->
+
+    <!-- Provder2 -->
+    <string name="def_email_account2Id">JRD_IMAP</string>
+    <!-- The following items are moved into isdm_Email.plf for customization
+    <string name="def_email_account_provider2_label">JRD_IMAP</string>
+    <string name="def_email_account_provider2_domain">jrdcom.com</string>
+    <string name="def_email_account_provider2_incoming_server">imap://mailsh.jrdcom.com</string>
+    <string name="def_email_account_provider2_outgoing_server">smtp://mailsh.jrdcom.com</string>
+    <string name="def_email_account_provider2_username">$email</string>
+    <string name="def_email_account_provider2_whether_display">0</string>
+    -->
+
+    <!-- Provder3 -->
+    <string name="def_email_account3Id">JRD_IMAP</string>
+    <!-- The following items are moved into isdm_Email.plf for customization
+    <string name="def_email_account_provider3_label">JRD_IMAP</string>
+    <string name="def_email_account_provider3_domain">jrdcom.com</string>
+    <string name="def_email_account_provider3_incoming_server">imap://mailsh.jrdcom.com</string>
+    <string name="def_email_account_provider3_outgoing_server">smtp://mailsh.jrdcom.com</string>
+    <string name="def_email_account_provider3_username">$email</string>
+    <string name="def_email_account_provider3_whether_display">0</string>
+    -->
+
+    <!-- Provder4 -->
+    <string name="def_email_account4Id">JRD_IMAP</string>
+    <!-- The following items are moved into isdm_Email.plf for customization
+    <string name="def_email_account_provider4_label">JRD_IMAP</string>
+    <string name="def_email_account_provider4_domain">jrdcom.com</string>
+    <string name="def_email_account_provider4_incoming_server">imap://mailsh.jrdcom.com</string>
+    <string name="def_email_account_provider4_outgoing_server">smtp://mailsh.jrdcom.com</string>
+    <string name="def_email_account_provider4_username">$email</string>
+    <string name="def_email_account_provider4_whether_display">0</string>
+    -->
+
+    <!-- Provder5 -->
+    <string name="def_email_account5Id">googlemail</string>
+    <!-- The following items are moved into isdm_Email.plf for customization
+    <string name="def_email_account_provider5_label">Google Mail</string>
+    <string name="def_email_account_provider5_domain">googlemail.com</string>
+    <string name="def_email_account_provider5_incoming_server">imap+ssl+://imap.googlemail.com</string>
+    <string name="def_email_account_provider5_outgoing_server">smtp+ssl+://smtp.googlemail.com</string>
+    <string name="def_email_account_provider5_username">$email</string>
+    <string name="def_email_account_provider5_whether_display">1</string>
+    -->
+
+    <!-- Provder6 -->
+    <string name="def_email_account6Id">hotmail</string>
+    <!-- The following items are moved into isdm_Email.plf for customization
+    <string name="def_email_account_provider6_label">Windows Live Hotmail Plus</string>
+    <string name="def_email_account_provider6_domain">hotmail.com</string>
+    <string name="def_email_account_provider6_incoming_server">pop3+ssl+://pop3.live.com</string>
+    <string name="def_email_account_provider6_outgoing_server">smtp+tls+://smtp.live.com</string>
+    <string name="def_email_account_provider6_username">$email</string>
+    <string name="def_email_account_provider6_whether_display">1</string>
+    -->
+
+    <!-- Provder7 -->
+    <string name="def_email_account7Id">yahoo</string>
+    <!-- The following items are moved into isdm_Email.plf for customization
+    <string name="def_email_account_provider7_label">Yahoo Plus</string>
+    <string name="def_email_account_provider7_domain">yahoo.com</string>
+    <string name="def_email_account_provider7_incoming_server">pop3+ssl+://plus.pop.mail.yahoo.com</string>
+    <string name="def_email_account_provider7_outgoing_server">smtp+ssl+://plus.smtp.mail.yahoo.com</string>
+    <string name="def_email_account_provider7_username">$user</string>
+    <string name="def_email_account_provider7_whether_display">1</string>
+    -->
+
+    <!-- Provder8 -->
+    <string name="def_email_account8Id">yahoo</string>
+    <!-- The following items are moved into isdm_Email.plf for customization
+    <string name="def_email_account_provider8_label">Yahoo Plus</string>
+    <string name="def_email_account_provider8_domain">yahoo.com</string>
+    <string name="def_email_account_provider8_incoming_server">pop3+ssl+://plus.pop.mail.yahoo.com</string>
+    <string name="def_email_account_provider8_outgoing_server">smtp+ssl+://plus.smtp.mail.yahoo.com</string>
+    <string name="def_email_account_provider8_username">$user</string>
+    <string name="def_email_account_provider8_whether_display">1</string>
+    -->
+
+    <!-- Provder9 -->
+    <string name="def_email_account9Id">yahoo</string>
+    <!-- The following items are moved into isdm_Email.plf for customization
+    <string name="def_email_account_provider9_label">Yahoo Plus</string>
+    <string name="def_email_account_provider9_domain">yahoo.com</string>
+    <string name="def_email_account_provider9_incoming_server">pop3+ssl+://plus.pop.mail.yahoo.com</string>
+    <string name="def_email_account_provider9_outgoing_server">smtp+ssl+://plus.smtp.mail.yahoo.com</string>
+    <string name="def_email_account_provider9_username">$user</string>
+    <string name="def_email_account_provider9_whether_display">1</string>
+    -->
+
+    <!-- Provder10 -->
+    <string name="def_email_account10Id">yahoo</string>
+    <!-- The following items are moved into isdm_Email.plf for customization
+    <string name="def_email_account_provider10_label">Yahoo Plus</string>
+    <string name="def_email_account_provider10_domain">yahoo.com</string>
+    <string name="def_email_account_provider10_incoming_server">pop3+ssl+://plus.pop.mail.yahoo.com</string>
+    <string name="def_email_account_provider10_outgoing_server">smtp+ssl+://plus.smtp.mail.yahoo.com</string>
+    <string name="def_email_account_provider10_username">$user</string>
+    <string name="def_email_account_provider10_whether_display">1</string>
+    -->
+
+    <!-- Provder11 -->
+    <string name="def_email_account11Id">android</string>
+    <!-- Provder12 -->
+    <!-- TS: wenggangjin 2014-11-25 EMAIL BUGFIX_844469 MOD_S -->
+    <string name="def_email_accountId12">hotmail</string>
+    <!-- TS: wenggangjin 2014-11-25 EMAIL BUGFIX_844469 MOD_E -->
+     <!--[BUGFIX]-Add-BEGIN by TSNJ.li.yu,835333,[SDM][Email]The SDM ID for email account12-20 is invalid.-->
+    <string name="def_email_account12Id">account12</string>
+    <string name="def_email_account13Id">account13</string>
+    <string name="def_email_account14Id">account14</string>
+    <string name="def_email_account15Id">account15</string>
+    <string name="def_email_account16Id">account16</string>
+    <string name="def_email_account17Id">account17</string>
+    <string name="def_email_account18Id">account18</string>
+    <string name="def_email_account19Id">account19</string>
+    <string name="def_email_account20Id">account20</string>
+    <string name="def_email_account21Id">account21</string>
+    <string name="def_email_account22Id">account22</string>
+    <string name="def_email_account23Id">account23</string>
+    <string name="def_email_account24Id">account24</string>
+    <string name="def_email_account25Id">account25</string>
+    <!--[BUGFIX]-Add-END by TSNJ.li.yu-->
+
+
+    <!-- TS: zhaotianyong 2015-05-15 EMAIL BUGFIX-1000379 ADD_S -->
+    <string name="extra_email_account1Id">account72</string>
+    <string name="extra_email_account2Id">account73</string>
+    <string name="extra_email_account3Id">account74</string>
+    <string name="extra_email_account4Id">account75</string>
+    <string name="extra_email_account5Id">account76</string>
+    <!-- TS: zhaotianyong 2015-05-15 EMAIL BUGFIX-1000379 ADD_E -->
+
+    <!-- Button text in the connection alert dialog -->
+    <string name="def_email_account1LabelValue">"JRDC"</string>
+    <string name="def_email_account1DomainValue">"163.com"</string>
+    <string name="def_email_account1ReloginValue">"1"</string>
+    <string name="def_email_account1IncomingServerValue">"pop3://pop.163.com"</string><!--[BUGFIX]-Mod-by-SCDTABLET.shujing.jin,04/22/2016,1985800-->
+    <string name="def_email_account1UsernameValue">"$user"</string>
+    <string name="def_email_account1OutgoingServerValue">"smtp://smtp.163.com:25"</string>
+    <string name="def_email_account2LabelValue">"JRD_IMAP"</string>
+    <string name="def_email_account2DomainValue">"jrdcom.com"</string>
+    <string name="def_email_account2ReloginValue">"1"</string>
+    <string name="def_email_account2IncomingServerValue">"pop3://mailsh.jrdcom.com"</string>
+    <string name="def_email_account2UsernameValue">"$email"</string>
+    <string name="def_email_account2OutgoingServerValue">"smtp://mailsh.jrdcom.com"</string>
+    <string name="def_email_account3LabelValue">"TCT"</string>
+    <string name="def_email_account3DomainValue">"tcl-ta.com"</string>
+    <string name="def_email_account3ReloginValue">"1"</string>
+    <string name="def_email_account3IncomingServerValue">"pop3://Wapmail.tcl-ta.com"</string>
+    <string name="def_email_account3UsernameValue">"$email"</string>
+    <string name="def_email_account3OutgoingServerValue">"smtp://Wapmail.tcl-ta.com"</string>
+    <string name="def_email_account4LabelValue">"TCL_IMAP"</string>
+    <string name="def_email_account4DomainValue">"tcl-ta.com"</string>
+    <string name="def_email_account4ReloginValue">"1"</string>
+    <string name="def_email_account4IncomingServerValue">"pop3://Wapmail.tcl-ta.com"</string>
+    <string name="def_email_account4UsernameValue">"$email"</string>
+    <string name="def_email_account4OutgoingServerValue">"smtp://Wapmail.tcl-ta.com"</string>
+    <string name="def_email_account5LabelValue">"Google Mail"</string>
+    <string name="def_email_account5DomainValue">"googlemail.com"</string>
+    <string name="def_email_account5ReloginValue">"1"</string>
+    <string name="def_email_account5IncomingServerValue">"imap+ssl+://imap.googlemail.com"</string>
+    <string name="def_email_account5UsernameValue">"$email"</string>
+    <string name="def_email_account5OutgoingServerValue">"smtp+ssl+://smtp.googlemail.com"</string>
+    <string name="def_email_account6LabelValue">"Windows Live Hotmail Plus"</string>
+    <string name="def_email_account6DomainValue">"hotmail.com"</string>
+    <string name="def_email_account6ReloginValue">"1"</string>
+    <string name="def_email_account6IncomingServerValue">"eas+ssl+://m.hotmail.com"</string>
+    <string name="def_email_account6UsernameValue">"$email"</string>
+    <string name="def_email_account6OutgoingServerValue">"eas+ssl+://m.hotmail.com"</string>
+    <string name="def_email_account7LabelValue">"Yahoo Plus"</string>
+    <string name="def_email_account7DomainValue">"yahoo.com"</string>
+    <string name="def_email_account7ReloginValue">"1"</string>
+    <string name="def_email_account7IncomingServerValue">"imap+ssl+://android.imap.mail.yahoo.com"</string>
+    <string name="def_email_account7UsernameValue">"$user"</string>
+    <string name="def_email_account7OutgoingServerValue">"smtp+ssl+://android.smtp.mail.yahoo.com"</string>
+    <string name="def_email_account8LabelValue">"T-online"</string>
+    <string name="def_email_account8DomainValue">"t-online.de"</string>
+    <string name="def_email_account8ReloginValue">"1"</string>
+    <string name="def_email_account8IncomingServerValue">"pop3://popmail.t-online.de"</string>
+    <string name="def_email_account8UsernameValue">"$email"</string>
+    <string name="def_email_account8OutgoingServerValue">"smtp://smtpmail.t-online.de"</string>
+    <string name="def_email_account9LabelValue">"T-online"</string>
+    <string name="def_email_account9DomainValue">"t-online.de"</string>
+    <string name="def_email_account9ReloginValue">"1"</string>
+    <string name="def_email_account9IncomingServerValue">"pop3://popmail.t-online.de"</string>
+    <string name="def_email_account9UsernameValue">"$user"</string>
+    <string name="def_email_account9OutgoingServerValue">"smtp://smtpmail.t-online.de"</string>
+    <string name="def_email_account10LabelValue">"Gmail"</string>
+    <string name="def_email_account10DomainValue">"gmail.com"</string>
+    <string name="def_email_account10ReloginValue">"1"</string>
+    <string name="def_email_account10IncomingServerValue">"imap+ssl+://imap.gmail.com"</string>
+    <string name="def_email_account10UsernameValue">"$email"</string>
+    <string name="def_email_account10OutgoingServerValue">"smtp+tls+://smtp.gmail.com"</string>
+
+    <string name="def_email_account11LabelValue">"Gmail"</string>
+    <string name="def_email_account11DomainValue">"gmail.com"</string>
+    <string name="def_email_account11ReloginValue">"1"</string>
+    <string name="def_email_account11IncomingServerValue">"imap+ssl+://imap.gmail.com"</string>
+    <string name="def_email_account11UsernameValue">"$email"</string>
+    <string name="def_email_account11OutgoingServerValue">"smtp+tls+://smtp.gmail.com"</string>
+
+    <!-- TS: wenggangjin 2014-11-21 EMAIL BUGFIX_844469 MOD_S -->
+    <string name="def_email_account12LabelValue">"$email"</string>
+    <string name="def_email_account12DomainValue">"hotmail.com"</string>
+    <string name="def_email_account12ReloginValue">"1"</string>
+    <string name="def_email_account12IncomingServerValue">"pop3://pop3.live.com"</string>
+    <string name="def_email_account12UsernameValue">"$email"</string>
+    <string name="def_email_account12OutgoingServerValue">"smtp+tls+://smtp.live.com"</string>
+    <!-- TS: wenggangjin 2014-11-21 EMAIL BUGFIX_844469 MOD_E -->
+
+      <string name="def_email_account13LabelValue">"Gmail"</string>
+    <string name="def_email_account13DomainValue">"gmail.com"</string>
+    <string name="def_email_account13ReloginValue">"1"</string>
+    <string name="def_email_account13IncomingServerValue">"imap+ssl+://imap.gmail.com"</string>
+    <string name="def_email_account13UsernameValue">"$email"</string>
+    <string name="def_email_account13OutgoingServerValue">"smtp+tls+://smtp.gmail.com"</string>
+
+    <string name="def_email_account14LabelValue">"Gmail"</string>
+    <string name="def_email_account14DomainValue">"gmail.com"</string>
+    <string name="def_email_account14ReloginValue">"1"</string>
+    <string name="def_email_account14IncomingServerValue">"imap+ssl+://imap.gmail.com"</string>
+    <string name="def_email_account14UsernameValue">"$email"</string>
+    <string name="def_email_account14OutgoingServerValue">"smtp+ssl+://smtp.gmail.com"</string>
+
+    <string name="def_email_account15LabelValue">"Gmail"</string>
+    <string name="def_email_account15DomainValue">"gmail.com"</string>
+    <string name="def_email_account15ReloginValue">"1"</string>
+    <string name="def_email_account15IncomingServerValue">"imap+ssl+://imap.gmail.com"</string>
+    <string name="def_email_account15UsernameValue">"$email"</string>
+    <string name="def_email_account15OutgoingServerValue">"smtp+ssl+://smtp.gmail.com"</string>
+
+    <string name="def_email_account16LabelValue">"Gmail"</string>
+    <string name="def_email_account16DomainValue">"gmail.com"</string>
+    <string name="def_email_account16ReloginValue">"1"</string>
+    <string name="def_email_account16IncomingServerValue">"imap+ssl+://imap.gmail.com"</string>
+    <string name="def_email_account16UsernameValue">"$email"</string>
+    <string name="def_email_account16OutgoingServerValue">"smtp+ssl+://smtp.gmail.com"</string>
+
+    <string name="def_email_account17LabelValue">"Gmail"</string>
+    <string name="def_email_account17DomainValue">"gmail.com"</string>
+    <string name="def_email_account17ReloginValue">"1"</string>
+    <string name="def_email_account17IncomingServerValue">"imap+ssl+://imap.gmail.com"</string>
+    <string name="def_email_account17UsernameValue">"$email"</string>
+    <string name="def_email_account17OutgoingServerValue">"smtp+ssl+://smtp.gmail.com"</string>
+
+    <string name="def_email_account18LabelValue">"Gmail"</string>
+    <string name="def_email_account18DomainValue">"gmail.com"</string>
+    <string name="def_email_account18ReloginValue">"1"</string>
+    <string name="def_email_account18IncomingServerValue">"imap+ssl+://imap.gmail.com"</string>
+    <string name="def_email_account18UsernameValue">"$email"</string>
+    <string name="def_email_account18OutgoingServerValue">"smtp+ssl+://smtp.gmail.com"</string>
+
+    <string name="def_email_account19LabelValue">"Gmail"</string>
+    <string name="def_email_account19DomainValue">"gmail.com"</string>
+    <string name="def_email_account19ReloginValue">"1"</string>
+    <string name="def_email_account19IncomingServerValue">"imap+ssl+://imap.gmail.com"</string>
+    <string name="def_email_account19UsernameValue">"$email"</string>
+    <string name="def_email_account19OutgoingServerValue">"smtp+ssl+://smtp.gmail.com"</string>
+
+    <string name="def_email_account20LabelValue">"Gmail"</string>
+    <string name="def_email_account20DomainValue">"gmail.com"</string>
+    <string name="def_email_account20ReloginValue">"1"</string>
+    <string name="def_email_account20IncomingServerValue">"imap+ssl+://imap.gmail.com"</string>
+    <string name="def_email_account20UsernameValue">"$email"</string>
+    <string name="def_email_account20OutgoingServerValue">"smtp+ssl+://smtp.gmail.com"</string>
+
+    <string name="def_email_account21LabelValue">"Gmail"</string>
+    <string name="def_email_account21DomainValue">"gmail.com"</string>
+    <string name="def_email_account21ReloginValue">"1"</string>
+    <string name="def_email_account21IncomingServerValue">"imap+ssl+://imap.gmail.com"</string>
+    <string name="def_email_account21UsernameValue">"$email"</string>
+    <string name="def_email_account21OutgoingServerValue">"smtp+ssl+://smtp.gmail.com"</string>
+
+    <string name="def_email_account22LabelValue">"Gmail"</string>
+    <string name="def_email_account22DomainValue">"gmail.com"</string>
+    <string name="def_email_account22ReloginValue">"1"</string>
+    <string name="def_email_account22IncomingServerValue">"imap+ssl+://imap.gmail.com"</string>
+    <string name="def_email_account22UsernameValue">"$email"</string>
+    <string name="def_email_account22OutgoingServerValue">"smtp+ssl+://smtp.gmail.com"</string>
+
+    <string name="def_email_account23LabelValue">"Gmail"</string>
+    <string name="def_email_account23DomainValue">"gmail.com"</string>
+    <string name="def_email_account23ReloginValue">"1"</string>
+    <string name="def_email_account23IncomingServerValue">"imap+ssl+://imap.gmail.com"</string>
+    <string name="def_email_account23UsernameValue">"$email"</string>
+    <string name="def_email_account23OutgoingServerValue">"smtp+ssl+://smtp.gmail.com"</string>
+
+    <string name="def_email_account24LabelValue">"Gmail"</string>
+    <string name="def_email_account24DomainValue">"gmail.com"</string>
+    <string name="def_email_account24ReloginValue">"1"</string>
+    <string name="def_email_account24IncomingServerValue">"imap+ssl+://imap.gmail.com"</string>
+    <string name="def_email_account24UsernameValue">"$email"</string>
+    <string name="def_email_account24OutgoingServerValue">"smtp+ssl+://smtp.gmail.com"</string>
+
+    <string name="def_email_account25LabelValue">"Gmail"</string>
+    <string name="def_email_account25DomainValue">"gmail.com"</string>
+    <string name="def_email_account25ReloginValue">"1"</string>
+    <string name="def_email_account25IncomingServerValue">"imap+ssl+://imap.gmail.com"</string>
+    <string name="def_email_account25UsernameValue">"$email"</string>
+    <string name="def_email_account25OutgoingServerValue">"smtp+ssl+://smtp.gmail.com"</string>
+
+    <!-- TS: ke.ma 2015-05-09 EMAIL BUGFIX-996086 MOD_S -->
+    <!-- TS: ke.ma 2015-05-08 EMAIL BUGFIX-996086 ADD_S -->
+    <string name="def_isp_topRankDomainValue">"@"</string>
+    <!-- TS: ke.ma 2015-05-08 EMAIL BUGFIX-996086 ADD_E -->
+    <!-- TS: ke.ma 2015-05-09 EMAIL BUGFIX-996086 MOD_E -->
+
+    <!-- TS: Gantao 2015-09-08 EMAIL BUGFIX_1072293 ADD_S -->
+    <string name="def_email_accountDomainValuePreset">""</string>
+    <!-- TS: Gantao 2015-09-08 EMAIL BUGFIX_1072293 ADD_S -->
+    <string name="def_email_account1DisplayValue">"0"</string>
+    <!-- Add by angus for compile err end -->
+
+    <string name="def_email_checkFrequency_default">"15"</string>
+    <string name="def_email_checkFrequencyPush_default">"-2"</string>
+    <!-- TS: junwei-xu 2015-05-25 EMAIL BUGFIX-1010063 ADD_S -->
+    <string name="def_email_syncWindow_default">"3"</string>
+    <!-- TS: junwei-xu 2015-05-25 EMAIL BUGFIX-1010063 ADD_E -->
+
+    <string name="def_email_account2DisplayValue">"0"</string>
+    <string name="def_email_account3DisplayValue">"0"</string>
+    <string name="def_email_account4DisplayValue">"0"</string>
+    <!-- TS: ke.ma 2015-03-23 EMAIL BUGFIX-951620 MOD_S -->
+    <string name="def_email_account5DisplayValue">"0"</string>
+    <string name="def_email_account6DisplayValue">"0"</string>
+    <string name="def_email_account7DisplayValue">"0"</string>
+    <!-- TS: ke.ma 2015-03-23 EMAIL BUGFIX-951620 MOD_E -->
+    <string name="def_email_account8DisplayValue">"0"</string>
+    <string name="def_email_account9DisplayValue">"0"</string>
+    <!-- TS: ke.ma 2015-03-23 EMAIL BUGFIX-951620 MOD_S -->
+    <string name="def_email_account10DisplayValue">"0"</string>
+    <string name="def_email_account11DisplayValue">"0"</string>
+    <!-- TS: ke.ma 2015-03-23 EMAIL BUGFIX-951620 MOD_E -->
+    <string name="def_email_account12DisplayValue">"0"</string>
+    <string name="def_email_account13DisplayValue">"0"</string>
+    <string name="def_email_account14DisplayValue">"0"</string>
+    <string name="def_email_account15DisplayValue">"0"</string>
+    <string name="def_email_account16DisplayValue">"0"</string>
+    <string name="def_email_account17DisplayValue">"0"</string>
+    <string name="def_email_account18DisplayValue">"0"</string>
+    <string name="def_email_account19DisplayValue">"0"</string>
+    <string name="def_email_account20DisplayValue">"0"</string>
+    <string name="def_email_account21DisplayValue">"0"</string>
+    <string name="def_email_account22DisplayValue">"0"</string>
+    <string name="def_email_account23DisplayValue">"0"</string>
+    <string name="def_email_account24DisplayValue">"0"</string>
+    <string name="def_email_account25DisplayValue">"0"</string>
+
+    <!-- TS: wenggangjin 2015-04-17 EMAIL BUGFIX_963376 MOD_S -->
+    <string name="def_email_accountSignature_productName">"Cricket Wireless"</string>
+    <!-- TS: wenggangjin 2015-04-17 EMAIL BUGFIX_963376 MOD_E -->
+    <string name="def_email_popAccountDefaultDeletePolicy">0</string> <!-- TS: junwei-xu 2015-4-30 Email BUGFIX-985156 ADD-->
+
+    <!-- TS: tao.gan 2015-09-23 EMAIL FEATURE_664213 ADD_S -->
+    <string name="feature_email_ssv_account_number_each">"9"</string>
+
+    <string name="def_email_ssv_topRankDomainValue">"@"</string>
+
+    <!-- TS: tao.gan 2015-09-23 EMAIL FEATURE_664213 ADD_E -->
+    <!-- TS: kaifeng.lu 2015-10-28 EMAIL FEATURE_894294 ADD_S -->
+    <string name="feature_email_platform">"0"</string>
+    <!-- TS: kaifeng.lu 2015-10-28 EMAIL FEATURE_894294 ADD_E -->
+    <!-- TS: rong-tang 2016-04-06 EMAIL BUGFIX-1912757 ADD_S -->
+    <string name="def_email_predefine_not_show_domain_value" translatable="false">"@"</string>
+    <!-- TS: rong-tang 2016-04-06 EMAIL BUGFIX-1912757 ADD_E -->
+    <bool name="def_is_wakeup_when_receive_email">true</bool>
+</resources>

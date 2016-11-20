@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Tue Sep 20 16:24:06 CST 2016
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="exchange_name">"Службено"</string>
+	<!---->
+	<string name="exchange_name_alternate">"Microsoft ActiveSync за размена"</string>
+	<!---->
+	<string name="meeting_accepted">"Прифатено: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_declined">"Отфрлено: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_tentative">"Привремено: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_canceled">"Откажано: <xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_updated">"Ажурирано:<xliff:g id="subject">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_when">"Кога:<xliff:g id="when">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_where">"Каде: <xliff:g id="where">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_recurring">"Кога <xliff:g example="Tue, Mar 10, 2010 at 2:30pm" id="eventdate">%s</xliff:g>"</string>
+	<!---->
+	<string name="meeting_allday">"Кога: <xliff:g example="Tue, Mar 10, 2010 " id="eventdate">%s</xliff:g> (цел ден)"</string>
+	<!---->
+	<string name="meeting_allday_recurring">"Кога: <xliff:g example="Tue, Mar 10, 2010 " id="eventdate">%s</xliff:g> (цел ден,повторно)"</string>
+	<!---->
+	<string name="notification_exchange_calendar_added">"Додаден Exchange календар"</string>
+	<!---->
+	<string name="app_name">"Exchange Services"</string>
+	<!---->
+	<string name="exception_cancel">"Овој настан е откажан за: <xliff:g id="date">%s</xliff:g>"</string>
+	<!---->
+	<string name="exception_updated">"Деталите од овој настан се изменети за: <xliff:g id="date">%s</xliff:g>"</string>
+	<!---->
+	<string name="policy_dont_allow_storage_cards">"не дозволувај мемориски картички"</string>
+	<!---->
+	<string name="policy_dont_allow_unsigned_apps">"Не дозволувај непотпишани апликации"</string>
+	<!---->
+	<string name="policy_dont_allow_unsigned_installers">"не дозволувај инсталирање на непотпишани апликации"</string>
+	<!---->
+	<string name="policy_dont_allow_wifi">"не дозволувај wifi"</string>
+	<!---->
+	<string name="policy_dont_allow_text_messaging">"не дозволувај текстуални пораки"</string>
+	<!---->
+	<string name="policy_dont_allow_pop_imap">"не дозволувај POP3 или IMAP"</string>
+	<!---->
+	<string name="policy_dont_allow_irda">"не дозволувај инфрацрвени комуникации"</string>
+	<!---->
+	<string name="policy_dont_allow_html">"не дозволувај HTML е-пошта"</string>
+	<!---->
+	<string name="policy_dont_allow_browser">"не дозволувај ги прегледувачите"</string>
+	<!---->
+	<string name="policy_dont_allow_consumer_email">"не дозволувај ја потрошувачката е-пошта"</string>
+	<!---->
+	<string name="policy_dont_allow_internet_sharing">"не дозволувај делење на интернет врска"</string>
+	<!---->
+	<string name="policy_require_smime">"барање за SMIME пораки"</string>
+	<!---->
+	<string name="policy_bluetooth_restricted">"ограничи го користењето на Bluetooth"</string>
+	<!---->
+	<string name="policy_app_blacklist">"Не дозволувај одредени апликации"</string>
+	<!---->
+	<string name="policy_app_whitelist">"Дозволи само одредени апликации"</string>
+	<!---->
+	<string name="policy_text_truncation">"ограничи ја големината на текст на е-пошта"</string>
+	<!---->
+	<string name="policy_html_truncation">"ограничи ја големината на HTML е-пошта"</string>
+	<!---->
+	<string name="policy_require_sd_encryption">"барање за шифрифање на SD картичка"</string>
+	<!---->
+	<string name="policy_dont_allow_attachments">"Не дозволувај прилози"</string>
+	<!---->
+	<string name="policy_max_attachment_size">"Ограничена големина на прилог"</string>
+	<!---->
+	<string name="policy_require_manual_sync_roaming">"Дозволи само рачно синхронизирање во роаминг"</string>
+	<!---->
+	<string name="policy_require_encryption">"барање за шифрифање на уред"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_auto">"Автоматски"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1day">"Еден ден"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_3days">"Три дена"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1week">"Една недела"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_2weeks">"Две недели"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_1month">"Еден месец"</string>
+	<!---->
+	<string name="account_setup_options_mail_window_all">"Сите"</string>
+	<!---->
+	<string name="auth_error_notification_title">"Грешка во автентификација"</string>
+	<!---->
+	<string name="auth_error_notification_text">"Допри за измена на подесувањата на сметката за <xliff:g id="account">%s</xliff:g>"</string>
+	<!---->
+	<string name="email_settings_not_available">"Вклучи ја повторно апликацијата Е-пошта за преглед на подесувањата."</string>
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!-- no translation found for app_name -->
+	<skip />
+	<!-- no translation found for photo_view_count -->
+	<skip />
+	<!---->
+	<string name="retry">"Обидете се подоцна"</string>
+	<!---->
+	<string name="failed">"Сликата не може да се вчита"</string>
+	<!-- no translation found for more_string -->
+	<skip />
+	<!---->
+	<string name="copy_email">"Копирај ги сите е-адреси"</string>
+	<!---->
+	<string name="copy_number">"Копирај телефонски број"</string>
+	<!---->
+	<string name="action_label">"Врати"</string>
+	<!---->
+	<string name="search_hint">"Пребарување на е-пошта"</string>
+	<!---->
+	<string name="compose">"Креирај"</string>
+	<!---->
+	<string name="activity_folder_selection">"Избери папка"</string>
+	<!---->
+	<string name="activity_preferences">"Подесувања"</string>
+	<!---->
+	<string name="tap_to_configure">"Допрете за подесување"</string>
+	<!---->
+	<string name="loading_conversations">"Вчитување\u2026"</string>
+	<!---->
+	<string name="non_synced_folder_description">"За преглед на разговорите, синхронизирајте ја оваа папка."</string>
+	<!---->
+	<string name="tap_to_configure_folder_sync">"Синхронизирај ја папката"</string>
+	<!-- no translation found for def_email_accountGermanSignature -->
+	<skip />
+	<!---->
+	<string name="send_failed">"Пораката не е испратена."</string>
+	<!-- no translation found for permission_needed -->
+	<skip />
+	<!---->
+	<string name="permission_needed_label">"Потребни се дозволи"</string>
+	<!---->
+	<string name="permission_grant_access_label">"Дозволи пристап"</string>
+	<!---->
+	<string name="permission_grant_access_descs">"Промени дозволи во подесувања на апликации на уред. Дозволи пристап на Е-пошта до Контакти."</string>
+	<!---->
+	<string name="permission_grant_exit">"Излез"</string>
+	<!---->
+	<string name="permission_grant_go_setting">"Подесувања"</string>
+	<!---->
+	<string name="permission_needed_to_save_attachment">"За зачувување на прилогот, дозволи апликацијата Е-пошта да пристапи до меморија"</string>
+	<!---->
+	<string name="permission_needed_to_add_attachment">"За додавање на прилог, дозволи Е-пошта да пристапи до меморија"</string>
+	<!---->
+	<string name="permission_needed_to_see_calendar">"За преглед во календар, дозволи апликацијата Е-пошта да пристапи до Календар"</string>
+</resources>

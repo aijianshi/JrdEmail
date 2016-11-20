@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!-- no translation found for app_name -->
+	<skip />
+	<!-- no translation found for photo_view_count -->
+	<skip />
+	<!---->
+	<string name="retry">"Réessayer"</string>
+	<!---->
+	<string name="failed">"Impossible de charger l’image."</string>
+	<!-- no translation found for more_string -->
+	<skip />
+	<!---->
+	<string name="copy_email">"Copier l’adresse e-mail"</string>
+	<!---->
+	<string name="copy_number">"Copier le numéro de téléphone"</string>
+	<!---->
+	<string name="action_label">"Revenir"</string>
+	<!---->
+	<string name="search_hint">"Rechercher l\'e-mail"</string>
+	<!---->
+	<string name="compose">"Nouv. message"</string>
+	<!---->
+	<string name="activity_folder_selection">"Choisir le dossier"</string>
+	<!---->
+	<string name="activity_preferences">"Paramètres"</string>
+	<!---->
+	<string name="tap_to_configure">"Appuyer pour configurer"</string>
+	<!---->
+	<string name="loading_conversations">"Chargement…"</string>
+	<!---->
+	<string name="non_synced_folder_description">"Pour afficher les conversations, synchronisez ce dossier."</string>
+	<!---->
+	<string name="tap_to_configure_folder_sync">"Synchroniser le dossier"</string>
+	<!-- no translation found for def_email_accountGermanSignature -->
+	<skip />
+	<!---->
+	<string name="send_failed">"Échec d’envoi du message."</string>
+	<!-- no translation found for permission_needed -->
+	<skip />
+	<!---->
+	<string name="permission_needed_label">"Autorisations obligatoires"</string>
+	<!---->
+	<string name="permission_grant_access_label">"Autoriser l’accès"</string>
+	<!---->
+	<string name="permission_grant_access_descs">"Modifiez les autorisations dans les paramètres d’application de votre appareil. Accordez à E-mail l’accès à Contacts."</string>
+	<!---->
+	<string name="permission_grant_exit">"Fermer"</string>
+	<!---->
+	<string name="permission_grant_go_setting">"Paramètres"</string>
+	<!---->
+	<string name="permission_needed_to_save_attachment">"Pour enregistrer une pièce jointe, accorder à E-mail l’accès au stockage"</string>
+	<!---->
+	<string name="permission_needed_to_add_attachment">"Pour ajouter une pièce jointe, accorder à E-mail l’accès à la mémoire"</string>
+	<!---->
+	<string name="permission_needed_to_see_calendar">"Pour afficher dans l’agenda, accorder à E-mail les autorisations d’accès à Calendrier"</string>
+</resources>
